@@ -14,7 +14,7 @@ import './header.css'
 
 
 
-const homepage = () => {
+const Homepage = () => {
 
   
   useEffect(() => {
@@ -610,40 +610,48 @@ const homepage = () => {
           <Image width={1000} height={1000}
             className="slide deckstophead"
             src="/homeimg/web-bannerHome1.png"
+            alt=""
           />
           <Image width={1000} height={1000}
             className="slide mobilehead"
             src="/homeimg/Mobile-banner1-mob.png"
+            alt=""
           />
         </div>
         <div className="slides">
           <Image width={1000} height={1000}
             className="slide deckstophead"
             src="/homeimg/web-bannerHome1.png"
+            alt=""
           />
           <Image width={1000} height={1000}
             className="slide mobilehead"
             src="/homeimg/Mobile-banner1-mob.png"
+            alt=""
           />
         </div>
         <div className="slides">
           <Image width={1000} height={1000}
             className="slide deckstophead"
             src="/homeimg/web-bannerHome1.png"
+            alt=""
           />
           <Image width={1000} height={1000}
             className="slide mobilehead"
             src="/homeimg/Mobile-banner1-mob.png"
+            alt=""
           />
         </div>
         <div className="slides">
           <Image width={1000} height={1000}
             className="slide deckstophead"
             src="/homeimg/web-bannerHome1.png"
+            alt=""
           />
           <Image width={1000} height={1000}
             className="slide mobilehead"
             src="/homeimg/Mobile-banner1-mob.png"
+            alt=""
           />
         </div>
         <a id="previous" className="arrow">
@@ -1236,7 +1244,7 @@ const homepage = () => {
               data-bs-slide="prev"
             >
               <span className="carousel-control-prev-icon" aria-hidden="true">
-                <Image width={1000} height={1000} src="/homeimg/nextleft.png" />
+                <Image width={1000} height={1000} src="/homeimg/nextleft.png" alt="" />
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
@@ -1247,7 +1255,7 @@ const homepage = () => {
               data-bs-slide="next"
             >
               <span className="carousel-control-next-icon" aria-hidden="true">
-                <Image width={1000} height={1000} src="/homeimg/nextright.png" />
+                <Image width={1000} height={1000} src="/homeimg/nextright.png" alt="" />
               </span>
               <span className="visually-hidden">Next</span>
             </button>
@@ -1781,4 +1789,4 @@ const homepage = () => {
 
 };
 
-export default homepage;
+export default Homepage;
