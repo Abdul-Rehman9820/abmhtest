@@ -2,9 +2,8 @@
 
 import { useEffect } from 'react';
 import $ from 'jquery';
-
+import Image from 'next/image';
 import Link from 'next/link';
-
 import Script from 'next/script';
 
 
@@ -284,6 +283,7 @@ const homepage = () => {
 
 
       {/* bootstrap CSS CDN */}
+      
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -313,7 +313,7 @@ const homepage = () => {
           <div className="headerlogocont">
             <div className="headerlogopart">
               <div className="logoimg">
-                <img src="homeimg/abmhmainlogo.png" alt="" />
+                <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="" />
               </div>
             </div>
             <div className="headerlogoBtnpart">
@@ -321,17 +321,17 @@ const homepage = () => {
                 <div className="twobtnChil">
                   <div className="btnwidth">
                     <span className="BookApimg">
-                      <img src="homeimg/bookapo.png" alt="img" />
+                      <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
                     </span>
-                    <a href="#">Book an Appointment</a>
+                    <Link href="/serchher">Book an Appointment </Link> 
                   </div>
                 </div>
                 <div className="twobtnChil twobtnChilorg">
                   <div className="btnwidth">
                     <span className="BookApimg">
-                      <img src="homeimg/ourspe.png" alt="img" />
+                      <Image width={1000} height={1000} src="/homeimg/ourspe.png" alt="img" />
                     </span>
-                    <a href="#">Our Specialties</a>
+                    <Link href="/serchher">Our Specialties </Link> 
                   </div>
                 </div>
               </div>
@@ -344,7 +344,7 @@ const homepage = () => {
                   <h2>About Us</h2>
                 </div>
                 <div className="naviconrigboximg">
-                  <img src="homeimg/dropicon.png" alt="" />
+                  <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
                 </div>
               </div>
               <div className="naviconrigbox">
@@ -352,7 +352,7 @@ const homepage = () => {
                   <h2>Patient Care</h2>
                 </div>
                 <div className="naviconrigboximg">
-                  <img src="homeimg/dropicon.png" alt="" />
+                  <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
                 </div>
               </div>
               <div className="naviconrigbox">
@@ -360,7 +360,7 @@ const homepage = () => {
                   <h2>Health Professionals</h2>
                 </div>
                 <div className="naviconrigboximg">
-                  <img src="homeimg/dropicon.png" alt="" />
+                  <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
                 </div>
               </div>
               <div className="naviconrigbox">
@@ -368,27 +368,27 @@ const homepage = () => {
                   <h2>Academics</h2>
                 </div>
                 <div className="naviconrigboximg">
-                  <img src="homeimg/dropicon.png" alt="" />
+                  <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
                 </div>
               </div>
             </div>
             <div className="headerNavbarcontleft">
               <div className="Navbarcontleftbox">
                 <div className="Navbarcontleftboximg">
-                  <a href="#">
-                    <img
+                  <Link href="/serchher">
+                    <Image width={1000} height={1000}
                       className="showsearchbox"
-                      src="homeimg/abmhserchicon.png"
+                      src="/homeimg/abmhserchicon.png"
                       alt=""
                     />
-                  </a>
+                   </Link> 
                 </div>
               </div>
               <div className="Navbarcontleftbox">
                 <div className="Navbarcontleftboximg">
-                  <a href="#">
-                    <img src="homeimg/abmhsosimg.png" alt="" />
-                  </a>
+                  <Link href="/serchher">
+                    <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="" />
+                   </Link> 
                 </div>
               </div>
               <div className="Navbarcontleftbox">
@@ -415,26 +415,26 @@ const homepage = () => {
           <div className="headerlogocont">
             <div className="headerlogopart">
               <div className="logoimg">
-                <img src="homeimg/abmhmainlogo.png" alt="" />
+                <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="" />
               </div>
             </div>
             <div className="mobileheaderlogoBtnpart">
               <div className="Navbarcontleftbox">
                 <div className="Navbarcontleftboximg">
-                  <a href="#">
-                    <img
+                  <Link href="/serchher">
+                    <Image width={1000} height={1000}
                       className="showsearchbox"
-                      src="homeimg/abmhserchicon.png"
+                      src="/homeimg/abmhserchicon.png"
                       alt=""
                     />
-                  </a>
+                   </Link> 
                 </div>
               </div>
               <div className="Navbarcontleftbox">
                 <div className="Navbarcontleftboximg">
-                  <a href="#">
-                    <img src="homeimg/abmhsosimg.png" alt="" />
-                  </a>
+                  <Link href="/serchher">
+                    <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="" />
+                   </Link> 
                 </div>
               </div>
               <div className="Navbarcontleftbox">
@@ -454,17 +454,17 @@ const homepage = () => {
                 <div className="twobtnChil">
                   <div className="btnwidth">
                     <span className="BookApimg">
-                      <img src="homeimg/bookapo.png" alt="img" />
+                      <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
                     </span>
-                    <a href="#">Book an Appointment</a>
+                    <Link href="/serchher">Book an Appointment </Link> 
                   </div>
                 </div>
                 <div className="twobtnChil twobtnChilorg">
                   <div className="btnwidth">
                     <span className="BookApimg">
-                      <img src="homeimg/ourspe.png" alt="img" />
+                      <Image width={1000} height={1000} src="/homeimg/ourspe.png" alt="img" />
                     </span>
-                    <a href="#">Our Specialties</a>
+                    <Link href="/serchher">Our Specialties </Link> 
                   </div>
                 </div>
               </div>
@@ -486,19 +486,19 @@ const homepage = () => {
           </div>
           <ul className="navul">
             <li className="commhamstyle">
-              <a href="#">Home</a>
+              <Link href="/serchher">Home </Link> 
             </li>
             <li className=" has-children">
               Patient Care <span className="icon-arrow" />
               <ul className="children">
                 <li>
-                  <a href="#">Submenu #1</a>
+                  <Link href="/serchher">Submenu #1 </Link> 
                 </li>
                 <li>
-                  <a href="#">Submenu #2</a>
+                  <Link href="/serchher">Submenu #2 </Link> 
                 </li>
                 <li>
-                  <a href="#">Submenu #3</a>
+                  <Link href="/serchher">Submenu #3 </Link> 
                 </li>
               </ul>
             </li>
@@ -507,39 +507,39 @@ const homepage = () => {
               <span className="icon-arrow" />
               <ul className="children">
                 <li>
-                  <a href="#">Submenu #1</a>
+                  <Link href="/serchher">Submenu #1 </Link> 
                 </li>
                 <li>
-                  <a href="#">Submenu #2</a>
+                  <Link href="/serchher">Submenu #2 </Link> 
                 </li>
                 <li>
-                  <a href="#">Submenu #3</a>
+                  <Link href="/serchher">Submenu #3 </Link> 
                 </li>
               </ul>
             </li>
             <li className="commhamstyle">
-              <a href="#">Academics</a>
+              <Link href="/serchher">Academics </Link> 
             </li>
             <li className="commhamstyle">
-              <a href="#">Work with Us</a>
+              <Link href="/serchher">Work with Us </Link> 
             </li>
             <li className=" has-children">
               About Us
               <span className="icon-arrow" />
               <ul className="children">
                 <li>
-                  <a href="#">Submenu #1</a>
+                  <Link href="/serchher">Submenu #1 </Link> 
                 </li>
                 <li>
-                  <a href="#">Submenu #2</a>
+                  <Link href="/serchher">Submenu #2 </Link> 
                 </li>
                 <li>
-                  <a href="#">Submenu #3</a>
+                  <Link href="/serchher">Submenu #3 </Link> 
                 </li>
               </ul>
             </li>
             <li className="commhamstyle">
-              <a href="#">Contact Us</a>
+              <Link href="/serchher">Contact Us </Link> 
             </li>
           </ul>
           <div className="navbelow">
@@ -550,12 +550,12 @@ const homepage = () => {
               </div>
               <div className="navbelowbox2">
                 <button className="combtnnav">
-                  <a href="#">
+                  <Link href="/serchher">
                     Request a call back
                     <span className="specicon">
-                      <img src="homeimg/right-arrow.png" alt="img" />
+                      <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
                     </span>
-                  </a>
+                   </Link> 
                 </button>
               </div>
             </div>
@@ -607,51 +607,51 @@ const homepage = () => {
     <div id="window">
       <div id="slide-container">
         <div className="slides">
-          <img
+          <Image width={1000} height={1000}
             className="slide deckstophead"
-            src="homeimg/web-bannerHome1.png"
+            src="/homeimg/web-bannerHome1.png"
           />
-          <img
+          <Image width={1000} height={1000}
             className="slide mobilehead"
-            src="homeimg/Mobile-banner1-mob.png"
+            src="/homeimg/Mobile-banner1-mob.png"
           />
         </div>
         <div className="slides">
-          <img
+          <Image width={1000} height={1000}
             className="slide deckstophead"
-            src="homeimg/web-bannerHome1.png"
+            src="/homeimg/web-bannerHome1.png"
           />
-          <img
+          <Image width={1000} height={1000}
             className="slide mobilehead"
-            src="homeimg/Mobile-banner1-mob.png"
+            src="/homeimg/Mobile-banner1-mob.png"
           />
         </div>
         <div className="slides">
-          <img
+          <Image width={1000} height={1000}
             className="slide deckstophead"
-            src="homeimg/web-bannerHome1.png"
+            src="/homeimg/web-bannerHome1.png"
           />
-          <img
+          <Image width={1000} height={1000}
             className="slide mobilehead"
-            src="homeimg/Mobile-banner1-mob.png"
+            src="/homeimg/Mobile-banner1-mob.png"
           />
         </div>
         <div className="slides">
-          <img
+          <Image width={1000} height={1000}
             className="slide deckstophead"
-            src="homeimg/web-bannerHome1.png"
+            src="/homeimg/web-bannerHome1.png"
           />
-          <img
+          <Image width={1000} height={1000}
             className="slide mobilehead"
-            src="homeimg/Mobile-banner1-mob.png"
+            src="/homeimg/Mobile-banner1-mob.png"
           />
         </div>
         <a id="previous" className="arrow">
           ❮
-        </a>
+         </a> 
         <a id="next" className="arrow">
           ❯
-        </a>
+         </a> 
       </div>
       <div id="dotsContainer" />
     </div>
@@ -667,7 +667,7 @@ const homepage = () => {
             <div className="appobtnchil">
               <div className="appbtnmainbox">
                 <div className="appmainboxBG">
-                  <img src="homeimg/newdecsbookdr.png" alt="img" />
+                  <Image width={1000} height={1000} src="/homeimg/newdecsbookdr.png" alt="img" />
                 </div>
                 <div className="appmainHea">
               
@@ -681,37 +681,37 @@ const homepage = () => {
             <div className="appobtnchil">
               <div className="appbtnmainbox">
                 <div className="appmainboxBG">
-                  <img src="homeimg/medical-app.png" alt="img" />
+                  <Image width={1000} height={1000} src="/homeimg/medical-app.png" alt="img" />
                 </div>
                 <div className="appmainHea">
-                  <a href="#">
+                  <Link href="/serchher">
                     <p>Online Consultation</p>{" "}
-                  </a>
+                   </Link> 
                 </div>
               </div>
             </div>
             <div className="appobtnchil">
               <div className="appbtnmainbox">
                 <div className="appmainboxBG">
-                  <img src="homeimg/heart.png" alt="img" />
+                  <Image width={1000} height={1000} src="/homeimg/heart.png" alt="img" />
                 </div>
                 <div className="appmainHea">
-                  <a href="#">
+                  <Link href="/serchher">
                     <p>Wellness Packages</p>
-                  </a>
+                   </Link> 
                 </div>
               </div>
             </div>
             <div className="appobtnchil fournone">
               <div className="appbtnmainbox">
                 <div className="appmainboxBG">
-                  <img src="homeimg/Group.png" alt="img" />
+                  <Image width={1000} height={1000} src="/homeimg/Group.png" alt="img" />
                 </div>
                 <div className="appmainHea">
-                  <a href="#">
+                  <Link href="/serchher">
                     {" "}
                     <p>ABMH International</p>
-                  </a>
+                   </Link> 
                 </div>
               </div>
             </div>
@@ -743,7 +743,7 @@ const homepage = () => {
             <div className="speforwhitbg">
               <div className="speforwhitbgColicon">
                 <div className="spefColiconCont">
-                  <img src="homeimg/Cardiology.png" alt="icon" />
+                  <Image width={1000} height={1000} src="/homeimg/Cardiology.png" alt="icon" />
                 </div>
               </div>
               <div className="speforwhitbgCol1">
@@ -762,7 +762,7 @@ const homepage = () => {
             <div className="speforwhitbg">
               <div className="speforwhitbgColicon">
                 <div className="spefColiconCont">
-                  <img src="homeimg/Urology.png" alt="icon" />
+                  <Image width={1000} height={1000} src="/homeimg/Urology.png" alt="icon" />
                 </div>
               </div>
               <div className="speforwhitbgCol1">
@@ -781,7 +781,7 @@ const homepage = () => {
             <div className="speforwhitbg">
               <div className="speforwhitbgColicon">
                 <div className="spefColiconCont">
-                  <img src="homeimg/Neurology.png" alt="icon" />
+                  <Image width={1000} height={1000} src="/homeimg/Neurology.png" alt="icon" />
                 </div>
               </div>
               <div className="speforwhitbgCol1">
@@ -799,7 +799,7 @@ const homepage = () => {
             <div className="speforwhitbg">
               <div className="speforwhitbgColicon">
                 <div className="spefColiconCont">
-                  <img src="homeimg/Diabetology.png" alt="icon" />
+                  <Image width={1000} height={1000} src="/homeimg/Diabetology.png" alt="icon" />
                 </div>
               </div>
               <div className="speforwhitbgCol1">
@@ -818,7 +818,7 @@ const homepage = () => {
             <div className="speforwhitbg">
               <div className="speforwhitbgColicon">
                 <div className="spefColiconCont">
-                  <img src="homeimg/Gastroenterology.png" alt="icon" />
+                  <Image width={1000} height={1000} src="/homeimg/Gastroenterology.png" alt="icon" />
                 </div>
               </div>
               <div className="speforwhitbgCol1">
@@ -837,7 +837,7 @@ const homepage = () => {
             <div className="speforwhitbg">
               <div className="speforwhitbgColicon">
                 <div className="spefColiconCont">
-                  <img src="homeimg/Pediatrics.png" alt="icon" />
+                  <Image width={1000} height={1000} src="/homeimg/Pediatrics.png" alt="icon" />
                 </div>
               </div>
               <div className="speforwhitbgCol1">
@@ -855,12 +855,12 @@ const homepage = () => {
         </div>
         <div className="combtndiv">
           <button className="combtn">
-            <a href="#">
+            <Link href="/serchher">
               All Specialties
               <span className="specicon">
-                <img src="homeimg/right-arrow.png" alt="img" />
+                <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
               </span>
-            </a>
+             </Link> 
           </button>
         </div>
       </div>
@@ -878,7 +878,7 @@ const homepage = () => {
           <div className="speforcolchil">
             <div className="speforwhitbg">
               <div className="speforwhitbgCol1">
-                <img src="homeimg/Cardiologymo.png" alt="img" />
+                <Image width={1000} height={1000} src="/homeimg/Cardiologymo.png" alt="img" />
               </div>
               <div className="speforwhitbgCol2">
                 <h2>Cardiology</h2>
@@ -888,7 +888,7 @@ const homepage = () => {
           <div className="speforcolchil">
             <div className="speforwhitbg">
               <div className="speforwhitbgCol1">
-                <img src="homeimg/Urologymo.png" alt="img" />
+                <Image width={1000} height={1000} src="/homeimg/Urologymo.png" alt="img" />
               </div>
               <div className="speforwhitbgCol2">
                 <h2>Urology</h2>
@@ -898,7 +898,7 @@ const homepage = () => {
           <div className="speforcolchil">
             <div className="speforwhitbg">
               <div className="speforwhitbgCol1">
-                <img src="homeimg/Neurologymo.png" alt="img" />
+                <Image width={1000} height={1000} src="/homeimg/Neurologymo.png" alt="img" />
               </div>
               <div className="speforwhitbgCol2">
                 <h2>Neurology</h2>
@@ -908,7 +908,7 @@ const homepage = () => {
           <div className="speforcolchil">
             <div className="speforwhitbg">
               <div className="speforwhitbgCol1">
-                <img src="homeimg/Diabetologymo.png" alt="img" />
+                <Image width={1000} height={1000} src="/homeimg/Diabetologymo.png" alt="img" />
               </div>
               <div className="speforwhitbgCol2">
                 <h2>Diabetology</h2>
@@ -918,12 +918,12 @@ const homepage = () => {
         </div>
         <div className="combtndiv">
           <button className="combtn">
-            <a href="#">
+            <Link href="/serchher">
               All Specialties{" "}
               <span className="specicon">
-                <img src="homeimg/right-arrow.png" alt="img" />
+                <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
               </span>
-            </a>
+             </Link> 
           </button>
         </div>
       </div>
@@ -940,9 +940,9 @@ const homepage = () => {
           <span className="headborder" />
         </div>
         <div className="Teamilizationhead">
-          <a href="#">
+          <Link href="/serchher">
             <h2>View All</h2>
-          </a>
+           </Link> 
         </div>
       </div>
     </div>
@@ -959,7 +959,7 @@ const homepage = () => {
                   <div className="ourteamslidebox">
                     <div className="ourteambox1">
                       <div className="ourteamimg">
-                        <img src="homeimg/OurTeamExperts1.png" alt="img" />
+                        <Image width={1000} height={1000} src="/homeimg/OurTeamExperts1.png" alt="img" />
                       </div>
                       <div className="ourteamname">
                         <h2>Dr Khushboo P.</h2>
@@ -973,9 +973,9 @@ const homepage = () => {
                     </div>
                     <div className="ourteambox2">
                       <div className="ourteambox2flex">
-                        <a className="bookappoteam" href="#">
+                        <Link className="bookappoteam" href="/serchher">
                           View Profile
-                        </a>
+                         </Link> 
                       </div>
                     </div>
                   </div>
@@ -986,7 +986,7 @@ const homepage = () => {
                   <div className="ourteamslidebox">
                     <div className="ourteambox1">
                       <div className="ourteamimg">
-                        <img src="homeimg/OurTeamExperts2.png" alt="img" />
+                        <Image width={1000} height={1000} src="/homeimg/OurTeamExperts2.png" alt="img" />
                       </div>
                       <div className="ourteamname">
                         <h2>Dr Pooja H.</h2>
@@ -1000,9 +1000,9 @@ const homepage = () => {
                     </div>
                     <div className="ourteambox2">
                       <div className="ourteambox2flex">
-                        <a className="bookappoteam" href="#">
+                        <Link className="bookappoteam" href="/serchher">
                           View Profile
-                        </a>
+                         </Link> 
                       </div>
                     </div>
                   </div>
@@ -1013,7 +1013,7 @@ const homepage = () => {
                   <div className="ourteamslidebox">
                     <div className="ourteambox1">
                       <div className="ourteamimg">
-                        <img src="homeimg/OurTeamExperts3.png" alt="img" />
+                        <Image width={1000} height={1000} src="/homeimg/OurTeamExperts3.png" alt="img" />
                       </div>
                       <div className="ourteamname">
                         <h2>Dr Vishal M.</h2>
@@ -1027,9 +1027,9 @@ const homepage = () => {
                     </div>
                     <div className="ourteambox2">
                       <div className="ourteambox2flex">
-                        <a className="bookappoteam" href="#">
+                        <Link className="bookappoteam" href="/serchher">
                           View Profile
-                        </a>
+                         </Link> 
                       </div>
                     </div>
                   </div>
@@ -1040,7 +1040,7 @@ const homepage = () => {
                   <div className="ourteamslidebox">
                     <div className="ourteambox1">
                       <div className="ourteamimg">
-                        <img src="homeimg/OurTeamExperts2.png" alt="img" />
+                        <Image width={1000} height={1000} src="/homeimg/OurTeamExperts2.png" alt="img" />
                       </div>
                       <div className="ourteamname">
                         <h2>Dr Khushboo K.</h2>
@@ -1054,9 +1054,9 @@ const homepage = () => {
                     </div>
                     <div className="ourteambox2">
                       <div className="ourteambox2flex">
-                        <a className="bookappoteam" href="#">
+                        <Link className="bookappoteam" href="/serchher">
                           View Profile
-                        </a>
+                         </Link> 
                       </div>
                     </div>
                   </div>
@@ -1067,7 +1067,7 @@ const homepage = () => {
                   <div className="ourteamslidebox">
                     <div className="ourteambox1">
                       <div className="ourteamimg">
-                        <img src="homeimg/OurTeamExperts3.png" alt="img" />
+                        <Image width={1000} height={1000} src="/homeimg/OurTeamExperts3.png" alt="img" />
                       </div>
                       <div className="ourteamname">
                         <h2>Dr Vishal M.</h2>
@@ -1081,9 +1081,9 @@ const homepage = () => {
                     </div>
                     <div className="ourteambox2">
                       <div className="ourteambox2flex">
-                        <a className="bookappoteam" href="#">
+                        <Link className="bookappoteam" href="/serchher">
                           View Profile
-                        </a>
+                         </Link> 
                       </div>
                     </div>
                   </div>
@@ -1095,10 +1095,10 @@ const homepage = () => {
           <div className="custom-slider-dots"></div>
           <div className="customslidebth">
             <button id="custom-prevButton">
-              <img src="homeimg/nextleft.png" alt="img" />
+              <Image width={1000} height={1000} src="/homeimg/nextleft.png" alt="img" />
             </button>
             <button id="custom-nextButton">
-              <img src="homeimg/nextright.png" alt="img" />
+              <Image width={1000} height={1000} src="/homeimg/nextright.png" alt="img" />
             </button>
           </div>
         </div>
@@ -1156,7 +1156,7 @@ const homepage = () => {
                     <div className="testislidChilcol1">
                       <div className="ourworkbox1">
                         <div className="ourworkmimg">
-                          <img src="homeimg/youplayimg.png" alt="img" />
+                          <Image width={1000} height={1000} src="/homeimg/youplayimg.png" alt="img" />
                         </div>
                       </div>
                     </div>
@@ -1182,7 +1182,7 @@ const homepage = () => {
                     <div className="testislidChilcol1">
                       <div className="ourworkbox1">
                         <div className="ourworkmimg">
-                          <img src="homeimg/youplayimg.png" alt="img" />
+                          <Image width={1000} height={1000} src="/homeimg/youplayimg.png" alt="img" />
                         </div>
                       </div>
                     </div>
@@ -1208,7 +1208,7 @@ const homepage = () => {
                     <div className="testislidChilcol1">
                       <div className="ourworkbox1">
                         <div className="ourworkmimg">
-                          <img src="homeimg/youplayimg.png" alt="img" />
+                          <Image width={1000} height={1000} src="/homeimg/youplayimg.png" alt="img" />
                         </div>
                       </div>
                     </div>
@@ -1236,7 +1236,7 @@ const homepage = () => {
               data-bs-slide="prev"
             >
               <span className="carousel-control-prev-icon" aria-hidden="true">
-                <img src="homeimg/nextleft.png" />
+                <Image width={1000} height={1000} src="/homeimg/nextleft.png" />
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
@@ -1247,7 +1247,7 @@ const homepage = () => {
               data-bs-slide="next"
             >
               <span className="carousel-control-next-icon" aria-hidden="true">
-                <img src="homeimg/nextright.png" />
+                <Image width={1000} height={1000} src="/homeimg/nextright.png" />
               </span>
               <span className="visually-hidden">Next</span>
             </button>
@@ -1284,7 +1284,7 @@ const homepage = () => {
                           <div className="whychoslidebox">
                             <div className="whychobox1">
                               <div className="whychoimg">
-                                <img src="homeimg/Group-88.png" alt="img" />
+                                <Image width={1000} height={1000} src="/homeimg/Group-88.png" alt="img" />
                               </div>
                               <div className="whychoname">
                                 <h2>Medical Expertise</h2>
@@ -1300,15 +1300,15 @@ const homepage = () => {
                             </div>
                             <div className="whychoimgbox2">
                               <button className="whychocombtn">
-                                <a href="#">
+                                <Link href="/serchher">
                                   Read More
                                   <span className="specicon">
-                                    <img
-                                      src="homeimg/right-arrow.png"
+                                    <Image width={1000} height={1000}
+                                      src="/homeimg/right-arrow.png"
                                       alt="img"
                                     />
                                   </span>
-                                </a>
+                                 </Link> 
                               </button>
                             </div>
                           </div>
@@ -1321,7 +1321,7 @@ const homepage = () => {
                           <div className="whychoslidebox">
                             <div className="whychobox1">
                               <div className="whychoimg">
-                                <img src="homeimg/Group-89.png" alt="img" />
+                                <Image width={1000} height={1000} src="/homeimg/Group-89.png" alt="img" />
                               </div>
                               <div className="whychoname">
                                 <h2>Advanced Technology</h2>
@@ -1337,15 +1337,15 @@ const homepage = () => {
                             </div>
                             <div className="whychoimgbox2">
                               <button className="whychocombtn">
-                                <a href="#">
+                                <Link href="/serchher">
                                   Read More
                                   <span className="specicon">
-                                    <img
-                                      src="homeimg/right-arrow.png"
+                                    <Image width={1000} height={1000}
+                                      src="/homeimg/right-arrow.png"
                                       alt="img"
                                     />
                                   </span>
-                                </a>
+                                 </Link> 
                               </button>
                             </div>
                           </div>
@@ -1358,7 +1358,7 @@ const homepage = () => {
                           <div className="whychoslidebox">
                             <div className="whychobox1">
                               <div className="whychoimg">
-                                <img src="homeimg/Group-90.png" alt="img" />
+                                <Image width={1000} height={1000} src="/homeimg/Group-90.png" alt="img" />
                               </div>
                               <div className="whychoname">
                                 <h2>Patient Centric</h2>
@@ -1374,15 +1374,15 @@ const homepage = () => {
                             </div>
                             <div className="whychoimgbox2">
                               <button className="whychocombtn">
-                                <a href="#">
+                                <Link href="/serchher">
                                   Read More
                                   <span className="specicon">
-                                    <img
-                                      src="homeimg/right-arrow.png"
+                                    <Image width={1000} height={1000}
+                                      src="/homeimg/right-arrow.png"
                                       alt="img"
                                     />
                                   </span>
-                                </a>
+                                 </Link> 
                               </button>
                             </div>
                           </div>
@@ -1395,7 +1395,7 @@ const homepage = () => {
                           <div className="whychoslidebox">
                             <div className="whychobox1">
                               <div className="whychoimg">
-                                <img src="homeimg/Group-90.png" alt="img" />
+                                <Image width={1000} height={1000} src="/homeimg/Group-90.png" alt="img" />
                               </div>
                               <div className="whychoname">
                                 <h2>Patient Centric</h2>
@@ -1411,15 +1411,15 @@ const homepage = () => {
                             </div>
                             <div className="whychoimgbox2">
                               <button className="whychocombtn">
-                                <a href="#">
+                                <Link href="/serchher">
                                   Read More
                                   <span className="specicon">
-                                    <img
-                                      src="homeimg/right-arrow.png"
+                                    <Image width={1000} height={1000}
+                                      src="/homeimg/right-arrow.png"
                                       alt="img"
                                     />
                                   </span>
-                                </a>
+                                 </Link> 
                               </button>
                             </div>
                           </div>
@@ -1434,10 +1434,10 @@ const homepage = () => {
                 </div>
                 <div className="new-sliderbtn">
                   <button id="new-prevButton">
-                    <img src="homeimg/nextleft.png" alt="img" />
+                    <Image width={1000} height={1000} src="/homeimg/nextleft.png" alt="img" />
                   </button>
                   <button id="new-nextButton">
-                    <img src="homeimg/nextright.png" alt="img" />
+                    <Image width={1000} height={1000} src="/homeimg/nextright.png" alt="img" />
                   </button>
                 </div>
               </div>
@@ -1456,7 +1456,7 @@ const homepage = () => {
       <div className="footermain">
         <div className="footermaincol1">
           <div className="footerlogo">
-            <img src="homeimg/footmainlogo.png" alt="" />
+            <Image width={1000} height={1000} src="/homeimg/footmainlogo.png" alt="" />
           </div>
           <div className="footerlogopara">
             <p>
@@ -1465,27 +1465,27 @@ const homepage = () => {
             </p>
           </div>
           <div className="footergetdirect">
-            <a href="#">
+            <Link href="/serchher">
               {" "}
-              <img src="homeimg/getdireimg.png" alt="" />
-            </a>
+              <Image width={1000} height={1000} src="/homeimg/getdireimg.png" alt="" />
+             </Link> 
           </div>
           <div className="footersocial">
             <div className="footersocialbox">
               <div className="footersocialboximg">
-                <a href="#">
-                  <img src="homeimg/footersoiconint.png" alt="" />
-                </a>
+                <Link href="/serchher">
+                  <Image width={1000} height={1000} src="/homeimg/footersoiconint.png" alt="" />
+                 </Link> 
               </div>
               <div className="footersocialboximg">
-                <a href="#">
-                  <img src="homeimg/footersoiconface.png" alt="" />
-                </a>
+                <Link href="/serchher">
+                  <Image width={1000} height={1000} src="/homeimg/footersoiconface.png" alt="" />
+                 </Link> 
               </div>
               <div className="footersocialboximg">
-                <a href="#">
-                  <img src="homeimg/footersoiconyout.png" alt="" />
-                </a>
+                <Link href="/serchher">
+                  <Image width={1000} height={1000} src="/homeimg/footersoiconyout.png" alt="" />
+                 </Link> 
               </div>
             </div>
           </div>
@@ -1495,12 +1495,12 @@ const homepage = () => {
             <h2>CONTACT US</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <img className="fooimg" src="homeimg/fooiconmob.png" alt="" />
-                <a href="">+91 9881123006</a>
+                <Image width={1000} height={1000} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
+                <Link href="/serchher">+91 9881123006 </Link> 
               </div>
               <div className="linkfoolist">
-                <img className="fooimg" src="homeimg/fooiconmail.png" alt="" />
-                <a href="">abc@gmail.com</a>
+                <Image width={1000} height={1000} className="fooimg" src="/homeimg/fooiconmail.png" alt="" />
+                <Link href="/serchher">abc@gmail.com </Link> 
               </div>
             </div>
           </div>
@@ -1508,7 +1508,7 @@ const homepage = () => {
             <h2>MEDIA ROOM</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">ABMH in News</a>
+                <Link href="/serchher">ABMH in News </Link> 
               </div>
             </div>
           </div>
@@ -1518,28 +1518,28 @@ const homepage = () => {
             <h2>QUICK LINKS</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">Specialities</a>
+                <Link href="/serchher">Specialities </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Doctors</a>
+                <Link href="/serchher">Doctors </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Feedback</a>
+                <Link href="/serchher">Feedback </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Life @ ABMH</a>
+                <Link href="/serchher">Life @ ABMH </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Work With Us</a>
+                <Link href="/serchher">Work With Us </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Corporate Inquiries</a>
+                <Link href="/serchher">Corporate Inquiries </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Privacy Policy</a>
+                <Link href="/serchher">Privacy Policy </Link> 
               </div>
               <div className="linkfoolist exmarginlink">
-                <a href="">Site Map</a>
+                <Link href="/serchher">Site Map </Link> 
               </div>
             </div>
           </div>
@@ -1557,7 +1557,7 @@ const homepage = () => {
             <h2>Emergency Service</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">+91 9881165006</a>
+                <Link href="/serchher">+91 9881165006 </Link> 
               </div>
             </div>
           </div>
@@ -1565,7 +1565,7 @@ const homepage = () => {
             <h2>Ambulance Service</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">+91 9881165006</a>
+                <Link href="/serchher">+91 9881165006 </Link> 
               </div>
             </div>
           </div>
@@ -1573,7 +1573,7 @@ const homepage = () => {
             <h2>ABMH Assist</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">+91 9881165006</a>
+                <Link href="/serchher">+91 9881165006 </Link> 
               </div>
             </div>
           </div>
@@ -1582,7 +1582,7 @@ const homepage = () => {
         <div className="footermainbelw3">
           <div className="linkbox">
             <div className="linkfootdiv">
-              {/* <div class="linkfoolist"><a href="">Site Map</a></div> */}
+              {/* <div class="linkfoolist"><Link href="/serchher">Site Map </Link> </div> */}
             </div>
           </div>
         </div>
@@ -1615,7 +1615,7 @@ const homepage = () => {
       <div className="footermain">
         <div className="footermaincol1">
           <div className="footerlogo">
-            <img src="homeimg/footmainlogo.png" alt="" />
+            <Image width={1000} height={1000} src="/homeimg/footmainlogo.png" alt="" />
           </div>
           <div className="footerlogopara">
             <p>
@@ -1624,27 +1624,27 @@ const homepage = () => {
             </p>
           </div>
           <div className="footergetdirect">
-            <a href="#">
+            <Link href="/serchher">
               {" "}
-              <img src="homeimg/getdireimg.png" alt="" />
-            </a>
+              <Image width={1000} height={1000} src="/homeimg/getdireimg.png" alt="" />
+             </Link> 
           </div>
           <div className="footersocial">
             <div className="footersocialbox">
               <div className="footersocialboximg">
-                <a href="#">
-                  <img src="homeimg/footersoiconint.png" alt="" />
-                </a>
+                <Link href="/serchher">
+                  <Image width={1000} height={1000} src="/homeimg/footersoiconint.png" alt="" />
+                 </Link> 
               </div>
               <div className="footersocialboximg">
-                <a href="#">
-                  <img src="homeimg/footersoiconface.png" alt="" />
-                </a>
+                <Link href="/serchher">
+                  <Image width={1000} height={1000} src="/homeimg/footersoiconface.png" alt="" />
+                 </Link> 
               </div>
               <div className="footersocialboximg">
-                <a href="#">
-                  <img src="homeimg/footersoiconyout.png" alt="" />
-                </a>
+                <Link href="/serchher">
+                  <Image width={1000} height={1000} src="/homeimg/footersoiconyout.png" alt="" />
+                 </Link> 
               </div>
             </div>
           </div>
@@ -1653,16 +1653,16 @@ const homepage = () => {
               <h2>CONTACT US</h2>
               <div className="linkfootdiv">
                 <div className="linkfoolist">
-                  <img className="fooimg" src="homeimg/fooiconmob.png" alt="" />
-                  <a href="">+91 9881123006</a>
+                  <Image width={1000} height={1000} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
+                  <Link href="/serchher">+91 9881123006 </Link> 
                 </div>
                 <div className="linkfoolist">
-                  <img
+                  <Image width={1000} height={1000}
                     className="fooimg"
-                    src="homeimg/fooiconmail.png"
+                    src="/homeimg/fooiconmail.png"
                     alt=""
                   />
-                  <a href="">abc@gmail.com</a>
+                  <Link href="/serchher">abc@gmail.com </Link> 
                 </div>
               </div>
             </div>
@@ -1670,7 +1670,7 @@ const homepage = () => {
               <h2>MEDIA ROOM</h2>
               <div className="linkfootdiv">
                 <div className="linkfoolist">
-                  <a href="">ABMH in News</a>
+                  <Link href="/serchher">ABMH in News </Link> 
                 </div>
               </div>
             </div>
@@ -1682,28 +1682,28 @@ const homepage = () => {
             <h2>QUICK LINKS</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">Specialities</a>
+                <Link href="/serchher">Specialities </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Doctors</a>
+                <Link href="/serchher">Doctors </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Feedback</a>
+                <Link href="/serchher">Feedback </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Life @ ABMH</a>
+                <Link href="/serchher">Life @ ABMH </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Work With Us</a>
+                <Link href="/serchher">Work With Us </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Corporate Inquiries</a>
+                <Link href="/serchher">Corporate Inquiries </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Privacy Policy</a>
+                <Link href="/serchher">Privacy Policy </Link> 
               </div>
               <div className="linkfoolist">
-                <a href="">Site Map</a>
+                <Link href="/serchher">Site Map </Link> 
               </div>
             </div>
           </div>
@@ -1721,7 +1721,7 @@ const homepage = () => {
             <h2>Emergency Service</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">+91 9881165006</a>
+                <Link href="/serchher">+91 9881165006 </Link> 
               </div>
             </div>
           </div>
@@ -1729,7 +1729,7 @@ const homepage = () => {
             <h2>Ambulance Service</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">+91 9881165006</a>
+                <Link href="/serchher">+91 9881165006 </Link> 
               </div>
             </div>
           </div>
@@ -1737,7 +1737,7 @@ const homepage = () => {
             <h2>ABMH Assist</h2>
             <div className="linkfootdiv">
               <div className="linkfoolist">
-                <a href="">+91 9881165006</a>
+                <Link href="/serchher">+91 9881165006 </Link> 
               </div>
             </div>
           </div>
@@ -1769,7 +1769,7 @@ const homepage = () => {
       {/* footer mobile end*/}
       {/* Bootstrap 5 JavaScript Bundle with Popper */}
 
-      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
+      <Script src="/https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
       
 
 
