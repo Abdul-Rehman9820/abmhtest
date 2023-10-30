@@ -6,6 +6,10 @@ import Script from 'next/script';
 
 import Link from 'next/link';
 
+import '../styles/commonglobalstyle.css'
+
+
+
 const SearchBar = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -14,7 +18,7 @@ const SearchBar = () => {
 
       <>
 
-        <Link href="/home">     
+        <Link href="/">     
           <p>home</p>                              
         </Link> 
 
