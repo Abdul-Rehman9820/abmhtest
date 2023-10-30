@@ -2,6 +2,9 @@
 import Header from "@/app/components/Header";
 
 
+import { Suspense } from 'react';
+
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -21,8 +24,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
 
       <Header />
+
       {children}
-      
+
+
+     
       </body>
     </html>
   )

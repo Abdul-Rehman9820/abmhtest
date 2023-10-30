@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import $ from 'jquery';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -53,6 +53,10 @@ const Header = () => {
                   $(".searchboxclose").click(function(){
                       $(".commansearchbox").fadeOut();
                     });
+
+                 $(".searchinputBTN").click(function(){
+                      $(".commansearchbox").fadeOut();
+                    });
                   
                   /* search bar  end*/
               
@@ -67,6 +71,10 @@ const Header = () => {
         
         
           }, []);
+
+
+
+          const [searchQuery, setSearchQuery] = useState("");
     
 
 
@@ -109,7 +117,9 @@ const Header = () => {
                     <div className="headerlogocont">
                     <div className="headerlogopart">
                         <div className="logoimg">
-                        <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="" />
+                        <Link href="/">
+                            <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="" />
+                        </Link> 
                         </div>
                     </div>
                     <div className="headerlogoBtnpart">
@@ -280,7 +290,7 @@ const Header = () => {
                     </div>
                     <ul className="navul">
                     <li className="commhamstyle">
-                        <Link href="/serchher">Home </Link> 
+                        <Link href="/">Home </Link> 
                     </li>
                     <li className=" has-children">
                         Patient Care <span className="icon-arrow" />
@@ -370,7 +380,7 @@ const Header = () => {
                     </div>
                     <div className="serachboxfclo2">
                     <div className="search-container">
-                        <form action="#">
+                      
                         <div className="formflex">
                             <div className="formflex1">
                             <input
@@ -380,15 +390,18 @@ const Header = () => {
                                 name="search"
                                 data-tribute="true"
                                 required=""
+                                onChange={(event) => setSearchQuery(event.target.value)}
                             />
                             </div>
                             <div className="formflex2">
-                            <button className="searchinputBTN" type="submit">
-                                <i className="fa fa-search" />
+                            <button className="searchinputBTN">
+                                <Link href={`/serchdata?doc=${searchQuery}`}>
+                                    <i className="fa fa-search" />
+                                </Link>
                             </button>
                             </div>
                         </div>
-                        </form>
+                  
                     </div>
                     </div>
                 </div>

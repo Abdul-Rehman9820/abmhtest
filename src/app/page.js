@@ -231,6 +231,7 @@ export default function Home() {
 
 
 
+
   return (
 
 
@@ -839,7 +840,7 @@ export default function Home() {
                             team and nursing staff were amazing.
                           </div>
                           <div className="ourworkname">
-                            <h2>Karishma Garg</h2>
+                            <h2>Karishma Garg 2</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
@@ -865,7 +866,7 @@ export default function Home() {
                             team and nursing staff were amazing.
                           </div>
                           <div className="ourworkname">
-                            <h2>Karishma Garg</h2>
+                            <h2>Karishma Garg 3</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
