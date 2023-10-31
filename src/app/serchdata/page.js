@@ -18,6 +18,8 @@ const SearchDATA = () => {
                     const [data, setData] = useState([]);
 
                     useEffect(() => {
+
+
                         async function fetchData() {
                             try {
                                 const response = await fetch("http://localhost:3000/api/mysql", {
@@ -42,7 +44,11 @@ const SearchDATA = () => {
                             }
                         }
 
+
                         fetchData();
+
+
+                        
                     }, []);
 
  

@@ -1,8 +1,7 @@
 
 import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
-
-import { Suspense } from 'react';
 
 
 import './globals.css'
@@ -27,7 +26,7 @@ export default function RootLayout({ children }) {
 
       {children}
 
-
+      <Footer />
      
       </body>
     </html>
