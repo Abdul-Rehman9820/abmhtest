@@ -294,6 +294,9 @@ const Header = () => {
                     <li className="commhamstyle">
                         <Link href="/">Home </Link> 
                     </li>
+                    <li className="commhamstyle">
+                        <Link href="/doctors">Doctors </Link> 
+                    </li>
                     <li className=" has-children">
                         Patient Care <span className="icon-arrow" />
                         <ul className="children">
@@ -397,7 +400,7 @@ const Header = () => {
                             </div>
                             <div className="formflex2">
                             <button className="searchinputBTN">
-                                <Link href={`/serchdata?doc=${searchQuery}`}>
+                                <Link href={`/doctors?doc=${searchQuery}`}>
                                     <i className="fa fa-search" />
                                 </Link>
                             </button>

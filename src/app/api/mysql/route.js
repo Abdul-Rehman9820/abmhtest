@@ -62,7 +62,7 @@ export async function POST(req, content) {
 
       return new Promise((resolve, reject) => {
 
-        const query = 'SELECT * FROM ABMH_Doctors WHERE DoctorName LIKE ?';
+        const query = 'SELECT * FROM ABMH_Doctors WHERE DoctorFName LIKE ?';
 
         const wildcardedusersearch = `%${usersearch}%`; 
 

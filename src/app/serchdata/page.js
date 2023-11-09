@@ -9,12 +9,22 @@ const SearchDATA = () => {
 
 
                     const searchParams = useSearchParams()
+
+                    // const search = searchParams.get('doc') // get from url
+
+
+                    var search = "";
+
+                     if (searchParams.has('doc')) {
+                        search = searchParams.get('doc') // get from url
+                      } else {
+                        search = ""; // Set the default value if 'doc' is not present
+                      }
                 
-                    const search = searchParams.get('doc') // get from url
 
 
 
-
+ 
                     const [data, setData] = useState([]);
 
                     useEffect(() => {
@@ -61,9 +71,9 @@ const SearchDATA = () => {
 
                 {data.map((item, index) => (
                     <div className="card" key={index}>
-                        <img src={item.DoctorProfileImage} alt="Avatar" />
+                        <img src={`DoctorsProfileimages/${item.DoctorProfileImage}`} alt="Avatar" />
                         <div className="container">
-                            <h4><b>{item.DoctorName}</b></h4>
+                            <h4><b>{item.DoctorFName}</b></h4>
                             <p>{item.DoctorSpeciality}</p>
                         </div>
                     </div>
