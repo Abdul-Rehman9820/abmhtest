@@ -51,7 +51,7 @@ const Doctors = () => {
 
     async function fetchData() {
       try {
-        const response = await fetch("http://localhost:3000/api/mysql", {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/mysql`, {
           method: "POST",
           body: JSON.stringify({
             usersearch: search,
