@@ -348,7 +348,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li className="commhamstyle">
-                        <Link href="/serchher">Contact Us </Link> 
+                        <Link href="/contact-us">Contact Us </Link> 
                     </li>
                     </ul>
                     <div className="navbelow">
