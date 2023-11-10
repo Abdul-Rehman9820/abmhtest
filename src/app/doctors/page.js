@@ -108,6 +108,11 @@ const Doctors = () => {
 
 
     <>
+
+
+    <title>Doctors of Aditya Birla Best Multispeciality Hospital</title>
+
+
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

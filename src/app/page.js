@@ -239,7 +239,7 @@ export default function Home() {
     <>
 
 
-
+      <title>Hospital in Chinchwad Pune | Aditya Birla Best Multispeciality Hospital</title>
 
       {/* slider*/}
       <div className="mainslider">
