@@ -62,12 +62,12 @@ export async function POST(req, content) {
 
       return new Promise((resolve, reject) => {
 
-        const query = 'SELECT * FROM ABMH_Doctors WHERE DoctorFName LIKE ? OR DoctorLName LIKE ? OR DoctorSpeciality LIKE ?';
+        const query = 'SELECT abmh_doctors.*, abmh_color.colorname FROM abmh_doctors LEFT JOIN abmh_color ON abmh_doctors.ColorID = abmh_color.id WHERE (abmh_doctors.DoctorFName LIKE ? OR abmh_color.colorname LIKE ? )';
 
         const wildcardedusersearch = `%${usersearch}%`; 
 
     
-        connection.query(query, [wildcardedusersearch,wildcardedusersearch,wildcardedusersearch], (err, result) => {
+        connection.query(query, [wildcardedusersearch,wildcardedusersearch], (err, result) => {
           if (err) {
             console.error('Error executing query:', err);
             reject(err);

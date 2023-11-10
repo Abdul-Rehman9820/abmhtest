@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="footermain">
             <div className="footermaincol1">
               <div className="footerlogo">
-                <Image width={1000} height={1000} src="/homeimg/footmainlogo.png" alt="" />
+                <Image width={1000} height={400} src="/homeimg/footmainlogo.png" alt="" />
               </div>
               <div className="footerlogopara">
                 <p>
@@ -42,24 +42,24 @@ const Footer = () => {
               <div className="footergetdirect">
                 <Link href="/serchher">
                   {" "}
-                  <Image width={1000} height={1000} src="/homeimg/getdireimg.png" alt="" />
+                  <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="" />
                 </Link>
               </div>
               <div className="footersocial">
                 <div className="footersocialbox">
                   <div className="footersocialboximg">
                     <Link href="/serchher">
-                      <Image width={1000} height={1000} src="/homeimg/footersoiconint.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
                     <Link href="/serchher">
-                      <Image width={1000} height={1000} src="/homeimg/footersoiconface.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
                     <Link href="/serchher">
-                      <Image width={1000} height={1000} src="/homeimg/footersoiconyout.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -70,11 +70,11 @@ const Footer = () => {
                 <h2>CONTACT US</h2>
                 <div className="linkfootdiv">
                   <div className="linkfoolist">
-                    <Image width={1000} height={1000} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
+                    <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
                     <Link href="/serchher">+91 9881123006 </Link>
                   </div>
                   <div className="linkfoolist">
-                    <Image width={1000} height={1000} className="fooimg" src="/homeimg/fooiconmail.png" alt="" />
+                    <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="" />
                     <Link href="/serchher">abc@gmail.com </Link>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ const Footer = () => {
           <div className="footermain">
             <div className="footermaincol1">
               <div className="footerlogo">
-                <Image width={1000} height={1000} src="/homeimg/footmainlogo.png" alt="" />
+                <Image width={400} height={400} src="/homeimg/footmainlogo.png" alt="" />
               </div>
               <div className="footerlogopara">
                 <p>
@@ -201,24 +201,24 @@ const Footer = () => {
               <div className="footergetdirect">
                 <Link href="/serchher">
                   {" "}
-                  <Image width={1000} height={1000} src="/homeimg/getdireimg.png" alt="" />
+                  <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="" />
                 </Link>
               </div>
               <div className="footersocial">
                 <div className="footersocialbox">
                   <div className="footersocialboximg">
                     <Link href="/serchher">
-                      <Image width={1000} height={1000} src="/homeimg/footersoiconint.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
                     <Link href="/serchher">
-                      <Image width={1000} height={1000} src="/homeimg/footersoiconface.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
                     <Link href="/serchher">
-                      <Image width={1000} height={1000} src="/homeimg/footersoiconyout.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -228,11 +228,11 @@ const Footer = () => {
                   <h2>CONTACT US</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Image width={1000} height={1000} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
+                      <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
                       <Link href="/serchher">+91 9881123006 </Link>
                     </div>
                     <div className="linkfoolist">
-                      <Image width={1000} height={1000}
+                      <Image width={400} height={400}
                         className="fooimg"
                         src="/homeimg/fooiconmail.png"
                         alt=""

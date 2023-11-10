@@ -10,7 +10,7 @@ import Script from 'next/script';
 
 
 import './styles/commonglobalstyle.css'
-import './styles/mainstyle.css'
+import './styles/homepstyle.css'
 
 
 export default function Home() {
@@ -246,48 +246,48 @@ export default function Home() {
         <div id="window">
           <div id="slide-container">
             <div className="slides">
-              <Image width={1000} height={1000}
+              <Image width={1800} height={400}
                 className="slide deckstophead"
                 src="/homeimg/web-bannerHome1.png"
                 alt=""
               />
-              <Image width={1000} height={1000}
+              <Image width={400} height={400}
                 className="slide mobilehead"
                 src="/homeimg/Mobile-banner1-mob.png"
                 alt=""
               />
             </div>
             <div className="slides">
-              <Image width={1000} height={1000}
+              <Image width={1800} height={400}
                 className="slide deckstophead"
                 src="/homeimg/web-bannerHome1.png"
                 alt=""
               />
-              <Image width={1000} height={1000}
+              <Image width={400} height={400}
                 className="slide mobilehead"
                 src="/homeimg/Mobile-banner1-mob.png"
                 alt=""
               />
             </div>
             <div className="slides">
-              <Image width={1000} height={1000}
+              <Image width={1800} height={400}
                 className="slide deckstophead"
                 src="/homeimg/web-bannerHome1.png"
                 alt=""
               />
-              <Image width={1000} height={1000}
+              <Image width={400} height={400}
                 className="slide mobilehead"
                 src="/homeimg/Mobile-banner1-mob.png"
                 alt=""
               />
             </div>
             <div className="slides">
-              <Image width={1000} height={1000}
+              <Image width={1800} height={400}
                 className="slide deckstophead"
                 src="/homeimg/web-bannerHome1.png"
                 alt=""
               />
-              <Image width={1000} height={1000}
+              <Image width={400} height={400}
                 className="slide mobilehead"
                 src="/homeimg/Mobile-banner1-mob.png"
                 alt=""
@@ -314,7 +314,7 @@ export default function Home() {
                 <div className="appobtnchil">
                   <div className="appbtnmainbox">
                     <div className="appmainboxBG">
-                      <Image width={1000} height={1000} src="/homeimg/newdecsbookdr.png" alt="img" />
+                      <Image width={400} height={400} src="/homeimg/newdecsbookdr.png" alt="img" />
                     </div>
                     <div className="appmainHea">
 
@@ -328,7 +328,7 @@ export default function Home() {
                 <div className="appobtnchil">
                   <div className="appbtnmainbox">
                     <div className="appmainboxBG">
-                      <Image width={1000} height={1000} src="/homeimg/medical-app.png" alt="img" />
+                      <Image width={400} height={400} src="/homeimg/medical-app.png" alt="img" />
                     </div>
                     <div className="appmainHea">
                       <Link href="/serchher">
@@ -340,7 +340,7 @@ export default function Home() {
                 <div className="appobtnchil">
                   <div className="appbtnmainbox">
                     <div className="appmainboxBG">
-                      <Image width={1000} height={1000} src="/homeimg/heart.png" alt="img" />
+                      <Image width={400} height={400} src="/homeimg/heart.png" alt="img" />
                     </div>
                     <div className="appmainHea">
                       <Link href="/serchher">
@@ -352,7 +352,7 @@ export default function Home() {
                 <div className="appobtnchil fournone">
                   <div className="appbtnmainbox">
                     <div className="appmainboxBG">
-                      <Image width={1000} height={1000} src="/homeimg/Group.png" alt="img" />
+                      <Image width={400} height={400} src="/homeimg/Group.png" alt="img" />
                     </div>
                     <div className="appmainHea">
                       <Link href="/serchher">
@@ -390,7 +390,7 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={1000} height={1000} src="/homeimg/Cardiology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/Cardiology.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
@@ -409,7 +409,7 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={1000} height={1000} src="/homeimg/Urology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/Urology.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
@@ -428,7 +428,7 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={1000} height={1000} src="/homeimg/Neurology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/Neurology.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
@@ -446,7 +446,7 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={1000} height={1000} src="/homeimg/Diabetology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/Diabetology.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
@@ -465,7 +465,7 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={1000} height={1000} src="/homeimg/Gastroenterology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/Gastroenterology.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
@@ -484,7 +484,7 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={1000} height={1000} src="/homeimg/Pediatrics.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/Pediatrics.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
@@ -505,7 +505,7 @@ export default function Home() {
                 <Link href="/serchher">
                   All Specialties
                   <span className="specicon">
-                    <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/right-arrow.png" alt="img" />
                   </span>
                 </Link>
               </button>
@@ -525,7 +525,7 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={1000} height={1000} src="/homeimg/Cardiologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/Cardiologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
                     <h2>Cardiology</h2>
@@ -535,7 +535,7 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={1000} height={1000} src="/homeimg/Urologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/Urologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
                     <h2>Urology</h2>
@@ -545,7 +545,7 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={1000} height={1000} src="/homeimg/Neurologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/Neurologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
                     <h2>Neurology</h2>
@@ -555,7 +555,7 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={1000} height={1000} src="/homeimg/Diabetologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/Diabetologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
                     <h2>Diabetology</h2>
@@ -568,7 +568,7 @@ export default function Home() {
                 <Link href="/serchher">
                   All Specialties{" "}
                   <span className="specicon">
-                    <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/right-arrow.png" alt="img" />
                   </span>
                 </Link>
               </button>
@@ -606,7 +606,7 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={1000} height={1000} src="/homeimg/OurTeamExperts1.png" alt="img" />
+                            <Image width={400} height={400} src="/homeimg/OurTeamExperts1.png" alt="img" />
                           </div>
                           <div className="ourteamname">
                             <h2>Dr Khushboo P.</h2>
@@ -633,7 +633,7 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={1000} height={1000} src="/homeimg/OurTeamExperts2.png" alt="img" />
+                            <Image width={400} height={400} src="/homeimg/OurTeamExperts2.png" alt="img" />
                           </div>
                           <div className="ourteamname">
                             <h2>Dr Pooja H.</h2>
@@ -660,7 +660,7 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={1000} height={1000} src="/homeimg/OurTeamExperts3.png" alt="img" />
+                            <Image width={400} height={400} src="/homeimg/OurTeamExperts3.png" alt="img" />
                           </div>
                           <div className="ourteamname">
                             <h2>Dr Vishal M.</h2>
@@ -687,7 +687,7 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={1000} height={1000} src="/homeimg/OurTeamExperts2.png" alt="img" />
+                            <Image width={400} height={400} src="/homeimg/OurTeamExperts2.png" alt="img" />
                           </div>
                           <div className="ourteamname">
                             <h2>Dr Khushboo K.</h2>
@@ -714,7 +714,7 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={1000} height={1000} src="/homeimg/OurTeamExperts3.png" alt="img" />
+                            <Image width={400} height={400} src="/homeimg/OurTeamExperts3.png" alt="img" />
                           </div>
                           <div className="ourteamname">
                             <h2>Dr Vishal M.</h2>
@@ -742,10 +742,10 @@ export default function Home() {
               <div className="custom-slider-dots"></div>
               <div className="customslidebth">
                 <button id="custom-prevButton">
-                  <Image width={1000} height={1000} src="/homeimg/nextleft.png" alt="img" />
+                  <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
                 </button>
                 <button id="custom-nextButton">
-                  <Image width={1000} height={1000} src="/homeimg/nextright.png" alt="img" />
+                  <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
                 </button>
               </div>
             </div>
@@ -805,7 +805,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={1000} height={1000} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -831,7 +831,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={1000} height={1000} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -857,7 +857,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={1000} height={1000} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -885,7 +885,7 @@ export default function Home() {
                   data-bs-slide="prev"
                 >
                   <span className="carousel-control-prev-icon" aria-hidden="true">
-                    <Image width={1000} height={1000} src="/homeimg/nextleft.png" alt="" />
+                    <Image width={400} height={400} src="/homeimg/nextleft.png" alt="" />
                   </span>
                   <span className="visually-hidden">Previous</span>
                 </button>
@@ -896,7 +896,7 @@ export default function Home() {
                   data-bs-slide="next"
                 >
                   <span className="carousel-control-next-icon" aria-hidden="true">
-                    <Image width={1000} height={1000} src="/homeimg/nextright.png" alt="" />
+                    <Image width={400} height={400} src="/homeimg/nextright.png" alt="" />
                   </span>
                   <span className="visually-hidden">Next</span>
                 </button>
@@ -935,7 +935,7 @@ export default function Home() {
                               <div className="whychoslidebox">
                                 <div className="whychobox1">
                                   <div className="whychoimg">
-                                    <Image width={1000} height={1000} src="/homeimg/Group-88.png" alt="img" />
+                                    <Image width={400} height={400} src="/homeimg/Group-88.png" alt="img" />
                                   </div>
                                   <div className="whychoname">
                                     <h2>Medical Expertise</h2>
@@ -954,7 +954,7 @@ export default function Home() {
                                     <Link href="/serchher">
                                       Read More
                                       <span className="specicon">
-                                        <Image width={1000} height={1000}
+                                        <Image width={400} height={400}
                                           src="/homeimg/right-arrow.png"
                                           alt="img"
                                         />
@@ -972,7 +972,7 @@ export default function Home() {
                               <div className="whychoslidebox">
                                 <div className="whychobox1">
                                   <div className="whychoimg">
-                                    <Image width={1000} height={1000} src="/homeimg/Group-89.png" alt="img" />
+                                    <Image width={400} height={400} src="/homeimg/Group-89.png" alt="img" />
                                   </div>
                                   <div className="whychoname">
                                     <h2>Advanced Technology</h2>
@@ -991,7 +991,7 @@ export default function Home() {
                                     <Link href="/serchher">
                                       Read More
                                       <span className="specicon">
-                                        <Image width={1000} height={1000}
+                                        <Image width={400} height={400}
                                           src="/homeimg/right-arrow.png"
                                           alt="img"
                                         />
@@ -1009,7 +1009,7 @@ export default function Home() {
                               <div className="whychoslidebox">
                                 <div className="whychobox1">
                                   <div className="whychoimg">
-                                    <Image width={1000} height={1000} src="/homeimg/Group-90.png" alt="img" />
+                                    <Image width={400} height={400} src="/homeimg/Group-90.png" alt="img" />
                                   </div>
                                   <div className="whychoname">
                                     <h2>Patient Centric</h2>
@@ -1028,7 +1028,7 @@ export default function Home() {
                                     <Link href="/serchher">
                                       Read More
                                       <span className="specicon">
-                                        <Image width={1000} height={1000}
+                                        <Image width={400} height={400}
                                           src="/homeimg/right-arrow.png"
                                           alt="img"
                                         />
@@ -1046,7 +1046,7 @@ export default function Home() {
                               <div className="whychoslidebox">
                                 <div className="whychobox1">
                                   <div className="whychoimg">
-                                    <Image width={1000} height={1000} src="/homeimg/Group-90.png" alt="img" />
+                                    <Image width={400} height={400} src="/homeimg/Group-90.png" alt="img" />
                                   </div>
                                   <div className="whychoname">
                                     <h2>Patient Centric</h2>
@@ -1065,7 +1065,7 @@ export default function Home() {
                                     <Link href="/serchher">
                                       Read More
                                       <span className="specicon">
-                                        <Image width={1000} height={1000}
+                                        <Image width={400} height={400}
                                           src="/homeimg/right-arrow.png"
                                           alt="img"
                                         />
@@ -1085,10 +1085,10 @@ export default function Home() {
                     </div>
                     <div className="new-sliderbtn">
                       <button id="new-prevButton">
-                        <Image width={1000} height={1000} src="/homeimg/nextleft.png" alt="img" />
+                        <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
                       </button>
                       <button id="new-nextButton">
-                        <Image width={1000} height={1000} src="/homeimg/nextright.png" alt="img" />
+                        <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
                       </button>
                     </div>
                   </div>
