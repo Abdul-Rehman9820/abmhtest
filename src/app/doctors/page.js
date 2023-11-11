@@ -17,6 +17,30 @@ const Doctors = () => {
 
 
 
+  const filterFunction = () => {
+
+
+    var input, filter, div, divItems, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    divItems = div.getElementsByClassName("myhref");
+    for (i = 0; i < divItems.length; i++) {
+        txtValue = divItems[i].textContent || divItems[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            divItems[i].style.display = "";
+        } else {
+            divItems[i].style.display = "none";
+        }
+    }
+
+    };
+
+
+
+
+
+
         //---- for search bar on page
 
         const [searchQuery, setSearchQuery] = useState("");
@@ -39,6 +63,9 @@ const Doctors = () => {
 
         // store data here
         const [data, setData] = useState(['']);
+
+
+        const [mydyno, setmydyno] = useState('');
 
         //---- for api data
 
@@ -78,6 +105,40 @@ const Doctors = () => {
 
 
     // api for profile
+
+
+    // filter btn 
+
+    var formyfucn = document.getElementById("formyfucn");
+
+
+    formyfucn.onclick = function () {
+      document.getElementById("myDropdown").classList.toggle("show");
+    };
+
+
+    const colorForm = document.getElementById('colorForm');
+    const resultDiv = document.getElementById('resultDiv');
+
+
+    colorForm.addEventListener('change', function () {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        const checkedColors = [];
+
+        checkboxes.forEach(function (checkbox) {
+            checkedColors.push(checkbox.id);
+        });
+
+         var mydynostring = checkedColors.join(',');
+
+         setmydyno(mydynostring);
+
+
+        // Append checked values to the resultDiv
+        resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColors.length > 0 ? checkedColors.join(', ') : ' ');
+      });
+
+    // filter btn 
 
 
     // for FAQ script
@@ -138,6 +199,7 @@ const Doctors = () => {
         <div className="customcontainer">
           <div className="DoctorslistCont">
             <div className="DoctorslistSearch">
+
               <div className="DoctorslistSearchbox">
                 <div className="DoctorslistSearchbox1">
                   <div className="drlistsearch-container">
@@ -169,10 +231,199 @@ const Doctors = () => {
                   </div>
                 </div>
                 <div className="DoctorslistSearchbox2">
-                  <button>Filter</button>
+            
                 </div>
               </div>
+
+
+              <div className="fordrop">
+                <div className="dropdown">
+                  <button id="formyfucn" className="dropbtn">
+                    <img className="filimg" src="/commonimages/filterimg.png" alt="" />
+                    FILTER
+                  </button>
+                  <div id="myDropdown" className="dropdown-content">
+                    <div className="inputdiv">
+                      <input
+                        type="text"
+                        placeholder="FILTER BY SPECIALTY ......."
+                        id="myInput"
+                        onKeyUp={filterFunction}
+                        
+                      />
+                    </div>
+                    <div className="formmdiv">
+                      <form id="colorForm">
+                        <div className="checkboxcont">
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="Red" name="colors" /> Red
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input
+                                type="checkbox"
+                                id="Plastic Surgery & Cosmetology"
+                                name="colors"
+                              />{" "}
+                              Plastic Surgery &amp; Cosmetology
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="yellow" name="colors" /> yellow
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="brown" name="colors" /> brown
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="Red" name="colors" /> Red
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input
+                                type="checkbox"
+                                id="Plastic Surgery & Cosmetology"
+                                name="colors"
+                              />{" "}
+                              Plastic Surgery &amp; Cosmetology
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="yellow" name="colors" /> yellow
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="brown" name="colors" /> brown
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="Red" name="colors" /> Red
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input
+                                type="checkbox"
+                                id="Plastic Surgery & Cosmetology"
+                                name="colors"
+                              />{" "}
+                              Plastic Surgery &amp; Cosmetology
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="yellow" name="colors" /> yellow
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="brown" name="colors" /> brown
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="Red" name="colors" /> Red
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input
+                                type="checkbox"
+                                id="Plastic Surgery & Cosmetology"
+                                name="colors"
+                              />{" "}
+                              Plastic Surgery &amp; Cosmetology
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="yellow" name="colors" /> yellow
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="brown" name="colors" /> brown
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="Red" name="colors" /> Red
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input
+                                type="checkbox"
+                                id="Plastic Surgery & Cosmetology"
+                                name="colors"
+                              />{" "}
+                              Plastic Surgery &amp; Cosmetology
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="yellow" name="colors" /> yellow
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="brown" name="colors" /> brown
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="Red" name="colors" /> Red
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input
+                                type="checkbox"
+                                id="Plastic Surgery & Cosmetology"
+                                name="colors"
+                              />{" "}
+                              Plastic Surgery &amp; Cosmetology
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="yellow" name="colors" /> yellow
+                            </label>
+                          </div>
+                          <div className="myhref">
+                            <label>
+                              <input type="checkbox" id="brown" name="colors" /> brown
+                            </label>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div id="resultDiv" />
+                    <div className="mybtn">
+
+                     <Link id="dynamicLink" href={`/doctors?doc=${mydyno}`}>
+                           APPLY FILTER
+                    </Link>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
             </div>
+
             <div className="drlistloopbox">
               <ul id="paginated-list" data-current-page={1} aria-live="polite">
 
