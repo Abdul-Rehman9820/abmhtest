@@ -68,7 +68,7 @@ export async function POST(req, content) {
         const formattedColors = colorsArray.map(color => `'${color}'`).join(",");
         // for filter serch 
 
-        const query = 'SELECT abmh_doctors.*, abmh_color.colorname FROM abmh_doctors LEFT JOIN abmh_color ON abmh_doctors.ColorID = abmh_color.id WHERE (abmh_doctors.DoctorFName LIKE ? OR abmh_color.colorname IN (' + formattedColors + ') )';
+        const query = 'SELECT abmh_doctors.*, abmh_specialty.specialty_slug FROM abmh_doctors LEFT JOIN abmh_specialty ON abmh_doctors.SpecialtyID = abmh_specialty.id WHERE (abmh_doctors.DoctorFName LIKE ? OR abmh_specialty.specialty_slug IN (' + formattedColors + ') )';
 
         const wildcardedusersearch = `%${usersearch}%`; 
 

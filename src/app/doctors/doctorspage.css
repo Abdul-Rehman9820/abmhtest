@@ -289,10 +289,13 @@ button.drlistsearchinputBTN i {
     position: relative;
     display: inline-block;
     z-index: 1;
-}
-    #myDropdown  label {
+   }
+
+    #myDropdown label {
         width: 100%;
         display: block;
+        text-align: start;
+        font-size: 13px;
     }
 
     .dropdown-content {
@@ -350,6 +353,7 @@ margin: 0;
 div#resultDiv {
     margin-bottom: 10px;
     text-align: start;
+    font-size: 12px;
 }
 .fordrop {
     text-align: end;

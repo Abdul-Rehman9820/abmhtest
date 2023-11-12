@@ -65,6 +65,9 @@ const Doctors = () => {
         const [data, setData] = useState(['']);
 
 
+        const [sepeciality, setSepeciality] = useState(['']);
+
+
         const [mydyno, setmydyno] = useState('');
 
 
@@ -108,6 +111,37 @@ const Doctors = () => {
 
 
     // api for profile
+
+
+
+    // api for speciality
+
+    async function fetchSpeciality() {
+      try {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/fetchsepeciality`, {
+          method: "POST",
+        });
+
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const resultsp = await response.json();
+
+        setSepeciality(resultsp.data);
+
+        console.log(resultsp.data);
+
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+
+    fetchSpeciality();
+
+
+    // api for speciality
 
 
     // filter btn 
@@ -274,156 +308,24 @@ const Doctors = () => {
                     <div className="formmdiv">
                       <form id="colorForm">
                         <div className="checkboxcont">
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="Red" name="colors" /> Red
+
+
+                      
+                          {sepeciality.map((item, index) => (
+                      
+                            <div className="myhref">
+                            <label> 
+                                 <input type="checkbox" id={item.specialty_slug} name="colors" /> {item.specialty_name}
                             </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input
-                                type="checkbox"
-                                id="Plastic Surgery & Cosmetology"
-                                name="colors"
-                              />{" "}
-                              Plastic Surgery &amp; Cosmetology
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="yellow" name="colors" /> yellow
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="brown" name="colors" /> brown
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="Red" name="colors" /> Red
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input
-                                type="checkbox"
-                                id="Plastic Surgery & Cosmetology"
-                                name="colors"
-                              />{" "}
-                              Plastic Surgery &amp; Cosmetology
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="yellow" name="colors" /> yellow
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="brown" name="colors" /> brown
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="Red" name="colors" /> Red
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input
-                                type="checkbox"
-                                id="Plastic Surgery & Cosmetology"
-                                name="colors"
-                              />{" "}
-                              Plastic Surgery &amp; Cosmetology
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="yellow" name="colors" /> yellow
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="brown" name="colors" /> brown
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="Red" name="colors" /> Red
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input
-                                type="checkbox"
-                                id="Plastic Surgery & Cosmetology"
-                                name="colors"
-                              />{" "}
-                              Plastic Surgery &amp; Cosmetology
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="yellow" name="colors" /> yellow
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="brown" name="colors" /> brown
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="Red" name="colors" /> Red
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input
-                                type="checkbox"
-                                id="Plastic Surgery & Cosmetology"
-                                name="colors"
-                              />{" "}
-                              Plastic Surgery &amp; Cosmetology
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="yellow" name="colors" /> yellow
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="brown" name="colors" /> brown
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="Red" name="colors" /> Red
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input
-                                type="checkbox"
-                                id="Plastic Surgery & Cosmetology"
-                                name="colors"
-                              />{" "}
-                              Plastic Surgery &amp; Cosmetology
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="yellow" name="colors" /> yellow
-                            </label>
-                          </div>
-                          <div className="myhref">
-                            <label>
-                              <input type="checkbox" id="brown" name="colors" /> brown
-                            </label>
-                          </div>
+                            </div>   
+                      
+                          )) }
+
+
+                     
+
+
+
                         </div>
                       </form>
                     </div>
