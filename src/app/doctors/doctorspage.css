@@ -72,14 +72,14 @@
     padding-top: 40px;
 }
 
-.ourteamslidchilbo {
+.ourteamslidchilbodr {
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.ourteamslidebox {
+.ourteamslideboxdr {
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
     border-radius: 20px;
     padding: 10px;
@@ -88,10 +88,10 @@
     background: white;
 }
 
-.ourteambox1 {
+.ourteambox1dr {
     padding: 10px 15px;
 }
-.ourteamimg img {
+.ourteamimgdr img {
     border-radius: 50%;
     object-fit: contain;
     margin: auto;
@@ -99,30 +99,30 @@
     height: 160px !important;
     display: block !important;
 }
-.ourteamname {
+.ourteamnamedr {
     margin-top: 13px;
 }
-.ourteamname h2 {
+.ourteamnamedr h2 {
     font-size: 20px;
     color: #000000;
     text-align: center;
 }
-.ourteamspec h2 {
+.ourteamspecdr h2 {
     font-size: 16px;
     color: #707070;
     text-align: center;
     margin-top: 0px;
 }
-.ourteamexpi {
+.ourteamexpidr {
     border-top: 2px solid #901412;
     margin-top: 15px;
     padding-top: 10px;
 }
-.ourteambox2flex {
+.ourteambox2drflex {
     display: flex;
     align-items: center;
 }
-.bookappoteam {
+.bookappoteamdr {
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
@@ -134,7 +134,7 @@
     border-radius: 0px 0px 14px 14px;
     width: 100%;
 }
-.ourteamexpi h2 {
+.ourteamexpidr h2 {
     text-align: center;
     font-size: 17px;
     font-weight: 400;
@@ -517,24 +517,24 @@ button.accordion:before {
 }
 
 
-.ourteamslidebox {
+.ourteamslideboxdr {
     margin-right: 0;
 }
-.ourteamslidebox {
+.ourteamslideboxdr {
     border-radius: 5px;
 }
-.ourteamslidebox {
+.ourteamslideboxdr {
     padding: 4px;
 }
-.ourteambox1 {
+.ourteambox1dr {
     padding: 5px 10px;
 }
 
-.ourteamimg img {
+.ourteamimgdr img {
     width: 45px !important;
     height: 45px !important;
 }
-.ourteamname {
+.ourteamnamedr {
     margin-top: 5px;
 }
 .ourteampar h2 {
@@ -546,7 +546,7 @@ button.accordion:before {
     margin-bottom: 2px;
 }
 
-.ourteamexpi {
+.ourteamexpidr {
     border-top: 1px solid #901412;
     margin-top: 0px;
 }
@@ -555,23 +555,23 @@ button.accordion:before {
     margin-bottom: 2px;
 }
 
-.ourteambox2 {
+.ourteambox2dr {
     margin-top: 0px;
 }
 
-.bookappoteam {
+.bookappoteamdr {
     border-radius: 0px 0px 5px 5px;
 }
-.ourteamname h2 {
+.ourteamnamedr h2 {
     font-size: 9px;
 }
-.ourteamspec h2 {
+.ourteamspecdr h2 {
     font-size: 7px;
 }
-.ourteamexpi h2 {
+.ourteamexpidr h2 {
     font-size: 8px;
 }
-.bookappoteam {
+.bookappoteamdr {
     font-size: 8px;
 }
 

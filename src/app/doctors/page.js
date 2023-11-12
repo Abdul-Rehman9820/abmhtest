@@ -67,6 +67,9 @@ const Doctors = () => {
 
         const [mydyno, setmydyno] = useState('');
 
+
+        const [isLoading, setIsLoading] = useState(true); // Declare the isLoading variable
+
         //---- for api data
 
 
@@ -92,7 +95,7 @@ const Doctors = () => {
         const result = await response.json();
 
         setData(result.data);
-
+        setIsLoading(false); 
         console.log(result.data);
 
       } catch (error) {
@@ -260,6 +263,7 @@ const Doctors = () => {
                         
                       />
                     </div>
+
                     <div className="formmdiv">
                       <form id="colorForm">
                         <div className="checkboxcont">
@@ -416,6 +420,8 @@ const Doctors = () => {
                         </div>
                       </form>
                     </div>
+
+
                     <div id="resultDiv" />
                     <div className="mybtn">
 
@@ -435,28 +441,76 @@ const Doctors = () => {
             <div className="drlistloopbox">
               <ul id="paginated-list" data-current-page={1} aria-live="polite">
 
-              {data.map((item, index) => (
+              {/* profile loop by api */}
+
+
+              {isLoading ? (
+                  <div className="loading-message">Loading doctors...</div>
+                ) : (
+
+                  data.length === 0 ? (
+                      <div className="empty-message">No doctors found</div>
+                  ) : (
+                    
+                    data.map((item, index) => (
+                      
+                    <li className="myli" key={index} id={index}>
+                      <div className="ourteamslidchilbodr">
+                        <div className="ourteamslideboxdr">
+                          <div className="ourteambox1dr">
+                            <div className="ourteamimgdr">
+                              <img src={`DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
+                            </div>
+                            <div className="ourteamnamedr">
+                              <h2>{item.DoctorFName} {item.DoctorLName}</h2>
+                            </div>
+                            <div className="ourteamspecdr">
+                              <h2>{item.DoctorSpeciality}</h2>
+                            </div>
+                            <div className="ourteamexpidr">
+                              <h2>{item.DoctorExperience} years of experience&nbsp;</h2>
+                            </div>
+                          </div>
+                          <div className="ourteambox2dr">
+                            <div className="ourteambox2flexdr">
+                              <a className="bookappoteamdr" href="#">
+                                View Profile
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    ))
+
+                  )                
+                 
+                )}
+
+
+      
+              {/* {data.map((item, index) => (
 
                   <li className="myli" key={index} id={index}>
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
+                    <div className="ourteamslidchilbodr">
+                      <div className="ourteamslideboxdr">
+                        <div className="ourteambox1dr">
+                          <div className="ourteamimgdr">
                             <img src={`DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
                           </div>
-                          <div className="ourteamname">
+                          <div className="ourteamnamedr">
                             <h2>{item.DoctorFName} {item.DoctorLName}</h2>
                           </div>
-                          <div className="ourteamspec">
+                          <div className="ourteamspecdr">
                             <h2>{item.DoctorSpeciality}</h2>
                           </div>
-                          <div className="ourteamexpi">
+                          <div className="ourteamexpidr">
                             <h2>{item.DoctorExperience} years of experience&nbsp;</h2>
                           </div>
                         </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <a className="bookappoteam" href="#">
+                        <div className="ourteambox2dr">
+                          <div className="ourteambox2flexdr">
+                            <a className="bookappoteamdr" href="#">
                               View Profile
                             </a>
                           </div>
@@ -465,8 +519,11 @@ const Doctors = () => {
                     </div>
                   </li>
 
-              ))}
+              ))} */}
 
+              
+
+         {/* profile loop by api */}
 
               </ul>
               <nav className="pagination-container">

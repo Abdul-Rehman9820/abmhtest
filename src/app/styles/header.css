@@ -358,6 +358,7 @@ span.BookApimg {
   font-size: 11px;
   margin-right: 7px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .closecont {
   text-align: end;
