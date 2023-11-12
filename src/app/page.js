@@ -217,8 +217,8 @@ export default function Home() {
                 <div className="carousel-item active">
                   <div className="mynewslides">
                     <Link href="/doctors">
-                       <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" />
-                       <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" />
+                       <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide'/>
+                       <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                        <h2 className="forSEOslide">hellow world</h2>
                     </Link>
                   </div>
@@ -226,8 +226,8 @@ export default function Home() {
                 <div className="carousel-item">
                   <div className="mynewslides">
                     <Link href="/doctors">
-                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" />
-                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" />
+                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                       <h2 className="forSEOslide">hellow world</h2>
                     </Link>
                   </div>
@@ -235,8 +235,8 @@ export default function Home() {
                 <div className="carousel-item">
                   <div className="mynewslides">
                     <Link href="/doctors">
-                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" />
-                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" />
+                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                       <h2 className="forSEOslide">hellow world</h2>
                     </Link>
                   </div>
@@ -740,13 +740,13 @@ export default function Home() {
 
             <div className="ourworkslidepar">
               <div
-                id="carouselExampleIndicators"
+                id="carouselExampleIndicators1"
                 className="carousel slide carousel-fade"
               >
                 <div className="carousel-indicators">
                   <button
                     type="button"
-                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-target="#carouselExampleIndicators1"
                     data-bs-slide-to={0}
                     className="active"
                     aria-current="true"
@@ -754,13 +754,13 @@ export default function Home() {
                   />
                   <button
                     type="button"
-                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-target="#carouselExampleIndicators1"
                     data-bs-slide-to={1}
                     aria-label="Slide 2"
                   />
                   <button
                     type="button"
-                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-target="#carouselExampleIndicators1"
                     data-bs-slide-to={2}
                     aria-label="Slide 3"
                   />
@@ -848,7 +848,7 @@ export default function Home() {
                 <button
                   className="carousel-control-prev"
                   type="button"
-                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-target="#carouselExampleIndicators1"
                   data-bs-slide="prev"
                 >
                   <span className="carousel-control-prev-icon" aria-hidden="true">
@@ -859,7 +859,7 @@ export default function Home() {
                 <button
                   className="carousel-control-next"
                   type="button"
-                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-target="#carouselExampleIndicators1"
                   data-bs-slide="next"
                 >
                   <span className="carousel-control-next-icon" aria-hidden="true">

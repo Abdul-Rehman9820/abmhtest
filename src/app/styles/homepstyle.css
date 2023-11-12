@@ -51,6 +51,10 @@
     right: 0;
 }
 
+.newnexthomeslide .carousel-indicators {
+    bottom: 50px;
+}
+
 
 /* new home slide after issue  end*/
 
@@ -952,6 +956,10 @@
           display: none;
       }
   
+      .newnexthomeslide .carousel-indicators {
+        bottom: 30px;
+      }
+    
       .appobtnchil {
           padding: 10px 12px;
       }
