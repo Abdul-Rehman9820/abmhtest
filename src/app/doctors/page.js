@@ -172,6 +172,13 @@ const Doctors = () => {
     // for FAQ script
 
 
+     // pagination
+
+     
+
+      // pagination
+
+
 
   }, [data]);
 
@@ -439,10 +446,11 @@ const Doctors = () => {
             </div>
 
             <div className="drlistloopbox">
-              <ul id="paginated-list" data-current-page={1} aria-live="polite">
+
 
               {/* profile loop by api */}
 
+              <ul id="paginated-list" data-current-page={1} aria-live="polite">
 
               {isLoading ? (
                   <div className="loading-message">Loading doctors...</div>
@@ -486,47 +494,15 @@ const Doctors = () => {
                   )                
                  
                 )}
+         
 
-
-      
-              {/* {data.map((item, index) => (
-
-                  <li className="myli" key={index} id={index}>
-                    <div className="ourteamslidchilbodr">
-                      <div className="ourteamslideboxdr">
-                        <div className="ourteambox1dr">
-                          <div className="ourteamimgdr">
-                            <img src={`DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
-                          </div>
-                          <div className="ourteamnamedr">
-                            <h2>{item.DoctorFName} {item.DoctorLName}</h2>
-                          </div>
-                          <div className="ourteamspecdr">
-                            <h2>{item.DoctorSpeciality}</h2>
-                          </div>
-                          <div className="ourteamexpidr">
-                            <h2>{item.DoctorExperience} years of experience&nbsp;</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2dr">
-                          <div className="ourteambox2flexdr">
-                            <a className="bookappoteamdr" href="#">
-                              View Profile
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-              ))} */}
-
-              
-
-         {/* profile loop by api */}
 
               </ul>
-              <nav className="pagination-container">
+
+           {/* profile loop by api */}
+
+
+              {/* <nav className="pagination-container">
                 <button
                   className="pagination-button"
                   id="prev-button"
@@ -544,7 +520,9 @@ const Doctors = () => {
                 >
                   &gt;
                 </button>
-              </nav>
+              </nav> */}
+
+
             </div>
           </div>
         </div>
