@@ -23,108 +23,38 @@
   }
 
   
-  /* slider  sta*/
-  
 
-  
-          .mainslider {
-              background: #ffffff;
-          }
-  
-  
-          div#window {
-              position: relative;
-          }
-          /* Height of carousel */
-          #slide-container {
-              /* height: 500px; */
-              overflow: hidden;
-              position: relative;
-          }
-  
-          .slide {
-              width: 100%;
-              min-height: 200px;
-          }
-  
-          .slides {
-              display: block;
-          }
-  
-          /* Style of arrows */
-          .arrow {
-              color: #ffffff;
-              font-size: 15px;
-              background-color: #474747;
-              width: 35px;
-              height: 35px;
-              border-radius: 50%;
-              position: absolute;
-              top: 50%;
-              transform: translate(0%, -50%);
-              display: flex;
-              padding: 16px;
-              justify-content: center;
-              align-items: center;
-              transition: background-color 0.3s ease;
-          }
-  
-          .arrow:hover {
-              cursor: pointer;		
-              opacity: .4;
-          }
-  
-          #next {
-              /* left: 100%;
-              transform: translate(-100%, -50%); */
-              right: 3%;
-  
-          }
-  
-          #previous {
-              left: 3%;
-          }
-  
-          #place {
-              padding: 0px;
-              margin: 0px;
-              color: white;
-              position: relative;
-              display: inline-block;
-          }
-  
-          #dotsContainer {
-              position: absolute;
-              bottom: 24px;
-              left: 50%;
-              background-color: #00000073;
-              display: flex;
-              padding: 0 2px;
-              border-radius: 5px;
-          }
-  
-          .dots {
-              width: 15px;
-              height: 15px;
-              background-color: rgb(255 255 255);
-              border-radius: 100%;
-              display: inline-block;
-              margin: 2px 2px;
-          }
-  
-          .dots:hover {
-              cursor: pointer;
-              background-color: rgba(0, 0, 0, 0.4);
-          }
-  
-          .activeDot {
-              background-color: #F37428;
-              width: 50px;
-              border-radius: 10px;
-          }
-  
-  
-  /* slider  end*/
+/* new home slide after issue  sta*/
+
+
+.newnexthomeslide .carousel-control-prev-icon img {
+    width: 100%;
+}
+.newnexthomeslide .carousel-control-next-icon img {
+    width: 100%;
+}
+.forSEOslide {
+    visibility: hidden;
+}
+
+.newnexthomeslide .carousel-indicators [data-bs-target] {
+    height: 5px;
+    background-color: #d1a1a1;
+}
+.newnexthomeslide  button.active {
+    background-color: #f37428 !important;
+}
+.mynewslides img {
+    width: 100%;
+}
+.newnexthomeslide .carousel-control-next {
+    right: 0;
+}
+
+
+/* new home slide after issue  end*/
+
+
   
   
   /* appoin btn sta*/

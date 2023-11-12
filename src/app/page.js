@@ -20,62 +20,6 @@ export default function Home() {
 
 
 
-
-    // for banner slider start ==============
-    var index = 0;
-    var slides = document.getElementsByClassName("slides");
-    var nextArrow = document.getElementById("next");
-    var previousArrow = document.getElementById("previous");
-    var dotsContainer = document.getElementById("dotsContainer");
-    var dotArray = document.getElementsByClassName("dots");
-
-    createDots();
-    showSlides(index);
-
-    function createDots() {
-      for (var i = 0; i < slides.length; i++) {
-        var dot = document.createElement("span");
-        dot.className = "dots";
-        dotsContainer.appendChild(dot);
-      }
-    }
-
-    function showSlides(x) {
-      if (x > slides.length - 1) {
-        index = 0;
-      }
-      if (x < 0) {
-        index = slides.length - 1;
-      }
-      for (var i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-        dotArray[i].className = "dots";
-      }
-
-      slides[index].style.display = "block";
-      dotArray[index].className += " activeDot";
-    }
-
-    nextArrow.onclick = function () {
-      index += 1;
-      showSlides(index);
-    };
-
-    previousArrow.onclick = function () {
-      index -= 1;
-      showSlides(index);
-    };
-
-    for (var i = 0; i < dotArray.length; i++) {
-      dotArray[i].onclick = (function (i) {
-        return function () {
-          showSlides(i);
-        };
-      })(i);
-    }
-    // for banner slider end =======
-
-
     // for Our Team slider start =======
 
     const customSlider = document.querySelector(".custom-slider");
@@ -243,65 +187,88 @@ export default function Home() {
 
       {/* slider*/}
       <div className="mainslider">
-        <div id="window">
-          <div id="slide-container">
-            <div className="slides">
-              <Image width={1800} height={400}
-                className="slide deckstophead"
-                src="/homeimg/web-bannerHome1.png"
-                alt=""
-              />
-              <Image width={400} height={400}
-                className="slide mobilehead"
-                src="/homeimg/Mobile-banner1-mob.png"
-                alt=""
-              />
+
+
+          <div className="newnexthomeslide">
+            <div id="carouselExampleIndicators" className="carousel slide carousel-fade">
+              <div className="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to={0}
+                  className="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to={1}
+                  aria-label="Slide 2"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to={2}
+                  aria-label="Slide 3"
+                />
+              </div>
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="mynewslides">
+                    <Link href="/doctors">
+                       <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" />
+                       <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" />
+                       <h2 className="forSEOslide">hellow world</h2>
+                    </Link>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="mynewslides">
+                    <Link href="/doctors">
+                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" />
+                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" />
+                      <h2 className="forSEOslide">hellow world</h2>
+                    </Link>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="mynewslides">
+                    <Link href="/doctors">
+                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" />
+                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" />
+                      <h2 className="forSEOslide">hellow world</h2>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span className="carousel-control-prev-icon" aria-hidden="true">
+                  <img src="homeimg/nextleft.png" />
+                </span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span className="carousel-control-next-icon" aria-hidden="true">
+                  <img src="homeimg/nextright.png" />
+                </span>
+                <span className="visually-hidden">Next</span>
+              </button>
             </div>
-            <div className="slides">
-              <Image width={1800} height={400}
-                className="slide deckstophead"
-                src="/homeimg/web-bannerHome1.png"
-                alt=""
-              />
-              <Image width={400} height={400}
-                className="slide mobilehead"
-                src="/homeimg/Mobile-banner1-mob.png"
-                alt=""
-              />
-            </div>
-            <div className="slides">
-              <Image width={1800} height={400}
-                className="slide deckstophead"
-                src="/homeimg/web-bannerHome1.png"
-                alt=""
-              />
-              <Image width={400} height={400}
-                className="slide mobilehead"
-                src="/homeimg/Mobile-banner1-mob.png"
-                alt=""
-              />
-            </div>
-            <div className="slides">
-              <Image width={1800} height={400}
-                className="slide deckstophead"
-                src="/homeimg/web-bannerHome1.png"
-                alt=""
-              />
-              <Image width={400} height={400}
-                className="slide mobilehead"
-                src="/homeimg/Mobile-banner1-mob.png"
-                alt=""
-              />
-            </div>
-            <a id="previous" className="arrow">
-              ❮
-            </a>
-            <a id="next" className="arrow">
-              ❯
-            </a>
           </div>
-          <div id="dotsContainer" />
-        </div>
+
+
+
       </div>
       {/* slider*/}
       {/* appoin btn */}
@@ -318,7 +285,7 @@ export default function Home() {
                     </div>
                     <div className="appmainHea">
 
-                      <Link href="/serchher">
+                      <Link href="/doctors">
                         <p>Find a Doctor</p>
                       </Link>
 

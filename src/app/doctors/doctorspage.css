@@ -353,7 +353,7 @@ div#resultDiv {
 }
 .fordrop {
     text-align: end;
-    margin-top: -55px;
+    margin-top: -40px;
 }
 .formmdiv {
     max-height: 300px;
@@ -596,6 +596,38 @@ ul#paginated-list {
 .myli {
     width: 50%;
 }
+
+.fordrop {
+    text-align: start;
+    margin-top: 10px;
+}
+.dropdown-content {
+    right: auto;
+}
+.dropdown, .dropend, .dropstart, .dropup {
+    width: 100%;
+}
+div#myDropdown {
+    width: 100%;
+}
+#myDropdown  label {
+    font-size: 12px;
+}
+.dropbtn {
+    padding: 7px;
+    font-size: 12px;
+}
+.filimg {
+    width: 27px;
+}
+.DoctorslistSearchbox1 {
+    width: 100%;
+}
+.drlistsearch-container {
+    border-radius: 0;
+}
+
+
 
 /*! Doctors list end*/
 
