@@ -38,18 +38,25 @@ const Doctors = () => {
 
 
 
+    const hidshow = () => {
+
+      document.getElementById("myDropdown").classList.toggle("show");
+
+  
+   };
 
 
 
+
+
+        //---- for api data
         //---- for search bar on page
 
         const [searchQuery, setSearchQuery] = useState("");
 
         //---- for search bar on page
 
-
-
-       //---- for api data
+  
         const searchParams = useSearchParams()
 
         var search = "";
@@ -59,18 +66,19 @@ const Doctors = () => {
         } else {
           search = ""; // Set the default value if 'doc' is not present
         }
-
+       //---- for api data
+       
 
         // store data here
         const [data, setData] = useState(['']);
 
-
+        // for filter box
         const [sepeciality, setSepeciality] = useState(['']);
 
-
+        // for dynamic link appen
         const [mydyno, setmydyno] = useState('');
 
-
+        // for profile late loading
         const [isLoading, setIsLoading] = useState(true); // Declare the isLoading variable
 
         //---- for api data
@@ -154,12 +162,12 @@ const Doctors = () => {
     };
 
 
-    var dynamicLink = document.getElementById("dynamicLink");
+    // var dynamicLink = document.getElementById("dynamicLink");
 
 
-    dynamicLink.onclick = function () {
-      document.getElementById("myDropdown").classList.toggle("show");
-    };
+    // dynamicLink.onclick = function () {
+    //   document.getElementById("myDropdown").classList.toggle("show");
+    // };
 
 
     const colorForm = document.getElementById('colorForm');
@@ -313,7 +321,7 @@ const Doctors = () => {
                       
                           {sepeciality.map((item, index) => (
                       
-                            <div className="myhref">
+                            <div className="myhref" key={index}>
                             <label> 
                                  <input type="checkbox" id={item.specialty_slug} name="colors" /> {item.specialty_name}
                             </label>
@@ -334,7 +342,7 @@ const Doctors = () => {
                     <div id="resultDiv" />
                     <div className="mybtn">
 
-                     <Link id="dynamicLink" href={`/doctors?doc=${mydyno}`}>
+                     <Link onClick={hidshow} id="dynamicLink" href={`/doctors?doc=${mydyno}`}>
                            APPLY FILTER
                     </Link>
 
