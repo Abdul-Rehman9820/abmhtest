@@ -162,14 +162,6 @@ const Doctors = () => {
     };
 
 
-    // var dynamicLink = document.getElementById("dynamicLink");
-
-
-    // dynamicLink.onclick = function () {
-    //   document.getElementById("myDropdown").classList.toggle("show");
-    // };
-
-
     const colorForm = document.getElementById('colorForm');
     const resultDiv = document.getElementById('resultDiv');
 

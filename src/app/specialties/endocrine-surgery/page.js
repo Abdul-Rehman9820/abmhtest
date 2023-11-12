@@ -4,11 +4,11 @@
 import {  useEffect , useState } from "react";
 import Link from 'next/link';
 
-import './OurSpecialties.css'
+import '../OurSpecialties.css'
 
 
 
-const Specialties = () => {
+const Endocrinesurgery = () => {
 
 
 
@@ -41,7 +41,6 @@ const Specialties = () => {
     {/* common heading banner end */}
 
  
-    <button> <Link href="/specialties/endocrine-surgery">Book an Appointment </Link> </button>
 
 
     </>
@@ -55,4 +54,4 @@ const Specialties = () => {
 
 
 
-export default Specialties;
+export default Endocrinesurgery;

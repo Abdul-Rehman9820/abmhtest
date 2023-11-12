@@ -1,0 +1,161 @@
+
+/* ! hospital tour page  start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactiveFAQ{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+
+/* common border heading  start*/ 
+
+.commonheadingCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.commonheadinghead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.commonheadinghead h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.Commheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+
+
+/* common border heading  end*/ 
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! hospital tour page  start*/
+
+
+
+/*! hospital tour page  end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! hospital tour page  start*/
+
+
+
+
+
+
+/*! hospital tour page  end*/
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

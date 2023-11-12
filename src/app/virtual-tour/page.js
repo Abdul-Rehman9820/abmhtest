@@ -19,7 +19,7 @@ const Virtualtour = () => {
 
 
     const newSlider = document.querySelector(".new-slider");
-    const newSlides = document.querySelectorAll(".new-slide");
+    const newSlides = document.querySelectorAll(".new-slidet");
     const newPrevButton = document.getElementById("new-prevButton");
     const newNextButton = document.getElementById("new-nextButton");
     const newSliderDots = document.querySelector(".new-slider-dots");

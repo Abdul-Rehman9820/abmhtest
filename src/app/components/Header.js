@@ -148,7 +148,7 @@ const Header = () => {
                             <span className="BookApimg">
                                 <Image width={1000} height={1000} src="/homeimg/ourspe.png" alt="img" />
                             </span>
-                            <Link href="/serchher">Our Specialties </Link> 
+                            <Link href="/specialties">Our Specialties </Link> 
                             </div>
                         </div>
                         </div>

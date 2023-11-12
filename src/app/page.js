@@ -554,7 +554,7 @@ export default function Home() {
               <span className="headborder" />
             </div>
             <div className="Teamilizationhead">
-              <Link href="/serchher">
+              <Link href="/doctors">
                 <h2>View All</h2>
               </Link>
             </div>
