@@ -41,6 +41,15 @@ const Header = () => {
                       $('.mobile-menu').removeClass('active');
                       return false;
                     });
+
+                    // hide hamb on click then send to next page
+                    $('.closeham').click(function () {
+                      $('.bar').toggleClass('animate');
+                      $('.mobile-menu').removeClass('active');
+                    });
+
+
+
                     /* hamburger js start*/
                 
                 
@@ -292,22 +301,22 @@ const Header = () => {
                     </div>
                     <ul className="navul">
                     <li className="commhamstyle">
-                        <Link href="/">Home </Link> 
+                        <Link className='closeham' href="/">Home </Link> 
                     </li>
                     <li className="commhamstyle">
-                        <Link href="/doctors">Doctors </Link> 
+                        <Link className='closeham' href="/doctors">Doctors </Link> 
                     </li>
                     <li className=" has-children">
                         Patient Care <span className="icon-arrow" />
                         <ul className="children">
                         <li>
-                            <Link href="/serchher">Submenu #1 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #1 </Link> 
                         </li>
                         <li>
-                            <Link href="/serchher">Submenu #2 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #2 </Link> 
                         </li>
                         <li>
-                            <Link href="/serchher">Submenu #3 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #3 </Link> 
                         </li>
                         </ul>
                     </li>
@@ -316,39 +325,39 @@ const Header = () => {
                         <span className="icon-arrow" />
                         <ul className="children">
                         <li>
-                            <Link href="/serchher">Submenu #1 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #1 </Link> 
                         </li>
                         <li>
-                            <Link href="/serchher">Submenu #2 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #2 </Link> 
                         </li>
                         <li>
-                            <Link href="/serchher">Submenu #3 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #3 </Link> 
                         </li>
                         </ul>
                     </li>
                     <li className="commhamstyle">
-                        <Link href="/serchher">Academics </Link> 
+                        <Link className='closeham' href="/serchher">Academics </Link> 
                     </li>
                     <li className="commhamstyle">
-                        <Link href="/serchher">Work with Us </Link> 
+                        <Link className='closeham' href="/serchher">Work with Us </Link> 
                     </li>
                     <li className=" has-children">
                         About Us
                         <span className="icon-arrow" />
                         <ul className="children">
                         <li>
-                            <Link href="/serchher">Submenu #1 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #1 </Link> 
                         </li>
                         <li>
-                            <Link href="/serchher">Submenu #2 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #2 </Link> 
                         </li>
                         <li>
-                            <Link href="/serchher">Submenu #3 </Link> 
+                            <Link className='closeham' href="/serchher">Submenu #3 </Link> 
                         </li>
                         </ul>
                     </li>
                     <li className="commhamstyle">
-                        <Link href="/contact-us">Contact Us </Link> 
+                        <Link className='closeham' href="/contact-us">Contact Us </Link> 
                     </li>
                     </ul>
                     <div className="navbelow">
@@ -359,7 +368,7 @@ const Header = () => {
                         </div>
                         <div className="navbelowbox2">
                         <button className="combtnnav">
-                            <Link href="/serchher">
+                            <Link className='closeham' href="/contact-us">
                             Request a call back
                             <span className="specicon">
                                 <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
