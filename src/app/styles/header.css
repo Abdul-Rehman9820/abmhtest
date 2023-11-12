@@ -444,10 +444,18 @@ span.specicon img {
   width: 100%;
 }
 
-
-
-
-
+ul.children {
+  list-style-type: none;
+}
+ul.children li {
+  line-height: 0px;
+}
+ul.children a {
+  font-size: 12px;
+}
+ul.children {
+    background: white !important;
+}
 
 
 

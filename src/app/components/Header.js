@@ -302,10 +302,7 @@ const Header = () => {
                     <ul className="navul">
                     <li className="commhamstyle">
                         <Link className='closeham' href="/">Home </Link> 
-                    </li>
-                    <li className="commhamstyle">
-                        <Link className='closeham' href="/doctors">Doctors </Link> 
-                    </li>
+                    </li>                 
                     <li className=" has-children">
                         Patient Care <span className="icon-arrow" />
                         <ul className="children">
@@ -325,13 +322,10 @@ const Header = () => {
                         <span className="icon-arrow" />
                         <ul className="children">
                         <li>
-                            <Link className='closeham' href="/serchher">Submenu #1 </Link> 
+                            <Link className='closeham' href="/doctors">Doctors </Link> 
                         </li>
                         <li>
-                            <Link className='closeham' href="/serchher">Submenu #2 </Link> 
-                        </li>
-                        <li>
-                            <Link className='closeham' href="/serchher">Submenu #3 </Link> 
+                            <Link className='closeham' href="/specialties">Specialties</Link> 
                         </li>
                         </ul>
                     </li>
