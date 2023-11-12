@@ -307,7 +307,7 @@ const Header = () => {
                         Patient Care <span className="icon-arrow" />
                         <ul className="children">
                         <li>
-                            <Link className='closeham' href="/serchher">Submenu #1 </Link> 
+                            <Link className='closeham' href="/virtual-tour">Virtual Tour</Link> 
                         </li>
                         <li>
                             <Link className='closeham' href="/serchher">Submenu #2 </Link> 

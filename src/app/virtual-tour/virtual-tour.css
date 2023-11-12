@@ -1,0 +1,524 @@
+
+/* ! hospital tour page  start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactiveFAQ{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+
+/* common border heading  start*/ 
+
+.commonheadingCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.commonheadinghead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.commonheadinghead h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.Commheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+
+
+/* common border heading  end*/ 
+
+
+
+
+
+/* Hospirtal tour  start*/ 
+
+.Hospirtaltour {
+    padding: 40px 0;
+}
+iframe.turevidiframe {
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    border: 1px solid #ede3e361;
+}
+
+
+/* Hospirtal tour  end*/ 
+
+
+
+
+/* Hospirtal testimonials  start*/ 
+
+.withtestBG {
+    background-image: url("/virtualtour/testimonials-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Hospirtaltourtestim {
+    padding: 50px 0;
+}
+.taltourtestimslidcont {
+    margin-top: 40px;
+}
+
+.myovefts {
+    padding: 10px;
+}
+
+.whychoslideboxts {
+    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
+    border-radius: 10px;
+    padding: 23px 39px;
+    margin-right: 25px;
+    position: relative;
+    background: white;
+}
+
+.whychobox1ts {
+    padding: 5px 1px 9px 1px;
+}
+
+
+.whychoimgts img {
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.whychonamets h2 {
+    font-size: 20px;
+    color: black;
+    display: inline;
+    border-bottom: 1px solid  #a21b18;
+    padding-bottom: 3px;
+}
+.whychonameforts h2 {
+    font-size: 17px;
+    color: black;
+    font-weight: 300;
+    display: inline;
+}
+.whychonameforts {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.whychospects h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    font-weight: 500;
+    /* width: 450px; */
+}
+
+.whychoimgbox2ts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.whychocombtn {
+    border: navajowhite;
+    background-color: #fff9e0;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.whychocombtn a {
+    display: flex;
+    align-items: center;
+}
+.whychocombtn a {
+    color: black;
+    font-size: 15px;
+}
+span.specicon {
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+span.specicon img {
+    width: 100%;
+}
+.whychoimgbox2col1ts {
+    width: 30%;
+}
+.whychoimgbox2col2ts {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+ /* Style the carousel */
+ .new-slider-wrapper {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.new-slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+.new-slidet {
+    flex: 0 0 calc(100% / 2);
+}
+
+
+/* Style the dots */
+.new-slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.new-slider-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #888;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.new-slider-dot.activeFAQ {
+    background-color: #333;
+}
+.new-slider-dots{
+    visibility: hidden;
+}
+#new-nextButton {
+    background: none;
+    border: none;
+}
+#new-prevButton {
+    background: none;
+    border: none;
+}
+
+.new-sliderbtn img {
+width: 30px;
+
+}
+.new-sliderbtn {
+display: flex;
+justify-content: end;
+width: 100%;
+margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/* Hospirtal testimonials   end*/ 
+
+
+
+/* FAQ for wellness  start */ 
+
+
+.wellnessFAQpart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.wellnessFAQhead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.wellnessFAQpart h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.wellnessFAQ {
+    padding: 40px 0;
+}
+
+
+.accordion {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+  
+  .activeFAQ, .accordion:hover {
+    background-color: #f37428;
+    color: white;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .activeFAQ:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #e5c5b245;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .wellfaqCol {
+    margin-top: 30px;
+  }
+  .panel p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+
+button.accordion {
+    position: relative;
+}
+
+button.accordion:before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 0;
+    top: 44%;
+    background: #a21b18;
+    border-radius: 50%;
+}
+
+/* FAQ for wellness  end*/ 
+
+
+
+/*! hospital tour page  end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! hospital tour page  start*/
+
+.lablebox1 h2 {
+    font-size: 15px;
+}
+.labchocombtn a {
+    font-size: 14px;
+}
+.lableseemore h2 {
+    font-size: 15px;
+}
+
+.homwcareparacol1 {
+    width: 100%;
+    padding-right: 0px;
+}
+.homwcareparacol2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+/*! hospital tour page  end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! hospital tour page  start*/
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+
+iframe.turevidiframe {
+    height: 180px;
+}
+
+.whychospects h2 {
+    width: 230px;
+    font-size: 15px;
+}
+
+.whychoslideboxts {
+    padding: 20px;
+}
+.whychoimgbox2col1ts {
+    width: 100%;
+}
+.whychoimgbox2col2ts {
+    width: 100%;
+}
+.new-slide {
+    flex: 0 0 calc(100% / 1);
+}
+
+
+
+.accordion {
+    font-size: 14px;
+}
+.lablebox1 h2 {
+    font-size: 16px;
+}
+.lableseemore h2 {
+    font-size: 14px;
+}
+.labchocombtn a {
+    font-size: 13px;
+}
+
+
+/*! hospital tour page  end*/
+
+
+
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
