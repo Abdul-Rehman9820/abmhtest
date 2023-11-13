@@ -1,5 +1,5 @@
 
-/* ! hospital tour page  start*/ 
+/* ! specialties page  start*/ 
 
 
 
@@ -17,7 +17,7 @@
 }
 
 
-.breadcrumbsactiveFAQ{
+.breadcrumbsactive{
     color: #A21B18;
 }
 
@@ -36,6 +36,8 @@
 
 /* common border heading  start*/ 
 
+
+/* static specialty ------------*/ 
 .commonheadingCont {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +71,201 @@
 /* common border heading  end*/ 
 
 
+.specialParentcont {
+    padding: 40px 0;
+}
+
+
+.specialmaincont {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.specboxes {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #00000014;
+}
+
+.speboxloopcon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.speboxhead h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    font-family: Poppins;
+    padding-left: 15px;
+}
+.spaccont {
+    width: 33%;
+    padding: 15px;
+}
+.speforwhitbgsp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0pt 0pt 16pt rgb(0 0 0 / 7%);
+}
+.spefColiconContsp img {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.speforwhitbgCol1sp h2 {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.colorstyleblack {
+    color: black;
+}
+.colorstyleRED {
+    color: #b33238;
+}
+.colorstyleWHITE {
+    color: #fffbed;
+}
+.backgColorYellow {
+    background: #fffbed;
+}
+.backgColorGry {
+    background: #e6e6e682;
+}
+.backgColorRED {
+    background: #a21b18;
+}
+
+
+/* TAB specialty ------------*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    text-align: center;
+}
+
+.tab button {
+    background-color: #ccc;
+    color: white;
+    margin: auto;
+    padding: 8px 18px;
+    box-shadow: 0pt 3pt 2pt rgb(0 0 0 / 22%);
+    cursor: pointer;
+    margin-right: 5px;
+    outline: none;
+    border: navajowhite;
+    margin-bottom: 10px;
+}
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active1 {
+    background-color: #A21B18;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+  }
+
+  .redcolor{
+    background-color: #A21B18 !important;
+  }
+  .orangecolor{
+    background-color: #F37428 !important;
+  }
+
+
+
+/* search specialty ------------*/
+
+#myInputsp {
+    background: #b7acac1a;
+    border: #ffdead;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.checkboxcontsp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.spefColiconContspsearch img {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.spaccontsearch {
+    padding: 15px;
+}
+
+
+.speforwhitbgsearch {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0pt 0pt 16pt rgb(0 0 0 / 7%);
+}
+
+.speforwhitbgCol1spsearch h2 {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.myhrefsp {
+    width: 33%;
+    padding: 10px;
+}
+
+.diparmenthideORkeywords{
+    display: none;
+}
+
+#myInputsp:focus {
+    outline: 1px solid red;
+}
+
+#myDropdownsp {
+    padding-top: 30px;
+}
+
+
+
+
+/*! specialties page  end*/
+
+
+
+
+
+
 
 
 /* Tab div 768 to 1300 start*/
@@ -76,11 +273,18 @@
 @media screen and (max-width: 1299px) and (min-width: 768px) {
 
 
-/*! hospital tour page  start*/
+
+/*! specialties  start*/
+
+.speforwhitbgCol1spsearch h2 {
+    font-size: 13px;
+}
+.speforwhitbgCol1sp h2 {
+    font-size: 13px;
+}
 
 
-
-/*! hospital tour page  end*/
+/*! specialties end*/
 
 
 
@@ -100,16 +304,72 @@
 
 @media only screen and (max-width: 767px) {
   
+ 
+/*! specialties start*/
 
-/*! hospital tour page  start*/
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+
+.myhrefsp {
+    width: 50%;
+    padding: 5px;
+}
+.spaccontsearch {
+    padding: 0;
+}
+.speforwhitbgCol1spsearch h2 {
+    font-size: 12px;
+}
+.spefColiconContspsearch img {
+    width: 60px;
+}
+
+.speforwhitbgsearch {
+    min-height: 150px;
+    padding: 10px;
+}
+.checkboxcontsp {
+    margin-top: 20px;
+}
+
+
+.specboxes {
+    padding: 20px 0;
+}
+.spaccont {
+    width: 50%;
+}
+.speforwhitbgCol1sp h2 {
+    font-size: 12px;
+}
+.spefColiconContsp img {
+    width: 60px;
+}
+.spaccont {
+    padding: 5px;
+}
+
+.speforwhitbgsp {
+    padding: 10px;
+    min-height: 150px;
+}
+
+.speboxhead h2 {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.tab button {
+    padding: 5px 8px;
+    font-size: 14px;
+}
 
 
 
 
-
-
-/*! hospital tour page  end*/
-
+/*! specialties end*/
 
 }
 
