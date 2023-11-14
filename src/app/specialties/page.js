@@ -123,9 +123,9 @@ const Specialties = () => {
                             <img src="specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
-                              <h2>Diabetology</h2>
-                            </a>
+                            <Link href="/specialties/Cardiology">
+                                  <h2>Cardiology</h2>
+                            </Link>                   
                           </div>
                         </div>
                       </div>

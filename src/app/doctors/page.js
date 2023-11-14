@@ -138,7 +138,7 @@ const Doctors = () => {
 
         setSepeciality(resultsp.data);
 
-        console.log(resultsp.data);
+        // console.log(resultsp.data);
 
       } catch (error) {
         console.error(error);
