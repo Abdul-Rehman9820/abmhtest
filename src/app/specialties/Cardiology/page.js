@@ -11,87 +11,66 @@ import '../specialityviewpagecommon.css'
 const Cardiology = () => {
 
 
+  // store data here
+  const [data, setData] = useState(['']);
+
+  // for profile late loading
+  const [isLoading, setIsLoading] = useState(true); // Declare the isLoading variable
+
+  //---- for api data
+
+
   useEffect(() => {
 
 
+    // api for profile
 
-    // for Our Team slider start =======
 
-    const customSlider = document.querySelector(".custom-slider");
-    const customSlides = document.querySelectorAll(".custom-slide");
-    const customPrevButton = document.getElementById("custom-prevButton");
-    const customNextButton = document.getElementById("custom-nextButton");
-    const customSliderDots = document.querySelector(".custom-slider-dots");
-
-    let customCurrentSlide = 0;
-    const customSlidesToShow = 4; // Number of slides to show at a time
-    const customSlideWidth = 100 / customSlidesToShow;
-    const customSlideCount = customSlides.length;
-
-    function customShowSlide() {
-      const translateX = -customCurrentSlide * customSlideWidth;
-      customSlider.style.transform = `translateX(${translateX}%)`;
-      customUpdateDots();
-    }
-
-    function customGoToNextSlide() {
-      customCurrentSlide = (customCurrentSlide + 1) % customSlideCount;
-      customShowSlide();
-    }
-
-    function customGoToPrevSlide() {
-      customCurrentSlide = (customCurrentSlide - 1 + customSlideCount) % customSlideCount;
-      customShowSlide();
-    }
-
-    function customCreateDots() {
-      for (let i = 0; i < customSlideCount; i++) {
-        const customDot = document.createElement("span");
-        customDot.className = "custom-slider-dot";
-        customDot.addEventListener("click", () => {
-          customCurrentSlide = i;
-          customShowSlide();
+    async function fetchData() {
+      try {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/profilebyspecilitypage`, {
+          method: "POST",
+          body: JSON.stringify({
+            usersearch: "cardiology",
+          }),
         });
-        customSliderDots.appendChild(customDot);
+
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const result = await response.json();
+
+        // Wait for API response to return before initializing the slider
+        // await new Promise((resolve) => setTimeout(resolve, 500));
+
+        setData(result.data);
+        setIsLoading(false);
+        console.log(result.data);
+      } catch (error) {
+        console.error(error);
       }
     }
 
-    function customUpdateDots() {
-      const customDots = document.querySelectorAll(".custom-slider-dot");
-      customDots.forEach((customDot, i) => {
-        if (i === customCurrentSlide) {
-          customDot.classList.add("active");
-        } else {
-          customDot.classList.remove("active");
-        }
-      });
-    }
 
-    customCreateDots();
-    customShowSlide();
+    fetchData();
 
-    // Auto-slide
-    let customAutoSlideInterval = setInterval(customGoToNextSlide, 5000); // Change slide every 3 seconds
 
-    // Pause auto-slide on mouse hover
-    customSlider.addEventListener("mouseenter", () => {
-      clearInterval(customAutoSlideInterval);
-    });
+    // api for profile
 
-    // Resume auto-slide when the mouse leaves the carousel
-    customSlider.addEventListener("mouseleave", () => {
-      customAutoSlideInterval = setInterval(customGoToNextSlide, 3000);
-    });
 
-    customNextButton.addEventListener("click", customGoToNextSlide);
-    customPrevButton.addEventListener("click", customGoToPrevSlide);
-
-    // for Our Team slider end =======
-    
 
   }, []);
 
-
+  // Group profiles into sets of three
+  const groupedProfiles = data.reduce((accumulator, profile, index) => {
+    if (index % 3 === 0) {
+      accumulator.push([profile]);
+    } else {
+      accumulator[accumulator.length - 1].push(profile);
+    }
+    return accumulator;
+  }, []);
 
 
   return (
@@ -229,6 +208,8 @@ const Cardiology = () => {
           </div>
         </div>
       </div>
+
+
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleDoclist">
@@ -236,158 +217,99 @@ const Cardiology = () => {
               <h2 className="spetileh1gr">Our Team Of Experts</h2>
               <span className="headbordergr" />
             </div>
-            <div className="ourteampar">
-              <div className="ourteamslidepar">
-                <div className="custom-slider-wrapper">
-                  <div className="custom-slider">
-                    <div className="custom-slide">
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
-                              <img src="/homeimg/OurTeamExperts1.png" alt="img" />
+
+
+            <div className="ourteamparsingle">
+
+              <div
+                id="carouselExampleIndicators"
+                className="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+
+                <div className="carousel-inner">
+
+
+                  {isLoading ? (
+                    <div className="loading-message">Loading doctors...</div>
+                  ) : data.length === 0 ? (
+                    <div className="empty-message">No doctors found</div>
+                  ) : (
+                    groupedProfiles.map((item, index) => (
+                      <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
+                        <div className="row mycentr">
+                          {item.map((profile, profileIndex) => (
+
+
+                            <div className="ourteamslidchilbosingle" key={profileIndex}>
+                              <div className="ourteamslidebox">
+                                <div className="ourteambox1single">
+                                  <div className="ourteamimg">
+                                    <img src={`/DoctorsProfileimages/${profile.DoctorProfileImage}`} alt="img" />
+                                  </div>
+                                  <div className="ourteamnamesing">
+                                    <h2>{profile.DoctorFName} {profile.DoctorLName}</h2>
+                                  </div>
+                                  <div className="ourteamspec">
+                                    <h2>{profile.DoctorSpeciality}</h2>
+                                  </div>
+                                  <div className="ourteamexpi">
+                                    <h2>{profile.DoctorExperience} years of experience</h2>
+                                  </div>
+                                </div>
+                                <div className="ourteambox2">
+                                  <div className="ourteambox2flex">
+                                    <a className="bookappoteam" href="#">
+                                      View Profile
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <div className="ourteamname">
-                              <h2>Dr Khushboo P.</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>Cardiologist</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                              <h2>40+ years of experience </h2>
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <a className="bookappoteam" href="#">
-                                View Profile
-                              </a>
-                            </div>
-                          </div>
+
+
+                          ))}
                         </div>
                       </div>
-                    </div>
-                    <div className="custom-slide">
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
-                              <img src="/homeimg/OurTeamExperts2.png" alt="img" />
-                            </div>
-                            <div className="ourteamname">
-                              <h2>Dr Pooja H.</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>Physiotherapist</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                              <h2>37+ years experience</h2>
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <a className="bookappoteam" href="#">
-                                View Profile
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="custom-slide">
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
-                              <img src="/homeimg/OurTeamExperts3.png" alt="img" />
-                            </div>
-                            <div className="ourteamname">
-                              <h2>Dr Vishal M.</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>ENT</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                              <h2>29+ years experience</h2>
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <a className="bookappoteam" href="#">
-                                View Profile
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="custom-slide">
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
-                              <img src="/homeimg/OurTeamExperts2.png" alt="img" />
-                            </div>
-                            <div className="ourteamname">
-                              <h2>Dr Khushboo K.</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>Cardiologist</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                              <h2>40+ years of experience&nbsp;</h2>
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <a className="bookappoteam" href="#">
-                                View Profile
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="custom-slide">
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
-                              <img src="/homeimg/OurTeamExperts3.png" alt="img" />
-                            </div>
-                            <div className="ourteamname">
-                              <h2>Dr Vishal M.</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>ENT</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                              <h2>29+ years experience</h2>
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <a className="bookappoteam" href="#">
-                                View Profile
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Add more slides here */}
-                  </div>
+                    ))
+                  )}
+
+
+
+
                 </div>
-                <div className="custom-slider-dots"></div>
-                <div className="customslidebth">
-                  <button id="custom-prevButton">
-                    <img src="/homeimg/nextleft.png" alt="img" />
-                  </button>
-                  <button id="custom-nextButton">
-                    <img src="/homeimg/nextright.png" alt="img" />
-                  </button>
-                </div>
+
+
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span className="carousel-control-prev-icon smallimg" aria-hidden="true">
+                     <img src="/homeimg/nextleft.png" />
+                  </span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span className="carousel-control-next-icon smallimg" aria-hidden="true">
+                    <img src="/homeimg/nextright.png" />
+                  </span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+
               </div>
+
+
+
+
+
             </div>
           </div>
         </div>

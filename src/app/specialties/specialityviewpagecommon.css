@@ -149,7 +149,11 @@ p.specilpara {
 
 /* our team slider*/
 
-.ourteamslidchilbo {
+.ourteamslidchilbosingle {
+    width: 30% !important;
+}
+
+.ourteamslidchilbosingle {
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 5px;
@@ -165,8 +169,8 @@ p.specilpara {
     background: white;
 }
 
-.ourteambox1 {
-    padding: 10px 70px;
+.ourteambox1single {
+    padding: 10px;
 }
 
 .ourteamimg img {
@@ -182,8 +186,8 @@ p.specilpara {
     margin-top: 13px;
 }
 
-.ourteamname h2 {
-    font-size: 20px;
+.ourteamnamesing h2 {
+    font-size: 18px;
     color: #000000;
     text-align: center;
 }
@@ -229,71 +233,14 @@ p.specilpara {
     width: 100%;
 }
 
-
-.custom-slider-wrapper {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
+.smallimg img {
+    width: 100% !important;
 }
 
-.custom-slider {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-    width: 125%;
-}
-
-.custom-slide {
-    flex: 0 0 calc(100% / 4);
-}
-
-.customslidebth img {
-    width: 30px;
-}
-
-/* Style the navigation buttons */
-.custom-button {
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-/* Style the dots */
-.custom-slider-dots {
-    display: flex;
+.mycentr{
     justify-content: center;
-    margin-top: 10px;
-    visibility: hidden;
 }
 
-.custom-slider-dot {
-    width: 12px;
-    height: 12px;
-    background-color: #888;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.custom-slider-dot.active {
-    background-color: #333;
-}
-
-button#custom-prevButton {
-    background: unset;
-    border: 0;
-}
-
-button#custom-nextButton {
-    background: unset;
-    border: 0;
-}
-
-.customslidebth {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-}
 
 /* our team slider*/
 
@@ -354,6 +301,8 @@ button#custom-nextButton {
 
 
   /* for slider -----*/
+
+
     .custom-slide {
         flex: 0 0 calc(100% / 3);
     }
@@ -362,8 +311,8 @@ button#custom-nextButton {
         margin-right: 0;
     }
 
-    .ourteambox1 {
-        padding: 5px 10px;
+    .ourteambox1single {
+        padding: 2px;
     }
 
     .ourteamimg img {
@@ -375,25 +324,6 @@ button#custom-nextButton {
         margin-top: 5px;
     }
 
-    .ourteampar h2 {
-        margin-top: 0;
-        margin-bottom: 2px;
-    }
-
-    .ourteampar h2 {
-        margin-top: 0;
-        margin-bottom: 2px;
-    }
-
-    .ourteamexpi {
-        border-top: 1px solid #901412;
-        margin-top: 0px;
-    }
-
-    .ourteampar h2 {
-        margin-top: 0;
-        margin-bottom: 2px;
-    }
 
     .ourteambox2 {
         margin-top: 0px;
@@ -403,7 +333,7 @@ button#custom-nextButton {
         border-radius: 0px 0px 5px 5px;
     }
 
-    .ourteamname h2 {
+    .ourteamnamesing h2 {
         font-size: 9px;
     }
     .ourteamspec h2 {
@@ -467,6 +397,13 @@ button#custom-nextButton {
     }
     .testimgboxcont {
         padding: 5px;
+    }
+    .ourteamslidchilbosingle {
+        padding: 0px !important;
+    }
+
+    .ourteamslidebox {
+        height: 100%;
     }
 
 
