@@ -159,7 +159,7 @@
   .OurSpecialties h2 {
       font-size: 23px;
       font-weight: 500;
-      margin-top: 5px;
+      margin-top: 5px;   
   }
   .speforcolpar {
       display: flex;
@@ -179,7 +179,9 @@
       align-content: flex-start;
       justify-content: space-between;
   }
-  
+  .speforwhitbgCol1 h2{
+    color: black;
+  }
   
   .speforwhitbgCol1 img {
       width: 100%;

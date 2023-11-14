@@ -1,0 +1,315 @@
+
+/* ! viewprofile page  start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+.doctrodatcont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.proimgsection {
+    width: 35%;
+}
+.prodatasection {
+    width: 65%;
+    padding-left: 30px;
+}
+
+.profileimg img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #aba7a71a;
+}
+
+.profilename h1 {
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+.profileSpeciality h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.profileborder span {
+    height: 2px;
+    background: #a21b18;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.profileexpe h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profilebutton {
+    background-color: #A21B18;
+    color: white;
+    border-radius: 7px;
+    margin: auto;
+    padding: 8px 18px;
+    box-shadow: 0pt 3pt 2pt rgb(0 0 0 / 22%);
+}
+.profilebutton a {
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+
+/* bootstrap ----------*/
+.mynewtab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #A21B18;
+    background-color: #FFFBED;
+    border: 1px solid #a4221f;
+}
+
+.mynewtab .nav-pills .nav-link {
+    background: #F1F1F1;
+    color: #aba4a4;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 18px;
+    margin-right: 10px;
+}
+.dbdata {
+    background: #FFF9E0;
+    border: 1px solid #a21b18;
+    padding: 20px;
+}
+
+/* bootstrap ----------*/
+
+
+.datadivhiading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.datadivpara {
+    font-size: 16px;
+    font-weight: 400;
+}
+.prodataDIV {
+    margin-bottom: 40px;
+}
+span.roundred {
+    width: 12px;
+    display: inline-block;
+    height: 12px;
+    background: #a21b18;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.animatedheading {
+    margin-bottom: 10px;
+}
+.doctorviewprofile {
+    padding: 30px 0;
+}
+
+
+
+/*! viewprofile page  end*/
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! viewprofile  start*/
+
+.profilename h1 {
+    font-size: 16px;
+}
+.profilebutton a {
+    font-size: 15px;
+}
+.profileexpe h2 {
+    font-size: 16px;
+}
+.profileSpeciality h2 {
+    font-size: 16px;
+}
+.profileimg img {
+    height: 230px;
+}
+.mynewtab .nav-pills .nav-link {
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 3px;
+}
+
+
+/*! viewprofile end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! viewprofile start*/
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+.proimgsection {
+    width: 100%;
+}
+.prodatasection {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 40px;
+}
+.datadivhiading {
+    font-size: 18px;
+}
+.datadivpara {
+    font-size: 13px;
+}
+.profileimg img {
+    height: 300px;
+}
+.profilename h1 {
+    font-size: 17px;
+}
+.profileSpeciality h2 {
+    font-size: 16px;
+}
+.profileexpe h2 {
+    font-size: 16px;
+}
+
+.profilebutton a {
+    font-size: 16px;
+}
+.mynewtab .nav-pills .nav-link {
+    font-size: 13px;
+    margin-right: 2px;
+}
+li.nav-item {
+    width: 100%;
+}
+.nav-link {
+    width: 100%;
+}
+.mynewtab .nav-pills .nav-link {
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.animatedheading {
+    font-size: 13px;
+}
+.doctorviewprofile {
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.dbdata {
+    padding: 10px;
+}
+
+
+/*! viewprofile end*/
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

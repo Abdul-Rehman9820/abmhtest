@@ -361,7 +361,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <h2>Cardiology</h2>
+                    <Link href="/specialties/Cardiology">
+                        <h2>Cardiology</h2>
+                    </Link>                    
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">

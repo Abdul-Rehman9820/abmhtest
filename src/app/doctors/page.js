@@ -107,7 +107,8 @@ const Doctors = () => {
 
         setData(result.data);
         setIsLoading(false); 
-        console.log(result.data);
+
+        // console.log(result.data);
 
       } catch (error) {
         console.error(error);
