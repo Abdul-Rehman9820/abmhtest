@@ -192,7 +192,7 @@ const Header = () => {
                         </div> */}
 
                                     <div className="navbarmy">
-                                        <a href="#home">Home</a>
+                                        <Link href="/">Home </Link>
                                         <div className="dropdownmy">
                                             <button className="dropbtnmy">
                                                  About Us
@@ -210,9 +210,9 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
+                                                <Link  href="/virtual-tour">Virtual Tour</Link>
+                                                <Link  href="/wellness-packages">Wellness Packages</Link>
+                                                <Link  href="/insurance-and-tpa">Insurance & TPAs</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
@@ -221,9 +221,8 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
+                                                <Link href="/doctors">Doctors </Link>
+                                                <Link href="/specialties">Specialties</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
@@ -357,6 +356,21 @@ const Header = () => {
                                     <Link className='closeham' href="/">Home </Link>
                                 </li>
                                 <li className=" has-children">
+                                    About Us
+                                    <span className="icon-arrow" />
+                                    <ul className="children">
+                                        <li>
+                                            <Link className='closeham' href="/serchher">Submenu #1 </Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/serchher">Submenu #2 </Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/serchher">Submenu #3 </Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className=" has-children">
                                     Patient Care <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
@@ -388,21 +402,7 @@ const Header = () => {
                                 <li className="commhamstyle">
                                     <Link className='closeham' href="/serchher">Work with Us </Link>
                                 </li>
-                                <li className=" has-children">
-                                    About Us
-                                    <span className="icon-arrow" />
-                                    <ul className="children">
-                                        <li>
-                                            <Link className='closeham' href="/serchher">Submenu #1 </Link>
-                                        </li>
-                                        <li>
-                                            <Link className='closeham' href="/serchher">Submenu #2 </Link>
-                                        </li>
-                                        <li>
-                                            <Link className='closeham' href="/serchher">Submenu #3 </Link>
-                                        </li>
-                                    </ul>
-                                </li>
+
                                 <li className="commhamstyle">
                                     <Link className='closeham' href="/contact-us">Contact Us </Link>
                                 </li>
