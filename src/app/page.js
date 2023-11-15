@@ -299,7 +299,7 @@ export default function Home() {
                     </div>
                     <div className="appmainHea">
                       <Link href="/serchher">
-                        <p>Online Consultation</p>{" "}
+                        <p>Online Consultation</p>
                       </Link>
                     </div>
                   </div>
@@ -323,7 +323,7 @@ export default function Home() {
                     </div>
                     <div className="appmainHea">
                       <Link href="/serchher">
-                        {" "}
+                        
                         <p>ABMH International</p>
                       </Link>
                     </div>
@@ -471,7 +471,7 @@ export default function Home() {
             </div>
             <div className="combtndiv">
               <button className="combtn">
-                <Link href="/serchher">
+                <Link href="/specialties">
                   All Specialties
                   <span className="specicon">
                     <Image width={400} height={400} src="/homeimg/right-arrow.png" alt="img" />
@@ -535,7 +535,7 @@ export default function Home() {
             <div className="combtndiv">
               <button className="combtn">
                 <Link href="/serchher">
-                  All Specialties{" "}
+                  All Specialties
                   <span className="specicon">
                     <Image width={400} height={400} src="/homeimg/right-arrow.png" alt="img" />
                   </span>

@@ -172,7 +172,7 @@ const Doctorprofile = () => {
                                 aria-controls="pills-profile"
                                 aria-selected="false"
                               >
-                                Memberships Certifications
+                                Memberships & Certifications
                               </button>
                             </li>
                             <li className="nav-item" role="presentation">

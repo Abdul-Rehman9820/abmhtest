@@ -15,41 +15,27 @@ const SearchBar = async () => {
 
 
 
-  const [searchQuery, setSearchQuery] = useState("");
-
-
 
   return (
 
 
     <>
 
-
-      <Link href="/">
-        <p>home</p>
-      </Link>
+    <div className="parentcontainerwhi">
+      <div className="customcontainer">
 
 
+      <div className="mt-4 mb-4">
 
-      <div className="">
-        <input
-          type="text"
-          name="doc"
-          placeholder="Search"
-          value={searchQuery}
-          onChange={(event) => setSearchQuery(event.target.value)}
-          required
-        />
-        <button>
-          <Link href={`/serchdata?doc=${searchQuery}`}>
-            <p>Search</p>
-          </Link>
-        </button>
+          <h3>Work In Progress .</h3>
+
       </div>
-
-
-
-    </>
+     
+     
+      </div>
+    </div>
+ 
+  </>
 
 
 
