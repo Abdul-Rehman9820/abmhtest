@@ -93,27 +93,27 @@ const Virtualtour = () => {
 
 
                   <div className=" card card-3">
-                    <img className="img_size" src="TPA_img/4.png" />
+                    <Image width={400} height={400}  className="img_size" src="/TPA_img/4.png" alt="img" />
                     <span className="img-text">Alankit Health Care Limited</span>
                   </div>
                   <div className=" card card-3">
-                    <img className="img_size" src="TPA_img/1.png" />
+                    <Image width={400} height={400}  className="img_size" src="/TPA_img/1.png" alt="img" />
                     <span className="img-text">
                       Dedicated Health Services TPA India Pvt Ltd
                     </span>
                   </div>
                   <div className=" card card-3">
-                    <img className="img_size" src="TPA_img/3.png" />
+                    <Image width={400} height={400}  className="img_size" src="/TPA_img/3.png" alt="img" />
                     <span className="img-text">
                       Family Health Plan Insurance TPA Limited
                     </span>
                   </div>
                   <div className=" card card-3">
-                    <img className="img_size" src="TPA_img/2.png" />
+                    <Image width={400} height={400}  className="img_size" src="/TPA_img/2.png" alt="img" />
                     <span className="img-text">Genins India TPA Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <img className="img_size" src="TPA_img/2.png" />
+                    <Image width={400} height={400}  className="img_size" src="/TPA_img/2.png" alt="img" />
                     <span className="img-text">Genins India TPA Ltd</span>
                   </div>
 

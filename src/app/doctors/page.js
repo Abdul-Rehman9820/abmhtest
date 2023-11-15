@@ -356,11 +356,11 @@ const Doctors = () => {
               <ul id="paginated-list" data-current-page={1} aria-live="polite">
 
               {isLoading ? (
-                  <div className="loading-message">Loading doctors...</div>
+                  <div className="loading-message mt-4 mb-4">Loading doctors...</div>
                 ) : (
 
                   data && data.length === 0 ? (
-                      <div className="empty-message">No doctors found</div>
+                      <div className="empty-message mt-4 mb-4">No doctors found</div>
                   ) : (
                     
                     data && data.map((item, index) => (

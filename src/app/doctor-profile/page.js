@@ -94,11 +94,11 @@ const Doctorprofile = () => {
 
 
           {isLoading ? (
-            <div className="loading-message">Loading doctor...</div>
+            <div className="loading-message mt-4 mb-4">Loading doctor...</div>
           ) : (
 
             data.length === 0 ? (
-              <div className="empty-message">No doctor found</div>
+              <div className="empty-message mt-4 mb-4">No doctor found</div>
             ) : (
 
               data.map((item, index) => (

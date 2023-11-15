@@ -459,6 +459,82 @@ ul.children {
 }
 
 
+.navbarmy {
+  overflow: hidden;
+}
+
+.navbarmy a {
+  float: left;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdownmy {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdownmy .dropbtnmy {
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbarmy a:hover, .dropdownmy:hover .dropbtnmy {
+  background-color: #a21b18;
+  color: white !important;
+}
+
+.dropdown-contentmy {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentmy a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-contentmy a:hover {
+  background-color: #ddd;
+}
+
+.dropdownmy:hover .dropdown-contentmy {
+  display: block;
+}
+button.dropbtnmy .fa {
+  margin-left: 5px;
+}
+.navbarmy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown-contentmy a {
+  font-size: 14px;
+}
+
+
+
+
 
 /* header  end*/
 
@@ -484,6 +560,15 @@ ul.children {
     .logoimg img {
         width: 95%;
     }
+
+    .dropdownmy .dropbtnmy {
+      font-size: 12px;
+    }
+    .navbarmy a {
+      font-size: 12px;
+  }
+
+
 
   }
 
