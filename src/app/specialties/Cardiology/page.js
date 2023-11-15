@@ -251,7 +251,7 @@ const Cardiology = () => {
                                     <h2>{profile.DoctorFName} {profile.DoctorLName}</h2>
                                   </div>
                                   <div className="ourteamspec">
-                                    <h2>{profile.DoctorSpeciality}</h2>
+                                    <h2>{profile.specialty_name}</h2>
                                   </div>
                                   <div className="ourteamexpi">
                                     <h2>{profile.DoctorExperience} years of experience</h2>
@@ -259,9 +259,11 @@ const Cardiology = () => {
                                 </div>
                                 <div className="ourteambox2">
                                   <div className="ourteambox2flex">
-                                    <a className="bookappoteam" href="#">
-                                      View Profile
-                                    </a>
+
+                                      <Link className="bookappoteam" href={`/doctor-profile?doc=${profile.DoctorNameSlug}`}>
+                                          View Profile
+                                      </Link> 
+                                    
                                   </div>
                                 </div>
                               </div>

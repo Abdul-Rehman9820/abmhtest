@@ -312,7 +312,7 @@ const Doctors = () => {
 
 
                       
-                          {sepeciality.map((item, index) => (
+                          {sepeciality && sepeciality.map((item, index) => (
                       
                             <div className="myhref" key={index}>
                             <label> 
@@ -359,11 +359,11 @@ const Doctors = () => {
                   <div className="loading-message">Loading doctors...</div>
                 ) : (
 
-                  data.length === 0 ? (
+                  data && data.length === 0 ? (
                       <div className="empty-message">No doctors found</div>
                   ) : (
                     
-                    data.map((item, index) => (
+                    data && data.map((item, index) => (
                       
                     <li className="myli" key={index} id={index}>
                       <div className="ourteamslidchilbodr">
@@ -376,7 +376,7 @@ const Doctors = () => {
                               <h2>{item.DoctorFName} {item.DoctorLName}</h2>
                             </div>
                             <div className="ourteamspecdr">
-                              <h2>{item.DoctorSpeciality}</h2>
+                              <h2>{item.specialty_name}</h2>
                             </div>
                             <div className="ourteamexpidr">
                               <h2>{item.DoctorExperience} years of experience</h2>
@@ -384,9 +384,11 @@ const Doctors = () => {
                           </div>
                           <div className="ourteambox2dr">
                             <div className="ourteambox2flexdr">
-                              <a className="bookappoteamdr" href="#">
-                                View Profile
-                              </a>
+
+                            <Link className="bookappoteamdr" href={`/doctor-profile?doc=${item.DoctorNameSlug}`}>
+                                      View Profile
+                            </Link> 
+                          
                             </div>
                           </div>
                         </div>

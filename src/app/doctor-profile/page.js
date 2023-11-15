@@ -108,7 +108,7 @@ const Doctorprofile = () => {
                   <div className="commonheadcontainer">
                     <div className="breadcrumbs">
                       {/* try to dynamic */}
-                      <title>Hospital in Chinchwad Pune | Aditya Birla Best Multispeciality Hospital</title>
+                      <title>Hospital in Chinchwad Pune | Aditya Birla Best Multispeciality Hospital | Our Doctor</title>
 
                       <div className="breadcrumbsdata">
                         Home / <span className="breadcrumbsactive">{item.DoctorFName} {item.DoctorLName}</span>
@@ -213,18 +213,14 @@ const Doctorprofile = () => {
                                   <div className="redanimatedloopbox">
 
 
-
-
-                                  {item.DoctorExperienceField.split('||').map((experience, expIndex) => (
+                                  {item.DoctorExperienceField && item.DoctorExperienceField.split('||').map((experience, expIndex) => (
                                       <div key={expIndex} className="animatedheading">
                                         <span className="roundred" />
                                         {experience}
                                       </div>
                                     ))}                                                                                                                                                        
                            
-                               
-
-
+                              
                                   </div>
                                 </div>
                                 <div className="prodataDIV">
@@ -243,39 +239,31 @@ const Doctorprofile = () => {
                                 <div className="prodataDIV">
                                   <h3 className="datadivhiading">Memberships</h3>
                                   <div className="redanimatedloopbox">
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Chief Physiotherapist, Aditya Birla Memorial
-                                      Hospital, Pune.
-                                    </div>
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Senior Physiotherapist, National Hospitals, Mumbai.
-                                    </div>
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Junior Physiotherapist, DY Patil Hospital, Navi
-                                      Mumbai.
-                                    </div>
+
+
+                                  {item.DoctorMemberships && item.DoctorMemberships.split('||').map((experience, expIndex) => (
+                                      <div key={expIndex} className="animatedheading">
+                                        <span className="roundred" />
+                                        {experience}
+                                      </div>
+                                    ))}   
+                                 
+
                                   </div>
                                 </div>
                                 <div className="prodataDIV">
                                   <h3 className="datadivhiading">Certifications</h3>
                                   <div className="redanimatedloopbox">
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Chief Physiotherapist, Aditya Birla Memorial
-                                      Hospital, Pune.
-                                    </div>
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Senior Physiotherapist, National Hospitals, Mumbai.
-                                    </div>
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Junior Physiotherapist, DY Patil Hospital, Navi
-                                      Mumbai.
-                                    </div>
+
+
+                                  {item.DoctorCertifications && item.DoctorCertifications.split('||').map((experience, expIndex) => (
+                                      <div key={expIndex} className="animatedheading">
+                                        <span className="roundred" />
+                                        {experience}
+                                      </div>
+                                    ))}  
+
+
                                   </div>
                                 </div>
                               </div>
@@ -290,20 +278,16 @@ const Doctorprofile = () => {
                                 <div className="prodataDIV">
                                   <h3 className="datadivhiading">Publications</h3>
                                   <div className="redanimatedloopbox">
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Chief Physiotherapist, Aditya Birla Memorial
-                                      Hospital, Pune.
-                                    </div>
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Senior Physiotherapist, National Hospitals, Mumbai.
-                                    </div>
-                                    <div className="animatedheading">
-                                      <span className="roundred" />
-                                      Junior Physiotherapist, DY Patil Hospital, Navi
-                                      Mumbai.
-                                    </div>
+
+
+                                  {item.DoctorPublications && item.DoctorPublications.split('||').map((experience, expIndex) => (
+                                      <div key={expIndex} className="animatedheading">
+                                        <span className="roundred" />
+                                        {experience}
+                                      </div>
+                                    ))}  
+
+
                                   </div>
                                 </div>
                               </div>
