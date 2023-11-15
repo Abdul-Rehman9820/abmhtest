@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 import Link from 'next/link';
 
 import '../specialityviewpagecommon.css'
@@ -106,7 +107,7 @@ const Cardiology = () => {
             </div>
             <div className="spectitleimgbox">
               <div className="spectitleimgbox1">
-                <img src="/specialityviewimag/cardiospeimg.png" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/cardiospeimg.png" alt="img" />
               </div>
               <div className="spectitleimgbox2">
                 <p className="specilpara">
@@ -161,7 +162,7 @@ const Cardiology = () => {
               <div className="spectitlegrcont2">
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/spegryimg.png" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/spegryimg.png" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">
@@ -172,7 +173,7 @@ const Cardiology = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/spegryimg.png" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/spegryimg.png" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">
@@ -183,7 +184,7 @@ const Cardiology = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/spegryimg.png" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/spegryimg.png" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">
@@ -194,7 +195,7 @@ const Cardiology = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/spegryimg.png" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/spegryimg.png" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">
@@ -245,7 +246,7 @@ const Cardiology = () => {
                               <div className="ourteamslidebox">
                                 <div className="ourteambox1single">
                                   <div className="ourteamimg">
-                                    <img src={`/DoctorsProfileimages/${profile.DoctorProfileImage}`} alt="img" />
+                                    <Image width={400} height={400} src={`/DoctorsProfileimages/${profile.DoctorProfileImage}`} alt="img" />
                                   </div>
                                   <div className="ourteamnamesing">
                                     <h2>{profile.DoctorFName} {profile.DoctorLName}</h2>
@@ -289,7 +290,7 @@ const Cardiology = () => {
                   data-bs-slide="prev"
                 >
                   <span className="carousel-control-prev-icon smallimg" aria-hidden="true">
-                     <img src="/homeimg/nextleft.png" />
+                     <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
                   </span>
                   <span className="visually-hidden">Previous</span>
                 </button>
@@ -301,7 +302,7 @@ const Cardiology = () => {
                   data-bs-slide="next"
                 >
                   <span className="carousel-control-next-icon smallimg" aria-hidden="true">
-                    <img src="/homeimg/nextright.png" />
+                    <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
                   </span>
                   <span className="visually-hidden">Next</span>
                 </button>

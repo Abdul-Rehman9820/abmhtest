@@ -3,7 +3,7 @@
 "use client";
 
 import {  useEffect , useState } from "react";
-
+import Image from 'next/image';
 
 import './virtual-tour.css'
 
@@ -197,7 +197,7 @@ const Virtualtour = () => {
                         <div className="whychoimgbox2ts">
                           <div className="whychoimgbox2col1ts">
                             <div className="whychoimgts">
-                              <img src="virtualtour/innertesti.png" alt="img" />
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
                             </div>
                           </div>
                           <div className="whychoimgbox2col2ts">
@@ -232,7 +232,7 @@ const Virtualtour = () => {
                         <div className="whychoimgbox2ts">
                           <div className="whychoimgbox2col1ts">
                             <div className="whychoimgts">
-                              <img src="virtualtour/innertesti.png" alt="img" />
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
                             </div>
                           </div>
                           <div className="whychoimgbox2col2ts">
@@ -267,7 +267,7 @@ const Virtualtour = () => {
                         <div className="whychoimgbox2ts">
                           <div className="whychoimgbox2col1ts">
                             <div className="whychoimgts">
-                              <img src="virtualtour/innertesti.png" alt="img" />
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
                             </div>
                           </div>
                           <div className="whychoimgbox2col2ts">
@@ -302,7 +302,7 @@ const Virtualtour = () => {
                         <div className="whychoimgbox2ts">
                           <div className="whychoimgbox2col1ts">
                             <div className="whychoimgts">
-                              <img src="virtualtour/innertesti.png" alt="img" />
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
                             </div>
                           </div>
                           <div className="whychoimgbox2col2ts">
@@ -330,10 +330,10 @@ const Virtualtour = () => {
             </div>
             <div className="new-sliderbtn">
               <button id="new-prevButton">
-                <img src="virtualtour/nextleft.png" alt="img" />
+                <Image width={400} height={400} src="/virtualtour/nextleft.png" alt="img" />
               </button>
               <button id="new-nextButton">
-                <img src="virtualtour/nextright.png" alt="img" />
+                <Image width={400} height={400} src="/virtualtour/nextright.png" alt="img" />
               </button>
             </div>
           </div>

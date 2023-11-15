@@ -3,6 +3,8 @@
 "use client";
 
 import {  useState } from "react";
+import Image from 'next/image';
+import Link from 'next/link';
 
 
 import './contact-us.css'
@@ -224,15 +226,15 @@ const Contactus = () => {
                     <div className="contact_info_sec">
                       <h4>Contact Info</h4>
                       <div className="d-flex info_single align-items-center">
-                        <img src="/contactus/phone-icon.png" className="conticon" alt="img" />
+                        <Image width={400} height={400} src="/contactus/phone-icon.png" className="conticon" alt="img" />
                         <span>+91 98811 23006</span>
                       </div>
                       <div className="d-flex info_single align-items-center">
-                        <img src="/contactus/email-icon.png" className="conticon" alt="img" />
+                        <Image width={400} height={400} src="/contactus/email-icon.png" className="conticon" alt="img" />
                         <span>doctorshealthcare@adityabirla.com</span>
                       </div>
                       <div className="d-flex info_single align-items-center">
-                        <img src="/contactus/addr-icon.png" className="conticon" alt="img" />
+                        <Image width={400} height={400} src="/contactus/addr-icon.png" className="conticon" alt="img" />
                         <span>
                           ADITYA BIRLA MEMORIAL HOSPITAL, ADITYA BIRLA MARG,
                           CHINCHWAD, PUNE - 411033, MAHARASHTRA , INDIA.

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 14, 2023 at 09:30 AM
+-- Generation Time: Nov 15, 2023 at 09:20 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.1.17
 
@@ -52,12 +52,18 @@ CREATE TABLE `abmh_doctors` (
   `id` int(255) NOT NULL,
   `DoctorFName` varchar(50) DEFAULT NULL,
   `DoctorLName` varchar(50) DEFAULT NULL,
+  `DoctorNameSlug` varchar(255) DEFAULT NULL,
   `DoctorExperience` varchar(255) DEFAULT NULL,
   `DoctorProfileImage` varchar(255) DEFAULT NULL,
   `DoctorSpeciality` varchar(255) DEFAULT NULL,
   `DoctorSpecialityList` varchar(255) DEFAULT NULL,
   `DoctorDesignation` varchar(50) DEFAULT NULL,
-  `DoctoAbout` text DEFAULT NULL,
+  `DoctoAboutme` text DEFAULT NULL,
+  `DoctorExperienceField` text DEFAULT NULL,
+  `DoctorLanguagesSpoken` text DEFAULT NULL,
+  `DoctorMemberships` text DEFAULT NULL,
+  `DoctorCertifications` text DEFAULT NULL,
+  `DoctorPublications` text DEFAULT NULL,
   `SpecialtyID` varchar(255) DEFAULT NULL,
   `isactive` tinyint(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -66,11 +72,14 @@ CREATE TABLE `abmh_doctors` (
 -- Dumping data for table `abmh_doctors`
 --
 
-INSERT INTO `abmh_doctors` (`id`, `DoctorFName`, `DoctorLName`, `DoctorExperience`, `DoctorProfileImage`, `DoctorSpeciality`, `DoctorSpecialityList`, `DoctorDesignation`, `DoctoAbout`, `SpecialtyID`, `isactive`) VALUES
-(1, 'Dr Abdul Rehman ', 'Ansari', '10', 'OurTeamExperts1.png', 'Cardiology', 'Neurosurgery1, Neurosurgery2', 'Cardiology Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', '1', 1),
-(2, 'Dr Prathamesh ', 'K', '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', '3', 1),
-(3, 'Dr Prathamesh 2', 'Kanaskar', '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', '5', 1),
-(4, 'Dr Abdul Rehman 2', 'Ansari', '10', 'OurTeamExperts1.png', 'Cardiology', 'Neurosurgery1, Neurosurgery2', 'Cardiology Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', '2', 1);
+INSERT INTO `abmh_doctors` (`id`, `DoctorFName`, `DoctorLName`, `DoctorNameSlug`, `DoctorExperience`, `DoctorProfileImage`, `DoctorSpeciality`, `DoctorSpecialityList`, `DoctorDesignation`, `DoctoAboutme`, `DoctorExperienceField`, `DoctorLanguagesSpoken`, `DoctorMemberships`, `DoctorCertifications`, `DoctorPublications`, `SpecialtyID`, `isactive`) VALUES
+(1, 'Dr. Abdul Rehman ', 'Ansari', 'Dr-Abdul-Rehman-Ansari', '10', 'OurTeamExperts1.png', 'Cardiology', 'Neurosurgery1, Neurosurgery2', 'Cardiology Designation', 'Dr. Pooja Hiranandani is an experienced\n                                    physiotherapist known for her expertise in optimizing\n                                    physical well-being and mobility. With a focus on\n                                    personalized treatment plans, she helps individuals of\n                                    all ages and conditions regain function and improve\n                                    their quality of life. Dr. Hiranandani is skilled in\n                                    various techniques, including exercises, manual\n                                    therapy, and modalities like heat and ultrasound. Her\n                                    commitment to patient education and rehabilitation\n                                    after surgeries or accidents underscores her\n                                    dedication to holistic health.', 'Chief Physiotherapist, Aditya Birla Memorial Hospital, Pune.||Senior Physiotherapist, National Hospitals, Mumbai.||Junior Physiotherapist, DY Patil Hospital, Navi Mumbai.', 'English, Marathi, Hindi', 'Chief Physiotherapist, Aditya Birla Memorial Hospital, Pune.||Senior Physiotherapist, National Hospitals, Mumbai.||Junior Physiotherapist, DY Patil Hospital, Navi Mumbai.', 'Chief Physiotherapist, Aditya Birla Memorial Hospital, Pune.||Senior Physiotherapist, National Hospitals, Mumbai.||Junior Physiotherapist, DY Patil Hospital, Navi Mumbai.', 'Chief Physiotherapist, Aditya Birla Memorial Hospital, Pune.||Senior Physiotherapist, National Hospitals, Mumbai.||Junior Physiotherapist, DY Patil Hospital, Navi Mumbai.', '8', 1),
+(2, 'Dr Prathamesh ', 'K', 'Dr-Prathamesh-k', '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', NULL, NULL, NULL, NULL, NULL, '8', 1),
+(3, 'Dr Prathamesh 2', 'Kanaskar', NULL, '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', NULL, NULL, NULL, NULL, NULL, '2', 1),
+(4, 'Dr Abdul Rehman 2', 'Ansari', NULL, '10', 'OurTeamExperts1.png', 'Cardiology', 'Neurosurgery1, Neurosurgery2', 'Cardiology Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', NULL, NULL, NULL, NULL, NULL, '7', 0),
+(5, 'Dr Parth 2', 'Kanaskar', NULL, '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', NULL, NULL, NULL, NULL, NULL, '9', 1),
+(6, 'Dr Prany 2', 'Kanaskar', NULL, '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', NULL, NULL, NULL, NULL, NULL, '10', 1),
+(7, 'Dr Dilip', 'Ss', NULL, '20', 'OurTeamExperts2.png', 'Critical Care', 'Neurosurgery1, Neurosurgery2', 'Critical Care Designation', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\r\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\r\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\r\noptio, eaque rerum! Provident similique', NULL, NULL, NULL, NULL, NULL, '12', 1);
 
 -- --------------------------------------------------------
 
@@ -159,7 +168,7 @@ ALTER TABLE `abmh_color`
 -- AUTO_INCREMENT for table `abmh_doctors`
 --
 ALTER TABLE `abmh_doctors`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `abmh_specialty`

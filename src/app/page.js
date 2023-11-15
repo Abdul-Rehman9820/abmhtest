@@ -249,7 +249,7 @@ export default function Home() {
                 data-bs-slide="prev"
               >
                 <span className="carousel-control-prev-icon" aria-hidden="true">
-                  <img src="homeimg/nextleft.png" />
+                  <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
                 </span>
                 <span className="visually-hidden">Previous</span>
               </button>
@@ -260,7 +260,7 @@ export default function Home() {
                 data-bs-slide="next"
               >
                 <span className="carousel-control-next-icon" aria-hidden="true">
-                  <img src="homeimg/nextright.png" />
+                  <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
                 </span>
                 <span className="visually-hidden">Next</span>
               </button>

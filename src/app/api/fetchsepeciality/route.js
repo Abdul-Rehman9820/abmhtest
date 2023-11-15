@@ -22,7 +22,9 @@ export async function POST(req, res) {
               reject(err);
               return;
             }
-            console.log('Query results100:', results);
+
+            // console.log('Query results100:', results);
+
             resolve(results);
           });
         });

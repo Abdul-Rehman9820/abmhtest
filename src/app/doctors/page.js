@@ -292,7 +292,7 @@ const Doctors = () => {
               <div className="fordrop">
                 <div className="dropdown">
                   <button id="formyfucn" className="dropbtn">
-                    <img className="filimg" src="/commonimages/filterimg.png" alt="" />
+                    <Image width={400} height={400} className="filimg" src="/commonimages/filterimg.png" alt="" />
                     FILTER
                   </button>
                   <div id="myDropdown" className="dropdown-content">
@@ -370,7 +370,7 @@ const Doctors = () => {
                         <div className="ourteamslideboxdr">
                           <div className="ourteambox1dr">
                             <div className="ourteamimgdr">
-                              <img src={`DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
+                              <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
                             </div>
                             <div className="ourteamnamedr">
                               <h2>{item.DoctorFName} {item.DoctorLName}</h2>

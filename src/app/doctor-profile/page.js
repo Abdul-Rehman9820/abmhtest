@@ -118,8 +118,8 @@ const Doctorprofile = () => {
                       <div className="proimgsection">
                         <div className="profilebox">
                           <div className="profileimg">
-                            <img
-                              src={`DoctorsProfileimages/${item.DoctorProfileImage}`}
+                            <Image width={400} height={400}
+                              src={`/DoctorsProfileimages/${item.DoctorProfileImage}`}
                               alt="img"
                             />
                           </div>
