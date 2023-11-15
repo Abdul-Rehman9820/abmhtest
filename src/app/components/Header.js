@@ -140,7 +140,7 @@ const Header = () => {
                             <span className="BookApimg">
                                 <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
                             </span>
-                            <Link href="/serchher">Book an Appointment </Link> 
+                            <Link href="/doctors">Book an Appointment </Link> 
                             </div>
                         </div>
                         <div className="twobtnChil twobtnChilorg">
@@ -310,7 +310,7 @@ const Header = () => {
                             <Link className='closeham' href="/virtual-tour">Virtual Tour</Link> 
                         </li>
                         <li>
-                            <Link className='closeham' href="/serchher">Submenu #2 </Link> 
+                            <Link className='closeham' href="/wellness-packages">Wellness Packages</Link> 
                         </li>
                         <li>
                             <Link className='closeham' href="/serchher">Submenu #3 </Link> 

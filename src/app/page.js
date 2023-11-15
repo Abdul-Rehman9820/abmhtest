@@ -310,7 +310,7 @@ export default function Home() {
                       <Image width={400} height={400} src="/homeimg/heart.png" alt="img" />
                     </div>
                     <div className="appmainHea">
-                      <Link href="/serchher">
+                      <Link href="/wellness-packages">
                         <p>Wellness Packages</p>
                       </Link>
                     </div>
