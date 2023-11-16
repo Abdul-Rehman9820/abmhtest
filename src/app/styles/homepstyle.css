@@ -917,6 +917,126 @@
   
   
   /* Why choos end*/
+
+
+  /* Why choos new slider issue start*/
+.mynewslidesforhomwtesti {
+    display: flex;
+    justify-content: center;
+}
+
+.myovefn {
+    margin-top: 100px;
+}
+.whychochilbon {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.whychoslideboxn {
+    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
+    border-radius: 30px;
+    padding: 23px 30px;
+    margin-right: 25px;
+    position: relative;
+    background: #8c100e;
+    background-image: url("/homeimg/WhyUs-BGNew.png");
+}
+.whychobox1n {
+    padding: 5px 1px 9px 1px;
+}
+.whychoimgbox2n {
+    text-align: center;
+    margin-top: 10px;
+}
+.whychoimgn {
+    display: flex;
+}
+.whychoimgn img {
+    width: 130px !important;
+    height: 130px !important;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -120px;
+}
+.whychonamen {
+    margin-top: 10px;
+}
+.whychonamen h2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.whychospecn h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 14px;
+    width: 330px;
+    min-height: 100px;
+}
+.whychocombtnn {
+    border: navajowhite;
+    background-color: #fff9e0;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.whychocombtnn a {
+    display: flex;
+    align-items: center;
+}
+.whychocombtnn a {
+    color: black;
+    font-size: 15px;
+}
+span.speciconn {
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+span.speciconn img {
+    width: 100%;
+}
+
+.ourteamslideparnew .carousel-inner {
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+.ourteamslideparnew .carousel-control-next-icon img {
+    width: 100%;
+}
+.ourteamslideparnew .carousel-control-prev-icon img {
+    width: 100%;
+}
+
+.ourteamslideparnew .carousel-control-prev {
+    right: 40px !important;
+    left: unset;
+}
+
+.ourteamslideparnew  span.carousel-control-prev-icon {
+    bottom: -20px !important;
+    position: absolute;
+}
+.ourteamslideparnew  span.carousel-control-next-icon {
+    bottom: -20px !important;
+    position: absolute;
+}
+.ourteamslideparnew {
+    margin-bottom: 50px;
+}
+
+
+/* Why choos new slider issu end*/
+
+
   
   
   /* Tab div 768 to 1300 start*/
@@ -936,6 +1056,20 @@
       .whychospec h2 {
           font-size: 16px;
       }
+
+    /* Why choos new slider issu start*/
+
+    .whychoslideboxn {
+        margin-right: 0px;
+    }
+    .whychospecn h2 {
+        width: 170px;
+        font-size: 12px;
+    }
+
+    /* Why choos new slider issu end*/
+
+
   
   
     }
@@ -1271,6 +1405,43 @@
       .new-sliderbtn {
           margin-bottom: 0px;
       }
+
+      
+        /* Why choos new slider issu start*/
+
+        .whychoslideboxn {
+            margin-right: 0px;
+            padding: 10px;
+        }
+        .whychospecn h2 {
+            font-size: 12px;
+        }
+        .whychonamen h2 {
+            font-size: 16px;
+        }
+        .whychoimgn img {
+            width: 80px !important;
+            height: 80px !important;
+            margin-top: -70px;
+        }
+        .myovefn {
+            margin-top: 50px;
+        }
+        .whychoimgbox2n {
+            margin-top: 0px;
+        }
+        .whychocombtnn a {
+            font-size: 11px;
+        }
+        .whychocombtnn {
+            padding: 1px 9px;
+        }
+        .whychospecn h2 {
+            width: 100%;
+        }
+
+
+        /* Why choos new slider issu end*/
   
   
   

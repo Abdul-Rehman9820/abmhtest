@@ -95,81 +95,6 @@ export default function Home() {
 
 
 
-    // for Why Choose slider start =======
-
-    const newSlider = document.querySelector(".new-slider");
-    const newSlides = document.querySelectorAll(".new-slide");
-    const newPrevButton = document.getElementById("new-prevButton");
-    const newNextButton = document.getElementById("new-nextButton");
-    const newSliderDots = document.querySelector(".new-slider-dots");
-
-    let newCurrentSlide = 0;
-    const newSlidesToShow = 3; // Number of slides to show at a time
-    const newSlideWidth = 100 / newSlidesToShow;
-    const newSlideCount = newSlides.length;
-
-    function newShowSlide() {
-      const translateX = -newCurrentSlide * newSlideWidth;
-      newSlider.style.transform = `translateX(${translateX}%)`;
-      newUpdateDots();
-    }
-
-    function newGoToNextSlide() {
-      newCurrentSlide = (newCurrentSlide + 1) % newSlideCount;
-      newShowSlide();
-    }
-
-    function newGoToPrevSlide() {
-      newCurrentSlide = (newCurrentSlide - 1 + newSlideCount) % newSlideCount;
-      newShowSlide();
-    }
-
-    function newCreateDots() {
-      for (let i = 0; i < newSlideCount; i++) {
-        const newDot = document.createElement("span");
-        newDot.className = "new-slider-dot";
-        newDot.addEventListener("click", () => {
-          newCurrentSlide = i;
-          newShowSlide();
-        });
-        newSliderDots.appendChild(newDot);
-      }
-    }
-
-    function newUpdateDots() {
-      const newDots = document.querySelectorAll(".new-slider-dot");
-      newDots.forEach((newDot, i) => {
-        if (i === newCurrentSlide) {
-          newDot.classList.add("active");
-        } else {
-          newDot.classList.remove("active");
-        }
-      });
-    }
-
-    newCreateDots();
-    newShowSlide();
-
-    // Auto-slide
-    let newAutoSlideInterval = setInterval(newGoToNextSlide, 5000); // Change slide every 3 seconds
-
-    // Pause auto-slide on mouse hover
-    newSlider.addEventListener("mouseenter", () => {
-      clearInterval(newAutoSlideInterval);
-    });
-
-    // Resume auto-slide when the mouse leaves the carousel
-    newSlider.addEventListener("mouseleave", () => {
-      newAutoSlideInterval = setInterval(newGoToNextSlide, 3000);
-    });
-
-    newNextButton.addEventListener("click", newGoToNextSlide);
-    newPrevButton.addEventListener("click", newGoToPrevSlide);
-
-
-    // for Why Choose slider end =======
-
-
 
 
   }, []);
@@ -189,83 +114,83 @@ export default function Home() {
       <div className="mainslider">
 
 
-          <div className="newnexthomeslide">
-            <div id="carouselExampleIndicators" className="carousel slide carousel-fade">
-              <div className="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to={0}
-                  className="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                />
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to={1}
-                  aria-label="Slide 2"
-                />
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to={2}
-                  aria-label="Slide 3"
-                />
-              </div>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <div className="mynewslides">
-                    <Link href="/doctors">
-                       <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide'/>
-                       <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
-                       <h2 className="forSEOslide">hellow world</h2>
-                    </Link>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="mynewslides">
-                    <Link href="/doctors">
-                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
-                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
-                      <h2 className="forSEOslide">hellow world</h2>
-                    </Link>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="mynewslides">
-                    <Link href="/doctors">
-                      <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
-                      <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
-                      <h2 className="forSEOslide">hellow world</h2>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+        <div className="newnexthomeslide">
+          <div id="carouselExampleIndicators" className="carousel slide carousel-fade">
+            <div className="carousel-indicators">
               <button
-                className="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span className="carousel-control-prev-icon" aria-hidden="true">
-                  <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
-                </span>
-                <span className="visually-hidden">Previous</span>
-              </button>
+                data-bs-slide-to={0}
+                className="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              />
               <button
-                className="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span className="carousel-control-next-icon" aria-hidden="true">
-                  <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
-                </span>
-                <span className="visually-hidden">Next</span>
-              </button>
+                data-bs-slide-to={1}
+                aria-label="Slide 2"
+              />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to={2}
+                aria-label="Slide 3"
+              />
             </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="mynewslides">
+                  <Link href="/doctors">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/doctors">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/doctors">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span className="carousel-control-prev-icon" aria-hidden="true">
+                <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
+              </span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span className="carousel-control-next-icon" aria-hidden="true">
+                <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
+              </span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
+        </div>
 
 
 
@@ -323,7 +248,7 @@ export default function Home() {
                     </div>
                     <div className="appmainHea">
                       <Link href="/serchher">
-                        
+
                         <p>ABMH International</p>
                       </Link>
                     </div>
@@ -362,8 +287,8 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/Cardiology">
-                        <h2>Cardiology</h2>
-                    </Link>                    
+                      <h2>Cardiology</h2>
+                    </Link>
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -895,172 +820,371 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="Whyworkslideparchilcol2">
-                  <div className="ourteamslidepar">
-                    <div className="new-slider-wrapper">
-                      <div className="new-slider">
-                        <div className="new-slide">
-                          <div className="myovef">
-                            <div className="whychochilbo">
-                              <div className="whychoslidebox">
-                                <div className="whychobox1">
-                                  <div className="whychoimg">
-                                    <Image width={400} height={400} src="/homeimg/Group-88.png" alt="img" />
-                                  </div>
-                                  <div className="whychoname">
-                                    <h2>Medical Expertise</h2>
-                                  </div>
-                                  <div className="whychospec">
-                                    <h2>
-                                      Aditya Birla Memorial Hospital is known for
-                                      its team of highly skilled and experienced
-                                      medical professionals across various
-                                      specialties.
-                                    </h2>
-                                  </div>
-                                </div>
-                                <div className="whychoimgbox2">
-                                  <button className="whychocombtn">
-                                    <Link href="/serchher">
-                                      Read More
-                                      <span className="specicon">
-                                        <Image width={400} height={400}
-                                          src="/homeimg/right-arrow.png"
-                                          alt="img"
-                                        />
-                                      </span>
-                                    </Link>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="new-slide">
-                          <div className="myovef">
-                            <div className="whychochilbo">
-                              <div className="whychoslidebox">
-                                <div className="whychobox1">
-                                  <div className="whychoimg">
-                                    <Image width={400} height={400} src="/homeimg/Group-89.png" alt="img" />
-                                  </div>
-                                  <div className="whychoname">
-                                    <h2>Advanced Technology</h2>
-                                  </div>
-                                  <div className="whychospec">
-                                    <h2>
-                                      Aditya Birla Memorial Hospital is known for
-                                      its team of highly skilled and experienced
-                                      medical professionals across various
-                                      specialties.
-                                    </h2>
-                                  </div>
-                                </div>
-                                <div className="whychoimgbox2">
-                                  <button className="whychocombtn">
-                                    <Link href="/serchher">
-                                      Read More
-                                      <span className="specicon">
-                                        <Image width={400} height={400}
-                                          src="/homeimg/right-arrow.png"
-                                          alt="img"
-                                        />
-                                      </span>
-                                    </Link>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="new-slide">
-                          <div className="myovef">
-                            <div className="whychochilbo">
-                              <div className="whychoslidebox">
-                                <div className="whychobox1">
-                                  <div className="whychoimg">
-                                    <Image width={400} height={400} src="/homeimg/Group-90.png" alt="img" />
-                                  </div>
-                                  <div className="whychoname">
-                                    <h2>Patient Centric</h2>
-                                  </div>
-                                  <div className="whychospec">
-                                    <h2>
-                                      Aditya Birla Memorial Hospital is known for
-                                      its team of highly skilled and experienced
-                                      medical professionals across various
-                                      specialties.
-                                    </h2>
-                                  </div>
-                                </div>
-                                <div className="whychoimgbox2">
-                                  <button className="whychocombtn">
-                                    <Link href="/serchher">
-                                      Read More
-                                      <span className="specicon">
-                                        <Image width={400} height={400}
-                                          src="/homeimg/right-arrow.png"
-                                          alt="img"
-                                        />
-                                      </span>
-                                    </Link>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="new-slide">
-                          <div className="myovef">
-                            <div className="whychochilbo">
-                              <div className="whychoslidebox">
-                                <div className="whychobox1">
-                                  <div className="whychoimg">
-                                    <Image width={400} height={400} src="/homeimg/Group-90.png" alt="img" />
-                                  </div>
-                                  <div className="whychoname">
-                                    <h2>Patient Centric</h2>
-                                  </div>
-                                  <div className="whychospec">
-                                    <h2>
-                                      Aditya Birla Memorial Hospital is known for
-                                      its team of highly skilled and experienced
-                                      medical professionals across various
-                                      specialties.
-                                    </h2>
-                                  </div>
-                                </div>
-                                <div className="whychoimgbox2">
-                                  <button className="whychocombtn">
-                                    <Link href="/serchher">
-                                      Read More
-                                      <span className="specicon">
-                                        <Image width={400} height={400}
-                                          src="/homeimg/right-arrow.png"
-                                          alt="img"
-                                        />
-                                      </span>
-                                    </Link>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        {/* Add more slides here */}
+
+
+
+                  <div className="ourteamslideparnew deckstophead">
+                    <div
+                      id="carouselExampleIndicators44"
+                      className="carousel slide carousel-fade"
+                    >
+                      <div className="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={0}
+                          className="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        />
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={1}
+                          aria-label="Slide 2"
+                        />
                       </div>
-                    </div>
-                    <div className="new-slider-dots">
-                      {/* Dots will be added dynamically using JavaScript */}
-                    </div>
-                    <div className="new-sliderbtn">
-                      <button id="new-prevButton">
-                        <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
+                      <div className="carousel-inner">
+                        <div className="carousel-item active">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="carousel-item">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric2</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators44"
+                        data-bs-slide="prev"
+                      >
+                        <span className="carousel-control-prev-icon" aria-hidden="true">
+                          <Image width={100} height={100} src="/homeimg/nextleft.png" alt="img" />
+                        </span>
+                        <span className="visually-hidden">Previous</span>
                       </button>
-                      <button id="new-nextButton">
-                        <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators44"
+                        data-bs-slide="next"
+                      >
+                        <span className="carousel-control-next-icon" aria-hidden="true">
+                          <Image width={100} height={100} src="/homeimg/nextright.png" alt="img" />
+                        </span>
+                        <span className="visually-hidden">Next</span>
                       </button>
                     </div>
                   </div>
+                  <div className="ourteamslideparnew mobilehead">
+                    <div
+                      id="carouselExampleIndicators55"
+                      className="carousel slide carousel-fade"
+                    >
+                      <div className="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={0}
+                          className="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        />
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={1}
+                          aria-label="Slide 2"
+                        />
+                      </div>
+                      <div className="carousel-inner">
+                        <div className="carousel-item active">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="carousel-item">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Patient Centric2</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        Aditya Birla Memorial Hospital is known for its team of
+                                        highly skilled and experienced medical professionals
+                                        across various specialties.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators55"
+                        data-bs-slide="prev"
+                      >
+                        <span className="carousel-control-prev-icon" aria-hidden="true">
+                          <Image width={100} height={100} src="/homeimg/nextleft.png" alt="img" />
+                        </span>
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators55"
+                        data-bs-slide="next"
+                      >
+                        <span className="carousel-control-next-icon" aria-hidden="true">
+                          <Image width={100} height={100} src="/homeimg/nextright.png" alt="img" />
+                        </span>
+                        <span className="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+
+
+
+
+
                 </div>
               </div>
             </div>
