@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation'
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -330,12 +329,12 @@ const WellnessPack = () => {
                   patients receive personalized care tailored to their specific
                   needs. From skilled nursing care to physiotherapy, medication
                   management, and specialized services like wound care and
-                  palliative care, ABMH's HomeCare Solutions cover a wide spectrum
+                  palliative care, ABMH&lsquo;s HomeCare Solutions cover a wide spectrum
                   of medical requirements. The program also emphasizes patient
                   education and support, empowering individuals and their families
                   to actively participate in the healing process. With a commitment
                   to quality and a deep understanding of the importance of
-                  home-based care, ABMH's HomeCare Solutions strive to enhance the
+                  home-based care, ABMH&lsquo;s HomeCare Solutions strive to enhance the
                   overall well-being and quality of life for those in need of
                   medical assistance in their own familiar environment.
                 </p>

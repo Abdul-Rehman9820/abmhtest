@@ -507,10 +507,14 @@ ul.children {
 .dropdown-contentmy a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+}
+
+.dropdown-contentmy a {
+  border-bottom: 1px dashed #99848426;
 }
 
 .dropdown-contentmy a:hover {

@@ -157,45 +157,11 @@ const Header = () => {
                             <div className="headerNavbarcont">
                                 <div className="headerNavbarcontright">
 
-
-                                    {/* <div className="naviconrigbox">
-                        <div className="naviconrigboxhead">
-                            <h2>About Us</h2>
-                        </div>
-                        <div className="naviconrigboximg">
-                            <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
-                        </div>
-                        </div>
-                        <div className="naviconrigbox">
-                        <div className="naviconrigboxhead">
-                            <h2>Patient Care</h2>
-                        </div>
-                        <div className="naviconrigboximg">
-                            <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
-                        </div>
-                        </div>
-                        <div className="naviconrigbox">
-                        <div className="naviconrigboxhead">
-                            <h2>Health Professionals</h2>
-                        </div>
-                        <div className="naviconrigboximg">
-                            <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
-                        </div>
-                        </div>
-                        <div className="naviconrigbox">
-                        <div className="naviconrigboxhead">
-                            <h2>Academics</h2>
-                        </div>
-                        <div className="naviconrigboximg">
-                            <Image width={1000} height={1000} src="/homeimg/dropicon.png" alt="" />
-                        </div>
-                        </div> */}
-
                                     <div className="navbarmy">
                                         <Link href="/">Home </Link>
                                         <div className="dropdownmy">
                                             <button className="dropbtnmy">
-                                                 About Us
+                                                About Us
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
@@ -210,9 +176,9 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <Link  href="/virtual-tour">Virtual Tour</Link>
-                                                <Link  href="/wellness-packages">Wellness Packages</Link>
-                                                <Link  href="/insurance-and-tpa">Insurance & TPAs</Link>
+                                                <Link href="/virtual-tour">Virtual Tour</Link>
+                                                <Link href="/wellness-packages">Wellness Packages</Link>
+                                                <Link href="/insurance-and-tpa">Insurance & TPAs</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
@@ -227,7 +193,7 @@ const Header = () => {
                                         </div>
                                         <div className="dropdownmy">
                                             <button className="dropbtnmy">
-                                                 Academics
+                                                Academics
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
