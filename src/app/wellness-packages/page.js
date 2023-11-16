@@ -44,6 +44,7 @@ const WellnessPack = () => {
 
 
     <>
+    <title>Wellness Packages</title>
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -62,7 +63,9 @@ const WellnessPack = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-        <div className="mainheadingbandiv"></div>
+        <div className="mainheadingbandiv">
+            <Image width={2000} height={400} src="/commonimages/wellness-packages-banner.jpg" alt="icon" />
+        </div>
       </div>
       {/* common heading banner end */}
       {/* Wellbeing Packages start*/}

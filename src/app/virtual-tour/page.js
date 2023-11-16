@@ -122,6 +122,7 @@ const Virtualtour = () => {
   return (
 
     <>
+    <title>Virtual Tour</title>
     {/* common heading div start*/}
     <div className="parentcontainerwhi">
       <div className="customcontainer">
@@ -129,7 +130,7 @@ const Virtualtour = () => {
           <div className="commonheadcontainer">
             <div className="breadcrumbs">
               <div className="breadcrumbsdata">
-                Home / Patient Care /{" "}
+                Home / Patient Care /
                 <span className="breadcrumbsactive">Virtual Tour</span>
               </div>
             </div>
@@ -140,7 +141,9 @@ const Virtualtour = () => {
     {/* common heading div end*/}
     {/* common heading banner start */}
     <div className="mainheadingbanner">
-      <div className="mainheadingbandiv"></div>
+      <div className="mainheadingbandiv">
+          <Image width={2000} height={400} src="/commonimages/virtual-tour-banner.jpg" alt="icon" />
+      </div>
     </div>
     {/* common heading banner end */}
     {/* Hospirtal tour start*/}

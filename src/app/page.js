@@ -94,6 +94,38 @@ export default function Home() {
     // for Our Team slider end =======
 
 
+    
+    $(document).ready(function() {
+      // Your code here
+      $("#showPopup1").click(function(e) {
+        e.stopPropagation();
+        $(".popup").toggle();
+      });
+
+      $("body").click(function() {
+        $(".popup").hide();
+        var video = $("#player").attr("src");
+        $("#player").attr("src", "");
+        $("#player").attr("src", video);
+      });
+
+    });
+
+    $(document).ready(function() {
+      // Your code here
+      $("#showPopup2").click(function(e) {
+        e.stopPropagation();
+        $(".popup2").toggle();
+      });
+
+      $("body").click(function() {
+        $(".popup2").hide();
+        var video = $("#player2").attr("src");
+        $("#player2").attr("src", "");
+        $("#player2").attr("src", video);
+      });
+
+    });
 
 
 
@@ -473,6 +505,10 @@ export default function Home() {
       </div>
       {/* Speciality end mobile*/}
       {/* our team*/}
+
+    
+
+
       <div className="parentcontainerwhi toppading">
         <div className="customcontainer">
           <div className="ourteamparpart">
@@ -648,6 +684,20 @@ export default function Home() {
         </div>
       </div>
       {/* our team*/}
+
+      {/* <!-- youtube ifram 1--> */}
+      <div className="popup">
+      <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/mkYuTgErT4s"  frameborder="0"  allowfullscreen></iframe>
+      </div>
+      {/* <!-- youtube ifram 1--> */}
+
+      {/* <!-- youtube ifram 2--> */}
+      <div className="popup2">
+      <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/0hRtbEHsPRo"  frameborder="0"  allowfullscreen></iframe>
+      </div>
+      {/* <!-- youtube ifram 2--> */}
+
+
       {/* our work*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -671,6 +721,7 @@ export default function Home() {
                 className="carousel slide carousel-fade"
               >
                 <div className="carousel-indicators">
+
                   <button
                     type="button"
                     data-bs-target="#carouselExampleIndicators1"
@@ -685,13 +736,10 @@ export default function Home() {
                     data-bs-slide-to={1}
                     aria-label="Slide 2"
                   />
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators1"
-                    data-bs-slide-to={2}
-                    aria-label="Slide 3"
-                  />
+         
+
                 </div>
+
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <div className="testislid">
@@ -700,6 +748,7 @@ export default function Home() {
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
                               <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
+                              <div className="imgcerl1" id="showPopup1"> <Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
                         </div>
@@ -719,6 +768,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+               
                   <div className="carousel-item">
                     <div className="testislid">
                       <div className="testislidChil">
@@ -726,6 +776,7 @@ export default function Home() {
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
                               <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
+                              <div className="imgcerl2" id="showPopup2"><Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
                         </div>
@@ -745,32 +796,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="carousel-item">
-                    <div className="testislid">
-                      <div className="testislidChil">
-                        <div className="testislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="testislidChilcol2">
-                          <div className="testislidChilcol2Para">
-                            Outstanding care and recovery experience! The surgical
-                            team and nursing staff were amazing.
-                          </div>
-                          <div className="ourworkname">
-                            <h2>Karishma Garg 3</h2>
-                          </div>
-                          <div className="testispace" />
-                          <div className="ourworkspec">
-                            <h2>General Surgery</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
                 <button
                   className="carousel-control-prev"
