@@ -41,12 +41,12 @@
     margin-right: 10px;
 }
 .linkbox h2 {
-    font-size: 22px;
+    font-size: 18px;
     color: #b01d23;
 }
 .linkfoolist a {
     color: #000000;
-    font-size: 18px;
+    font-size: 16px;
 }
 .linkfootdiv {
     margin-top: 20px;
@@ -78,7 +78,7 @@
     align-items: end;
 }
 .parentcontainerwhi.footer.footerbelow {
-    padding: 0 0 50px 0;
+    padding: 0 0 10px 0;
     border-top: none;
 }
 .footermainbelw1 .linkfoolist {

@@ -40,25 +40,24 @@ const Footer = () => {
                 </p>
               </div>
               <div className="footergetdirect">
-                <Link href="/serchher">
-                  {" "}
+                <Link href="https://maps.app.goo.gl/Ni7DcGdRRGAReJw7A">
                   <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="" />
                 </Link>
               </div>
               <div className="footersocial">
                 <div className="footersocialbox">
                   <div className="footersocialboximg">
-                    <Link href="/serchher">
+                    <Link href="https://www.instagram.com/aditya_birla_memorial_hospital/?igshid=12cbmsde7tye3">
                       <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
-                    <Link href="/serchher">
+                    <Link href="https://www.facebook.com/ABMHPune">
                       <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
-                    <Link href="/serchher">
+                    <Link href="https://www.youtube.com/channel/UCXVvGvIc-xT6B7q1KwOFQUw">
                       <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="" />
                     </Link>
                   </div>
@@ -200,8 +199,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="footergetdirect">
-                <Link href="/serchher">
-                  {" "}
+                <Link href="#">
                   <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="" />
                 </Link>
               </div>

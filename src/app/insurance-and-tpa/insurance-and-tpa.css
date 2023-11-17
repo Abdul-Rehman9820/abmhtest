@@ -333,7 +333,7 @@ button.accordion:before {
 }
 
 .card {
-    width: 100% !important;
+    width: 95% !important;
 }
 .row.img_padding {
     padding: 10px !important;

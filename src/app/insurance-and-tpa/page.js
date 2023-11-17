@@ -49,7 +49,7 @@ const Virtualtour = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Patient Care /{" "}
+                  Home / Patient Care /
                   <span className="breadcrumbsactive">Insurance & TPAs</span>
                 </div>
               </div>
@@ -81,12 +81,9 @@ const Virtualtour = () => {
               <div className="tpa_sec">
                 <div className="tpa_sec_para">
                   Please verify the name of your Third-Party Administrator (TPA) from the
-                  provided list and
-                  <b>ensure to print it out.</b> Please be aware that the submission of
+                  provided list and <b>ensure to print it out.</b> Please be aware that the submission of
                   completed pre-authorization forms, along with the necessary documents, is
-                  exclusively accepted at the TPA counter situated on the{" "}
-                  <b>Ground Floor</b> of the Hospital, operating from{" "}
-                  <b>Monday to Saturday (10 am to 6 pm).</b>
+                  exclusively accepted at the TPA counter situated on the <b>Ground Floor</b> of the Hospital, operating from <b>Monday to Saturday (10 am to 6 pm).</b>
                 </div>
               </div>
 
