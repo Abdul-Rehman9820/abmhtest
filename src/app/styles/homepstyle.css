@@ -1397,7 +1397,7 @@ span.speciconn img {
   
 
       .testislidChilcol2 {
-          padding: 0 10px;
+          padding: 10px 10px;
       }
       .testislidChilcol2::before {
           width: 25px;
@@ -1533,12 +1533,12 @@ span.speciconn img {
         /* Why choos new slider issu end*/
 
         .imgcerl1 {
-            width: 20px;
-            height: 20px;
+            width: 40px;
+            height: 40px;
         }
         .imgcerl2 {
-            width: 20px;
-            height: 20px;
+            width: 40px;
+            height: 40px;
         }
         .test3_1 {
             height: 50%;
@@ -1551,7 +1551,27 @@ span.speciconn img {
             width: 40% !important;
         }
   
-  
+
+        .testislidChilcol1 {
+            width: 100%;
+        }
+        .testislidChilcol2 {
+            width: 100%;
+        }
+
+        .testislid {
+            border-radius: 0;
+        }
+
+        .imgcerl1 {
+            top: 45%;
+            left: 45%;
+        }
+        .imgcerl2 {
+            top: 45%;
+            left: 45%;
+        }
+
   
   }
   

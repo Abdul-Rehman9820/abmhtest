@@ -438,7 +438,8 @@ const Doctors = () => {
 
 
       {/* FAQ for wellness  start*/}
-      <div className="parentcontainerwhi">
+
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="wellnessFAQ">
             <div className="commonheadingCont">
@@ -505,7 +506,8 @@ const Doctors = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      
       {/*  FAQ for wellness  end*/}
 
 

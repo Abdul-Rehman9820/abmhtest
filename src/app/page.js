@@ -687,13 +687,13 @@ export default function Home() {
 
       {/* <!-- youtube ifram 1--> */}
       <div className="popup">
-      <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/mkYuTgErT4s"  frameborder="0"  allowfullscreen></iframe>
+      <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/S7otT-fc52I"  frameborder="0"  allowfullscreen></iframe>
       </div>
       {/* <!-- youtube ifram 1--> */}
 
       {/* <!-- youtube ifram 2--> */}
       <div className="popup2">
-      <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/0hRtbEHsPRo"  frameborder="0"  allowfullscreen></iframe>
+      <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/Y-DzxcH1EEs"  frameborder="0"  allowfullscreen></iframe>
       </div>
       {/* <!-- youtube ifram 2--> */}
 
@@ -754,15 +754,15 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                            Outstanding care and recovery experience! The surgical
-                            team and nursing staff were amazing.
+                          Mrs. Shantaben Patenkar had visited Aditya Birla Memorial Hospital just a few days ago with a complaint of severe pain in her left leg, she was immediately consulted and advised to get a surgery. 
+                          The surgery was successful and she was able to recover sooner. Hear what she has to say.							
                           </div>
                           <div className="ourworkname">
-                            <h2>Karishma Garg</h2>
+                            <h2>Patient's Feedback</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
-                            <h2>General Surgery</h2>
+                            <h2>Leg Surgery | Aditya Birla Memorial Hospital </h2>
                           </div>
                         </div>
                       </div>
@@ -782,15 +782,14 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                            Outstanding care and recovery experience! The surgical
-                            team and nursing staff were amazing.
+                             One of our patients,Mrs. Kumudini D. Ghodke, sharing feedback about her journey stay, diagnosis, and treatment at ABMH. We wish her a speedy recovery. 
                           </div>
                           <div className="ourworkname">
-                            <h2>Karishma Garg 2</h2>
+                            <h2>Mrs. Kumudini D. Ghodke</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
-                            <h2>General Surgery</h2>
+                            <h2>Sharing feedback about her journey stay, diagnosis, and treatment at ABMH.</h2>
                           </div>
                         </div>
                       </div>
