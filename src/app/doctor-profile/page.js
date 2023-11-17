@@ -103,12 +103,13 @@ const Doctorprofile = () => {
 
               data.map((item, index) => (
 
-
+               
                 <div className="doctorviewprofile" key={index} >
                   <div className="commonheadcontainer">
                     <div className="breadcrumbs">
                       {/* try to dynamic */}
-                      <title>Hospital in Chinchwad Pune | Aditya Birla Best Multispeciality Hospital | Our Doctor</title>
+
+                      <title>{item.DoctorFName + item.DoctorLName}</title>
 
                       <div className="breadcrumbsdata">
                         Home / <span className="breadcrumbsactive">{item.DoctorFName} {item.DoctorLName}</span>
@@ -162,22 +163,6 @@ const Doctorprofile = () => {
                                 Profile Overview
                               </button>
                             </li>
-
-
-                            {/* <li className="nav-item" role="presentation">
-                              <button
-                                className="nav-link"
-                                id="pills-profile-tab"
-                                data-bs-toggle="pill"
-                                data-bs-target="#pills-profile"
-                                type="button"
-                                role="tab"
-                                aria-controls="pills-profile"
-                                aria-selected="false"
-                              >
-                                Memberships & Certifications
-                              </button>
-                            </li> */}
 
                             {item.DoctorMemberships || item.DoctorCertifications ? (
                               <li className="nav-item" role="presentation">

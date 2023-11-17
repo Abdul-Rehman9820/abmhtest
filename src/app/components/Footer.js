@@ -73,9 +73,9 @@ const Footer = () => {
                     <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
                     <Link href="/serchher">+91 9881123006 </Link>
                   </div>
-                  <div className="linkfoolist">
+                  <div className="linkfoolist fomail">
                     <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="" />
-                    <Link href="/serchher">abc@gmail.com </Link>
+                    <Link href="/serchher">doctorshealthcare@adityabirla.com</Link>
                   </div>
                 </div>
               </div>
@@ -187,6 +187,7 @@ const Footer = () => {
       <div className="parentcontainerwhi footer mobilehead">
         <div className="customcontainer">
           {/* mainstart */}
+
           <div className="footermain">
             <div className="footermaincol1">
               <div className="footerlogo">
@@ -223,33 +224,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="mobilesub">
-                <div className="linkbox">
-                  <h2>CONTACT US</h2>
-                  <div className="linkfootdiv">
-                    <div className="linkfoolist">
-                      <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
-                      <Link href="/serchher">+91 9881123006 </Link>
-                    </div>
-                    <div className="linkfoolist">
-                      <Image width={400} height={400}
-                        className="fooimg"
-                        src="/homeimg/fooiconmail.png"
-                        alt=""
-                      />
-                      <Link href="/serchher">abc@gmail.com </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="linkbox">
-                  <h2>MEDIA ROOM</h2>
-                  <div className="linkfootdiv">
-                    <div className="linkfoolist">
-                      <Link href="/serchher">ABMH in News </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+           
             </div>
             <div className="footermaincol2">{/* only for space */}</div>
             <div className="footermaincol3">
@@ -284,6 +259,42 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+          <div className="footermain">
+
+
+          <div className="mobilesub">
+                <div className="linkbox">
+                  <h2>CONTACT US</h2>
+                  <div className="linkfootdiv">
+                    <div className="linkfoolist">
+                      <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
+                      <Link href="/serchher">+91 9881123006 </Link>
+                    </div>
+                    <div className="linkfoolist">
+                      <Image width={400} height={400}
+                        className="fooimg"
+                        src="/homeimg/fooiconmail.png"
+                        alt=""
+                      />
+                      <Link href="/serchher">doctorshealthcare@adityabirla.com</Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="linkbox">
+                  <h2>MEDIA ROOM</h2>
+                  <div className="linkfootdiv">
+                    <div className="linkfoolist">
+                      <Link href="/serchher">ABMH in News </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+           
+          </div>
+
+
           {/* mainclose */}
         </div>
       </div>

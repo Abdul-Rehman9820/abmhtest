@@ -224,7 +224,7 @@ const Doctors = () => {
     <>
 
 
-    <title>Doctors of Aditya Birla Best Multispeciality Hospital</title>
+    <title>Find A Doctor - Aditya Birla Memorial Hospital</title>
 
 
       {/* common heading div start*/}
