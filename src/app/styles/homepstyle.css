@@ -949,7 +949,7 @@
 }
 .whychoimgbox2n {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .whychoimgn {
     display: flex;
@@ -971,14 +971,14 @@
     text-align: center;
 }
 .whychospecn h2 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     color: white;
     font-weight: 300;
     text-align: center;
     margin-top: 14px;
     width: 330px;
-    min-height: 100px;
+    min-height: 150px;
 }
 .whychocombtnn {
     border: navajowhite;
@@ -1064,7 +1064,7 @@ span.speciconn img {
   .imgcerl1 {
     width: 80px;
     height: 80px;
-    background: rgb(0, 0, 0);
+    background: rgb(0 0 0 / 51%);
     position: absolute;
     top: 40%;
     left: 40%;
@@ -1111,7 +1111,7 @@ span.speciconn img {
   .imgcerl2 {
     width: 80px;
     height: 80px;
-    background: rgb(0, 0, 0);
+    background: rgb(0 0 0 / 51%);
     position: absolute;
     top: 40%;
     left: 40%;
@@ -1528,7 +1528,9 @@ span.speciconn img {
         .whychospecn h2 {
             width: 100%;
         }
-
+        .whychospecn h2 {
+            min-height: unset !important;
+        }
 
         /* Why choos new slider issu end*/
 

@@ -747,7 +747,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.jpg" alt="img" />
                               <div className="imgcerl1" id="showPopup1"> <Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
@@ -775,7 +775,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.jpg" alt="img" />
                               <div className="imgcerl2" id="showPopup2"><Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
@@ -877,23 +877,52 @@ export default function Home() {
                                 <div className="whychoslideboxn">
                                   <div className="whychobox1n">
                                     <div className="whychoimgn">
-                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                      <Image width={100} height={100} src="/homeimg/Group-88.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Patient Centric</h2>
+                                      <h2>Medical Expertise</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
+                                      Our dedicated team of skilled healthcare professionals stays current on the latest medical 
+                                      advancements and utilizes cutting-edge technologies to ensure the highest quality care for our patients.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                        Know More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-89.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Advanced Technology</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                      Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology, which allows us to provide more accurate diagnoses, 
+                                      more effective treatments, and a more personalized patient experience.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -911,50 +940,19 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Patient Centric</h2>
+                                      <h2>Patient Centric approach</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly
+                                      Committed to patient-centered care, we tailor our approach to individual needs, 
+                                      emphasizing open communication and collaboration between patients and healthcare providers for optimal health outcomes.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
-                                        <span className="speciconn">
-                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
-                                        </span>
-                                      </a>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="myovefn">
-                              <div className="whychochilbon">
-                                <div className="whychoslideboxn">
-                                  <div className="whychobox1n">
-                                    <div className="whychoimgn">
-                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
-                                    </div>
-                                    <div className="whychonamen">
-                                      <h2>Patient Centric</h2>
-                                    </div>
-                                    <div className="whychospecn">
-                                      <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
-                                      </h2>
-                                    </div>
-                                  </div>
-                                  <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
-                                      <a href="#">
-                                        Read More
+                                       Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -973,23 +971,22 @@ export default function Home() {
                                 <div className="whychoslideboxn">
                                   <div className="whychobox1n">
                                     <div className="whychoimgn">
-                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                      <Image width={100} height={100} src="/homeimg/Group-91.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Patient Centric2</h2>
+                                      <h2>Compassionate Care</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
+                                      Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families. 
+                                      We firmly believe that empathy and understanding are essential components of holistic healthcare.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                       Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1004,23 +1001,22 @@ export default function Home() {
                                 <div className="whychoslideboxn">
                                   <div className="whychobox1n">
                                     <div className="whychoimgn">
-                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                      <Image width={100} height={100} src="/homeimg/Group-92.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Patient Centric</h2>
+                                      <h2>Accessibility and Convenience</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
+                                      We are committed to making healthcare accessible and convenient for all our patients. 
+                                      We offer convenient appointment times and locations to make it easy for our patients to receive the care they need.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                       Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1030,37 +1026,7 @@ export default function Home() {
                                 </div>
                               </div>
                             </div>
-                            <div className="myovefn">
-                              <div className="whychochilbon">
-                                <div className="whychoslideboxn">
-                                  <div className="whychobox1n">
-                                    <div className="whychoimgn">
-                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
-                                    </div>
-                                    <div className="whychonamen">
-                                      <h2>Patient Centric</h2>
-                                    </div>
-                                    <div className="whychospecn">
-                                      <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
-                                      </h2>
-                                    </div>
-                                  </div>
-                                  <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
-                                      <a href="#">
-                                        Read More
-                                        <span className="speciconn">
-                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
-                                        </span>
-                                      </a>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                      
                           </div>
                         </div>
                       </div>
@@ -1108,6 +1074,24 @@ export default function Home() {
                           data-bs-slide-to={1}
                           aria-label="Slide 2"
                         />
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={2}
+                          aria-label="Slide 2"
+                        />
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={3}
+                          aria-label="Slide 2"
+                        />
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={4}
+                          aria-label="Slide 2"
+                        />
                       </div>
                       <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -1117,16 +1101,49 @@ export default function Home() {
                                 <div className="whychoslideboxn">
                                   <div className="whychobox1n">
                                     <div className="whychoimgn">
-                                      <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
+                                      <Image width={100} height={100} src="/homeimg/Group-88.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Patient Centric</h2>
+                                      <h2>Medical Expertise</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
+                                      Our dedicated team of skilled healthcare professionals stays current on the latest medical advancements and 
+                                      utilizes cutting-edge technologies to ensure the highest quality care for our patients.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="carousel-item">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-89.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Advanced Technology</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                      Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology, 
+                                      which allows us to provide more accurate diagnoses, more effective treatments, and a more personalized patient experience.
                                       </h2>
                                     </div>
                                   </div>
@@ -1155,13 +1172,12 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-90.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Patient Centric2</h2>
+                                      <h2>Patient Centric approach</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        Aditya Birla Memorial Hospital is known for its team of
-                                        highly skilled and experienced medical professionals
-                                        across various specialties.
+                                      Committed to patient-centered care, we tailor our approach to individual needs, 
+                                      emphasizing open communication and collaboration between patients and healthcare providers for optimal health outcomes.
                                       </h2>
                                     </div>
                                   </div>
@@ -1180,6 +1196,75 @@ export default function Home() {
                             </div>
                           </div>
                         </div>
+                        <div className="carousel-item">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-91.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Compassionate Care</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                      Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families. 
+                                      We firmly believe that empathy and understanding are essential components of holistic healthcare.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="carousel-item">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-92.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Accessibility and Convenience</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                      We are committed to making healthcare accessible and convenient for all our patients. 
+                                      We offer convenient appointment times and locations to make it easy for our patients to receive the care they need.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Read More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                       </div>
                       <button
                         className="carousel-control-prev"
