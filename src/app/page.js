@@ -169,6 +169,12 @@ export default function Home() {
                 data-bs-slide-to={2}
                 aria-label="Slide 3"
               />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to={3}
+                aria-label="Slide 4"
+              />
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -183,8 +189,8 @@ export default function Home() {
               <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/doctors">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome2.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner2-mob.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -192,8 +198,17 @@ export default function Home() {
               <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/doctors">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome3.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner3-mob.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/doctors">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome4.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -687,13 +702,13 @@ export default function Home() {
 
       {/* <!-- youtube ifram 1--> */}
       <div className="popup">
-      <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/S7otT-fc52I"  frameborder="0"  allowfullscreen></iframe>
+      <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/S7otT-fc52I"  frameBorder="0"  allowFullScreen></iframe>
       </div>
       {/* <!-- youtube ifram 1--> */}
 
       {/* <!-- youtube ifram 2--> */}
       <div className="popup2">
-      <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/Y-DzxcH1EEs"  frameborder="0"  allowfullscreen></iframe>
+      <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/Y-DzxcH1EEs"  frameBorder="0"  allowFullScreen></iframe>
       </div>
       {/* <!-- youtube ifram 2--> */}
 
@@ -1116,7 +1131,7 @@ export default function Home() {
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1150,7 +1165,7 @@ export default function Home() {
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1184,7 +1199,7 @@ export default function Home() {
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1218,7 +1233,7 @@ export default function Home() {
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1252,7 +1267,7 @@ export default function Home() {
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                        Read More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>

@@ -94,7 +94,12 @@ const Doctorprofile = () => {
 
 
           {isLoading ? (
-            <div className="loading-message mt-4 mb-4">Loading doctor...</div>
+
+                  <div className="loading-message mt-4 mb-4">
+                    <div className="loader"></div>
+                    <p>Loading Profile...</p>
+                  </div>
+
           ) : (
 
             data.length === 0 ? (
@@ -134,7 +139,7 @@ const Doctorprofile = () => {
                             <span />
                           </div>
                           <div className="profileexpe">
-                            <h2>{item.DoctorExperience} years of experience</h2>
+                            <h2>{item.DoctorExperience}</h2>
                           </div>
                           <div className="profilebutton">
                             <a href="#">Book an Appointment</a>

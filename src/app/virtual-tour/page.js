@@ -190,10 +190,8 @@ const Virtualtour = () => {
                         <div className="whychobox1ts">
                           <div className="whychospects">
                             <h2>
-                              Aditya Birla Memorial Hospital is known for its team
-                              of highly skilled and experienced medical team of
-                              highly skilled and experienced medical across
-                              various specialties.
+                              Aditya Birla Hospital boasts a team of highly professional doctors. 
+                              Their expertise and compassionate care were instrumental in my speedy recovery. Highly recommended.
                             </h2>
                           </div>
                         </div>
@@ -206,10 +204,10 @@ const Virtualtour = () => {
                           <div className="whychoimgbox2col2ts">
                             <div className="whychonamejustyts">
                               <div className="whychonamets">
-                                <h2>Medical Expertise</h2>
+                                <h2>Preeti Singh</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Medical Expertise</h2>
+                                <h2>Patient's Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -225,10 +223,8 @@ const Virtualtour = () => {
                         <div className="whychobox1ts">
                           <div className="whychospects">
                             <h2>
-                              Aditya Birla Memorial Hospital is known for its team
-                              of highly skilled and experienced medical team of
-                              highly skilled and experienced medical across
-                              various specialties.
+                            Impressed by Aditya Birla Hospital's staff, their dedication, and their friendly demeanour. 
+                            The nurses and support team made my stay comfortable and stress-free.
                             </h2>
                           </div>
                         </div>
@@ -241,10 +237,10 @@ const Virtualtour = () => {
                           <div className="whychoimgbox2col2ts">
                             <div className="whychonamejustyts">
                               <div className="whychonamets">
-                                <h2>Medical Expertise</h2>
+                                <h2>James</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Medical Expertise</h2>
+                                <h2>Patient's Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -260,10 +256,9 @@ const Virtualtour = () => {
                         <div className="whychobox1ts">
                           <div className="whychospects">
                             <h2>
-                              Aditya Birla Memorial Hospital is known for its team
-                              of highly skilled and experienced medical team of
-                              highly skilled and experienced medical across
-                              various specialties.
+                            I Was admitted to Aditya Birla Hospital For Typhoid treatment.
+                            The Medical team's prompt diagnosis and efficient care helped me recover quickly. 
+                            The Hospital's cleanliness and patient-friendly environment were impressive.
                             </h2>
                           </div>
                         </div>
@@ -276,10 +271,10 @@ const Virtualtour = () => {
                           <div className="whychoimgbox2col2ts">
                             <div className="whychonamejustyts">
                               <div className="whychonamets">
-                                <h2>Medical Expertise</h2>
+                                <h2>David Wardson</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Medical Expertise</h2>
+                                <h2>Patient's Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -295,10 +290,9 @@ const Virtualtour = () => {
                         <div className="whychobox1ts">
                           <div className="whychospects">
                             <h2>
-                              Aditya Birla Memorial Hospital is known for its team
-                              of highly skilled and experienced medical team of
-                              highly skilled and experienced medical across
-                              various specialties.
+                            My experience at Aditya Birla Hospital during my battle with dengue fever was outstanding. 
+                            The medical team demonstrated a high level of expertise in diagnosing and managing my condition.  
+                            I would highly recommend Aditya Birla Hospital for anyone seeking top-notch medical care.
                             </h2>
                           </div>
                         </div>
@@ -311,10 +305,77 @@ const Virtualtour = () => {
                           <div className="whychoimgbox2col2ts">
                             <div className="whychonamejustyts">
                               <div className="whychonamets">
-                                <h2>Medical Expertise</h2>
+                                <h2>Tanu Jaiswal</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Medical Expertise</h2>
+                                <h2>Patient's Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            I recently had an emergency appendix surgery at Aditya Birla Hospital, and I can't thank the medical team enough for their prompt and expert care. 
+                            They truly live up to their reputation as the best hospital in the city. 
+                            I highly recommend Aditya Birla Hospital to anyone seeking top-notch medical care in Pune.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>Rudransh Singh</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient's Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            My uncle had his knee surgery at this hospital. The facilities provided by the hospital were great. 
+                            Thanks to the expert surgeons now he's able to walk properly.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>Sahil Mansoori</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient's Testimonial</h2>
                               </div>
                             </div>
                           </div>

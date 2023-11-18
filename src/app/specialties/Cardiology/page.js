@@ -252,10 +252,10 @@ const Cardiology = () => {
                                     <h2>{profile.DoctorFName} {profile.DoctorLName}</h2>
                                   </div>
                                   <div className="ourteamspec">
-                                    <h2>{profile.specialty_name}</h2>
+                                    <h2>{profile.DoctorDesignation}</h2>
                                   </div>
                                   <div className="ourteamexpi">
-                                    <h2>{profile.DoctorExperience} years of experience</h2>
+                                    <h2>{profile.DoctorExperience}</h2>
                                   </div>
                                 </div>
                                 <div className="ourteambox2">

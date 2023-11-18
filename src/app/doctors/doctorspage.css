@@ -376,104 +376,69 @@ div#resultDiv {
 
 
 
-
-
 /* doctor list logic  end*/ 
 
 
 
-
-/* FAQ for wellness  start */ 
-
-
-.wellnessFAQpart {
+/* Add these styles for the active page */
+.pagination {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-}
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pagination li {
+    margin-right: 5px;
+  }
+  
+  .pagination a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
 
-.wellnessFAQhead {
-    display: inline-flex;
-    flex-wrap: wrap;
+  .pagination .active a {
+    background-color: #901412;
+    color: #fff !important;
+}
+/* Add these styles for the active page */
+
+
+/* Add this to your CSS stylesheet or component style */
+
+.loading-message {
+    display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-.wellnessFAQpart h2 {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    margin: 0;
-    font-family: 'Poppins';
-}
-.wellnessFAQ {
-    padding: 40px 0;
-}
-
-
-.accordion {
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    transition: 0.4s;
-}
-  
-  .activeFAQ, .accordion:hover {
-    background-color: #f37428;
-    color: white;
+    align-items: center;
+    color: #901412; /* Blue color */
   }
   
-  .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .activeFAQ:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: #e5c5b245;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  .wellfaqCol {
-    margin-top: 30px;
-  }
-  .panel p {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 35px 0;
-}
-
-button.accordion {
-    position: relative;
-}
-
-button.accordion:before {
-    content: "";
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    left: 0;
-    top: 44%;
-    background: #a21b18;
+  .loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #901412; /* Blue */
     border-radius: 50%;
-}
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .loading-message p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  
+  
 
-/* FAQ for wellness  end*/ 
 
 
 
