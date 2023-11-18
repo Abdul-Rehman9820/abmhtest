@@ -83,30 +83,30 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Silver Health <br />
-                      Package
+                       Coronary<br />
+                       Risk
                     </h2>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
-                      <div className="lablenumber">11</div>
+                      <div className="lablenumber">21</div>
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>
+                </div>            
                 <div className="lableseemore">
-                  <h2>Diabetes</h2>
-                  <h2>Thyroid </h2>
-                  <h2>Cholesterol </h2>
-                  <h2>Lipid Profile</h2>
+                  <h2>ECG</h2>
+                  <h2>Stress test/2D Echo </h2>
+                  <h2> Colour Doppler</h2>
+                  <h2>Ambulatory BP</h2>
                   <h2>
-                    Lever Function Test + <span className="seeactive">7 more</span>
+                    Physical Evaluation + <span className="seeactive">16 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="#">
-                      BUY NOW FOR ₹ 1099
+                      BUY NOW FOR ₹ 10200
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -121,30 +121,30 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Silver Health <br />
-                      Package
+                      Executive <br />
+                      Health
                     </h2>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
-                      <div className="lablenumber">11</div>
+                      <div className="lablenumber">27</div>
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>
+                </div>              
                 <div className="lableseemore">
-                  <h2>Diabetes</h2>
-                  <h2>Thyroid </h2>
-                  <h2>Cholesterol </h2>
-                  <h2>Lipid Profile</h2>
+                  <h2>ECG</h2>
+                  <h2>Stress test/2D Echo </h2>
+                  <h2>DET</h2>
+                  <h2>ENT</h2>
                   <h2>
-                    Lever Function Test + <span className="seeactive">7 more</span>
+                     Ophthalmic + <span className="seeactive">17 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="#">
-                      BUY NOW FOR ₹ 1099
+                      BUY NOW FOR ₹ 10000
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -159,30 +159,30 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Silver Health <br />
-                      Package
+                       Senior <br />
+                       Citizen (60+)
                     </h2>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
-                      <div className="lablenumber">11</div>
+                      <div className="lablenumber">29</div>
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>
+                </div>              
                 <div className="lableseemore">
-                  <h2>Diabetes</h2>
-                  <h2>Thyroid </h2>
-                  <h2>Cholesterol </h2>
-                  <h2>Lipid Profile</h2>
+                  <h2>ECG</h2>
+                  <h2>Stress test/2D Echo </h2>
+                  <h2>PFT </h2>
+                  <h2>Diet & Life Style</h2>
                   <h2>
-                    Lever Function Test + <span className="seeactive">7 more</span>
+                     Orthopedic + <span className="seeactive">22 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="#">
-                      BUY NOW FOR ₹ 1099
+                      BUY NOW FOR ₹ 9500
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -197,30 +197,30 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Silver Health <br />
-                      Package
+                      Well Woman<br />
+                      Check-up
                     </h2>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
-                      <div className="lablenumber">11</div>
+                      <div className="lablenumber">12</div>
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>
+                </div>             
                 <div className="lableseemore">
-                  <h2>Diabetes</h2>
-                  <h2>Thyroid </h2>
-                  <h2>Cholesterol </h2>
-                  <h2>Lipid Profile</h2>
+                  <h2>Haemogram</h2>
+                  <h2>Urine Routine </h2>
+                  <h2>Lipid Profile </h2>
+                  <h2>Sr. Creatinine</h2>
                   <h2>
-                    Lever Function Test + <span className="seeactive">7 more</span>
+                    Sr. Calcium Test + <span className="seeactive">7 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="#">
-                      BUY NOW FOR ₹ 1099
+                      BUY NOW FOR ₹ 6600
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -235,30 +235,30 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Silver Health <br />
-                      Package
+                      Pre-Employment<br />
+                      Check-up
                     </h2>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
-                      <div className="lablenumber">11</div>
+                      <div className="lablenumber">9</div>
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>
+                </div>          
                 <div className="lableseemore">
-                  <h2>Diabetes</h2>
-                  <h2>Thyroid </h2>
-                  <h2>Cholesterol </h2>
-                  <h2>Lipid Profile</h2>
+                  <h2>Haemogram with ESR</h2>
+                  <h2>Urine Routine </h2>
+                  <h2>Blood Group </h2>
+                  <h2>Blood Glucose (R)</h2>
                   <h2>
-                    Lever Function Test + <span className="seeactive">7 more</span>
+                      HIV Test + <span className="seeactive">4 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="#">
-                      BUY NOW FOR ₹ 1099
+                      BUY NOW FOR ₹ 4000
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -273,30 +273,30 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Silver Health <br />
-                      Package
+                      ABMH <br />
+                      IT
                     </h2>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
-                      <div className="lablenumber">11</div>
+                      <div className="lablenumber">20</div>
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>
+                </div>              
                 <div className="lableseemore">
-                  <h2>Diabetes</h2>
-                  <h2>Thyroid </h2>
-                  <h2>Cholesterol </h2>
+                  <h2>Urine Routine</h2>
+                  <h2>Haemogram </h2>
+                  <h2>Blood Glucose (F) </h2>
                   <h2>Lipid Profile</h2>
                   <h2>
-                    Lever Function Test + <span className="seeactive">7 more</span>
+                    GGT Test + <span className="seeactive">15 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="#">
-                      BUY NOW FOR ₹ 1099
+                      BUY NOW FOR ₹ 10200
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"

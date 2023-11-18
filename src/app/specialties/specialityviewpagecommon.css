@@ -29,8 +29,11 @@
 
 /* common head banner  start*/
 .mainheadingbandiv {
-    height: 300px;
+    height: auto;
     background: #F7D651;
+}
+.mainheadingbandiv img {
+    width: 100%;
 }
 
 /* common head banner  end*/

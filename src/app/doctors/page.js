@@ -372,7 +372,7 @@ const Doctors = () => {
                                 <h2>{item.DoctorDesignation}</h2>
                               </div>
                               <div className="ourteamexpidr">
-                                <h2>{item.DoctorExperience}</h2>
+                                <h2>{item.DoctorExperience}ABMH Doctors</h2>
                               </div>
                             </div>
                             <div className="ourteambox2dr">
