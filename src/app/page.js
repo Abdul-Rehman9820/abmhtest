@@ -354,7 +354,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <h2>Urology</h2>
+                    <Link href="/specialties/urology">
+                      <h2>Urology</h2>
+                    </Link>                 
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -373,7 +375,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <h2>Neurology</h2>
+                    <Link href="/specialties/neurology">
+                       <h2>Neurology</h2>
+                    </Link>                 
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -391,7 +395,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <h2>Diabetology</h2>
+                    <Link href="/specialties/diabetology-and-endocrinology">
+                      <h2>Diabetology</h2>
+                    </Link>                    
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -410,7 +416,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <h2>Gastroenterology</h2>
+                    <Link href="/specialties/gastroenterology">
+                       <h2>Gastroenterology</h2>
+                    </Link>                      
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -429,7 +437,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <h2>Pediatrics</h2>
+                     <Link href="/specialties/pediatrics">
+                       <h2>Pediatrics</h2>
+                    </Link>                     
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -469,7 +479,9 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/Cardiologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <h2>Cardiology</h2>
+                     <Link href="/specialties/Cardiology">
+                      <h2>Cardiology</h2>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -479,7 +491,9 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/Urologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <h2>Urology</h2>
+                    <Link href="/specialties/urology">
+                      <h2>Urology</h2>
+                    </Link>  
                   </div>
                 </div>
               </div>
@@ -489,7 +503,9 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/Neurologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <h2>Neurology</h2>
+                    <Link href="/specialties/neurology">
+                       <h2>Neurology</h2>
+                    </Link>  
                   </div>
                 </div>
               </div>
@@ -499,7 +515,9 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/Diabetologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <h2>Diabetology</h2>
+                    <Link href="/specialties/diabetology-and-endocrinology">
+                      <h2>Diabetology</h2>
+                    </Link> 
                   </div>
                 </div>
               </div>

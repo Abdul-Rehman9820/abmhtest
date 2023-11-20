@@ -70,11 +70,11 @@ const Footer = () => {
                 <div className="linkfootdiv">
                   <div className="linkfoolist">
                     <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="img" />
-                    <Link href="/serchher">+91 9881123006 </Link>
+                    <Link href="/">+91 9881123006 </Link>
                   </div>
                   <div className="linkfoolist fomail">
                     <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                    <Link href="/serchher">doctorshealthcare@adityabirla.com</Link>
+                    <Link href="/">doctorshealthcare@adityabirla.com</Link>
                   </div>
                 </div>
               </div>

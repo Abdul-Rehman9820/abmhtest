@@ -122,7 +122,7 @@ const Specialties = () => {
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
                             <Link href="/specialties/Cardiology">
@@ -134,36 +134,36 @@ const Specialties = () => {
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
@@ -179,48 +179,48 @@ const Specialties = () => {
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
@@ -236,48 +236,48 @@ const Specialties = () => {
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
-                            <Image width={400} height={400} src="/specialtiesimg/Cardiology.png" alt="img" />
+                            <Image width={100} height={100} src="/specialtiesimg/Cardiology.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <a href="">
+                           <Link href="/specialties">
                               <h2>Diabetology</h2>
-                            </a>
+                             </Link>  
                           </div>
                         </div>
                       </div>
@@ -300,82 +300,22 @@ const Specialties = () => {
                     />
                     <form id="colorFormsp">
                       <div className="checkboxcontsp">
-                        <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
-                                  src="/specialtiesimg/Cardiology.png"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <a href="">
-                                  <h2>Lactation</h2>
-                                </a>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
-                                  src="/specialtiesimg/Cardiology.png"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <a href="">
 
-                                  <h2>Accident &amp; Emergency</h2>
-                                </a>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
-                                  src="/specialtiesimg/Cardiology.png"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <a href="">
 
-                                  <h2>Clinical Hematology</h2>{" "}
-                                </a>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
-                                  src="/specialtiesimg/Cardiology.png"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <a href="">
 
-                                  <h2>Dentistry</h2>{" "}
-                                </a>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Accident & Emergency</h2>
+                                 </Link>  
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
                                 </h2>
@@ -387,15 +327,15 @@ const Specialties = () => {
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
+                                <Image width={100} height={100}
                                   src="/specialtiesimg/Cardiology.png"
                                   alt="img"
                                 />
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <a href="">
-                                  <h2>Lactation</h2>
-                                </a>
+                               <Link href="/specialties">
+                                  <h2>Anesthesiology</h2>
+                                 </Link>  
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
                                 </h2>
@@ -407,16 +347,317 @@ const Specialties = () => {
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
+                                <Image width={100} height={100}
                                   src="/specialtiesimg/Cardiology.png"
                                   alt="img"
                                 />
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <a href="">
+                               <Link href="/specialties">
+                                  <h2>Andrology & Sexual Medicine</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Breast Onco Surgery</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Baritric & Metabolic Surgery</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Brachial Plexus Injury & Hand Surgery</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Cardic Anesthesiology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Cardiology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Cardiovascular and Thoracic Surgery</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Clinical Hematology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Clinical Psychology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Critical Care</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Child Psychology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Clinical Pharmacology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Dermatology & Aesthetics</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Dentistry</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Diabetology & Endocrinology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                                  <h2>Accident &amp; Emergency</h2>
-                                </a>
+
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>ENT (Ear, Nose, Throat)</h2>
+                                 </Link>  
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
                                 </h2>
@@ -428,16 +669,15 @@ const Specialties = () => {
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
+                                <Image width={100} height={100}
                                   src="/specialtiesimg/Cardiology.png"
                                   alt="img"
                                 />
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <a href="">
-
-                                  <h2>Clinical Hematology</h2>{" "}
-                                </a>
+                               <Link href="/specialties">
+                                  <h2>Epilepsy Surgery</h2>
+                                 </Link>  
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
                                 </h2>
@@ -449,16 +689,15 @@ const Specialties = () => {
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
-                                <Image width={400} height={400}
+                                <Image width={100} height={100}
                                   src="/specialtiesimg/Cardiology.png"
                                   alt="img"
                                 />
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <a href="">
-
-                                  <h2>Dentistry</h2>{" "}
-                                </a>
+                               <Link href="/specialties">
+                                  <h2>Gastroenterology</h2>
+                                 </Link>  
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
                                 </h2>
@@ -466,6 +705,328 @@ const Specialties = () => {
                             </div>
                           </div>
                         </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Genetics</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Interventional Radiology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Internal Medicine</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Liver Transplant</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Laboratory Medicine</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Nutrition and Dietetics</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Neurology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Orthopedics & Joint Replacement</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Obstetrics & Gynaecology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Ophthalmology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Physiotherapy & Rehab</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Peadiatrics</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Plastic Surgery & Cosmetology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Pain Management</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Urology</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={100} height={100}
+                                  src="/specialtiesimg/Cardiology.png"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                               <Link href="/specialties">
+                                  <h2>Vascular Surgery</h2>
+                                 </Link>  
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                       
+                    
                       </div>
                     </form>
                   </div>
