@@ -118,7 +118,7 @@ const Dermatologyaesthetics = () => {
             </div>
             <div className="spectitleimgbox">
               <div className="spectitleimgbox1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Dermatology & Aesthetics.jpg"
                   alt="img"
                 />
@@ -168,7 +168,7 @@ const Dermatologyaesthetics = () => {
               <div className="spectitlegrcont2">
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/Surgical Dermatology.jpg"
                       alt="img"
                     />
@@ -179,7 +179,7 @@ const Dermatologyaesthetics = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/General Dermatology.jpg"
                       alt="img"
                     />
@@ -190,7 +190,7 @@ const Dermatologyaesthetics = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/Pediatric Dermatology.jpg"
                       alt="img"
                     />
@@ -201,7 +201,7 @@ const Dermatologyaesthetics = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Dermatopathology.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Dermatopathology.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Dermatopathology</p>
@@ -209,7 +209,7 @@ const Dermatologyaesthetics = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Light Therapy.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Light Therapy.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Light Therapy</p>
@@ -217,7 +217,7 @@ const Dermatologyaesthetics = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/Cosmetic Dermatology.jpg"
                       alt="img"
                     />

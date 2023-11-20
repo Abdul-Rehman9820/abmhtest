@@ -1,0 +1,615 @@
+
+/* ! about us pg   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+.aboutslider {
+    padding: 0 50px;
+}
+
+.onemandreamhead {
+    font-size: 30px;
+    font-weight: 500;
+    color: #A21B18;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutslidercontloop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.aboutslidercontloop1 {
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.aboutslidercontloop2 {
+    width: 30%;
+}
+.aboutslidercontloop2 img {
+    width: 100%;
+}
+.aboutslidercontloop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bgslidegray{
+    background: #7A6D4D;
+}
+.bgslideOrange{
+    background: #f96c24;
+}
+.bgslideRed{
+    background: #A21B18;
+}
+
+.abouttopslidehead h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.abouttopslidepara p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.aboutslider .carousel-control-prev-icon img {
+    width: 100% !important;
+}
+.aboutslider .carousel-control-next-icon img {
+    width: 100% !important;
+}
+.aboutslider .carousel-control-prev {
+    right: 40px !important;
+    left: unset;
+}
+
+.aboutslider  span.carousel-control-prev-icon {
+    bottom: -40px !important;
+    position: absolute;
+}
+.aboutslider  span.carousel-control-next-icon {
+    bottom: -40px !important;
+    position: absolute;
+}
+.aboutuscont {
+    margin-bottom: 90px;
+}
+
+.Specialtiesheaddum {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.visionstylehead h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+span.headbordervision {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+.vissionandmission {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.vissionandmission1 {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.vissionandmission2 {
+    width: 33%;
+}
+.vissionandmission3 {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.visionmiss {
+    background: #FFF9E0;
+    padding: 20px 40px;
+    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%);
+}
+
+.vismisconhead img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+span.vismiheadimg {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a21b18;
+}
+
+.vismisconhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vismispara p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.vismispara p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.vismiscon {
+    padding: 23px;
+}
+.vissionandmission2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visionmissparn {
+    padding: 15px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.visionmissparn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    height: 50%;
+    border-top: 2px solid #a21b18;
+    border-right: 2px solid #a21b18;
+    z-index: -1;
+}
+.visionmissparn::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 50%;
+    border-left: 2px solid #a21b18;
+    border-bottom: 2px solid #a21b18;
+    z-index: -1;
+}
+
+.bodofdirredbg {
+    background-image: url("/aboutusimg/maroon-bg-forbod.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.BoardofDirectors {
+    padding: 40px 0;
+}
+
+
+
+
+
+.Specialtiespartbof {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Specialtiesheadbof {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.oursepperbof {
+    font-size: 30px !important;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.oursepperbofbalc {
+    font-size: 30px !important;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+span.headborderbof {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.bodofdirdata {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bodofdirdata1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.bodofdirdata2 {
+    width: 60%;
+}
+.bodpar {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.bodprofileimg {
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+
+.bodname {
+    font-size: 20px;
+    font-weight: 500;
+    color: #a21b18;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boddesignam {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bodnowmorebtn {
+    background-color: #a21b18;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding: 0px  10px;
+    border-radius: 10px;
+    margin: auto !important;
+    display: table;
+    text-align: center;
+}
+.bodprofilbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+.bodprofiloop {
+    background: white;
+    padding: 25px 25px;
+    border-radius: 10px;
+    box-shadow: 0pt 0pt 20pt rgb(0 0 0 / 8%);
+    min-width: 340px;
+}
+
+.bodofdirdatanew {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bodofdirdat2anew {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bodofdirdatasliderpara p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.awarsliderbox {
+    background: #FFFBED;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.awarandaccimg {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+.awadandacchead {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.awadandaccpara {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.awarslider .carousel-control-prev-icon img {
+    width: 100% !important;
+}
+.awarslider .carousel-control-next-icon img {
+    width: 100% !important;
+}
+
+.awarslider .carousel-indicators [data-bs-target] {
+    background-color: #f37428;
+}
+
+
+/*! about us pg   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+
+/*! about us pg   start*/
+
+
+.vissionandmission1 {
+    width: 45%;
+}
+.vissionandmission2 {
+    width: 10%;
+}
+.vissionandmission3 {
+    width: 45%;
+}
+.vissionandmission2 img {
+    display: none;
+}
+
+.bodprofiloop {
+    margin-top: 20px;
+}
+.aboutslider {
+    padding: 0 20px;
+}
+
+/*! about us pg   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! about us pg   start*/
+
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+.visionmiss {
+    padding: 10px;
+}
+
+.visionstylehead h2 {
+    font-size: 15px;
+}
+
+.vissionandmission1 {
+    width: 100%;
+}
+.vissionandmission2 {
+    width: 100%;
+}
+.vissionandmission3 {
+    width: 100%;
+}
+.vissionandmission2 img {
+    display: none;
+}
+.onemandreamhead {
+    font-size: 15px;
+}
+.aboutslidercontloop1 {
+    width: 100%;
+    padding: 10px;
+}
+.aboutslidercontloop2 {
+    width: 100%;
+}
+.aboutslidercontloop {
+    flex-direction: column-reverse;
+}
+.abouttopslidehead h2 {
+    font-size: 15px;
+}
+.abouttopslidepara p {
+    font-size: 13px;
+}
+.vismiscon {
+    padding: 10px;
+}
+.oursepperbof {
+    font-size: 15px !important;
+}
+.bodofdirdata1 {
+    width: 100%;
+}
+.bodofdirdata2 {
+    width: 100%;
+}
+.bodprofiloop {
+    min-width: 100%;
+    margin-top: 10px;
+}
+.aboutslider {
+    padding: 0px 20px;
+}
+
+.oursepperbofbalc {
+    font-size: 15px !important;
+}
+.bodofdirdatasliderpara p {
+    text-align: start;
+    font-size: 13px;
+}
+.awadandacchead {
+    font-size: 15px;
+}
+.awadandaccpara {
+    font-size: 14px;
+}
+.awarandaccimg {
+    width: 100px;
+}
+.bodprofileimg {
+    width: 130px;
+}
+span.vismiheadimg {
+    font-size: 15px;
+}
+.vismisconhead img {
+    width: 30px;
+}
+.visionmissparn {
+    padding: 0px;
+}
+
+
+
+
+
+/*! about us pg   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -117,7 +117,7 @@ const Livertransplant = () => {
       </div>
       <div className="spectitleimgbox">
         <div className="spectitleimgbox1">
-          <img src="/specialityviewimag/youtube_videos_2.png" alt="img" />
+          <Image width={400} height={400} src="/specialityviewimag/youtube_videos_2.png" alt="img" />
         </div>
         <div className="spectitleimgbox2">
           <p className="specilpara">

@@ -118,7 +118,7 @@ const Nutritiondietetics = () => {
         </div>
         <div className="spectitleimgbox">
           <div className="spectitleimgbox1">
-            <img
+            <Image width={400} height={400}
               src="/specialityviewimag/Nutrition and Dietetics.jpg"
               alt="img"
             />
@@ -161,7 +161,7 @@ const Nutritiondietetics = () => {
           <div className="spectitlegrcont2">
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Obesity Clinic.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Obesity Clinic.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Obesity Clinic</p>
@@ -169,7 +169,7 @@ const Nutritiondietetics = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/ICU Nutrition.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/ICU Nutrition.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">ICU Nutrition</p>
@@ -177,7 +177,7 @@ const Nutritiondietetics = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Intradiabetic Nutrition.jpg"
                   alt="img"
                 />
@@ -188,7 +188,7 @@ const Nutritiondietetics = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Cardiac Nutrition.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Cardiac Nutrition.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Cardiac Nutrition</p>
@@ -196,7 +196,7 @@ const Nutritiondietetics = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Nephrology Nutrition.jpg"
                   alt="img"
                 />
@@ -207,7 +207,7 @@ const Nutritiondietetics = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Mother and Child Care Nutrition.jpg"
                   alt="img"
                 />
@@ -218,7 +218,7 @@ const Nutritiondietetics = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Corporate Nutrition Programs.jpg"
                   alt="img"
                 />

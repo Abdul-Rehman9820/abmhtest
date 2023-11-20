@@ -116,7 +116,7 @@ const Plasticsurgerycosmetology = () => {
         </div>
         <div className="spectitleimgbox">
           <div className="spectitleimgbox1">
-            <img
+            <Image width={400} height={400}
               src="/specialityviewimag/Physiotheraphy & Rehabilitation.jpg"
               alt="img"
             />
@@ -170,7 +170,7 @@ const Plasticsurgerycosmetology = () => {
           <div className="spectitlegrcont2">
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Orthopedic Conditions & Rehab.jpg"
                   alt="img"
                 />
@@ -184,7 +184,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Neurosurgical Conditions & Rehab.jpg"
                   alt="img"
                 />
@@ -198,7 +198,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Physiotherapy for CardiacPulmonary Conditions & Rehab.jpg"
                   alt="img"
                 />
@@ -211,7 +211,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Physiotherapy for CardiacPulmonary Conditions & Rehab.jpg"
                   alt="img"
                 />
@@ -224,21 +224,21 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Physiotherapy for Women's Health.jpg"
                   alt="img"
                 />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">
-                  Physiotherapy for Women's Health (Antenatal Care, Postnatal
+                  Physiotherapy for Women&apos;s Health (Antenatal Care, Postnatal
                   Care)
                 </p>
               </div>
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/ErgonomicsOccupational Health Service.jpg"
                   alt="img"
                 />
@@ -251,7 +251,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Occupational Therapy.jpg"
                   alt="img"
                 />
@@ -262,7 +262,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Yoga Therapy.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Yoga Therapy.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Yoga Therapy</p>
@@ -270,7 +270,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Hydro Therapy.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Hydro Therapy.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Hydro Therapy</p>

@@ -117,7 +117,7 @@ const Accidentandemergency = () => {
             </div>
             <div className="spectitleimgbox">
               <div className="spectitleimgbox1">
-                <img src="/specialityviewimag/accident.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/accident.jpg" alt="img" />
               </div>
               <div className="spectitleimgbox2">
                 <p className="specilpara">
@@ -180,7 +180,7 @@ const Accidentandemergency = () => {
               <div className="spectitlegrcont2">
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Internal Services</p>
@@ -188,7 +188,7 @@ const Accidentandemergency = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/External Services.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/External Services.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">External Services</p>

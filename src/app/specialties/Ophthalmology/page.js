@@ -118,7 +118,7 @@ const Ophthalmology = () => {
               </div>
               <div className="spectitleimgbox">
                 <div className="spectitleimgbox1">
-                  <img
+                  <Image width={400} height={400}
                     src="/specialityviewimag/ophthalmology Surgries.jpg"
                     alt="img"
                   />
@@ -173,7 +173,7 @@ const Ophthalmology = () => {
                 <div className="spectitlegrcont2">
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img src="/specialityviewimag/Treatment.jpg" alt="img" />
+                      <Image width={400} height={400} src="/specialityviewimag/Treatment.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Treatment</p>
@@ -181,7 +181,7 @@ const Ophthalmology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img src="/specialityviewimag/Surgeries.jpg" alt="img" />
+                      <Image width={400} height={400} src="/specialityviewimag/Surgeries.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Surgeries</p>
@@ -189,7 +189,7 @@ const Ophthalmology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Opt Special Clinics.jpg"
                         alt="img"
                       />

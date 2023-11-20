@@ -115,7 +115,7 @@ const Genetics = () => {
             </div>
             <div className="spectitleimgbox">
               <div className="spectitleimgbox1">
-                <img src="/specialityviewimag/cardiospeimg.png" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/cardiospeimg.png" alt="img" />
               </div>
               <div className="spectitleimgbox2">
                 <p className="specilpara">

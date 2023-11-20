@@ -118,7 +118,7 @@ const Interventionalradiology = () => {
               </div>
               <div className="spectitleimgbox">
                 <div className="spectitleimgbox1">
-                  <img src="/specialityviewimag/radiology.jpg" alt="img" />
+                  <Image width={400} height={400} src="/specialityviewimag/radiology.jpg" alt="img" />
                 </div>
                 <div className="spectitleimgbox2">
                   <p className="specilpara">
@@ -188,7 +188,7 @@ const Interventionalradiology = () => {
                 <div className="spectitlegrcont2">
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Vascular Interventional Radiology.jpg"
                         alt="img"
                       />
@@ -201,7 +201,7 @@ const Interventionalradiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/USG-Guided Procedures.jpg"
                         alt="img"
                       />
@@ -212,7 +212,7 @@ const Interventionalradiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/CT-Guided procedures.jpg"
                         alt="img"
                       />

@@ -117,7 +117,7 @@ const Plasticsurgerycosmetology = () => {
         </div>
         <div className="spectitleimgbox">
           <div className="spectitleimgbox1">
-            <img
+            <Image width={400} height={400}
               src="/specialityviewimag/Plastic Surgery & Cosmetology.jpg"
               alt="img"
             />
@@ -170,7 +170,7 @@ const Plasticsurgerycosmetology = () => {
           <div className="spectitlegrcont2">
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/female-patient-with-cap.jpg"
                   alt="img"
                 />
@@ -181,7 +181,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Cosmetic Surgery.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Cosmetic Surgery.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Cosmetic Surgery</p>
@@ -189,7 +189,7 @@ const Plasticsurgerycosmetology = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Other Basis Procedures.jpg"
                   alt="img"
                 />

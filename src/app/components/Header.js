@@ -165,9 +165,9 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
+                                                <Link href="/about-us">About Us</Link>
+                                                <Link href="/quality-policy-and-ethics-committee">Quality Policy & Ethics Committee</Link>
+                                                <Link href="/about-csr">CSR Policy</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
@@ -326,13 +326,13 @@ const Header = () => {
                                     <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
-                                            <Link className='closeham' href="/serchher">Submenu #1 </Link>
+                                            <Link className='closeham' href="/about-us">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/serchher">Submenu #2 </Link>
+                                            <Link className='closeham' href="/quality-policy-and-ethics-committee">Quality Policy & Ethics Committee</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/serchher">Submenu #3 </Link>
+                                            <Link className='closeham' href="/about-csr">CSR Policy</Link>
                                         </li>
                                     </ul>
                                 </li>

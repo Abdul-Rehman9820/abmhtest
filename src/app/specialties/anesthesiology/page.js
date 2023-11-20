@@ -118,7 +118,7 @@ const Anesthesiology = () => {
             </div>
             <div className="spectitleimgbox">
               <div className="spectitleimgbox1">
-                <img src="/specialityviewimag/anesthesiology.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/anesthesiology.jpg" alt="img" />
               </div>
               <div className="spectitleimgbox2">
                 <p className="specilpara">
@@ -165,7 +165,7 @@ const Anesthesiology = () => {
               <div className="spectitlegrcont2">
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/Preparation of Patients.jpg"
                       alt="img"
                     />
@@ -178,7 +178,7 @@ const Anesthesiology = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/After Anesthesia.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/After Anesthesia.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">

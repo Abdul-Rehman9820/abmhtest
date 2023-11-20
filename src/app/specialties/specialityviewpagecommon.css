@@ -114,18 +114,18 @@ p.specilpara {
 }
 
 .spectitlegrcont1 {
-    width: 55%;
+    width: 100%;
 }
 
 .spectitlegrcont2 {
-    width: 45%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .testimgboxcont {
-    width: 50%;
+    width: 25%;
     padding: 20px;
 }
 
@@ -400,6 +400,7 @@ p.specilpara {
     }
     .testimgboxcont {
         padding: 5px;
+        width: 50%;
     }
     .ourteamslidchilbosingle {
         padding: 0px !important;
@@ -408,6 +409,7 @@ p.specilpara {
     .ourteamslidebox {
         height: 100%;
     }
+ 
 
 
     /*! specialties end*/

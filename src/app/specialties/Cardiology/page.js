@@ -115,7 +115,7 @@ const Cardiology = () => {
               </div>
               <div className="spectitleimgbox">
                 <div className="spectitleimgbox1">
-                  <img src="/specialityviewimag/cardiology.jpg" alt="img" />
+                  <Image width={400} height={400} src="/specialityviewimag/cardiology.jpg" alt="img" />
                 </div>
                 <div className="spectitleimgbox2">
                   <p className="specilpara">
@@ -165,7 +165,7 @@ const Cardiology = () => {
                 <div className="spectitlegrcont2">
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Coronary Angioplasty.jpg"
                         alt="img"
                       />
@@ -178,7 +178,7 @@ const Cardiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Pacemaker Implantation.jpg"
                         alt="img"
                       />
@@ -189,7 +189,7 @@ const Cardiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Balloon Valvuloplasty.jpg"
                         alt="img"
                       />
@@ -200,7 +200,7 @@ const Cardiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Electrophysiology Study.jpg"
                         alt="img"
                       />
@@ -213,7 +213,7 @@ const Cardiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Heart Failure Treatment.jpg"
                         alt="img"
                       />
@@ -224,7 +224,7 @@ const Cardiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Interventional Paediatric.jpg"
                         alt="img"
                       />
@@ -237,7 +237,7 @@ const Cardiology = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/3d Mapping_Rf Ablation.jpg"
                         alt="img"
                       />

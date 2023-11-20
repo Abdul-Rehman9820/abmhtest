@@ -207,7 +207,7 @@ const Virtualtour = () => {
                                 <h2>Preeti Singh</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Patient's Testimonial</h2>
+                                <h2>Patient&apos;s Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -223,7 +223,7 @@ const Virtualtour = () => {
                         <div className="whychobox1ts">
                           <div className="whychospects">
                             <h2>
-                            Impressed by Aditya Birla Hospital's staff, their dedication, and their friendly demeanour. 
+                            Impressed by Aditya Birla Hospital&apos;s staff, their dedication, and their friendly demeanour. 
                             The nurses and support team made my stay comfortable and stress-free.
                             </h2>
                           </div>
@@ -240,7 +240,7 @@ const Virtualtour = () => {
                                 <h2>James</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Patient's Testimonial</h2>
+                                <h2>Patient&apos;s Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -257,8 +257,8 @@ const Virtualtour = () => {
                           <div className="whychospects">
                             <h2>
                             I Was admitted to Aditya Birla Hospital For Typhoid treatment.
-                            The Medical team's prompt diagnosis and efficient care helped me recover quickly. 
-                            The Hospital's cleanliness and patient-friendly environment were impressive.
+                            The Medical team&apos;s prompt diagnosis and efficient care helped me recover quickly. 
+                            The Hospital&apos;s cleanliness and patient-friendly environment were impressive.
                             </h2>
                           </div>
                         </div>
@@ -274,7 +274,7 @@ const Virtualtour = () => {
                                 <h2>David Wardson</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Patient's Testimonial</h2>
+                                <h2>Patient&apos;s Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -308,7 +308,7 @@ const Virtualtour = () => {
                                 <h2>Tanu Jaiswal</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Patient's Testimonial</h2>
+                                <h2>Patient&apos;s Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -324,7 +324,7 @@ const Virtualtour = () => {
                         <div className="whychobox1ts">
                           <div className="whychospects">
                             <h2>
-                            I recently had an emergency appendix surgery at Aditya Birla Hospital, and I can't thank the medical team enough for their prompt and expert care. 
+                            I recently had an emergency appendix surgery at Aditya Birla Hospital, and I can&apos;t thank the medical team enough for their prompt and expert care. 
                             They truly live up to their reputation as the best hospital in the city. 
                             I highly recommend Aditya Birla Hospital to anyone seeking top-notch medical care in Pune.
                             </h2>
@@ -342,7 +342,7 @@ const Virtualtour = () => {
                                 <h2>Rudransh Singh</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Patient's Testimonial</h2>
+                                <h2>Patient&apos;s Testimonial</h2>
                               </div>
                             </div>
                           </div>
@@ -359,7 +359,7 @@ const Virtualtour = () => {
                           <div className="whychospects">
                             <h2>
                             My uncle had his knee surgery at this hospital. The facilities provided by the hospital were great. 
-                            Thanks to the expert surgeons now he's able to walk properly.
+                            Thanks to the expert surgeons now he&apos;s able to walk properly.
                             </h2>
                           </div>
                         </div>
@@ -375,7 +375,7 @@ const Virtualtour = () => {
                                 <h2>Sahil Mansoori</h2>
                               </div>
                               <div className="whychonameforts">
-                                <h2>Patient's Testimonial</h2>
+                                <h2>Patient&apos;s Testimonial</h2>
                               </div>
                             </div>
                           </div>

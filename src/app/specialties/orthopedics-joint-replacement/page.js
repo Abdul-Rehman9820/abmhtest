@@ -117,7 +117,7 @@ const Orthopedicsjointreplacement = () => {
         </div>
         <div className="spectitleimgbox">
           <div className="spectitleimgbox1">
-            <img
+            <Image width={400} height={400}
               src="/specialityviewimag/Deformity Corrections & Advanced Spine Surgeries.jpg"
               alt="img"
             />
@@ -169,7 +169,7 @@ const Orthopedicsjointreplacement = () => {
               </li>
             </ul>
             <p className="specilpara">
-              Our infrastructure also enables 'Research' in this area. Our team
+              Our infrastructure also enables &apos;Research&apos; in this area. Our team
               has published their research in national and international
               journals such as JBJS (Am &amp; Br), CORR, J. of Arthroplasty etc.
               Our Orthopedic team regularly presents their working national and
@@ -181,7 +181,7 @@ const Orthopedicsjointreplacement = () => {
           <div className="spectitlegrcont2">
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Advanced Arthroscopy & Sports Injuries.jpg"
                   alt="img"
                 />
@@ -194,7 +194,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Orthopedics & Joint Replacement.jpg"
                   alt="img"
                 />
@@ -208,7 +208,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Foot & Ankle Surgery.jpg"
                   alt="img"
                 />
@@ -219,7 +219,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Hand & Upper Extremities.jpg"
                   alt="img"
                 />
@@ -230,7 +230,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Osteoporosis.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Osteoporosis.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Osteoporosis</p>
@@ -238,7 +238,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Knee Implant.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Knee Implant.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Knee Implant</p>
@@ -246,7 +246,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Pediatric Orthopaedic Trauma.jpg"
                   alt="img"
                 />
@@ -259,7 +259,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Adult Reconstructive Joint Replacement Surgeries.jpg"
                   alt="img"
                 />
@@ -272,7 +272,7 @@ const Orthopedicsjointreplacement = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Limb Deformity Correction Surgeries.jpg"
                   alt="img"
                 />

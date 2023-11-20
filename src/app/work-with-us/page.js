@@ -35,19 +35,25 @@ const Workwithus = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-        <div className="mainheadingbandiv"></div>
+        <div className="mainheadingbandiv">
+             <Image width={2000} height={400} src="/commonimages/workwithuscommbanner.jpg" alt="icon" />
+        </div>
       </div>
       {/* common heading banner end */}
       {/* specialties  start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
+
+
           {/* comment if no opening*/}
           {/* <div class="workwithuscont">
 
 
-       <h4>There are no current opening</h4>
+        <h4>There are no current opening</h4>
 
-      </div> */}
+        </div> */}
+
+
           {/* comment if no opening*/}
           <div className="workwithuscont">
             <div className="accordion" id="accordionExample">

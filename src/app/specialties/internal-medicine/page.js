@@ -118,7 +118,7 @@ const Internalmedicine = () => {
               </div>
               <div className="spectitleimgbox">
                 <div className="spectitleimgbox1">
-                  <img src="/specialityviewimag/internal medicine.jpg" alt="img" />
+                  <Image width={400} height={400} src="/specialityviewimag/internal medicine.jpg" alt="img" />
                 </div>
                 <div className="spectitleimgbox2">
                   <p className="specilpara">
@@ -171,7 +171,7 @@ const Internalmedicine = () => {
                 <div className="spectitlegrcont2">
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Infectious Diseases.jpg"
                         alt="img"
                       />
@@ -182,7 +182,7 @@ const Internalmedicine = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img src="/specialityviewimag/Geriatric Care.jpg" alt="img" />
+                      <Image width={400} height={400} src="/specialityviewimag/Geriatric Care.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Geriatric Care</p>
@@ -190,7 +190,7 @@ const Internalmedicine = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Preventive Medicine & Vaccinations.jpg"
                         alt="img"
                       />
@@ -203,7 +203,7 @@ const Internalmedicine = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/HIV Counselling & Treatment.jpg"
                         alt="img"
                       />
@@ -214,7 +214,7 @@ const Internalmedicine = () => {
                   </div>
                   <div className="testimgboxcont">
                     <div className="testimgboxcot1">
-                      <img
+                      <Image width={400} height={400}
                         src="/specialityviewimag/Hypertension Clinic.jpg"
                         alt="img"
                       />

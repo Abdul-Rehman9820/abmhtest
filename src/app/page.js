@@ -773,7 +773,7 @@ export default function Home() {
                           The surgery was successful and she was able to recover sooner. Hear what she has to say.							
                           </div>
                           <div className="ourworkname">
-                            <h2>Patient's Feedback</h2>
+                            <h2>Patient&apos;s Feedback</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">

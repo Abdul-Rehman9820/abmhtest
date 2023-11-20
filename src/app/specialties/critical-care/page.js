@@ -118,7 +118,7 @@ const Criticalcare = () => {
             </div>
             <div className="spectitleimgbox">
               <div className="spectitleimgbox1">
-                <img src="/specialityviewimag/critical_care.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/critical_care.jpg" alt="img" />
               </div>
               <div className="spectitleimgbox2">
                 <p className="specilpara">
@@ -181,7 +181,7 @@ const Criticalcare = () => {
               <div className="spectitlegrcont2">
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/General Medicine.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/General Medicine.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">General Medicine</p>
@@ -189,7 +189,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/Respiratory Medicine.jpg"
                       alt="img"
                     />
@@ -200,7 +200,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Renal Transplants.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Renal Transplants.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Renal Transplants</p>
@@ -208,7 +208,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/(GI) surgery.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/(GI) surgery.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">General &amp; Upper GI surgery</p>
@@ -216,7 +216,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/head_surgery.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/head_surgery.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Head &amp; Neck Surgery</p>
@@ -224,7 +224,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/ent_surgery.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/ent_surgery.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Ent Surgery</p>
@@ -232,7 +232,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Neurosurgery.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Neurosurgery.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Neurology &amp; Neurosurgery</p>
@@ -240,7 +240,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Vascular Surgery.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Vascular Surgery.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Vascular Surgery</p>
@@ -248,7 +248,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/orthopaedics.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/orthopaedics.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">Trauma &amp; Orthopaedics</p>
@@ -256,7 +256,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img
+                    <Image width={400} height={400}
                       src="/specialityviewimag/Gynecology_Obstetrics.jpg"
                       alt="img"
                     />
@@ -267,7 +267,7 @@ const Criticalcare = () => {
                 </div>
                 <div className="testimgboxcont">
                   <div className="testimgboxcot1">
-                    <img src="/specialityviewimag/Maxillofacial.jpg" alt="img" />
+                    <Image width={400} height={400} src="/specialityviewimag/Maxillofacial.jpg" alt="img" />
                   </div>
                   <div className="testimgboxcot2">
                     <p className="testimgtitle">

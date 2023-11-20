@@ -118,7 +118,7 @@ const Dentistry = () => {
         </div>
         <div className="spectitleimgbox">
           <div className="spectitleimgbox1">
-            <img src="/specialityviewimag/dentistry.jpg" alt="img" />
+            <Image width={400} height={400} src="/specialityviewimag/dentistry.jpg" alt="img" />
           </div>
           <div className="spectitleimgbox2">
             <div className="spectitle Specialtiesheadgr">
@@ -346,7 +346,7 @@ const Dentistry = () => {
             </div>
             <p className="specilpara">
               Our dental department is fortified with state-of-the-art equipment
-              which includes, Fully Digital Dental Units, Digital X'Ray
+              which includes, Fully Digital Dental Units, Digital X&apos;Ray
               facility, IntraOral Camera, In house autoclaving over and above
               Central Sterilization System of the hospital.
             </p>
@@ -363,7 +363,7 @@ const Dentistry = () => {
           <div className="spectitlegrcont2">
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Oral & Maxillofacial Surgery.jpg"
                   alt="img"
                 />
@@ -376,7 +376,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Cosmetic Dentistry.jpg"
                   alt="img"
                 />
@@ -387,7 +387,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Oral Surgical Procedures.jpg"
                   alt="img"
                 />
@@ -398,7 +398,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Orthodontic Treatment.jpg"
                   alt="img"
                 />
@@ -409,7 +409,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Paediatric Dentistry.jpg"
                   alt="img"
                 />
@@ -420,7 +420,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Dental Cosmetic Surgery.jpg"
                   alt="img"
                 />
@@ -431,7 +431,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Routine Dental Procedures.jpg"
                   alt="img"
                 />
@@ -442,7 +442,7 @@ const Dentistry = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Specialized Dental Treatment.jpg"
                   alt="img"
                 />

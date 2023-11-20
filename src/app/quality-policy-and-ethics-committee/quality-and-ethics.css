@@ -1,0 +1,288 @@
+
+/* ! ethics   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+
+
+
+.commqulityhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commqulityheadbof {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.commqulityheadbalc {
+    font-size: 30px !important;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.qualityheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.qualitypoldata {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.qualitypoldata1 {
+    width: 70%;
+}
+.qualitypoldata2 {
+    width: 30%;
+}
+
+.qullitdotpara {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.paraqlflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.paraqlflex1 {
+    width: 3%;
+}
+.paraqlflex2 {
+    width: 97%;
+}
+
+.qlitdot {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: #a21b18;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.qulitimg {
+    width: 100%;
+}
+
+.ethiccommmaindatabox {
+    background: #fff8e2;
+    padding: 40px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.ethicboxhead h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #a21b18;
+}
+
+.ethicboxpara {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+    line-height: 2;
+}
+.ethiccommmaindata {
+    margin-top: 40PX;
+    margin-bottom: 40PX;
+}
+.ethicborRight {
+    border-right: 20px solid #f37428;
+}
+.ethicborLeft {
+    border-left: 20px solid #f37428;
+}
+.ethiccommmain {
+    margin-top: 30px;
+}
+
+
+
+/*! ethics   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+
+/*! ethics   start*/
+
+
+
+
+
+
+
+/*! ethics   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! ethics   start*/
+
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+.commqulityheadbalc {
+    font-size: 15px !important;
+}
+.qualitypoldata1 {
+    width: 100%;
+}
+.qualitypoldata2 {
+    width: 100%;
+}
+.paraqlflex1 {
+    width: 5%;
+}
+.paraqlflex2 {
+    width: 95%;
+}
+.qullitdotpara {
+    font-size: 14px;
+}
+.ethiccommmaindatabox {
+    padding: 20px 10px;
+}
+.ethicborRight {
+    border-right: 10px solid #f37428;
+}
+.ethicboxhead h2 {
+    font-size: 15px;
+}
+
+.ethicboxpara {
+    font-size: 14px;
+}
+.ethicborLeft {
+    border-left: 10px solid #f37428;
+}
+
+
+
+
+
+/*! ethics   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

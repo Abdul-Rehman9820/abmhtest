@@ -118,7 +118,7 @@ const Ent = () => {
         </div>
         <div className="spectitleimgbox">
           <div className="spectitleimgbox1">
-            <img src="/specialityviewimag/ent.jpg" alt="img" />
+            <Image width={400} height={400} src="/specialityviewimag/ent.jpg" alt="img" />
           </div>
           <div className="spectitleimgbox2">
             <p className="specilpara">
@@ -160,7 +160,7 @@ const Ent = () => {
           <div className="spectitlegrcont2">
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Otology.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Otology.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Otology</p>
@@ -168,7 +168,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Rhinology.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Rhinology.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Rhinology</p>
@@ -176,7 +176,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Laryngology.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Laryngology.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Laryngology</p>
@@ -184,7 +184,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img src="/specialityviewimag/Neck Condition.jpg" alt="img" />
+                <Image width={400} height={400} src="/specialityviewimag/Neck Condition.jpg" alt="img" />
               </div>
               <div className="testimgboxcot2">
                 <p className="testimgtitle">Neck Condition</p>
@@ -192,7 +192,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Pediatric Otorhinolaryngology.jpg"
                   alt="img"
                 />
@@ -203,7 +203,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Audiology and Speech Pathology.jpg"
                   alt="img"
                 />
@@ -214,7 +214,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/ENT-related procedures.jpg"
                   alt="img"
                 />
@@ -225,7 +225,7 @@ const Ent = () => {
             </div>
             <div className="testimgboxcont">
               <div className="testimgboxcot1">
-                <img
+                <Image width={400} height={400}
                   src="/specialityviewimag/Speciality Clinics.jpg"
                   alt="img"
                 />
