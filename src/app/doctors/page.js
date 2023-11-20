@@ -65,6 +65,14 @@ const Doctors = () => {
   } else {
     search = ""; // Set the default value if 'doc' is not present
   }
+
+  var stype = "";
+
+  if (searchParams.has('stype')) {
+    stype = searchParams.get('stype') // get from url
+  } else {
+    stype = "search"; // Set the default value if 'doc' is not present
+  }
   //---- for api data
 
 
@@ -95,6 +103,7 @@ const Doctors = () => {
           method: "POST",
           body: JSON.stringify({
             usersearch: search,
+            stype: stype,
           }),
         });
 
@@ -179,8 +188,17 @@ const Doctors = () => {
       setmydyno(mydynostring);
 
 
+       // for user show heading in filter
+      const checkedColorsname = [];
+      checkboxes.forEach(function (checkbox) {
+        checkedColorsname.push(checkbox.className);
+      });
+
+     
       // Append checked values to the resultDiv
-      resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColors.length > 0 ? checkedColors.join(', ') : ' ');
+      // resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColors.length > 0 ? checkedColors.join(', ') : ' ');
+
+      resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColorsname.length > 0 ? checkedColorsname.join(', ') : ' ');
     });
 
     // filter btn 
@@ -222,7 +240,7 @@ const Doctors = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / <span className="breadcrumbsactive">Our Doctors</span>
+                  Home / <span className="breadcrumbsactive">Our Doctors Filter</span>
                 </div>
               </div>
             </div>
@@ -264,7 +282,7 @@ const Doctors = () => {
                       </div>
                       <div className="drlistformflex2">
                         <button className="drlistsearchinputBTN" type="submit">
-                          <Link href={`/doctors?doc=${searchQuery}`}>
+                          <Link href={`/doctors?stype=search&doc=${searchQuery}`}>
                             <i className="fa fa-search" />
                           </Link>
                         </button>
@@ -306,7 +324,8 @@ const Doctors = () => {
 
                             <div className="myhref" key={index}>
                               <label>
-                                <input type="checkbox" id={item.specialty_slug} name="colors" /> {item.specialty_name}
+                                {/* <input type="checkbox" id={item.specialty_slug} name="colors" /> {item.specialty_name} */}
+                                <input type="checkbox" id={item.id} className={item.specialty_name} name="colors" /> {item.specialty_name}
                               </label>
                             </div>
 
@@ -325,7 +344,7 @@ const Doctors = () => {
                     <div id="resultDiv" />
                     <div className="mybtn">
 
-                      <Link onClick={hidshow} id="dynamicLink" href={`/doctors?doc=${mydyno}`}>
+                      <Link onClick={hidshow} id="dynamicLink" href={`/doctors?stype=filter&doc=${mydyno}`}>
                         APPLY FILTER
                       </Link>
 

@@ -9,7 +9,7 @@ import '../specialityviewpagecommon.css'
 
 
 
-const Urology = () => {
+const Childpsychology = () => {
 
 
   // store data here
@@ -78,7 +78,7 @@ const Urology = () => {
 
 
     <>
-      <title>AAA</title>
+      <title>Child Psychology</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -87,7 +87,7 @@ const Urology = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">AAA</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Child Psychology</span>
                 </div>
               </div>
             </div>
@@ -243,4 +243,4 @@ const Urology = () => {
 
 
 
-export default Urology;
+export default Childpsychology;

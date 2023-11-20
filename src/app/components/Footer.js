@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="footermain">
             <div className="footermaincol1">
               <div className="footerlogo">
-                <Image width={1000} height={400} src="/homeimg/footmainlogo.png" alt="" />
+                <Image width={1000} height={400} src="/homeimg/footmainlogo.png" alt="img" />
               </div>
               <div className="footerlogopara">
                 <p>
@@ -41,24 +41,24 @@ const Footer = () => {
               </div>
               <div className="footergetdirect">
                 <Link href="https://maps.app.goo.gl/Ni7DcGdRRGAReJw7A">
-                  <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="" />
+                  <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="img" />
                 </Link>
               </div>
               <div className="footersocial">
                 <div className="footersocialbox">
                   <div className="footersocialboximg">
                     <Link href="https://www.instagram.com/aditya_birla_memorial_hospital/?igshid=12cbmsde7tye3">
-                      <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="img" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
                     <Link href="https://www.facebook.com/ABMHPune">
-                      <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="img" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
                     <Link href="https://www.youtube.com/channel/UCXVvGvIc-xT6B7q1KwOFQUw">
-                      <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="" />
+                      <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="img" />
                     </Link>
                   </div>
                 </div>
@@ -69,11 +69,11 @@ const Footer = () => {
                 <h2>CONTACT US</h2>
                 <div className="linkfootdiv">
                   <div className="linkfoolist">
-                    <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
+                    <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="img" />
                     <Link href="/serchher">+91 9881123006 </Link>
                   </div>
                   <div className="linkfoolist fomail">
-                    <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="" />
+                    <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
                     <Link href="/serchher">doctorshealthcare@adityabirla.com</Link>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Footer = () => {
                 <h2>Emergency Service</h2>
                 <div className="linkfootdiv">
                   <div className="linkfoolist">
-                    <Link href="/serchher">+91 9881165006 </Link>
+                    <Link href="/">+91-20-3071 7500-3</Link>
                   </div>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Footer = () => {
                 <h2>Ambulance Service</h2>
                 <div className="linkfootdiv">
                   <div className="linkfoolist">
-                    <Link href="/serchher">+91 9881165006 </Link>
+                    <Link href="/">+91-20-40707777/30717777</Link>
                   </div>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const Footer = () => {
                 <h2>ABMH Assist</h2>
                 <div className="linkfootdiv">
                   <div className="linkfoolist">
-                    <Link href="/serchher">+91 9881165006 </Link>
+                    <Link href="/">+91 98811 23006</Link>
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@ const Footer = () => {
           <div className="copyrightmain">
             <div className="copyrightmaincol1">
               <h3>
-                COPYRIGHT © 2021 | ADITYA BIRLA HEALTH SERVICES LTD. | ALL RIGHTS
+                COPYRIGHT © 2023 | ADITYA BIRLA HEALTH SERVICES LTD. | ALL RIGHTS
                 RESERVED | DESIGNED &amp; POWERED BY MIND FRAME INDIA
               </h3>
             </div>
@@ -190,7 +190,7 @@ const Footer = () => {
           <div className="footermain">
             <div className="footermaincol1">
               <div className="footerlogo">
-                <Image width={400} height={400} src="/homeimg/footmainlogo.png" alt="" />
+                <Image width={400} height={400} src="/homeimg/footmainlogo.png" alt="img" />
               </div>
               <div className="footerlogopara">
                 <p>
@@ -200,24 +200,24 @@ const Footer = () => {
               </div>
               <div className="footergetdirect">
                 <Link href="#">
-                  <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="" />
+                  <Image width={400} height={400} src="/homeimg/getdireimg.png" alt="img" />
                 </Link>
               </div>
               <div className="footersocial">
                 <div className="footersocialbox">
                   <div className="footersocialboximg">
-                    <Link href="/serchher">
-                      <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="" />
+                    <Link href="https://www.instagram.com/aditya_birla_memorial_hospital/?igshid=12cbmsde7tye3">
+                      <Image width={400} height={400} src="/homeimg/footersoiconint.png" alt="img" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
-                    <Link href="/serchher">
-                      <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="" />
+                    <Link href="https://www.facebook.com/ABMHPune">
+                      <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="img" />
                     </Link>
                   </div>
                   <div className="footersocialboximg">
-                    <Link href="/serchher">
-                      <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="" />
+                    <Link href="https://www.youtube.com/channel/UCXVvGvIc-xT6B7q1KwOFQUw">
+                      <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="img" />
                     </Link>
                   </div>
                 </div>
@@ -266,16 +266,16 @@ const Footer = () => {
                   <h2>CONTACT US</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="" />
-                      <Link href="/serchher">+91 9881123006 </Link>
+                      <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="img" />
+                      <Link href="/">+91 98811 23006</Link>
                     </div>
                     <div className="linkfoolist">
                       <Image width={400} height={400}
                         className="fooimg"
                         src="/homeimg/fooiconmail.png"
-                        alt=""
+                        alt="img"
                       />
-                      <Link href="/serchher">doctorshealthcare@adityabirla.com</Link>
+                      <Link href="/">doctorshealthcare@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ const Footer = () => {
           <div className="copyrightmain">
             <div className="copyrightmaincol1">
               <h3>
-                COPYRIGHT © 2021 | ADITYA BIRLA HEALTH SERVICES LTD. | ALL RIGHTS
+                COPYRIGHT © 2023 | ADITYA BIRLA HEALTH SERVICES LTD. | ALL RIGHTS
                 RESERVED | DESIGNED &amp; POWERED BY MIND FRAME INDIA
               </h3>
             </div>

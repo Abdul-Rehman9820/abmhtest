@@ -35,7 +35,9 @@ const Aboutus = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-        <div className="mainheadingbandiv"></div>
+        <div className="mainheadingbandiv">
+            <Image width={2000} height={400} src="/commonimages/About-Us-com-ban.jpg" alt="icon" />
+        </div>
       </div>
       {/* common heading banner end */}
       {/* about us pg start*/}
