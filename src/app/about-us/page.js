@@ -17,7 +17,7 @@ const Aboutus = () => {
 
 
     <>
-    <title>About Us</title>
+      <title>About Us</title>
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -399,6 +399,18 @@ const Aboutus = () => {
                     data-bs-slide-to={2}
                     aria-label="Slide 3"
                   ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators61"
+                    data-bs-slide-to={3}
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators61"
+                    data-bs-slide-to={4}
+                    aria-label="Slide 5"
+                  ></button>
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -409,24 +421,6 @@ const Aboutus = () => {
                         alt="img"
                       />
                       <div className="awadandacchead">
-                        The Australian Council on Healthcare Standards (ACHS )2
-                      </div>
-                      <div className="awadandaccpara">
-                        Aditya Birla Memorial Hospital is the first hospital to
-                        achieve accreditation from Australian Council on Healthcare
-                        Standards (ACHS) with extensive achievement under Equip7
-                        program with advanced Person Centred Systems
-                      </div>
-                    </div>
-                  </div>
-                  <div className="carousel-item ">
-                    <div className="awarsliderbox">
-                      <Image width={400} height={400}
-                        className="awarandaccimg"
-                        src="/aboutusimg/awardandacclogo1.png"
-                        alt="img"
-                      />
-                      <div className="awadandacchead">
                         The Australian Council on Healthcare Standards (ACHS )
                       </div>
                       <div className="awadandaccpara">
@@ -441,20 +435,84 @@ const Aboutus = () => {
                     <div className="awarsliderbox">
                       <Image width={400} height={400}
                         className="awarandaccimg"
-                        src="/aboutusimg/awardandacclogo1.png"
+                        src="/aboutusimg/HACCP.png"
                         alt="img"
                       />
                       <div className="awadandacchead">
-                        The Australian Council on Healthcare Standards (ACHS )
+                        ISO 22000 & 2005: HACCP (Hazard Analysis and Critical Control Point) by BSI
                       </div>
                       <div className="awadandaccpara">
-                        Aditya Birla Memorial Hospital is the first hospital to
-                        achieve accreditation from Australian Council on Healthcare
-                        Standards (ACHS) with extensive achievement under Equip7
-                        program with advanced Person Centred Systems
+                        Aditya Birla Memorial Hospital has become the&nbsp;<strong>first hospital in INDIA</strong>&nbsp;to have got certified by&nbsp;<strong>ISO 22000 &amp; 2005</strong>: HACCP.
+                        ISO 22000:2005 specifies requirements for a food safety management system where an organization in the food chain needs to demonstrate its ability to control food safety hazards in order to ensure that food is safe at the time of human consumption.
+                        The ISO 22000: 2005 Food Safety Management system is a structured, preventive approach to food safety that optimizes efforts to provide the consumer with safe food.
+                      </div>
+                      <div className="awadandaccpara">
+                        HACCP (Hazard Analysis and Critical Control Point) is a systematic approach in identifying, evaluating and controlling food safety hazards. Food safety hazards are biological, chemical or physical agents that are reasonably likely to cause illness or injury in the absence of their control. A HACCP system is a preventive system of hazard control rather than a reactive one. HACCP systems are designed to prevent the occurrence of potential food safety problems. This is achieved by assessing the inherent hazards attributable to a product or a process, determining the necessary steps that will control the identified hazards, and implementing active managerial control practices to ensure that the hazards are eliminated or minimized.
+                      </div>
+                      <div className="awadandaccpara">
+                        HACCP principles were developed by Codex Alimentarius of the World Health Organization. The certification process involved audits conducted by British Standards International (BSI,) Assurance UK Limited. The certification ensures that protocol for managing food safety is being adhered to in order to ensure safe food.
+                      </div>
+                      <div className="awadandaccpara">
+                        For more information on ISO 22000 &amp; 2005: HACCP accreditation, log on to&nbsp;<a href="http://www.iso.org/" target="_blank" rel="noopener noreferrer">www.iso.org</a>&nbsp;and&nbsp;<a href="http://www.fda.gov/" target="_blank" rel="noopener noreferrer">www.fda.gov</a>
                       </div>
                     </div>
                   </div>
+                  <div className="carousel-item ">
+                    <div className="awarsliderbox">
+                      <Image width={400} height={400}
+                        className="awarandaccimg"
+                        src="/aboutusimg/ISOabout.png"
+                        alt="img"
+                      />
+                      <div className="awadandacchead">
+                        ISO 9001:2008 Certification for Hospital Quality Management Systems, by DNV (Norway)
+                      </div>
+                      <div className="awadandaccpara">
+                        ISO 9001:2008 sets out the criteria for a quality management system and is the only standard in the family that can be certified to (although this is not a requirement).
+                        The standard is based on a number of quality management principles including a strong customer focus, the motivation and implication of top management, the process approach and
+                        continual improvement.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item ">
+                    <div className="awarsliderbox">
+                      <div className="awadandacchead">
+                        Awards - A tribute to team work and commitment
+                      </div>
+                      <div className="awadandaccpara">
+
+                        <ul>
+                          <li>1. Performance Excellence Award – IMC Ramkrishna Bajaj National Award</li>
+                          <li>2. Global Award – Quality excellence for consumer protection (Patient Safety)</li>
+                          <li>3. National Quality Excellence Award – Quality excellence for consumer protection (Patient Safety)</li>
+                          <li>4. Garden &amp; Plantation Award – Best Garden and Plantation in PCMC area</li>
+                          <li>5. Quality Management System – Det Norske Veritas Management System Certificate</li>
+                        </ul>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item ">
+                    <div className="awarsliderbox">
+                      <Image width={400} height={400}
+                        className="awarandaccimg"
+                        src="/aboutusimg/NABH-Logo_new-1.png"
+                        alt="img"
+                      />
+                      <div className="awadandacchead">
+                        National Accreditation Board for Hospitals & Healthcare Providers (NABH)
+                      </div>
+                      <div className="awadandaccpara">
+                        The board while being supported by all stakeholders including industry, consumers, government, have full functional autonomy in its operation.
+                      </div>
+                      <div className="awadandaccpara">
+                        For more information on NABH accreditation, log onto:&nbsp;<a href="https://nabh.co/" target="_blank" rel="noopener noreferrer">www.nabh.co</a>
+                      </div>
+
+                    </div>
+                  </div>
+
+
                 </div>
                 <button
                   className="carousel-control-prev"
