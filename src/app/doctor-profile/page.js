@@ -95,10 +95,10 @@ const Doctorprofile = () => {
 
           {isLoading ? (
 
-                  <div className="loading-message mt-4 mb-4">
-                    <div className="loader"></div>
-                    <p>Loading Profile...</p>
-                  </div>
+            <div className="loading-message mt-4 mb-4">
+              <div className="loader"></div>
+              <p>Loading Profile...</p>
+            </div>
 
           ) : (
 
@@ -108,13 +108,13 @@ const Doctorprofile = () => {
 
               data.map((item, index) => (
 
-               
+
                 <div className="doctorviewprofile" key={index} >
                   <div className="commonheadcontainer">
                     <div className="breadcrumbs">
                       {/* try to dynamic */}
 
-                      <title>{item.DoctorFName + item.DoctorLName}</title>
+                      <title>{item.DoctorFName + " " + item.DoctorLName}</title>
 
                       <div className="breadcrumbsdata">
                         Home / <span className="breadcrumbsactive">{item.DoctorFName} {item.DoctorLName}</span>
@@ -153,7 +153,7 @@ const Doctorprofile = () => {
                             id="pills-tab"
                             role="tablist"
                           >
-                          
+
                             <li className="nav-item" role="presentation">
                               <button
                                 className="nav-link active"
@@ -186,21 +186,21 @@ const Doctorprofile = () => {
                               </li>
                             ) : null}
 
-                          {item.DoctorPublications ? (
-                            <li className="nav-item" role="presentation">
-                              <button
-                                className="nav-link"
-                                id="pills-contact-tab"
-                                data-bs-toggle="pill"
-                                data-bs-target="#pills-contact"
-                                type="button"
-                                role="tab"
-                                aria-controls="pills-contact"
-                                aria-selected="false"
-                              >
-                                Publications
-                              </button>
-                            </li>
+                            {item.DoctorPublications ? (
+                              <li className="nav-item" role="presentation">
+                                <button
+                                  className="nav-link"
+                                  id="pills-contact-tab"
+                                  data-bs-toggle="pill"
+                                  data-bs-target="#pills-contact"
+                                  type="button"
+                                  role="tab"
+                                  aria-controls="pills-contact"
+                                  aria-selected="false"
+                                >
+                                  Publications
+                                </button>
+                              </li>
                             ) : null}
 
 
@@ -249,14 +249,14 @@ const Doctorprofile = () => {
 
                                 </div>
                                 <div className="prodataDIV">
-                              
-                              
-                                  {item.DoctoAboutme && (  
 
-                                      <>
+
+                                  {item.DoctoAboutme && (
+
+                                    <>
                                       <h3 className="datadivhiading">About Me</h3>
                                       <p className="datadivpara">{item.DoctoAboutme}</p>
-                                      </>
+                                    </>
 
                                   )}
 
@@ -280,10 +280,54 @@ const Doctorprofile = () => {
 
                                   )}
 
+                                </div>
 
+                                <div className="prodataDIV">
+
+
+                                  {item.DoctorFellowshipsAssociations && (
+
+                                    <>
+                                      <h3 className="datadivhiading">Fellowships / Associations</h3>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorFellowshipsAssociations.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+                                            <span className="roundred" />
+                                            {experience}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </>
+
+                                  )}
 
 
                                 </div>
+
+
+                                <div className="prodataDIV">
+
+
+                                  {item.DoctorQualification && (
+
+                                    <>
+                                      <h3 className="datadivhiading">Qualification</h3>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorQualification.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+                                            <span className="roundred" />
+                                            {experience}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </>
+
+                                  )}
+
+
+                                </div>
+
+
                                 <div className="prodataDIV">
 
 
@@ -291,13 +335,21 @@ const Doctorprofile = () => {
 
                                     <>
                                       <h3 className="datadivhiading">Timing:</h3>
-                                      <p className="datadivpara">{item.DoctorIPDOPDtime}</p>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorIPDOPDtime.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+                                            <span className="roundred" />
+                                            {experience}
+                                          </div>
+                                        ))}
+                                      </div>
                                     </>
 
                                   )}
 
 
                                 </div>
+                                
 
                                 <div className="prodataDIV">
 
@@ -323,44 +375,44 @@ const Doctorprofile = () => {
                             >
                               <div className="dbdata">
                                 <div className="prodataDIV">
-                                
-                               
-                                    {item.DoctorMemberships && (
 
-                                        <>
-                                          <h3 className="datadivhiading">Memberships</h3>
-                                          <div className="redanimatedloopbox">
-                                            {item.DoctorMemberships.split('||').map((experience, expIndex) => (
-                                              <div key={expIndex} className="animatedheading">
-                                                <span className="roundred" />
-                                                {experience}
-                                              </div>
-                                            ))}
+
+                                  {item.DoctorMemberships && (
+
+                                    <>
+                                      <h3 className="datadivhiading">Memberships</h3>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorMemberships.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+                                            <span className="roundred" />
+                                            {experience}
                                           </div>
-                                        </>
+                                        ))}
+                                      </div>
+                                    </>
 
-                                     )}
+                                  )}
 
 
                                 </div>
                                 <div className="prodataDIV">
 
-                        
+
                                   {item.DoctorCertifications && (
 
-                                      <>
-                                        <h3 className="datadivhiading">Certifications</h3>
-                                        <div className="redanimatedloopbox">
-                                          {item.DoctorCertifications.split('||').map((experience, expIndex) => (
-                                            <div key={expIndex} className="animatedheading">
-                                              <span className="roundred" />
-                                              {experience}
-                                            </div>
-                                          ))}
-                                        </div>
-                                      </>
+                                    <>
+                                      <h3 className="datadivhiading">Certifications</h3>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorCertifications.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+                                            <span className="roundred" />
+                                            {experience}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </>
 
-                                   )}
+                                  )}
 
 
                                 </div>
@@ -374,23 +426,23 @@ const Doctorprofile = () => {
                             >
                               <div className="dbdata">
                                 <div className="prodataDIV">
-                                
 
-                                    {item.DoctorPublications && (
 
-                                        <>
-                                          <h3 className="datadivhiading">Publications</h3>
-                                          <div className="redanimatedloopbox">
-                                            {item.DoctorPublications.split('||').map((experience, expIndex) => (
-                                              <div key={expIndex} className="animatedheading">
-                                                <span className="roundred" />
-                                                {experience}
-                                              </div>
-                                            ))}
+                                  {item.DoctorPublications && (
+
+                                    <>
+                                      <h3 className="datadivhiading">Publications</h3>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorPublications.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+                                            <span className="roundred" />
+                                            {experience}
                                           </div>
-                                        </>
+                                        ))}
+                                      </div>
+                                    </>
 
-                                     )}
+                                  )}
 
 
                                 </div>
