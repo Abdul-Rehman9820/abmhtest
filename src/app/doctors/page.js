@@ -215,7 +215,7 @@ const Doctors = () => {
     setCurrentPage(selectedPage.selected);
   };
 
-  const itemsPerPage = 9; // Change this value according to your needs
+  const itemsPerPage = 200; // Change this value according to your needs
   const offset = currentPage * itemsPerPage;
 
   const displayedData = data.slice(offset, offset + itemsPerPage);
@@ -385,7 +385,7 @@ const Doctors = () => {
                                 <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
                               </div>
                               <div className="ourteamnamedr">
-                                <h2>{item.DoctorFName} {item.DoctorLName}</h2>
+                                <h2>Dr. {item.DoctorFName} {item.DoctorLName}</h2>
                               </div>
                               <div className="ourteamspecdr">
                                 <h2>{item.DoctorDesignation}</h2>

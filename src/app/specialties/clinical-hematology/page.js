@@ -32,7 +32,7 @@ const Clinicalhematology = () => {
         const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/profilebyspecilitypage`, {
           method: "POST",
           body: JSON.stringify({
-            usersearch: "8",
+            usersearch: "10",
           }),
         });
 

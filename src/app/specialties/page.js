@@ -543,7 +543,7 @@ const Specialties = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="myhrefsp">
+                        {/* <div className="myhrefsp">
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
@@ -562,7 +562,7 @@ const Specialties = () => {
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> */}
                         <div className="myhrefsp">
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">

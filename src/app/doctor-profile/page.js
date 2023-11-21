@@ -117,7 +117,7 @@ const Doctorprofile = () => {
                       <title>{item.DoctorFName + " " + item.DoctorLName}</title>
 
                       <div className="breadcrumbsdata">
-                        Home / <span className="breadcrumbsactive">{item.DoctorFName} {item.DoctorLName}</span>
+                        Home / <span className="breadcrumbsactive">Dr. {item.DoctorFName} {item.DoctorLName}</span>
                       </div>
                     </div>
                     <div className="doctrodatcont">
@@ -130,7 +130,7 @@ const Doctorprofile = () => {
                             />
                           </div>
                           <div className="profilename">
-                            <h1>{item.DoctorFName} {item.DoctorLName}</h1>
+                            <h1>Dr. {item.DoctorFName} {item.DoctorLName}</h1>
                           </div>
                           <div className="profileSpeciality">
                             <h2>{item.DoctorDesignation}</h2>
