@@ -255,7 +255,7 @@ const Doctorprofile = () => {
 
                                     <>
                                       <h3 className="datadivhiading">About Me</h3>
-                                      <p className="datadivpara">{item.DoctoAboutme}</p>
+                                      <p className="datadivpara" dangerouslySetInnerHTML={{ __html: item.DoctoAboutme }} />
                                     </>
 
                                   )}

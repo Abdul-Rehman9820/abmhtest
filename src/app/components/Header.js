@@ -422,7 +422,7 @@ const Header = () => {
                                         </div>
                                         <div className="formflex2">
                                             <button className="searchinputBTN">
-                                                <Link href={`/doctors?doc=${searchQuery}`}>
+                                                <Link href={`/doctors?stype=search&doc=${searchQuery}`}>
                                                     <i className="fa fa-search" />
                                                 </Link>
                                             </button>

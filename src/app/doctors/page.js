@@ -188,13 +188,13 @@ const Doctors = () => {
       setmydyno(mydynostring);
 
 
-       // for user show heading in filter
+      // for user show heading in filter
       const checkedColorsname = [];
       checkboxes.forEach(function (checkbox) {
         checkedColorsname.push(checkbox.className);
       });
 
-     
+
       // Append checked values to the resultDiv
       // resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColors.length > 0 ? checkedColors.join(', ') : ' ');
 
@@ -203,9 +203,9 @@ const Doctors = () => {
 
     // filter btn 
 
+    setCurrentPage(0);
 
-
-  }, [data]);
+  }, [search, stype]);
 
 
 
@@ -366,12 +366,12 @@ const Doctors = () => {
               <ul id="paginated-list" data-current-page={currentPage + 1} aria-live="polite">
 
                 {isLoading ? (
-                 
+
                   <div className="loading-message mt-4 mb-4">
                     <div className="loader"></div>
                     <p>Loading doctors...</p>
                   </div>
-                  
+
                 ) : (
                   displayedData && displayedData.length === 0 ? (
                     <div className="empty-message mt-4 mb-4">No doctors found</div>
@@ -413,6 +413,7 @@ const Doctors = () => {
               </ul>
 
 
+
               <ReactPaginate
                 previousLabel={'<'}
                 nextLabel={'>'}
@@ -424,6 +425,7 @@ const Doctors = () => {
                 onPageChange={handlePageClick}
                 containerClassName={'pagination'}
                 activeClassName={'active'}
+                forcePage={currentPage}
               />
 
 
