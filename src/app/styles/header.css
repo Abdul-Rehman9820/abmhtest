@@ -85,7 +85,7 @@ span.BookApimg {
 }
 .parentcontainerwhi.header {
     box-shadow: 0pt 2pt 4pt rgb(0 0 0 / 29%);
-    z-index: 2;
+    z-index: 5;
     position: relative;
     background: #FFFBED;
 }

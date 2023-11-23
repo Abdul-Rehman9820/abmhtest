@@ -215,7 +215,7 @@ const Doctors = () => {
     setCurrentPage(selectedPage.selected);
   };
 
-  const itemsPerPage = 200; // Change this value according to your needs
+  const itemsPerPage = 9; // Change this value according to your needs
   const offset = currentPage * itemsPerPage;
 
   const displayedData = data.slice(offset, offset + itemsPerPage);

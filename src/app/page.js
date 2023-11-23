@@ -177,9 +177,10 @@ export default function Home() {
               />
             </div>
             <div className="carousel-inner">
+
               <div className="carousel-item active">
                 <div className="mynewslides">
-                  <Link href="/doctors">
+                  <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
@@ -188,31 +189,32 @@ export default function Home() {
               </div>
               <div className="carousel-item">
                 <div className="mynewslides">
-                  <Link href="/doctors">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome2.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner2-mob.jpg" alt='slide' />
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="mynewslides">
-                  <Link href="/doctors">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome3.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner3-mob.jpg" alt='slide' />
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="mynewslides">
-                  <Link href="/doctors">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome4.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
               </div>
+             
             </div>
             <button
               className="carousel-control-prev"
@@ -569,21 +571,21 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={400} height={400} src="/homeimg/OurTeamExperts1.png" alt="img" />
+                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajesh-badani.jpg" alt="img" />
                           </div>
                           <div className="ourteamname">
-                            <h2>Dr Khushboo P.</h2>
+                            <h2>Dr. Rajesh Badhani</h2>
                           </div>
                           <div className="ourteamspec">
-                            <h2>Cardiologist</h2>
+                            <h2>Sr. Consultant Interventional Cardiology</h2>
                           </div>
                           <div className="ourteamexpi">
-                            <h2>40+ years of experience&nbsp;</h2>
+                            <h2>ABMH Doctors</h2>
                           </div>
                         </div>
                         <div className="ourteambox2">
                           <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/serchher">
+                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajesh-badani">
                               View Profile
                             </Link>
                           </div>
@@ -596,21 +598,21 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={400} height={400} src="/homeimg/OurTeamExperts2.png" alt="img" />
+                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-nikhil-parwate.jpg" alt="img" />
                           </div>
                           <div className="ourteamname">
-                            <h2>Dr Pooja H.</h2>
+                            <h2>Dr. Nikhil Parwate</h2>
                           </div>
                           <div className="ourteamspec">
-                            <h2>Physiotherapist</h2>
+                            <h2>Consultant - Gynae Onco Surgeon</h2>
                           </div>
                           <div className="ourteamexpi">
-                            <h2>37+ years experience</h2>
+                            <h2>ABMH Doctors</h2>
                           </div>
                         </div>
                         <div className="ourteambox2">
                           <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/serchher">
+                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-nikhil-parwate">
                               View Profile
                             </Link>
                           </div>
@@ -623,21 +625,21 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={400} height={400} src="/homeimg/OurTeamExperts3.png" alt="img" />
+                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-varun-agarwal.jpg" alt="img" />
                           </div>
                           <div className="ourteamname">
-                            <h2>Dr Vishal M.</h2>
+                            <h2>Dr. Varun Agarwal</h2>
                           </div>
                           <div className="ourteamspec">
-                            <h2>ENT</h2>
+                            <h2>Uro-onco Robotic Surgeon</h2>
                           </div>
                           <div className="ourteamexpi">
-                            <h2>29+ years experience</h2>
+                            <h2>ABMH Doctors</h2>
                           </div>
                         </div>
                         <div className="ourteambox2">
                           <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/serchher">
+                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-varun-agarwal">
                               View Profile
                             </Link>
                           </div>
@@ -650,21 +652,21 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={400} height={400} src="/homeimg/OurTeamExperts2.png" alt="img" />
+                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-sharan-narute.jpg" alt="img" />
                           </div>
                           <div className="ourteamname">
-                            <h2>Dr Khushboo K.</h2>
+                            <h2>Dr. Sharan Narute</h2>
                           </div>
                           <div className="ourteamspec">
-                            <h2>Cardiologist</h2>
+                            <h2>Consultant- GI, HPB & Liver Transplant Surgeon</h2>
                           </div>
                           <div className="ourteamexpi">
-                            <h2>40+ years of experience&nbsp;</h2>
+                            <h2>ABMH Doctors</h2>
                           </div>
                         </div>
                         <div className="ourteambox2">
                           <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/serchher">
+                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-sharan-narute">
                               View Profile
                             </Link>
                           </div>
@@ -677,21 +679,48 @@ export default function Home() {
                       <div className="ourteamslidebox">
                         <div className="ourteambox1">
                           <div className="ourteamimg">
-                            <Image width={400} height={400} src="/homeimg/OurTeamExperts3.png" alt="img" />
+                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-rakesh-ranjan.jpg" alt="img" />
                           </div>
                           <div className="ourteamname">
-                            <h2>Dr Vishal M.</h2>
+                            <h2>Dr. Rakesh Ranjan</h2>
                           </div>
                           <div className="ourteamspec">
-                            <h2>ENT</h2>
+                            <h2>Associate Director Neuro Surgery</h2>
                           </div>
                           <div className="ourteamexpi">
-                            <h2>29+ years experience</h2>
+                            <h2>ABMH Doctors</h2>
                           </div>
                         </div>
                         <div className="ourteambox2">
                           <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/serchher">
+                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-rakesh-ranjan">
+                              View Profile
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="custom-slide">
+                    <div className="ourteamslidchilbo">
+                      <div className="ourteamslidebox">
+                        <div className="ourteambox1">
+                          <div className="ourteamimg">
+                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-anirudha-tembe.jpg" alt="img" />
+                          </div>
+                          <div className="ourteamname">
+                            <h2>Dr. Anirudha Tembe</h2>
+                          </div>
+                          <div className="ourteamspec">
+                            <h2>Consultant Rheumatology</h2>
+                          </div>
+                          <div className="ourteamexpi">
+                            <h2>ABMH Doctors</h2>
+                          </div>
+                        </div>
+                        <div className="ourteambox2">
+                          <div className="ourteambox2flex">
+                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-anirudha-tembe">
                               View Profile
                             </Link>
                           </div>

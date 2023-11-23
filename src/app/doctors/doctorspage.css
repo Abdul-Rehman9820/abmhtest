@@ -383,13 +383,18 @@ div#resultDiv {
 /* Add these styles for the active page */
 .pagination {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
     margin: 20px 0;
   }
+
   
   .pagination li {
     margin-right: 5px;
+    margin-top: 10px;
+    
   }
   
   .pagination a {
