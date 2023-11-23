@@ -25,10 +25,7 @@ const Qualityandethics = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  About Us /
-                  <span className="breadcrumbsactive">
-                    Quality Policy & Ethics Committee
-                  </span>
+                  About Us / <span className="breadcrumbsactive">Quality Policy & Ethics Committee</span>
                 </div>
               </div>
             </div>
@@ -39,7 +36,7 @@ const Qualityandethics = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-           <Image width={2000} height={400} src="/commonimages/Policy-com-banner.jpg" alt="icon" />
+           <Image width={2000} height={400} src="/commonimages/commqulitynew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}

@@ -36,7 +36,7 @@ const Aboutcsr = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-           <Image width={2000} height={400} src="/commonimages/CSR-Policy-com-bann.jpg" alt="icon" />
+           <Image width={2000} height={400} src="/commonimages/commcsrnew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}

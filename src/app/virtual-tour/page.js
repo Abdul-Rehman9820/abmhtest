@@ -130,8 +130,7 @@ const Virtualtour = () => {
           <div className="commonheadcontainer">
             <div className="breadcrumbs">
               <div className="breadcrumbsdata">
-                Home / Patient Care /
-                <span className="breadcrumbsactive">Virtual Tour</span>
+                Home / Patient Care / <span className="breadcrumbsactive">Virtual Tour</span>
               </div>
             </div>
           </div>
@@ -142,7 +141,7 @@ const Virtualtour = () => {
     {/* common heading banner start */}
     <div className="mainheadingbanner">
       <div className="mainheadingbandiv">
-          <Image width={2000} height={400} src="/commonimages/virtual-tour-banner.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commvirtulnewban.jpg" alt="icon" />
       </div>
     </div>
     {/* common heading banner end */}

@@ -181,7 +181,7 @@ export default function Home() {
               <div className="carousel-item active">
                 <div className="mynewslides">
                   <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewsliderone.png" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
@@ -190,7 +190,7 @@ export default function Home() {
               <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewslidertwo.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
@@ -199,7 +199,7 @@ export default function Home() {
               <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewsliderthree.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
@@ -208,7 +208,7 @@ export default function Home() {
               <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/web-bannerHome1.png" alt='slide' />
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewsliderfour.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>

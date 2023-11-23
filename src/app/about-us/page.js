@@ -36,7 +36,7 @@ const Aboutus = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-            <Image width={2000} height={400} src="/commonimages/About-Us-com-ban.jpg" alt="icon" />
+            <Image width={2000} height={400} src="/commonimages/commaboutusnew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -74,36 +74,6 @@ const Aboutus = () => {
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <div className="aboutslidercontloop bgslidegray">
-                      <div className="aboutslidercontloop1">
-                        <div className="abouttopslidehead">
-                          <h2>About shri late Aditya Vikram Birla</h2>
-                        </div>
-                        <div className="abouttopslidepara">
-                          <p>
-                            Aditya Birla Memorial Hospital is a homage and tribute
-                            to late Shri Aditya Vikram Birla. He had envisioned a
-                            world-class hospital in India. His vision has taken
-                            shape in the form of a medicity sprawled over 16 acres
-                            of land.
-                          </p>
-                          <p>
-                            This medicity is a super specialty healthcare facility
-                            to cater to the needs of all sections of society. The
-                            hospital’s mission: Compassionate Quality Healthcare.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="aboutslidercontloop2">
-                        <Image width={400} height={400}
-                          src="/aboutusimg/abouttopslide1.png"
-                          className="abouttopslide"
-                          alt="img"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="carousel-item ">
                     <div className="aboutslidercontloop bgslideRed">
                       <div className="aboutslidercontloop1">
                         <div className="abouttopslidehead">
@@ -126,7 +96,7 @@ const Aboutus = () => {
                       </div>
                       <div className="aboutslidercontloop2">
                         <Image width={400} height={400}
-                          src="/aboutusimg/abouttopslide1.png"
+                          src="/aboutusimg/abouttopslide2.jpg"
                           className="abouttopslide"
                           alt="img"
                         />
@@ -156,7 +126,37 @@ const Aboutus = () => {
                       </div>
                       <div className="aboutslidercontloop2">
                         <Image width={400} height={400}
-                          src="/aboutusimg/abouttopslide1.png"
+                          src="/aboutusimg/abouttopslide2.jpg"
+                          className="abouttopslide"
+                          alt="img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item ">
+                    <div className="aboutslidercontloop bgslidegray">
+                      <div className="aboutslidercontloop1">
+                        <div className="abouttopslidehead">
+                          <h2>About shri late Aditya Vikram Birla</h2>
+                        </div>
+                        <div className="abouttopslidepara">
+                          <p>
+                            Aditya Birla Memorial Hospital is a homage and tribute
+                            to late Shri Aditya Vikram Birla. He had envisioned a
+                            world-class hospital in India. His vision has taken
+                            shape in the form of a medicity sprawled over 16 acres
+                            of land.
+                          </p>
+                          <p>
+                            This medicity is a super specialty healthcare facility
+                            to cater to the needs of all sections of society. The
+                            hospital’s mission: Compassionate Quality Healthcare.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="aboutslidercontloop2">
+                        <Image width={400} height={400}
+                          src="/aboutusimg/abouttopslide2.jpg"
                           className="abouttopslide"
                           alt="img"
                         />

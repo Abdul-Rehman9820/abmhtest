@@ -133,7 +133,7 @@ const Contactus = () => {
           <div className="commonheadcontainer">
             <div className="breadcrumbs">
               <div className="breadcrumbsdata">
-                Home / <span className="breadcrumbsactive">Contact Us</span>
+              Contact Us 
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Contactus = () => {
     {/* common heading banner start */}
     <div className="mainheadingbanner">
       <div className="mainheadingbandiv">
-             <Image width={2000} height={400} src="/commonimages/contact-us-banner.jpg" alt="icon" />
+             <Image width={2000} height={400} src="/commonimages/commcontacusnew.jpg" alt="icon" />
       </div>
     </div>
     {/* common heading banner end */}

@@ -240,7 +240,7 @@ const Doctors = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / <span className="breadcrumbsactive">Our Doctors Filter</span>
+                  Home / <span className="breadcrumbsactive">Our Doctors</span>
                 </div>
               </div>
             </div>
@@ -251,7 +251,7 @@ const Doctors = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-          <Image width={2000} height={400} src="/commonimages/doctor-banner.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commdoctorsnew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
