@@ -140,7 +140,7 @@ const Header = () => {
                                                 <span className="BookApimg">
                                                     <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
                                                 </span>
-                                                <Link href="/doctors">Book an Appointment </Link>
+                                                <Link href="/doctors">Book an Appointment</Link>
                                             </div>
                                         </div>
                                         <div className="twobtnChil twobtnChilorg">
@@ -288,7 +288,7 @@ const Header = () => {
                                                 <span className="BookApimg">
                                                     <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
                                                 </span>
-                                                <Link href="/serchher">Book an Appointment </Link>
+                                                <Link href="/doctors">Book an Appointment</Link>
                                             </div>
                                         </div>
                                         <div className="twobtnChil twobtnChilorg">
@@ -296,7 +296,7 @@ const Header = () => {
                                                 <span className="BookApimg">
                                                     <Image width={1000} height={1000} src="/homeimg/ourspe.png" alt="img" />
                                                 </span>
-                                                <Link href="/serchher">Our Specialties </Link>
+                                                <Link href="/specialties">Our Specialties</Link>
                                             </div>
                                         </div>
                                     </div>

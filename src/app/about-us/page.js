@@ -254,7 +254,7 @@ const Aboutus = () => {
           <div className="BoardofDirectors">
             <div className="Specialtiespartbof">
               <div className="Specialtiesheadbof">
-                <h2 className="oursepperbof">Our Specialties</h2>
+                <h2 className="oursepperbof">Board of Directors</h2>
                 <span className="headborderbof" />
               </div>
             </div>

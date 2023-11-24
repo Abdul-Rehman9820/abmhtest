@@ -90,6 +90,10 @@ span.seeactiveFAQ {
     border-radius: 8px;
 }
 
+.seeactive {
+    color: #a21b18;
+}
+
 .lablebox1 {
     width: 75%;
 }

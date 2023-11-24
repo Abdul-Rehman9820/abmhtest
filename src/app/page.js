@@ -191,7 +191,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewslidertwo.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner2-mob.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -200,7 +200,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewsliderthree.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner3-mob.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -209,7 +209,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/homenewsliderfour.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -296,7 +296,7 @@ export default function Home() {
                       <Image width={400} height={400} src="/homeimg/Group.png" alt="img" />
                     </div>
                     <div className="appmainHea">
-                      <Link href="/serchher">
+                      <Link href="/abmh-international">
 
                         <p>ABMH International</p>
                       </Link>
