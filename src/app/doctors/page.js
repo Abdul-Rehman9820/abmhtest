@@ -215,7 +215,7 @@ const Doctors = () => {
     setCurrentPage(selectedPage.selected);
   };
 
-  const itemsPerPage = 9; // Change this value according to your needs
+  const itemsPerPage = 12; // Change this value according to your needs
   const offset = currentPage * itemsPerPage;
 
   const displayedData = data.slice(offset, offset + itemsPerPage);
@@ -300,7 +300,7 @@ const Doctors = () => {
               <div className="fordrop">
                 <div className="dropdown">
                   <button id="formyfucn" className="dropbtn">
-                    <Image width={400} height={400} className="filimg" src="/commonimages/filterimg.png" alt="" />
+                    <Image width={400} height={400} className="filimg" src="/commonimages/filterimg.png" alt="img" />
                     FILTER
                   </button>
                   <div id="myDropdown" className="dropdown-content">
@@ -385,7 +385,7 @@ const Doctors = () => {
                                 <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt="img" />
                               </div>
                               <div className="ourteamnamedr">
-                                <h2>Dr. {item.DoctorFName} {item.DoctorLName}</h2>
+                                <h2>Dr {item.DoctorFName} {item.DoctorLName}</h2>
                               </div>
                               <div className="ourteamspecdr">
                                 <h2>{item.DoctorDesignation}</h2>

@@ -129,7 +129,7 @@ const Header = () => {
                                 <div className="headerlogopart">
                                     <div className="logoimg">
                                         <Link href="/">
-                                            <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="" />
+                                            <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
                                         </Link>
                                     </div>
                                 </div>
@@ -212,14 +212,14 @@ const Header = () => {
                                             <Image width={1000} height={1000}
                                                 className="showsearchbox"
                                                 src="/homeimg/abmhserchicon.png"
-                                                alt=""
+                                                alt="img"
                                             />
                                         </div>
                                     </div>
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
-                                            <Link href="/serchher">
-                                                <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="" />
+                                            <Link href="tel: +919881123033">
+                                                <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="img" />
                                             </Link>
                                         </div>
                                     </div>
@@ -247,25 +247,27 @@ const Header = () => {
                             <div className="headerlogocont">
                                 <div className="headerlogopart">
                                     <div className="logoimg">
-                                        <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="" />
+                                        <Link href="/">
+                                            <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="mobileheaderlogoBtnpart">
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
-                                            <Link href="/serchher">
+                                        
                                                 <Image width={1000} height={1000}
                                                     className="showsearchbox"
                                                     src="/homeimg/abmhserchicon.png"
-                                                    alt=""
+                                                    alt="img"
                                                 />
-                                            </Link>
+                                          
                                         </div>
                                     </div>
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
-                                            <Link href="/serchher">
-                                                <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="" />
+                                            <Link href="tel: +919881123033">
+                                                <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="img" />
                                             </Link>
                                         </div>
                                     </div>
@@ -399,6 +401,9 @@ const Header = () => {
                 <div className="commansearchbox">
                     <div className="commansearchboxcont">
                         <div className="serachboxform">
+                            <div className="navsearchboxlog">
+                                <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
+                            </div>
                             <div className="serachboxfclo1">
                                 <div className="serachead">Search</div>
                                 <div className="seraccloseicon">

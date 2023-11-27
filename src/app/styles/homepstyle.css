@@ -306,15 +306,20 @@
       display: flex;
       flex-wrap: wrap;
   }
+
   .ourteamslidebox {
-      box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
-      border-radius: 20px;
-      padding: 10px;
-      margin-right: 25px;
-      position: relative;
-      background: white;
+    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 25px;
+    position: relative;
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
   }
-  
   .ourteamimg img {
       border-radius: 50%;
       object-fit: contain;
@@ -408,6 +413,7 @@
   }
   .ourteambox2 {
       margin-top: 25px;
+      width: 100%;
   }
   .ourteambox2flex {
       display: flex;
@@ -426,6 +432,7 @@
       margin-top: 20px;
       margin-left: 5px;
       margin-right: 5px;
+      width: 33%;
   }
   
   .combtndivteam {
@@ -471,7 +478,24 @@
       margin-bottom: -70px;
   }
   
+  .mynewslidesforDoctor {
+    display: flex;
+    justify-content: center;
+}
+
+.ourteamslidepar .carousel-control-prev {
+    right: 40px!important;
+    left: unset;
+}
+
+.ourteamslidepar span.carousel-control-next-icon, .ourteamslidepar span.carousel-control-prev-icon {
+    bottom: -20px!important;
+    position: absolute;
+}
   
+.ourteamslidepar .carousel-control-next-icon img, .ourteamslidepar .carousel-control-prev-icon img {
+    width: 100%;
+}
   
     /* our team slider Style the carousel */
     .custom-slider-wrapper {
@@ -1282,14 +1306,14 @@ span.speciconn img {
           border: 1px solid #f96c24;
       }
       .ourteambox1 {
-          padding: 5px 10px;
+          padding: 5px 3px;
       }
       .ourteamimg img {
           width: 45px !important;
           height: 45px !important;
       }
       .ourteamname h2 {
-          font-size: 9px;
+          font-size: 8px;
       }
       .ourteamspec h2 {
           font-size: 7px;
@@ -1575,6 +1599,23 @@ span.speciconn img {
             left: 45%;
         }
 
+        .newnexthomeslide .carousel-control-prev-icon img {
+            width: 50%;
+        }
+        .newnexthomeslide .carousel-control-next-icon img {
+            width: 50%;
+        }
+
+        .ourteamslidepar .carousel-control-next-icon img, .ourteamslidepar .carousel-control-prev-icon img {
+            width: 50%;
+        }
+
+        .ourteamslideparnew .carousel-control-prev-icon img {
+            width: 50%;
+        }
+        .ourteamslideparnew .carousel-control-next-icon img {
+            width: 50%;
+        }
   
   }
   

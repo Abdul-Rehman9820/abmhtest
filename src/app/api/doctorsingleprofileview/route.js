@@ -33,6 +33,8 @@ export async function POST(req, content) {
             reject(err);
             return;
           }
+          
+          console.log('profile api message', 'profile fetched');
           resolve(result);
         });
       });

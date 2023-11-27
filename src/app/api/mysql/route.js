@@ -30,13 +30,13 @@ export async function POST(req, content) {
           const formattedColors = colorsArray.map(color => `'${color}'`).join(",");
           // for filter serch 
   
-          const query = 'SELECT abmh_doctors.*, abmh_specialty.specialty_slug,abmh_specialty.specialty_name FROM abmh_doctors LEFT JOIN abmh_specialty ON abmh_doctors.SpecialtyID = abmh_specialty.id WHERE ( abmh_doctors.isactive = 1 AND (abmh_doctors.DoctorFName LIKE ? OR abmh_doctors.DoctorLName LIKE ? OR abmh_specialty.specialty_name LIKE ? OR abmh_specialty.specialty_slug IN (' + formattedColors + ')) ) ORDER BY abmh_doctors.DoctorFName ASC';
+          const query = 'SELECT abmh_doctors.*, abmh_specialty.specialty_slug,abmh_specialty.specialty_name FROM abmh_doctors LEFT JOIN abmh_specialty ON abmh_doctors.SpecialtyID = abmh_specialty.id WHERE ( abmh_doctors.isactive = 1 AND (abmh_doctors.DrFullName LIKE ? OR abmh_specialty.specialty_name LIKE ? OR abmh_specialty.specialty_slug IN (' + formattedColors + ')) ) ORDER BY abmh_doctors.DoctorFName ASC';
   
           const wildcardedusersearch = `%${usersearch}%`; 
   
           
       
-          connection.query(query, [wildcardedusersearch,wildcardedusersearch,wildcardedusersearch], (err, result) => {
+          connection.query(query, [wildcardedusersearch,wildcardedusersearch], (err, result) => {
             if (err) {
               console.error('Error executing query:', err);
               reject(err);

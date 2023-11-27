@@ -175,7 +175,7 @@ const Footer = () => {
               </h3>
             </div>
             <div className="copyrightmaincol2">
-              <p>Legal Disclaimer</p>
+              {/* <p>Legal Disclaimer</p> */}
             </div>
           </div>
           {/* mainclose */}
@@ -341,7 +341,7 @@ const Footer = () => {
               </h3>
             </div>
             <div className="copyrightmaincol2">
-              <p>Legal Disclaimer</p>
+              {/* <p>Legal Disclaimer</p> */}
             </div>
           </div>
           {/* mainclose */}

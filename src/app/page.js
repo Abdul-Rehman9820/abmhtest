@@ -19,90 +19,14 @@ export default function Home() {
   useEffect(() => {
 
 
-
-    // for Our Team slider start =======
-
-    const customSlider = document.querySelector(".custom-slider");
-    const customSlides = document.querySelectorAll(".custom-slide");
-    const customPrevButton = document.getElementById("custom-prevButton");
-    const customNextButton = document.getElementById("custom-nextButton");
-    const customSliderDots = document.querySelector(".custom-slider-dots");
-
-    let customCurrentSlide = 0;
-    const customSlidesToShow = 4; // Number of slides to show at a time
-    const customSlideWidth = 100 / customSlidesToShow;
-    const customSlideCount = customSlides.length;
-
-    function customShowSlide() {
-      const translateX = -customCurrentSlide * customSlideWidth;
-      customSlider.style.transform = `translateX(${translateX}%)`;
-      customUpdateDots();
-    }
-
-    function customGoToNextSlide() {
-      customCurrentSlide = (customCurrentSlide + 1) % customSlideCount;
-      customShowSlide();
-    }
-
-    function customGoToPrevSlide() {
-      customCurrentSlide = (customCurrentSlide - 1 + customSlideCount) % customSlideCount;
-      customShowSlide();
-    }
-
-    function customCreateDots() {
-      for (let i = 0; i < customSlideCount; i++) {
-        const customDot = document.createElement("span");
-        customDot.className = "custom-slider-dot";
-        customDot.addEventListener("click", () => {
-          customCurrentSlide = i;
-          customShowSlide();
-        });
-        customSliderDots.appendChild(customDot);
-      }
-    }
-
-    function customUpdateDots() {
-      const customDots = document.querySelectorAll(".custom-slider-dot");
-      customDots.forEach((customDot, i) => {
-        if (i === customCurrentSlide) {
-          customDot.classList.add("active");
-        } else {
-          customDot.classList.remove("active");
-        }
-      });
-    }
-
-    customCreateDots();
-    customShowSlide();
-
-    // Auto-slide
-    let customAutoSlideInterval = setInterval(customGoToNextSlide, 5000); // Change slide every 3 seconds
-
-    // Pause auto-slide on mouse hover
-    customSlider.addEventListener("mouseenter", () => {
-      clearInterval(customAutoSlideInterval);
-    });
-
-    // Resume auto-slide when the mouse leaves the carousel
-    customSlider.addEventListener("mouseleave", () => {
-      customAutoSlideInterval = setInterval(customGoToNextSlide, 3000);
-    });
-
-    customNextButton.addEventListener("click", customGoToNextSlide);
-    customPrevButton.addEventListener("click", customGoToPrevSlide);
-
-    // for Our Team slider end =======
-
-
-    
-    $(document).ready(function() {
+    $(document).ready(function () {
       // Your code here
-      $("#showPopup1").click(function(e) {
+      $("#showPopup1").click(function (e) {
         e.stopPropagation();
         $(".popup").toggle();
       });
 
-      $("body").click(function() {
+      $("body").click(function () {
         $(".popup").hide();
         var video = $("#player").attr("src");
         $("#player").attr("src", "");
@@ -111,14 +35,14 @@ export default function Home() {
 
     });
 
-    $(document).ready(function() {
+    $(document).ready(function () {
       // Your code here
-      $("#showPopup2").click(function(e) {
+      $("#showPopup2").click(function (e) {
         e.stopPropagation();
         $(".popup2").toggle();
       });
 
-      $("body").click(function() {
+      $("body").click(function () {
         $(".popup2").hide();
         var video = $("#player2").attr("src");
         $("#player2").attr("src", "");
@@ -214,7 +138,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-             
+
             </div>
             <button
               className="carousel-control-prev"
@@ -258,11 +182,9 @@ export default function Home() {
                       <Image width={400} height={400} src="/homeimg/newdecsbookdr.png" alt="img" />
                     </div>
                     <div className="appmainHea">
-
                       <Link href="/doctors">
                         <p>Find a Doctor</p>
                       </Link>
-
                     </div>
                   </div>
                 </div>
@@ -299,6 +221,19 @@ export default function Home() {
                       <Link href="/abmh-international">
 
                         <p>ABMH International</p>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="appobtnchil fournone">
+                  <div className="appbtnmainbox">
+                    <div className="appmainboxBG">
+                      <Image width={400} height={400} src="/homeimg/dignosticlab.png" alt="img" />
+                    </div>
+                    <div className="appmainHea">
+                      <Link href="/abmh-international">
+
+                        <p>Diagnostic Centre</p>
                       </Link>
                     </div>
                   </div>
@@ -358,7 +293,7 @@ export default function Home() {
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/urology">
                       <h2>Urology</h2>
-                    </Link>                 
+                    </Link>
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -378,8 +313,8 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/neurology">
-                       <h2>Neurology</h2>
-                    </Link>                 
+                      <h2>Neurology</h2>
+                    </Link>
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -399,7 +334,7 @@ export default function Home() {
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/diabetology-and-endocrinology">
                       <h2>Diabetology</h2>
-                    </Link>                    
+                    </Link>
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -419,8 +354,8 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/gastroenterology">
-                       <h2>Gastroenterology</h2>
-                    </Link>                      
+                      <h2>Gastroenterology</h2>
+                    </Link>
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -439,9 +374,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                     <Link href="/specialties/pediatrics">
-                       <h2>Pediatrics</h2>
-                    </Link>                     
+                    <Link href="/specialties/pediatrics">
+                      <h2>Pediatrics</h2>
+                    </Link>
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
@@ -481,7 +416,7 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/Cardiologymo.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                     <Link href="/specialties/Cardiology">
+                    <Link href="/specialties/Cardiology">
                       <h2>Cardiology</h2>
                     </Link>
                   </div>
@@ -495,7 +430,7 @@ export default function Home() {
                   <div className="speforwhitbgCol2">
                     <Link href="/specialties/urology">
                       <h2>Urology</h2>
-                    </Link>  
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -506,8 +441,8 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol2">
                     <Link href="/specialties/neurology">
-                       <h2>Neurology</h2>
-                    </Link>  
+                      <h2>Neurology</h2>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -519,7 +454,7 @@ export default function Home() {
                   <div className="speforwhitbgCol2">
                     <Link href="/specialties/diabetology-and-endocrinology">
                       <h2>Diabetology</h2>
-                    </Link> 
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -541,7 +476,7 @@ export default function Home() {
       {/* Speciality end mobile*/}
       {/* our team*/}
 
-    
+
 
 
       <div className="parentcontainerwhi toppading">
@@ -564,182 +499,232 @@ export default function Home() {
           {/* mainstart */}
           <div className="ourteampar">
             <div className="ourteamslidepar">
-              <div className="custom-slider-wrapper">
-                <div className="custom-slider">
-                  <div className="custom-slide">
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
-                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajesh-badani.jpg" alt="img" />
+
+
+              <div
+                id="carouselExampleIndicatorsteam"
+                className="carousel slide carousel-fade"
+              >
+
+
+                {/* <div className="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicatorsteam"
+                    data-bs-slide-to={0}
+                    className="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  />
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicatorsteam"
+                    data-bs-slide-to={1}
+                    aria-label="Slide 2"
+                  />
+                </div> */}
+
+
+                <div className="carousel-inner">
+
+                  <div className="carousel-item active">
+
+                    <div className="mynewslidesforDoctor">
+
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajesh-badani.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr. Rajesh Badhani</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Sr. Consultant Interventional Cardiology</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              <h2>ABMH Doctors</h2>
+                            </div>
                           </div>
-                          <div className="ourteamname">
-                            <h2>Dr. Rajesh Badhani</h2>
-                          </div>
-                          <div className="ourteamspec">
-                            <h2>Sr. Consultant Interventional Cardiology</h2>
-                          </div>
-                          <div className="ourteamexpi">
-                            <h2>ABMH Doctors</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajesh-badani">
-                              View Profile
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="custom-slide">
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
-                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-nikhil-parwate.jpg" alt="img" />
-                          </div>
-                          <div className="ourteamname">
-                            <h2>Dr. Nikhil Parwate</h2>
-                          </div>
-                          <div className="ourteamspec">
-                            <h2>Consultant - Gynae Onco Surgeon</h2>
-                          </div>
-                          <div className="ourteamexpi">
-                            <h2>ABMH Doctors</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-nikhil-parwate">
-                              View Profile
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="custom-slide">
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
-                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-varun-agarwal.jpg" alt="img" />
-                          </div>
-                          <div className="ourteamname">
-                            <h2>Dr. Varun Agarwal</h2>
-                          </div>
-                          <div className="ourteamspec">
-                            <h2>Uro-onco Robotic Surgeon</h2>
-                          </div>
-                          <div className="ourteamexpi">
-                            <h2>ABMH Doctors</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-varun-agarwal">
-                              View Profile
-                            </Link>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajesh-badani">
+                                View Profile
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="custom-slide">
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
-                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-sharan-narute.jpg" alt="img" />
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-nikhil-parwate.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr. Nikhil Parwate</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Consultant - Gynae Onco Surgeon</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              <h2>ABMH Doctors</h2>
+                            </div>
                           </div>
-                          <div className="ourteamname">
-                            <h2>Dr. Sharan Narute</h2>
-                          </div>
-                          <div className="ourteamspec">
-                            <h2>Consultant- GI, HPB & Liver Transplant Surgeon</h2>
-                          </div>
-                          <div className="ourteamexpi">
-                            <h2>ABMH Doctors</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-sharan-narute">
-                              View Profile
-                            </Link>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-nikhil-parwate">
+                                View Profile
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="custom-slide">
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
-                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-rakesh-ranjan.jpg" alt="img" />
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-sharan-narute.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr. Sharan Narute</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Consultant- GI, HPB & Liver Transplant Surgeon</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              <h2>ABMH Doctors</h2>
+                            </div>
                           </div>
-                          <div className="ourteamname">
-                            <h2>Dr. Rakesh Ranjan</h2>
-                          </div>
-                          <div className="ourteamspec">
-                            <h2>Associate Director Neuro Surgery</h2>
-                          </div>
-                          <div className="ourteamexpi">
-                            <h2>ABMH Doctors</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-rakesh-ranjan">
-                              View Profile
-                            </Link>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-sharan-narute">
+                                View Profile
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
+
                   </div>
-                  <div className="custom-slide">
-                    <div className="ourteamslidchilbo">
-                      <div className="ourteamslidebox">
-                        <div className="ourteambox1">
-                          <div className="ourteamimg">
-                            <Image width={400} height={400} src="/DoctorsProfileimages/dr-anirudha-tembe.jpg" alt="img" />
+
+
+                  <div className="carousel-item ">
+
+                    <div className="mynewslidesforDoctor">
+
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-rakesh-ranjan.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr. Rakesh Ranjan</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Associate Director Neuro Surgery</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              <h2>ABMH Doctors</h2>
+                            </div>
                           </div>
-                          <div className="ourteamname">
-                            <h2>Dr. Anirudha Tembe</h2>
-                          </div>
-                          <div className="ourteamspec">
-                            <h2>Consultant Rheumatology</h2>
-                          </div>
-                          <div className="ourteamexpi">
-                            <h2>ABMH Doctors</h2>
-                          </div>
-                        </div>
-                        <div className="ourteambox2">
-                          <div className="ourteambox2flex">
-                            <Link className="bookappoteam" href="/doctor-profile?doc=dr-anirudha-tembe">
-                              View Profile
-                            </Link>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rakesh-ranjan">
+                                View Profile
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-varun-agarwal.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr. Varun Agarwal</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Uro-onco Robotic Surgeon</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              <h2>ABMH Doctors</h2>
+                            </div>
+                          </div>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-varun-agarwal">
+                                View Profile
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-anirudha-tembe.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr. Anirudha Tembe</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Consultant Rheumatology</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              <h2>ABMH Doctors</h2>
+                            </div>
+                          </div>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-anirudha-tembe">
+                                View Profile
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
+
                   </div>
-                  {/* Add more slides here */}
+
+
                 </div>
-              </div>
-              <div className="custom-slider-dots"></div>
-              <div className="customslidebth">
-                <button id="custom-prevButton">
-                  <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
+
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicatorsteam"
+                  data-bs-slide="prev"
+                >
+                  <span className="carousel-control-prev-icon" aria-hidden="true">
+                    <Image width={100} height={100} src="/homeimg/nextleft.png" alt="img" />
+                  </span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
-                <button id="custom-nextButton">
-                  <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicatorsteam"
+                  data-bs-slide="next"
+                >
+                  <span className="carousel-control-next-icon" aria-hidden="true">
+                    <Image width={100} height={100} src="/homeimg/nextright.png" alt="img" />
+                  </span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
+
+
+
             </div>
           </div>
           {/* mainclose */}
@@ -749,13 +734,13 @@ export default function Home() {
 
       {/* <!-- youtube ifram 1--> */}
       <div className="popup">
-      <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/S7otT-fc52I"  frameBorder="0"  allowFullScreen></iframe>
+        <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/S7otT-fc52I" frameBorder="0" allowFullScreen></iframe>
       </div>
       {/* <!-- youtube ifram 1--> */}
 
       {/* <!-- youtube ifram 2--> */}
       <div className="popup2">
-      <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/Y-DzxcH1EEs"  frameBorder="0"  allowFullScreen></iframe>
+        <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/Y-DzxcH1EEs" frameBorder="0" allowFullScreen></iframe>
       </div>
       {/* <!-- youtube ifram 2--> */}
 
@@ -798,7 +783,7 @@ export default function Home() {
                     data-bs-slide-to={1}
                     aria-label="Slide 2"
                   />
-         
+
 
                 </div>
 
@@ -816,8 +801,8 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                          Mrs. Shantaben Patenkar had visited Aditya Birla Memorial Hospital just a few days ago with a complaint of severe pain in her left leg, she was immediately consulted and advised to get a surgery. 
-                          The surgery was successful and she was able to recover sooner. Hear what she has to say.							
+                            Mrs. Shantaben Patenkar had visited Aditya Birla Memorial Hospital just a few days ago with a complaint of severe pain in her left leg, she was immediately consulted and advised to get a surgery.
+                            The surgery was successful and she was able to recover sooner. Hear what she has to say.
                           </div>
                           <div className="ourworkname">
                             <h2>Patient&apos;s Feedback</h2>
@@ -830,7 +815,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-               
+
                   <div className="carousel-item">
                     <div className="testislid">
                       <div className="testislidChil">
@@ -844,7 +829,7 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                             One of our patients,Mrs. Kumudini D. Ghodke, sharing feedback about her journey stay, diagnosis, and treatment at ABMH. We wish her a speedy recovery. 
+                            One of our patients,Mrs. Kumudini D. Ghodke, sharing feedback about her journey stay, diagnosis, and treatment at ABMH. We wish her a speedy recovery.
                           </div>
                           <div className="ourworkname">
                             <h2>Mrs. Kumudini D. Ghodke</h2>
@@ -911,11 +896,15 @@ export default function Home() {
 
 
                   <div className="ourteamslideparnew deckstophead">
+
+
                     <div
                       id="carouselExampleIndicators44"
                       className="carousel slide carousel-fade"
                     >
-                      <div className="carousel-indicators">
+
+
+                      {/* <div className="carousel-indicators">
                         <button
                           type="button"
                           data-bs-target="#carouselExampleIndicators"
@@ -930,7 +919,9 @@ export default function Home() {
                           data-bs-slide-to={1}
                           aria-label="Slide 2"
                         />
-                      </div>
+                      </div> */}
+
+
                       <div className="carousel-inner">
                         <div className="carousel-item active">
                           <div className="mynewslidesforhomwtesti">
@@ -946,8 +937,8 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Our dedicated team of skilled healthcare professionals stays current on the latest medical 
-                                      advancements and utilizes cutting-edge technologies to ensure the highest quality care for our patients.
+                                        Our dedicated team of skilled healthcare professionals stays current on the latest medical
+                                        advancements and utilizes cutting-edge technologies to ensure the highest quality care for our patients.
                                       </h2>
                                     </div>
                                   </div>
@@ -976,8 +967,8 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology, which allows us to provide more accurate diagnoses, 
-                                      more effective treatments, and a more personalized patient experience.
+                                        Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology, which allows us to provide more accurate diagnoses,
+                                        more effective treatments, and a more personalized patient experience.
                                       </h2>
                                     </div>
                                   </div>
@@ -1006,15 +997,15 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Committed to patient-centered care, we tailor our approach to individual needs, 
-                                      emphasizing open communication and collaboration between patients and healthcare providers for optimal health outcomes.
+                                        Committed to patient-centered care, we tailor our approach to individual needs,
+                                        emphasizing open communication and collaboration between patients and healthcare providers for optimal health outcomes.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                       Know More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1040,15 +1031,15 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families. 
-                                      We firmly believe that empathy and understanding are essential components of holistic healthcare.
+                                        Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families.
+                                        We firmly believe that empathy and understanding are essential components of holistic healthcare.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                       Know More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1070,15 +1061,15 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      We are committed to making healthcare accessible and convenient for all our patients. 
-                                      We offer convenient appointment times and locations to make it easy for our patients to receive the care they need.
+                                        We are committed to making healthcare accessible and convenient for all our patients.
+                                        We offer convenient appointment times and locations to make it easy for our patients to receive the care they need.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                       Know More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1088,7 +1079,37 @@ export default function Home() {
                                 </div>
                               </div>
                             </div>
-                      
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-93.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Holistic Wellness Programs</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                        We prioritize the holistic well-being of our patients through a range of wellness packages, 
+                                        including preventive healthcare, comprehensive health checkups, packages tailored for seniors, well-woman checkups, and basic packages.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Know More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
                           </div>
                         </div>
                       </div>
@@ -1115,13 +1136,16 @@ export default function Home() {
                         <span className="visually-hidden">Next</span>
                       </button>
                     </div>
+
+
                   </div>
                   <div className="ourteamslideparnew mobilehead">
                     <div
                       id="carouselExampleIndicators55"
                       className="carousel slide carousel-fade"
                     >
-                      <div className="carousel-indicators">
+
+                      {/* <div className="carousel-indicators">
                         <button
                           type="button"
                           data-bs-target="#carouselExampleIndicators"
@@ -1154,7 +1178,15 @@ export default function Home() {
                           data-bs-slide-to={4}
                           aria-label="Slide 2"
                         />
-                      </div>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to={5}
+                          aria-label="Slide 2"
+                        />
+                      </div> */}
+
+
                       <div className="carousel-inner">
                         <div className="carousel-item active">
                           <div className="mynewslidesforhomwtesti">
@@ -1170,8 +1202,8 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Our dedicated team of skilled healthcare professionals stays current on the latest medical advancements and 
-                                      utilizes cutting-edge technologies to ensure the highest quality care for our patients.
+                                        Our dedicated team of skilled healthcare professionals stays current on the latest medical advancements and
+                                        utilizes cutting-edge technologies to ensure the highest quality care for our patients.
                                       </h2>
                                     </div>
                                   </div>
@@ -1204,15 +1236,15 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology, 
-                                      which allows us to provide more accurate diagnoses, more effective treatments, and a more personalized patient experience.
+                                        Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology,
+                                        which allows us to provide more accurate diagnoses, more effective treatments, and a more personalized patient experience.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                         Know More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1238,15 +1270,15 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Committed to patient-centered care, we tailor our approach to individual needs, 
-                                      emphasizing open communication and collaboration between patients and healthcare providers for optimal health outcomes.
+                                        Committed to patient-centered care, we tailor our approach to individual needs,
+                                        emphasizing open communication and collaboration between patients and healthcare providers for optimal health outcomes.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                         Know More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1272,15 +1304,15 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families. 
-                                      We firmly believe that empathy and understanding are essential components of holistic healthcare.
+                                        Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families.
+                                        We firmly believe that empathy and understanding are essential components of holistic healthcare.
                                       </h2>
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
                                       <a href="#">
-                                         Know More
+                                        Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
@@ -1306,8 +1338,42 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      We are committed to making healthcare accessible and convenient for all our patients. 
-                                      We offer convenient appointment times and locations to make it easy for our patients to receive the care they need.
+                                        We are committed to making healthcare accessible and convenient for all our patients.
+                                        We offer convenient appointment times and locations to make it easy for our patients to receive the care they need.
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div className="whychoimgbox2n">
+                                    <button className="whychocombtnn">
+                                      <a href="#">
+                                        Know More
+                                        <span className="speciconn">
+                                          <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
+                                        </span>
+                                      </a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="carousel-item">
+                          <div className="mynewslidesforhomwtesti">
+                            <div className="myovefn">
+                              <div className="whychochilbon">
+                                <div className="whychoslideboxn">
+                                  <div className="whychobox1n">
+                                    <div className="whychoimgn">
+                                      <Image width={100} height={100} src="/homeimg/Group-93.png" alt="img" />
+                                    </div>
+                                    <div className="whychonamen">
+                                      <h2>Holistic Wellness Programs</h2>
+                                    </div>
+                                    <div className="whychospecn">
+                                      <h2>
+                                      We prioritize the holistic well-being of our patients through a range of wellness packages, including preventive healthcare, comprehensive health checkups, 
+                                      packages tailored for seniors, well-woman checkups, and basic packages.
                                       </h2>
                                     </div>
                                   </div>

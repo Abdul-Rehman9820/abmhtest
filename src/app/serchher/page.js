@@ -1,19 +1,12 @@
 "use client";
 
-import { useState } from "react";
-
-import Script from 'next/script';
-
-import Link from 'next/link';
 
 import '../styles/commonglobalstyle.css'
 
 
 
 
-const SearchBar = async () => {
-
-
+const SearchBar = () => {
 
 
   return (

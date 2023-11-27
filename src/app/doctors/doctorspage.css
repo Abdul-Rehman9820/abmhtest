@@ -292,6 +292,7 @@ button.drlistsearchinputBTN i {
     position: relative;
     display: inline-block;
     z-index: 1;
+    margin-right: 45px;
    }
 
     #myDropdown label {
@@ -388,6 +389,7 @@ div#resultDiv {
     list-style: none;
     padding: 0;
     margin: 20px 0;
+    justify-content: center;
   }
 
   
@@ -466,6 +468,10 @@ div#resultDiv {
 
     .myli {
         width: 50%;
+    }
+    .dropdown {
+        margin-right: 25px;
+        margin-top: -7px;
     }
 
 

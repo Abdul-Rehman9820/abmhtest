@@ -186,6 +186,7 @@ span.BookApimg {
     border-radius: 50%;
     z-index: 1000000;
     position: relative;
+    box-shadow: 0pt 5pt 4pt rgb(0 0 0 / 14%);
 }
   /*---------------------
   Mobiles Menu 
@@ -364,6 +365,9 @@ span.BookApimg {
   text-align: end;
   background: #fffbed;
 }
+.showsearchbox {
+  cursor: pointer;
+}
 
 /* hamburger  end*/
 
@@ -433,7 +437,10 @@ button.searchinputBTN i {
   display: flex;
   align-items: center;
 }
-
+.navsearchboxlog {
+  margin-bottom: 5%;
+  text-align: center;
+}
 
 /* search box  end*/
 span.specicon {
@@ -653,6 +660,11 @@ ul.navul {
 span.specicon img {
   width: 70%;
 }
+.navsearchboxlog {
+  margin-bottom: 30%;
+}
+
+
 
 }
 
