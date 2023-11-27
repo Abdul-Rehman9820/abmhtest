@@ -176,68 +176,78 @@ export default function Home() {
           <div className="appobarflexbox">
             <div className="appobarflexboxcol2">
               <div className="appobtnpar">
+
+
                 <div className="appobtnchil">
-                  <div className="appbtnmainbox">
-                    <div className="appmainboxBG">
-                      <Image width={400} height={400} src="/homeimg/newdecsbookdr.png" alt="img" />
-                    </div>
-                    <div className="appmainHea">
-                      <Link href="/doctors">
+                  <Link href="/doctors">
+                    <div className="appbtnmainbox">
+                      <div className="appmainboxBG">
+                        <Image width={400} height={400} src="/homeimg/newdecsbookdr.png" alt="img" />
+                      </div>
+                      <div className="appmainHea">
                         <p>Find a Doctor</p>
-                      </Link>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
+
                 <div className="appobtnchil">
-                  <div className="appbtnmainbox">
-                    <div className="appmainboxBG">
-                      <Image width={400} height={400} src="/homeimg/medical-app.png" alt="img" />
-                    </div>
-                    <div className="appmainHea">
-                      <Link href="/serchher">
+                  <Link href="/serchher">
+                    <div className="appbtnmainbox">
+                      <div className="appmainboxBG">
+                        <Image width={400} height={400} src="/homeimg/medical-app.png" alt="img" />
+                      </div>
+                      <div className="appmainHea">
                         <p>Online Consultation</p>
-                      </Link>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
+
                 <div className="appobtnchil">
-                  <div className="appbtnmainbox">
-                    <div className="appmainboxBG">
-                      <Image width={400} height={400} src="/homeimg/heart.png" alt="img" />
-                    </div>
-                    <div className="appmainHea">
-                      <Link href="/wellness-packages">
+                  <Link href="/wellness-packages">
+                    <div className="appbtnmainbox">
+                      <div className="appmainboxBG">
+                        <Image width={400} height={400} src="/homeimg/heart.png" alt="img" />
+                      </div>
+                      <div className="appmainHea">
                         <p>Wellness Packages</p>
-                      </Link>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
-                <div className="appobtnchil fournone">
-                  <div className="appbtnmainbox">
-                    <div className="appmainboxBG">
-                      <Image width={400} height={400} src="/homeimg/Group.png" alt="img" />
-                    </div>
-                    <div className="appmainHea">
-                      <Link href="/abmh-international">
 
+
+                <div className="appobtnchil fournone">
+                  <Link href="/abmh-international">
+                    <div className="appbtnmainbox">
+                      <div className="appmainboxBG">
+                        <Image width={400} height={400} src="/homeimg/Group.png" alt="img" />
+                      </div>
+                      <div className="appmainHea">
                         <p>ABMH International</p>
-                      </Link>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
-                <div className="appobtnchil fournone">
-                  <div className="appbtnmainbox">
-                    <div className="appmainboxBG">
-                      <Image width={400} height={400} src="/homeimg/dignosticlab.png" alt="img" />
-                    </div>
-                    <div className="appmainHea">
-                      <Link href="/abmh-international">
 
+
+                <div className="appobtnchil fournone">
+                  <Link href="/">
+                    <div className="appbtnmainbox">
+                      <div className="appmainboxBG">
+                        <Image width={400} height={400} src="/homeimg/dignosticlab.png" alt="img" />
+                      </div>
+                      <div className="appmainHea">
                         <p>Diagnostic Centre</p>
-                      </Link>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
+
               </div>
             </div>
           </div>
@@ -1091,7 +1101,7 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                        We prioritize the holistic well-being of our patients through a range of wellness packages, 
+                                        We prioritize the holistic well-being of our patients through a range of wellness packages,
                                         including preventive healthcare, comprehensive health checkups, packages tailored for seniors, well-woman checkups, and basic packages.
                                       </h2>
                                     </div>
@@ -1372,8 +1382,8 @@ export default function Home() {
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
-                                      We prioritize the holistic well-being of our patients through a range of wellness packages, including preventive healthcare, comprehensive health checkups, 
-                                      packages tailored for seniors, well-woman checkups, and basic packages.
+                                        We prioritize the holistic well-being of our patients through a range of wellness packages, including preventive healthcare, comprehensive health checkups,
+                                        packages tailored for seniors, well-woman checkups, and basic packages.
                                       </h2>
                                     </div>
                                   </div>
