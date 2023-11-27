@@ -56,7 +56,10 @@ const Workwithus = () => {
 
           {/* comment if no opening*/}
           <div className="workwithuscont">
+
+
             <div className="accordion" id="accordionExample">
+
               <div className="accordion-item">
                 <h2 className="accordion-header" id="headingOne">
                   <button
@@ -163,6 +166,7 @@ const Workwithus = () => {
                   </div>
                 </div>
               </div>
+
               <div className="accordion-item">
                 <h2 className="accordion-header" id="headingThree">
                   <button
@@ -269,7 +273,117 @@ const Workwithus = () => {
                   </div>
                 </div>
               </div>
+              
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingfour">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsefour"
+                    aria-expanded="false"
+                    aria-controls="collapsefour"
+                  >
+                    Technical Support - 05 Vacancies
+                  </button>
+                </h2>
+                <div
+                  id="collapsefour"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="headingfour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <div className="mytabdata">
+                      <table className="myperstable">
+                        <thead>
+                          <tr>
+                            <th>Position</th>
+                            <th>Experience Required</th>
+                            <th>Last Date</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Medical Officer</td>
+                            <td>2+ Years</td>
+                            <td>20 November, 2023</td>
+                            <td>
+                              <div className="applybtn">
+                                <span className="downpdg">
+                                  <a href="#">
+                                    <Image width={100} height={100}
+                                      src="/commonimages/download-pdf.png"
+                                      className="donwpdfimg"
+                                      alt="pdg"
+                                    />
+                                  </a>
+                                </span>
+                                <span>
+                                  <a className="donwpdftext" href="#">
+                                    APPLY
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Medical Officer</td>
+                            <td>2+ Years</td>
+                            <td>20 November, 2023</td>
+                            <td>
+                              <div className="applybtn">
+                                <span className="downpdg">
+                                  <a href="#">
+                                    <Image width={100} height={100}
+                                      src="/commonimages/download-pdf.png"
+                                      className="donwpdfimg"
+                                      alt="pdg"
+                                    />
+                                  </a>
+                                </span>
+                                <span>
+                                  <a className="donwpdftext" href="#">
+                                    APPLY
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Medical Officer</td>
+                            <td>2+ Years</td>
+                            <td>20 November, 2023</td>
+                            <td>
+                              <div className="applybtn">
+                                <span className="downpdg">
+                                  <a href="#">
+                                    <Image width={100} height={100}
+                                      src="/commonimages/download-pdf.png"
+                                      className="donwpdfimg"
+                                      alt="pdg"
+                                    />
+                                  </a>
+                                </span>
+                                <span>
+                                  <a className="donwpdftext" href="#">
+                                    APPLY
+                                  </a>
+                                </span>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
+
+
           </div>
         </div>
       </div>
