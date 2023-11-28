@@ -1,0 +1,359 @@
+
+/* ! news pg   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+.abmhnew{
+    padding: 30px 0;
+}
+
+.newslidehead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.newslideheadbof {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.newslideheadbalc {
+    font-size: 30px!important;
+    color: #000;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.newslideheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.abmhnewslidcont {
+    padding: 20px;
+    box-shadow: 0pt 1pt 9pt rgb(0 0 0 / 14%);
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.newurlbg {
+    padding: 20px 10px;
+    text-align: center;
+    background: #000000db;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.newparahead {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+.newboximage {
+    width: 100%;
+    cursor: pointer;
+}
+.abmhnewslider {
+    margin: 40px 0;
+}
+
+
+.abmhnewslider .carousel-control-next-icon, .abmhnewslider .carousel-control-prev-icon {
+    background-color: #a21b18;
+    border-radius: 50%;
+    background-size: 20px 20px;
+}
+
+.abmhnewslider .carousel-control-next-icon, .abmhnewslider .carousel-control-prev-icon {
+    bottom: -30px!important;
+    position: absolute;
+}
+.abmhnewslider .carousel-control-prev {
+    right: 40px!important;
+    left: unset;
+}
+
+.abmhnewslider .carousel-indicators {
+    bottom: -55px;
+}
+.abmhnewslider .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    background-color: #707070;
+    border-radius: 50%;
+}
+.abmhnewslider .carousel-indicators .active {
+    opacity: 1;
+    background-color: #f37428;
+}
+
+
+ /*  =============== The Modal  */
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 2;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Zoom controls */
+  .zoom-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .zoom-btn {
+    background-color: #901412;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+/*  =============== The Modal  */
+
+
+/*! news pg   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+/*! news pg   start*/
+
+
+
+
+
+/*! news pg   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! news pg   start*/
+
+
+.newparahead {
+  font-size: 7px !important;
+}
+.newurlbg {
+  padding: 5px 5px;
+}
+.abmhnewslidcont {
+  padding: 5px;
+  box-shadow: 0pt 1pt 9pt rgb(0 0 0 / 5%);
+  margin: 1px;
+}
+
+
+.abmhnewslider .carousel-control-next-icon, .abmhnewslider .carousel-control-prev-icon {
+  width: 20px;
+  height: 20px;
+  background-size: 10px !important;
+}
+
+.newboximage.myImg {
+  margin-bottom: 40px;
+}
+.newslideheadbalc {
+  font-size: 15px!important;
+}
+
+.newslideheadborder {
+  margin-top: 0px;
+}
+.abmhnewslider .carousel-indicators {
+  display: none;
+}
+
+.zoom-btn {
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+
+/*! news pg   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

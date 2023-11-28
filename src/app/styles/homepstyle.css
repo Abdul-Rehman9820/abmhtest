@@ -311,7 +311,7 @@
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
     border-radius: 20px;
     padding: 10px;
-    margin-right: 25px;
+    /* margin-right: 25px; */
     position: relative;
     background: white;
     height: 100%;
@@ -432,7 +432,7 @@
       margin-top: 20px;
       margin-left: 5px;
       margin-right: 5px;
-      width: 33%;
+      width: 32%;
   }
   
   .combtndivteam {
@@ -480,8 +480,10 @@
   
   .mynewslidesforDoctor {
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
 .ourteamslidepar .carousel-control-prev {
     right: 40px!important;
@@ -947,7 +949,9 @@
   /* Why choos new slider issue start*/
 .mynewslidesforhomwtesti {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .myovefn {
@@ -964,7 +968,6 @@
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
     border-radius: 30px;
     padding: 23px 30px;
-    margin-right: 25px;
     position: relative;
     background: #8c100e;
     background-image: url("/homeimg/WhyUs-BGNew.png");
@@ -1177,14 +1180,28 @@ span.speciconn img {
         margin-right: 0px;
     }
     .whychospecn h2 {
-        width: 170px;
+        width: 90%;
         font-size: 12px;
+        margin: auto;
     }
 
     /* Why choos new slider issu end*/
+    .ourteambox1 {
+        padding: 20px;
+    }
+    .ourteamslidchilbo {
+        width: 31%;
+    }
+    .whychoslideboxn {
+        padding: 19px 6px;
+    }
+    .whychonamen h2 {
+        font-size: 15px;
+    }
 
-
-  
+    .myovefn {
+        width: 33%;
+    }
   
     }
   
@@ -1620,6 +1637,9 @@ span.speciconn img {
         .ourteamslidchilbo {
             margin-left: 3px;
             margin-right: 3px;
+        }
+        .ourteamslidchilbo {
+            width: 31%;
         }
   
   }

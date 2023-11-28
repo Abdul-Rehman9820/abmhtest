@@ -373,6 +373,9 @@ const Header = () => {
                                     <Link className='closeham' href="/abmh-international">ABMH International</Link>
                                 </li>
                                 <li className="commhamstyle">
+                                    <Link className='closeham' href="/abmh-news">ABMH in the News</Link>
+                                </li>
+                                <li className="commhamstyle">
                                     <Link className='closeham' href="/contact-us">Contact Us </Link>
                                 </li>
                             </ul>

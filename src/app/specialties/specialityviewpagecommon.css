@@ -167,7 +167,6 @@ p.specilpara {
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
     border-radius: 20px;
     padding: 10px;
-    margin-right: 25px;
     position: relative;
     background: white;
 }
@@ -243,6 +242,9 @@ p.specilpara {
 
 .mycentr{
     justify-content: center;
+}
+.ourteamslidchilbosingle {
+    margin-top: 10px !important;
 }
 
 
