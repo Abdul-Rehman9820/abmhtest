@@ -59,6 +59,11 @@
     margin-top: 123px !important;
     background-color: white !important;
   }
+
+  button, input, optgroup, select, textarea {
+	background: white;
+	color: black;
+  }
   
    img {
     height: auto;

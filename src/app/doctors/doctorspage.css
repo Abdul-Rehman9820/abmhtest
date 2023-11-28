@@ -228,6 +228,7 @@ input.drlistsearchinput {
     border: navajowhite;
     width: 100%;
     font-size: 16px;
+    color: #000000;
 }
 button.drlistsearchinputBTN i {
     font-size: 26px;
@@ -328,11 +329,12 @@ button.drlistsearchinputBTN i {
 
     .checkboxcont {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-content: center;
+        align-content: flex-start;
     }
+
 .mybtn {
 text-align: center;
 padding: 10px;
@@ -374,6 +376,35 @@ div#resultDiv {
 
 
 /* filter btn  end*/
+
+
+
+.restbtnwithtex {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resetbuton a {
+    color: #a21b18;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.doctornotfound a {
+    color: #a21b18;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.doctofoundtex {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
 
 
 
@@ -608,6 +639,23 @@ div#myDropdown {
 }
 .drlistsearch-container {
     border-radius: 0;
+}
+
+.resetbuton a {
+    font-size: 14px;
+    margin-right: 6px;
+}
+.doctofoundtex {
+    font-size: 14px;
+}
+.drlistformflex1 {
+    width: 85%;
+}
+input.drlistsearchinput {
+    font-size: 10px;
+}
+.drlistsearch-container {
+    padding: 10px 10px;
 }
 
 

@@ -53,6 +53,8 @@ const Doctors = () => {
 
   const [searchQuery, setSearchQuery] = useState("");
 
+
+
   //---- for search bar on page
 
 
@@ -62,9 +64,14 @@ const Doctors = () => {
 
   if (searchParams.has('doc')) {
     search = searchParams.get('doc') // get from url
+
   } else {
     search = ""; // Set the default value if 'doc' is not present
   }
+
+
+
+
 
   var stype = "";
 
@@ -272,7 +279,6 @@ const Doctors = () => {
                           className="drlistsearchinput"
                           placeholder="Find a doctor by doctors by name, specialty"
 
-                          name="search"
                           value={searchQuery}
                           onChange={(event) => setSearchQuery(event.target.value)}
 
@@ -357,6 +363,52 @@ const Doctors = () => {
 
             </div>
 
+
+            {
+
+
+              isLoading ? (
+
+                <div className="loading-message mt-4 mb-4">
+                  {/* <div className="loader"></div>
+                  <p>Loading doctors...</p> */}
+                </div>
+
+              ) : (
+
+                displayedData && displayedData.length === 0 ? (
+                  <div></div>
+                ) : (
+
+                  search.length === 0 ? (
+
+                    <div className='restbtnwithtex'>
+                      <div className='doctofoundtex'>Showing All Doctors</div>
+                    </div>
+
+                  ) : (
+
+                    <div className='restbtnwithtex'>
+                      <div className='doctofoundtex'> {data.length} results found</div>
+                      <div className='resetbuton'>
+                        <Link href="/doctors?stype=search&doc=">
+                          RESET
+                        </Link>
+                      </div>
+                    </div>
+
+                  )
+
+                )
+
+              )
+
+
+            }
+
+
+
+
             <div className="drlistloopbox">
 
 
@@ -374,7 +426,7 @@ const Doctors = () => {
 
                 ) : (
                   displayedData && displayedData.length === 0 ? (
-                    <div className="empty-message mt-4 mb-4">No doctors found</div>
+                    <div className="empty-message mt-4 mb-4">No doctors found <span className='doctornotfound'> <Link href="/doctors?stype=search&doc="> RESET </Link></span></div>
                   ) : (
                     displayedData && displayedData.map((item, index) => (
                       <li className="myli" key={index} id={index}>

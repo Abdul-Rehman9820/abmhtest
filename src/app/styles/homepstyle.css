@@ -602,8 +602,6 @@
   .ourworkslidepar .carousel-indicators .active {
       opacity: 1;
       background-color: #F37428;
-      width: 30px;
-      border-radius: 10px;
   }
   .ourworkslidepar .carousel-indicators {
       bottom: -55px;

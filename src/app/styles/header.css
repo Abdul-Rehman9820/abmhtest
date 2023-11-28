@@ -408,6 +408,7 @@ input.searchinput {
   border: navajowhite;
   width: 100%;
   font-size: 22px;
+  color: #000;
 }
 .searchinputBTN {
   border: none;
@@ -662,6 +663,13 @@ span.specicon img {
 }
 .navsearchboxlog {
   margin-bottom: 30%;
+}
+
+.formflex1 {
+  width: 85%;
+}
+input.searchinput {
+  font-size: 12px;
 }
 
 
