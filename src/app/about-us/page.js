@@ -282,9 +282,9 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Smt. Rajashree Birla</div>
                     <div className="boddesignam">Chairperson</div>
-                    <a className="bodnowmorebtn" href="">
+                    <Link className="bodnowmorebtn" href="/abmh-management">
                       Know more
-                    </a>
+                    </Link>
                   </div>
                   <div className="bodprofiloop">
                     <Image width={400} height={400}
@@ -294,9 +294,9 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Shri Ashkaran Agarwal</div>
                     <div className="boddesignam">Director</div>
-                    <a className="bodnowmorebtn" href="">
+                    <Link className="bodnowmorebtn" href="/abmh-management">
                       Know more
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -324,9 +324,9 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Rekha Dubey</div>
                     <div className="boddesignam">Chief Executive Officer</div>
-                    <a className="bodnowmorebtn" href="">
+                    <Link className="bodnowmorebtn" href="/abmh-management">
                       Know more
-                    </a>
+                    </Link>
                   </div>
                   <div className="bodprofiloop">
                     <Image width={400} height={400}
@@ -336,9 +336,9 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Dr. Rajshekhar Iyer</div>
                     <div className="boddesignam">Medical Advisor</div>
-                    <a className="bodnowmorebtn" href="">
+                    <Link className="bodnowmorebtn" href="/abmh-management">
                       Know more
-                    </a>
+                    </Link>
                   </div>
                   <div className="bodprofiloop">
                     <Image width={400} height={400}
@@ -348,9 +348,9 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Dr. Ashutosh Srivastava</div>
                     <div className="boddesignam">Medical Director</div>
-                    <a className="bodnowmorebtn" href="">
+                    <Link className="bodnowmorebtn" href="/abmh-management">
                       Know more
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

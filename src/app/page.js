@@ -513,7 +513,7 @@ export default function Home() {
 
               <div
                 id="carouselExampleIndicatorsteam"
-                className="carousel slide carousel-fade"
+                className="carousel slide"
               >
 
 
@@ -910,7 +910,7 @@ export default function Home() {
 
                     <div
                       id="carouselExampleIndicators44"
-                      className="carousel slide carousel-fade"
+                      className="carousel slide "
                     >
 
 

@@ -1,0 +1,289 @@
+
+
+/* ! CSR   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+
+
+.CSRpolyhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CSRpolyheadbof {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.CSRpolyheadbalc {
+    font-size: 30px !important;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.CSRpolyheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+.crepolparadata {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.Csrpolmain{
+    padding: 30px 0;
+}
+
+
+.cstbloglayot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cstbloglayot1 {
+    width: 30%;
+}
+.cstbloglayot2 {
+    width: 70%;
+}
+
+.cstbloglayot1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%);
+}
+.cstbloglayothead {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a21b18;
+}
+
+.cstbloglayothead2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #a21b18;
+}
+
+.cstbloglayotpara {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.cstbloglayot {
+    padding-bottom: 20px;
+    border-bottom: 1px solid  #a21b18;
+}
+
+.revercelayout {
+    /* display: flex; */
+    flex-direction: row-reverse;
+}
+.Csrpolmain2 {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+/*! CSR   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+
+/*! CSR   start*/
+
+
+.cstbloglayot1 img {
+    width: 200px;
+    height: 200px;
+}
+.csrpolycenterimgclas {
+    display: none;
+}
+
+
+
+/*! CSR   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! CSR   start*/
+
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+
+.csrpolycenterimgclas {
+    display: none;
+}
+
+.CSRpolyheadbalc {
+    font-size: 15px !important;
+}
+.crepolparadata {
+    font-size: 14px;
+}
+
+.forcoloumdataboxdetail {
+    padding: 20px 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.cstbloglayot1 {
+    width: 100%;
+}
+.cstbloglayot2 {
+    width: 100%;
+}
+.cstbloglayot1 img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.cstbloglayothead {
+    font-size: 20px;
+    text-align: -webkit-center;
+}
+
+.cstbloglayothead2 {
+    font-size: 15px;
+    text-align: -webkit-center;
+}
+
+.cstbloglayotpara {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/*! CSR   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

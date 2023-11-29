@@ -638,6 +638,10 @@ span.BookApimg {
 
 .hamburgerbG {
   padding: 5px;
+  box-shadow: 0pt 1pt 0pt rgb(0 0 0 / 14%);
+}
+.hamburger-menu {
+  height: 18px;
 }
 .bar, .bar:after, .bar:before {
   width: 16px;
@@ -671,7 +675,9 @@ span.specicon img {
 input.searchinput {
   font-size: 12px;
 }
-
+.bar {
+  transform: translateY(9px);
+}
 
 
 }
