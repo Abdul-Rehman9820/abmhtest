@@ -99,6 +99,35 @@ const Doctors = () => {
 
 
 
+  // for clear filter text and search bar start
+
+  const clearTextbar = () => {
+
+    // console.log('clearing data');
+
+    setSearchQuery('');
+    setmydyno('');
+
+
+      // Assuming your colorForm is a form element
+      const colorForm = document.getElementById('colorForm');
+      if (colorForm) {
+        colorForm.reset();
+      }
+
+      const resultDiv = document.getElementById('resultDiv'); // just for user notice
+
+      resultDiv.innerHTML = '';
+
+  };
+
+   // for clear filter text and search bar end
+
+
+
+
+
+
   useEffect(() => {
 
 
@@ -179,7 +208,7 @@ const Doctors = () => {
 
 
     const colorForm = document.getElementById('colorForm');
-    const resultDiv = document.getElementById('resultDiv');
+    const resultDiv = document.getElementById('resultDiv'); // just for user notice
 
 
     colorForm.addEventListener('change', function () {
@@ -391,7 +420,7 @@ const Doctors = () => {
                     <div className='restbtnwithtex'>
                       <div className='doctofoundtex'> {data.length} results found</div>
                       <div className='resetbuton'>
-                        <Link href="/doctors?stype=search&doc=">
+                        <Link onClick={clearTextbar} href="/doctors?stype=search&doc=">
                           RESET
                         </Link>
                       </div>
