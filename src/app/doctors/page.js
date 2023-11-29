@@ -455,7 +455,7 @@ const Doctors = () => {
 
                 ) : (
                   displayedData && displayedData.length === 0 ? (
-                    <div className="empty-message mt-4 mb-4">No doctors found <span className='doctornotfound'> <Link href="/doctors?stype=search&doc="> RESET </Link></span></div>
+                    <div className="empty-message mt-4 mb-4">No doctors found <span className='doctornotfound'> <Link  onClick={clearTextbar} href="/doctors?stype=search&doc="> RESET </Link></span></div>
                   ) : (
                     displayedData && displayedData.map((item, index) => (
                       <li className="myli" key={index} id={index}>

@@ -78,15 +78,15 @@
 .ourteamslidchilbodr {
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .ourteamslideboxdr {
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
     border-radius: 20px;
     padding: 10px;
-    margin-right: 25px;
+    /* margin-right: 25px; */
     position: relative;
     background: white;
 }
@@ -253,7 +253,7 @@ button.drlistsearchinputBTN i {
     align-items: center;
 }
 .myli {
-    width: 33%;
+    width: 33.33%;
 }
 
 /* doctor list logic  satart*/ 
@@ -293,7 +293,7 @@ button.drlistsearchinputBTN i {
     position: relative;
     display: inline-block;
     z-index: 1;
-    margin-right: 45px;
+    margin-right: 10px;
    }
 
     #myDropdown label {
@@ -391,7 +391,7 @@ div#resultDiv {
     color: #a21b18;
     font-size: 18px;
     font-weight: 600;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 .doctornotfound a {
     color: #a21b18;
