@@ -24,6 +24,10 @@
 
 /* breadcrumbs  end*/ 
 
+.profilebreadcrumbs {
+    margin-bottom: 30px;
+}
+
 .doctrodatcont {
     display: flex;
     flex-direction: row;
@@ -86,7 +90,9 @@
     display: block;
     text-align: center;
 }
-
+ul#pills-tab {
+    margin-bottom: 20px;
+}
 
 /* bootstrap ----------*/
 .mynewtab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -134,7 +140,22 @@ span.roundred {
 }
 .animatedheading {
     margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
 }
+.animatedheading:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    display: block;
+    background: #a21b18;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .doctorviewprofile {
     padding: 30px 0;
 }

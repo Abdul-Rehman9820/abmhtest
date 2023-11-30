@@ -49,9 +49,9 @@ const Abmanagement = () => {
                 <span className="CSRpolyheadborder" />
               </div>
             </div>
-            <div className="cstbloglayot">
+            <div className="cstbloglayot" id="Smt-Rajashree-Birla" >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Smt-Rajashree-Birla.png" id="Smt-Rajashree-Birla" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Smt-Rajashree-Birla.png" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Smt. Rajashree Birla</div>
@@ -70,9 +70,9 @@ const Abmanagement = () => {
                 </div>
               </div>
             </div>
-            <div className="cstbloglayot revercelayout">
+            <div className="cstbloglayot revercelayout" id="Shri-Ashkaran-Agarwal">
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Shri-Ashkaran-Agarwal.png" id="Shri-Ashkaran-Agarwal" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Shri-Ashkaran-Agarwal.png" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Shri Ashkaran Agarwal</div>
@@ -97,9 +97,9 @@ const Abmanagement = () => {
                 <span className="CSRpolyheadborder" />
               </div>
             </div>
-            <div className="cstbloglayot">
+            <div className="cstbloglayot" id="chief-executive-rekha-dubey" >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Rekha.png" id="chief-executive-rekha-dubey" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Rekha.png" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Rekha Dubey</div>
@@ -118,9 +118,9 @@ const Abmanagement = () => {
                 </div>
               </div>
             </div>
-            <div className="cstbloglayot revercelayout">
+            <div className="cstbloglayot revercelayout" id="Dr-Rajshekhar-Iyer">
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Dr-Rajshekhar-Iyer.png" id="Dr-Rajshekhar-Iyer" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Dr-Rajshekhar-Iyer.png"  alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Dr. Rajshekhar Iyer</div>
@@ -139,9 +139,9 @@ const Abmanagement = () => {
                 </div>
               </div>
             </div>
-            <div className="cstbloglayot">
+            <div className="cstbloglayot" id="Dr-Ashutosh-Srivastava" >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Dr-Ashutosh-Srivastava.png" id="Dr-Ashutosh-Srivastava" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Dr-Ashutosh-Srivastava.png" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Dr. Ashutosh Srivastava</div>

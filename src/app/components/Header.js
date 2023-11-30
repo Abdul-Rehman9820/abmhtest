@@ -157,7 +157,7 @@ const Header = () => {
                                 <div className="headerNavbarcontright">
 
                                     <div className="navbarmy">
-                                        <Link href="/">Home </Link>
+                                        {/* <Link href="/">Home </Link> */}
                                         <div className="dropdownmy">
                                             <button className="dropbtnmy">
                                                 About Us

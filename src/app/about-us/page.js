@@ -282,7 +282,7 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Smt. Rajashree Birla</div>
                     <div className="boddesignam">Chairperson</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management">
+                    <Link className="bodnowmorebtn" href="/abmh-management#Smt-Rajashree-Birla">
                       Know more
                     </Link>
                   </div>
@@ -294,7 +294,7 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Shri Ashkaran Agarwal</div>
                     <div className="boddesignam">Director</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management">
+                    <Link className="bodnowmorebtn" href="/abmh-management#Shri-Ashkaran-Agarwal">
                       Know more
                     </Link>
                   </div>
@@ -324,7 +324,7 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Rekha Dubey</div>
                     <div className="boddesignam">Chief Executive Officer</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management">
+                    <Link className="bodnowmorebtn" href="/abmh-management#chief-executive-rekha-dubey">
                       Know more
                     </Link>
                   </div>
@@ -336,7 +336,7 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Dr. Rajshekhar Iyer</div>
                     <div className="boddesignam">Medical Advisor</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management">
+                    <Link className="bodnowmorebtn" href="/abmh-management#Dr-Rajshekhar-Iyer">
                       Know more
                     </Link>
                   </div>
@@ -348,7 +348,7 @@ const Aboutus = () => {
                     />
                     <div className="bodname">Dr. Ashutosh Srivastava</div>
                     <div className="boddesignam">Medical Director</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management">
+                    <Link className="bodnowmorebtn" href="/abmh-management#Dr-Ashutosh-Srivastava">
                       Know more
                     </Link>
                   </div>

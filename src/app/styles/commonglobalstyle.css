@@ -70,6 +70,12 @@
     width: auto;
   }
 
+  .breadcrumbredirectback {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+}
 
 .parentcontainercos .customcontainer {
     max-width: 1300px;
@@ -131,6 +137,10 @@
     }
 
     .breadcrumbsdata {
+        font-size: 11px !important;
+    }
+
+    .breadcrumbredirectback {
         font-size: 11px !important;
     }
 

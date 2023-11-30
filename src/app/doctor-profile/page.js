@@ -111,18 +111,27 @@ const Doctorprofile = () => {
 
                 <div className="doctorviewprofile" key={index} >
                   <div className="commonheadcontainer">
-                    <div className="breadcrumbs">
-                      {/* try to dynamic */}
-
-                      <title>{item.DoctorFName + " " + item.DoctorLName}</title>
+                  
+                   <title>{item.DoctorFName + " " + item.DoctorLName}</title>
+                  
+                    {/* <div className="breadcrumbs">
 
                       <div className="breadcrumbsdata">
-                        Home / <span className="breadcrumbsactive">Dr {item.DoctorFName} {item.DoctorLName}</span>
+                        <span><Link className='breadcrumbredirectback' href="/doctors">Doctors / </Link></span><span className="breadcrumbsactive">Dr {item.DoctorFName} {item.DoctorLName}</span>
                       </div>
-                    </div>
+
+                    </div> */}
+                    
                     <div className="doctrodatcont">
                       <div className="proimgsection">
                         <div className="profilebox">
+
+                          <div className="profilebreadcrumbs">
+                            <div className="breadcrumbsdata">
+                              <span><Link className='breadcrumbredirectback' href="/doctors">Doctors / </Link></span><span className="breadcrumbsactive">Dr {item.DoctorFName} {item.DoctorLName}</span>
+                            </div>
+                          </div>
+
                           <div className="profileimg">
                             <Image width={400} height={400}
                               src={`/DoctorsProfileimages/${item.DoctorProfileImage}`}
@@ -149,7 +158,7 @@ const Doctorprofile = () => {
                       <div className="prodatasection">
                         <div className="mynewtab">
                           <ul
-                            className="nav nav-pills mb-3"
+                            className="nav nav-pills"
                             id="pills-tab"
                             role="tablist"
                           >
@@ -237,7 +246,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorSpecialies.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -271,7 +280,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorExperienceField.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -292,7 +301,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorFellowshipsAssociations.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -315,7 +324,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorQualification.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -338,7 +347,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorIPDOPDtime.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -349,7 +358,7 @@ const Doctorprofile = () => {
 
 
                                 </div>
-                                
+
 
                                 <div className="prodataDIV">
 
@@ -384,7 +393,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorMemberships.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -405,7 +414,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorCertifications.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}
@@ -435,7 +444,7 @@ const Doctorprofile = () => {
                                       <div className="redanimatedloopbox">
                                         {item.DoctorPublications.split('||').map((experience, expIndex) => (
                                           <div key={expIndex} className="animatedheading">
-                                            <span className="roundred" />
+
                                             {experience}
                                           </div>
                                         ))}

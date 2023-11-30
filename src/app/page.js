@@ -71,7 +71,7 @@ export default function Home() {
 
 
         <div className="newnexthomeslide">
-          <div id="carouselExampleIndicators" className="carousel slide carousel-fade">
+          <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-indicators">
               <button
                 type="button"
@@ -514,6 +514,7 @@ export default function Home() {
               <div
                 id="carouselExampleIndicatorsteam"
                 className="carousel slide"
+                data-bs-ride="carousel"
               >
 
 
@@ -776,6 +777,7 @@ export default function Home() {
               <div
                 id="carouselExampleIndicators1"
                 className="carousel slide carousel-fade"
+                data-bs-ride="carousel"
               >
                 <div className="carousel-indicators">
 
@@ -911,6 +913,7 @@ export default function Home() {
                     <div
                       id="carouselExampleIndicators44"
                       className="carousel slide "
+                      data-bs-ride="carousel"
                     >
 
 
@@ -1153,6 +1156,7 @@ export default function Home() {
                     <div
                       id="carouselExampleIndicators55"
                       className="carousel slide carousel-fade"
+                      data-bs-ride="carousel"
                     >
 
                       {/* <div className="carousel-indicators">
