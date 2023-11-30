@@ -47,7 +47,7 @@ const Virtualtour = () => {
             <div className="insurance_list">
 
               <div className="sectionheading">
-                <h2>List of Insurance &amp; TPAs</h2>
+                <h2>List of TPAs</h2>
                 <span className="headborder" />
               </div>
               <div className="tpa_sec">
@@ -92,8 +92,61 @@ const Virtualtour = () => {
 
                 </div>
 
+              </div>
+
+            </div>
 
 
+          </div>
+        </div>
+      </div>
+
+
+      <div className="parentcontainerwhi withtestBG">
+        <div className="customcontainer">
+          <div className="divinsoandtpa">
+
+
+            <div className="insurance_list">
+
+              <div className="sectionheading">
+                <h2>List of Insurance Company</h2>
+                <span className="headborder" />
+              </div>
+
+
+              <div className="img-sec">
+
+                <div className="row img_padding">
+
+
+                  <div className=" card card-3">
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/4.png" alt="img" />
+                    <span className="img-text">Alankit Health Care Limited</span>
+                  </div>
+                  <div className=" card card-3">
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/1.png" alt="img" />
+                    <span className="img-text">
+                      Dedicated Health Services TPA India Pvt Ltd
+                    </span>
+                  </div>
+                  <div className=" card card-3">
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/3.png" alt="img" />
+                    <span className="img-text">
+                      Family Health Plan Insurance TPA Limited
+                    </span>
+                  </div>
+                  <div className=" card card-3">
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/2.png" alt="img" />
+                    <span className="img-text">Genins India TPA Ltd</span>
+                  </div>
+                  <div className=" card card-3">
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/2.png" alt="img" />
+                    <span className="img-text">Genins India TPA Ltd</span>
+                  </div>
+
+
+                </div>
 
               </div>
 
@@ -104,6 +157,8 @@ const Virtualtour = () => {
         </div>
       </div>
       {/* Hospirtal testimonials   end*/}
+
+
       {/* FAQ for wellness  start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

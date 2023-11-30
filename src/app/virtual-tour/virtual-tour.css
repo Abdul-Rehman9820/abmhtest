@@ -261,105 +261,7 @@ margin-bottom: 40px;
 
 
 
-
-
-
-
 /* Hospirtal testimonials   end*/ 
-
-
-
-/* FAQ for wellness  start */ 
-
-
-.wellnessFAQpart {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.wellnessFAQhead {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-.wellnessFAQpart h2 {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    margin: 0;
-    font-family: 'Poppins';
-}
-.wellnessFAQ {
-    padding: 40px 0;
-}
-
-
-.accordion {
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    transition: 0.4s;
-}
-  
-  .activeFAQ, .accordion:hover {
-    background-color: #f37428;
-    color: white;
-  }
-  
-  .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .activeFAQ:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: #e5c5b245;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  .wellfaqCol {
-    margin-top: 30px;
-  }
-  .panel p {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 35px 0;
-}
-
-button.accordion {
-    position: relative;
-}
-
-button.accordion:before {
-    content: "";
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    left: 0;
-    top: 44%;
-    background: #a21b18;
-    border-radius: 50%;
-}
-
-/* FAQ for wellness  end*/ 
 
 
 
@@ -453,11 +355,6 @@ iframe.turevidiframe {
     flex: 0 0 calc(100% / 1);
 }
 
-
-
-.accordion {
-    font-size: 14px;
-}
 .lablebox1 h2 {
     font-size: 16px;
 }
@@ -476,10 +373,6 @@ iframe.turevidiframe {
 
 
 /*! hospital tour page  end*/
-
-
-
-
 
 
 

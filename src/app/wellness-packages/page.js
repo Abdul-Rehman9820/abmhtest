@@ -13,38 +13,11 @@ import './wellness-packages.css'
 const WellnessPack = () => {
 
 
-
-  useEffect(() => {
-
-    // for FAQ script
-
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("activeFAQ");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
-    }
-
-    // for FAQ script
-
-
-  })
-
-
-
   return (
 
 
     <>
-    <title>Wellness Packages</title>
+      <title>Wellness Packages</title>
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -64,7 +37,7 @@ const WellnessPack = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-            <Image width={2000} height={400} src="/commonimages/wellness-packages-banner.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/wellness-packages-banner.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -83,8 +56,8 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                       Coronary<br />
-                       Risk
+                      Coronary<br />
+                      Risk
                     </h2>
                   </div>
                   <div className="lablebox2">
@@ -93,7 +66,7 @@ const WellnessPack = () => {
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>            
+                </div>
                 <div className="lableseemore">
                   <h2>ECG</h2>
                   <h2>Stress test/2D Echo </h2>
@@ -131,14 +104,14 @@ const WellnessPack = () => {
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>              
+                </div>
                 <div className="lableseemore">
                   <h2>ECG</h2>
                   <h2>Stress test/2D Echo </h2>
                   <h2>DET</h2>
                   <h2>ENT</h2>
                   <h2>
-                     Ophthalmic + <span className="seeactive">17 more</span>
+                    Ophthalmic + <span className="seeactive">17 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
@@ -159,8 +132,8 @@ const WellnessPack = () => {
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                       Senior <br />
-                       Citizen (60+)
+                      Senior <br />
+                      Citizen (60+)
                     </h2>
                   </div>
                   <div className="lablebox2">
@@ -169,14 +142,14 @@ const WellnessPack = () => {
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>              
+                </div>
                 <div className="lableseemore">
                   <h2>ECG</h2>
                   <h2>Stress test/2D Echo </h2>
                   <h2>PFT </h2>
                   <h2>Diet & Life Style</h2>
                   <h2>
-                     Orthopedic + <span className="seeactive">22 more</span>
+                    Orthopedic + <span className="seeactive">22 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
@@ -207,7 +180,7 @@ const WellnessPack = () => {
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>             
+                </div>
                 <div className="lableseemore">
                   <h2>Haemogram</h2>
                   <h2>Urine Routine </h2>
@@ -245,14 +218,14 @@ const WellnessPack = () => {
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>          
+                </div>
                 <div className="lableseemore">
                   <h2>Haemogram with ESR</h2>
                   <h2>Urine Routine </h2>
                   <h2>Blood Group </h2>
                   <h2>Blood Glucose (R)</h2>
                   <h2>
-                      HIV Test + <span className="seeactive">4 more</span>
+                    HIV Test + <span className="seeactive">4 more</span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
@@ -283,7 +256,7 @@ const WellnessPack = () => {
                       <div className="labelhead">TESTS</div>
                     </div>
                   </div>
-                </div>              
+                </div>
                 <div className="lableseemore">
                   <h2>Urine Routine</h2>
                   <h2>Haemogram </h2>
@@ -416,62 +389,74 @@ const WellnessPack = () => {
                 <span className="headborder" />
               </div>
             </div>
+
             <div className="wellfaqCol">
+
+
               <div className="wellfaqcontainer">
-                <button className="accordion">
-                  What is a Third-Party Administrator (TPA)?
-                </button>
-                <div className="panel">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
-                    amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.
-                  </p>
-                </div>
-                <button className="accordion">
-                  What Services Do TPAs Provide?
-                </button>
-                <div className="panel">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-                <button className="accordion">
-                  Why Would a Company Use a TPA?
-                </button>
-                <div className="panel">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-                <button className="accordion">
-                  What is the procedure for availing TPA service?
-                </button>
-                <div className="panel">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                <div className="accordion" id="accordionExample">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse1"
+                        aria-expanded="true"
+                      >
+                        What is TPA?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse1"
+                      className="accordion-collapse collapse show"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <div className="faqdata">
+                          <p>
+                            The Third Party Administrator is a service through which a policy
+                            holder can seek cashless facility from Aditya Birla Memorial
+                            Hospital.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse2"
+                        aria-expanded="false"
+                      >
+                        What are the documents required for the cashless process?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse2"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <div className="faqdata">
+                          <p>
+                            Please get the photocopies of the following documents for your
+                            convenience:
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
+
             </div>
+
+
           </div>
         </div>
       </div>

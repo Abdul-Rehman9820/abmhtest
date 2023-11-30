@@ -91,31 +91,6 @@ const Virtualtour = () => {
     // testi slider
 
 
-
-        // for FAQ script
-
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-    
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function () {
-            this.classList.toggle("activeFAQ");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-          });
-        }
-    
-        // for FAQ script
-
-
-
- 
-
-
   })
 
 
@@ -404,80 +379,7 @@ const Virtualtour = () => {
       </div>
     </div>
     {/* Hospirtal testimonials   end*/}
-    {/* FAQ for wellness  start*/}
-
-
-    {/* <div className="parentcontainerwhi">
-      <div className="customcontainer">
-        <div className="wellnessFAQ">
-          <div className="commonheadingCont">
-            <div className="commonheadinghead">
-              <h2>FAQs : Common Questions</h2>
-              <span className="Commheadborder" />
-            </div>
-          </div>
-          <div className="wellfaqCol">
-            <div className="wellfaqcontainer">
-              <button className="accordion">
-                What is a Third-Party Administrator (TPA)?
-              </button>
-              <div className="panel">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit
-                  amet, consectetur adipisicing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.
-                </p>
-              </div>
-              <button className="accordion">
-                What Services Do TPAs Provide?
-              </button>
-              <div className="panel">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <button className="accordion">
-                Why Would a Company Use a TPA?
-              </button>
-              <div className="panel">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <button className="accordion">
-                What is the procedure for availing TPA service?
-              </button>
-              <div className="panel">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> */}
-
-
-    {/*  FAQ for wellness  end*/}
+   
   </>
   
 

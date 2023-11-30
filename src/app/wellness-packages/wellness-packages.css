@@ -80,9 +80,7 @@ span.headborder {
     border-radius: 10px;
     margin-top: 25px;
 }
-span.seeactiveFAQ {
-    color: #a21b18;
-}
+
 .lableboxflex {
     background: #FFF9E0;
     padding: 0 12px 30px 12px;
@@ -300,7 +298,9 @@ span.homwcarespecicon img {
 /* HomeCare Solutions  end*/ 
 
 
+
 /* FAQ for wellness  start */ 
+
 
 
 .wellnessFAQpart {
@@ -328,67 +328,24 @@ span.homwcarespecicon img {
 .wellnessFAQ {
     padding: 40px 0;
 }
-
-
-.accordion {
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    transition: 0.4s;
-}
-  
-  .activeFAQ, .accordion:hover {
-    background-color: #f37428;
-    color: white;
-  }
-  
-  .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .activeFAQ:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: #e5c5b245;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  .wellfaqCol {
-    margin-top: 30px;
-  }
-  .panel p {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 35px 0;
+.wellfaqCol{
+    margin-top: 40px;
 }
 
-button.accordion {
-    position: relative;
+.wellfaqcontainer .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a21b18;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-button.accordion:before {
-    content: "";
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    left: 0;
-    top: 44%;
-    background: #a21b18;
-    border-radius: 50%;
+.faqdata p {
+    font-size: 14px !important;
+    font-weight: 500;
+    margin-top: 10px;
 }
+
+
 
 /* FAQ for wellness  end*/ 
 

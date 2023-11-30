@@ -494,6 +494,10 @@
     bottom: -20px!important;
     position: absolute;
 }
+
+.ourteamslidepar .carousel-control-next, .ourteamslidepar .carousel-control-prev {
+    width: 5%;
+}
   
 .ourteamslidepar .carousel-control-next-icon img, .ourteamslidepar .carousel-control-prev-icon img {
     width: 100%;

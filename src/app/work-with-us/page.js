@@ -98,18 +98,18 @@ const Workwithus = () => {
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <a href="#">
+                                  <Link href="">
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
                                       alt="pdg"
                                     />
-                                  </a>
+                                  </Link>
                                 </span>
                                 <span>
-                                  <a className="donwpdftext" href="#">
+                                  <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
-                                  </a>
+                                  </Link>
                                 </span>
                               </div>
                             </td>
@@ -121,45 +121,23 @@ const Workwithus = () => {
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <a href="#">
+                                  <Link href="">
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
                                       alt="pdg"
                                     />
-                                  </a>
+                                  </Link>
                                 </span>
                                 <span>
-                                  <a className="donwpdftext" href="#">
+                                  <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
-                                  </a>
+                                  </Link>
                                 </span>
                               </div>
                             </td>
                           </tr>
-                          <tr>
-                            <td>Medical Officer</td>
-                            <td>2+ Years</td>
-                            <td>20 November, 2023</td>
-                            <td>
-                              <div className="applybtn">
-                                <span className="downpdg">
-                                  <a href="#">
-                                    <Image width={100} height={100}
-                                      src="/commonimages/download-pdf.png"
-                                      className="donwpdfimg"
-                                      alt="pdg"
-                                    />
-                                  </a>
-                                </span>
-                                <span>
-                                  <a className="donwpdftext" href="#">
-                                    APPLY
-                                  </a>
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
+ 
                         </tbody>
                       </table>
                     </div>
@@ -205,18 +183,18 @@ const Workwithus = () => {
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <a href="#">
+                                  <Link href="">
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
                                       alt="pdg"
                                     />
-                                  </a>
+                                  </Link>
                                 </span>
                                 <span>
-                                  <a className="donwpdftext" href="#">
+                                  <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
-                                  </a>
+                                  </Link>
                                 </span>
                               </div>
                             </td>
@@ -228,41 +206,18 @@ const Workwithus = () => {
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <a href="#">
+                                  <Link href="">
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
                                       alt="pdg"
                                     />
-                                  </a>
+                                  </Link>
                                 </span>
                                 <span>
-                                  <a className="donwpdftext" href="#">
+                                  <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
-                                  </a>
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Nursing</td>
-                            <td>2+ Years</td>
-                            <td>20 November, 2023</td>
-                            <td>
-                              <div className="applybtn">
-                                <span className="downpdg">
-                                  <a href="#">
-                                    <Image width={100} height={100}
-                                      src="/commonimages/download-pdf.png"
-                                      className="donwpdfimg"
-                                      alt="pdg"
-                                    />
-                                  </a>
-                                </span>
-                                <span>
-                                  <a className="donwpdftext" href="#">
-                                    APPLY
-                                  </a>
+                                  </Link>
                                 </span>
                               </div>
                             </td>
@@ -312,18 +267,18 @@ const Workwithus = () => {
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <a href="#">
+                                  <Link href="">
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
                                       alt="pdg"
                                     />
-                                  </a>
+                                  </Link>
                                 </span>
                                 <span>
-                                  <a className="donwpdftext" href="#">
+                                  <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
-                                  </a>
+                                  </Link>
                                 </span>
                               </div>
                             </td>
@@ -335,45 +290,23 @@ const Workwithus = () => {
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <a href="#">
+                                  <Link href="">
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
                                       alt="pdg"
                                     />
-                                  </a>
+                                  </Link>
                                 </span>
                                 <span>
-                                  <a className="donwpdftext" href="#">
+                                  <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
-                                  </a>
+                                  </Link>
                                 </span>
                               </div>
                             </td>
                           </tr>
-                          <tr>
-                            <td>Medical Officer</td>
-                            <td>2+ Years</td>
-                            <td>20 November, 2023</td>
-                            <td>
-                              <div className="applybtn">
-                                <span className="downpdg">
-                                  <a href="#">
-                                    <Image width={100} height={100}
-                                      src="/commonimages/download-pdf.png"
-                                      className="donwpdfimg"
-                                      alt="pdg"
-                                    />
-                                  </a>
-                                </span>
-                                <span>
-                                  <a className="donwpdftext" href="#">
-                                    APPLY
-                                  </a>
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
+           
                         </tbody>
                       </table>
                     </div>
