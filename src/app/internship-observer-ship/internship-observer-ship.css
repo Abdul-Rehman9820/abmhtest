@@ -1,0 +1,194 @@
+
+/* ! inter / obser pg   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+
+.inttpa_sec {
+    background: #FFFBED;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inttpa_sec_para {
+    padding: 30px;
+}
+
+.interspar {
+    margin-top: 5px;
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
+
+.intertable th {
+    background: #a21b18 !important;
+    color: white;
+}
+.intertable td {
+    padding: 20px 10px !important;
+}
+
+.intertime h2 {
+    font-size: 25px;
+}
+.intertable {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*! inter / obser pg   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! inter / obser pg   start*/
+
+
+
+
+/*! inter / obser pg   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+
+/*! inter / obser pg   start*/
+
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+.inttpa_sec_para {
+    padding: 10px;
+}
+.interspar {
+    font-size: 14px;    
+}
+.intertime h2 {
+    font-size: 15px;
+}
+
+.intertable th,td {
+    font-size: 13px;
+}
+.intertable th,td {
+    padding: 10px 5px !important;
+}
+
+
+
+
+/*! inter / obser pg   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

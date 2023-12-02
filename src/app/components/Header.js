@@ -196,8 +196,7 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <a href="#">Page 1</a>
-                                                <a href="#">Page 2</a>
+                                               <Link href="/internship-observer-ship">Internship & Observership </Link>                                           
                                             </div>
                                         </div>
                                     </div>
@@ -362,9 +361,17 @@ const Header = () => {
                                         </li>
                                     </ul>
                                 </li>
-                                <li className="commhamstyle">
-                                    <Link className='closeham' href="/serchher">Academics </Link>
+                                <li className=" has-children">
+                                    Academics
+                                    <span className="icon-arrow" />
+                                    <ul className="children">
+                                        <li>
+                                            <Link className='closeham' href="/internship-observer-ship">Internship & Observership</Link>
+                                        </li>
+                                  
+                                    </ul>
                                 </li>
+                        
                                 <li className="commhamstyle">
                                     <Link className='closeham' href="/work-with-us">Work with Us </Link>
                                 </li>

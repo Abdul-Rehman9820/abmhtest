@@ -1,0 +1,297 @@
+
+/* ! inter / obser pg   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+
+.inttpa_sec {
+    background: #FFFBED;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inttpa_sec_para {
+    padding: 30px;
+}
+
+.interspar {
+    margin-top: 5px;
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
+.tourvistslider{
+    margin: 40px 0;
+}
+.vistboximage {
+    cursor: pointer;
+}
+
+.vistboximage {
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+.tourvistslider .carousel-control-next-icon, .tourvistslider .carousel-control-prev-icon {
+    background-color: #a21b18;
+    border-radius: 50%;
+    background-size: 20px 20px;
+}
+
+
+
+
+
+ /*  =============== The Modal  */
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 2;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Zoom controls */
+  .zoom-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .zoom-btn {
+    background-color: #901412;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+/*  =============== The Modal  */
+
+
+
+
+/*! inter / obser pg   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! inter / obser pg   start*/
+
+
+
+
+/*! inter / obser pg   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+
+/*! inter / obser pg   start*/
+
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+.inttpa_sec_para {
+    padding: 10px;
+}
+.interspar {
+    font-size: 14px;    
+}
+.intertime h2 {
+    font-size: 15px;
+}
+
+.zoom-btn {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  .tourvistslider .carousel-control-next-icon, .tourvistslider .carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 10px !important;
+}
+
+
+/*! inter / obser pg   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
