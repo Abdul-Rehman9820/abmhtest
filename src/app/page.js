@@ -18,6 +18,9 @@ export default function Home() {
 
   useEffect(() => {
 
+    
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
 
     $(document).ready(function () {
       // Your code here
@@ -267,8 +270,8 @@ export default function Home() {
                 <span className="headborder" />
               </div>
               <div className="Specilizationhead">
-                <h3>50+</h3>
-                <h2>Specialization&nbsp;</h2>
+                {/* <h3>50+</h3>
+                <h2>Specialization&nbsp;</h2> */}
               </div>
             </div>
             <div className="speforcolpar">
@@ -286,10 +289,10 @@ export default function Home() {
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
-                    <h2>
+                    {/* <h2>
                       High blood pressure | Abnormally fast or slow heart rate |
                       Dizziness or fainting.
-                    </h2>
+                    </h2> */}
                   </div>
                 </div>
               </div>
@@ -307,10 +310,10 @@ export default function Home() {
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
-                    <h2>
+                    {/* <h2>
                       Blood in the urine | Pain when you urinate | Frequent need to
                       urinate.
-                    </h2>
+                    </h2> */}
                   </div>
                 </div>
               </div>
@@ -328,9 +331,9 @@ export default function Home() {
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
-                    <h2>
+                    {/* <h2>
                       Muscle weakness | Poor coordination | Seizures | confusion
-                    </h2>
+                    </h2> */}
                   </div>
                 </div>
               </div>
@@ -348,10 +351,10 @@ export default function Home() {
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
-                    <h2>
+                    {/* <h2>
                       Losing weight without trying | Urinating often | Feeling tired
                       and weak.
-                    </h2>
+                    </h2> */}
                   </div>
                 </div>
               </div>
@@ -369,10 +372,10 @@ export default function Home() {
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
-                    <h2>
+                    {/* <h2>
                       Unusual abdominal or gas pains | Bloating | Constipation
                       and/or diarrhea
-                    </h2>
+                    </h2> */}
                   </div>
                 </div>
               </div>
@@ -390,13 +393,15 @@ export default function Home() {
                   </div>
                   <div className="specdiv" />
                   <div className="speforwhitbgCol2">
-                    <h2>
+                    {/* <h2>
                       Diarrhea | Fever | Constipation | Cough | Teething Pain |
                       Gassiness
-                    </h2>
+                    </h2> */}
                   </div>
                 </div>
               </div>
+     
+            
             </div>
             <div className="combtndiv">
               <button className="combtn">
@@ -763,7 +768,7 @@ export default function Home() {
           <div className="ourworkpar">
             <div className="Specialtiespart">
               <div className="outworkhead">
-                <h2>Our Work, Their Words </h2>
+                <h2>Voices Of Healing, Hear What Our Patients Are Speaking</h2>
                 <span className="headborder" />
               </div>
               <div className="surgerhead">
@@ -897,7 +902,7 @@ export default function Home() {
                 <div className="Whyworkslideparchilcol1">
                   <div className="Specialtiespart">
                     <div className="outworkhead">
-                      <h2>Why Choose Us?</h2>
+                      <h2>Why We Stand Out?</h2>
                       <span className="headborder" />
                       {/* <h2>US?</h2> */}
                     </div>
@@ -957,12 +962,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -987,12 +992,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1017,12 +1022,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1051,12 +1056,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1081,12 +1086,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1111,12 +1116,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1223,12 +1228,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1257,12 +1262,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1291,12 +1296,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1325,12 +1330,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1359,12 +1364,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
@@ -1393,12 +1398,12 @@ export default function Home() {
                                   </div>
                                   <div className="whychoimgbox2n">
                                     <button className="whychocombtnn">
-                                      <a href="#">
+                                      <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
-                                      </a>
+                                      </Link>
                                     </button>
                                   </div>
                                 </div>
