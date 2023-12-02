@@ -197,7 +197,8 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                               <Link href="/internship-observer-ship">Internship & Observership </Link>
+                                               <Link href="/programs">Programs</Link>
+                                               <Link href="/internship-observer-ship">Internship & Observership</Link>
                                                <Link href="/hospital-visit">Hospital Visit</Link>                                                
                                             </div>
                                             
@@ -371,6 +372,9 @@ const Header = () => {
                                     Academics
                                     <span className="icon-arrow" />
                                     <ul className="children">
+                                        <li>
+                                            <Link className='closeham' href="/programs">Programs</Link>
+                                        </li>
                                         <li>
                                             <Link className='closeham' href="/internship-observer-ship">Internship & Observership</Link>
                                         </li>

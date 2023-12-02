@@ -1,0 +1,247 @@
+
+
+/* ! page  start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: 300px;
+    background: #F7D651;
+}
+/* common head banner  end*/ 
+
+.homwcareparadataint {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.homwcareparadataint a {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.progintroBG {
+    background-image: url("/commonimages/yellow-bg-new.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.programs_pagehead {
+    padding: 45px 0;
+    margin-top: 50px;
+}
+
+.faqhyper a{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+.coursetable th {
+    background: #a21b18 !important;
+    color: white;
+}
+
+.intertime h2 {
+    padding-top: 40px;
+    font-size: 25px;
+}
+.coursetable {
+    text-align: center;
+}
+
+
+.faqhyper a{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* FAQ for   start */ 
+
+
+.academiccourseint {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.academiccourseinthead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.academiccourseint h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.academiccourseint {
+    padding: 40px 0;
+}
+.wellfaqCol{
+    margin: 40px 0;
+}
+
+.wellfaqcontainer .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a21b18;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.faqdata p {
+    font-size: 14px !important;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* FAQ for   end*/ 
+
+
+
+/*!  page  end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+        .accordion {
+            font-size: 14px;
+        }
+        .intertime h2 {
+            font-size: 15px;
+        }
+
+        .intertable th,td {
+            font-size: 13px !important;
+        }
+        .intertable th,td {
+            padding: 10px 5px !important;
+        }
+
+        .homwcareparadataint {
+            font-size: 14px;
+            overflow-wrap: break-word;
+        }
+
+        .academiccourseint h2 {
+            font-size: 15px;
+        }
+        .homwcareparadataint a {
+            font-size: 14px;
+        }
+        .faqhyper a {
+            font-size: 14px;
+        }
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
