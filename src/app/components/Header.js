@@ -166,7 +166,7 @@ const Header = () => {
                                             <div className="dropdown-contentmy">
                                                 <Link href="/about-us">About Us</Link>
                                                 <Link href="/quality-policy-and-ethics-committee">Quality Policy & Ethics Committee</Link>
-                                                <Link href="/about-csr">CSR Policy</Link>
+                                                <Link href="/about-csr">CSR Initiatives</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
@@ -178,11 +178,12 @@ const Header = () => {
                                                 <Link href="/virtual-tour">Virtual Tour</Link>
                                                 <Link href="/wellness-packages">Wellness Packages</Link>
                                                 <Link href="/insurance-and-tpa">Insurance & TPAs</Link>
+                                                <Link href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
                                             <button className="dropbtnmy">
-                                                Health Professionals
+                                                Services
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
@@ -196,8 +197,10 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                               <Link href="/internship-observer-ship">Internship & Observership </Link>                                           
+                                               <Link href="/internship-observer-ship">Internship & Observership </Link>
+                                               <Link href="/hospital-visit">Hospital Visit</Link>                                                
                                             </div>
+                                            
                                         </div>
                                     </div>
 
@@ -331,7 +334,7 @@ const Header = () => {
                                             <Link className='closeham' href="/quality-policy-and-ethics-committee">Quality Policy & Ethics Committee</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/about-csr">CSR Policy</Link>
+                                            <Link className='closeham' href="/about-csr">CSR Initiatives</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -347,10 +350,13 @@ const Header = () => {
                                         <li>
                                             <Link className='closeham' href="/insurance-and-tpa">Insurance & TPAs</Link>
                                         </li>
+                                        <li>
+                                            <Link className='closeham' href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li className=" has-children">
-                                    Health Professionals
+                                     Services
                                     <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
@@ -367,6 +373,9 @@ const Header = () => {
                                     <ul className="children">
                                         <li>
                                             <Link className='closeham' href="/internship-observer-ship">Internship & Observership</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/hospital-visit">Hospital Visit</Link>
                                         </li>
                                   
                                     </ul>

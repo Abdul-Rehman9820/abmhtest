@@ -146,7 +146,7 @@ const Virtualtour = () => {
     {/* Hospirtal testimonials  start*/}
     <div className="parentcontainerwhi withtestBG">
       <div className="customcontainer">
-        <div className="Hospirtaltourtestim">
+        <div className="Hospirtaltourtestim" id="PatientsTestimonials">
           <div className="commonheadingCont">
             <div className="commonheadinghead">
               <h2>Patients Testimonials</h2>

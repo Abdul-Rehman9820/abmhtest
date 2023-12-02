@@ -208,6 +208,19 @@ export default function Home() {
                   </Link>
                 </div>
 
+                <div className="appobtnchil fournone">
+                  <Link href="/">
+                    <div className="appbtnmainbox">
+                      <div className="appmainboxBG">
+                        <Image width={400} height={400} src="/homeimg/dignosticlab.png" alt="img" />
+                      </div>
+                      <div className="appmainHea">
+                        <p>Diagnostic Services</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+
 
                 <div className="appobtnchil">
                   <Link href="/wellness-packages">
@@ -236,19 +249,6 @@ export default function Home() {
                   </Link>
                 </div>
 
-
-                <div className="appobtnchil fournone">
-                  <Link href="/">
-                    <div className="appbtnmainbox">
-                      <div className="appmainboxBG">
-                        <Image width={400} height={400} src="/homeimg/dignosticlab.png" alt="img" />
-                      </div>
-                      <div className="appmainHea">
-                        <p>Diagnostic Centre</p>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
 
 
               </div>
@@ -772,8 +772,11 @@ export default function Home() {
                 <span className="headborder" />
               </div>
               <div className="surgerhead">
-                {/* <h3>1030+</h3>
-                <h2>Specialization </h2> */}
+                {/* <h3>1030+</h3> */}              
+                <Link href="/virtual-tour#PatientsTestimonials">
+                <h2>View All</h2>
+                </Link>
+
               </div>
             </div>
 
@@ -951,7 +954,7 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-88.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Medical Expertise</h2>
+                                      <h2>World Class Doctors</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
@@ -981,7 +984,7 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-89.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Advanced Technology</h2>
+                                      <h2>Advance Technology</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
@@ -1075,7 +1078,7 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-92.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Accessibility and Convenience</h2>
+                                      <h2>Accessible Healthcare</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
@@ -1217,7 +1220,7 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-88.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Medical Expertise</h2>
+                                      <h2>World Class Doctors</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
@@ -1251,7 +1254,7 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-89.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Advanced Technology</h2>
+                                      <h2>Advance Technology</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>
@@ -1353,7 +1356,7 @@ export default function Home() {
                                       <Image width={100} height={100} src="/homeimg/Group-92.png" alt="img" />
                                     </div>
                                     <div className="whychonamen">
-                                      <h2>Accessibility and Convenience</h2>
+                                      <h2>Accessible Healthcare</h2>
                                     </div>
                                     <div className="whychospecn">
                                       <h2>

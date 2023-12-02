@@ -81,6 +81,10 @@
       box-shadow: 0pt 1pt 19pt rgb(0 0 0 / 18%);
       border-radius: 20px;
   }
+
+  .appobtnchil:hover .appmainHea p {
+    color: #f37428;
+  }
   
   .appmainboxBG img {
       width: 80px;
@@ -126,6 +130,7 @@
       font-size: 21px;
       font-weight: 500;
       line-height: 1.2;
+      transition: all 0.3s ease; 
   }
   .animatedimg {
       height: 100%;
@@ -1102,6 +1107,7 @@ span.speciconn img {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
 
 .ourworkmimg {
@@ -1149,6 +1155,7 @@ span.speciconn img {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 
@@ -1644,6 +1651,15 @@ span.speciconn img {
         .ourteamslidchilbo {
             width: 31%;
         }
+        .surgerhead h2 {
+            font-size: 11px;
+        }
+        .testislid {
+            width: 100%;
+        }
+
+
+
   
   }
   

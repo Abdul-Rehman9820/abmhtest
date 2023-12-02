@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         crawl={true}
         showSpinner={false}
         easing="ease"
-        speed={200}
+        speed={100}
       />
 
       <Header />
