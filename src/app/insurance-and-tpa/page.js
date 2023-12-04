@@ -39,7 +39,7 @@ const Virtualtour = () => {
       {/* common heading banner end */}
 
       {/* Hospirtal testimonials  start*/}
-      <div className="parentcontainerwhi withtestBG">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="divinsoandtpa">
 
@@ -151,7 +151,7 @@ const Virtualtour = () => {
       </div>
 
 
-      <div className="parentcontainerwhi withtestBG">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="divinsoandtpa">
 
@@ -170,91 +170,91 @@ const Virtualtour = () => {
 
 
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Aditya Birla Memorial Hospital.jpg" alt="img" />
                     <span className="img-text">Aditya Birla Memorial Hospital</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Apollo munich.png" alt="img" />
                     <span className="img-text">Apollo Munich</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Bajaj Allianz.jpg" alt="img" />
                     <span className="img-text">Bajaj Allianz</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Bharati Axa General Insurance Company Ltd.jpg" alt="img" />
                     <span className="img-text">Bharati Axa General Insurance Company Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Cholamandalam.jpg" alt="img" />
                     <span className="img-text">Cholamandalam</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Future Generali India.jpg" alt="img" />
                     <span className="img-text">Future Generali India</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/HDFC ERGO.jpg" alt="img" />
                     <span className="img-text">HDFC ERGO</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/ICICI Lombard General Insurance Company Ltd.jpg" alt="img" />
                     <span className="img-text">ICICI Lombard General Insurance Company Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/ICICI Prodential.jpg" alt="img" />
                     <span className="img-text">ICICI Prodential</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/IFFCO Tokyo.jpg" alt="img" />
                     <span className="img-text">IFFCO Tokyo</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Liberty General Insurance Company Ltd (1).jpg" alt="img" />
                     <span className="img-text">Liberty General Insurance Company Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Magma HDI General Insurance Co Limited.jpg" alt="img" />
                     <span className="img-text">Magma HDI General Insurance Co Limited</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
-                    <span className="img-text">MAX BUPA General Insurance Company Ltd.</span>
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/MAX BUPA General Insurance Company Ltd..jpg" alt="img" />
+                    <span className="img-text">MAX BUPA General Insurance Company Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Reliance General Insurance Company Ltd.jpg" alt="img" />
                     <span className="img-text">Reliance General Insurance Company Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Religara Insurance Ltd.jpg" alt="img" />
                     <span className="img-text">Religara Insurance Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Royal Sundaram.jpg" alt="img" />
                     <span className="img-text">Royal Sundaram</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Universal Sompo.jpg" alt="img" />
                     <span className="img-text">Universal Sompo</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Edelweiss General Insurance Company Ltd.jpg" alt="img" />
                     <span className="img-text">Edelweiss General Insurance Company Ltd</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/National Insurance Company.jpg" alt="img" />
                     <span className="img-text">National Insurance Company</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/Oriental Insurance Company.jpg" alt="img" />
                     <span className="img-text">Oriental Insurance Company</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/New India Insurance Company.jpg" alt="img" />
                     <span className="img-text">New India Insurance Company</span>
                   </div>
                   <div className=" card card-3">
-                    <Image width={400} height={400} className="img_size" src="/TPA_img/TPA-dummy.jpg" alt="img" />
+                    <Image width={400} height={400} className="img_size" src="/TPA_img/United India Insurance Company.jpg" alt="img" />
                     <span className="img-text">United India Insurance Company</span>
                   </div>
  

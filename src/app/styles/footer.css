@@ -95,10 +95,12 @@ img.fooimg {
     padding: 10px 0;
 }
 .copyrightmain {
-    display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .copyrightmaincol1 {
-    width: 70%;
+    width: 100%;
 }
 .copyrightmaincol2 {
     width: 30%;
@@ -124,6 +126,13 @@ img.fooimg {
 .exmarginlink {
     margin-top: 20px;
 }
+
+.poweredbyhref {
+  font-size: 14px;
+  color: white;
+}
+
+
 /* .linkfoolist.fomail a {
   font-size: 11px;
   font-weight: 700;
@@ -232,6 +241,11 @@ img.fooimg {
   padding: 25px 0 30px 0;
 }
 
+
+.poweredbyhref {
+  font-size: 7px;
+  color: #040404;
+}
 /* footer for mob*/
 
 

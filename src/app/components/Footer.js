@@ -69,6 +69,16 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div className="footersocialboximg">
+                      <Link href="https://www.linkedin.com/company/aditya-birla-memorial-hospital/">
+                        <Image width={400} height={400} src="/homeimg/footersoiconlinked.png" alt="img" />
+                      </Link>
+                    </div>
+                    <div className="footersocialboximg">
+                      <Link href="https://twitter.com/abmh_pune">
+                        <Image width={400} height={400} src="/homeimg/footersoicontwit.png" alt="img" />
+                      </Link>
+                    </div>
+                    <div className="footersocialboximg">
                       <Link href="https://www.youtube.com/channel/UCXVvGvIc-xT6B7q1KwOFQUw">
                         <Image width={400} height={400} src="/homeimg/footersoiconyout.png" alt="img" />
                       </Link>
@@ -199,7 +209,7 @@ const Footer = () => {
               <div className="copyrightmaincol1">
                 <h3>
                   COPYRIGHT © 2023 | ADITYA BIRLA HEALTH SERVICES LTD. | ALL RIGHTS
-                  RESERVED | DESIGNED &amp; POWERED BY MIND FRAME INDIA
+                  RESERVED | DESIGNED &amp; POWERED BY <a className='poweredbyhref' href="https://www.mindframeindia.com/" target="_blank">MIND FRAME INDIA</a>
                 </h3>
               </div>
               <div className="copyrightmaincol2">
@@ -241,6 +251,16 @@ const Footer = () => {
                     <div className="footersocialboximg">
                       <Link href="https://www.facebook.com/ABMHPune">
                         <Image width={400} height={400} src="/homeimg/footersoiconface.png" alt="img" />
+                      </Link>
+                    </div>
+                    <div className="footersocialboximg">
+                      <Link href="https://www.linkedin.com/company/aditya-birla-memorial-hospital/">
+                        <Image width={400} height={400} src="/homeimg/footersoiconlinked.png" alt="img" />
+                      </Link>
+                    </div>
+                    <div className="footersocialboximg">
+                      <Link href="https://twitter.com/abmh_pune">
+                        <Image width={400} height={400} src="/homeimg/footersoicontwit.png" alt="img" />
                       </Link>
                     </div>
                     <div className="footersocialboximg">
@@ -298,12 +318,8 @@ const Footer = () => {
                       <Link href="/">+91 98811 23006</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Image width={400} height={400}
-                        className="fooimg"
-                        src="/homeimg/fooiconmail.png"
-                        alt="img"
-                      />
-                      <Link href="/">doctorshealthcare@adityabirla.com</Link>
+                      <Image width={400} height={400}className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
+                       <Link href="/">doctorshealthcare@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
@@ -365,7 +381,7 @@ const Footer = () => {
               <div className="copyrightmaincol1">
                 <h3>
                   COPYRIGHT © 2023 | ADITYA BIRLA HEALTH SERVICES LTD. | ALL RIGHTS
-                  RESERVED | DESIGNED &amp; POWERED BY MIND FRAME INDIA
+                  RESERVED | DESIGNED &amp; POWERED BY <a className='poweredbyhref' href="https://www.mindframeindia.com/" target="_blank">MIND FRAME INDIA</a>
                 </h3>
               </div>
               <div className="copyrightmaincol2">

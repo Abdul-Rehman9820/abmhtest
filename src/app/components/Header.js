@@ -208,7 +208,8 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <Link href="/doctors">Book an Appointment</Link>
+                                                <Link href="/doctors">Find a Doctor</Link>
+                                                <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book an Appointment</Link>
                                                 <Link href="/wellness-packages">Wellness Packages</Link>
                                                 <Link href="">Diagnostic Services</Link>
                                                 <Link href="/insurance-and-tpa">Insurance & TPAs</Link>
@@ -422,7 +423,10 @@ const Header = () => {
                                     Patient Care <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
-                                            <Link className='closeham' href="/doctors">Book an Appointment</Link>
+                                            <Link className='closeham' href="/doctors">Find a Doctor</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book an Appointment</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/wellness-packages">Wellness Packages</Link>
