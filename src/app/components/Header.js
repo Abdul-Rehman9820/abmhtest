@@ -193,7 +193,6 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-
                                                 <Link href="/specialties">Specialties</Link>
                                                 <Link href="/wellness-packages#homecare-solutions">Home Care Services</Link>
                                             </div>
@@ -339,28 +338,48 @@ const Header = () => {
                                             <Link className='closeham' href="/about-us">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/quality-policy-and-ethics-committee">Quality Policy & Ethics Committee</Link>
+                                            <Link className='closeham' href="/about-us#vision-mission">Vision & Mission</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/about-us#award-achievement">Award & Achievement</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/quality-policy-and-ethics-committee#ethics-committee">Ethics Committee</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/about-csr">CSR Initiatives</Link>
                                         </li>
+                                   
                                     </ul>
                                 </li>
                                 <li className=" has-children">
                                     Patient Care <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
-                                            <Link className='closeham' href="/virtual-tour">Virtual Tour</Link>
+                                            <Link className='closeham' href="/doctors">Book an Appointment</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/wellness-packages">Wellness Packages</Link>
                                         </li>
                                         <li>
+                                            <Link className='closeham' href="">Diagnostic Services</Link>
+                                        </li>
+                                        <li>
                                             <Link className='closeham' href="/insurance-and-tpa">Insurance & TPAs</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="https://portal.abmhslp.com/rhis/patient/login.jsf">View Reports</Link>
+                                        </li>
+                                        <li>
+                                            <Link className='closeham' href="/virtual-tour">Hospital Tour Guide</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
                                         </li>
+                              
                                     </ul>
                                 </li>
                                 <li className=" has-children">
@@ -368,10 +387,10 @@ const Header = () => {
                                     <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
-                                            <Link className='closeham' href="/doctors">Doctors </Link>
+                                            <Link className='closeham' href="/specialties">Specialties</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/specialties">Specialties</Link>
+                                            <Link className='closeham' href="/wellness-packages#homecare-solutions">Home Care Services</Link>
                                         </li>
                                     </ul>
                                 </li>
