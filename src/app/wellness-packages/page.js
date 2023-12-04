@@ -78,7 +78,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="#">
+                    <a href="">
                       BUY NOW FOR ₹ 10200
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -116,7 +116,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="#">
+                    <a href="">
                       BUY NOW FOR ₹ 10000
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -154,7 +154,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="#">
+                    <a href="">
                       BUY NOW FOR ₹ 9500
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -192,7 +192,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="#">
+                    <a href="">
                       BUY NOW FOR ₹ 6600
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -230,7 +230,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="#">
+                    <a href="">
                       BUY NOW FOR ₹ 4000
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -268,7 +268,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="#">
+                    <a href="">
                       BUY NOW FOR ₹ 10200
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -286,7 +286,7 @@ const WellnessPack = () => {
       </div>
       {/* Wellbeing Packages  end*/}
       {/* HomeCareSolutions  start*/}
-      <div className="parentcontainerwhi HomeCareSolutionsBG ">
+      <div className="parentcontainerwhi HomeCareSolutionsBG" id='homecare-solutions'>
         <div className="customcontainer">
           <div className="HomeCareSolutionsmain">
             <div className="HomeCareSolutionspart">
@@ -320,7 +320,7 @@ const WellnessPack = () => {
                   <Image width={400} height={400} src="/wellnesspageimg/wellhomecare.jpg" alt="img" />
                   <div className="homwcarechoimgbox2">
                     <button className="homwcarechocombtn">
-                      <a href="#">
+                      <a href="">
                         HOME SAMPLE COLLECTION
                         <span className="homwcarespecicon">
                           <Image width={400} height={400}
@@ -338,7 +338,7 @@ const WellnessPack = () => {
                       <Image width={400} height={400} src="/wellnesspageimg/NURSINGCARE.png" alt="img" />
                       <div className="homwcarechoimgbox2">
                         <button className="homwcarechocombtn">
-                          <a href="#">
+                          <a href="">
                             NURSING CARE
                             <span className="homwcarespecicon">
                               <Image width={400} height={400}
@@ -359,7 +359,7 @@ const WellnessPack = () => {
                       />
                       <div className="homwcarechoimgbox2">
                         <button className="homwcarechocombtn">
-                          <a href="#">
+                          <a href="">
                             PHYSIOTHERAPY
                             <span className="homwcarespecicon">
                               <Image width={400} height={400}
@@ -404,7 +404,7 @@ const WellnessPack = () => {
                         data-bs-target="#collapse1"
                         aria-expanded="true"
                       >
-                        What is TPA?
+                        What is included in your wellness packages?
                       </button>
                     </h2>
                     <div
@@ -415,9 +415,7 @@ const WellnessPack = () => {
                       <div className="accordion-body">
                         <div className="faqdata">
                           <p>
-                            The Third Party Administrator is a service through which a policy
-                            holder can seek cashless facility from Aditya Birla Memorial
-                            Hospital.
+                          Our wellness packages are carefully curated to include a combination of services and resources tailored to enhance your well-being. 
                           </p>
                         </div>
                       </div>
@@ -432,7 +430,7 @@ const WellnessPack = () => {
                         data-bs-target="#collapse2"
                         aria-expanded="false"
                       >
-                        What are the documents required for the cashless process?
+                        How do I choose the right wellness package for me?
                       </button>
                     </h2>
                     <div
@@ -443,13 +441,92 @@ const WellnessPack = () => {
                       <div className="accordion-body">
                         <div className="faqdata">
                           <p>
-                            Please get the photocopies of the following documents for your
-                            convenience:
+                          To help you choose the most suitable package, consider your specific wellness goals, preferences, and any health considerations. 
+                          Our Experts can also guide you in selecting the package that aligns with your needs.
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse3"
+                        aria-expanded="false"
+                      >
+                        Are your wellness packages customizable?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse3"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <div className="faqdata">
+                          <p>
+                            Yes, many of our packages are customizable to accommodate individual preferences and needs.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse4"
+                        aria-expanded="false"
+                      >
+                       Are there any hidden fees associated with the wellness packages?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <div className="faqdata">
+                          <p>
+                             No, we are committed to transparency. All fees associated with our wellness packages are clearly outlined during the purchase process. There are no hidden fees.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse5"
+                        aria-expanded="false"
+                      >
+                        How do I book the services included in my wellness package?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <div className="faqdata">
+                          <p>
+                             Booking details are provided upon purchase. Typically, you can schedule services through our website or call our customer care on 98811 23006.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
 
                 </div>
               </div>

@@ -19,7 +19,7 @@ const Qualityandethics = () => {
     <>
     <title>Quality Policy & Ethics Committee</title>
       {/* common heading div start*/}
-      <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi" id="quality-policy">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
@@ -104,7 +104,7 @@ const Qualityandethics = () => {
                 </div>
               </div>
             </div>
-            <div className="qualitypoldata2">
+            <div className="qualitypoldata2"  id="ethics-committee">
               <Image width={400} height={400}
                 src="/commonimages/doctors-taking-care-patient.png"
                 className="qulitimg"

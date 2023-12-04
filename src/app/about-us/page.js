@@ -191,7 +191,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi" id="vision-mission">
         <div className="customcontainer">
           <div className="visionmissparn">
             <div className="visionmiss">
@@ -358,7 +358,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <div className="parentcontainerwhi bodofdirredbg">
+      <div className="parentcontainerwhi bodofdirredbg" id="award-achievement">
         <div className="customcontainer">
           <div className="BoardofDirectors">
             <div className="Specialtiespartbof">

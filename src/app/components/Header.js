@@ -165,7 +165,10 @@ const Header = () => {
                                             </button>
                                             <div className="dropdown-contentmy">
                                                 <Link href="/about-us">About Us</Link>
-                                                <Link href="/quality-policy-and-ethics-committee">Quality Policy & Ethics Committee</Link>
+                                                <Link href="/about-us#vision-mission">Vision & Mission</Link>
+                                                <Link href="/about-us#award-achievement">Award & Achievement</Link>
+                                                <Link href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>
+                                                <Link href="/quality-policy-and-ethics-committee#ethics-committee">Ethics Committee</Link>
                                                 <Link href="/about-csr">CSR Initiatives</Link>
                                             </div>
                                         </div>
@@ -175,9 +178,12 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <Link href="/virtual-tour">Virtual Tour</Link>
+                                                <Link href="/doctors">Book an Appointment</Link>
                                                 <Link href="/wellness-packages">Wellness Packages</Link>
+                                                <Link href="">Diagnostic Services</Link>
                                                 <Link href="/insurance-and-tpa">Insurance & TPAs</Link>
+                                                <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">View Reports</Link>
+                                                <Link href="/virtual-tour">Hospital Tour Guide</Link>
                                                 <Link href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
                                             </div>
                                         </div>
@@ -187,8 +193,9 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <Link href="/doctors">Doctors </Link>
+
                                                 <Link href="/specialties">Specialties</Link>
+                                                <Link href="/wellness-packages#homecare-solutions">Home Care Services</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy">
@@ -199,7 +206,7 @@ const Header = () => {
                                             <div className="dropdown-contentmy">
                                                <Link href="/programs">Programs</Link>
                                                <Link href="/internship-observer-ship">Internship & Observership</Link>
-                                               <Link href="/hospital-visit">Hospital Visit</Link>                                                
+                                               <Link href="/hospital-visit">Hospital Visit</Link>                                                                                          
                                             </div>
                                             
                                         </div>
