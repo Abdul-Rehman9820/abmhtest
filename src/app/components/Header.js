@@ -17,7 +17,34 @@ import '../styles/header.css'
 const Header = () => {
 
 
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+
     useEffect(() => {
+
+
+
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
+            const animatedNav = document.getElementById("animatednav");
+            const animatedHavburg = document.getElementById("animatedhavburg");
+        
+            if (currentScrollPos > 0) {
+                // If scroll position is greater than 0, hide the elements
+                animatedNav.style.display = "none";
+                animatedHavburg.style.display = "block";
+            } else {
+   
+                animatedNav.style.display = "block";
+                animatedHavburg.style.display = "none";
+                
+            }
+        
+            setPrevScrollPos(currentScrollPos);
+        };
+        
+        window.addEventListener('scroll', handleScroll);
+
 
 
         $(document).ready(function () {
@@ -75,7 +102,10 @@ const Header = () => {
         });
 
 
-
+        // Cleanup the event listener when the component is unmounted
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
 
 
 
@@ -108,10 +138,10 @@ const Header = () => {
                 href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200&display=swap"
                 rel="stylesheet"
             />
-            
+
             {/* font awesome CSS */}
 
-            <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
 
@@ -121,7 +151,7 @@ const Header = () => {
             <header>
                 {/* header deckstop start*/}
                 <div className="parentcontainerwhi header deckstophead">
-                    <div className="customcontainer">
+                    <div className="customcontainer"  id='animatednav'>
                         {/* mainstart */}
                         <div className="headermain">
                             <div className="headerlogocont">
@@ -203,11 +233,11 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                               <Link href="/programs">Programs</Link>
-                                               <Link href="/internship-observer-ship">Internship & Observership</Link>
-                                               <Link href="/hospital-visit">Hospital Visit</Link>                                                                                          
+                                                <Link href="/programs">Programs</Link>
+                                                <Link href="/internship-observer-ship">Internship & Observership</Link>
+                                                <Link href="/hospital-visit">Hospital Visit</Link>
                                             </div>
-                                            
+
                                         </div>
                                     </div>
 
@@ -246,6 +276,39 @@ const Header = () => {
                         {/* mainclose */}
                     </div>
                 </div>
+
+
+                <div className="parentcontainerwhi animatscrolham deckstophead"  id='animatedhavburg'>
+                    <div className="customcontainer">
+                        {/* mainstart */}
+                        <div className="headermain">
+
+                            <div className="headerNavbarcont">
+                                <div className="headerNavbarcontright">
+
+                                </div>
+                                <div className="headerNavbarcontleft">
+
+                                    <div className="Navbarcontleftbox">
+
+                                    </div>
+                                    <div className="Navbarcontleftbox">
+                                        <div className="Navbarcontleftboximg">
+                                            <div className="hamburgerbG  scrollanimatedham">
+                                                <div className="hamburger-menu">
+                                                    <div className="bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        {/* mainclose */}
+                    </div>
+                </div>
+
                 {/* header deckstop end*/}
                 {/* header mobile end*/}
                 <div className="parentcontainerwhi header mobilehead">
@@ -263,13 +326,13 @@ const Header = () => {
                                 <div className="mobileheaderlogoBtnpart">
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
-                                        
-                                                <Image width={1000} height={1000}
-                                                    className="showsearchbox"
-                                                    src="/homeimg/abmhserchicon.png"
-                                                    alt="img"
-                                                />
-                                          
+
+                                            <Image width={1000} height={1000}
+                                                className="showsearchbox"
+                                                src="/homeimg/abmhserchicon.png"
+                                                alt="img"
+                                            />
+
                                         </div>
                                     </div>
                                     <div className="Navbarcontleftbox">
@@ -352,7 +415,7 @@ const Header = () => {
                                         <li>
                                             <Link className='closeham' href="/about-csr">CSR Initiatives</Link>
                                         </li>
-                                   
+
                                     </ul>
                                 </li>
                                 <li className=" has-children">
@@ -379,11 +442,11 @@ const Header = () => {
                                         <li>
                                             <Link className='closeham' href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
                                         </li>
-                              
+
                                     </ul>
                                 </li>
                                 <li className=" has-children">
-                                     Services
+                                    Services
                                     <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
@@ -407,10 +470,10 @@ const Header = () => {
                                         <li>
                                             <Link className='closeham' href="/hospital-visit">Hospital Visit</Link>
                                         </li>
-                                  
+
                                     </ul>
                                 </li>
-                        
+
                                 <li className="commhamstyle">
                                     <Link className='closeham' href="/work-with-us">Work with Us </Link>
                                 </li>

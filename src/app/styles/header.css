@@ -98,12 +98,21 @@ span.BookApimg {
 }
 
 .parentcontainerwhi.header.deckstophead {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.parentcontainerwhi.animatscrolham {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 5;
+  display: none;
 }
 
+/* #animatednav{
+  transition: all 0.5s ease;
+} */
 
 
 /* hamburger  start*/
@@ -369,6 +378,13 @@ span.BookApimg {
   cursor: pointer;
 }
 
+.scrollanimatedham {
+  padding: 18px;
+  border: 2px solid #a71d1be0;
+  box-shadow: 0pt 1pt 9pt rgb(243 185 185);
+}
+
+
 /* hamburger  end*/
 
 /* search box  start*/
@@ -542,6 +558,12 @@ button.dropbtnmy .fa {
 }
 .dropdown-contentmy a {
   font-size: 14px;
+}
+
+
+
+.animathamburger-menu {
+  display: none;
 }
 
 
