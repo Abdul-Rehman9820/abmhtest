@@ -90,9 +90,9 @@
     display: block;
     text-align: center;
 }
-ul#pills-tab {
+/* ul#pills-tab {
     margin-bottom: 20px;
-}
+} */
 
 /* bootstrap ----------*/
 .mynewtab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -106,7 +106,7 @@ ul#pills-tab {
     color: #aba4a4;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 18px;
+    border-radius: 10px;
     margin-right: 10px;
 }
 .dbdata {
@@ -189,8 +189,42 @@ span.roundred {
     font-size: 18px;
   }
   
-
+  .mynewtab {
+    height: 100%;
+}
   
+    ul#pills-tab {
+        height: 9%;
+    }
+
+    .tab-content {
+        height: 91%;
+    }
+    .tab-pane {
+        height: 100%;
+        position: relative;
+    }
+    .dbdata {
+        height: 100%;
+        width: 100%;
+        overflow-y: scroll;
+        position: absolute;
+    }
+
+    .dbdata::-webkit-scrollbar {
+        width: 5px;
+        background-color: #F5F5F5;
+    }
+    .dbdata::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #A21B18;
+    }
+    .dbdata::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
 
 
 /*! viewprofile page  end*/
@@ -222,7 +256,7 @@ span.roundred {
     font-size: 16px;
 }
 .profileimg img {
-    height: 230px;
+    height: 350px;
 }
 .mynewtab .nav-pills .nav-link {
     font-size: 12px;
@@ -312,9 +346,16 @@ li.nav-item {
 
 .dbdata {
     padding: 10px;
+    position: unset;
 }
 
-
+.tab-pane {
+    position: unset;
+}
+ul#pills-tab {
+    height: unset;
+    margin-bottom: 10px;
+}
 /*! viewprofile end*/
 
 }
