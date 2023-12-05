@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   // title: 'Create Next App',
-  description: 'Hospital in Chinchwad Pune | Best Multispeciality Hospital - Aditya Birla. Leading Health Centre for maternity, neurology, Knee-replace',
+  // description: 'Hospital in Chinchwad Pune | Best Multispeciality Hospital - Aditya Birla. Leading Health Centre for maternity, neurology, Knee-replace',
 }
 
 export default function RootLayout({ children }) {

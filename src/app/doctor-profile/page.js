@@ -135,7 +135,7 @@ const Doctorprofile = () => {
                           <div className="profileimg">
                             <Image width={400} height={400}
                               src={`/DoctorsProfileimages/${item.DoctorProfileImage}`}
-                              alt="img"
+                              alt={"Dr "+ item.DoctorFName +""+ item.DoctorLName}
                             />
                           </div>
                           <div className="profilename">

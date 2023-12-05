@@ -68,6 +68,7 @@ export default function Home() {
 
 
       <title>Hospital in Chinchwad Pune | Aditya Birla Best Multispeciality Hospital</title>
+      <meta name="description" content="Hospital in Chinchwad Pune | Best Multispeciality Hospital - Aditya Birla. Leading Health Centre for maternity, neurology, Knee-replace" />
 
       {/* slider*/}
       <div className="mainslider">
