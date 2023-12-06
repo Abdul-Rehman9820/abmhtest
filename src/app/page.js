@@ -128,7 +128,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W1.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner1-mob.png" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M1.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -137,7 +137,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W2.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner2-mob.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M2.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -146,7 +146,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W3.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner3-mob.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M3.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W4.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M4.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W5.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M5.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -173,7 +173,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W6.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M6.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>
@@ -182,7 +182,7 @@ export default function Home() {
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W7.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/Mobile-banner4-mob.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M7.jpg" alt='slide' />
                     <h2 className="forSEOslide">hellow world</h2>
                   </Link>
                 </div>

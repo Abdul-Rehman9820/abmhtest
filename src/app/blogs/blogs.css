@@ -146,6 +146,10 @@ span.read_more a {
     .content h2 {
         font-size: 20px;
     }
+    .Pg_title {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
 
 
 }

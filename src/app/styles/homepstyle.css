@@ -1669,7 +1669,15 @@ span.speciconn img {
         .ourworkmimg img {
             border-radius: 0px;
         }
-
+        .newnexthomeslide .carousel-control-next-icon img {
+            display: none;
+        }
+        .newnexthomeslide .carousel-control-prev-icon img {
+            display: none;
+        }
+        .newnexthomeslide .carousel-indicators [data-bs-target] {
+            width: 7px;
+        }
   
   }
   

@@ -95,11 +95,6 @@ const Blogs = () => {
             </div>
 
 
-
-
-
-
-
             {
 
 
@@ -135,9 +130,9 @@ const Blogs = () => {
                         </div>
                         <div className="btm_txt">
                           <span className="read_more">
-                            <a href="">
+                            <Link href={`/blogs/${item.blogslug}`}>
                               Read More <i className="fa-solid fa-arrow-right-long" />
-                            </a>
+                            </Link>
                           </span>
                         </div>
                       </div>
