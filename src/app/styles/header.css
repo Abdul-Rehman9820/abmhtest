@@ -227,7 +227,7 @@ span.BookApimg {
     background: #fffbed;
   }
   nav.mobile-menu ul {
-    background: #fffbed;
+    background: #ffe468;
   }
   .mobile-menu li a {
     text-decoration: none;
@@ -274,7 +274,7 @@ span.BookApimg {
     font-weight: 500;
 }
 .navbelow {
-  background: #A21B18;
+  background: #F37428;
   padding: 25px;
 }
 .feelhead {
@@ -373,7 +373,7 @@ span.BookApimg {
 }
 .closecont {
   text-align: end;
-  background: #fffbed;
+  background: #ffe468;
 }
 .showsearchbox {
   cursor: pointer;

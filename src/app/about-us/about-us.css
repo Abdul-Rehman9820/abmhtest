@@ -165,7 +165,7 @@ span.headbordervision {
 }
 
 .visionmiss {
-    background: #FFF9E0;
+    background: #ffe468;
     padding: 20px 40px;
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%);
 }
@@ -235,7 +235,7 @@ span.vismiheadimg {
 }
 
 .bodofdirredbg {
-    background-image: url("/aboutusimg/maroon-bg-forbod.png");
+    background-image: url("/aboutusimg/maroon-bg-forbod.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -263,7 +263,7 @@ span.vismiheadimg {
 
 .oursepperbof {
     font-size: 30px !important;
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: 500;
     font-family: 'Poppins';
 }
@@ -295,7 +295,7 @@ span.headborderbof {
 }
 .bodpar {
     font-size: 14px;
-    color: white;
+    color: black;
     font-weight: 400;
 }
 
@@ -359,7 +359,7 @@ span.headborderbof {
 }
 
 .bodofdirdatasliderpara p {
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 400;
     text-align: center;

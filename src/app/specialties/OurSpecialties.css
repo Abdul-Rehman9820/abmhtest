@@ -141,7 +141,7 @@
     color: #fffbed;
 }
 .backgColorYellow {
-    background: #fffbed;
+    background: #ffe468;
 }
 .backgColorGry {
     background: #e6e6e682;
@@ -209,7 +209,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: #fffbed;
+    background: #ffe468;
 }
 
 

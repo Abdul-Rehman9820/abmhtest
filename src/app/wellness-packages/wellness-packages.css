@@ -82,7 +82,7 @@ span.headborder {
 }
 
 .lableboxflex {
-    background: #FFF9E0;
+    background: #ffe468;
     padding: 0 12px 30px 12px;
     display: flex;
     border-radius: 8px;
@@ -190,7 +190,7 @@ span.labspecicon img {
 
 
 .HomeCareSolutionsBG {
-    background-image: url("/wellnesspageimg/maroon-bg-new.png");
+    background-image: url("/wellnesspageimg/maroon-bg-new.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -211,7 +211,7 @@ span.labspecicon img {
 
 .HomeCareSolutionspart h2 {
     font-size: 30px;
-    color: rgb(255 255 255);
+    color: black;
     font-weight: 500;
     margin: 0;
     font-family: 'Poppins';
@@ -237,7 +237,7 @@ span.labspecicon img {
     width: 50%;
 }
 .homwcareparadata {
-    color: white;
+    color: black;
     font-size: 17px;
     font-weight: 300;
 }

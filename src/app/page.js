@@ -815,7 +815,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.jpg" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
                               <div className="imgcerl1" id="showPopup1"> <Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
@@ -843,7 +843,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.jpg" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
                               <div className="imgcerl2" id="showPopup2"><Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>

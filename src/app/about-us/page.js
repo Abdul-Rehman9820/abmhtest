@@ -74,7 +74,7 @@ const Aboutus = () => {
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <div className="aboutslidercontloop bgslideRed">
+                    <div className="aboutslidercontloop bgslideOrange">
                       <div className="aboutslidercontloop1">
                         <div className="abouttopslidehead">
                           <h2>About shri late Aditya Vikram Birla</h2>
@@ -104,7 +104,7 @@ const Aboutus = () => {
                     </div>
                   </div>
                   <div className="carousel-item ">
-                    <div className="aboutslidercontloop bgslideOrange">
+                    <div className="aboutslidercontloop bgslideRed">
                       <div className="aboutslidercontloop1">
                         <div className="abouttopslidehead">
                           <h2>About shri late Aditya Vikram Birla</h2>
