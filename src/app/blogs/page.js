@@ -23,6 +23,9 @@ const Blogs = () => {
   useEffect(() => {
 
 
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
+
     // api for blogs
 
     async function fetchData() {

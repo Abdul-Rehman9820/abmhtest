@@ -44,6 +44,9 @@ const Doctorprofile = () => {
   useEffect(() => {
 
 
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
+
     // api for profile
 
     async function fetchData() {

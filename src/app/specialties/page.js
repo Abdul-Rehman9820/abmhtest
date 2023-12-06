@@ -53,6 +53,9 @@ const Specialties = () => {
 
   useEffect(() => {
 
+
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 

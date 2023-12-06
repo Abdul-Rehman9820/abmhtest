@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -12,7 +12,12 @@ import './abmh-international.css'
 
 const Abmhinterna = () => {
 
+  useEffect(() => {
 
+    
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
+  }, []);
   
 
 

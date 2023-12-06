@@ -15,6 +15,8 @@ const Abmhnews = () => {
 
   useEffect(() => {
 
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
 
     // Get the modal
     var modal = document.getElementById("myModal");
