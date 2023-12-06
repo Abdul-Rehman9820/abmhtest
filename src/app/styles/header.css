@@ -88,7 +88,9 @@ span.BookApimg {
     z-index: 5;
     position: relative;
     background: #ffe468;
-
+}
+.logoimg img {
+  width: 440px;
 }
 .naviconrigboximg {
     margin-top: -7px;

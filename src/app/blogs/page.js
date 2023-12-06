@@ -135,7 +135,7 @@ const Blogs = () => {
                         </div>
                         <div className="btm_txt">
                           <span className="read_more">
-                            <a href="#">
+                            <a href="">
                               Read More <i className="fa-solid fa-arrow-right-long" />
                             </a>
                           </span>

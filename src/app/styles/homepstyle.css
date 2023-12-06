@@ -46,6 +46,7 @@
 }
 .mynewslides img {
     width: 100%;
+    border-bottom: 1px solid #ffe367;
 }
 .newnexthomeslide .carousel-control-next {
     right: 0;
