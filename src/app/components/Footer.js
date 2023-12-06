@@ -349,7 +349,7 @@ const Footer = () => {
                   <h2>Emergency Service</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/serchher">+91 9881165006 </Link>
+                      <Link href="">+91-20-3071 7500-3</Link>
                     </div>
                   </div>
                 </div>
@@ -357,7 +357,7 @@ const Footer = () => {
                   <h2>Ambulance Service</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/serchher">+91 9881165006 </Link>
+                      <Link href="">+91-20-40707777/30717777</Link>
                     </div>
                   </div>
                 </div>
@@ -365,7 +365,7 @@ const Footer = () => {
                   <h2>ABMH Assist</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/serchher">+91 9881165006 </Link>
+                      <Link href="">+91 98811 23006</Link>
                     </div>
                   </div>
                 </div>

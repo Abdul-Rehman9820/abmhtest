@@ -2,7 +2,7 @@
   /* footer  start*/
   
   .parentcontainerwhi.footer {
-    background: #fff9e0;
+    background: #ffe468;
     padding: 30px 0 10px 0;
     border-top: 1px solid red;
 }
@@ -91,7 +91,7 @@ img.fooimg {
     border-radius: 50%;
 }
 .parentcontainerwhi.copyright {
-    background: #a21b18;
+    background: #F37428;
     padding: 10px 0;
 }
 .copyrightmain {
@@ -216,7 +216,7 @@ img.fooimg {
 }
 .parentcontainerwhi.footer.footerbelow {
   padding: 10px 0px;
-  background-color: #A21B18;
+  background-color: #F37428;
 }
 
 .footerbelow .linkbox h2 {
@@ -227,7 +227,7 @@ img.fooimg {
   color: #ffffff;
 }
 .parentcontainerwhi.copyright {
-  background: #fff9e0;
+  background: #ffe468;
 }
 .copyrightmaincol1 h3 {
   font-size: 7px;
@@ -260,7 +260,9 @@ img.fooimg {
 
 @media only screen and (max-width: 340px) {
 
-
+  .linkfoolist a {
+    font-size: 7px;
+  }
 
 
 }

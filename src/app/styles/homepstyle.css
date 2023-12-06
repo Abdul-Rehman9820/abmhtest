@@ -78,8 +78,9 @@
       align-items: center;
       flex-direction: column;
       padding: 15px 40px;
-      box-shadow: 0pt 1pt 19pt rgb(0 0 0 / 18%);
+      box-shadow: 0pt 1pt 19pt rgb(0 0 0 / 9%);
       border-radius: 20px;
+      background-color: #ffe468;
   }
 
   .appobtnchil:hover .appmainHea p {
@@ -253,6 +254,7 @@
       color: rgb(255, 255, 255);
       font-weight: 500;
       margin: 0;
+      color: #000000;
       font-family: 'Poppins';
   }	
   .Specialtieshead {
@@ -617,7 +619,7 @@
   }
   
   .testislid {
-      background: #FFFBED;
+      background: #ffe468;
       border-radius: 20px;
       width: 95%;
       margin: auto;
@@ -976,7 +978,7 @@
     border-radius: 30px;
     padding: 23px 30px;
     position: relative;
-    background: #8c100e;
+    background: #ffdc60;
     background-image: url("/homeimg/WhyUs-BGNew.png");
 }
 .whychobox1n {
@@ -1002,14 +1004,14 @@
 }
 .whychonamen h2 {
     font-size: 20px;
-    color: #ffffff;
+    color: #a21b18;
     text-align: center;
 }
 .whychospecn h2 {
     font-size: 14px;
     line-height: 1.5;
-    color: white;
-    font-weight: 300;
+    color: black;
+    font-weight: 500;
     text-align: center;
     margin-top: 14px;
     width: 330px;
@@ -1292,7 +1294,7 @@ span.speciconn img {
       .OurSpecialties h2 {
           font-size: 12px;
           margin-top: 6px;
-          color: white;
+          color: black;
       }
       .speforcolchil {
           margin-top: 0px;
