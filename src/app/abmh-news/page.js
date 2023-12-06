@@ -99,7 +99,7 @@ const Abmhnews = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-
+          <Image width={2000} height={400} src="/commonimages/commabmhnewba.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}

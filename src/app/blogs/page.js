@@ -77,9 +77,10 @@ const Blogs = () => {
           </div>
         </div>
         {/* title img */}
-        <div className="mainbanner">
-          <img className="banner" src="blogsimg/abmh_inner-page_banner.jpg" />
-          {/* <img class="slide mobilehead" src="../homeimg/Mobile-banner1-mob.png"> */}
+        <div className="mainheadingbanner">
+          <div className="mainheadingbandiv">
+            <Image width={2000} height={400} src="/commonimages/commabmhblosgban.jpg" alt="icon" />
+          </div>
         </div>
         {/* title img */}
         <div className="customcontainer">

@@ -105,7 +105,7 @@ const Virtualtour = () => {
           <div className="commonheadcontainer">
             <div className="breadcrumbs">
               <div className="breadcrumbsdata">
-                Home / Patient Care / <span className="breadcrumbsactive">Virtual Tour</span>
+                Patient Care / <span className="breadcrumbsactive">Virtual Tour</span>
               </div>
             </div>
           </div>

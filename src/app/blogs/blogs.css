@@ -2,6 +2,16 @@
 
 /* main CSS*/
 
+
+.mainheadingbandiv {
+    height: auto;
+    background: #F7D651;
+}
+.mainheadingbandiv img {
+        width: 100%;
+ }
+
+
 .page_header {
     margin-top: 30px;
 }
@@ -70,7 +80,7 @@ span.headborder {
 .main_img img {
     border-radius: 10px;
     width: 400px;
-    height: 270px;
+    height: 250px;
     object-fit: contain;
 }
 

@@ -22,7 +22,7 @@ const Virtualtour = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Patient Care / <span className="breadcrumbsactive">Insurance & TPAs</span>
+                  Patient Care / <span className="breadcrumbsactive">Insurance & TPAs</span>
                 </div>
               </div>
             </div>

@@ -25,7 +25,7 @@ const Interobserv = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Academics /{" "}
+                  Academics /
                   <span className="breadcrumbsactive">
                     Internship &amp; Observership
                   </span>
@@ -48,10 +48,10 @@ const Interobserv = () => {
             <div className="inttpa_sec">
               <div className="inttpa_sec_para">
                 <div className="interspar">
-                  <b>Internship / Observership timings:</b> 9:00 am to 5:30 pm{" "}
+                  <b>Internship / Observership timings:</b> 9:00 am to 5:30 pm
                 </div>
                 <div className="interspar">
-                  <b>Weekly off-</b> Sundays{" "}
+                  <b>Weekly off-</b> Sundays
                 </div>
                 <div className="interspar">
                   <b>Benefit-</b> Certificate of Internship / Observership from ABMH
@@ -60,7 +60,7 @@ const Interobserv = () => {
                   <b>Email:</b> manager.academics@adityabirlahospital.com
                 </div>
                 <div className="interspar">
-                  <b>Contact:</b> 02030717816 &amp; 9011081036{" "}
+                  <b>Contact:</b> 02030717816 &amp; 9011081036
                 </div>
               </div>
             </div>

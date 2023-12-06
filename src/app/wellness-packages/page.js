@@ -25,7 +25,7 @@ const WellnessPack = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Patient Care /{" "}
+                  Patient Care /{" "}
                   <span className="breadcrumbsactive">Wellness Packages</span>
                 </div>
               </div>

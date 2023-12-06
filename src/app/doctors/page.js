@@ -276,7 +276,7 @@ const Doctors = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / <span className="breadcrumbsactive">Our Doctors</span>
+                   Patient Care / <span className="breadcrumbsactive">Our Doctors</span>
                 </div>
               </div>
             </div>
