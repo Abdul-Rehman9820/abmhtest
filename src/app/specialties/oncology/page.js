@@ -9,7 +9,7 @@ import '../specialityviewpagecommon.css'
 
 
 
-const Urology = () => {
+const Andrologyandsexualmedicine = () => {
 
 
   // store data here
@@ -32,7 +32,7 @@ const Urology = () => {
         const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/profilebyspecilitypage`, {
           method: "POST",
           body: JSON.stringify({
-            usersearch: "8",
+            usersearch: "80",
           }),
         });
 
@@ -78,7 +78,7 @@ const Urology = () => {
 
 
     <>
-      <title>AAA</title>
+      <title>Oncology</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -87,7 +87,7 @@ const Urology = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">AAA</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Oncology</span>
                 </div>
               </div>
             </div>
@@ -243,4 +243,4 @@ const Urology = () => {
 
 
 
-export default Urology;
+export default Andrologyandsexualmedicine;
