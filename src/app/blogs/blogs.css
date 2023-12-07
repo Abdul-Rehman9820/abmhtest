@@ -78,10 +78,10 @@ span.headborder {
 
 
 .main_img img {
-    border-radius: 10px;
     width: 400px;
-    height: 250px;
+    height: 237px;
     object-fit: contain;
+    border: 1px solid #0000000d;
 }
 
 

@@ -10,7 +10,7 @@ export async function POST(req, res) {
     try {
       const connection = await createMySQLConnection();
   
-      const query = 'SELECT * FROM blog WHERE isactive = 1 ORDER BY id ASC';
+      const query = 'SELECT * FROM blog WHERE isactive = 1 ORDER BY id DESC';
   
       // Wrap the query logic in a Promise
       const executeQuery = () => {
