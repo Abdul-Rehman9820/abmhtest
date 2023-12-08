@@ -18,7 +18,7 @@ export default function Home() {
 
   useEffect(() => {
 
-    
+
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
 
@@ -67,8 +67,8 @@ export default function Home() {
     <>
 
 
-      <title>Hospital in Chinchwad Pune | Aditya Birla Best Multispeciality Hospital</title>
-      <meta name="description" content="Hospital in Chinchwad Pune | Best Multispeciality Hospital - Aditya Birla. Leading Health Centre for maternity, neurology, Knee-replace" />
+      <title>Aditya Birla Hospital in Pune | Best Healthcare Services | Top Hospital in Pune</title>
+      <meta name="description" content="Experience exceptional healthcare at Aditya Birla Hospital, Pune - a leading healthcare facility offering top-notch medical services. Discover why we're the best hospital in Pune." />
 
       {/* slider*/}
       <div className="mainslider">
@@ -222,6 +222,20 @@ export default function Home() {
       <div className="parentcontainerwhi animatigm">
         <div className="customcontainer">
           {/* mainstart */}
+
+          <div className='homediv'>
+
+            <div class="homeh1part">
+              <div class="homeh1head">
+                <h1 className='homeh1'>Book Your Appointment Online at Aditya Birla Hospital, Pune</h1>
+                <span class="headborder"></span>
+              </div>
+            </div>
+
+
+          </div>
+
+
           <div className="appobarflexbox">
             <div className="appobarflexboxcol2">
               <div className="appobtnpar">
@@ -255,7 +269,7 @@ export default function Home() {
                 </div>
 
                 <div className="appobtnchil fournone">
-                  <Link href="/">
+                  <Link href="/diagnostic-services">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
                         <Image width={400} height={400} src="/homeimg/dignosticlab.png" alt="img" />
@@ -446,8 +460,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-     
-            
+
+
             </div>
             <div className="combtndiv">
               <button className="combtn">
@@ -818,9 +832,9 @@ export default function Home() {
                 <span className="headborder" />
               </div>
               <div className="surgerhead">
-                {/* <h3>1030+</h3> */}              
+                {/* <h3>1030+</h3> */}
                 <Link href="/virtual-tour#PatientsTestimonials">
-                <h2>View All</h2>
+                  <h2>View All</h2>
                 </Link>
 
               </div>

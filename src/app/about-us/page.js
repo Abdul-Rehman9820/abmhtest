@@ -17,7 +17,8 @@ const Aboutus = () => {
 
 
     <>
-      <title>About Us</title>
+      <title>About Aditya Birla Hospital in Pune | Exceptional Healthcare Services</title>
+      <meta name="description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
