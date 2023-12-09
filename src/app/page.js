@@ -256,7 +256,7 @@ export default function Home() {
 
 
                 <div className="appobtnchil">
-                  <Link href="/serchher">
+                  <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
                         <Image width={400} height={400} src="/homeimg/medical-app.png" alt="img" />

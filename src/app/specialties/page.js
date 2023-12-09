@@ -54,7 +54,7 @@ const Specialties = () => {
   useEffect(() => {
 
 
-    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+    // window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
@@ -101,30 +101,34 @@ const Specialties = () => {
           <div className="specialParentcont">
             <div className="tab">
 
-              <button className="tablinks orangecolor" id="defaultOpen" onClick={() => OpenCity(event, 'Paris')} >
-                Search Specialties
+              <button className="tablinks redcolor" id="defaultOpen" onClick={() => OpenCity(event, 'London')} >
+                 Center Of Excellence
               </button>
-              <button className="tablinks redcolor" onClick={() => OpenCity(event, 'London')} >
-                All Specialties
+              <button className="tablinks orangecolor" onClick={() => OpenCity(event, 'Paris')} >
+                 All Specialties
               </button>
+  
 
             </div>
             <div id="London" className="tabcontent">
               {/* static specialty*/}
               <div className="specialityStaticcont">
+
+
                 <div className="specialmaincont backgColorYellow">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleblack">Medical Specialties</h2>
+                      <h2 className="colorstyleblack">Cardiac Science</h2>
                     </div>
                     <div className="speboxloopcon">
+                    
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties/Cardiology">
+                            <Link href="/specialties/dummy">
                               <h2>Cardiology</h2>
                             </Link>
                           </div>
@@ -136,8 +140,8 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Cardiology</h2>
                             </Link>
                           </div>
                         </div>
@@ -148,41 +152,34 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Cardiovascular Thoracic Surgery</h2>
                             </Link>
                           </div>
                         </div>
                       </div>
-                      <div className="spaccont">
-                        <div className="speforwhitbgsp">
-                          <div className="spefColiconContsp">
-                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
-                          </div>
-                          <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
+
+                 
                     </div>
                   </div>
                 </div>
+
+
                 <div className="specialmaincont backgColorGry">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleRED">Surgical Specialties</h2>
+                      <h2 className="colorstyleRED">Neuroscience</h2>
                     </div>
                     <div className="speboxloopcon">
+
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Neurology</h2>
                             </Link>
                           </div>
                         </div>
@@ -193,8 +190,8 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Neuro Surgery</h2>
                             </Link>
                           </div>
                         </div>
@@ -205,41 +202,34 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Functional Neuro Surgeon</h2>
                             </Link>
                           </div>
                         </div>
                       </div>
-                      <div className="spaccont">
-                        <div className="speforwhitbgsp">
-                          <div className="spefColiconContsp">
-                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
-                          </div>
-                          <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
+                      
+          
                     </div>
                   </div>
                 </div>
+
+
                 <div className="specialmaincont backgColorRED">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleWHITE">Pediatric Specialties</h2>
+                      <h2 className="colorstyleWHITE">Robotic Surgery</h2>
                     </div>
                     <div className="speboxloopcon">
+
                       <div className="spaccont">
                         <div className="speforwhitbgsp">
                           <div className="spefColiconContsp">
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Gynecologic Oncology</h2>
                             </Link>
                           </div>
                         </div>
@@ -250,8 +240,8 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Oncology</h2>
                             </Link>
                           </div>
                         </div>
@@ -262,8 +252,8 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Uro Oncology</h2>
                             </Link>
                           </div>
                         </div>
@@ -274,15 +264,442 @@ const Specialties = () => {
                             <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
                           </div>
                           <div className="speforwhitbgCol1sp">
-                            <Link href="/specialties">
-                              <h2>Diabetology</h2>
+                            <Link href="/specialties/dummy">
+                              <h2>Gastrointestinal</h2>
                             </Link>
                           </div>
                         </div>
                       </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>General Surgery</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
                     </div>
                   </div>
                 </div>
+
+
+                <div className="specialmaincont backgColorYellow">
+                  <div className="specboxes">
+                    <div className="speboxhead">
+                      <h2 className="colorstyleblack">Organ Transplant Center</h2>
+                    </div>
+                    <div className="speboxloopcon">
+
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Kidney Transplant</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Kidney Transplant</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
+                    </div>
+                  </div>
+                </div>
+
+
+                {/* <div className="specialmaincont backgColorGry">
+                  <div className="specboxes">
+                    <div className="speboxhead">
+                      <h2 className="colorstyleblack">Organ Transplant Center</h2>
+                    </div>
+                    <div className="speboxloopcon">
+
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Kidney Transplant</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Kidney Transplant</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
+                    </div>
+                  </div>
+                </div> */}
+
+
+                <div className="specialmaincont backgColorRED">
+                  <div className="specboxes">
+                    <div className="speboxhead">
+                      <h2 className="colorstyleWHITE">Tissue Transplant</h2>
+                    </div>
+                    <div className="speboxloopcon">
+
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Cornea Transplant & Eye Bank</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Bone Marrow Transplant</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="specialmaincont backgColorYellow">
+                  <div className="specboxes">
+                    <div className="speboxhead">
+                      <h2 className="colorstyleblack">Orthopedic & Joint Replacement </h2>
+                    </div>
+                    <div className="speboxloopcon">
+
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Joint Replacement</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Orthopedic, Trauma & Paediatric Surgeon</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Conventional Orthopedic</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Foot & Ankle</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="specialmaincont backgColorGry">
+                  <div className="specboxes">
+                    <div className="speboxhead">
+                      <h2 className="colorstyleblack">Mother & Child</h2>
+                    </div>
+                    <div className="speboxloopcon">
+
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Obstetrics & Gynaecology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Foetal Medicine</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>IVF & Reproductive Medicine</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Genetics</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Lactation</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="specialmaincont backgColorRED">
+                  <div className="specboxes">
+                    <div className="speboxhead">
+                      <h2 className="colorstyleWHITE">Pediatric</h2>
+                    </div>
+                    <div className="speboxloopcon">
+
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Cardiology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Dentistry</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Endocrinology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Gastroenterology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Neurology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Orthopedics</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Pulmonology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Surgery</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Nephrology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Pediatric Intensivist</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="spaccont">
+                        <div className="speforwhitbgsp">
+                          <div className="spefColiconContsp">
+                            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          </div>
+                          <div className="speforwhitbgCol1sp">
+                            <Link href="/specialties/dummy">
+                              <h2>Neonatology</h2>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
               {/* static specialty*/}
             </div>

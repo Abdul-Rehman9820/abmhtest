@@ -211,7 +211,7 @@ const Header = () => {
                                                 <Link href="/doctors">Find a Doctor</Link>
                                                 <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book an Appointment</Link>
                                                 <Link href="/wellness-packages">Wellness Packages</Link>
-                                                <Link href="">Diagnostic Services</Link>
+                                                <Link href="/diagnostic-services">Diagnostic Services</Link>
                                                 <Link href="/insurance-and-tpa">Insurance & TPAs</Link>
                                                 <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">View Reports</Link>
                                                 <Link href="/virtual-tour">Hospital Tour Guide</Link>
@@ -432,7 +432,7 @@ const Header = () => {
                                             <Link className='closeham' href="/wellness-packages">Wellness Packages</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="">Diagnostic Services</Link>
+                                            <Link className='closeham' href="/diagnostic-services">Diagnostic Services</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/insurance-and-tpa">Insurance & TPAs</Link>
