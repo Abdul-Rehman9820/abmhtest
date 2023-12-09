@@ -118,7 +118,7 @@ const Specialties = () => {
                 <div className="specialmaincont backgColorYellow">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleblack">Cardiac Science</h2>
+                      <h2 className="colorstyleblack" id="Cardiac-Science">Cardiac Science</h2>
                     </div>
                     <div className="speboxloopcon">
                     
@@ -168,7 +168,7 @@ const Specialties = () => {
                 <div className="specialmaincont backgColorGry">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleRED">Neuroscience</h2>
+                      <h2 className="colorstyleRED" id="Neuroscience">Neuroscience</h2>
                     </div>
                     <div className="speboxloopcon">
 
@@ -218,7 +218,7 @@ const Specialties = () => {
                 <div className="specialmaincont backgColorRED">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleWHITE">Robotic Surgery</h2>
+                      <h2 className="colorstyleWHITE" id="Robotic-Surgery">Robotic Surgery</h2>
                     </div>
                     <div className="speboxloopcon">
 
@@ -292,7 +292,7 @@ const Specialties = () => {
                 <div className="specialmaincont backgColorYellow">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleblack">Organ Transplant Center</h2>
+                      <h2 className="colorstyleblack" id="Organ-Transplant-Center">Organ Transplant Center</h2>
                     </div>
                     <div className="speboxloopcon">
 
@@ -365,7 +365,7 @@ const Specialties = () => {
                 </div> */}
 
 
-                <div className="specialmaincont backgColorRED">
+                {/* <div className="specialmaincont backgColorRED">
                   <div className="specboxes">
                     <div className="speboxhead">
                       <h2 className="colorstyleWHITE">Tissue Transplant</h2>
@@ -400,13 +400,13 @@ const Specialties = () => {
                 
                     </div>
                   </div>
-                </div>
+                </div> */}
 
 
-                <div className="specialmaincont backgColorYellow">
+                <div className="specialmaincont backgColorGry">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleblack">Orthopedic & Joint Replacement </h2>
+                      <h2 className="colorstyleblack" id="Orthopedic-Joint-Replacement">Orthopedic & Joint Replacement</h2>
                     </div>
                     <div className="speboxloopcon">
 
@@ -465,10 +465,10 @@ const Specialties = () => {
                 </div>
 
 
-                <div className="specialmaincont backgColorGry">
+                <div className="specialmaincont backgColorYellow">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleblack">Mother & Child</h2>
+                      <h2 className="colorstyleblack" id="Mother-and-Child">Mother & Child</h2>
                     </div>
                     <div className="speboxloopcon">
 
@@ -543,7 +543,7 @@ const Specialties = () => {
                 <div className="specialmaincont backgColorRED">
                   <div className="specboxes">
                     <div className="speboxhead">
-                      <h2 className="colorstyleWHITE">Pediatric</h2>
+                      <h2 className="colorstyleWHITE" id="Pediatric">Pediatric</h2>
                     </div>
                     <div className="speboxloopcon">
 

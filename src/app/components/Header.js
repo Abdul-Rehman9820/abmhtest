@@ -520,7 +520,9 @@ const Header = () => {
                     <div className="commansearchboxcont">
                         <div className="serachboxform">
                             <div className="navsearchboxlog">
+                                <Link href="/">
                                 <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
+                                </Link>
                             </div>
                             <div className="serachboxfclo1">
                                 <div className="serachead">Search</div>

@@ -92,25 +92,25 @@ const Footer = () => {
                   <h2>QUICK LINKS</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/serchher">Find a Doctor</Link>
+                      <Link href="/doctors">Find a Doctor</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Book An Appointment</Link>
+                      <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book An Appointment</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Leave A feedback</Link>
+                      <Link href="/contact-us">Leave A feedback</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Career</Link>
+                      <Link href="/work-with-us">Career</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Insurance & TPA</Link>
+                      <Link href="/insurance-and-tpa">Insurance & TPA</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">International Patient</Link>
+                      <Link href="/abmh-international">International Patient</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">ABMH CSR Initiate</Link>
+                      <Link href="/about-csr">ABMH CSR Initiate</Link>
                     </div>
                     {/* <div className="linkfoolist exmarginlink">
                       <Link href="/serchher">Site Map </Link>
@@ -126,31 +126,31 @@ const Footer = () => {
                   <h2>CENTER OF EXCELLENCE</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/serchher">Cardiac Science</Link>
+                      <Link href="/specialties#Cardiac-Science">Cardiac Science</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Neuroscience</Link>
+                      <Link href="/specialties#Neuroscience">Neuroscience</Link>
+                    </div>
+                    {/* <div className="linkfoolist">
+                      <Link href="/specialties#">Cancer Center</Link>
+                    </div> */}
+                    <div className="linkfoolist">
+                      <Link href="/specialties#Robotic-Surgery">Robotic Surgery</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Cancer Center</Link>
+                      <Link href="/specialties#Mother-and-Child">Mother & Child</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Robotic Surgery</Link>
+                      <Link href="/specialties#Organ-Transplant-Center">Organ Transplant Center</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Mother & Child</Link>
+                      <Link href="/specialties#Orthopedic-Joint-Replacement">Orthopedic & Joint Replacement</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Organ Transplant Center</Link>
+                      <Link href="/specialties/gastroenterology">Gastroenterology & Hepatology</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Orthopedic & Joint Replacement</Link>
-                    </div>
-                    <div className="linkfoolist">
-                      <Link href="/serchher">Gastroenterology & Hepatology</Link>
-                    </div>
-                    <div className="linkfoolist">
-                      <Link href="/serchher">Accident & Emergency Care</Link>
+                      <Link href="/specialties/accident-and-emergency">Accident & Emergency Care</Link>
                     </div>
                   </div>
                 </div>
@@ -274,29 +274,29 @@ const Footer = () => {
               </div>
               <div className="footermaincol2">{/* only for space */}</div>
               <div className="footermaincol3">
-                <div className="linkbox">
+              <div className="linkbox">
                   <h2>QUICK LINKS</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/serchher">Find a Doctor</Link>
+                      <Link href="/doctors">Find a Doctor</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Book An Appointment</Link>
+                      <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book An Appointment</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Leave A feedback</Link>
+                      <Link href="/contact-us">Leave A feedback</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Career</Link>
+                      <Link href="/work-with-us">Career</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">Insurance & TPA</Link>
+                      <Link href="/insurance-and-tpa">Insurance & TPA</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">International Patient</Link>
+                      <Link href="/abmh-international">International Patient</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/serchher">ABMH CSR Initiate</Link>
+                      <Link href="/about-csr">ABMH CSR Initiate</Link>
                     </div>
                     {/* <div className="linkfoolist exmarginlink">
                       <Link href="/serchher">Site Map </Link>
