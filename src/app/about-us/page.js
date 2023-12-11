@@ -82,16 +82,12 @@ const Aboutus = () => {
                         </div>
                         <div className="abouttopslidepara">
                           <p>
-                            Aditya Birla Memorial Hospital is a homage and tribute
-                            to late Shri Aditya Vikram Birla. He had envisioned a
-                            world-class hospital in India. His vision has taken
-                            shape in the form of a medicity sprawled over 16 acres
-                            of land.
+                          Mr. Aditya Birla, a visionary in Indian industry, embarked on the journey of building a global business empire at the young age of 24. In 1969, long before globalization became a buzzword in India, he put Indian business on the world map, 
+                          setting up world-class production bases in vibrant South East Asian countries.
                           </p>
                           <p>
-                            This medicity is a super specialty healthcare facility
-                            to cater to the needs of all sections of society. The
-                            hospital’s mission: Compassionate Quality Healthcare.
+                          Anticipating the winds of change, he staked the future of his business on a competitive, free market-driven economic order. Under his leadership, the Aditya Birla Group became the world&lsquo;s largest producer of viscose staple fibre, the largest refiner of palm oil, 
+                          and achieved significant milestones in various sectors, both in India and globally.
                           </p>
                         </div>
                       </div>
@@ -112,16 +108,12 @@ const Aboutus = () => {
                         </div>
                         <div className="abouttopslidepara">
                           <p>
-                            Aditya Birla Memorial Hospital is a homage and tribute
-                            to late Shri Aditya Vikram Birla. He had envisioned a
-                            world-class hospital in India. His vision has taken
-                            shape in the form of a medicity sprawled over 16 acres
-                            of land.
+                          Mr. Birla believed in a unique form of globalization, where a business could be global while being rooted in India. His relentless efforts positioned his companies as industry leaders, 
+                          earning respect as one of India&lsquo;s finest business houses and the first India-based international Group.
                           </p>
                           <p>
-                            This medicity is a super specialty healthcare facility
-                            to cater to the needs of all sections of society. The
-                            hospital’s mission: Compassionate Quality Healthcare.
+                          At the time of his untimely demise in 1995, the Group&lsquo;s global revenues had crossed Rs.8,000 crore, with assets exceeding Rs.9,000 crore. The legacy he left behind included 55 benchmark quality plants, an employee strength of 75,000, and a shareholder community of 600,000. His companies not 
+                          only created enormous wealth for the nation but also garnered respect for Indian entrepreneurship in South East Asia.
                           </p>
                         </div>
                       </div>
@@ -142,17 +134,10 @@ const Aboutus = () => {
                         </div>
                         <div className="abouttopslidepara">
                           <p>
-                            Aditya Birla Memorial Hospital is a homage and tribute
-                            to late Shri Aditya Vikram Birla. He had envisioned a
-                            world-class hospital in India. His vision has taken
-                            shape in the form of a medicity sprawled over 16 acres
-                            of land.
+                          Mr. Aditya Birla&lsquo;s dream of India attaining a respectable rank among developed nations remains an enduring inspiration. He took pride in being an Indian and, 
+                          through his unmatched success, left an indelible mark on Indian industry, forever remembered as a pioneer and a true visionary.
                           </p>
-                          <p>
-                            This medicity is a super specialty healthcare facility
-                            to cater to the needs of all sections of society. The
-                            hospital’s mission: Compassionate Quality Healthcare.
-                          </p>
+
                         </div>
                       </div>
                       <div className="aboutslidercontloop2">
