@@ -87,37 +87,37 @@ const Abmhinterna = () => {
               <div className="internationaliconloopbox">
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon0.png" alt="img" />
-                  <Link href="">
+                  <Link href="/abmh-international/general-services">
                     <div className="inntericonhead">General Services</div>
                   </Link>
                 </div>
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon1.png" alt="img" />
-                  <Link href="">
+                  <Link href="/abmh-international/patient-services">
                     <div className="inntericonhead">Patient Services</div>
                   </Link>
                 </div>
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon2.png" alt="img" />
-                  <Link href="">
+                  <Link href="/abmh-international/plan-your-treatment">
                     <div className="inntericonhead">Plan your Treatment</div>
                   </Link>
                 </div>
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon3.png" alt="img" />
-                  <Link href="">
+                  <Link href="/abmh-international/visa-information">
                     <div className="inntericonhead">Visa Information</div>
                   </Link>
                 </div>
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon4.png" alt="img" />
-                  <Link href="">
+                  <Link href="/abmh-international/consular-information">
                     <div className="inntericonhead">Consular Information</div>
                   </Link>
                 </div>
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon5.png" alt="img" />
-                  <Link href="">
+                  <Link href="/abmh-international/training-programs">
                     <div className="inntericonhead">Training Programs</div>
                   </Link>
                 </div>

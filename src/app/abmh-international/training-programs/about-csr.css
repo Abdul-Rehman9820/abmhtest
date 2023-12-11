@@ -1,0 +1,328 @@
+
+
+/* ! CSR   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: auto;
+    background: #F7D651;
+}
+.mainheadingbandiv img {
+        width: 100%;
+}
+/* common head banner  end*/ 
+
+
+
+.CSRpolyhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CSRpolyheadbof {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.CSRpolyheadbalc {
+    font-size: 30px !important;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.CSRpolyheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+.crepolparadata {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.Csrpolmain{
+    padding: 30px 0;
+}
+
+
+.forcoloumdataboxdetail {
+    background: #ffe468;
+    padding: 40px 30px;
+    width: 48%;
+    margin-top: 40px;
+    box-shadow: 0pt 1pt 16pt rgb(0 0 0 / 5%);
+}
+.detailhead {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a21b18;
+    text-align: center;
+}
+
+.abintvisa .scrdetailpara {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: start;
+}
+.forcoloumdataboxcont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forcoloumdata {
+    position: relative;
+}
+.csrpolycenterimg {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16%;
+}
+.csrpolycenterimgclas {
+    width: 100%;
+}
+
+.cstbloglayot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cstbloglayot1 {
+    width: 30%;
+}
+.cstbloglayot2 {
+    width: 70%;
+}
+
+.cstbloglayot1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%);
+}
+.cstbloglayothead {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a21b18;
+}
+.cstbloglayotpara {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.cstbloglayot {
+    padding-bottom: 20px;
+    border-bottom: 1px solid  #a21b18;
+}
+
+.revercelayout {
+    /* display: flex; */
+    flex-direction: row-reverse;
+}
+.Csrpolmain2 {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+/*! CSR   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! CSR   start*/
+
+
+.cstbloglayot1 img {
+    width: 200px;
+    height: 200px;
+}
+.csrpolycenterimgclas {
+    display: none;
+}
+
+
+
+/*! CSR   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! CSR   start*/
+
+
+.commonheadinghead h2 {
+    font-size: 15px;
+}
+
+
+.csrpolycenterimgclas {
+    display: none;
+}
+
+.CSRpolyheadbalc {
+    font-size: 15px !important;
+}
+.crepolparadata {
+    font-size: 14px;
+}
+
+.forcoloumdataboxdetail {
+    padding: 20px 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.detailhead {
+    font-size: 15px;
+}
+
+.scrdetailpara {
+    font-size: 14px;
+}
+
+.cstbloglayot1 {
+    width: 100%;
+}
+.cstbloglayot2 {
+    width: 100%;
+}
+.cstbloglayot1 img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.cstbloglayothead {
+    font-size: 15px;
+}
+.cstbloglayotpara {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+
+
+/*! CSR   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
