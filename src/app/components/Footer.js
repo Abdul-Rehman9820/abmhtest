@@ -126,25 +126,25 @@ const Footer = () => {
                   <h2>CENTER OF EXCELLENCE</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/specialties#Cardiac-Science">Cardiac Science</Link>
+                      <Link href="/center-of-excellence-specialties#Cardiac-Science">Cardiac Science</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties#Neuroscience">Neuroscience</Link>
+                      <Link href="/center-of-excellence-specialties#Neuroscience">Neuroscience</Link>
                     </div>
                     {/* <div className="linkfoolist">
                       <Link href="/specialties#">Cancer Center</Link>
                     </div> */}
                     <div className="linkfoolist">
-                      <Link href="/specialties#Robotic-Surgery">Robotic Surgery</Link>
+                      <Link href="/center-of-excellence-specialties#Robotic-Surgery">Robotic Surgery</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties#Mother-and-Child">Mother & Child</Link>
+                      <Link href="/center-of-excellence-specialties#Mother-and-Child">Mother & Child</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties#Organ-Transplant-Center">Organ Transplant Center</Link>
+                      <Link href="/center-of-excellence-specialties#Organ-Transplant-Center">Organ Transplant Center</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties#Orthopedic-Joint-Replacement">Orthopedic & Joint Replacement</Link>
+                      <Link href="/center-of-excellence-specialties#Orthopedic-Joint-Replacement">Orthopedic & Joint Replacement</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/specialties/gastroenterology">Gastroenterology & Hepatology</Link>
