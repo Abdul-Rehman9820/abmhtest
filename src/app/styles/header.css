@@ -703,6 +703,10 @@ input.searchinput {
 .bar {
   transform: translateY(9px);
 }
+.poplogoimg {
+  width: 100%;
+}
+
 
 
 }

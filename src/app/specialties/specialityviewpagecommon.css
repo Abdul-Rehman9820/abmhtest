@@ -396,10 +396,10 @@ p.specilpara {
         font-size: 10px;
     }
     .spetileh1 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .spetileh1gr {
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     .testimgboxcont {
         padding: 5px;
@@ -412,7 +412,9 @@ p.specilpara {
     .ourteamslidebox {
         height: 100%;
     }
- 
+    .specilpara {
+        font-size: 14px !important;
+    }
 
 
     /*! specialties end*/

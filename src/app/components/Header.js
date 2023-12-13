@@ -521,7 +521,7 @@ const Header = () => {
                         <div className="serachboxform">
                             <div className="navsearchboxlog">
                                 <Link href="/">
-                                <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
+                                <Image width={1000} height={1000} className='poplogoimg' src="/homeimg/abmhmainlogo.png" alt="imgpop" />
                                 </Link>
                             </div>
                             <div className="serachboxfclo1">

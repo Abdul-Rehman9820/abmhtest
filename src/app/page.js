@@ -339,12 +339,12 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={400} height={400} src="/homeimg/Cardiology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/cardiac_science.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/Cardiology">
-                      <h2>Cardiology</h2>
+                    <Link href="center-of-excellence-specialties#Cardiac-Science">
+                      <h2>Cardiac Science</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -360,12 +360,12 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={400} height={400} src="/homeimg/Urology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/neuroscience.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/urology">
-                      <h2>Urology</h2>
+                    <Link href="/center-of-excellence-specialties#Neuroscience">
+                      <h2>Neuroscience</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -381,12 +381,12 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={400} height={400} src="/homeimg/Neurology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/robotic_surgery.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/neurology">
-                      <h2>Neurology</h2>
+                    <Link href="/center-of-excellence-specialties#Robotic-Surgery">
+                      <h2>Robotic Surgery</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -401,12 +401,12 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={400} height={400} src="/homeimg/Diabetology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/mother_&_child.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/diabetology-and-endocrinology">
-                      <h2>Diabetology</h2>
+                    <Link href="/center-of-excellence-specialties#Mother-and-Child">
+                      <h2>Mother & Child</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -422,12 +422,12 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={400} height={400} src="/homeimg/Gastroenterology.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/orthopedic_&_joint_replacement.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/gastroenterology">
-                      <h2>Gastroenterology</h2>
+                    <Link href="/center-of-excellence-specialties#Orthopedic-Joint-Replacement">
+                      <h2>Orthopedic</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -443,12 +443,12 @@ export default function Home() {
                 <div className="speforwhitbg">
                   <div className="speforwhitbgColicon">
                     <div className="spefColiconCont">
-                      <Image width={400} height={400} src="/homeimg/Pediatrics.png" alt="icon" />
+                      <Image width={400} height={400} src="/homeimg/gastroenterology_&_hepatology.png" alt="icon" />
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/pediatrics">
-                      <h2>Pediatrics</h2>
+                    <Link href="/specialties/gastroenterology">
+                      <h2>Gastroenterology</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -488,11 +488,11 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={400} height={400} src="/homeimg/Cardiologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/cardiac_science.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/specialties/Cardiology">
-                      <h2>Cardiology</h2>
+                    <Link href="/center-of-excellence-specialties#Cardiac-Science">
+                      <h2>Cardiac Science</h2>
                     </Link>
                   </div>
                 </div>
@@ -500,11 +500,11 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={400} height={400} src="/homeimg/Urologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/orthopedic_&_joint_replacement.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/specialties/urology">
-                      <h2>Urology</h2>
+                    <Link href="/center-of-excellence-specialties#Orthopedic-Joint-Replacement">
+                      <h2>Orthopedic</h2>
                     </Link>
                   </div>
                 </div>
@@ -512,11 +512,11 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={400} height={400} src="/homeimg/Neurologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/mother_&_child.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/specialties/neurology">
-                      <h2>Neurology</h2>
+                    <Link href="/center-of-excellence-specialties#Mother-and-Child">
+                      <h2>Mother & Child</h2>
                     </Link>
                   </div>
                 </div>
@@ -524,11 +524,11 @@ export default function Home() {
               <div className="speforcolchil">
                 <div className="speforwhitbg">
                   <div className="speforwhitbgCol1">
-                    <Image width={400} height={400} src="/homeimg/Diabetologymo.png" alt="img" />
+                    <Image width={400} height={400} src="/homeimg/robotic_surgery.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/specialties/diabetology-and-endocrinology">
-                      <h2>Diabetology</h2>
+                    <Link href="/center-of-excellence-specialties#Robotic-Surgery">
+                      <h2>Robotic Surgery</h2>
                     </Link>
                   </div>
                 </div>
@@ -536,7 +536,7 @@ export default function Home() {
             </div>
             <div className="combtndiv">
               <button className="combtn">
-                <Link href="/serchher">
+                <Link href="/specialties">
                   All Specialties
                   <span className="specicon">
                     <Image width={400} height={400} src="/homeimg/right-arrow.png" alt="img" />
