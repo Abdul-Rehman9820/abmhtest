@@ -126,7 +126,87 @@ const Specialties = () => {
                     <div className="checkboxcontsp" id="newbysir">
 
 
-                    <div className="myhrefsp">
+                     <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={500} height={500}
+                                  src="/specialtiesimg/Accident & Emergency.jpg"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                                <Link href="/specialties/accident-and-emergency">
+                                  <h2>Accident & Emergency</h2>
+                                </Link>
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={500} height={500}
+                                  src="/specialtiesimg/Anesthesiology.jpg"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                                <Link href="/specialties/anesthesiology">
+                                  <h2>Anesthesiology</h2>
+                                </Link>
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={500} height={500}
+                                  src="/specialtiesimg/Andrology & Sexual Medicine.jpg"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                                <Link href="/specialties/andrology-and-sexual-medicine">
+                                  <h2>Andrology & Sexual Medicine</h2>
+                                </Link>
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="myhrefsp">
+                          <div className="spaccontsearch">
+                            <div className="speforwhitbgsearch">
+                              <div className="spefColiconContspsearch">
+                                <Image width={500} height={500}
+                                  src="/specialtiesimg/Breast Onco Surgery.jpg"
+                                  alt="img"
+                                />
+                              </div>
+                              <div className="speforwhitbgCol1spsearch">
+                                <Link href="/specialties/breast-onco-surgery">
+                                  <h2>Breast Onco Surgery</h2>
+                                </Link>
+                                <h2 className="diparmenthideORkeywords">
+                                  deparment name or key words for search
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                     <div className="myhrefsp">
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
