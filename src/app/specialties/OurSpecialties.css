@@ -213,12 +213,16 @@
 }
 
 
-.spefColiconContspsearch img {
-    width: 100px;
+#newbysir .spefColiconContspsearch img {
+    width: 95%;
     margin: auto;
     display: block;
+    margin-top: 7px;
+    border-radius: 5px;
 }
-
+#newbysir .spefColiconContspsearch {
+    width: 100%;
+}
 .spaccontsearch {
     padding: 5px;
     height: 100%;
