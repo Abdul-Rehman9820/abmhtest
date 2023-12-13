@@ -34,8 +34,7 @@ const Programs = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Patient Care /
-                  <span className="breadcrumbsactive">Programs</span>
+                   Academics / <span className="breadcrumbsactive">Programs</span>
                 </div>
               </div>
             </div>
@@ -45,7 +44,9 @@ const Programs = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-        <div className="mainheadingbandiv"></div>
+      <div className="mainheadingbandiv">
+             <Image width={2000} height={400} src="/commonimages/commbanAcademic-Programs.png" alt="icon" />
+      </div>
       </div>
       {/* common heading banner end */}
       {/* HomeCareSolutions  start*/}

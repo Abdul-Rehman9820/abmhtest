@@ -81,7 +81,9 @@ const Hospitalvisit = () => {
 
 
     <>
-      <title>Hospital Visit &amp; Institutional Visit</title>
+      <title>Hospital & Institutional Visits | Explore Aditya Birla Hospital Facilities</title>
+      <meta name="description" content="Experience informative and educational visits at Aditya Birla Hospital. Discover our state-of-the-art facilities and gain insights into advanced healthcare during your hospital and institutional visits." />
+
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -89,7 +91,7 @@ const Hospitalvisit = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Academics /{" "}
+                  Academics /
                   <span className="breadcrumbsactive">
                     Hospital Visit &amp; Institutional Visit
                   </span>
@@ -102,7 +104,9 @@ const Hospitalvisit = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-        <div className="mainheadingbandiv"></div>
+        <div className="mainheadingbandiv">
+              <Image width={2000} height={400} src="/commonimages/commbanHospital-Visit.png" alt="icon" />
+        </div>
       </div>
       {/* common heading banner end */}
       {/* inter / obser pg start*/}

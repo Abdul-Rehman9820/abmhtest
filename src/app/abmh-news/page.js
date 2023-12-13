@@ -168,7 +168,7 @@ const Abmhnews = () => {
                         />
                       </div>
                       <div className="newurlbg">
-                        <Link href="#">
+                        <Link href="">
                           <h2 className="newparahead">
                             Aditya Birla Memorial Hospital an 8 hours long complex
                             surgery was performed on a 58 year old patient suffering
@@ -188,7 +188,7 @@ const Abmhnews = () => {
                         />
                       </div>
                       <div className="newurlbg">
-                        <Link href="#">
+                        <Link href="">
                           <h2 className="newparahead">
                             Let&apos;s fight Covid , fearlessly - CEO Miss Rekha Dubey
                           </h2>
@@ -206,7 +206,7 @@ const Abmhnews = () => {
                         />
                       </div>
                       <div className="newurlbg">
-                        <Link href="#">
+                        <Link href="">
                           <h2 className="newparahead">
                             Hospital in city launches salon for employees.
                           </h2>
@@ -242,7 +242,7 @@ const Abmhnews = () => {
                         />
                       </div>
                       <div className="newurlbg">
-                        <Link href="#">
+                        <Link href="">
                           <h2 className="newparahead">
                             A 45 crore investment in healthcare facilities to upgrade from Tertiary to Quaternary care.
                           </h2>
@@ -296,7 +296,7 @@ const Abmhnews = () => {
                         />
                       </div>
                       <div className="newurlbg">
-                        <Link href="#">
+                        <Link href="">
                           <h2 className="newparahead">
                             5 surgeries later, man heals from head injury.
                           </h2>
@@ -314,7 +314,7 @@ const Abmhnews = () => {
                         />
                       </div>
                       <div className="newurlbg">
-                        <Link href="#">
+                        <Link href="">
                           <h2 className="newparahead">
                             Woman Super Achiever Award
                           </h2>

@@ -35,8 +35,8 @@ export async function POST(req, content) {
 
 
           const data = await resend.emails.send({
-            from: 'ABMH Enquiry Form <abdul.a@mindframeindia.com>',
-            to: ['abdul.a@mindframeindia.com','admin@mindframepictures.com' , 'abdullahansari982076@gmail.com'],
+            from: 'ABMH Enquiry Form <abmh_enquiry@mindframeindia.com>',
+            to: ['abmh_enquiry@mindframeindia.com','hospitalcareers@adityabirla.com'],
             subject: 'New Enquiry',
             // react: 'John' ,
             // text: 'This is text a test email.',

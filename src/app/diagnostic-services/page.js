@@ -27,7 +27,7 @@ const Contactus = () => {
 
 
     <>
-      
+
       <title>Premier Diagnostic Centre in Pune | Accurate & Advanced Medical Tests</title>
       <meta name="description" content="Discover the finest diagnostic services at Aditya Birla Memorial Hospital, Pune. Our advanced medical tests ensure accuracy and reliability, making us the best diagnostic center in Pune." />
       {/* common heading div start*/}
@@ -48,7 +48,7 @@ const Contactus = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-          <Image width={2000} height={400} src="/commonimages/commdummybanner.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commbanDiagnostic-Services.png" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -61,174 +61,27 @@ const Contactus = () => {
           <div className="diegnosmaincont">
 
 
-                  <div class="commqulityhead mb-4">
-                    <div class="commqulityheadbof">
-                      <h1 class="commqulityheadbalc">Diagnostic Services</h1>
-                      <span class="qualityheadborder"></span>
-                    </div>
-                  </div>
-
-
-
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Radiology Services</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> Pathology Services</button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-
-                <div className="Radiology-Services-cont">
-
-
-
-                  <div className="Radiologytabel">
-
-                    <table className="table table-hover table-bordered">
-
-                      <tbody>
-
-
-                        <tr>
-                          <td>DIGITAL X-RAY</td>
-                        </tr>
-                        <tr>
-                          <td>FLUOROSCOPY</td>
-                        </tr>
-                        <tr>
-                          <td>HYSTEROSALPINGOGRAM (HSG)</td>
-                        </tr>
-                        <tr>
-                          <td>MICTURATING CYSTOURETHROGRAM (MCU)</td>
-                        </tr>
-                        <tr>
-                          <td>RETROGRADE URETHROGRAM (RGU)</td>
-                        </tr>
-                        <tr>
-                          <td>INTRAVENOUS PYELOGRAM (IVP)</td>
-                        </tr>
-                        <tr>
-                          <td>GENITOURINARY (ASCENDING URETHROGRAPHY)</td>
-                        </tr>
-                        <tr>
-                          <td>BARIUM STUDIES</td>
-                        </tr>
-                        <tr>
-                          <td>BMD (BONE MINERAL DENSITY) :
-                            <ul>
-                              <li>SPINE</li>
-                              <li>WRIST</li>
-                              <li>HIP</li>
-                              <li>WHOLE BODY</li>
-                            </ul>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            ULTRASONOGRAPHY :
-                            <ul>
-                              <li>USG OBSTETRIC</li>
-                              <li>USG CHEST</li>
-                              <li>USG JOINT</li>
-                              <li>USG 2D, 3D & 4D</li>
-                              <li>USG THYROID (NECK)</li>
-                              <li>USG SMALL PARTS</li>
-                              <li>USG</li>
-                              <li>USG ABDOMEN & PELVIS</li>
-                              <li>ELASTOGRAPHY</li>
-                            </ul>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            COLOR DOPPLER STUDY:
-                            <ul>
-                              <li>VENOUS DOPPLER</li>
-                              <li>ARTERIAL DOPPLER</li>
-                              <li>PELVIC DOPPLER</li>
-                              <li>ABDOMEN DOPPLER</li>
-                              <li>CAROTID DOPPLER</li>
-                              <li>RENAL DOPPLER</li>
-                              <li>LIVER AND RENAL TRANSPLANT DOPPLER</li>
-                              <li>OBS DOPPLER</li>
-                              <li>AV FISTULA DOPPLER</li>
-                              <li>FETAL ECHO</li>
-                            </ul>
-
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            MAMMOGRAPHY (TOMOSYNTHESIS)
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            COMPUTED TOMOGRAPHY (CT) SCAN:
-                            <ul>
-                              <li>CT CORONARY ANGIOGRAPHY</li>
-                              <li>CT ANGIOGRAPHY</li>
-                              <li>CT RENAL ANGIOGRAPHY</li>
-                              <li>CT UPPER LIMB ANGIOGRAPHY</li>
-                              <li>CT LOWER LIMB ANGIOGRAPHY</li>
-                              <li>CT BRAIN</li>
-                              <li>CT LIVER PROTOCOL</li>
-                              <li>CT ABDOMEN & PELVIS</li>
-                              <li>CT AORTOGRAM</li>
-                              <li>HRCT</li>
-                              <li>CT NECK</li>
-                              <li>3D CT</li>
-                              <li>CT JOINT</li>
-                              <li>CT UROGRAPHY</li>
-                              <li>CT LOOPOGRAM</li>
-                              <li>CT PNS</li>
-                              <li>CT FACE</li>
-                              <li>CT VENOGRAM</li>
-                            </ul>
-
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            MAGNETIC RESONANCE IMAGING (MRI) SCAN:
-
-                            <ul>
-                              <li>MRI - BRAIN</li>
-                              <li>MRI - ANGIOGRAPHY</li>
-                              <li>MRI - SPECTROSCOPY</li>
-                              <li>MRI - BREAST</li>
-                              <li>MRI - CARDIAC</li>
-                              <li>MRI - LIVER</li>
-                              <li>MRI - PERFUSION (BRAIN)</li>
-                              <li>MRI - FISTULOGRAM</li>
-                              <li>MRCP E‘Amagrnr</li>
-                              <li>MRI - JOINTS</li>
-                              <li>MRI - SELLA</li>
-                              <li>MRI - SPINE, CERVICAL, LUMBAR</li>
-                              <li>MRI DEFECOGRAPHY</li>
-                            </ul>
-
-                          </td>
-                        </tr>
-
-                      </tbody>
-
-                    </table>
-
-
-                  </div>
-
-
-
-                </div>
-
-
+            <div className="commqulityhead mb-4">
+              <div className="commqulityheadbof">
+                <h1 className="commqulityheadbalc">Diagnostic Services</h1>
+                <span className="qualityheadborder"></span>
               </div>
-              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            </div>
+
+
+
+            <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+              <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"> Pathology Services</button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Radiology Services</button>
+              </li>
+
+            </ul>
+            <div className="tab-content" id="pills-tabContent">
+              <div className="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 
 
                 <div className="Radiology-Services-cont Pathology-Services ">
@@ -6362,6 +6215,157 @@ const Contactus = () => {
 
 
               </div>
+
+              <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+
+                <div className="Radiology-Services-cont">
+
+
+
+                  <div className="Radiologytabel">
+
+                    <table className="table table-hover table-bordered">
+
+                      <tbody>
+
+
+                        <tr>
+                          <td>DIGITAL X-RAY</td>
+                        </tr>
+                        <tr>
+                          <td>FLUOROSCOPY</td>
+                        </tr>
+                        <tr>
+                          <td>HYSTEROSALPINGOGRAM (HSG)</td>
+                        </tr>
+                        <tr>
+                          <td>MICTURATING CYSTOURETHROGRAM (MCU)</td>
+                        </tr>
+                        <tr>
+                          <td>RETROGRADE URETHROGRAM (RGU)</td>
+                        </tr>
+                        <tr>
+                          <td>INTRAVENOUS PYELOGRAM (IVP)</td>
+                        </tr>
+                        <tr>
+                          <td>GENITOURINARY (ASCENDING URETHROGRAPHY)</td>
+                        </tr>
+                        <tr>
+                          <td>BARIUM STUDIES</td>
+                        </tr>
+                        <tr>
+                          <td>BMD (BONE MINERAL DENSITY) :
+                            <ul>
+                              <li>SPINE</li>
+                              <li>WRIST</li>
+                              <li>HIP</li>
+                              <li>WHOLE BODY</li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            ULTRASONOGRAPHY :
+                            <ul>
+                              <li>USG OBSTETRIC</li>
+                              <li>USG CHEST</li>
+                              <li>USG JOINT</li>
+                              <li>USG 2D, 3D & 4D</li>
+                              <li>USG THYROID (NECK)</li>
+                              <li>USG SMALL PARTS</li>
+                              <li>USG</li>
+                              <li>USG ABDOMEN & PELVIS</li>
+                              <li>ELASTOGRAPHY</li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            COLOR DOPPLER STUDY:
+                            <ul>
+                              <li>VENOUS DOPPLER</li>
+                              <li>ARTERIAL DOPPLER</li>
+                              <li>PELVIC DOPPLER</li>
+                              <li>ABDOMEN DOPPLER</li>
+                              <li>CAROTID DOPPLER</li>
+                              <li>RENAL DOPPLER</li>
+                              <li>LIVER AND RENAL TRANSPLANT DOPPLER</li>
+                              <li>OBS DOPPLER</li>
+                              <li>AV FISTULA DOPPLER</li>
+                              <li>FETAL ECHO</li>
+                            </ul>
+
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            MAMMOGRAPHY (TOMOSYNTHESIS)
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            COMPUTED TOMOGRAPHY (CT) SCAN:
+                            <ul>
+                              <li>CT CORONARY ANGIOGRAPHY</li>
+                              <li>CT ANGIOGRAPHY</li>
+                              <li>CT RENAL ANGIOGRAPHY</li>
+                              <li>CT UPPER LIMB ANGIOGRAPHY</li>
+                              <li>CT LOWER LIMB ANGIOGRAPHY</li>
+                              <li>CT BRAIN</li>
+                              <li>CT LIVER PROTOCOL</li>
+                              <li>CT ABDOMEN & PELVIS</li>
+                              <li>CT AORTOGRAM</li>
+                              <li>HRCT</li>
+                              <li>CT NECK</li>
+                              <li>3D CT</li>
+                              <li>CT JOINT</li>
+                              <li>CT UROGRAPHY</li>
+                              <li>CT LOOPOGRAM</li>
+                              <li>CT PNS</li>
+                              <li>CT FACE</li>
+                              <li>CT VENOGRAM</li>
+                            </ul>
+
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            MAGNETIC RESONANCE IMAGING (MRI) SCAN:
+
+                            <ul>
+                              <li>MRI - BRAIN</li>
+                              <li>MRI - ANGIOGRAPHY</li>
+                              <li>MRI - SPECTROSCOPY</li>
+                              <li>MRI - BREAST</li>
+                              <li>MRI - CARDIAC</li>
+                              <li>MRI - LIVER</li>
+                              <li>MRI - PERFUSION (BRAIN)</li>
+                              <li>MRI - FISTULOGRAM</li>
+                              <li>MRCP E‘Amagrnr</li>
+                              <li>MRI - JOINTS</li>
+                              <li>MRI - SELLA</li>
+                              <li>MRI - SPINE, CERVICAL, LUMBAR</li>
+                              <li>MRI DEFECOGRAPHY</li>
+                            </ul>
+
+                          </td>
+                        </tr>
+
+                      </tbody>
+
+                    </table>
+
+
+                  </div>
+
+
+
+                </div>
+
+
+              </div>
+
             </div>
 
 

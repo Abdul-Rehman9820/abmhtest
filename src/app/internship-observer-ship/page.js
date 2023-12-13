@@ -26,7 +26,8 @@ const Interobserv = () => {
 
 
     <>
-    <title>Internship & Observership</title>
+    <title>Internship & Observer-ship Opportunities | Learn at Aditya Birla Hospital</title>
+    <meta name="description" content="Explore enriching internship and observer-ship programs at Aditya Birla Hospital. Gain hands-on experience and learn from industry experts in a premier healthcare environment." />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -47,8 +48,11 @@ const Interobserv = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-        <div className="mainheadingbandiv"></div>
+      <div className="mainheadingbandiv">
+             <Image width={2000} height={400} src="/commonimages/commbanInternship.png" alt="icon" />
       </div>
+    </div>
+
       {/* common heading banner end */}
       {/* inter / obser pg start*/}
       <div className="parentcontainerwhi">
