@@ -227,7 +227,7 @@ export default function Home() {
 
             <div class="homeh1part">
               <div class="homeh1head">
-                <h1 className='homeh1'>Book Your Appointment Online at Aditya Birla Hospital, Pune</h1>
+                <h1 className='homeh1'>Book Your Appointment Online</h1>
                 <span class="headborder"></span>
               </div>
             </div>
@@ -828,7 +828,7 @@ export default function Home() {
           <div className="ourworkpar">
             <div className="Specialtiespart">
               <div className="outworkhead">
-                <h2>Voices Of Healing, Hear What Our Patients Are Speaking</h2>
+                <h2>Hear What Our Patients Are Speaking</h2>
                 <span className="headborder" />
               </div>
               <div className="surgerhead">

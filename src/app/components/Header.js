@@ -24,29 +24,6 @@ const Header = () => {
 
 
 
-        const handleScroll = () => {
-            const currentScrollPos = window.pageYOffset;
-            const animatedNav = document.getElementById("animatednav");
-            const animatedHavburg = document.getElementById("animatedhavburg");
-        
-            if (currentScrollPos > 0) {
-                // If scroll position is greater than 0, hide the elements
-                animatedNav.style.display = "none";
-                animatedHavburg.style.display = "block";
-            } else {
-   
-                animatedNav.style.display = "block";
-                animatedHavburg.style.display = "none";
-                
-            }
-        
-            setPrevScrollPos(currentScrollPos);
-        };
-        
-        window.addEventListener('scroll', handleScroll);
-
-
-
         $(document).ready(function () {
 
 
@@ -102,12 +79,6 @@ const Header = () => {
         });
 
 
-        // Cleanup the event listener when the component is unmounted
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-
-
 
     }, []);
 
@@ -145,20 +116,17 @@ const Header = () => {
 
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
 
-
-
-
             <header>
                 {/* header deckstop start*/}
                 <div className="parentcontainerwhi header deckstophead">
-                    <div className="customcontainer"  id='animatednav'>
+                    <div className="customcontainer">
                         {/* mainstart */}
                         <div className="headermain">
                             <div className="headerlogocont">
                                 <div className="headerlogopart">
                                     <div className="logoimg">
                                         <Link href="/">
-                                            <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
+                                            <Image width={1000} height={1000} className='mydeckslogo' src="/homeimg/abmhmainlogo.png" alt="img" />
                                         </Link>
                                     </div>
                                 </div>
@@ -272,38 +240,6 @@ const Header = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        {/* mainclose */}
-                    </div>
-                </div>
-
-
-                <div className="parentcontainerwhi animatscrolham deckstophead"  id='animatedhavburg'>
-                    <div className="customcontainer">
-                        {/* mainstart */}
-                        <div className="headermain">
-
-                            <div className="headerNavbarcont">
-                                <div className="headerNavbarcontright">
-
-                                </div>
-                                <div className="headerNavbarcontleft">
-
-                                    <div className="Navbarcontleftbox">
-
-                                    </div>
-                                    <div className="Navbarcontleftbox">
-                                        <div className="Navbarcontleftboximg">
-                                            <div className="hamburgerbG  scrollanimatedham">
-                                                <div className="hamburger-menu">
-                                                    <div className="bar"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                         {/* mainclose */}

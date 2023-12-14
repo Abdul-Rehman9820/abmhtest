@@ -65,7 +65,7 @@ span.BookApimg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 2px;
+    margin-top: 35px;
 }
 .headerNavbarcontright {
     width: 65%;
@@ -86,7 +86,8 @@ span.BookApimg {
 .parentcontainerwhi.header {
     box-shadow: 0pt 2pt 4pt rgb(0 0 0 / 29%);
     z-index: 5;
-    position: relative;
+    position: fixed;
+    top: 0;
     background: #ffe468;
 }
 .logoimg img {
@@ -112,11 +113,10 @@ span.BookApimg {
   z-index: 5;
   display: none;
 }
-
-/* #animatednav{
-  transition: all 0.5s ease;
-} */
-
+img.mydeckslogo {
+  position: absolute;
+  left: 5%;
+}
 
 /* hamburger  start*/
 
@@ -511,7 +511,7 @@ ul.children {
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  padding: 5px 5px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;

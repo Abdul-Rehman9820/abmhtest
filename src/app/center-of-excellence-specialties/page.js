@@ -57,7 +57,7 @@ const Specialties = () => {
           <div className="specialParentcont">
 
 
-            <div className="specialityStaticcont">
+            <div className="specialityStaticcont" id="centerspecil">
 
 
               <div className="specialmaincont backgColorYellow">
@@ -70,7 +70,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Cardiology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/Cardiology">
@@ -82,7 +82,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Cardiology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-cardiology">
@@ -94,7 +94,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Cardiovascular and Thoracic Surgery.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/cardiovascular-and-thoracic-surgery">
@@ -120,7 +120,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Neurology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/neurology">
@@ -132,7 +132,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Neuro surgery.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/neuro-surgery">
@@ -144,7 +144,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Functional Neuro Surgeon.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/neuro-surgery">
@@ -170,7 +170,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Gynae Oncology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/gynae-oncology">
@@ -182,7 +182,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Oncology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/oncology">
@@ -191,22 +191,11 @@ const Specialties = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="spaccont">
-        <div className="speforwhitbgsp">
-          <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
-          </div>
-          <div className="speforwhitbgCol1sp">
-            <Link href="/specialties/dummy">
-              <h2>Uro Oncology</h2>
-            </Link>
-          </div>
-        </div>
-      </div> */}
+
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Gastrointestinal Surgery.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/gastrointestinal-surgery">
@@ -218,7 +207,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/General Surgery & Minimal Invasive.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/general-surgery-and-minimal-invasive">
@@ -244,7 +233,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Liver Transplant.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/liver-transplant">
@@ -256,7 +245,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Nephrology & Kidney Transplant.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/nephrology-and-kidney-transplant">
@@ -282,7 +271,7 @@ const Specialties = () => {
       <div className="spaccont">
         <div className="speforwhitbgsp">
           <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+            <Image width={500} height={500} src="/specialtiesimg/newsicon.jpg" alt="img" />
           </div>
           <div className="speforwhitbgCol1sp">
             <Link href="/specialties/dummy">
@@ -294,7 +283,7 @@ const Specialties = () => {
       <div className="spaccont">
         <div className="speforwhitbgsp">
           <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+            <Image width={500} height={500} src="/specialtiesimg/newsicon.jpg" alt="img" />
           </div>
           <div className="speforwhitbgCol1sp">
             <Link href="/specialties/dummy">
@@ -320,7 +309,7 @@ const Specialties = () => {
       <div className="spaccont">
         <div className="speforwhitbgsp">
           <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+            <Image width={500} height={500} src="/specialtiesimg/newsicon.jpg" alt="img" />
           </div>
           <div className="speforwhitbgCol1sp">
             <Link href="/specialties/dummy">
@@ -332,7 +321,7 @@ const Specialties = () => {
       <div className="spaccont">
         <div className="speforwhitbgsp">
           <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+            <Image width={500} height={500} src="/specialtiesimg/newsicon.jpg" alt="img" />
           </div>
           <div className="speforwhitbgCol1sp">
             <Link href="/specialties/dummy">
@@ -358,7 +347,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Orthopedics & Joint Replacement.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/orthopedics-joint-replacement">
@@ -370,7 +359,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Orthopedic, Trauma & Paediatric Surgeon.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/orthopedics-joint-replacement">
@@ -382,7 +371,7 @@ const Specialties = () => {
                     {/* <div className="spaccont">
         <div className="speforwhitbgsp">
           <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+            <Image width={500} height={500} src="/specialtiesimg/newsicon.jpg" alt="img" />
           </div>
           <div className="speforwhitbgCol1sp">
             <Link href="/specialties/dummy">
@@ -394,7 +383,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Foot & Ankle Surgery.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/orthopedics-joint-replacement">
@@ -420,7 +409,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Obstetrics & Gynaecology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/obstetrics-gynaecology">
@@ -432,7 +421,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Foetal Medicine.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/foetal-medicine">
@@ -444,7 +433,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/IVF & Reproductive Medicine.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/ivf-and-reproductive-medicine">
@@ -456,7 +445,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Genetics.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/genetics">
@@ -468,7 +457,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Lactation.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/lactation">
@@ -495,7 +484,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics">
@@ -507,7 +496,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Cardiology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-cardiology">
@@ -519,7 +508,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatric Dentistry.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatric-dentistry">
@@ -531,7 +520,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatric Endocrinology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatric-endocrinology">
@@ -543,7 +532,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Gastroenterology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-gastroenterology">
@@ -555,7 +544,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Neurology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-neurology">
@@ -567,7 +556,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Orthopedics.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-orthopedics">
@@ -579,7 +568,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Pulmonology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-pulmonology">
@@ -591,7 +580,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatrics Surgery.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatrics-surgery">
@@ -600,22 +589,11 @@ const Specialties = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="spaccont">
-        <div className="speforwhitbgsp">
-          <div className="spefColiconContsp">
-            <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
-          </div>
-          <div className="speforwhitbgCol1sp">
-            <Link href="/specialties/dummy">
-              <h2>Pediatric Nephrology</h2>
-            </Link>
-          </div>
-        </div>
-      </div> */}
+
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Pediatric Intensivist.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/pediatric-intensivist">
@@ -627,7 +605,7 @@ const Specialties = () => {
                     <div className="spaccont">
                       <div className="speforwhitbgsp">
                         <div className="spefColiconContsp">
-                          <Image width={100} height={100} src="/specialtiesimg/newsicon.png" alt="img" />
+                          <Image width={500} height={500} src="/specialtiesimg/Neonatology.jpg" alt="img" />
                         </div>
                         <div className="speforwhitbgCol1sp">
                           <Link href="/specialties/neonatology">

@@ -118,10 +118,14 @@
     border-radius: 10px;
     box-shadow: 0pt 0pt 16pt rgb(0 0 0 / 7%);
 }
-.spefColiconContsp img {
-    width: 100px;
+#centerspecil .spefColiconContsp img {
+    width: 100%;
     margin: auto;
     display: block;
+    border-radius: 5px;
+}
+#centerspecil .spefColiconContsp {
+    width: 100%;
 }
 .speforwhitbgCol1sp h2 {
     font-size: 17px;
@@ -289,7 +293,7 @@
     font-size: 13px;
 }
 .speforwhitbgCol1sp h2 {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -350,8 +354,8 @@
 .spaccont {
     width: 50%;
 }
-.speforwhitbgCol1sp h2 {
-    font-size: 12px;
+#centerspecil .speforwhitbgCol1sp h2 {
+    font-size: 10px;
 }
 .spefColiconContsp img {
     width: 60px;
@@ -366,7 +370,7 @@
 }
 
 .speboxhead h2 {
-    font-size: 17px;
+    font-size: 15px;
     margin: 10px;
 }
 

@@ -78,7 +78,7 @@ const Baritricandmetabolicsurgery = () => {
 
 
     <>
-      <title>Baritric & Metabolic Surgery</title>
+      <title>Bariatric & Metabolic Surgery</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -87,7 +87,7 @@ const Baritricandmetabolicsurgery = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Baritric & Metabolic Surgery</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Bariatric & Metabolic Surgery</span>
                 </div>
               </div>
             </div>

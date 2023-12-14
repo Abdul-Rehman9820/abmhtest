@@ -333,15 +333,15 @@
     padding: 0;
 }
 .speforwhitbgCol1spsearch h2 {
-    font-size: 12px;
+    font-size: 10px;
 }
 .spefColiconContspsearch img {
     width: 60px;
 }
 
-.speforwhitbgsearch {
-    min-height: 150px;
-    padding: 10px;
+#newbysir .speforwhitbgsearch {
+    padding: 3px;
+    justify-content: start;
 }
 .checkboxcontsp {
     margin-top: 20px;
@@ -378,7 +378,9 @@
     padding: 5px 8px;
     font-size: 14px;
 }
-
+#newbysir .spefColiconContspsearch img {
+    margin-top: 3px;
+}
 
 
 
