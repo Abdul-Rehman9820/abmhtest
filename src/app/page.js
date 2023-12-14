@@ -248,7 +248,7 @@ export default function Home() {
                         <Image width={400} height={400} src="/homeimg/newdecsbookdr.png" alt="img" />
                       </div>
                       <div className="appmainHea">
-                        <p>Find a Doctor</p>
+                        <p>Find a<br></br> Doctor</p>
                       </div>
                     </div>
                   </Link>

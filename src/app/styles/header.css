@@ -65,7 +65,7 @@ span.BookApimg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 .headerNavbarcontright {
     width: 65%;
@@ -91,7 +91,7 @@ span.BookApimg {
     background: #ffe468;
 }
 .logoimg img {
-  width: 440px;
+  width: 400px;
 }
 .naviconrigboximg {
     margin-top: -7px;
@@ -511,7 +511,7 @@ ul.children {
   border: none;
   outline: none;
   color: black;
-  padding: 5px 5px;
+  padding: 0px 5px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -558,6 +558,7 @@ button.dropbtnmy .fa {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .dropdown-contentmy a {
   font-size: 14px;
@@ -574,6 +575,23 @@ button.dropbtnmy .fa {
 
 
 /* header  end*/
+
+
+/* for logo issue*/
+@media screen and (max-width: 1500px) and (min-width: 768px) {
+
+  img.mydeckslogo {
+    position: relative;
+    left: 0;
+  }
+  .headerNavbarcont {
+    margin-top: 10px;
+}
+
+}
+/* for logo issue*/
+
+
 
 
 @media screen and (max-width: 1299px) and (min-width: 768px) {

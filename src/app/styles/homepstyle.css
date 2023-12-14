@@ -112,7 +112,6 @@
     position: relative;
     object-fit: contain;
     z-index: 1;
-    margin-top: 1rem;
 }
 
 .appmainHea {
@@ -138,10 +137,11 @@
 
 .appmainHea p {
     padding: 0 2px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.2;
     transition: all 0.3s ease;
+    margin: 0;
 }
 
 .animatedimg {
