@@ -122,7 +122,78 @@ export default function Home() {
                 aria-label="Slide 4"
               />
             </div>
+
+            
             <div className="carousel-inner">
+
+              <div className="carousel-item active">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M1.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M2.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M3.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M4.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M5.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M6.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/lowsizebanner.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M7.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+
+            </div>
+
+
+            {/* <div className="carousel-inner">
 
               <div className="carousel-item active">
                 <div className="mynewslides">
@@ -188,7 +259,9 @@ export default function Home() {
                 </div>
               </div>
 
-            </div>
+            </div> */}
+
+
             <button
               className="carousel-control-prev"
               type="button"

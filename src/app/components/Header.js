@@ -155,8 +155,8 @@ const Header = () => {
                                 <div className="headerNavbarcontright">
 
                                     <div className="navbarmy">
-                                        {/* <Link href="/">Home </Link> */}
-                                        <div className="dropdownmy">
+                                        {/* <Link href="/"  className="navbarlinks" >Home </Link> */}
+                                        <div className="dropdownmy navbarlinks">
                                             <button className="dropbtnmy">
                                                 About Us
                                                 <i className="fa fa-caret-down" />
@@ -170,7 +170,7 @@ const Header = () => {
                                                 <Link href="/about-csr">CSR Initiatives</Link>
                                             </div>
                                         </div>
-                                        <div className="dropdownmy">
+                                        <div className="dropdownmy navbarlinks">
                                             <button className="dropbtnmy">
                                                 Patient Care
                                                 <i className="fa fa-caret-down" />
@@ -186,7 +186,7 @@ const Header = () => {
                                                 <Link href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
                                             </div>
                                         </div>
-                                        <div className="dropdownmy">
+                                        <div className="dropdownmy navbarlinks">
                                             <button className="dropbtnmy">
                                                 Services
                                                 <i className="fa fa-caret-down" />
@@ -196,7 +196,7 @@ const Header = () => {
                                                 <Link href="/wellness-packages#homecare-solutions">Home Care Services</Link>
                                             </div>
                                         </div>
-                                        <div className="dropdownmy">
+                                        <div className="dropdownmy navbarlinks">
                                             <button className="dropbtnmy">
                                                 Academics
                                                 <i className="fa fa-caret-down" />

@@ -65,7 +65,6 @@ span.BookApimg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 .headerNavbarcontright {
     width: 65%;
@@ -113,9 +112,8 @@ span.BookApimg {
   z-index: 5;
   display: none;
 }
-img.mydeckslogo {
-  position: absolute;
-  left: 5%;
+.header.deckstophead .customcontainer {
+  max-width: 99% !important;
 }
 
 /* hamburger  start*/
@@ -557,13 +555,15 @@ button.dropbtnmy .fa {
 .navbarmy {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .dropdown-contentmy a {
   font-size: 14px;
 }
-
+.navbarlinks {
+  margin-right: 20px;
+}
 
 
 .animathamburger-menu {
@@ -577,21 +577,16 @@ button.dropbtnmy .fa {
 /* header  end*/
 
 
-/* for logo issue*/
+/* header  issse*/
 @media screen and (max-width: 1500px) and (min-width: 768px) {
 
-  img.mydeckslogo {
-    position: relative;
-    left: 0;
+  .header.deckstophead .customcontainer {
+    max-width: 100% !important;
   }
-  .headerNavbarcont {
-    margin-top: 10px;
-}
+
 
 }
-/* for logo issue*/
-
-
+/* header  issse*/
 
 
 @media screen and (max-width: 1299px) and (min-width: 768px) {

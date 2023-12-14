@@ -90,6 +90,12 @@
     display: none;
 }
   
+.fa-search {
+    color: black;
+}
+.fa-search:hover {
+    color: #a21b18;
+}
   
 
   
