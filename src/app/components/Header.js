@@ -116,6 +116,24 @@ const Header = () => {
 
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
 
+            {/* <Script type='text/javascript' src="/public/myjs/tawk.js" /> */}
+
+            <Script id="show-banner">
+                {`
+                                
+                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/5cb71cfdd6e05b735b430d40/default';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+                })();
+                
+                `}
+            </Script>
+
             <header>
                 {/* header deckstop start*/}
                 <div className="parentcontainerwhi header deckstophead">
@@ -460,7 +478,7 @@ const Header = () => {
                         <div className="serachboxform">
                             <div className="navsearchboxlog">
                                 <Link href="/">
-                                <Image width={1000} height={1000} className='poplogoimg' src="/homeimg/abmhmainlogo.png" alt="imgpop" />
+                                    <Image width={1000} height={1000} className='poplogoimg' src="/homeimg/abmhmainlogo.png" alt="imgpop" />
                                 </Link>
                             </div>
                             <div className="serachboxfclo1">

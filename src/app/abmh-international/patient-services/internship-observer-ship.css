@@ -36,16 +36,6 @@
   }
 /* common head banner  end*/ 
 
-.bgseryellow {
-    background: #ffe468;
-}
-
-.inttpa_sec {
-    background: #ffe468;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .inttpa_sec_para {
     padding: 30px;
@@ -58,14 +48,6 @@
 }
 
 
-.intertable th {
-    background: #a21b18 !important;
-    color: white;
-}
-.intertable td {
-    padding: 20px 10px !important;
-}
-
 .intertime h2 {
     font-size: 25px;
 }
@@ -74,6 +56,24 @@
     margin-bottom: 30px;
 }
 
+.pserdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.iconspheading {
+    font-size: 18px;
+}
+
+.spiconflex2 {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.psicnimg {
+    width: 40px;
+}
 
 /*! inter / obser pg   end*/
 
@@ -136,14 +136,13 @@
     font-size: 15px;
 }
 
-.intertable th,td {
-    font-size: 13px;
+.iconspheading {
+    font-size: 14px;
 }
-.intertable th,td {
-    padding: 10px 5px !important;
+.psicnimg {
+    width: 25px;
+    margin-right: 5px;
 }
-
-
 
 
 /*! inter / obser pg   end*/

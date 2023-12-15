@@ -163,6 +163,9 @@ span.headbordervision {
     flex-wrap: wrap;
     align-content: start;
 }
+.latshriimg {
+    text-align: end;
+}
 
 .visionmiss {
     /* background: #ffe468; */
@@ -186,12 +189,9 @@ span.vismiheadimg {
     align-items: center;
     justify-content: center;
 }
+
 .vismispara p {
-    font-size: 15px;
-    font-weight: 500;
-}
-.vismispara p {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     margin-top: 20px;
 }
@@ -294,15 +294,25 @@ span.headborderbof {
     width: 60%;
 }
 .bodpar {
-    font-size: 14px;
+    font-size: 17px;
     color: black;
     font-weight: 400;
+}
+.abouttopslide {
+    border-radius: 10px;
+    width: 90%;
 }
 
 .bodprofileimg {
     width: 180px;
     display: block;
     margin: auto;
+}
+.topbodofdirdata1{
+    width: 60%;
+}
+.topbodofdirdata2{
+    width: 40%;
 }
 
 .bodname {
@@ -368,7 +378,7 @@ span.headborderbof {
 }
 
 .awarsliderbox {
-    background: #FFFBED;
+    background: #ffffff;
     padding: 40px 20px;
     border-radius: 10px;
 }
@@ -559,9 +569,24 @@ span.vismiheadimg {
 .visionmissparn {
     padding: 0px;
 }
-
-
-
+.topbodofdirdata1 {
+    width: 100%;
+}
+.topbodofdirdata2 {
+    width: 100%;
+}
+.abouttopslide {
+    width: 100%;
+}
+.bodpar {
+    font-size: 14px;
+}
+.aboutmobflex {
+    flex-direction: column-reverse;
+}
+.vismispara p {
+    font-size: 14px;
+}
 
 
 /*! about us pg   end*/

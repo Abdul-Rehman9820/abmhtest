@@ -37,141 +37,40 @@ const Aboutus = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-            <Image width={2000} height={400} src="/commonimages/commaboutusnew.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commaboutusnew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
       {/* about us pg start*/}
-      <div className="fullwithcont">
-        <div className="customcontainer2">
-          <div className="aboutuscont">
-            <h1 className="onemandreamhead">One man’s dream, every man’s hope!</h1>
-            <div className="aboutslider">
-              <div
-                id="carouselExampleIndicators60"
-                className="carousel slide carousel-fade"
-              >
-                <div className="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators60"
-                    data-bs-slide-to={0}
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators60"
-                    data-bs-slide-to={1}
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators60"
-                    data-bs-slide-to={2}
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <div className="aboutslidercontloop bgslideOrange">
-                      <div className="aboutslidercontloop1">
-                        <div className="abouttopslidehead">
-                          <h2>About shri late Aditya Vikram Birla</h2>
-                        </div>
-                        <div className="abouttopslidepara">
-                          <p>
-                          Mr. Aditya Birla, a visionary in Indian industry, embarked on the journey of building a global business empire at the young age of 24. In 1969, long before globalization became a buzzword in India, he put Indian business on the world map, 
-                          setting up world-class production bases in vibrant South East Asian countries.
-                          </p>
-                          <p>
-                          Anticipating the winds of change, he staked the future of his business on a competitive, free market-driven economic order. Under his leadership, the Aditya Birla Group became the world&lsquo;s largest producer of viscose staple fibre, the largest refiner of palm oil, 
-                          and achieved significant milestones in various sectors, both in India and globally.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="aboutslidercontloop2">
-                        <Image width={400} height={400}
-                          src="/aboutusimg/abouttopslide2.jpg"
-                          className="abouttopslide"
-                          alt="img"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="carousel-item ">
-                    <div className="aboutslidercontloop bgslideRed">
-                      <div className="aboutslidercontloop1">
-                        <div className="abouttopslidehead">
-                          <h2>About shri late Aditya Vikram Birla</h2>
-                        </div>
-                        <div className="abouttopslidepara">
-                          <p>
-                          Mr. Birla believed in a unique form of globalization, where a business could be global while being rooted in India. His relentless efforts positioned his companies as industry leaders, 
-                          earning respect as one of India&lsquo;s finest business houses and the first India-based international Group.
-                          </p>
-                          <p>
-                          At the time of his untimely demise in 1995, the Group&lsquo;s global revenues had crossed Rs.8,000 crore, with assets exceeding Rs.9,000 crore. The legacy he left behind included 55 benchmark quality plants, an employee strength of 75,000, and a shareholder community of 600,000. His companies not 
-                          only created enormous wealth for the nation but also garnered respect for Indian entrepreneurship in South East Asia.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="aboutslidercontloop2">
-                        <Image width={400} height={400}
-                          src="/aboutusimg/abouttopslide2.jpg"
-                          className="abouttopslide"
-                          alt="img"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="carousel-item ">
-                    <div className="aboutslidercontloop bgslidegray">
-                      <div className="aboutslidercontloop1">
-                        <div className="abouttopslidehead">
-                          <h2>About shri late Aditya Vikram Birla</h2>
-                        </div>
-                        <div className="abouttopslidepara">
-                          <p>
-                          Mr. Aditya Birla&lsquo;s dream of India attaining a respectable rank among developed nations remains an enduring inspiration. He took pride in being an Indian and, 
-                          through his unmatched success, left an indelible mark on Indian industry, forever remembered as a pioneer and a true visionary.
-                          </p>
 
-                        </div>
-                      </div>
-                      <div className="aboutslidercontloop2">
-                        <Image width={400} height={400}
-                          src="/aboutusimg/abouttopslide2.jpg"
-                          className="abouttopslide"
-                          alt="img"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators60"
-                  data-bs-slide="prev"
-                >
-                  <span className="carousel-control-prev-icon" aria-hidden="true">
-                    <Image width={400} height={400} src="/aboutusimg/nextleft.png" alt="img" />
-                  </span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators60"
-                  data-bs-slide="next"
-                >
-                  <span className="carousel-control-next-icon" aria-hidden="true">
-                    <Image width={400} height={400} src="/aboutusimg/nextright.png" alt="img" />
-                  </span>
-                  <span className="visually-hidden">Next</span>
-                </button>
+      <div className="parentcontainerwhi bodofdirredbg mt-5 mb-5">
+        <div className="customcontainer">
+          <div className="BoardofDirectors">
+            <div className="Specialtiespartbof">
+              <div className="Specialtiesheadbof">
+                <h2 className="oursepperbof">About shri late Aditya Vikram Birla</h2>
+                <span className="headborderbof" />
+              </div>
+            </div>
+            <div className="bodofdirdata aboutmobflex">
+              <div className="topbodofdirdata1">
+                <p className="bodpar mt-4">
+                Mr. Aditya Birla, a visionary in Indian industry, embarked on the journey of building a global business empire at the young age of 24. In 1969, long before globalization became a buzzword in India, he put Indian business on the world map, 
+                setting up world-class production bases in vibrant South East Asian countries.<br></br><br></br>
+                Anticipating the winds of change, he staked the future of his business on a competitive, free market-driven economic order. Under his leadership, the Aditya Birla Group became the world‘s largest producer of viscose staple fibre, the largest refiner of palm oil, 
+                and achieved significant milestones in various sectors, both in India and globally.<br></br><br></br>
+                Mr. Birla believed in a unique form of globalization, where a business could be global while being rooted in India. His relentless efforts positioned his companies as industry leaders, earning respect as one of India‘s 
+                finest business houses and the first India-based international Group.<br></br><br></br>
+                At the time of his untimely demise in 1995, the Group‘s global revenues had crossed Rs.8,000 crore, with assets exceeding Rs.9,000 crore. The legacy he left behind included 55 benchmark quality plants, an employee strength of 75,000, and a shareholder community of 600,000. 
+                His companies not only created enormous wealth for the nation but also garnered respect for Indian entrepreneurship in South East Asia.<br></br><br></br>
+                Mr. Aditya Birla‘s dream of India attaining a respectable rank among developed nations remains an enduring inspiration. He took pride in being an Indian and, through his unmatched success, left an indelible mark on Indian industry, 
+                forever remembered as a pioneer and a true visionary.
+                </p>
+              </div>
+              <div className="topbodofdirdata2 latshriimg">
+
+              <Image width={400} height={400} className="abouttopslide mt-4" src="/aboutusimg/abouttopslide2.jpg" alt="img" />
+        
               </div>
             </div>
           </div>
@@ -344,7 +243,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <div className="parentcontainerwhi bodofdirredbg" id="award-achievement">
+      <div className="parentcontainerwhi bodofdirredbg mb-5" id="award-achievement">
         <div className="customcontainer">
           <div className="BoardofDirectors">
             <div className="Specialtiespartbof">

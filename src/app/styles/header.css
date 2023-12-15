@@ -396,11 +396,14 @@ span.BookApimg {
 .commansearchbox {
   width: 100%;
   height: 100%;
-  background: #ffe468;
+  background: #ffe468eb;
   z-index: 200;
   position: fixed;
   top: 0;
   display: none;
+}
+.searchinput::-webkit-input-placeholder {
+  color: black;
 }
 .serachboxform {
   width: 90%;

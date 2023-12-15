@@ -55,84 +55,102 @@ const Interobserv = () => {
           <div className="intershimain">
 
             <div className="intertime mt-4">
-              <h2>
-                Patient Services : Services @ ABMH International</h2>
+              <h2>Patient Services : Services @ ABMH International</h2>
             </div>
-            <table className="table table-hover table-bordered intertable bgseryellow">
-              <thead>
 
-              </thead>
+            <div className="psercont mt-4 mb-4">
 
-              <tbody>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Assistance with Treatment Opinion</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Remote Consultations</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Scheduling Appointments</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Cost Estimates</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Assistance with Accommodation</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Daily Treatment Updates</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Language Interpretation Services</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Local Sight-Seeing Tours</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Special Care for Disabled</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Post-Operative Rehabilitation</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Multi-Lingual Library Movies</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Assistance with Treatment Opinion</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Dedicated Concierge Service</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Airport Pick Up</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Multiple Payment Options</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">End-to-End Services</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Legal Registration Procedures</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Assistance with Shopping</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Foreign Currency Exchange</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Home Delivery of Medicines</h2></div>
+              </div>
+              <div className="pserdiv">
+                <div className="spiconflex1"><Image width={50} height={50} className="psicnimg" src="/commonimages/psicon.png" alt="icon" /></div>
+                <div className="spiconflex2"><h2 className="iconspheading">Internet Services</h2></div>
+              </div>
 
-                <tr>
-                  <td>Assistance with Treatment Opinion</td>
-                </tr>
-                <tr>
-                  <td>Remote Consultations</td>
-                </tr>
-                <tr>
-                  <td>Scheduling Appointments</td>
-                </tr>
-                <tr>
-                  <td>Cost Estimates</td>
-                </tr>
-                <tr>
-                  <td>Assistance with Accommodation</td>
-                </tr>
-                <tr>
-                  <td>Daily Treatment Updates</td>
-                </tr>
-                <tr>
-                  <td>Language Interpretation Services</td>
-                </tr>
-                <tr>
-                  <td>Local Sight-Seeing Tours</td>
-                </tr>
-                <tr>
-                  <td>Special Care for Disabled</td>
-                </tr>
-                <tr>
-                  <td>Post-Operative Rehabilitation</td>
-                </tr>
-                <tr>
-                  <td>Multi-Lingual Library Movies</td>
-                </tr>
-                <tr>
-                  <td>Assistance with Treatment Opinion</td>
-                </tr>
-                <tr>
-                  <td>Dedicated Concierge Service</td>
-                </tr>
-                <tr>
-                  <td>Airport Pick Up</td>
-                </tr>
-                <tr>
-                  <td>Multiple Payment Options</td>
-                </tr>
-                <tr>
-                  <td>End-to-End Services</td>
-                </tr>
-                <tr>
-                  <td>Legal Registration Procedures</td>
-                </tr>
-                <tr>
-                  <td>Assistance with Shopping</td>
-                </tr>
-                <tr>
-                  <td>Foreign Currency Exchange</td>
-                </tr>
-                <tr>
-                  <td>Home Delivery of Medicines</td>
-                </tr>
-                <tr>
-                  <td>Internet Services</td>
-                </tr>
-           
-              </tbody>
+            </div>
 
-            </table>
+
+
           </div>
+
         </div>
       </div>
       {/* inter / obser pg end*/}
