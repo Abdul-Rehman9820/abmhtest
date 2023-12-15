@@ -581,10 +581,10 @@ button.dropbtnmy .fa {
 
 
 /* header  issse*/
-@media screen and (max-width: 1500px) and (min-width: 768px) {
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
 
   .header.deckstophead .customcontainer {
-    max-width: 100% !important;
+    max-width: 96% !important;
   }
 
 
@@ -721,6 +721,12 @@ input.searchinput {
 }
 .poplogoimg {
   width: 100%;
+}
+.mobilehead .headerNavbarcont {
+  margin-top: 5px;
+}
+#myDropdownsp {
+  padding-top: 0px !important;
 }
 
 

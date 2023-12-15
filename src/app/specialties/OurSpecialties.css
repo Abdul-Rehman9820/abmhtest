@@ -375,7 +375,10 @@
 #newbysir .spefColiconContspsearch img {
     margin-top: 3px;
 }
-
+#myInputsp {
+    font-size: 12px;
+    border-radius: 0px;
+}
 
 
 /*! specialties end*/
