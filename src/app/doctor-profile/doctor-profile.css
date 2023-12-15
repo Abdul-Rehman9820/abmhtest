@@ -97,7 +97,7 @@
 /* bootstrap ----------*/
 .mynewtab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #A21B18;
-    background-color: #FFFBED;
+    background-color: #ffe468;
     border: 1px solid #a4221f;
 }
 
@@ -110,9 +110,7 @@
     margin-right: 10px;
 }
 .dbdata {
-    background: #FFF9E0;
-    border: 1px solid #a21b18;
-    padding: 20px;
+    padding: 0 20px 0 0;
 }
 
 /* bootstrap ----------*/
@@ -151,7 +149,7 @@ span.roundred {
     left: 0;
     top: 6px;
     display: block;
-    background: #a21b18;
+    background: #000000;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -212,7 +210,7 @@ span.roundred {
     }
 
     .dbdata::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
         background-color: #F5F5F5;
     }
     .dbdata::-webkit-scrollbar-thumb {

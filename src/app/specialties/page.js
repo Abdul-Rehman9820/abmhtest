@@ -240,13 +240,13 @@ const Specialties = () => {
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Cardic Anesthesiology.jpg"
+                                  src="/specialtiesimg/Cardiac Anesthesiology.jpg"
                                   alt="img"
                                 />
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/cardic-anesthesiology">
-                                  <h2>Cardic Anesthesiology</h2>
+                                <Link href="/specialties/cardiac-anesthesiology">
+                                  <h2>Cardiac Anesthesiology</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search

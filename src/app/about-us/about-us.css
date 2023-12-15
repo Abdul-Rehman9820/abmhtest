@@ -151,7 +151,7 @@ span.headbordervision {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: start;
 }
 .vissionandmission2 {
     width: 33%;
@@ -161,13 +161,13 @@ span.headbordervision {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: start;
 }
 
 .visionmiss {
-    background: #ffe468;
+    /* background: #ffe468; */
     padding: 20px 40px;
-    box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%);
+    /* box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%); */
 }
 
 .vismisconhead img {
