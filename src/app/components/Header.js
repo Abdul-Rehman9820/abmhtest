@@ -152,6 +152,9 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className="headerNavbarcont">
+                                <div className="headerNavbarcontrightforspace">
+
+                                </div>
                                 <div className="headerNavbarcontright">
 
                                     <div className="navbarmy">

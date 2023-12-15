@@ -81,7 +81,7 @@ const Ophthalmology = () => {
       <title>Ophthalmology</title>
 
       {/* common heading div start*/}
-      <div className="parentcontainerwhi">
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
@@ -93,14 +93,14 @@ const Ophthalmology = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* common heading div end*/}
       {/* common heading banner start */}
-      <div className="mainheadingbanner">
+      {/* <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
           <Image width={2000} height={400} src="/specialityviewimag/Multi-specialities-banner.jpg" alt="icon" />
         </div>
-      </div>
+      </div> */}
       {/* common heading banner end */}
 
 
@@ -224,7 +224,7 @@ const Ophthalmology = () => {
 
               <div
                 id="carouselExampleIndicators"
-                className="carousel slide carousel-fade"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
 
