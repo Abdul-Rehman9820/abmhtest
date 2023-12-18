@@ -75,7 +75,7 @@ const Workwithus = () => {
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
-                    aria-expanded="true"
+                    aria-expanded="ture"
                     aria-controls="collapseOne"
                   >
                     Assistance with Treatment Details
@@ -83,9 +83,9 @@ const Workwithus = () => {
                 </h2>
                 <div
                   id="collapseOne"
-                  className="accordion-collapse collapse"
+                  className="accordion-collapse collapsed show"
                   aria-labelledby="headingOne"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -95,10 +95,12 @@ const Workwithus = () => {
                 </div>
               </div>
 
+              
+
               <div className="accordion-item">
-                <h2 className="accordion-header">
+                <h2 className="accordion-header" id="headingTwo">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse2"
@@ -111,7 +113,7 @@ const Workwithus = () => {
                 <div
                   id="collapse2"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -124,11 +126,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse3"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Assistance with Visa and Travel Documents
@@ -137,7 +139,7 @@ const Workwithus = () => {
                 <div
                   id="collapse3"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -151,11 +153,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse4"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Airport Transfers
@@ -164,7 +166,7 @@ const Workwithus = () => {
                 <div
                   id="collapse4"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -173,14 +175,15 @@ const Workwithus = () => {
                   </div>
                 </div>
               </div>
+
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse5"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Pre-Admission Accommodation
@@ -189,7 +192,7 @@ const Workwithus = () => {
                 <div
                   id="collapse5"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -201,11 +204,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse6"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Scheduling of Consultations
@@ -214,7 +217,7 @@ const Workwithus = () => {
                 <div
                   id="collapse6"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -226,11 +229,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse7"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Registration & Admission
@@ -239,7 +242,7 @@ const Workwithus = () => {
                 <div
                   id="collapse7"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -251,11 +254,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse8"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Legal Registrations
@@ -264,7 +267,7 @@ const Workwithus = () => {
                 <div
                   id="collapse8"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -276,11 +279,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse9"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Payment Options
@@ -289,7 +292,7 @@ const Workwithus = () => {
                 <div
                   id="collapse9"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -301,11 +304,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse10"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Language Interpretation Services
@@ -314,7 +317,7 @@ const Workwithus = () => {
                 <div
                   id="collapse10"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -326,11 +329,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse11"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Treatment Updates
@@ -339,7 +342,7 @@ const Workwithus = () => {
                 <div
                   id="collapse11"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -351,11 +354,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse12"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Local Sight-Seeing
@@ -364,7 +367,7 @@ const Workwithus = () => {
                 <div
                   id="collapse12"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -376,11 +379,11 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse13"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapse2"
                   >
                     Concierge Services
@@ -389,7 +392,7 @@ const Workwithus = () => {
                 <div
                   id="collapse13"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -399,37 +402,10 @@ const Workwithus = () => {
                 </div>
               </div>
 
-              {/* <div className="accordion-item">
-                <h2 className="accordion-header" id="headingThree">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Nursing -03 Vacancies
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
-
-                >
-                  <div className="accordion-body">
-                    <div className="mytabdata">
-                 
-                 
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-
-
 
             </div>
+
+
 
 
           </div>

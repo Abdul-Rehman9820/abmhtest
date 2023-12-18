@@ -83,9 +83,9 @@ const Workwithus = () => {
                 </h2>
                 <div
                   id="collapseOne"
-                  className="accordion-collapse collapse"
+                  className="accordion-collapse collapse show"
                   aria-labelledby="headingOne"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -100,10 +100,11 @@ const Workwithus = () => {
                   </div>
                 </div>
               </div>
+
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse2"
@@ -116,7 +117,7 @@ const Workwithus = () => {
                 <div
                   id="collapse2"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -133,7 +134,7 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse4"
@@ -146,7 +147,7 @@ const Workwithus = () => {
                 <div
                   id="collapse4"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -163,7 +164,7 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse5"
@@ -176,7 +177,7 @@ const Workwithus = () => {
                 <div
                   id="collapse5"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">
@@ -197,7 +198,7 @@ const Workwithus = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapse3"
@@ -210,7 +211,7 @@ const Workwithus = () => {
                 <div
                   id="collapse3"
                   className="accordion-collapse collapse"
-
+                  data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
                     <div className="mytabdata">

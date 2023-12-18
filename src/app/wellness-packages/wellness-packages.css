@@ -128,11 +128,38 @@ span.headborder {
     font-weight: 300;
 }
 .lablebox1 h2 {
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     font-weight: 500;
     margin: 0;
     font-family: 'Poppins';
+}
+.welpacprice {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a21b18;
+}
+.mybotwellpopup {
+    border: navajowhite;
+    color: #a21b18;
+    font-weight: 500;
+    font-size: 16px;
+}
+.mybookpopupbtn {
+    border: unset;
+    background: #A21B18;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.welpopleftprice {
+    border: unset;
+    color: #a21b18;
+    font-weight: 700;
+    font-size: 16px;
+}
+.mybookpopupbtn a{
+    color: white;
+    font-size: 16px;
 }
 
 .lablebox1 {

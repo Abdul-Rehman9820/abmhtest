@@ -55,10 +55,8 @@ const WellnessPack = () => {
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
-                    <h2>
-                      Coronary<br />
-                      Risk
-                    </h2>
+                    <h2>Coronary Risk</h2>
+                    <div className='welpacprice'>₹ 10200</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -73,13 +71,14 @@ const WellnessPack = () => {
                   <h2> Colour Doppler</h2>
                   <h2>Ambulatory BP</h2>
                   <h2>
-                    Physical Evaluation + <span className="seeactive">16 more</span>
+                    Physical Evaluation <span className="seeactive"> <button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#CoronaryRisk">+ 16 more</button> </span>
                   </h2>
+
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="">
-                      BUY NOW FOR ₹ 10200
+                      Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -89,14 +88,63 @@ const WellnessPack = () => {
                     </a>
                   </button>
                 </div>
+
               </div>
+
+              <>
+                {/* Modal  Coronary Risk */}
+                <div
+                  className="modal fade"
+                  id="CoronaryRisk"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                         Coronary Risk
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="lableseemore">
+                          <h2>ECG</h2>
+                          <h2>Stress test/2D Echo </h2>
+                          <h2> Colour Doppler</h2>
+                          <h2>Ambulatory BP</h2>
+                          <h2>Physical Evaluation</h2>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" class="welpopleftprice">₹ 10200</button>
+                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
+
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Executive <br />
-                      Health
+                      Executive Health
                     </h2>
+                    <div className='welpacprice'>₹ 10000</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -111,13 +159,13 @@ const WellnessPack = () => {
                   <h2>DET</h2>
                   <h2>ENT</h2>
                   <h2>
-                    Ophthalmic + <span className="seeactive">17 more</span>
+                    Ophthalmic <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#ExecutiveHealth">+ 17 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="">
-                      BUY NOW FOR ₹ 10000
+                      Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -128,13 +176,61 @@ const WellnessPack = () => {
                   </button>
                 </div>
               </div>
+
+              <>
+                {/* Modal  ExecutiveHealth */}
+                <div
+                  className="modal fade"
+                  id="ExecutiveHealth"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                          Executive Health
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="lableseemore">
+                          <h2>ECG</h2>
+                          <h2>Stress test/2D Echo </h2>
+                          <h2> Colour Doppler</h2>
+                          <h2>Ambulatory BP</h2>
+                          <h2>Physical Evaluation</h2>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" class="welpopleftprice">₹ 10000</button>
+                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
+
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Senior <br />
-                      Citizen (60+)
+                      Senior Citizen (60+)
                     </h2>
+                    <div className='welpacprice'>₹ 9500</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -149,13 +245,13 @@ const WellnessPack = () => {
                   <h2>PFT </h2>
                   <h2>Diet & Life Style</h2>
                   <h2>
-                    Orthopedic + <span className="seeactive">22 more</span>
+                    Orthopedic <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#SeniorCitizen">+ 22 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="">
-                      BUY NOW FOR ₹ 9500
+                      Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -166,13 +262,60 @@ const WellnessPack = () => {
                   </button>
                 </div>
               </div>
+
+              <>
+                {/* Modal  SeniorCitizen */}
+                <div
+                  className="modal fade"
+                  id="SeniorCitizen"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                          Senior Citizen (60+)
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="lableseemore">
+                          <h2>ECG</h2>
+                          <h2>Stress test/2D Echo </h2>
+                          <h2> Colour Doppler</h2>
+                          <h2>Ambulatory BP</h2>
+                          <h2>Physical Evaluation</h2>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" class="welpopleftprice">₹ 9500</button>
+                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Well Woman<br />
-                      Check-up
+                      Well Woman Check-up
                     </h2>
+                    <div className='welpacprice'>₹ 6600</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -187,13 +330,13 @@ const WellnessPack = () => {
                   <h2>Lipid Profile </h2>
                   <h2>Sr. Creatinine</h2>
                   <h2>
-                    Sr. Calcium Test + <span className="seeactive">7 more</span>
+                    Sr. Calcium Test <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#Well-Woman-Check-up">+ 7 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="">
-                      BUY NOW FOR ₹ 6600
+                      Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -204,13 +347,60 @@ const WellnessPack = () => {
                   </button>
                 </div>
               </div>
+
+              <>
+                {/* Modal  Well-Woman-Check-up */}
+                <div
+                  className="modal fade"
+                  id="Well-Woman-Check-up"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                          Well Woman Check-up
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="lableseemore">
+                          <h2>ECG</h2>
+                          <h2>Stress test/2D Echo </h2>
+                          <h2> Colour Doppler</h2>
+                          <h2>Ambulatory BP</h2>
+                          <h2>Physical Evaluation</h2>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" class="welpopleftprice">₹ 6600</button>
+                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      Pre-Employment<br />
-                      Check-up
+                      Pre-Employment Check-up
                     </h2>
+                    <div className='welpacprice'>₹ 4000</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -225,13 +415,13 @@ const WellnessPack = () => {
                   <h2>Blood Group </h2>
                   <h2>Blood Glucose (R)</h2>
                   <h2>
-                    HIV Test + <span className="seeactive">4 more</span>
+                    HIV Test <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#Pre-Employment-Check-up">+ 4 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="">
-                      BUY NOW FOR ₹ 4000
+                      Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -242,13 +432,60 @@ const WellnessPack = () => {
                   </button>
                 </div>
               </div>
+
+              <>
+                {/* Modal  Pre-Employment-Check-up */}
+                <div
+                  className="modal fade"
+                  id="Pre-Employment-Check-up"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                         Pre-Employment Check-up
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="lableseemore">
+                          <h2>ECG</h2>
+                          <h2>Stress test/2D Echo </h2>
+                          <h2> Colour Doppler</h2>
+                          <h2>Ambulatory BP</h2>
+                          <h2>Physical Evaluation</h2>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" class="welpopleftprice">₹ 4000</button>
+                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
                     <h2>
-                      ABMH <br />
-                      IT
+                      ABMH IT
                     </h2>
+                    <div className='welpacprice'>₹ 10200</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -263,13 +500,13 @@ const WellnessPack = () => {
                   <h2>Blood Glucose (F) </h2>
                   <h2>Lipid Profile</h2>
                   <h2>
-                    GGT Test + <span className="seeactive">15 more</span>
+                    GGT Test <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#ABMH-IT">+ 15 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
                     <a href="">
-                      BUY NOW FOR ₹ 10200
+                      Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
                           src="/wellnesspageimg/right-arrow-wellness.png"
@@ -280,6 +517,53 @@ const WellnessPack = () => {
                   </button>
                 </div>
               </div>
+
+              <>
+                {/* Modal  ABMH-IT */}
+                <div
+                  className="modal fade"
+                  id="ABMH-IT"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                         ABMH IT
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="lableseemore">
+                          <h2>ECG</h2>
+                          <h2>Stress test/2D Echo </h2>
+                          <h2> Colour Doppler</h2>
+                          <h2>Ambulatory BP</h2>
+                          <h2>Physical Evaluation</h2>
+                        </div>
+
+                      </div>
+
+                      <div class="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" class="welpopleftprice">₹ 10200</button>
+                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
             </div>
           </div>
         </div>
@@ -415,7 +699,7 @@ const WellnessPack = () => {
                       <div className="accordion-body">
                         <div className="faqdata">
                           <p>
-                          Our wellness packages are carefully curated to include a combination of services and resources tailored to enhance your well-being. 
+                            Our wellness packages are carefully curated to include a combination of services and resources tailored to enhance your well-being.
                           </p>
                         </div>
                       </div>
@@ -441,8 +725,8 @@ const WellnessPack = () => {
                       <div className="accordion-body">
                         <div className="faqdata">
                           <p>
-                          To help you choose the most suitable package, consider your specific wellness goals, preferences, and any health considerations. 
-                          Our Experts can also guide you in selecting the package that aligns with your needs.
+                            To help you choose the most suitable package, consider your specific wellness goals, preferences, and any health considerations.
+                            Our Experts can also guide you in selecting the package that aligns with your needs.
                           </p>
                         </div>
                       </div>
@@ -483,7 +767,7 @@ const WellnessPack = () => {
                         data-bs-target="#collapse4"
                         aria-expanded="false"
                       >
-                       Are there any hidden fees associated with the wellness packages?
+                        Are there any hidden fees associated with the wellness packages?
                       </button>
                     </h2>
                     <div
@@ -494,7 +778,7 @@ const WellnessPack = () => {
                       <div className="accordion-body">
                         <div className="faqdata">
                           <p>
-                             No, we are committed to transparency. All fees associated with our wellness packages are clearly outlined during the purchase process. There are no hidden fees.
+                            No, we are committed to transparency. All fees associated with our wellness packages are clearly outlined during the purchase process. There are no hidden fees.
                           </p>
                         </div>
                       </div>
@@ -520,7 +804,7 @@ const WellnessPack = () => {
                       <div className="accordion-body">
                         <div className="faqdata">
                           <p>
-                             Booking details are provided upon purchase. Typically, you can schedule services through our website or call our customer care on 98811 23006.
+                            Booking details are provided upon purchase. Typically, you can schedule services through our website or call our customer care on 98811 23006.
                           </p>
                         </div>
                       </div>
