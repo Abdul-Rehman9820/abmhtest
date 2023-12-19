@@ -81,7 +81,7 @@ const Clinicalhematology = () => {
       <title>Clinical Hematology</title>
 
       {/* common heading div start*/}
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
@@ -93,7 +93,7 @@ const Clinicalhematology = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* common heading div end*/}
       {/* common heading banner start */}
       {/* <div className="mainheadingbanner">

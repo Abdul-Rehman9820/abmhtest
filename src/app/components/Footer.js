@@ -190,14 +190,25 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="footermainbelw2">{/* just for space */}</div>
-              <div className="footermainbelw3">
-                <div className="linkbox">
-                  <div className="linkfootdiv">
-                    {/* <div class="linkfoolist"><Link href="/serchher">Site Map </Link> </div> */}
+              <div className="footermainbelw2">
+
+                <div className="awardandimgbox">
+
+                  <div className="awardandimg ms-4">
+                    <Image width={200} height={200} src="/homeimg/ACHSfooter.png" alt="img" />
                   </div>
+                  <div className="awardandimg ms-2">
+                    <Image width={200} height={200} src="/homeimg/HACCPfooter.png" alt="img" />
+                  </div>
+
                 </div>
+
               </div>
+
+              <div className="footermainbelw3">
+
+              </div>
+
             </div>
             {/* mainclose */}
           </div>
@@ -274,7 +285,7 @@ const Footer = () => {
               </div>
               <div className="footermaincol2">{/* only for space */}</div>
               <div className="footermaincol3">
-              <div className="linkbox">
+                <div className="linkbox">
                   <h2>QUICK LINKS</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
@@ -306,7 +317,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footermain">
+            <div className="footermain flexawarand">
 
 
               <div className="mobilesub">
@@ -318,8 +329,8 @@ const Footer = () => {
                       <Link href="/">+91 98811 23006</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Image width={400} height={400}className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                       <Link href="mailto:doctorshealthcare@adityabirla.com">doctorshealthcare@adityabirla.com</Link>
+                      <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
+                      <Link href="mailto:doctorshealthcare@adityabirla.com">doctorshealthcare@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
@@ -331,6 +342,17 @@ const Footer = () => {
                     </div>
                   </div>
                 </div> */}
+              </div>
+
+              <div className="awardandimgbox">
+
+                <div className="awardandimg">
+                  <Image width={200} height={200} src="/homeimg/ACHSfooter.png" alt="img" />
+                </div>
+                <div className="awardandimg ms-2">
+                  <Image width={200} height={200} src="/homeimg/HACCPfooter.png" alt="img" />
+                </div>
+
               </div>
 
 
