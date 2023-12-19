@@ -159,7 +159,7 @@ const WellnessPack = () => {
                   <h2>DET</h2>
                   <h2>ENT</h2>
                   <h2>
-                    Ophthalmic <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#ExecutiveHealth">+ 17 more</button></span>
+                    Ophthalmic <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#ExecutiveHealth">+ 22 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">
@@ -245,7 +245,7 @@ const WellnessPack = () => {
                   <h2>PFT </h2>
                   <h2>Diet & Life Style</h2>
                   <h2>
-                    Orthopedic <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#SeniorCitizen">+ 22 more</button></span>
+                    Orthopedic <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#SeniorCitizen">+ 24 more</button></span>
                   </h2>
                 </div>
                 <div className="labchoimgbox2">

@@ -172,6 +172,14 @@ span.headbordervision {
     padding: 20px 40px;
     /* box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%); */
 }
+.aboutreadmorbtn{
+    border: unset;
+    background: #A21B18;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
 
 .vismisconhead img {
     width: 40px;
@@ -300,7 +308,7 @@ span.headborderbof {
 }
 .abouttopslide {
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
 }
 
 .bodprofileimg {

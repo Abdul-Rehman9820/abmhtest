@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist fomail">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                      <Link href="/">doctorshealthcare@adityabirla.com</Link>
+                      <Link href="mailto:doctorshealthcare@adityabirla.com">doctorshealthcare@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ const Footer = () => {
                   <h2>Emergency Service</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/">+91-20-3071 7500-3</Link>
+                      <Link href="tel:+9120307175003">+91-20-3071 7500-3</Link>
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ const Footer = () => {
                   <h2>Ambulance Service</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/">+91-20-40707777/30717777</Link>
+                      <Link href="tel: +912040707777">+91-20-40707777/30717777</Link>
                     </div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ const Footer = () => {
                   <h2>ABMH Assist</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="/">+91 98811 23006</Link>
+                      <Link href="tel: +919881123006">+91 98811 23006</Link>
                     </div>
                   </div>
                 </div>
@@ -319,7 +319,7 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist">
                       <Image width={400} height={400}className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                       <Link href="/">doctorshealthcare@adityabirla.com</Link>
+                       <Link href="mailto:doctorshealthcare@adityabirla.com">doctorshealthcare@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
@@ -349,7 +349,7 @@ const Footer = () => {
                   <h2>Emergency Service</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="">+91-20-3071 7500-3</Link>
+                      <Link href="tel: +9120307175003">+91-20-3071 7500-3</Link>
                     </div>
                   </div>
                 </div>
@@ -357,7 +357,7 @@ const Footer = () => {
                   <h2>Ambulance Service</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="">+91-20-40707777/30717777</Link>
+                      <Link href="tel: +912040707777">+91-20-40707777/30717777</Link>
                     </div>
                   </div>
                 </div>
@@ -365,7 +365,7 @@ const Footer = () => {
                   <h2>ABMH Assist</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="">+91 98811 23006</Link>
+                      <Link href="tel: +919881123006">+91 98811 23006</Link>
                     </div>
                   </div>
                 </div>

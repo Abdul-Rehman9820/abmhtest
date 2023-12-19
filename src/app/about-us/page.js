@@ -46,31 +46,56 @@ const Aboutus = () => {
       <div className="parentcontainerwhi bodofdirredbg mt-5 mb-5">
         <div className="customcontainer">
           <div className="BoardofDirectors">
-            <div className="Specialtiespartbof">
-              <div className="Specialtiesheadbof">
-                <h2 className="oursepperbof">About shri late Aditya Vikram Birla</h2>
-                <span className="headborderbof" />
-              </div>
-            </div>
+
+
             <div className="bodofdirdata aboutmobflex">
+
+
               <div className="topbodofdirdata1">
+
+                <div className="Specialtiespartbof">
+                  <div className="Specialtiesheadbof">
+                    <h2 className="oursepperbof">About shri late Aditya Vikram Birla</h2>
+                    <span className="headborderbof" />
+                  </div>
+                </div>
+
                 <p className="bodpar mt-4">
-                Mr. Aditya Birla, a visionary in Indian industry, embarked on the journey of building a global business empire at the young age of 24. In 1969, long before globalization became a buzzword in India, he put Indian business on the world map, 
-                setting up world-class production bases in vibrant South East Asian countries.<br></br><br></br>
-                Anticipating the winds of change, he staked the future of his business on a competitive, free market-driven economic order. Under his leadership, the Aditya Birla Group became the world‘s largest producer of viscose staple fibre, the largest refiner of palm oil, 
-                and achieved significant milestones in various sectors, both in India and globally.<br></br><br></br>
-                Mr. Birla believed in a unique form of globalization, where a business could be global while being rooted in India. His relentless efforts positioned his companies as industry leaders, earning respect as one of India‘s 
-                finest business houses and the first India-based international Group.<br></br><br></br>
-                At the time of his untimely demise in 1995, the Group‘s global revenues had crossed Rs.8,000 crore, with assets exceeding Rs.9,000 crore. The legacy he left behind included 55 benchmark quality plants, an employee strength of 75,000, and a shareholder community of 600,000. 
-                His companies not only created enormous wealth for the nation but also garnered respect for Indian entrepreneurship in South East Asia.<br></br><br></br>
-                Mr. Aditya Birla‘s dream of India attaining a respectable rank among developed nations remains an enduring inspiration. He took pride in being an Indian and, through his unmatched success, left an indelible mark on Indian industry, 
-                forever remembered as a pioneer and a true visionary.
+                  Mr. Aditya Birla, a visionary in Indian industry, embarked on the journey of building a global business empire at the young age of 24. In 1969, long before globalization became a buzzword in India, he put Indian business on the world map,
+                  setting up world-class production bases in vibrant South East Asian countries.<br></br><br></br>
+
+                  Anticipating the winds of change, he staked the future of his business on a competitive, free market-driven economic order. Under his leadership, the Aditya Birla Group became the world‘s largest producer of viscose staple fibre, the largest refiner of palm oil,
+                  and achieved significant milestones in various sectors, both in India and globally.<br></br><br></br>
+
+                  Mr. Birla believed in a unique form of globalization, where a business could be global while being rooted in India. His relentless efforts positioned his companies as industry leaders, earning respect as one of India‘s
+                  finest business houses and the first India-based international Group.
                 </p>
+
+
+
+                <div className="collapse" id="collapseExample">
+                  <div className="">
+
+                    <p className="bodpar">
+                      At the time of his untimely demise in 1995, the Group‘s global revenues had crossed Rs.8,000 crore, with assets exceeding Rs.9,000 crore. The legacy he left behind included 55 benchmark quality plants, an employee strength of 75,000, and a shareholder community of 600,000.
+                      His companies not only created enormous wealth for the nation but also garnered respect for Indian entrepreneurship in South East Asia.<br></br><br></br>
+
+                      Mr. Aditya Birla‘s dream of India attaining a respectable rank among developed nations remains an enduring inspiration. He took pride in being an Indian and, through his unmatched success, left an indelible mark on Indian industry,
+                      forever remembered as a pioneer and a true visionary.
+                    </p>
+
+                  </div>
+                </div>
+
+                <button className="aboutreadmorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Read More
+                </button>
+
               </div>
               <div className="topbodofdirdata2 latshriimg">
 
-              <Image width={400} height={400} className="abouttopslide mt-4" src="/aboutusimg/abouttopslide2.jpg" alt="img" />
-        
+                <Image width={400} height={400} className="abouttopslide mt-4" src="/aboutusimg/abouttopslide2.jpg" alt="img" />
+
               </div>
             </div>
           </div>
@@ -368,13 +393,13 @@ const Aboutus = () => {
                       </div>
                       <div className="awadandaccpara">
 
-                        <ul>
-                          <li>1. Performance Excellence Award – IMC Ramkrishna Bajaj National Award</li>
-                          <li>2. Global Award – Quality excellence for consumer protection (Patient Safety)</li>
-                          <li>3. National Quality Excellence Award – Quality excellence for consumer protection (Patient Safety)</li>
-                          <li>4. Garden &amp; Plantation Award – Best Garden and Plantation in PCMC area</li>
-                          <li>5. Quality Management System – Det Norske Veritas Management System Certificate</li>
-                        </ul>
+
+                        1. Performance Excellence Award – IMC Ramkrishna Bajaj National Award<br></br>
+                        2. Global Award – Quality excellence for consumer protection (Patient Safety)<br></br>
+                        3. National Quality Excellence Award – Quality excellence for consumer protection (Patient Safety)<br></br>
+                        4. Garden &amp; Plantation Award – Best Garden and Plantation in PCMC area<br></br>
+                        5. Quality Management System – Det Norske Veritas Management System Certificate<br></br>
+
 
                       </div>
                     </div>

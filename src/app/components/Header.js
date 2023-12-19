@@ -9,8 +9,9 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 
-import '../styles/commonglobalstyle.css'
 import '../styles/header.css'
+import '../styles/commonglobalstyle.css'
+
 
 
 
@@ -118,7 +119,7 @@ const Header = () => {
 
             {/* <Script type='text/javascript' src="/public/myjs/tawk.js" /> */}
 
-            <Script id="show-banner">
+            {/* <Script id="show-banner">
                 {`
                                 
                 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -132,7 +133,7 @@ const Header = () => {
                 })();
                 
                 `}
-            </Script>
+            </Script> */}
 
             <header>
                 {/* header deckstop start*/}
@@ -153,7 +154,7 @@ const Header = () => {
                                         <div className="twobtnChil">
                                             <div className="btnwidth">
                                                 <span className="BookApimg">
-                                                    <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/bookapo.png" alt="img" />
                                                 </span>
                                                 <Link href="/doctors">Book an Appointment</Link>
                                             </div>
@@ -161,7 +162,7 @@ const Header = () => {
                                         <div className="twobtnChil twobtnChilorg">
                                             <div className="btnwidth">
                                                 <span className="BookApimg">
-                                                    <Image width={1000} height={1000} src="/homeimg/ourspe.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/ourspe.png" alt="img" />
                                                 </span>
                                                 <Link href="/specialties">Our Specialties </Link>
                                             </div>
@@ -237,7 +238,7 @@ const Header = () => {
                                 <div className="headerNavbarcontleft">
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
-                                            <Image width={1000} height={1000}
+                                            <Image width={100} height={100}
                                                 className="showsearchbox"
                                                 src="/homeimg/abmhserchicon.png"
                                                 alt="img"
@@ -247,7 +248,7 @@ const Header = () => {
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
                                             <Link href="tel: +919881123033">
-                                                <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="img" />
+                                                <Image width={100} height={100} src="/homeimg/abmhsosimg.png" alt="img" />
                                             </Link>
                                         </div>
                                     </div>
@@ -285,7 +286,7 @@ const Header = () => {
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
 
-                                            <Image width={1000} height={1000}
+                                            <Image width={100} height={100}
                                                 className="showsearchbox"
                                                 src="/homeimg/abmhserchicon.png"
                                                 alt="img"
@@ -296,7 +297,7 @@ const Header = () => {
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
                                             <Link href="tel: +919881123033">
-                                                <Image width={1000} height={1000} src="/homeimg/abmhsosimg.png" alt="img" />
+                                                <Image width={100} height={100} src="/homeimg/abmhsosimg.png" alt="img" />
                                             </Link>
                                         </div>
                                     </div>
@@ -317,7 +318,7 @@ const Header = () => {
                                         <div className="twobtnChil">
                                             <div className="btnwidth">
                                                 <span className="BookApimg">
-                                                    <Image width={1000} height={1000} src="/homeimg/bookapo.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/bookapo.png" alt="img" />
                                                 </span>
                                                 <Link href="/doctors">Book an Appointment</Link>
                                             </div>
@@ -325,7 +326,7 @@ const Header = () => {
                                         <div className="twobtnChil twobtnChilorg">
                                             <div className="btnwidth">
                                                 <span className="BookApimg">
-                                                    <Image width={1000} height={1000} src="/homeimg/ourspe.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/ourspe.png" alt="img" />
                                                 </span>
                                                 <Link href="/specialties">Our Specialties</Link>
                                             </div>
@@ -349,7 +350,7 @@ const Header = () => {
                             </div>
                             <ul className="navul">
                                 <li className="commhamstyle">
-                                    <Link className='closeham' href="/">Home </Link>
+                                    <Link className='closeham' href="/">Home</Link>
                                 </li>
                                 <li className=" has-children">
                                     About Us
@@ -376,7 +377,7 @@ const Header = () => {
 
                                     </ul>
                                 </li>
-                                <li className=" has-children">
+                                <li className="has-children">
                                     Patient Care <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
@@ -463,7 +464,7 @@ const Header = () => {
                                             <Link className='closeham' href="/contact-us">
                                                 Request a call back
                                                 <span className="specicon">
-                                                    <Image width={1000} height={1000} src="/homeimg/right-arrow.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                                 </span>
                                             </Link>
                                         </button>
