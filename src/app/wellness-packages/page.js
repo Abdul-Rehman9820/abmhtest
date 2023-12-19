@@ -105,7 +105,7 @@ const WellnessPack = () => {
 
                       <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">
-                         Coronary Risk
+                          Coronary Risk
                         </h5>
                         <button
                           type="button"
@@ -116,12 +116,112 @@ const WellnessPack = () => {
                       </div>
                       <div className="modal-body">
 
-                        <div className="lableseemore">
-                          <h2>ECG</h2>
-                          <h2>Stress test/2D Echo </h2>
-                          <h2> Colour Doppler</h2>
-                          <h2>Ambulatory BP</h2>
-                          <h2>Physical Evaluation</h2>
+                        <div className="wellnepacktogel">
+
+                          <div className="accordion" id="accorCoronaryRisk">
+                          
+                            <div className="accordion-item">
+                              <h2 className="accordion-header"> 
+                                <button
+                                  className="accordion-button"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseOne"
+                                  aria-expanded="true"
+                                  aria-controls="collapseOne"
+                                >
+                                  Cardiac
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseOne"
+                                className="accordion-collapse collapse show"
+                                data-bs-parent="#accorCoronaryRisk"
+                              >
+                                <div className="accordion-body">
+                                  
+                                  <ul className='wellpackpopparaul'>
+                                    <li>Colour Doppler</li>
+                                    <li>Ambulatory BP</li>
+                                    <li>Physical Evaluation</li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                              <h2 className="accordion-header">
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseTwo"
+                                  aria-expanded="false"
+                                  aria-controls="collapseTwo"
+                                >
+                                   Consultancy
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseTwo"
+                                className="accordion-collapse collapse"
+                                data-bs-parent="#accorCoronaryRisk"
+                              >
+                                <div className="accordion-body">
+                                  This is the second item's accordion body.It is hidden
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                              <h2 className="accordion-header">
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapse3"
+                                  aria-expanded="false"
+                                  aria-controls="collapse3"
+                                >
+                                  Radiology
+                                </button>
+                              </h2>
+                              <div
+                                id="collapse3"
+                                className="accordion-collapse collapse"
+                                data-bs-parent="#accorCoronaryRisk"
+                              >
+                                <div className="accordion-body">
+                                 This is the second item's accordion body It is hidden
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                              <h2 className="accordion-header">
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapse4"
+                                  aria-expanded="false"
+                                  aria-controls="collapse4"
+                                >
+                                  Pathology
+                                </button>
+                              </h2>
+                              <div
+                                id="collapse4"
+                                className="accordion-collapse collapse"
+                                data-bs-parent="#accorCoronaryRisk"
+                              >
+                                <div className="accordion-body">
+                                 This is the second item's accordion body It is hidden
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+
                         </div>
 
                       </div>
@@ -447,7 +547,7 @@ const WellnessPack = () => {
 
                       <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">
-                         Pre-Employment Check-up
+                          Pre-Employment Check-up
                         </h5>
                         <button
                           type="button"
@@ -532,7 +632,7 @@ const WellnessPack = () => {
 
                       <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">
-                         ABMH IT
+                          ABMH IT
                         </h5>
                         <button
                           type="button"

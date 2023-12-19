@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -11,6 +11,13 @@ import './about-csr.css'
 
 
 const Aboutcsr = () => {
+
+  useEffect(() => {
+
+
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
+  }, []);
 
 
   return (

@@ -162,6 +162,26 @@ span.headborder {
     font-size: 16px;
 }
 
+.wellnepacktogel .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a21b18;
+    
+}
+.wellnepacktogel .accordion-button{
+    padding: 10px 20px;
+    border: unset;
+}
+.wellnepacktogel .accordion-body {
+    padding: 10px 7px;
+}
+
+.wellnepacktogel .accordion-button::after {
+    display: none;
+}
+ul.wellpackpopparaul {
+    margin: 0;
+}
+
 .lablebox1 {
     padding-top: 10px;
 }
