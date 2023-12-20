@@ -186,7 +186,7 @@ const Header = () => {
                                             <div className="dropdown-contentmy">
                                                 <Link href="/about-us">About Us</Link>
                                                 <Link href="/about-us#vision-mission">Vision & Mission</Link>
-                                                <Link href="/about-us#award-achievement">Award & Achievement</Link>
+                                                <Link href="/achievement-accreditations">Achievement & Accreditations</Link>
                                                 <Link href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>
                                                 <Link href="/quality-policy-and-ethics-committee#ethics-committee">Ethics Committee</Link>
                                                 <Link href="/about-csr">CSR Initiatives</Link>
@@ -363,7 +363,7 @@ const Header = () => {
                                             <Link className='closeham' href="/about-us#vision-mission">Vision & Mission</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/about-us#award-achievement">Award & Achievement</Link>
+                                            <Link className='closeham' href="/achievement-accreditations">Achievement & Accreditations</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>

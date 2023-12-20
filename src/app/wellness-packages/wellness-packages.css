@@ -93,10 +93,10 @@ span.headborder {
 }
 
 .lablebox1 {
-    width: 75%;
+    width: 80%;
 }
 .lablebox2 {
-    width: 25%;
+    width: 20%;
     text-align: end;
 }
 /* .lablestyle {
@@ -160,6 +160,9 @@ span.headborder {
 .mybookpopupbtn a{
     color: white;
     font-size: 16px;
+}
+.willpoopbanimg {
+    width: 100%;
 }
 
 .wellnepacktogel .accordion-button:not(.collapsed) {

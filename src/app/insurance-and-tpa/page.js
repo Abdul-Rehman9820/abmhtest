@@ -11,6 +11,15 @@ import './insurance-and-tpa.css'
 const Virtualtour = () => {
 
 
+  useEffect(() => {
+
+    
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
+  }, []);
+
+
+
   return (
 
     <>

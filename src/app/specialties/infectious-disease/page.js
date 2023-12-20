@@ -81,7 +81,7 @@ const Andrologyandsexualmedicine = () => {
       <title>Infectious Disease</title>
 
       {/* common heading div start*/}
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
@@ -93,7 +93,7 @@ const Andrologyandsexualmedicine = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* common heading div end*/}
       {/* common heading banner start */}
       {/* <div className="mainheadingbanner">

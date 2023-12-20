@@ -143,21 +143,18 @@ span.headbordervision {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 30px;
 }
 
 .vissionandmission1 {
-    width: 33%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: start;
 }
-.vissionandmission2 {
-    width: 33%;
-}
+
 .vissionandmission3 {
-    width: 33%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,12 +163,10 @@ span.headbordervision {
 .latshriimg {
     text-align: end;
 }
-
 .visionmiss {
-    /* background: #ffe468; */
-    padding: 20px 40px;
-    /* box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%); */
+    padding: 30px 0;
 }
+
 .aboutreadmorbtn{
     border: unset;
     background: #A21B18;
@@ -195,7 +190,7 @@ span.vismiheadimg {
 .vismisconhead {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .vismispara p {
@@ -203,21 +198,17 @@ span.vismiheadimg {
     font-weight: 500;
     margin-top: 20px;
 }
-.vismiscon {
-    padding: 23px;
-}
+
 .vissionandmission2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .visionmissparn {
-    padding: 15px;
-    margin-bottom: 40px;
     position: relative;
 }
 
-.visionmissparn::after {
+/* .visionmissparn::after {
     content: '';
     position: absolute;
     top: 0;
@@ -240,7 +231,7 @@ span.vismiheadimg {
     border-left: 2px solid #a21b18;
     border-bottom: 2px solid #a21b18;
     z-index: -1;
-}
+} */
 
 .bodofdirredbg {
     background-image: url("/aboutusimg/maroon-bg-forbod.jpg");
@@ -385,40 +376,10 @@ span.headborderbof {
     margin-bottom: 40px;
 }
 
-.awarsliderbox {
-    background: #ffffff;
-    padding: 40px 20px;
-    border-radius: 10px;
-}
-
-.awarandaccimg {
-    width: 200px;
-    margin: auto;
-    display: block;
-}
-.awadandacchead {
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.awadandaccpara {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.awarslider .carousel-control-prev-icon img {
-    width: 100% !important;
-}
-.awarslider .carousel-control-next-icon img {
-    width: 100% !important;
-}
-
-.awarslider .carousel-indicators [data-bs-target] {
-    background-color: #f37428;
-}
+/* .vision-mission {
+    background-image: url('/aboutusimg/vismis-bg.png');
+    background-size: cover;
+} */
 
 
 /*! about us pg   end*/
@@ -529,9 +490,7 @@ span.headborderbof {
 .abouttopslidepara p {
     font-size: 13px;
 }
-.vismiscon {
-    padding: 10px;
-}
+
 .oursepperbof {
     font-size: 15px !important;
 }
@@ -555,15 +514,6 @@ span.headborderbof {
 .bodofdirdatasliderpara p {
     text-align: start;
     font-size: 13px;
-}
-.awadandacchead {
-    font-size: 15px;
-}
-.awadandaccpara {
-    font-size: 14px;
-}
-.awarandaccimg {
-    width: 100px;
 }
 .bodprofileimg {
     width: 130px;
