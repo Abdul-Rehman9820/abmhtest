@@ -36,12 +36,15 @@ export async function POST(req, content) {
 
           const data = await resend.emails.send({
             from: 'ABMH Work With US Enquiry Form <abmh_enquiry@mindframeindia.com>',
-            to: ['abmh_enquiry@mindframeindia.com','hospitalcareers@adityabirla.com'],
+            to: ['abmh_enquiry@mindframeindia.com','abdul.a@mindframeindia.com'],
             subject: 'New Enquiry From Work With US Form',
-            // react: 'John' ,
-            // text: 'This is text a test email.',
-            // html: '<p>This is a test email html.</p>',
             html: maildatahtlm,
+            attachments: [
+              {
+                filename: 'invoice.pdf',
+                content: invoiceBuffer,
+              },
+            ],
           });
           
 
