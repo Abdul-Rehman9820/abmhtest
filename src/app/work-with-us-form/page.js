@@ -21,12 +21,6 @@ const Workcontactus = () => {
   const [umessage, setMessage] = useState(null);
 
 
-  const [ufile, setFile] = useState(null);
-
-  const handleFileChange = (event) => {
-    setFile(event.target.files[0]);
-  };
-
 
   const handleChange = (event) => {
 
@@ -61,7 +55,7 @@ const Workcontactus = () => {
     console.log(uemail);
     console.log(ulocation);
     console.log(umessage);
-    console.log(ufile);
+
 
 
     // api level code 
@@ -99,7 +93,6 @@ const Workcontactus = () => {
         setUemail("");
         setLocation("");
         setMessage("");
-        setMessage(null);
 
 
         submitbutton.disabled = false;
@@ -220,13 +213,7 @@ const Workcontactus = () => {
                                   onChange={handleChange}
                                   required
                                 />
-                                <input
-                                  type="file"
-                                  className="form-control form-group"
-                                  name="attachment"
-                                  onChange={handleFileChange}
-                                  required
-                                />
+
                                 <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
                               </form>
 

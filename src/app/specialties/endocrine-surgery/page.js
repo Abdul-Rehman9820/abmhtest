@@ -108,7 +108,98 @@ const Andrologyandsexualmedicine = () => {
 
 
 
+      <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+            <div className="spectitle">
+              <h1 className="spetileh1">Endocrine Surgery</h1>
+            </div>
+            <div className="spectitleimgbox">
+              <div className="spectitleimgbox1">
+                <Image width={400} height={400} src="/specialityviewimag/endocrine_surgerytopimg.jpg" alt="img" />
+              </div>
+              <div className="spectitleimgbox2">
+                <div className="spectitle Specialtiesheadgr">
+                  <h2 className="spetileh2gr">Thyroidectomy</h2>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  A surgical procedure to remove all or part of the thyroid gland, often performed in cases of thyroid cancer, nodules, or hyperthyroidism. It aims to restore hormonal balance and prevent the spread of malignancy.
+                </p>
+                <div className="spectitle Specialtiesheadgr">
+                  <h2 className="spetileh2gr">Parathyroidectomy</h2>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  Removal of one or more parathyroid glands to treat hyperparathyroidism, a condition causing excess production of parathyroid hormone (PTH). This surgery aims to restore calcium and phosphorus balance.
+                </p>
+              </div>
+            </div>
 
+
+            <div className="spectitlepara">
+              <div className="spectitle Specialtiesheadgr">
+                <h2 className="spetileh2gr">Adrenalectomy </h2>
+                <span className="headbordergr" />
+              </div>
+              <p className="specilpara">
+                Surgical removal of one or both adrenal glands, commonly performed to treat adrenal tumors or overproduction of adrenal hormones. It restores hormonal balance and addresses conditions like Cushing's syndrome.
+              </p>
+            </div>
+            <div className="spectitlepara">
+              <div className="spectitle Specialtiesheadgr">
+                <h2 className="spetileh2gr">Pancreatectomy </h2>
+                <span className="headbordergr" />
+              </div>
+              <p className="specilpara">
+                Partial or complete removal of the pancreas, often performed for tumors or chronic pancreatitis. This surgery helps manage insulin production and digestive enzyme secretion.
+              </p>
+            </div>
+            <div className="spectitlepara">
+              <div className="spectitle Specialtiesheadgr">
+                <h2 className="spetileh2gr">Hypophysectomy </h2>
+                <span className="headbordergr" />
+              </div>
+              <p className="specilpara">
+                Removal of the pituitary gland, usually through the nasal cavity. It's employed to address tumors affecting the pituitary, regulate hormone production, and alleviate symptoms such as headaches and vision problems.
+              </p>
+            </div>
+            <div className="spectitlepara">
+              <div className="spectitle Specialtiesheadgr">
+                <h2 className="spetileh2gr">Testicular Surgery </h2>
+                <span className="headbordergr" />
+              </div>
+              <p className="specilpara">
+
+                Surgical procedures on the testicles may involve removal of tumors, correction of testicular torsion, or addressing conditions like hydrocele. These surgeries aim to preserve reproductive function and hormonal balance.
+              </p>
+            </div>
+            <div className="spectitlepara">
+              <div className="spectitle Specialtiesheadgr">
+                <h2 className="spetileh2gr">Oophorectomy </h2>
+                <span className="headbordergr" />
+              </div>
+              <p className="specilpara">
+                Removal of one or both ovaries, often performed to treat ovarian cancer, cysts, or hormonal disorders. It can help manage hormone levels and prevent the spread of malignancies.
+              </p>
+            </div>
+            <div className="spectitlepara">
+              <div className="spectitle Specialtiesheadgr">
+                <h2 className="spetileh2gr">Laparoscopic Surgery for Endocrine Conditions</h2>
+                <span className="headbordergr" />
+              </div>
+              <p className="specilpara">
+                Minimally invasive procedures using small incisions and specialized instruments to perform various endocrine surgeries. This approach often results in quicker recovery times and reduced postoperative discomfort.
+                These endocrine surgery types encompass a range of procedures addressing conditions affecting glands and organs responsible for hormone production and regulation. Each type is tailored to specific medical situations, contributing to the overall well-being of patients.
+              </p>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
 
 
 
@@ -117,7 +208,7 @@ const Andrologyandsexualmedicine = () => {
         <div className="customcontainer">
           <div className="specsingleDoclist">
             <div className="Specialtiesheadgr">
-              <h2 className="spetileh1gr">Our Team Of Experts</h2>
+              <h2 className="spetileh2gr">Our Team Of Experts</h2>
               <span className="headbordergr" />
             </div>
 

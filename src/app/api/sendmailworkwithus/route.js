@@ -39,12 +39,6 @@ export async function POST(req, content) {
             to: ['abmh_enquiry@mindframeindia.com','abdul.a@mindframeindia.com'],
             subject: 'New Enquiry From Work With US Form',
             html: maildatahtlm,
-            attachments: [
-              {
-                filename: 'invoice.pdf',
-                content: invoiceBuffer,
-              },
-            ],
           });
           
 
