@@ -143,7 +143,7 @@ const Andrologyandsexualmedicine = () => {
                 <span className="headbordergr" />
               </div>
               <p className="specilpara">
-                Surgical removal of one or both adrenal glands, commonly performed to treat adrenal tumors or overproduction of adrenal hormones. It restores hormonal balance and addresses conditions like Cushing's syndrome.
+                Surgical removal of one or both adrenal glands, commonly performed to treat adrenal tumors or overproduction of adrenal hormones. It restores hormonal balance and addresses conditions like Cushing&apos;s syndrome.
               </p>
             </div>
             <div className="spectitlepara">
@@ -161,7 +161,7 @@ const Andrologyandsexualmedicine = () => {
                 <span className="headbordergr" />
               </div>
               <p className="specilpara">
-                Removal of the pituitary gland, usually through the nasal cavity. It's employed to address tumors affecting the pituitary, regulate hormone production, and alleviate symptoms such as headaches and vision problems.
+                Removal of the pituitary gland, usually through the nasal cavity. It&apos;s employed to address tumors affecting the pituitary, regulate hormone production, and alleviate symptoms such as headaches and vision problems.
               </p>
             </div>
             <div className="spectitlepara">
@@ -242,7 +242,7 @@ const Andrologyandsexualmedicine = () => {
                                     <Image width={400} height={400} src={`/DoctorsProfileimages/${profile.DoctorProfileImage}`} alt="img" />
                                   </div>
                                   <div className="ourteamnamesing">
-                                    <h2>{profile.DoctorFName} {profile.DoctorLName}</h2>
+                                    <h2>Dr {profile.DoctorFName} {profile.DoctorLName}</h2>
                                   </div>
                                   <div className="ourteamspec">
                                     <h2>{profile.DoctorDesignation}</h2>

@@ -137,7 +137,8 @@ const Abmhinterna = () => {
             </div>
             <div className="abmhintertestimo">
               <div id="carouselExampleIndicatorsintern" className="carousel slide">
-                <div className="carousel-indicators">
+              
+                {/* <div className="carousel-indicators">
                   <button
                     type="button"
                     data-bs-target="#carouselExampleIndicatorsintern"
@@ -152,8 +153,11 @@ const Abmhinterna = () => {
                     data-bs-slide-to={1}
                     aria-label="Slide 2"
                   ></button>
-                </div>
+                </div> */}
+
                 <div className="carousel-inner">
+
+
                   <div className="carousel-item active">
                     <div className="interntestislid">
                       <div className="interntestislidChil">
@@ -162,7 +166,7 @@ const Abmhinterna = () => {
                             <div className="intertestvideo">
                               <iframe
                                 className="interslidevideo"
-                                src="https://www.youtube.com/embed/X6RPreZLwHg"
+                                src="https://www.youtube.com/embed/JVhoUCsUou8"
                                 frameBorder={0}
                                 allowFullScreen=""
                               ></iframe>
@@ -171,23 +175,53 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                            Outstanding care and recovery experience! The surgical
-                            team and nursing staff were amazing. They patiently
-                            addressed all my questions and concerns, leaving no room
-                            for doubt. Outstanding care and recovery experience! The
-                            surgical team and nursing staff were amazing.
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
-                            <h2>Mr.Kang Weike</h2>
+                            <h2>Michael Nkubito</h2>
                           </div>
                           <div className="intertestispace" />
                           <div className="interourworkspec">
-                            <h2>General Surgery</h2>
+                            <h2>Ugandan</h2>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <div className="carousel-item">
+                    <div className="interntestislid">
+                      <div className="interntestislidChil">
+                        <div className="interntestislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="intertestvideo">
+                              <iframe
+                                className="interslidevideo"
+                                src="https://www.youtube.com/embed/29vP93VLGbc"
+                                frameBorder={0}
+                                allowFullScreen=""
+                              ></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="interntestislidChilcol2">
+                          <div className="interntestislidChilcol2Para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                          </div>
+                          <div className="interourworkname">
+                            <h2>Grace Olumuji</h2>
+                          </div>
+                          <div className="intertestispace" />
+                          <div className="interourworkspec">
+                            <h2>Nigeria</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="carousel-item">
                     <div className="interntestislid">
                       <div className="interntestislidChil">
@@ -205,24 +239,88 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                            Outstanding care and recovery experience! The surgical
-                            team and nursing staff were amazing. They patiently
-                            addressed all my questions and concerns, leaving no room
-                            for doubt. Outstanding care and recovery experience! The
-                            surgical team and nursing staff were amazing.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
-                            <h2>Chris Jacob</h2>
+                            <h2>Mr. Kang Weike</h2>
                           </div>
                           <div className="intertestispace" />
                           <div className="interourworkspec">
-                            <h2>General Surgery</h2>
+                            <h2>China</h2>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <div className="carousel-item">
+                    <div className="interntestislid">
+                      <div className="interntestislidChil">
+                        <div className="interntestislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="intertestvideo">
+                              <iframe
+                                className="interslidevideo"
+                                src="https://www.youtube.com/embed/8KqsSC7OSts"
+                                frameBorder={0}
+                                allowFullScreen=""
+                              ></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="interntestislidChilcol2">
+                          <div className="interntestislidChilcol2Para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                          </div>
+                          <div className="interourworkname">
+                            <h2>Ms. Teriba</h2>
+                          </div>
+                          <div className="intertestispace" />
+                          <div className="interourworkspec">
+                            <h2>Nigeria</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="interntestislid">
+                      <div className="interntestislidChil">
+                        <div className="interntestislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="intertestvideo">
+                              <iframe
+                                className="interslidevideo"
+                                src="https://www.youtube.com/embed/yAwjj-bkWic"
+                                frameBorder={0}
+                                allowFullScreen=""
+                              ></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="interntestislidChilcol2">
+                          <div className="interntestislidChilcol2Para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                          </div>
+                          <div className="interourworkname">
+                            <h2>Omani Patient</h2>
+                          </div>
+                          <div className="intertestispace" />
+                          <div className="interourworkspec">
+                            <h2>Oman</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
+                
                 <button
                   className="carousel-control-prev"
                   type="button"
@@ -245,6 +343,7 @@ const Abmhinterna = () => {
                   </span>
                   <span className="visually-hidden">Next</span>
                 </button>
+
               </div>
             </div>
           </div>

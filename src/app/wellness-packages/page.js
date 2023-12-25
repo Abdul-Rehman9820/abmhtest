@@ -47,7 +47,7 @@ const WellnessPack = () => {
           <div className="packagesloop">
             <div className="Packagespart">
               <div className="Packageshead">
-                <h2>Wellbeing : Preventive Health Check Packages</h2>
+                <h2>Well-being : Preventive Health Check Packages</h2>
                 <span className="headborder" />
               </div>
             </div>

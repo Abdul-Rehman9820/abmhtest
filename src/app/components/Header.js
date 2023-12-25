@@ -72,6 +72,10 @@ const Header = () => {
                 $(".commansearchbox").fadeOut();
             });
 
+            // $("body").click(function () {
+            //     $(".commansearchbox").fadeOut();
+            // });
+
             /* search bar  end*/
 
 
@@ -186,7 +190,7 @@ const Header = () => {
                                             <div className="dropdown-contentmy">
                                                 <Link href="/about-us">About Us</Link>
                                                 <Link href="/about-us#vision-mission">Vision & Mission</Link>
-                                                <Link href="/achievement-accreditations">Achievement & Accreditations</Link>
+                                                <Link href="/accreditations">Accreditations & Certifications</Link>
                                                 <Link href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>
                                                 <Link href="/quality-policy-and-ethics-committee#ethics-committee">Ethics Committee</Link>
                                                 <Link href="/about-csr">CSR Initiatives</Link>
@@ -363,7 +367,7 @@ const Header = () => {
                                             <Link className='closeham' href="/about-us#vision-mission">Vision & Mission</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/achievement-accreditations">Achievement & Accreditations</Link>
+                                            <Link className='closeham' href="/accreditations">Accreditations & Certifications</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>
@@ -477,13 +481,13 @@ const Header = () => {
                 <div className="commansearchbox">
                     <div className="commansearchboxcont">
                         <div className="serachboxform">
-                            <div className="navsearchboxlog">
+                            {/* <div className="navsearchboxlog">
                                 <Link href="/">
                                     <Image width={1000} height={1000} className='poplogoimg' src="/homeimg/abmhmainlogo.png" alt="imgpop" />
                                 </Link>
-                            </div>
+                            </div> */}
                             <div className="serachboxfclo1">
-                                <div className="serachead">Search</div>
+                                <div className="serachead"></div>
                                 <div className="seraccloseicon">
                                     <div className="searchboxclose">
                                         <i className="fa"></i>

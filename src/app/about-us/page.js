@@ -55,7 +55,7 @@ const Aboutus = () => {
 
                 <div className="Specialtiespartbof">
                   <div className="Specialtiesheadbof">
-                    <h2 className="oursepperbof">About shri late Aditya Vikram Birla</h2>
+                    <h2 className="oursepperbof">About Shri Late Aditya Vikram Birla</h2>
                     <span className="headborderbof" />
                   </div>
                 </div>

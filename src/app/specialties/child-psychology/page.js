@@ -151,7 +151,7 @@ const Childpsychology = () => {
                                     <Image width={400} height={400} src={`/DoctorsProfileimages/${profile.DoctorProfileImage}`} alt="img" />
                                   </div>
                                   <div className="ourteamnamesing">
-                                    <h2>{profile.DoctorFName} {profile.DoctorLName}</h2>
+                                    <h2>Dr {profile.DoctorFName} {profile.DoctorLName}</h2>
                                   </div>
                                   <div className="ourteamspec">
                                     <h2>{profile.DoctorDesignation}</h2>
