@@ -53,8 +53,8 @@ const Programs = () => {
       <div className="parentcontainerwhi progintroBG ">
         <div className="customcontainer">
           <div className="programs_pagehead">
-            <div className="homwcareparacol1">
-              <p className="homwcareparadataint">
+            <div className="homwcareparacol1-prog">
+              <p className="homwcareparadataintprogar">
                 Aditya Birla Memorial Hospital offers a variety of courses for
                 careers in health care. These include medical courses, nursing
                 education &amp; paramedical courses. Our academic programs provide
@@ -164,8 +164,8 @@ const Programs = () => {
               <span className="headborder" />
             </div>
           </div>
-          <div className="homwcareparacol1">
-            <p className="homwcareparadataint">
+          <div className="homwcareparacol1-prog">
+            <p className="homwcareparadataintprogar">
               The diplomate qualification awarded by the National Board of
               Examinations has been equated with the Postgraduate&amp;
               Post-doctorate degrees awarded by other Indian Universities. The
@@ -294,8 +294,8 @@ const Programs = () => {
               </tr>
             </tbody>
           </table>
-          <div className="homwcareparacol1">
-            <p className="homwcareparadataint">
+          <div className="homwcareparacol1-prog">
+            <p className="homwcareparadataintprogar">
               Email:-
               <a href="mailto:academics@adityabirlahospital.com">
 

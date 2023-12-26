@@ -38,12 +38,12 @@
     }
 /* common head banner  end*/ 
 
-.homwcareparadataint {
+.homwcareparadataintprogar {
     font-size: 17px;
     font-weight: 300;
 }
 
-.homwcareparadataint a {
+.homwcareparadataintprogar a {
     font-size: 17px;
     font-weight: 300;
 }
@@ -186,7 +186,7 @@
             padding: 10px 5px !important;
         }
 
-        .homwcareparadataint {
+        .homwcareparadataintprogar {
             font-size: 14px;
             overflow-wrap: break-word;
         }
@@ -194,7 +194,7 @@
         .academiccourseint h2 {
             font-size: 15px;
         }
-        .homwcareparadataint a {
+        .homwcareparadataintprogar a {
             font-size: 14px;
         }
         .faqhyper a {

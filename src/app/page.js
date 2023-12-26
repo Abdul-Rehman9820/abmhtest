@@ -123,7 +123,7 @@ export default function Home() {
               />
             </div>
 
-            
+
             <div className="carousel-inner">
 
               <div className="carousel-item active">
@@ -1097,14 +1097,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1127,14 +1127,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1157,14 +1157,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1191,14 +1191,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1221,14 +1221,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1251,14 +1251,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1363,14 +1363,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1397,14 +1397,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1431,14 +1431,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1465,14 +1465,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1499,14 +1499,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
@@ -1533,14 +1533,14 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="whychoimgbox2n">
-                                    <button className="whychocombtnn">
+                                    {/* <button className="whychocombtnn">
                                       <Link href="/contact-us">
                                         Know More
                                         <span className="speciconn">
                                           <Image width={100} height={100} src="/homeimg/right-arrow.png" alt="img" />
                                         </span>
                                       </Link>
-                                    </button>
+                                    </button> */}
                                   </div>
                                 </div>
                               </div>
