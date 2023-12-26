@@ -14,7 +14,7 @@
     color: white;
     border-radius: 30px;
     margin: auto;
-    padding: 8px 18px;
+    padding: 5px 18px;
     box-shadow: 0pt 3pt 2pt rgb(0 0 0 / 22%);
 }
 span.BookApimg {
@@ -22,9 +22,10 @@ span.BookApimg {
     margin-right: 12px;
 }
 .btnwidth a {
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: inherit !important;
 }
 .twobtnChil.twobtnChilorg .btnwidth {
     background: #F37428;
@@ -35,10 +36,10 @@ span.BookApimg {
     flex-direction: row;
 }
 .headerlogopart {
-    width: 50%;
+    width: 40%;
 }
 .headerlogoBtnpart {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: start;
   justify-content: end;
@@ -609,6 +610,10 @@ button.dropbtnmy .fa {
   .logoimg img {
     width: 300px;
   }
+  .twobtnChil .btnwidth {
+    padding: 5px 18px;
+  }
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 768px) {
@@ -616,9 +621,7 @@ button.dropbtnmy .fa {
   .headerawardandimg img {
     width: 38px;
   }
-  .btnwidth a {
-    font-size: 13px !important;
-  }
+
   .twobtnChil .btnwidth {
     padding: 5px 10px;
   }
@@ -658,7 +661,9 @@ button.dropbtnmy .fa {
     .navbarmy a {
       font-size: 12px;
   }
-
+  .btnwidth a {
+    font-size: 13px !important;
+  }
 
 
   }
@@ -685,6 +690,7 @@ button.dropbtnmy .fa {
 .headerlogoBtnpart {
     width: 100%;
     justify-content: space-between;
+    margin-top: 0px;
 }
 .btnwidth a {
     font-size: 9px;
@@ -703,7 +709,7 @@ span.BookApimg {
     width: 100%;
 }
 .mobileheaderlogoBtnpart {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: end;
 }

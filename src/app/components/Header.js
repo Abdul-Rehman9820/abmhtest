@@ -172,7 +172,7 @@ const Header = () => {
                                                 <span className="BookApimg">
                                                     <Image width={100} height={100} src="/homeimg/bookapo.png" alt="img" />
                                                 </span>
-                                                <Link href="/doctors">Book an Appointment</Link>
+                                                <Link href="/doctors">Second Opinion</Link>
                                             </div>
                                         </div>
                                         <div className="twobtnChil twobtnChilorg">
@@ -184,6 +184,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                             <div className="headerNavbarcont">
@@ -261,13 +262,13 @@ const Header = () => {
                                             />
                                         </div>
                                     </div>
-                                    <div className="Navbarcontleftbox">
+                                    {/* <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
                                             <Link href="tel: +919881123033">
                                                 <Image width={100} height={100} src="/homeimg/abmhsosimg.png" alt="img" />
                                             </Link>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
                                             <div className="hamburgerbG">
@@ -310,13 +311,13 @@ const Header = () => {
 
                                         </div>
                                     </div>
-                                    <div className="Navbarcontleftbox">
+                                    {/* <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
                                             <Link href="tel: +919881123033">
                                                 <Image width={100} height={100} src="/homeimg/abmhsosimg.png" alt="img" />
                                             </Link>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="Navbarcontleftbox">
                                         <div className="Navbarcontleftboximg">
                                             <div className="hamburgerbG">
@@ -457,7 +458,7 @@ const Header = () => {
                                 </li>
 
                                 <li className="commhamstyle">
-                                    <Link className='closeham' href="/abmh-international">ABMH International</Link>
+                                    <Link className='closeham' href="/abmh-international">International Patients</Link>
                                 </li>
                                 <li className="commhamstyle">
                                     <Link className='closeham' href="/abmh-news">ABMH in the News</Link>
@@ -514,7 +515,7 @@ const Header = () => {
                                             <input
                                                 type="text"
                                                 className="searchinput"
-                                                placeholder="Search for doctors by name or specialty .."
+                                                placeholder="Search by doctor's name or specialty ..."
                                                 name="search"
                                                 data-tribute="true"
                                                 required=""

@@ -137,7 +137,7 @@
 
 .appmainHea p {
     padding: 0 2px;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 500;
     line-height: 1.2;
     transition: all 0.3s ease;
@@ -1104,6 +1104,7 @@ img.whyimg {
     padding: 23px 30px;
     position: relative;
     background: #ffdc60;
+    min-height: 345px;
     background-image: url("/homeimg/WhyUs-BGNew.png");
 }
 
@@ -1134,13 +1135,13 @@ img.whyimg {
 }
 
 .whychonamen h2 {
-    font-size: 20px;
+    font-size: 21px;
     color: #a21b18;
     text-align: center;
 }
 
 .whychospecn h2 {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     color: black;
     font-weight: 500;
@@ -1791,6 +1792,7 @@ span.speciconn img {
     .whychoslideboxn {
         margin-right: 0px;
         padding: 10px;
+        min-height: unset;
     }
 
     .whychospecn h2 {

@@ -308,7 +308,7 @@ const Doctors = () => {
                         <input
                           type="text"
                           className="drlistsearchinput"
-                          placeholder="Find a doctor by doctors by name, specialty"
+                          placeholder="Find a doctor by doctor's name or specialty"
 
                           value={searchQuery}
                           onChange={(event) => setSearchQuery(event.target.value)}

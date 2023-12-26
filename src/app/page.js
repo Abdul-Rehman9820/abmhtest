@@ -315,20 +315,20 @@ export default function Home() {
 
 
                 <div className="appobtnchil">
-                  <Link href="/doctors">
+                  <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
-                        <Image width={400} height={400} src="/homeimg/newdecsbookdr.png" alt="img" />
+                        <Image width={400} height={400} src="/homeimg/book_appointment.png" alt="img" />
                       </div>
                       <div className="appmainHea">
-                        <p>Find a<br></br> Doctor</p>
+                        <p>Book an Appointment</p>
                       </div>
                     </div>
                   </Link>
                 </div>
 
 
-                <div className="appobtnchil">
+                {/* <div className="appobtnchil">
                   <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
@@ -339,9 +339,9 @@ export default function Home() {
                       </div>
                     </div>
                   </Link>
-                </div>
+                </div> */}
 
-                <div className="appobtnchil fournone">
+                <div className="appobtnchil">
                   <Link href="/diagnostic-services">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
@@ -376,7 +376,7 @@ export default function Home() {
                         <Image width={400} height={400} src="/homeimg/Group.png" alt="img" />
                       </div>
                       <div className="appmainHea">
-                        <p>ABMH International</p>
+                        <p>International Patients</p>
                       </div>
                     </div>
                   </Link>
