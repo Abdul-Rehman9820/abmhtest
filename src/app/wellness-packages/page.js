@@ -77,7 +77,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -85,7 +85,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
 
@@ -258,7 +258,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 10200</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -294,7 +294,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -302,7 +302,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -480,7 +480,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 10000</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -516,7 +516,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -524,7 +524,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -703,7 +703,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 9500</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -739,7 +739,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -747,7 +747,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -927,7 +927,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 9000</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -962,7 +962,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -970,7 +970,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -1108,7 +1108,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 6600</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1143,7 +1143,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -1151,7 +1151,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -1311,7 +1311,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 4000</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1346,7 +1346,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -1354,7 +1354,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -1525,7 +1525,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 10200</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1561,7 +1561,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -1569,7 +1569,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -1707,7 +1707,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 8500</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1743,7 +1743,7 @@ const WellnessPack = () => {
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
-                    <a href="">
+                    <Link href="/wellness-packages-book">
                       Book Now
                       <span className="labspecicon">
                         <Image width={400} height={400}
@@ -1751,7 +1751,7 @@ const WellnessPack = () => {
                           alt="img"
                         />
                       </span>
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -1912,7 +1912,7 @@ const WellnessPack = () => {
 
                       <div class="modal-footer d-flex flex-wrap justify-content-between">
                         <button type="button" class="welpopleftprice">₹ 6600</button>
-                        <button type="button" class="mybookpopupbtn"><a href="">Book Now</a></button>
+                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1961,7 +1961,7 @@ const WellnessPack = () => {
                   <Image width={400} height={400} src="/wellnesspageimg/wellhomecare.jpg" alt="img" />
                   <div className="homwcarechoimgbox2">
                     <button className="homwcarechocombtn">
-                      <a href="">
+                      <Link href="">
                         HOME SAMPLE COLLECTION
                         <span className="homwcarespecicon">
                           <Image width={400} height={400}
@@ -1969,7 +1969,7 @@ const WellnessPack = () => {
                             alt="img"
                           />
                         </span>
-                      </a>
+                      </Link>
                     </button>
                   </div>
                 </div>
@@ -1979,7 +1979,7 @@ const WellnessPack = () => {
                       <Image width={400} height={400} src="/wellnesspageimg/NURSINGCARE.png" alt="img" />
                       <div className="homwcarechoimgbox2">
                         <button className="homwcarechocombtn">
-                          <a href="">
+                          <Link href="">
                             NURSING CARE
                             <span className="homwcarespecicon">
                               <Image width={400} height={400}
@@ -1987,7 +1987,7 @@ const WellnessPack = () => {
                                 alt="img"
                               />
                             </span>
-                          </a>
+                          </Link>
                         </button>
                       </div>
                     </div>
@@ -2000,7 +2000,7 @@ const WellnessPack = () => {
                       />
                       <div className="homwcarechoimgbox2">
                         <button className="homwcarechocombtn">
-                          <a href="">
+                          <Link href="">
                             PHYSIOTHERAPY
                             <span className="homwcarespecicon">
                               <Image width={400} height={400}
@@ -2008,7 +2008,7 @@ const WellnessPack = () => {
                                 alt="img"
                               />
                             </span>
-                          </a>
+                          </Link>
                         </button>
                       </div>
                     </div>
