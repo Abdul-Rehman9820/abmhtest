@@ -578,12 +578,20 @@ button.dropbtnmy .fa {
 .navbarlinks {
   margin-right: 20px;
 }
-
+.logoimg {
+  margin-top: 10px;
+}
+.headerawardandimg img{
+  width: 65px;
+}
 
 .animathamburger-menu {
   display: none;
 }
-
+.headerawardandimgbox {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
@@ -597,6 +605,28 @@ button.dropbtnmy .fa {
   .header.deckstophead .customcontainer {
     max-width: 96% !important;
   }
+  .logoimg img {
+    width: 300px;
+  }
+  .headerawardandimg img {
+    width: 50px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+
+  .headerawardandimg img {
+    width: 38px;
+  }
+  .btnwidth a {
+    font-size: 13px !important;
+  }
+  .twobtnChil .btnwidth {
+    padding: 8px 10px;
+  }
+
+
 
 
 }
@@ -757,6 +787,10 @@ button.searchinputBTN i {
 .serachboxform {
   padding: 5px 10px  0px 10px;
 }
+.logoimg {
+  margin-top: 0;
+}
+
 
 
 }

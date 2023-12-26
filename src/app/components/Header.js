@@ -154,6 +154,18 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="headerlogoBtnpart">
+
+                                    <div className="headerawardandimgbox">
+
+                                        <div className="headerawardandimg me-2">
+                                            <Image width={200} height={200} src="/homeimg/ACHSfooter.png" alt="img" />
+                                        </div>
+                                        <div className="headerawardandimg me-2">
+                                            <Image width={200} height={200} src="/homeimg/HACCPfooter.png" alt="img" />
+                                        </div>
+
+                                    </div>
+
                                     <div className="twobtnPar">
                                         <div className="twobtnChil">
                                             <div className="btnwidth">
