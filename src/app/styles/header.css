@@ -49,7 +49,8 @@ span.BookApimg {
     padding: 5px 0;
 }
 .BookApimg img {
-    width: 25px;
+  width: 25px;
+  margin-top: -7px;
 }
 .twobtnChil.twobtnChilorg {
     margin-left: 20px;
@@ -595,7 +596,18 @@ button.dropbtnmy .fa {
   flex-direction: row;
 }
 
-
+.contact_Second_Opinion_submit {
+  background: #901412;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
 
 
 /* header  end*/
@@ -696,7 +708,8 @@ button.dropbtnmy .fa {
     font-size: 9px;
 }
 .BookApimg img {
-    width: 13px;
+  width: 13px;
+  margin-top: 0;
 }
 .twobtnChil .btnwidth {
     padding: 0px 10px;

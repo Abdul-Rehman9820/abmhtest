@@ -18,8 +18,99 @@ import '../styles/commonglobalstyle.css'
 const Header = () => {
 
 
-    const [prevScrollPos, setPrevScrollPos] = useState(0);
 
+    const [uname, setUname] = useState("");
+    const [uphone, setPhone] = useState("");
+    const [uemail, setUemail] = useState("");
+    const [uremarks, setremarks] = useState("");
+    const [uReport, setReport] = useState(null);
+
+    const [apiResponse, setApiResponse] = useState('');
+
+
+
+    const handleChange = (event) => {
+
+        const { name, value } = event.target;
+        if (name === "username") {
+            setUname(value);
+        } else if (name === "userPhone") {
+            setPhone(value);
+        } else if (name === "usermail") {
+            setUemail(value);
+        } else if (name === "userremarks") {
+            setremarks(value);
+        }
+
+    };
+
+
+    const handleFileChange = (event) => {
+        const file = event.target.files[0];
+        setReport(file);
+    };
+
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        console.log(uname);
+        console.log(uphone);
+        console.log(uemail);
+        console.log(uremarks);
+        console.log(uReport);
+
+        // Prepare form data
+        const formData = new FormData();
+        formData.append('username', uname);
+        formData.append('userPhone', uphone);
+        formData.append('usermail', uemail);
+        formData.append('userremarks', uremarks);
+        formData.append('uReport', uReport);
+
+        // API request
+
+        try {
+            const response = await fetch(
+                `${process.env.NEXT_PUBLIC_Web_Domin}/api/SecondOpinionAPI`,
+                {
+                    method: 'POST',
+                    body: formData,
+                }
+            );
+
+            if (!response.ok) {
+                setApiResponse('Something went wrong');
+            } else {
+                const result = await response.json();
+                console.log(result);
+
+                if (result.message === 'mail send') {
+                    setApiResponse('Mail sent successfully');
+                    // Clear form fields on successful submission
+                    setUname('');
+                    setPhone('');
+                    setUemail('');
+                    setremarks('');
+                    setReport(null);
+
+                } else {
+                    setApiResponse('Something went wrong');
+                }
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            setApiResponse('Something went wrong');
+        }
+
+
+    };
+
+
+
+
+    // == ?????
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
 
     useEffect(() => {
 
@@ -72,18 +163,9 @@ const Header = () => {
                 $(".commansearchbox").fadeOut();
             });
 
-            // $("body").click(function () {
-            //     $(".commansearchbox").fadeOut();
-            // });
-
             /* search bar  end*/
 
-
-
-
         });
-
-
 
     }, []);
 
@@ -139,6 +221,123 @@ const Header = () => {
                 `}
             </Script> */}
 
+
+            {/* Modal second opi */}
+            <>
+
+                <div
+                    className="modal fade"
+                    id="exampleModal"
+                    tabIndex={-1}
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                >
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h2 className="modal-title fs-5" id="exampleModalLabel">
+                                    Get Second Opinion
+                                </h2>
+                                <button
+                                    type="button"
+                                    className="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                />
+                            </div>
+                            <div className="modal-body">
+
+                                <form onSubmit={handleSubmit} >
+
+                                    <div className="mb-2">
+                                        <label htmlFor="username" className="form-label">
+                                            Name
+                                        </label>
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                            name="username"
+                                            placeholder="Enter Name"
+                                            value={uname}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                    </div>
+
+
+                                    <div className="mb-2">
+                                        <label htmlFor="userPhone" className="form-label">
+                                            Phone
+                                        </label>
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                            name="userPhone"
+                                            placeholder="Enter Phone Number"
+                                            value={uphone}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                    </div>
+
+
+                                    <div className="mb-2">
+                                        <label htmlFor="usermail" className="form-label">
+                                            Email
+                                        </label>
+                                        <input
+                                            type="email"
+                                            className="form-control"
+                                            name="usermail"
+                                            placeholder="Enter Email"
+                                            value={uemail}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                    </div>
+
+                                    <div className="mb-2">
+                                        <label htmlFor="userremarks" className="form-label">
+                                            Remarks
+                                        </label>
+                                        <textarea
+                                            name="userremarks"
+                                            className="form-control"
+                                            placeholder="Enter Remarks"
+                                            value={uremarks}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                    </div>
+
+                                    <div className="mb-3">
+                                        <label htmlFor="userlocation" className="form-label">
+                                            Upload Report
+                                        </label>
+                                        <input
+                                            type="file"
+                                            className="form-control form-group"
+                                            name="report"
+                                            accept=".pdf, .jpg, png"
+                                            onChange={handleFileChange}
+                                            required
+                                        />
+                                    </div>
+
+                                    <button type="submit" className="contact_Second_Opinion_submit">Submit</button>
+
+                                </form>
+
+                                <div id="apirespose" className="mt-2">{apiResponse}</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </>
+            {/* Modal second opi */}
+
             <header>
                 {/* header deckstop start*/}
                 <div className="parentcontainerwhi header deckstophead">
@@ -170,9 +369,9 @@ const Header = () => {
                                         <div className="twobtnChil">
                                             <div className="btnwidth">
                                                 <span className="BookApimg">
-                                                    <Image width={100} height={100} src="/homeimg/bookapo.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/2nd-opinion.png" alt="img" />
                                                 </span>
-                                                <Link href="/doctors">Second Opinion</Link>
+                                                <Link href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Second Opinion</Link>
                                             </div>
                                         </div>
                                         <div className="twobtnChil twobtnChilorg">
@@ -335,9 +534,9 @@ const Header = () => {
                                         <div className="twobtnChil">
                                             <div className="btnwidth">
                                                 <span className="BookApimg">
-                                                    <Image width={100} height={100} src="/homeimg/bookapo.png" alt="img" />
+                                                    <Image width={100} height={100} src="/homeimg/2nd-opinion.png" alt="img" />
                                                 </span>
-                                                <Link href="/doctors">Book an Appointment</Link>
+                                                <Link href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Second Opinion</Link>
                                             </div>
                                         </div>
                                         <div className="twobtnChil twobtnChilorg">
