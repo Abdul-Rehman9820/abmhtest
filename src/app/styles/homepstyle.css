@@ -1306,17 +1306,24 @@ span.speciconn img {
 /* youtube ifram 2-   */
 
 
+/* Tab div 1000 to 768 start*/
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+
+    .fournone {
+        display: none;
+    }
+
+}
+
 
 
 
 /* Tab div 768 to 1300 start*/
 
+
 @media screen and (max-width: 1299px) and (min-width: 768px) {
 
-
-    .fournone {
-        display: none;
-    }
 
     .OurSpecialties h2 {
         font-size: 16px;
