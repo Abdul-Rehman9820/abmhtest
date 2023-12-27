@@ -29,7 +29,7 @@ const Header = () => {
 
 
 
-    const handleChange = (event) => {
+    const handleChangeheader = (event) => {
 
         const { name, value } = event.target;
         if (name === "username") {
@@ -45,13 +45,13 @@ const Header = () => {
     };
 
 
-    const handleFileChange = (event) => {
+    const handleFileChangeheader = (event) => {
         const file = event.target.files[0];
         setReport(file);
     };
 
 
-    const handleSubmit = async (event) => {
+    const handleSubmitheader = async (event) => {
         event.preventDefault();
 
         console.log(uname);
@@ -247,7 +247,7 @@ const Header = () => {
                             </div>
                             <div className="modal-body">
 
-                                <form onSubmit={handleSubmit} >
+                                <form onSubmit={handleSubmitheader} >
 
                                     <div className="mb-2">
                                         <label htmlFor="username" className="form-label">
@@ -259,7 +259,7 @@ const Header = () => {
                                             name="username"
                                             placeholder="Enter Name"
                                             value={uname}
-                                            onChange={handleChange}
+                                            onChange={handleChangeheader}
                                             required
                                         />
                                     </div>
@@ -275,7 +275,7 @@ const Header = () => {
                                             name="userPhone"
                                             placeholder="Enter Phone Number"
                                             value={uphone}
-                                            onChange={handleChange}
+                                            onChange={handleChangeheader}
                                             required
                                         />
                                     </div>
@@ -291,7 +291,7 @@ const Header = () => {
                                             name="usermail"
                                             placeholder="Enter Email"
                                             value={uemail}
-                                            onChange={handleChange}
+                                            onChange={handleChangeheader}
                                             required
                                         />
                                     </div>
@@ -305,7 +305,7 @@ const Header = () => {
                                             className="form-control"
                                             placeholder="Enter Remarks"
                                             value={uremarks}
-                                            onChange={handleChange}
+                                            onChange={handleChangeheader}
                                             required
                                         />
                                     </div>
@@ -319,7 +319,7 @@ const Header = () => {
                                             className="form-control form-group"
                                             name="report"
                                             accept=".pdf, .jpg, png"
-                                            onChange={handleFileChange}
+                                            onChange={handleFileChangeheader}
                                             required
                                         />
                                     </div>

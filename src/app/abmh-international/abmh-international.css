@@ -246,9 +246,36 @@
     background-color: #d1a1a1;
 }
 
+.intern-con-form .form-control {
+    border: 1px solid #901412;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
-
-
+.intern_form_submit {
+    background: #901412;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.internationalform {
+    width: 60%;
+}
 
 /*! International   end*/
 
@@ -345,7 +372,12 @@
 .abmhintertestimo {
     margin-top: 20px;
 }
-
+.internationalform {
+    width: 100%;
+}
+.internationalfo-head{
+    font-size: 13px;
+}
 
 /*! International   end*/
 

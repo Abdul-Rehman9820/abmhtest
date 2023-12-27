@@ -256,9 +256,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 10200</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 10200</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -478,9 +478,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 10000</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 10000</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -701,9 +701,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 9500</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 9500</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -925,9 +925,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 9000</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 9000</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1106,9 +1106,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 6600</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 6600</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1309,9 +1309,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 4000</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 4000</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1523,9 +1523,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 10200</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 10200</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1705,9 +1705,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 8500</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 8500</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>
@@ -1910,9 +1910,9 @@ const WellnessPack = () => {
 
                       </div>
 
-                      <div class="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" class="welpopleftprice">₹ 6600</button>
-                        {/* <button type="button" class="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 6600</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
                     </div>

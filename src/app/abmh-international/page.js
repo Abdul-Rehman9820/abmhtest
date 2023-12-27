@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -12,13 +12,119 @@ import './abmh-international.css'
 
 const Abmhinterna = () => {
 
+
+
+  const [uname, setUname] = useState("");
+  const [uphone, setPhone] = useState("");
+  const [uemail, setUemail] = useState("");
+  const [ulocation, setLocation] = useState("");
+
+  const [umessage, setMessage] = useState("");
+
+
+
+
+  const handleChange = (event) => {
+
+    const { name, value } = event.target;
+    if (name === "username") {
+      setUname(value);
+    } else if (name === "userPhone") {
+      setPhone(value);
+    } else if (name === "usermail") {
+      setUemail(value);
+    } else if (name === "userlocation") {
+      setLocation(value);
+    } else if (name === "usermessage") {
+      setMessage(value);
+    }
+
+  };
+
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+
+    var messagebox = document.getElementById('apirespose');
+    var submitbutton = document.getElementById('submitbtb');
+
+
+    submitbutton.disabled = true; // hide button to duble click
+    messagebox.innerHTML = '';  // do empty for resubmit
+
+    console.log(uname);
+    console.log(uphone);
+    console.log(uemail);
+    console.log(ulocation);
+    console.log(ulocation);
+
+
+    // api level code 
+    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/BookWellnessApi`, {
+      method: "POST",
+      body: JSON.stringify({
+        username: uname,
+        userPhone: uphone,
+        usermail: uemail,
+        userlocation: ulocation,
+        usermessage: umessage,
+      }),
+    });
+
+
+    if (!response.ok) {
+
+      // throw new Error("Network response was not ok");
+
+      messagebox.innerHTML = 'Something went wrong';
+
+      submitbutton.disabled = false;
+
+    } else {
+
+      const result = await response.json();
+
+      console.log(result);
+
+      if (result.message == "mail send") {
+
+
+        setUname("");
+        setPhone("");
+        setUemail("");
+        setLocation("");
+        setMessage("");
+
+
+
+        submitbutton.disabled = false;
+
+        messagebox.innerHTML = 'Mail send successfully';
+
+      } else {
+
+        submitbutton.disabled = false;
+
+        messagebox.innerHTML = 'Something went wrong';
+
+      }
+
+
+    }
+    // api level code 
+
+
+
+  };
+
+
   useEffect(() => {
 
-    
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
-  
+
 
 
   return (
@@ -26,8 +132,8 @@ const Abmhinterna = () => {
 
     <>
 
-    <title>ABMH International</title>
-          
+      <title>ABMH International</title>
+
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -44,7 +150,7 @@ const Abmhinterna = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-             <Image width={2000} height={400} src="/commonimages/commabminternatnew.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commabminternatnew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -137,7 +243,7 @@ const Abmhinterna = () => {
             </div>
             <div className="abmhintertestimo">
               <div id="carouselExampleIndicatorsintern" className="carousel slide">
-              
+
                 {/* <div className="carousel-indicators">
                   <button
                     type="button"
@@ -175,15 +281,15 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
-                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
                             <h2>Michael Nkubito</h2>
                           </div>
                           <div className="intertestispace" />
                           <div className="interourworkspec">
-                            <h2>Ugandan</h2>
+                            <h2>Uganda</h2>
                           </div>
                         </div>
                       </div>
@@ -207,7 +313,7 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
                             laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
@@ -239,7 +345,7 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
                             laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
@@ -271,7 +377,7 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
                             laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
@@ -303,7 +409,7 @@ const Abmhinterna = () => {
                         </div>
                         <div className="interntestislidChilcol2">
                           <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
                             laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                           </div>
                           <div className="interourworkname">
@@ -320,7 +426,7 @@ const Abmhinterna = () => {
 
 
                 </div>
-                
+
                 <button
                   className="carousel-control-prev"
                   type="button"
@@ -328,7 +434,7 @@ const Abmhinterna = () => {
                   data-bs-slide="prev"
                 >
                   <span className="carousel-control-prev-icon" aria-hidden="true">
-                 
+
                   </span>
                   <span className="visually-hidden">Previous</span>
                 </button>
@@ -339,13 +445,83 @@ const Abmhinterna = () => {
                   data-bs-slide="next"
                 >
                   <span className="carousel-control-next-icon" aria-hidden="true">
-                 
+
                   </span>
                   <span className="visually-hidden">Next</span>
                 </button>
 
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="parentcontainerwhi mt-4 mb-4">
+        <div className="customcontainer">
+          <div className="intern-con-form">
+
+
+            <div className="internatipartbof">
+              <div className="internatisheadbof">
+                <h2 className="internatibofbalc">Contatc Us</h2>
+                <span className="internatiborderbof" />
+              </div>
+            </div>
+
+            <form className="internationalform" onSubmit={handleSubmit}>
+
+              <input
+                type="text"
+                className="form-control"
+                name="username"
+                placeholder="Your Name"
+                value={uname}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="text"
+                className="form-control"
+                name="userPhone"
+                placeholder="Your Phone"
+                value={uphone}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="email"
+                className="form-control"
+                name="usermail"
+                placeholder="Your Email"
+                value={uemail}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="text"
+                className="form-control"
+                name="userlocation"
+                placeholder="Your Location"
+                value={ulocation}
+                onChange={handleChange}
+                required
+              />
+              <textarea
+                name="usermessage"
+                className="form-control"
+                placeholder="Your Message"
+                value={umessage}
+                onChange={handleChange}
+                required
+              />
+
+
+              <button type="submit" id="submitbtb" className="intern_form_submit">Submit</button>
+
+            </form>
+
+            <div id="apirespose"></div>
+
           </div>
         </div>
       </div>
