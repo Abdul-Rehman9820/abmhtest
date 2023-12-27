@@ -315,7 +315,7 @@ export default function Home() {
 
 
                 <div className="appobtnchil">
-                  <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">
+                  <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
                         <Image width={400} height={400} src="/homeimg/book_appointment.png" alt="img" />
@@ -329,7 +329,7 @@ export default function Home() {
 
 
                 {/* <div className="appobtnchil">
-                  <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">
+                  <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">
                     <div className="appbtnmainbox">
                       <div className="appmainboxBG">
                         <Image width={400} height={400} src="/homeimg/medical-app.png" alt="img" />
@@ -906,7 +906,7 @@ export default function Home() {
               </div>
               <div className="surgerhead">
                 {/* <h3>1030+</h3> */}
-                <Link href="/virtual-tour#PatientsTestimonials">
+                <Link href="/hospital-visit#PatientsTestimonials">
                   <h2>View All</h2>
                 </Link>
 

@@ -95,7 +95,7 @@ const Footer = () => {
                       <Link href="/doctors">Find a Doctor</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book An Appointment</Link>
+                      <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book An Appointment</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/contact-us">Leave A feedback</Link>
@@ -110,7 +110,7 @@ const Footer = () => {
                       <Link href="/abmh-international">International Patient</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/about-csr">ABMH CSR Initiate</Link>
+                      <Link href="/about-csr">CSR Initiate</Link>
                     </div>
                     {/* <div className="linkfoolist exmarginlink">
                       <Link href="/serchher">Site Map </Link>
@@ -292,7 +292,7 @@ const Footer = () => {
                       <Link href="/doctors">Find a Doctor</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book An Appointment</Link>
+                      <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book An Appointment</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/contact-us">Leave A feedback</Link>
@@ -307,7 +307,7 @@ const Footer = () => {
                       <Link href="/abmh-international">International Patient</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/about-csr">ABMH CSR Initiate</Link>
+                      <Link href="/about-csr">CSR Initiate</Link>
                     </div>
                     {/* <div className="linkfoolist exmarginlink">
                       <Link href="/serchher">Site Map </Link>

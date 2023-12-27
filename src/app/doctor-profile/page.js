@@ -114,9 +114,9 @@ const Doctorprofile = () => {
 
                 <div className="doctorviewprofile" key={index} >
                   <div className="commonheadcontainer">
-                  
-                   <title>{item.DoctorFName + " " + item.DoctorLName}</title>
-                  
+
+                    <title>{item.DoctorFName + " " + item.DoctorLName}</title>
+
                     {/* <div className="breadcrumbs">
 
                       <div className="breadcrumbsdata">
@@ -124,7 +124,7 @@ const Doctorprofile = () => {
                       </div>
 
                     </div> */}
-                    
+
                     <div className="doctrodatcont">
                       <div className="proimgsection">
                         <div className="profilebox">
@@ -138,7 +138,7 @@ const Doctorprofile = () => {
                           <div className="profileimg">
                             <Image width={400} height={400}
                               src={`/DoctorsProfileimages/${item.DoctorProfileImage}`}
-                              alt={"Dr "+ item.DoctorFName +""+ item.DoctorLName}
+                              alt={"Dr " + item.DoctorFName + "" + item.DoctorLName}
                             />
                           </div>
                           <div className="profilename">
@@ -153,9 +153,21 @@ const Doctorprofile = () => {
                           <div className="profileexpe">
                             <h2>{item.DoctorExperience}</h2>
                           </div>
-                          <div className="profilebutton">
-                            <a href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book an Appointment</a>
-                          </div>
+
+                          {item.is_doctorBookable ? (
+                            <>
+                              <div className="profilebutton">
+                                <a href="https://portal.abmhslp.com/AbmhPortal/#/login">Book an Appointment</a>
+                              </div>
+                            </>
+                          ) : null}
+
+
+                          {/* <div className="profilebutton">
+                            <a href="https://portal.abmhslp.com/AbmhPortal/#/login">Book an Appointment</a>
+                          </div> */}
+
+
                         </div>
                       </div>
                       <div className="prodatasection">

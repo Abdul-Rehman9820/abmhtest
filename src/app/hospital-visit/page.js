@@ -2,260 +2,386 @@
 
 "use client";
 
-import { useEffect } from "react";
+import {  useEffect , useState } from "react";
 import Image from 'next/image';
-import Link from 'next/link';
+
+import './virtual-tour.css'
 
 
-import './hospital-visit.css'
+const Virtualtour = () => {
 
 
-const Hospitalvisit = () => {
 
   useEffect(() => {
 
 
-    // Get the modal
-    var modal = document.getElementById("myModal");
+    // testi slider
 
-    // Get all images with class="myImg"
-    var images = document.getElementsByClassName("myImg");
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    const newSlider = document.querySelector(".new-slider");
+    const newSlides = document.querySelectorAll(".new-slidet");
+    const newPrevButton = document.getElementById("new-prevButton");
+    const newNextButton = document.getElementById("new-nextButton");
+    const newSliderDots = document.querySelector(".new-slider-dots");
 
-    // Get the modal image and caption elements
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
+    let newCurrentSlide = 0;
+    const newSlidesToShow = 2; // Number of slides to show at a time
+    const newSlideWidth = 100 / newSlidesToShow;
+    const newSlideCount = newSlides.length;
 
-    // Zoom controls
-    var zoomInBtn = document.getElementById("zoomInBtn");
-    var zoomOutBtn = document.getElementById("zoomOutBtn");
-    var currentScale = 1;
-
-    // Loop through each image and add the click event
-    for (var i = 0; i < images.length; i++) {
-      images[i].addEventListener('click', showModal);
+    function newShowSlide() {
+        const translateX = -newCurrentSlide * newSlideWidth;
+        newSlider.style.transform = `translateX(${translateX}%)`;
+        newUpdateDots();
     }
 
-    function showModal() {
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-      currentScale = 1; // Reset the scale when showing a new image
-      applyZoom();
+    function newGoToNextSlide() {
+        newCurrentSlide = (newCurrentSlide + 1) % newSlideCount;
+        newShowSlide();
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-      modal.style.display = "none";
+    function newGoToPrevSlide() {
+        newCurrentSlide = (newCurrentSlide - 1 + newSlideCount) % newSlideCount;
+        newShowSlide();
     }
 
-    // Zoom in button click event
-    zoomInBtn.onclick = function () {
-      currentScale += 0.1;
-      applyZoom();
-    };
-
-    // Zoom out button click event
-    zoomOutBtn.onclick = function () {
-      if (currentScale > 0.2) {
-        currentScale -= 0.1;
-        applyZoom();
-      }
-    };
-
-    // Apply the current zoom scale
-    function applyZoom() {
-      modalImg.style.transform = "scale(" + currentScale + ")";
+    function newCreateDots() {
+        for (let i = 0; i < newSlideCount; i++) {
+            const newDot = document.createElement("span");
+            newDot.className = "new-slider-dot";
+            newDot.addEventListener("click", () => {
+                newCurrentSlide = i;
+                newShowSlide();
+            });
+            newSliderDots.appendChild(newDot);
+        }
     }
 
+    function newUpdateDots() {
+        const newDots = document.querySelectorAll(".new-slider-dot");
+        newDots.forEach((newDot, i) => {
+            if (i === newCurrentSlide) {
+                newDot.classList.add("active");
+            } else {
+                newDot.classList.remove("active");
+            }
+        });
+    }
+
+    newCreateDots();
+    newShowSlide();
+
+    // Auto-slide
+    let newAutoSlideInterval = setInterval(newGoToNextSlide, 5000); // Change slide every 3 seconds
+
+    // Pause auto-slide on mouse hover
+    newSlider.addEventListener("mouseenter", () => {
+        clearInterval(newAutoSlideInterval);
+    });
+
+    // Resume auto-slide when the mouse leaves the carousel
+    newSlider.addEventListener("mouseleave", () => {
+        newAutoSlideInterval = setInterval(newGoToNextSlide, 3000);
+    });
+
+    newNextButton.addEventListener("click", newGoToNextSlide);
+    newPrevButton.addEventListener("click", newGoToPrevSlide);
 
 
-  }, []);
+    // testi slider
 
 
+  })
 
 
   return (
 
-
     <>
-      <title>Hospital & Institutional Visits | Explore Aditya Birla Hospital Facilities</title>
-      <meta name="description" content="Experience informative and educational visits at Aditya Birla Hospital. Discover our state-of-the-art facilities and gain insights into advanced healthcare during your hospital and institutional visits." />
-
-      {/* common heading div start*/}
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="commonheaddiv">
-            <div className="commonheadcontainer">
-              <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Academics /
-                  <span className="breadcrumbsactive">
-                    Hospital Visit &amp; Institutional Visit
-                  </span>
-                </div>
+    <title>Hospital Visit</title>
+    {/* common heading div start*/}
+    <div className="parentcontainerwhi">
+      <div className="customcontainer">
+        <div className="commonheaddiv">
+          <div className="commonheadcontainer">
+            <div className="breadcrumbs">
+              <div className="breadcrumbsdata">
+                 Patient Care / <span className="breadcrumbsactive">Hospital Visit</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* common heading div end*/}
-      {/* common heading banner start */}
-      <div className="mainheadingbanner">
-        <div className="mainheadingbandiv">
-              <Image width={2000} height={400} src="/commonimages/commbanHospital-Visit.png" alt="icon" />
-        </div>
+    </div>
+    {/* common heading div end*/}
+    {/* common heading banner start */}
+    <div className="mainheadingbanner">
+      <div className="mainheadingbandiv">
+          <Image width={2000} height={400} src="/commonimages/commvirtulnewban.jpg" alt="icon" />
       </div>
-      {/* common heading banner end */}
-      {/* inter / obser pg start*/}
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="intershimain">
-            <div className="inttpa_sec">
-              <div className="inttpa_sec_para">
-                <div className="interspar">
-                  <b>Timings: </b>9:00 am to 5:30 pm
-                </div>
-                <div className="interspar">
-                  <b>Weekly off- </b>Sundays
-                </div>
-                <div className="interspar">
-                  <b>Email: </b>manager.academics@adityabirlahospital.com
-                </div>
-                <div className="interspar">
-                  <b>Contact: </b>02030717816 & 9011081036
-                </div>
-
-              </div>
+    </div>
+    {/* common heading banner end */}
+    {/* Hospirtal tour start*/}
+    <div className="parentcontainerwhi">
+      <div className="customcontainer">
+        <div className="Hospirtaltour">
+          <div className="commonheadingCont">
+            <div className="commonheadinghead">
+              <h2>Hospital Tour Guide</h2>
+              <span className="Commheadborder" />
             </div>
-
-            <div className="tourvistslider">
-
-              <div id="carouselExampleIndicatorsHosvis" className="carousel slide" data-bs-ride="carousel">
-
-                {/* <div className="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsHosvis"
-                  data-bs-slide-to={0}
-                  className="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsHosvis"
-                  data-bs-slide-to={1}
-                  aria-label="Slide 2"
-                ></button>
-              </div> */}
-
-                <div className="carousel-inner">
-
-
-                  <div className="carousel-item active">
-                    <div className="abmhnewslidcont">
-                      <div className="newpappimgcont">
-                        <Image width={2000} height={400}
-                          className="vistboximage myImg"
-                          src="/commonimages/visitimag1.jpg"
-                          alt="ABMH"
-                        />
-                      </div>      
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <div className="abmhnewslidcont">
-                      <div className="newpappimgcont">
-                        <Image width={2000} height={400}
-                          className="vistboximage myImg"
-                          src="/commonimages/visitimag2.jpg"
-                          alt="ABMH"
-                        />
-                      </div>      
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <div className="abmhnewslidcont">
-                      <div className="newpappimgcont">
-                        <Image width={2000} height={400}
-                          className="vistboximage myImg"
-                          src="/commonimages/visitimag3.jpg"
-                          alt="ABMH"
-                        />
-                      </div>      
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <div className="abmhnewslidcont">
-                      <div className="newpappimgcont">
-                        <Image width={2000} height={400}
-                          className="vistboximage myImg"
-                          src="/commonimages/visitimag4.jpg"
-                          alt="ABMH"
-                        />
-                      </div>      
-                    </div>
-                  </div>
-                 
-
-
-
-                </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsHosvis"
-                  data-bs-slide="prev"
-                >
-                  <span className="carousel-control-prev-icon" aria-hidden="true">
-                  </span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsHosvis"
-                  data-bs-slide="next"
-                >
-                  <span className="carousel-control-next-icon" aria-hidden="true">
-                  </span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div>
-
-
-              {/* The Modal */}
-              <div id="myModal" className="modal">
-                <span className="close">×</span>
-                <div className="zoom-controls">
-                  <button className="zoom-btn" id="zoomInBtn">
-                    Zoom In
-                  </button>
-                  <button className="zoom-btn" id="zoomOutBtn">
-                    Zoom Out
-                  </button>
-                </div>
-                <Image width={2000} height={400} src="" className="modal-content" id="img01" alt="img" />
-                <div id="caption" />
-              </div>
-              {/* The Modal */}
-
-
-
-            </div>
-
-
-
-
+          </div>
+          <div className="turevideo">
+            <iframe
+              className="turevidiframe"
+              src="https://www.youtube.com/embed/s7mRRpj6buM"
+              frameBorder={0}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen=""
+            />
           </div>
         </div>
       </div>
-      {/* inter / obser pg end*/}
-    </>
+    </div>
+    {/* Hospirtal tour  end*/}
+    {/* Hospirtal testimonials  start*/}
+    <div className="parentcontainerwhi withtestBG">
+      <div className="customcontainer">
+        <div className="Hospirtaltourtestim" id="PatientsTestimonials">
+          <div className="commonheadingCont">
+            <div className="commonheadinghead">
+              <h2>Patients Testimonials</h2>
+              <span className="Commheadborder" />
+            </div>
+          </div>
+          <div className="taltourtestimslidcont">
+            <div className="new-slider-wrapper">
+              <div className="new-slider">
 
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                              Aditya Birla Hospital boasts a team of highly professional doctors. 
+                              Their expertise and compassionate care were instrumental in my speedy recovery. Highly recommended.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>Preeti Singh</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient&apos;s Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            Impressed by Aditya Birla Hospital&apos;s staff, their dedication, and their friendly demeanour. 
+                            The nurses and support team made my stay comfortable and stress-free.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>James</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient&apos;s Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            I Was admitted to Aditya Birla Hospital For Typhoid treatment.
+                            The Medical team&apos;s prompt diagnosis and efficient care helped me recover quickly. 
+                            The Hospital&apos;s cleanliness and patient-friendly environment were impressive.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>David Wardson</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient&apos;s Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            My experience at Aditya Birla Hospital during my battle with dengue fever was outstanding. 
+                            The medical team demonstrated a high level of expertise in diagnosing and managing my condition.  
+                            I would highly recommend Aditya Birla Hospital for anyone seeking top-notch medical care.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>Tanu Jaiswal</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient&apos;s Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            I recently had an emergency appendix surgery at Aditya Birla Hospital, and I can&apos;t thank the medical team enough for their prompt and expert care. 
+                            They truly live up to their reputation as the best hospital in the city. 
+                            I highly recommend Aditya Birla Hospital to anyone seeking top-notch medical care in Pune.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>Rudransh Singh</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient&apos;s Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="new-slidet">
+                  <div className="myovefts">
+                    <div className="whychochilbo">
+                      <div className="whychoslideboxts">
+                        <div className="whychobox1ts">
+                          <div className="whychospects">
+                            <h2>
+                            My uncle had his knee surgery at this hospital. The facilities provided by the hospital were great. 
+                            Thanks to the expert surgeons now he&apos;s able to walk properly.
+                            </h2>
+                          </div>
+                        </div>
+                        <div className="whychoimgbox2ts">
+                          <div className="whychoimgbox2col1ts">
+                            <div className="whychoimgts">
+                              <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                            </div>
+                          </div>
+                          <div className="whychoimgbox2col2ts">
+                            <div className="whychonamejustyts">
+                              <div className="whychonamets">
+                                <h2>Sahil Mansoori</h2>
+                              </div>
+                              <div className="whychonameforts">
+                                <h2>Patient&apos;s Testimonial</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+     
+                {/* Add more slides here */}
+              </div>
+            </div>
+            <div className="new-slider-dots">
+              {/* Dots will be added dynamically using JavaScript */}
+            </div>
+            <div className="new-sliderbtn">
+              <button id="new-prevButton">
+                <Image width={400} height={400} src="/virtualtour/nextleft.png" alt="img" />
+              </button>
+              <button id="new-nextButton">
+                <Image width={400} height={400} src="/virtualtour/nextright.png" alt="img" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* Hospirtal testimonials   end*/}
+   
+  </>
+  
 
 
   );
@@ -265,4 +391,4 @@ const Hospitalvisit = () => {
 
 
 
-export default Hospitalvisit;
+export default Virtualtour;

@@ -415,13 +415,13 @@ const Header = () => {
                                             </button>
                                             <div className="dropdown-contentmy">
                                                 <Link href="/doctors">Find a Doctor</Link>
-                                                <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book an Appointment</Link>
+                                                <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book an Appointment</Link>
                                                 <Link href="/wellness-packages">Wellness Packages</Link>
                                                 <Link href="/diagnostic-services">Diagnostic Services</Link>
                                                 <Link href="/insurance-and-tpa">Insurance & TPAs</Link>
-                                                <Link href="https://portal.abmhslp.com/rhis/patient/login.jsf">View Reports</Link>
-                                                <Link href="/virtual-tour">Hospital Tour Guide</Link>
-                                                <Link href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
+                                                <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">View Reports</Link>
+                                                <Link href="/hospital-visit">Hospital Visit</Link>
+                                                <Link href="/hospital-visit#PatientsTestimonials">Patient Testimonial</Link>
                                             </div>
                                         </div>
                                         <div className="dropdownmy navbarlinks">
@@ -442,7 +442,7 @@ const Header = () => {
                                             <div className="dropdown-contentmy">
                                                 <Link href="/programs">Programs</Link>
                                                 <Link href="/internship-observer-ship">Internship & Observership</Link>
-                                                <Link href="/hospital-visit">Hospital Visit</Link>
+                                                <Link href="/students-gallery">Students Gallery</Link>
                                             </div>
 
                                         </div>
@@ -600,7 +600,7 @@ const Header = () => {
                                             <Link className='closeham' href="/doctors">Find a Doctor</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="https://portal.abmhslp.com/rhis/patient/login.jsf">Book an Appointment</Link>
+                                            <Link className='closeham' href="https://portal.abmhslp.com/AbmhPortal/#/login">Book an Appointment</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/wellness-packages">Wellness Packages</Link>
@@ -612,13 +612,13 @@ const Header = () => {
                                             <Link className='closeham' href="/insurance-and-tpa">Insurance & TPAs</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="https://portal.abmhslp.com/rhis/patient/login.jsf">View Reports</Link>
+                                            <Link className='closeham' href="https://portal.abmhslp.com/AbmhPortal/#/login">View Reports</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/virtual-tour">Hospital Tour Guide</Link>
+                                            <Link className='closeham' href="/hospital-visit">Hospital Visit</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/virtual-tour#PatientsTestimonials">Patient Testimonial</Link>
+                                            <Link className='closeham' href="/hospital-visit#PatientsTestimonials">Patient Testimonial</Link>
                                         </li>
 
                                     </ul>
@@ -646,7 +646,7 @@ const Header = () => {
                                             <Link className='closeham' href="/internship-observer-ship">Internship & Observership</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/hospital-visit">Hospital Visit</Link>
+                                            <Link className='closeham' href="/students-gallery">Students Gallery</Link>
                                         </li>
 
                                     </ul>

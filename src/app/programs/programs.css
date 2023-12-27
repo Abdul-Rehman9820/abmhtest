@@ -76,7 +76,7 @@
     font-size: 25px;
 }
 .coursetable {
-    text-align: center;
+    text-align: start;
 }
 
 
@@ -84,6 +84,24 @@
     font-size: 17px;
     font-weight: 300;
 }
+
+
+
+.prointtpa_sec_para {
+    padding: 30px;
+}
+.prointerspar {
+    margin-top: 5px;
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+.prointtpa_sec {
+    background: #ffe468;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 /* FAQ for   start */ 
 
@@ -200,6 +218,14 @@
         .faqhyper a {
             font-size: 14px;
         }
+
+        .prointerspar {
+            font-size: 14px;
+        }
+        .prointtpa_sec_para {
+            padding: 10px;
+        }
+
 
 }
 

@@ -57,26 +57,8 @@ const Interobserv = () => {
       {/* inter / obser pg start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
-          <div className="intershimain">
-            <div className="inttpa_sec">
-              <div className="inttpa_sec_para">
-                <div className="interspar">
-                  <b>Internship / Observership timings:</b> 9:00 am to 5:30 pm
-                </div>
-                <div className="interspar">
-                  <b>Weekly off-</b> Sundays
-                </div>
-                <div className="interspar">
-                  <b>Benefit-</b> Certificate of Internship / Observership from ABMH
-                </div>
-                <div className="interspar">
-                  <b>Email:</b> manager.academics@adityabirlahospital.com
-                </div>
-                <div className="interspar">
-                  <b>Contact:</b> 02030717816 &amp; 9011081036
-                </div>
-              </div>
-            </div>
+          <div className="intershimain mt-4 mb-4">
+ 
             <div className="intertime">
               <h2>Minimum or Maximum duration-</h2>
             </div>
@@ -122,6 +104,28 @@ const Interobserv = () => {
                 </tr>
               </tbody>
             </table>
+
+            <div className="inttpa_sec">
+              <div className="inttpa_sec_para">
+                <div className="interspar">
+                  <b>Internship / Observership timings:</b> 9:00 am to 5:30 pm
+                </div>
+                <div className="interspar">
+                  <b>Weekly off-</b> Sundays
+                </div>
+                <div className="interspar">
+                  <b>Benefit-</b> Certificate of Internship / Observership from ABMH
+                </div>
+                <div className="interspar">
+                  <b>Email:</b> manager.academics@adityabirlahospital.com
+                </div>
+                <div className="interspar">
+                  <b>Contact:</b> 02030717816 &amp; 9011081036
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>

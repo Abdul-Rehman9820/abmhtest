@@ -15,7 +15,7 @@ const Programs = () => {
 
   useEffect(() => {
 
-    
+
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
@@ -34,7 +34,7 @@ const Programs = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                   Academics / <span className="breadcrumbsactive">Programs</span>
+                  Academics / <span className="breadcrumbsactive">Programs</span>
                 </div>
               </div>
             </div>
@@ -44,9 +44,9 @@ const Programs = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-      <div className="mainheadingbandiv">
-             <Image width={2000} height={400} src="/commonimages/commbanAcademic-Programs.png" alt="icon" />
-      </div>
+        <div className="mainheadingbandiv">
+          <Image width={2000} height={400} src="/commonimages/commbanAcademic-Programs.png" alt="icon" />
+        </div>
       </div>
       {/* common heading banner end */}
       {/* HomeCareSolutions  start*/}
@@ -75,11 +75,12 @@ const Programs = () => {
         <div className="customcontainer">
           <div className="academiccourseint">
             <div className="academiccourseinthead">
-              <h2>Academic Courses at ABMH</h2>
+              <h2>Academic Courses</h2>
               <span className="headborder" />
             </div>
           </div>
-          <table className="table table-hover table-bordered intertable coursetable">
+
+          {/* <table className="table table-hover table-bordered intertable coursetable">
             <thead>
               <tr>
                 <th scope="col">1. NBEMS COURSES</th>
@@ -157,7 +158,71 @@ const Programs = () => {
                 <td>Radiology</td>
               </tr>
             </tbody>
+          </table> */}
+
+
+          <table className="table table-hover table-bordered intertable coursetable">
+
+            <tbody>
+              <tr>
+                <th>1. NBEMS COURSES</th>
+                <td>
+                  <div>Diploma</div>
+                  <div>Broad Specialty</div>
+                  <div>Super Specialty</div>
+                </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <th scope="col">2. ISCCM COURSES</th>
+                <td>
+                  <div>Indian Diploma in Critical Care Medicine (IDCCM)</div>
+                  <div>ISCCM Diploma in Critical Care Nursing (IDCCN)</div>
+                </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <th scope="col">3. CPS COURSES</th>
+                <td>
+                  <div>Pathology (DPB)</div>
+                  <div>ENT (DORL)</div>
+                </td>
+              </tr>
+
+            </tbody>
+            <tbody>
+              <tr>
+                <th scope="col">4. MUHS COURSES</th>
+                <td>
+                  <div>Fellowship in Trauma Care (FCTC)</div>
+                </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <th scope="col">
+                  <div>5. ROYAL COLLEGE, UK CLINICAL PREMIERE</div>
+                  <div>TRAINING PROGRAMS IN ASSOCIATION WITH TEXILA</div>
+                  <div>AMERICAN UNIVERSITY</div>
+                </th>
+                <td>
+                  <div>Obstetrics &amp; Gynecology</div>
+                  <div>General Medicine</div>
+                  <div>General Surgery</div>
+                  <div>Pediatrics</div>
+                  <div>Radiology</div>
+                </td>
+              </tr>
+            </tbody>
           </table>
+
+
+
           <div className="academiccourseint">
             <div className="academiccourseinthead">
               <h2>NATIONAL BOARD OF EXAMINATIONS IN MEDICAL SCIENCES (NBEMS)</h2>
@@ -294,25 +359,23 @@ const Programs = () => {
               </tr>
             </tbody>
           </table>
-          <div className="homwcareparacol1-prog">
-            <p className="homwcareparadataintprogar">
-              Email:-
-              <a href="mailto:academics@adityabirlahospital.com">
 
-                academics@adityabirlahospital.com
-              </a>
-              &amp;
-              <a href="mailto:manager.academics@adityabirlahospital.com">
 
-                manager.academics@adityabirlahospital.com
-              </a>
-              <br />
-              Contact:- <a href="tel:02030717672">02030717672</a> &amp;
-              <a href="tel:02030717816">02030717816</a>
-              <br />
-              Mobile:- <a href="tel:9011081036">9011081036</a>
-            </p>
+          <div className="prointtpa_sec">
+            <div className="prointtpa_sec_para">
+              <div className="prointerspar">
+                <b>Email:</b> academics@adityabirlahospital.com &amp; manager.academics@adityabirlahospital.com
+              </div>
+              <div className="prointerspar">
+                <b>Contact:</b> 02030717672 &amp; 02030717816
+              </div>
+              <div className="prointerspar">
+                <b>Mobile:</b> 9011081036
+              </div>
+            </div>
           </div>
+
+
         </div>
       </div>
       {/* HomeCare Solutions  end*/}
