@@ -693,7 +693,7 @@ export default function Home() {
                               <h2>Sr. Consultant Interventional Cardiology</h2>
                             </div>
                             <div className="ourteamexpi">
-                              <h2>ABMH Doctors</h2>
+                               {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -718,7 +718,7 @@ export default function Home() {
                               <h2>Consultant - Gynae Onco Surgeon</h2>
                             </div>
                             <div className="ourteamexpi">
-                              <h2>ABMH Doctors</h2>
+                               {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -743,7 +743,7 @@ export default function Home() {
                               <h2>Consultant- GI, HPB & Liver Transplant Surgeon</h2>
                             </div>
                             <div className="ourteamexpi">
-                              <h2>ABMH Doctors</h2>
+                               {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -778,7 +778,7 @@ export default function Home() {
                               <h2>Associate Director Neuro Surgery</h2>
                             </div>
                             <div className="ourteamexpi">
-                              <h2>ABMH Doctors</h2>
+                               {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -803,7 +803,7 @@ export default function Home() {
                               <h2>Uro-onco Robotic Surgeon</h2>
                             </div>
                             <div className="ourteamexpi">
-                              <h2>ABMH Doctors</h2>
+                               {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -828,7 +828,7 @@ export default function Home() {
                               <h2>Consultant Rheumatology</h2>
                             </div>
                             <div className="ourteamexpi">
-                              <h2>ABMH Doctors</h2>
+                               {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">

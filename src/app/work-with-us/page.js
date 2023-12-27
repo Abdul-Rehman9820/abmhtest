@@ -54,12 +54,13 @@ const Workwithus = () => {
 
 
           {/* comment if no opening*/}
-          {/* <div class="workwithuscont">
+
+                  {/* <div class="workwithuscont">
 
 
-        <h4>There are no current opening</h4>
+                  <h4>There are no current opening</h4>
 
-        </div> */}
+          </div> */}
 
 
           {/* comment if no opening*/}

@@ -610,7 +610,75 @@ button.dropbtnmy .fa {
 }
 
 
+/* sticky  start*/
+.sidebar-contact{
+  position:fixed;
+  top:50%;
+  left:-325px;
+  display: flex;
+  transform:translateY(-50%);
+  width:325px;
+  height:250px;
+  padding:10px;
+  background:#fff;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  box-sizing:border-box;
+  transition:0.5s;
+  z-index: 299;
+}
+.sidebar-contact.active{
+  left:0;
+}
+
+.toggle{
+  position:absolute;
+  height:250px;
+  width:40px;
+  text-align:center;
+  cursor:pointer;
+  background:#A21B18;
+  top:0;
+  right:-40px;
+  line-height: 20px;
+  display: grid;
+  
+}
+.toggle:before{
+  content:'';
+  font-family:fontAwesome;
+  font-size:18px;
+  color:#fff;
+  
+}
+
+.toggle.active{
+  height:250px;
+}
+
+.toggle.active:before{
+  content:'\f00d';
+  
+}
+#vert {
+  color: white;
+}
+
+.tbsdata a{
+  margin-left: 10px;
+  font-size: 15px;
+  color: #595c5f;
+}
+
+/* sticky  end*/
+
+
+
+
+
+
 /* header  end*/
+
+
 
 
 /* header  issse*/
@@ -806,6 +874,48 @@ button.searchinputBTN i {
 .logoimg {
   margin-top: 0;
 }
+
+/* sticky css*/
+
+  .sidebar-contact{
+    width:100%;
+    left:-100%;
+  }
+  .sidebar-contact .toggle{
+    top:50%;
+    transform:translateY(-50%);
+    transition:0.5s;
+    
+  }
+  .sidebar-contact.active .toggle
+  {
+    top:0;
+    right:0;
+    transform:translateY(0);
+  }
+
+  .content{
+    padding:50px 50px;
+  }
+
+ .tbhead {
+    font-size: 13px;
+ }
+ .toggle {
+  width: 27px;
+  right: -28px;
+}
+#vert {
+  font-size: 13px;
+}
+.tbsdata a{
+  font-size: 13px;
+  margin-left: 5px;
+}
+.sidebar-contact {
+  display: none;
+}
+/* sticky css*/
 
 
 

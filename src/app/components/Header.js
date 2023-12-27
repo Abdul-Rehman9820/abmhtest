@@ -165,6 +165,22 @@ const Header = () => {
 
             /* search bar  end*/
 
+
+            /* sticky start*/
+
+            $('.toggle').click(function () {
+                $('.sidebar-contact').toggleClass('active')
+                $('.toggle').toggleClass('active')
+            })
+
+
+            var vert = 'EMERGENCY'.split("").join("<br/>")
+            $('#vert').html(vert);
+
+            /* sticky end*/
+
+
+
         });
 
     }, []);
@@ -220,6 +236,44 @@ const Header = () => {
                 
                 `}
             </Script> */}
+
+
+
+            {/* sticky */}
+            <div className="sidebar-contact">
+                <div className="toggle">
+                    <div id="vert" />
+                </div>
+                <table className='stickytable'>
+                    <tbody>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Emergency No.</b>
+                            </td>
+                            <td><div className='tbsdata'> <Link href="tel:+9120307175003">+91-20-3071 7500-3</Link> </div></td>
+                        </tr>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Ambulance No.</b>
+                            </td>
+                            <td> <div className='tbsdata'>  <Link href="tel: +912040707777">+91-20-40707777</Link> </div> </td>
+                        </tr>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Ambulance No.</b>
+                            </td>
+                            <td> <div className='tbsdata'>  <Link href="tel: +912030717777">+91-20-30717777</Link> </div> </td>
+                        </tr>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>ABMH Assist No.</b>
+                            </td>
+                            <td> <div className='tbsdata'>  <Link href="tel: +919881123006">+91 98811 23006</Link> </div> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+             {/* sticky */}
 
 
             {/* Modal second opi */}
