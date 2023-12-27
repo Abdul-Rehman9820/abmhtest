@@ -201,7 +201,7 @@
     width: 100%;
     margin: auto;
     display: block;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
 }
 #newbysir .spefColiconContspsearch {
     width: 100%;
@@ -222,21 +222,27 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    background: #a21b18;
     border-radius: 10px;
-    box-shadow: 0pt 0pt 16pt rgb(0 0 0 / 7%);
 }
 
 .speforwhitbgCol1spsearch h2 {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 500;
     text-align: center;
     margin-top: 10px;
-    color: white;
-}
-.speforwhitbgCol1spsearch h2:hover {
     color: black;
 }
+
+
+#newbysir .speforwhitbgsearch:hover .speforwhitbgCol1spsearch h2 {
+    color: #a21b18;
+}
+
+.speforwhitbgCol1spsearch h2:hover {
+    color: #a21b18;
+}
+
+
 .myhrefsp {
     width: 25%;
     padding: 10px;
