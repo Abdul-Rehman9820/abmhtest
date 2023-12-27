@@ -57,11 +57,11 @@ const Abmhinterna = () => {
     console.log(uphone);
     console.log(uemail);
     console.log(ulocation);
-    console.log(ulocation);
+    console.log(umessage);
 
 
     // api level code 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/BookWellnessApi`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/sendmailnternational`, {
       method: "POST",
       body: JSON.stringify({
         username: uname,
@@ -242,289 +242,294 @@ const Abmhinterna = () => {
               </div>
             </div>
             <div className="abmhintertestimo">
-              <div id="carouselExampleIndicatorsintern" className="carousel slide">
 
-                {/* <div className="carousel-indicators">
+              <div className="abmhintertestimocol1">
+
+                <div id="carouselExampleIndicatorsintern" className="carousel slide">
+
+                  {/* <div className="carousel-indicators">
+  <button
+    type="button"
+    data-bs-target="#carouselExampleIndicatorsintern"
+    data-bs-slide-to={0}
+    className="active"
+    aria-current="true"
+    aria-label="Slide 1"
+  ></button>
+  <button
+    type="button"
+    data-bs-target="#carouselExampleIndicatorsintern"
+    data-bs-slide-to={1}
+    aria-label="Slide 2"
+  ></button>
+</div> */}
+
+                  <div className="carousel-inner">
+
+
+                    <div className="carousel-item active">
+                      <div className="interntestislid">
+                        <div className="interntestislidChil">
+                          <div className="interntestislidChilcol1">
+                            <div className="ourworkbox1">
+                              <div className="intertestvideo">
+                                <iframe
+                                  className="interslidevideo"
+                                  src="https://www.youtube.com/embed/JVhoUCsUou8"
+                                  frameBorder={0}
+                                  allowFullScreen=""
+                                ></iframe>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="interntestislidChilcol2">
+                            <div className="interntestislidChilcol2Para">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            </div>
+                            <div className="interourworkname">
+                              <h2>Michael Nkubito</h2>
+                            </div>
+                            <div className="intertestispace" />
+                            <div className="interourworkspec">
+                              <h2>Uganda</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="carousel-item">
+                      <div className="interntestislid">
+                        <div className="interntestislidChil">
+                          <div className="interntestislidChilcol1">
+                            <div className="ourworkbox1">
+                              <div className="intertestvideo">
+                                <iframe
+                                  className="interslidevideo"
+                                  src="https://www.youtube.com/embed/29vP93VLGbc"
+                                  frameBorder={0}
+                                  allowFullScreen=""
+                                ></iframe>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="interntestislidChilcol2">
+                            <div className="interntestislidChilcol2Para">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            </div>
+                            <div className="interourworkname">
+                              <h2>Grace Olumuji</h2>
+                            </div>
+                            <div className="intertestispace" />
+                            <div className="interourworkspec">
+                              <h2>Nigeria</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="carousel-item">
+                      <div className="interntestislid">
+                        <div className="interntestislidChil">
+                          <div className="interntestislidChilcol1">
+                            <div className="ourworkbox1">
+                              <div className="intertestvideo">
+                                <iframe
+                                  className="interslidevideo"
+                                  src="https://www.youtube.com/embed/X6RPreZLwHg"
+                                  frameBorder={0}
+                                  allowFullScreen=""
+                                ></iframe>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="interntestislidChilcol2">
+                            <div className="interntestislidChilcol2Para">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            </div>
+                            <div className="interourworkname">
+                              <h2>Mr. Kang Weike</h2>
+                            </div>
+                            <div className="intertestispace" />
+                            <div className="interourworkspec">
+                              <h2>China</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="carousel-item">
+                      <div className="interntestislid">
+                        <div className="interntestislidChil">
+                          <div className="interntestislidChilcol1">
+                            <div className="ourworkbox1">
+                              <div className="intertestvideo">
+                                <iframe
+                                  className="interslidevideo"
+                                  src="https://www.youtube.com/embed/8KqsSC7OSts"
+                                  frameBorder={0}
+                                  allowFullScreen=""
+                                ></iframe>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="interntestislidChilcol2">
+                            <div className="interntestislidChilcol2Para">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            </div>
+                            <div className="interourworkname">
+                              <h2>Ms. Teriba</h2>
+                            </div>
+                            <div className="intertestispace" />
+                            <div className="interourworkspec">
+                              <h2>Nigeria</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="carousel-item">
+                      <div className="interntestislid">
+                        <div className="interntestislidChil">
+                          <div className="interntestislidChilcol1">
+                            <div className="ourworkbox1">
+                              <div className="intertestvideo">
+                                <iframe
+                                  className="interslidevideo"
+                                  src="https://www.youtube.com/embed/yAwjj-bkWic"
+                                  frameBorder={0}
+                                  allowFullScreen=""
+                                ></iframe>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="interntestislidChilcol2">
+                            <div className="interntestislidChilcol2Para">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            </div>
+                            <div className="interourworkname">
+                              <h2>Omani Patient</h2>
+                            </div>
+                            <div className="intertestispace" />
+                            <div className="interourworkspec">
+                              <h2>Oman</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
                   <button
+                    className="carousel-control-prev"
                     type="button"
                     data-bs-target="#carouselExampleIndicatorsintern"
-                    data-bs-slide-to={0}
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
+                    data-bs-slide="prev"
+                  >
+                    <span className="carousel-control-prev-icon" aria-hidden="true">
+
+                    </span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
                   <button
+                    className="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleIndicatorsintern"
-                    data-bs-slide-to={1}
-                    aria-label="Slide 2"
-                  ></button>
-                </div> */}
+                    data-bs-slide="next"
+                  >
+                    <span className="carousel-control-next-icon" aria-hidden="true">
 
-                <div className="carousel-inner">
-
-
-                  <div className="carousel-item active">
-                    <div className="interntestislid">
-                      <div className="interntestislidChil">
-                        <div className="interntestislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="intertestvideo">
-                              <iframe
-                                className="interslidevideo"
-                                src="https://www.youtube.com/embed/JVhoUCsUou8"
-                                frameBorder={0}
-                                allowFullScreen=""
-                              ></iframe>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="interntestislidChilcol2">
-                          <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                          </div>
-                          <div className="interourworkname">
-                            <h2>Michael Nkubito</h2>
-                          </div>
-                          <div className="intertestispace" />
-                          <div className="interourworkspec">
-                            <h2>Uganda</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="interntestislid">
-                      <div className="interntestislidChil">
-                        <div className="interntestislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="intertestvideo">
-                              <iframe
-                                className="interslidevideo"
-                                src="https://www.youtube.com/embed/29vP93VLGbc"
-                                frameBorder={0}
-                                allowFullScreen=""
-                              ></iframe>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="interntestislidChilcol2">
-                          <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                          </div>
-                          <div className="interourworkname">
-                            <h2>Grace Olumuji</h2>
-                          </div>
-                          <div className="intertestispace" />
-                          <div className="interourworkspec">
-                            <h2>Nigeria</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="interntestislid">
-                      <div className="interntestislidChil">
-                        <div className="interntestislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="intertestvideo">
-                              <iframe
-                                className="interslidevideo"
-                                src="https://www.youtube.com/embed/X6RPreZLwHg"
-                                frameBorder={0}
-                                allowFullScreen=""
-                              ></iframe>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="interntestislidChilcol2">
-                          <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                          </div>
-                          <div className="interourworkname">
-                            <h2>Mr. Kang Weike</h2>
-                          </div>
-                          <div className="intertestispace" />
-                          <div className="interourworkspec">
-                            <h2>China</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="interntestislid">
-                      <div className="interntestislidChil">
-                        <div className="interntestislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="intertestvideo">
-                              <iframe
-                                className="interslidevideo"
-                                src="https://www.youtube.com/embed/8KqsSC7OSts"
-                                frameBorder={0}
-                                allowFullScreen=""
-                              ></iframe>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="interntestislidChilcol2">
-                          <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                          </div>
-                          <div className="interourworkname">
-                            <h2>Ms. Teriba</h2>
-                          </div>
-                          <div className="intertestispace" />
-                          <div className="interourworkspec">
-                            <h2>Nigeria</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="interntestislid">
-                      <div className="interntestislidChil">
-                        <div className="interntestislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="intertestvideo">
-                              <iframe
-                                className="interslidevideo"
-                                src="https://www.youtube.com/embed/yAwjj-bkWic"
-                                frameBorder={0}
-                                allowFullScreen=""
-                              ></iframe>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="interntestislidChilcol2">
-                          <div className="interntestislidChilcol2Para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                          </div>
-                          <div className="interourworkname">
-                            <h2>Omani Patient</h2>
-                          </div>
-                          <div className="intertestispace" />
-                          <div className="interourworkspec">
-                            <h2>Oman</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
+                    </span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
 
                 </div>
 
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsintern"
-                  data-bs-slide="prev"
-                >
-                  <span className="carousel-control-prev-icon" aria-hidden="true">
-
-                  </span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsintern"
-                  data-bs-slide="next"
-                >
-                  <span className="carousel-control-next-icon" aria-hidden="true">
-
-                  </span>
-                  <span className="visually-hidden">Next</span>
-                </button>
 
               </div>
+
+
+              <div className="abmhintertestimocol2">
+
+                <div className="intern-con-form">
+
+                  <form className="internationalform" onSubmit={handleSubmit}>
+
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="username"
+                      placeholder="Your Name"
+                      value={uname}
+                      onChange={handleChange}
+                      required
+                    />
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="userPhone"
+                      placeholder="Your Phone"
+                      value={uphone}
+                      onChange={handleChange}
+                      required
+                    />
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="usermail"
+                      placeholder="Your Email"
+                      value={uemail}
+                      onChange={handleChange}
+                      required
+                    />
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="userlocation"
+                      placeholder="Your Location"
+                      value={ulocation}
+                      onChange={handleChange}
+                      required
+                    />
+                    <textarea
+                      name="usermessage"
+                      className="form-control"
+                      placeholder="Your Message"
+                      value={umessage}
+                      onChange={handleChange}
+                      required
+                    />
+
+
+                    <button type="submit" id="submitbtb" className="intern_form_submit">Submit</button>
+
+                  </form>
+
+                  <div id="apirespose"></div>
+
+                </div>
+
+              </div>
+
+
+
+
             </div>
           </div>
         </div>
       </div>
 
-      <div className="parentcontainerwhi mt-4 mb-4">
-        <div className="customcontainer">
-          <div className="intern-con-form">
 
-
-            <div className="internatipartbof">
-              <div className="internatisheadbof">
-                <h2 className="internatibofbalc">Contatc Us</h2>
-                <span className="internatiborderbof" />
-              </div>
-            </div>
-
-            <form className="internationalform" onSubmit={handleSubmit}>
-
-              <input
-                type="text"
-                className="form-control"
-                name="username"
-                placeholder="Your Name"
-                value={uname}
-                onChange={handleChange}
-                required
-              />
-              <input
-                type="text"
-                className="form-control"
-                name="userPhone"
-                placeholder="Your Phone"
-                value={uphone}
-                onChange={handleChange}
-                required
-              />
-              <input
-                type="email"
-                className="form-control"
-                name="usermail"
-                placeholder="Your Email"
-                value={uemail}
-                onChange={handleChange}
-                required
-              />
-              <input
-                type="text"
-                className="form-control"
-                name="userlocation"
-                placeholder="Your Location"
-                value={ulocation}
-                onChange={handleChange}
-                required
-              />
-              <textarea
-                name="usermessage"
-                className="form-control"
-                placeholder="Your Message"
-                value={umessage}
-                onChange={handleChange}
-                required
-              />
-
-
-              <button type="submit" id="submitbtb" className="intern_form_submit">Submit</button>
-
-            </form>
-
-            <div id="apirespose"></div>
-
-          </div>
-        </div>
-      </div>
       {/* International end*/}
     </>
 

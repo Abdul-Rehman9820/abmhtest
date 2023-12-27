@@ -220,10 +220,12 @@
 }
 
 
-.abmhintertestimo{
+.abmhintertestimo {
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
 
 #carouselExampleIndicatorsintern {
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 7%);
@@ -248,7 +250,7 @@
 
 .intern-con-form .form-control {
     border: 1px solid #901412;
-    margin-top: 20px;
+    margin-bottom: 20px;
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -273,9 +275,14 @@
     font-size: 14px;
     letter-spacing: 2px;
 }
-.internationalform {
-    width: 60%;
+.abmhintertestimocol1 {
+    width: 70%;
 }
+.abmhintertestimocol2 {
+    width: 30%;
+    padding: 0 20px ;
+}
+
 
 /*! International   end*/
 
@@ -372,12 +379,22 @@
 .abmhintertestimo {
     margin-top: 20px;
 }
-.internationalform {
-    width: 100%;
-}
+
 .internationalfo-head{
     font-size: 13px;
 }
+
+.abmhintertestimocol1 {
+    width: 100%;
+}
+.abmhintertestimocol2 {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+
 
 /*! International   end*/
 

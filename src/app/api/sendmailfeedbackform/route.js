@@ -18,7 +18,6 @@ export async function POST(req, content) {
     const usermail = body.usermail;
     const userlocation = body.userlocation;
     const usermessage = body.usermessage;
-    const selectedOption = body.selectedOption;
 
 
     var maildatahtlm = `<div>
@@ -28,7 +27,6 @@ export async function POST(req, content) {
                                 <p>Email = ${usermail}</p>
                                 <p>Location = ${userlocation}</p>
                                 <p>Message  = ${usermessage}</p>
-                                <p>Wellness Package  = ${selectedOption}</p>
           
                            <div>`;
 
@@ -45,9 +43,9 @@ export async function POST(req, content) {
     });
 
     const mailOptions = {
-      from: '"New Enquiry From ABMH Book Wellness Packages Form" <abmh_enquiry@mindframeindia.com>',
+      from: '"New Enquiry From ABMH Feedback Form" <abmh_enquiry@mindframeindia.com>',
       to: ['abmh_enquiry@mindframeindia.com', 'abdul.a@mindframeindia.com'],
-      subject: 'New Wellness Packages Enquiry From ABMH',
+      subject: 'New Feedback From ABMH Website',
       html: maildatahtlm,
     };
 

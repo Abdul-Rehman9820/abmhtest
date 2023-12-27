@@ -98,7 +98,7 @@ const Footer = () => {
                       <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book An Appointment</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/contact-us">Leave A feedback</Link>
+                      <Link href="/leave-a-feedback-form">Leave A feedback</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/work-with-us">Career</Link>
@@ -295,7 +295,7 @@ const Footer = () => {
                       <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book An Appointment</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/contact-us">Leave A feedback</Link>
+                      <Link href="/leave-a-feedback-form">Leave A feedback</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/work-with-us">Career</Link>
