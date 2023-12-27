@@ -104,104 +104,7 @@ const Accidentandemergency = () => {
       {/* common heading banner end */}
 
 
-      {/* specialties  start*/}
-
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-            <div className="spectitle">
-              <h1 className="spetileh1">Accident and Emergency</h1>
-            </div>
-            <div className="spectitleimgbox">
-              <div className="spectitleimgbox1">
-                <Image width={400} height={400} src="/specialityviewimag/accident.jpg" alt="img" />
-              </div>
-              <div className="spectitleimgbox2">
-                <p className="specilpara">
-                  <b>Aditya Birla Memorial Hospital</b> provides the best EMS
-                  facility in Pune. Our world class, fully equipped Accident and
-                  Emergency (A&amp;E) department is fully prepared with full time
-                  consultants providing specialized and advanced medical care for
-                  all kinds of accidents and emergencies, 24X7.
-                </p>
-                <p className="specilpara">
-                  Our A&amp;E department is supported by in house doctors. A&amp;E
-                  is based on knowledge and skills required for prevention,
-                  diagnosis and management of acute and urgent aspects of illness
-                  and injury affecting patient of all age groups and with a full
-                  spectrum of undifferentiated physical and behavioral disease.
-                  Emergency medicine treats conditions that pose a threat to life,
-                  limb or have a significant risk of morbidity. Our center is
-                  equipped with a total of 12 beds for priority care.
-                </p>
-                <p className="specilpara">
-                  Our highly experienced team is even trained and equipped to
-                  council family members and friends to deal with accidents and
-                  emergencies. Additionally, our internal pharmacy is fully stocked
-                  with supplies to deal with disaster and mass casualties and can
-                  offer treatment for up to 20 patients at a time without delay.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="parentcontainerwhi specipgGRY">
-        <div className="customcontainer">
-          <div className="specsingleparnGra">
-            <div className="spectitlegrcont">
-              <div className="spectitlegrcont1">
-                <div className="Specialtiesheadgr">
-                  <h2 className="spetileh1gr">Infrastructure</h2>
-                  <span className="headbordergr" />
-                </div>
-                <p className="specilpara">
-                  As Emergency medicine encompasses a large amount of general
-                  medicine and surgery including surgical sub-speciality and
-                  physicians dealing with emergency require a broad field of
-                  knowledge and advanced procedural skills including surgical
-                  procedure, trauma resuscitation, advanced cardiac life support and
-                  advanced airway management.
-                </p>
-                <p className="specilpara">
-                  It involves primary management, transportation
-                  (ambulance),packaging, triage, lifesaving majors as per ACLs and
-                  ITLS guidelines, of complex trauma and limb/deformity
-                  reconstruction, spine, hand and foot/anklesurgery and pediatric
-                  orthopedics.
-                </p>
-                <p className="specilpara">
-                  We also provide ambulance services equivalent to an ICU on wheels.
-                </p>
-              </div>
-              <div className="spectitlegrcont2">
-                <div className="testimgboxcont">
-                  <div className="testimgboxcot1">
-                    <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
-                  </div>
-                  <div className="testimgboxcot2">
-                    <p className="testimgtitle">Internal Services</p>
-                  </div>
-                </div>
-                <div className="testimgboxcont">
-                  <div className="testimgboxcot1">
-                    <Image width={400} height={400} src="/specialityviewimag/External Services.jpg" alt="img" />
-                  </div>
-                  <div className="testimgboxcot2">
-                    <p className="testimgtitle">External Services</p>
-                  </div>
-                </div>
- 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      {/* team of expert slider start*/}
+            {/* team of expert slider start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleDoclist">
@@ -321,6 +224,101 @@ const Accidentandemergency = () => {
         </div>
       </div>
       {/* team of expert slider end*/}
+
+
+      {/* specialties  start*/}
+
+      <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+            <div className="spectitle">
+              <h1 className="spetileh1">Accident and Emergency</h1>
+            </div>
+            <div className="spectitleimgbox">
+              <div className="spectitleimgbox1">
+                <Image width={400} height={400} src="/specialityviewimag/accident.jpg" alt="img" />
+              </div>
+              <div className="spectitleimgbox2">
+                <p className="specilpara">
+                  <b>Aditya Birla Memorial Hospital</b> provides the best EMS
+                  facility in Pune. Our world class, fully equipped Accident and
+                  Emergency (A&amp;E) department is fully prepared with full time
+                  consultants providing specialized and advanced medical care for
+                  all kinds of accidents and emergencies, 24X7.
+                </p>
+                <p className="specilpara">
+                  Our A&amp;E department is supported by in house doctors. A&amp;E
+                  is based on knowledge and skills required for prevention,
+                  diagnosis and management of acute and urgent aspects of illness
+                  and injury affecting patient of all age groups and with a full
+                  spectrum of undifferentiated physical and behavioral disease.
+                  Emergency medicine treats conditions that pose a threat to life,
+                  limb or have a significant risk of morbidity. Our center is
+                  equipped with a total of 12 beds for priority care.
+                </p>
+                <p className="specilpara">
+                  Our highly experienced team is even trained and equipped to
+                  council family members and friends to deal with accidents and
+                  emergencies. Additionally, our internal pharmacy is fully stocked
+                  with supplies to deal with disaster and mass casualties and can
+                  offer treatment for up to 20 patients at a time without delay.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="parentcontainerwhi specipgGRY">
+        <div className="customcontainer">
+          <div className="specsingleparnGra">
+            <div className="spectitlegrcont">
+              <div className="spectitlegrcont1">
+                <div className="Specialtiesheadgr">
+                  <h2 className="spetileh1gr">Infrastructure</h2>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  As Emergency medicine encompasses a large amount of general
+                  medicine and surgery including surgical sub-speciality and
+                  physicians dealing with emergency require a broad field of
+                  knowledge and advanced procedural skills including surgical
+                  procedure, trauma resuscitation, advanced cardiac life support and
+                  advanced airway management.
+                </p>
+                <p className="specilpara">
+                  It involves primary management, transportation
+                  (ambulance),packaging, triage, lifesaving majors as per ACLs and
+                  ITLS guidelines, of complex trauma and limb/deformity
+                  reconstruction, spine, hand and foot/anklesurgery and pediatric
+                  orthopedics.
+                </p>
+                <p className="specilpara">
+                  We also provide ambulance services equivalent to an ICU on wheels.
+                </p>
+              </div>
+              <div className="spectitlegrcont2">
+                <div className="testimgboxcont">
+                  <div className="testimgboxcot1">
+                    <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                  </div>
+                  <div className="testimgboxcot2">
+                    <p className="testimgtitle">Internal Services</p>
+                  </div>
+                </div>
+                <div className="testimgboxcont">
+                  <div className="testimgboxcot1">
+                    <Image width={400} height={400} src="/specialityviewimag/External Services.jpg" alt="img" />
+                  </div>
+                  <div className="testimgboxcot2">
+                    <p className="testimgtitle">External Services</p>
+                  </div>
+                </div>
+ 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       {/* specialties end*/}

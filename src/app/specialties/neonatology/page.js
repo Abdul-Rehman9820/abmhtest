@@ -104,11 +104,6 @@ const Andrologyandsexualmedicine = () => {
       {/* common heading banner end */}
 
 
-      {/* specialties  start*/}
-
-
-
-
 
 
 
@@ -145,6 +140,8 @@ const Andrologyandsexualmedicine = () => {
 
 
                             <div className="ourteamslidchilbosingle" key={profileIndex}>
+
+                            <Link href={`/doctor-profile?doc=${profile.DoctorNameSlug}`}>
                               <div className="ourteamslidebox">
                                 <div className="ourteambox1single">
                                   <div className="ourteamimg">
@@ -170,6 +167,8 @@ const Andrologyandsexualmedicine = () => {
                                   </div>
                                 </div>
                               </div>
+                              </Link>
+
                             </div>
 
 
@@ -228,6 +227,11 @@ const Andrologyandsexualmedicine = () => {
         </div>
       </div>
       {/* team of expert slider end*/}
+
+      {/* specialties  start*/}
+
+
+
 
 
       {/* specialties end*/}

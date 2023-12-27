@@ -104,12 +104,6 @@ const Pediatrics = () => {
       {/* common heading banner end */}
 
 
-      {/* specialties  start*/}
-
-
-
-
-
 
 
       {/* team of expert slider start*/}
@@ -145,6 +139,8 @@ const Pediatrics = () => {
 
 
                             <div className="ourteamslidchilbosingle" key={profileIndex}>
+
+                            <Link href={`/doctor-profile?doc=${profile.DoctorNameSlug}`}>
                               <div className="ourteamslidebox">
                                 <div className="ourteambox1single">
                                   <div className="ourteamimg">
@@ -170,6 +166,8 @@ const Pediatrics = () => {
                                   </div>
                                 </div>
                               </div>
+                              </Link>
+
                             </div>
 
 
@@ -228,6 +226,12 @@ const Pediatrics = () => {
         </div>
       </div>
       {/* team of expert slider end*/}
+
+      {/* specialties  start*/}
+
+
+
+
 
 
       {/* specialties end*/}

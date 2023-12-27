@@ -130,7 +130,7 @@ const Virtualtour = () => {
                 <span className="Commheadborder" />
               </div>
             </div>
-            <div className="turevideo">
+            <div className="turevideo" id="PatientsTestimonials">
               <iframe
                 className="turevidiframe"
                 src="https://www.youtube.com/embed/s7mRRpj6buM"
@@ -146,7 +146,7 @@ const Virtualtour = () => {
       {/* Hospirtal testimonials  start*/}
       <div className="parentcontainerwhi withtestBG">
         <div className="customcontainer">
-          <div className="Hospirtaltourtestim" id="PatientsTestimonials">
+          <div className="Hospirtaltourtestim">
             <div className="commonheadingCont">
               <div className="commonheadinghead">
                 <h2>Patients Testimonials</h2>

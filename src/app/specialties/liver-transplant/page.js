@@ -104,44 +104,6 @@ const Livertransplant = () => {
       {/* common heading banner end */}
 
 
-      {/* specialties  start*/}
-
-
-
-    
-      <div className="parentcontainerwhi">
-  <div className="customcontainer">
-    <div className="specsingleparn">
-      <div className="spectitle">
-        <h1 className="spetileh1">Liver Transplant</h1>
-      </div>
-      <div className="spectitleimgbox">
-        <div className="spectitleimgbox1">
-          <Image width={400} height={400} src="/specialityviewimag/youtube_videos_2.png" alt="img" />
-        </div>
-        <div className="spectitleimgbox2">
-          <p className="specilpara">
-            <b>The Aditya Birla Memorial Hospital</b> department of
-            Anesthesiology boasts of trained academicians who conduct DNB/CPS
-            courses in Anaesthesiology, in addition to being skilled
-            anesthesiologist.
-          </p>
-          <p className="specilpara">
-            Anesthesia is the administration of general anesthetic agents that
-            make a person unconscious and unable to feel pain – often used
-            during operative procedures.
-          </p>
-        </div>
-      </div>
-    </div>
-  
-  </div>
-</div>
-
-
-
-
-
 
 
       {/* team of expert slider start*/}
@@ -177,6 +139,8 @@ const Livertransplant = () => {
 
 
                             <div className="ourteamslidchilbosingle" key={profileIndex}>
+
+                            <Link href={`/doctor-profile?doc=${profile.DoctorNameSlug}`}>
                               <div className="ourteamslidebox">
                                 <div className="ourteambox1single">
                                   <div className="ourteamimg">
@@ -202,6 +166,8 @@ const Livertransplant = () => {
                                   </div>
                                 </div>
                               </div>
+                              </Link>
+
                             </div>
 
 
@@ -260,6 +226,44 @@ const Livertransplant = () => {
         </div>
       </div>
       {/* team of expert slider end*/}
+
+      {/* specialties  start*/}
+
+
+
+    
+      <div className="parentcontainerwhi">
+  <div className="customcontainer">
+    <div className="specsingleparn">
+      <div className="spectitle">
+        <h1 className="spetileh1">Liver Transplant</h1>
+      </div>
+      <div className="spectitleimgbox">
+        <div className="spectitleimgbox1">
+          <Image width={400} height={400} src="/specialityviewimag/youtube_videos_2.png" alt="img" />
+        </div>
+        <div className="spectitleimgbox2">
+          <p className="specilpara">
+            <b>The Aditya Birla Memorial Hospital</b> department of
+            Anesthesiology boasts of trained academicians who conduct DNB/CPS
+            courses in Anaesthesiology, in addition to being skilled
+            anesthesiologist.
+          </p>
+          <p className="specilpara">
+            Anesthesia is the administration of general anesthetic agents that
+            make a person unconscious and unable to feel pain – often used
+            during operative procedures.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
 
 
       {/* specialties end*/}

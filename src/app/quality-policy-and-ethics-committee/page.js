@@ -89,6 +89,7 @@ const Qualityandethics = () => {
                     medical practices in place to comply with National and
                     International Standards like ISO, NABL to maintain excellence.
                   </p>
+                  <div  id="ethics-committee"></div>
                 </div>
               </div>
               <div className="paraqlflex">
@@ -101,6 +102,7 @@ const Qualityandethics = () => {
                     responsive to the safety, welfare and needs of all our
                     stakeholders.
                   </p>
+
                 </div>
               </div>
             </div>
@@ -114,7 +116,7 @@ const Qualityandethics = () => {
           </div>
         </div>
       </div>
-      <div className="parentcontainerwhi" id="ethics-committee">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="ethiccommmain">
             <div className="qualitypolmain">
