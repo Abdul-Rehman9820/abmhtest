@@ -234,9 +234,9 @@ const Doctors = () => {
 
 
       // Append checked values to the resultDiv
-      // resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColors.length > 0 ? checkedColors.join(', ') : ' ');
+      // resultDiv.innerHTML = '<h5 className="innerht">Selected Specialty :</h5>' + (checkedColors.length > 0 ? checkedColors.join(', ') : ' ');
 
-      resultDiv.innerHTML = '<h5 class="innerht">Selected Specialty :</h5>' + (checkedColorsname.length > 0 ? checkedColorsname.join(', ') : ' ');
+      resultDiv.innerHTML = '<h5 className="innerht">Selected Specialty :</h5>' + (checkedColorsname.length > 0 ? checkedColorsname.join(', ') : ' ');
     });
 
     // filter btn 

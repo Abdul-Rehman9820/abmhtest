@@ -86,7 +86,7 @@ const Specialties = () => {
 
                       <div className="specflex">  
                           <input type="text" placeholder="Search Specialty ..."  id="myInputsp" onKeyUp={filterFunction}/>
-                          <i class="fa fa-search"></i>
+                          <i className="fa fa-search"></i>
                       </div>
 
 
@@ -227,7 +227,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/cardiac-sciences">
                                   <h2>Cardiac Sciences</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -355,7 +355,7 @@ const Specialties = () => {
                                 />
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/critical-care">
+                                <Link href="/specialties/critical-care-unit">
                                   <h2>Critical Care  Unit</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -462,7 +462,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/dermatology-&-cosmetology">
                                   <h2>Dermatology & Cosmetology</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -483,7 +483,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/dietetics-&-nutrition-lifestyle">
                                   <h2>Dietetics & Nutrition (Lifestyle)</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -526,7 +526,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/ent">
+                                <Link href="/specialties/endocrinology-&-diabetology">
                                   <h2>Endocrinology & Diabetology</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -606,13 +606,13 @@ const Specialties = () => {
                           <div className="spaccontsearch">
                             <div className="speforwhitbgsearch">
                               <div className="spefColiconContspsearch">
-                                <Image width={500} height={500}
+                                {/* <Image width={500} height={500}
                                   src="/specialtiesimg/Foetal Medicine.jpg"
                                   alt="img"
-                                />
+                                /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/fetal-&-genetic-medicine">
                                   <h2>Fetal & Genetic Medicine</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -677,7 +677,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/gastroscience">
                                   <h2>Gastroscience</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -697,8 +697,8 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
-                                  <h2>General Surgery </h2>
+                                <Link href="/specialties/general-surgery">
+                                  <h2>General Surgery</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
@@ -717,8 +717,8 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
-                                  <h2>GI SURGERY</h2>
+                                <Link href="/specialties/gi-surgery">
+                                  <h2>GI Surgery</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
                                   deparment name or key words for search
@@ -866,7 +866,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/heamatology">
                                   <h2>Heamatology</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -886,7 +886,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/hepatology-and-liver-transplantation">
                                   <h2>Hepatology and Liver transplantation </h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1178,7 +1178,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/nephrology-&-renal-transplant">
                                   <h2>Nephrology & Renal transplant</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1198,7 +1198,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/neuroscience">
                                   <h2>Neuroscience</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1231,92 +1231,6 @@ const Specialties = () => {
                         </div>
 
 
-
-
-
-                        {/* <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={500} height={500}
-                                  src="/specialtiesimg/Nutrition and Dietetics.jpg"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/nutrition-dietetics">
-                                  <h2>Nutrition and Dietetics</h2>
-                                </Link>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div> */}
-
-                        {/* <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={500} height={500}
-                                  src="/specialtiesimg/Nephrology & Kidney Transplant.jpg"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/nephrology-and-kidney-transplant">
-                                  <h2>Nephrology & Kidney Transplant</h2>
-                                </Link>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div> */}
-
-                        {/* <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={500} height={500}
-                                  src="/specialtiesimg/Neuro surgery.jpg"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/neuro-surgery">
-                                  <h2>Neuro surgery</h2>
-                                </Link>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div> */}
-
-                        {/* <div className="myhrefsp">
-                          <div className="spaccontsearch">
-                            <div className="speforwhitbgsearch">
-                              <div className="spefColiconContspsearch">
-                                <Image width={500} height={500}
-                                  src="/specialtiesimg/Neurology.jpg"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/neurology">
-                                  <h2>Neurology</h2>
-                                </Link>
-                                <h2 className="diparmenthideORkeywords">
-                                  deparment name or key words for search
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div> */}
 
                         {/* <div className="myhrefsp">
                           <div className="spaccontsearch">
@@ -1412,7 +1326,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/obs-&-gynae">
                                   <h2>Obs & Gynae</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1454,7 +1368,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/oral-&-maxillofacial">
                                   <h2>Oral & Maxillofacial</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1474,7 +1388,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/organ-transplant">
                                   <h2>Organ Transplant</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1494,7 +1408,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/orthopaedic">
                                   <h2>Orthopaedic</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1514,7 +1428,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/otolaryngology-ent">
                                   <h2>Otolaryngology (ENT)</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1558,7 +1472,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/physiotherapy-&-rehabilitation">
                                   <h2>Physiotherapy & Rehabilitation</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -1579,7 +1493,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/plastic-&-reconstructive-surgery">
                                   <h2>Plastic & Reconstructive Surgery</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -2004,7 +1918,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties">
+                                <Link href="/specialties/robotic-assisted-surgery">
                                   <h2>Robotic Assisted Surgery</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -2046,7 +1960,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/reproductive-medicine">
                                   <h2>Reproductive Medicine</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">
@@ -2067,7 +1981,7 @@ const Specialties = () => {
                                 /> */}
                               </div>
                               <div className="speforwhitbgCol1spsearch">
-                                <Link href="/specialties/">
+                                <Link href="/specialties/rheumatology-&-immunology">
                                   <h2>Rheumatology & Immunology</h2>
                                 </Link>
                                 <h2 className="diparmenthideORkeywords">

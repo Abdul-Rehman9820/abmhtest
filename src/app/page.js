@@ -298,10 +298,10 @@ export default function Home() {
 
           <div className='homediv'>
 
-            <div class="homeh1part">
-              <div class="homeh1head">
+            <div className="homeh1part">
+              <div className="homeh1head">
                 <h1 className='homeh1'>Book Your Appointment Online</h1>
-                <span class="headborder"></span>
+                <span className="headborder"></span>
               </div>
             </div>
 

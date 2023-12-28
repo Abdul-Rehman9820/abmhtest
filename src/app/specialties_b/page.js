@@ -104,7 +104,7 @@ const Specialties = () => {
 
                       <div className="specflex">  
                           <input type="text" placeholder="Search Specialty ..."  id="myInputsp" onKeyUp={filterFunction}/>
-                          <i class="fa fa-search"></i>
+                          <i className="fa fa-search"></i>
                       </div>
 
 

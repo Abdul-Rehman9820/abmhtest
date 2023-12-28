@@ -21,7 +21,7 @@ const Abmhnews = () => {
     // Get the modal
     var modal = document.getElementById("myModal");
 
-    // Get all images with class="myImg"
+    // Get all images with className="myImg"
     var images = document.getElementsByClassName("myImg");
 
     // Get the <span> element that closes the modal

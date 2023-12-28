@@ -105,228 +105,57 @@ const Ophthalmology = () => {
 
 
 
-      {/* team of expert slider start*/}
-      <div className="parentcontainerwhi">
+{/* specialties  start*/}
+
+
+      {/* sub specialties start*/}
+      <div className="parentcontainerwhi specipgGRY">
         <div className="customcontainer">
-          <div className="specsingleDoclist">
-            <div className="Specialtiesheadgr">
-              <h2 className="spetileh1gr">Our Team Of Experts</h2>
-              <span className="headbordergr" />
-            </div>
-
-
-            <div className="ourteamparsingle">
-
-              <div
-                id="carouselExampleIndicators"
-                className="carousel slide"
-                data-bs-ride="carousel"
-              >
-
-                <div className="carousel-inner">
-
-
-                  {isLoading ? (
-                    <div className="loading-message">Loading doctors...</div>
-                  ) : data.length === 0 ? (
-                    <div className="empty-message">No doctors found</div>
-                  ) : (
-                    groupedProfiles.map((item, index) => (
-                      <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-                        <div className="row mycentr">
-                          {item.map((profile, profileIndex) => (
-
-
-                            <div className="ourteamslidchilbosingle" key={profileIndex}>
-
-                            <Link href={`/doctor-profile?doc=${profile.DoctorNameSlug}`}>
-                              <div className="ourteamslidebox">
-                                <div className="ourteambox1single">
-                                  <div className="ourteamimg">
-                                    <Image width={400} height={400} src={`/DoctorsProfileimages/${profile.DoctorProfileImage}`} alt="img" />
-                                  </div>
-                                  <div className="ourteamnamesing">
-                                    <h2>Dr {profile.DoctorFName} {profile.DoctorLName}</h2>
-                                  </div>
-                                  <div className="ourteamspec">
-                                    <h2>{profile.DoctorDesignation}</h2>
-                                  </div>
-                                  <div className="ourteamexpi">
-                                    <h2>{profile.DoctorExperience}</h2>
-                                  </div>
-                                </div>
-                                <div className="ourteambox2">
-                                  <div className="ourteambox2flex">
-
-                                    <Link className="bookappoteam" href={`/doctor-profile?doc=${profile.DoctorNameSlug}`}>
-                                      View Profile
-                                    </Link>
-
-                                  </div>
-                                </div>
-                              </div>
-                              </Link>
-
-                            </div>
-
-
-                          ))}
-                        </div>
-                      </div>
-                    ))
-                  )}
+          <div className="specsingleparnGra">
+            <div className="spectitlegrcont">
+              <div className="spectitlegrcont2">
 
 
 
 
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">dummyspecilname</p>
+                    </div>
+                  </Link>
                 </div>
 
 
 
-                {data.length > 3 && (
-                  <>
-                    <button
-                      className="carousel-control-prev"
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide="prev"
-                    >
-                      <span className="carousel-control-prev-icon smallimg" aria-hidden="true">
-                        <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
-                      </span>
-                      <span className="visually-hidden">Previous</span>
-                    </button>
-
-                    <button
-                      className="carousel-control-next"
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide="next"
-                    >
-                      <span className="carousel-control-next-icon smallimg" aria-hidden="true">
-                        <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
-                      </span>
-                      <span className="visually-hidden">Next</span>
-                    </button>
-                  </>
-                )}
-
-
-
               </div>
-
-
-
-
-
             </div>
-
           </div>
         </div>
       </div>
-      {/* team of expert slider end*/}
-
-      {/* specialties  start*/}
+      {/* sub specialties end*/}
 
 
+      <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+            <div className="spectitleimgbox">
+              <div className="">
 
+                <p className="specilpara">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                </p>
 
-      <>
-        <div className="parentcontainerwhi">
-          <div className="customcontainer">
-            <div className="specsingleparn">
-              <div className="spectitle">
-                <h1 className="spetileh1">Ophthalmology</h1>
-              </div>
-              <div className="spectitleimgbox">
-                <div className="spectitleimgbox1">
-                  <Image width={400} height={400}
-                    src="/specialityviewimag/ophthalmology Surgries.jpg"
-                    alt="img"
-                  />
-                </div>
-                <div className="spectitleimgbox2">
-                  <p className="specilpara">
-                    Aditya Birla Memorial Hospital has a world class Institute of
-                    Ophthalmology with highly experienced staff, backed by the latest
-                    technology. The institute provides comprehensive eye care and
-                    services for all eye and vision problems under one roof. Today,
-                    eye surgeries are done on a day care basis; not requiring
-                    hospitalization.{" "}
-                  </p>
-                  <p className="specilpara">
-                    At Aditya Birla Memorial Hospital, we have exclusive clinics for
-                    Refractive error and contact lenses, Cataract, Glaucoma, Cornea,
-                    Paediatric Ophthalmology, Vitreo-Retina, Diabetic Retinopathy,
-                    ROP, ARMD, Oculoplasty, Ocular Oncology, Ocular trauma, Uveitis,
-                    Neuro-ophthalmology, Computer vision syndrome etc.
-                  </p>
-                  <p className="specilpara">
-                    Our team is committed to providing the highest quality of eye care
-                    and our services are dedicated to the diagnosis and treatment of
-                    all kind of ocular diseases. The Aditya Birla Memorial Hospital,
-                    institute of Ophthalmology is the first eye bank in
-                    Pimpri-Chinchwad Municipal Corporation area-PCMC, operating under
-                    the banner ‘Aditya Jyot’, since 2010.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="parentcontainerwhi specipgGRY">
-          <div className="customcontainer">
-            <div className="specsingleparnGra">
-              <div className="spectitlegrcont">
-                <div className="spectitlegrcont1">
-                  <div className="Specialtiesheadgr">
-                    <h2 className="spetileh1gr">Infrastructure</h2>
-                    <span className="headbordergr" />
-                  </div>
-                  <p className="specilpara">
-                    Our hospital uses contemporary technology to assist doctors to
-                    better serve our <br />
-                    patients. With the help of modern machinery we are able to make
-                    the treatment <br />
-                    process as painless as possible, with minimum waste of time and
-                    maximum comfort.
-                  </p>
-                </div>
-                <div className="spectitlegrcont2">
-                  <div className="testimgboxcont">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Treatment.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Treatment</p>
-                    </div>
-                  </div>
-                  <div className="testimgboxcont">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Surgeries.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Surgeries</p>
-                    </div>
-                  </div>
-                  <div className="testimgboxcont">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400}
-                        src="/specialityviewimag/Opt Special Clinics.jpg"
-                        alt="img"
-                      />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Special Clinics</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </>
-
+      </div>
 
 
 
