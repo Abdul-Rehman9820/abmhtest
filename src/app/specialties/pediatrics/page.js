@@ -124,7 +124,107 @@ const Pediatrics = () => {
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
+                      <p className="testimgtitle">General Paediatrics</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Child & Development</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Critical Care</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Pulmonology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Cardiology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Cardiothoracic Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Gastroenterology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Nephrology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Neurology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Neonatology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Surgery</p>
                     </div>
                   </Link>
                 </div>

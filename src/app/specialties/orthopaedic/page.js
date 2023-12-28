@@ -123,7 +123,67 @@ const Accidentandemergency = () => {
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
+                      <p className="testimgtitle">Paediatric Ortho</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Joint Replacement</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Trauma & Emergency</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Foot & Ankle</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Orthopaedics</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Shoulder</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Onco Ortho</p>
                     </div>
                   </Link>
                 </div>

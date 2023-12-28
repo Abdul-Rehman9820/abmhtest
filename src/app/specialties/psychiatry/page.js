@@ -123,7 +123,27 @@ const Andrologyandsexualmedicine = () => {
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
+                      <p className="testimgtitle">Mental Health</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Clinical Psychology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Counselling</p>
                     </div>
                   </Link>
                 </div>

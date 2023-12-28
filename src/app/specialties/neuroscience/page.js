@@ -123,7 +123,67 @@ const Accidentandemergency = () => {
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
+                      <p className="testimgtitle">Epilepsy Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Neuro Rehab</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Neurology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Stroke</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Neurosurgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Spine Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Neuroradiology</p>
                     </div>
                   </Link>
                 </div>

@@ -123,7 +123,27 @@ const Accidentandemergency = () => {
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
+                      <p className="testimgtitle">Minimal Invasive & Laparoscopic Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Laparoscopic Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Proctology</p>
                     </div>
                   </Link>
                 </div>

@@ -123,7 +123,7 @@ const Accidentandemergency = () => {
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
+                      <p className="testimgtitle">Liver Transplant</p>
                     </div>
                   </Link>
                 </div>
