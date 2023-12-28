@@ -205,7 +205,7 @@ const Workcontactus = () => {
                                   type="file"
                                   className="form-control form-group"
                                   name="resume"
-                                  accept=".pdf, .jpg, png"
+                                  accept=".pdf, .jpg, .png"
                                   onChange={handleFileChange}
                                   required
                                 />

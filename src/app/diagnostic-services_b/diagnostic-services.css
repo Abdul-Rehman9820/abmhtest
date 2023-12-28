@@ -1,0 +1,203 @@
+
+/* ! Diagnostic Services pg   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: auto;
+    background: #F7D651;
+}
+    .mainheadingbandiv img {
+        width: 100%;
+    }
+/* common head banner  end*/ 
+
+
+.commqulityhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.commqulityheadbof {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.commqulityheadbalc {
+    font-size: 30px !important;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.qualityheadborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+.Radiologytabel {
+    margin-top: 30px;
+    overflow-x: scroll;
+}
+.diegnosmaincont{
+    margin-top: 30px;
+}
+
+.diegnosmaincont .nav-pills .nav-link.active {
+    background-color: #a21b18;
+}
+
+.diegnosmaincont .nav-pills .nav-link {
+    border: 1px solid #00000040;
+    color: black;
+}
+
+table.table.table-hover.table-bordered {
+    background: #f7d651;
+    border-color: white;
+    font-size: 12px;
+}
+
+
+/*! Diagnostic Services pg   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! Diagnostic Services pg   start*/
+
+
+
+
+
+/*! Diagnostic Services pg   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! Diagnostic Services pg   start*/
+
+.diegnosmaincont .commqulityheadbalc {
+    font-size: 15px !important;
+}
+
+.Radiologytabel td {
+    font-size: 14px;
+}
+
+
+.diegnosmaincont .nav-pills .nav-link {
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.diegnosmaincont .qualityheadborder {
+    margin-top: 0px;
+}
+
+
+/*! Diagnostic Services pg   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

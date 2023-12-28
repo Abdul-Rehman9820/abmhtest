@@ -37,51 +37,141 @@
 /* common head banner  end*/ 
 
 
-.commqulityhead {
+.diagnospart
+ {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
-.commqulityheadbof {
+
+.diagnoshead {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 5px;
 }
-.commqulityheadbalc {
-    font-size: 30px !important;
+
+.diagnospart
+ h2 {
+    font-size: 30px;
     color: rgb(0, 0, 0);
     font-weight: 500;
+    margin: 0;
     font-family: 'Poppins';
 }
-.qualityheadborder {
+
+span.headborder {
     border: 2px solid #f96c24;
     width: 80%;
     margin-top: 10px;
 }
-.Radiologytabel {
+
+.diagnosloop {
+    padding: 30px 0;
+}
+
+.diagnosloopbox {
+    width: 33.33%;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.pardigcon{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #FFE468;
+    box-shadow: 0pt 1pt 20pt rgb(171 161 161 / 18%);
+}
+
+.main-tabsec {
+    margin-top: 25px;
+}
+
+
+/* .main-tabsec .lablestyle {
+    display: inline-block;
+    padding: 0px 5px 15px 5px;
+    position: relative;
+    background-image: url("wellnesspageimg/bedgimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.main-tabsec .labelhead {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.main-tabsec .lablebox h2 {
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.main-tabsec .lablebox {
+    padding-top: 10px;
+}
+
+
+.diagnoscont {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-tabsec .labchoimgbox2 {
+    text-align: center;
     margin-top: 30px;
-    overflow-x: scroll;
-}
-.diegnosmaincont{
-    margin-top: 30px;
 }
 
-.diegnosmaincont .nav-pills .nav-link.active {
-    background-color: #a21b18;
+.main-tabsec .labchocombtn {
+    border:#A21B18;
+    background-color: #A21B18;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
 }
 
-.diegnosmaincont .nav-pills .nav-link {
-    border: 1px solid #00000040;
-    color: black;
+.main-tabsec .labchocombtn a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
 }
 
-table.table.table-hover.table-bordered {
-    background: #f7d651;
-    border-color: white;
-    font-size: 12px;
+.main-tabsec .labchocombtn a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.main-tabsec span.labspecicon img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.main-tabsec .nav-link.active {
+    color: #A21B18 !important;
+    background-color: #ffe468 !important;;
+    border: 1px solid #a4221f !important;;
+}
+.main-tabsec .nav-link {
+    background: #F1F1F1 !important;
+    color: #aba4a4 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    border-radius: 10px !important;
+    margin-bottom: 5px !important;
+    margin-right: 5px !important;
 }
 
 
@@ -131,21 +221,25 @@ table.table.table-hover.table-bordered {
 
 /*! Diagnostic Services pg   start*/
 
-.diegnosmaincont .commqulityheadbalc {
+.diagnospart h2 {
+    font-size: 15px !important;
+}  
+.diagnosloopbox {
+    width: 100%;
+}
+
+.main-tabsec .lablebox h2 {
     font-size: 15px !important;
 }
 
-.Radiologytabel td {
-    font-size: 14px;
+.main-tabsec button.nav-link {
+    font-size: 13px !important;
+    width: 100%;
+    text-align: start;
 }
-
-
-.diegnosmaincont .nav-pills .nav-link {
-    font-size: 10px;
-    padding: 5px 10px;
-}
-.diegnosmaincont .qualityheadborder {
-    margin-top: 0px;
+.main-tabsec div#nav-tab {
+    height: 150px;
+    overflow-y: scroll;
 }
 
 

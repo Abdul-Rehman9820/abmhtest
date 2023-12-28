@@ -1,0 +1,197 @@
+
+/* ! well-book pg   start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: auto;
+    background: #F7D651;
+}
+    .mainheadingbandiv img {
+        width: 100%;
+    }
+/* common head banner  end*/ 
+
+
+
+.well-book-head{
+   color: #000;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.well-book-contact_field .form-control {
+    border-radius: 0px;
+    border: none;
+    border: 1px solid #901412;
+    margin-top: 20px;
+}
+.well-book-contact_field .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #f96c24;
+}
+.well-book-contact_field .form-control::placeholder{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+button.contact_form_submit {
+    background: #901412 ;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.well-book-contact_field .form-control {
+    border-radius: 6px;
+}
+
+section.Book_Wellness_Packages{
+    padding: 0 300px;
+    margin: 40px 0;
+}
+
+.lessmargin{
+    margin-top: 0 !important;
+}
+
+/*! well-book pg   end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! well-book pg   start*/
+
+
+section.Book_Wellness_Packages {
+    padding: 0;
+}
+
+
+/*! well-book pg   end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+/*! well-book pg   start*/
+
+section.Book_Wellness_Packages {
+    padding: 0;
+}
+.well-book-head {
+    font-size: 28px;
+}
+
+/*! well-book pg   end*/
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

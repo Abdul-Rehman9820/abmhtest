@@ -284,8 +284,7 @@ const Abmhinterna = () => {
                           </div>
                           <div className="interntestislidChilcol2">
                             <div className="interntestislidChilcol2Para">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            Henry Amira and his cousin&apos;s brother traveled from Uganda to India, seeking medical care for the latter&apos;s back problem at Aditya Birla Memorial Hospital. The skilled doctors and caring nurses at Aditya Birla Memorial Hospital ensured a successful operation, and now, he is on a steady path to recovery. Their experience in India has been delightful, and they express gratitude while extending good wishes for the future 
                             </div>
                             <div className="interourworkname">
                               <h2>Michael Nkubito</h2>
@@ -316,8 +315,7 @@ const Abmhinterna = () => {
                           </div>
                           <div className="interntestislidChilcol2">
                             <div className="interntestislidChilcol2Para">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            Samuel and Grace from Nigeria sought cardiac treatment at Aditya Birla Memorial Hospital, initially advised valve replacement. Skillful doctors, supported by an excellent team, opted for BMV (Balloon Mitral Valvotomy) after assessment. Grace&apos;s remarkable recovery within two weeks left them deeply satisfied. They express gratitude for the exceptional care and wish for continued blessings.
                             </div>
                             <div className="interourworkname">
                               <h2>Grace Olumuji</h2>
@@ -348,8 +346,7 @@ const Abmhinterna = () => {
                           </div>
                           <div className="interntestislidChilcol2">
                             <div className="interntestislidChilcol2Para">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            Mr. Kang Weike, a Pune-based professional, sought facial weakness treatment at Aditya Birla Memorial Hospital. Delighted with the exceptional care and prompt treatment provided by the skilled medical team and nurses, he expresses profound gratitude to Aditya Birla Memorial Hospital for their outstanding service, leaving him thoroughly pleased with his healthcare experience.
                             </div>
                             <div className="interourworkname">
                               <h2>Mr. Kang Weike</h2>
@@ -380,8 +377,7 @@ const Abmhinterna = () => {
                           </div>
                           <div className="interntestislidChilcol2">
                             <div className="interntestislidChilcol2Para">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                              laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            Terry Barr, 41, arrived at Aditya Birla Memorial Hospital seeking cardiac surgery. The immaculate and welcoming environment complements Terry’s recovery. He expresses profound gratitude for the exceptional care received at Aditya Birla Memorial Hospital, solidifying its commitment to excellence in healthcare.
                             </div>
                             <div className="interourworkname">
                               <h2>Ms. Teriba</h2>
@@ -395,7 +391,7 @@ const Abmhinterna = () => {
                       </div>
                     </div>
 
-                    <div className="carousel-item">
+                    {/* <div className="carousel-item">
                       <div className="interntestislid">
                         <div className="interntestislidChil">
                           <div className="interntestislidChilcol1">
@@ -425,7 +421,7 @@ const Abmhinterna = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
 
 
                   </div>
