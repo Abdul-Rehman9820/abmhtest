@@ -88,6 +88,19 @@ section.Book_Wellness_Packages{
     margin-top: 0 !important;
 }
 
+select#subject {
+    font-size: 13px;
+    color: #212529e3;
+}
+select#topic {
+    font-size: 13px;
+    color: #212529e3;
+}
+.digplaceho {
+    font-size: 13px;
+    color: #212529e3;
+}
+
 /*! well-book pg   end*/
 
 
@@ -140,7 +153,7 @@ section.Book_Wellness_Packages {
     padding: 0;
 }
 .well-book-head {
-    font-size: 28px;
+    font-size: 15px;
 }
 
 /*! well-book pg   end*/

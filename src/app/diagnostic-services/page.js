@@ -243,7 +243,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -251,7 +251,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -263,7 +263,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -271,7 +271,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -283,7 +283,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -291,7 +291,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -303,7 +303,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -311,7 +311,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -323,7 +323,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -331,7 +331,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -343,7 +343,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -351,7 +351,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -363,7 +363,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -371,7 +371,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -387,7 +387,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -395,7 +395,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -407,7 +407,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -415,7 +415,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -427,7 +427,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -435,7 +435,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -447,7 +447,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -455,7 +455,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -467,7 +467,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -475,7 +475,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -487,7 +487,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -495,7 +495,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -507,7 +507,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -515,7 +515,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -527,7 +527,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -535,7 +535,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -551,7 +551,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -559,7 +559,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -571,7 +571,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -579,7 +579,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -595,7 +595,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -603,7 +603,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -615,7 +615,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -623,7 +623,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -635,7 +635,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -643,7 +643,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -655,7 +655,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -663,7 +663,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -675,7 +675,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -683,7 +683,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -695,7 +695,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -703,7 +703,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -719,7 +719,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -727,7 +727,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -739,7 +739,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -747,7 +747,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -759,7 +759,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -767,7 +767,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -783,7 +783,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -791,7 +791,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -803,7 +803,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -811,7 +811,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -823,7 +823,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -831,7 +831,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -847,7 +847,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -855,7 +855,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -867,7 +867,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -875,7 +875,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -887,7 +887,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -895,7 +895,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -907,7 +907,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -915,7 +915,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -927,7 +927,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -935,7 +935,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -951,7 +951,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -959,7 +959,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -971,7 +971,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -979,7 +979,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -991,7 +991,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -999,7 +999,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1011,7 +1011,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1019,7 +1019,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1031,7 +1031,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1039,7 +1039,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1051,7 +1051,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1059,7 +1059,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1071,7 +1071,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1079,7 +1079,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1091,7 +1091,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1099,7 +1099,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1115,7 +1115,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1123,7 +1123,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1135,7 +1135,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1143,7 +1143,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1159,7 +1159,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1167,7 +1167,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1183,7 +1183,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1191,7 +1191,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1207,7 +1207,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1215,7 +1215,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1227,7 +1227,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1235,7 +1235,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1247,7 +1247,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1255,7 +1255,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1267,7 +1267,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1275,7 +1275,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1287,7 +1287,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1295,7 +1295,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1307,7 +1307,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1315,7 +1315,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1331,7 +1331,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1339,7 +1339,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1355,7 +1355,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1363,7 +1363,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1379,7 +1379,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1387,7 +1387,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1403,7 +1403,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1411,7 +1411,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1427,7 +1427,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1435,7 +1435,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1447,7 +1447,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1455,7 +1455,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1467,7 +1467,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1475,7 +1475,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1487,7 +1487,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1495,7 +1495,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1507,7 +1507,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1515,7 +1515,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -1531,7 +1531,7 @@ const Contactus = () => {
                         </div>
                         <div className="labchoimgbox2">
                           <button className="labchocombtn">
-                            <a href="#">
+                            <Link href="/diagnostic-book">
                               Book Now
                               <span className="labspecicon">
                                 <Image width={100} height={100}
@@ -1539,7 +1539,7 @@ const Contactus = () => {
                                   alt="img"
                                 />
                               </span>
-                            </a>
+                            </Link>
                           </button>
                         </div>
                       </div>

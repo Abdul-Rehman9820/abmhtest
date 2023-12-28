@@ -342,7 +342,7 @@ const Feedbackform = () => {
                         </select>
 
                         <div className="form-group mt-2">
-                          <label htmlFor="Prescription">Upload Prescription:</label>
+                          <label className="digplaceho" htmlFor="Prescription">Upload Prescription:</label>
                           <input
                             type="file"
                             className="form-control form-group lessmargin"
