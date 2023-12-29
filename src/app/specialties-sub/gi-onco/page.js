@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Gastrointestinal Oncology within Robotic-Assisted Surgery addresses cancers affecting the gastrointestinal tract. Our skilled surgeons utilize robotic technology for minimally invasive procedures related to colorectal, gastric, and other gastrointestinal cancers, ensuring comprehensive and effective cancer care.
                 </p>
 
               </div>

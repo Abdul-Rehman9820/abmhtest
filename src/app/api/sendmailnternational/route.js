@@ -44,7 +44,7 @@ export async function POST(req, content) {
 
     const mailOptions = {
       from: '"New Enquiry From ABMH International Form" <abmh_enquiry@mindframeindia.com>',
-      to: ['abmh_enquiry@mindframeindia.com', 'abdul.a@mindframeindia.com'],
+      to: ['abmh_enquiry@mindframeindia.com', 'abdul.a@mindframeindia.com' , 'international.care@adityabirlahospital.com'],
       subject: 'New International Enquiry From ABMH',
       html: maildatahtlm,
     };

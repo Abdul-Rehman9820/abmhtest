@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Cardiothoracic Surgery specializes in surgical procedures related to the heart and thoracic (chest) region. Our cardiothoracic surgeons perform a variety of surgeries, including coronary artery bypass grafting (CABG) and valve replacement, ensuring comprehensive and effective cardiac interventions.
                 </p>
 
               </div>

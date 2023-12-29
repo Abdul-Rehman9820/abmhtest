@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Gynecologic Oncology within Robotic-Assisted Surgery specializes in the treatment of gynecological cancers using robotic technology. Our expert surgeons employ minimally invasive robotic procedures to address conditions such as ovarian, cervical, and uterine cancers, providing precise and effective surgical solutions.
                 </p>
 
               </div>

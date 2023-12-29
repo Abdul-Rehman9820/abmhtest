@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                The Bone Marrow Transplant service at our hospital offers advanced and comprehensive care for patients requiring stem cell transplantation. Our skilled medical team, including hematologists and transplant specialists, ensures a multidisciplinary approach to provide optimal outcomes for conditions like leukemia, lymphoma, and certain genetic disorders.
                 </p>
 
               </div>

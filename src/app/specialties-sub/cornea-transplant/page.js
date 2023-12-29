@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Cornea Transplantation at Aditya Birla Memorial Hospital involves replacing damaged or diseased corneal tissue with healthy donor tissue. Our ophthalmologists specializing in corneal services ensure meticulous surgical procedures and post-transplant care, aiming to restore vision and alleviate corneal disorders.
                 </p>
 
               </div>

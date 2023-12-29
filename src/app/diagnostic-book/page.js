@@ -268,7 +268,7 @@ const Feedbackform = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-          <Image width={2000} height={400} src="/commonimages/commbanDiagnostic-Services.png" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commbanDiagnostic-Services.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}

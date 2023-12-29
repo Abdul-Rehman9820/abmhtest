@@ -243,12 +243,10 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                General Surgery under the Robotic-Assisted Surgery umbrella covers a broad spectrum of surgical procedures using robotic technology. Our expert general surgeons employ robotic platforms for procedures ranging from hernia repairs to gallbladder surgeries, ensuring minimally invasive approaches and optimal outcomes for patients.
+                </p>
+                <p className="specilpara">
+                Aditya Birla Memorial Hospital's commitment to Robotic-Assisted Surgery and its associated subservices reflects our dedication to providing patients with the latest advancements in surgical technology. The integration of robotic platforms enhances our ability to deliver precise, personalized, and effective surgical interventions across diverse medical specialties.
                 </p>
 
               </div>
