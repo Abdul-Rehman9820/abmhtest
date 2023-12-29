@@ -102,7 +102,7 @@ const Specialties = () => {
                             <Link href="/specialties/accident-and-emergency">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Accident & Emergency.jpg"
+                                  src="/newspecilitymainimage/Accident-&-Emergency.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -127,7 +127,7 @@ const Specialties = () => {
                             <Link href="/specialties/anesthesiology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Anesthesiology.jpg"
+                                  src="/newspecilitymainimage/Anaesthesiology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -149,7 +149,7 @@ const Specialties = () => {
                             <Link href="/specialties/andrology-and-sexual-medicine">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Andrology & Sexual Medicine.jpg"
+                                  src="/newspecilitymainimage/Andrology-and-Sexual-Medicine.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -172,7 +172,7 @@ const Specialties = () => {
                             <Link href="/specialties/bariatric-and-metabolic-surgery">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Bariatric & Metabolic Surgery.jpg"
+                                  src="/newspecilitymainimage/Bariatric-&-Metabolic-Surgery.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -195,10 +195,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/cardiac-sciences">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/dummy.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Cardiac-Sciences.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -220,7 +220,7 @@ const Specialties = () => {
                             <Link href="/specialties/clinical-hematology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Clinical Hematology.jpg"
+                                  src="/newspecilitymainimage/Clinical-Haematology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -244,7 +244,7 @@ const Specialties = () => {
                             <Link href="/specialties/critical-care-unit">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Critical Care.jpg"
+                                  src="/newspecilitymainimage/Critical-Care-Unit.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -270,7 +270,7 @@ const Specialties = () => {
                             <Link href="/specialties/dentistry">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Dentistry.jpg"
+                                  src="/newspecilitymainimage/Dentistry.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -293,10 +293,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/dermatology-&-cosmetology">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Diabetology & Endocrinology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Dermatology-&-Cosmetology.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -316,10 +316,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/dietetics-&-nutrition-lifestyle">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Diabetology & Endocrinology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Dietetics-&-Nutrition-(Lifestyle).jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -340,10 +340,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/endocrinology-&-diabetology">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/ENT (Ear, Nose, Throat).jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Endocrinology-&-Diabetology.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -364,10 +364,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/fetal-&-genetic-medicine">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Foetal Medicine.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Fetal-&-Genetic-Medicine.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -388,10 +388,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/gastroscience">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Gastroenterology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Gastroscience.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -410,10 +410,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/general-surgery">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Gastroenterology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/General-Surgery.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -432,10 +432,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/gi-surgery">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Gastroenterology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/GI-SURGERY.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -456,10 +456,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/heamatology">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Hepatology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Heamatology.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -478,10 +478,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/hepatology-and-liver-transplantation">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Hepatology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Hepatology-and-Liver-transplantation.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -503,7 +503,7 @@ const Specialties = () => {
                             <Link href="/specialties/interventional-radiology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Interventional Radiology.jpg"
+                                  src="/newspecilitymainimage/Interventional-Radiology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -526,7 +526,7 @@ const Specialties = () => {
                             <Link href="/specialties/internal-medicine">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Internal Medicine.jpg"
+                                  src="/newspecilitymainimage/Internal-Medicine.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -548,7 +548,7 @@ const Specialties = () => {
                             <Link href="/specialties/infectious-disease">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Infectious Disease.jpg"
+                                  src="/newspecilitymainimage/Infectious-Disease.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -571,7 +571,7 @@ const Specialties = () => {
                             <Link href="/specialties/medical-oncology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Medical Oncology.jpg"
+                                  src="/newspecilitymainimage/Medical-Oncology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -593,10 +593,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/nephrology-&-renal-transplant">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Nuclear Medicine.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Nephrology-&-Renal-transplant.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -615,10 +615,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/neuroscience">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Nuclear Medicine.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Neuroscience.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -639,7 +639,7 @@ const Specialties = () => {
                             <Link href="/specialties/nuclear-medicine">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Nuclear Medicine.jpg"
+                                  src="/newspecilitymainimage/Nuclear-Medicine.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -661,10 +661,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/obs-&-gynae">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Ophthalmology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Obs-&-Gynae.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -685,7 +685,7 @@ const Specialties = () => {
                             <Link href="/specialties/Ophthalmology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Ophthalmology.jpg"
+                                  src="/newspecilitymainimage/Opthamology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -707,10 +707,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/oral-&-maxillofacial">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Ophthalmology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Oral-and-Maxillofacial.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -729,10 +729,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/organ-transplant">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Ophthalmology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Organ-Transplant.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -751,10 +751,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/orthopaedic">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Ophthalmology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Orthopaedic.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -773,10 +773,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/otolaryngology-ent">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Ophthalmology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Otolaryngology-(ENT).jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -798,7 +798,7 @@ const Specialties = () => {
                             <Link href="/specialties/physiotherapy-rehab">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Physiotherapy & Rehab.jpg"
+                                  src="/newspecilitymainimage/Physiotherapy-&-Rehabilitative-Medicine.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -821,10 +821,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/physiotherapy-&-rehabilitation">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Physiotherapy & Rehab.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Physiotherapy-&-Rehabilitation.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -844,10 +844,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/plastic-&-reconstructive-surgery">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Psychiatry.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Plastic-and-Reconstructive-Surgery.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -869,7 +869,7 @@ const Specialties = () => {
                             <Link href="/specialties/psychiatry">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Psychiatry.jpg"
+                                  src="/newspecilitymainimage/Psychiatry.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -892,7 +892,7 @@ const Specialties = () => {
                             <Link href="/specialties/pediatrics">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Pediatrics.jpg"
+                                  src="/newspecilitymainimage/Paediatrics.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -916,7 +916,7 @@ const Specialties = () => {
                             <Link href="/specialties/pulmonary-medicine">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Pulmonary Medicine.jpg"
+                                  src="/newspecilitymainimage/Pulmonory-Medicine.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -940,7 +940,7 @@ const Specialties = () => {
                             <Link href="/specialties/pain-management">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Pain Management.jpg"
+                                  src="/newspecilitymainimage/Pain-Management.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -963,10 +963,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/robotic-assisted-surgery">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Robotic Surgery.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Robotic-Assisted-Surgery.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -987,7 +987,7 @@ const Specialties = () => {
                             <Link href="/specialties/radiation-oncology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Radiation Oncology.jpg"
+                                  src="/newspecilitymainimage/Radiation-Oncology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -1009,10 +1009,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/reproductive-medicine">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Radiation Oncology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Reproductive-Medicine.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -1032,10 +1032,10 @@ const Specialties = () => {
                           <div className="speforwhitbgsearch">
                             <Link href="/specialties/rheumatology-&-immunology">
                               <div className="spefColiconContspsearch">
-                                {/* <Image width={500} height={500}
-                                  src="/specialtiesimg/Radiation Oncology.jpg"
+                                <Image width={500} height={500}
+                                  src="/newspecilitymainimage/Rheumatology-&-Immunology.jpg"
                                   alt="img"
-                                /> */}
+                                />
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
@@ -1057,7 +1057,7 @@ const Specialties = () => {
                             <Link href="/specialties/surgical-oncology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Surgical Oncology.jpg"
+                                  src="/newspecilitymainimage/Surgical-Oncology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -1080,7 +1080,7 @@ const Specialties = () => {
                             <Link href="/specialties/transfusion-medicine">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Transfusion Medicine.jpg"
+                                  src="/newspecilitymainimage/Transfusion-Medicine.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -1104,7 +1104,7 @@ const Specialties = () => {
                             <Link href="/specialties/urology">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Urology.jpg"
+                                  src="/newspecilitymainimage/Urology.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -1126,7 +1126,7 @@ const Specialties = () => {
                             <Link href="/specialties/vascular-surgery">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Vascular Surgery.jpg"
+                                  src="/newspecilitymainimage/Vascular-Surgery.jpg"
                                   alt="img"
                                 />
                               </div>
@@ -1148,7 +1148,7 @@ const Specialties = () => {
                             <Link href="/specialties/wellness">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
-                                  src="/specialtiesimg/Wellness.jpg"
+                                  src="/newspecilitymainimage/Wellness.jpg"
                                   alt="img"
                                 />
                               </div>

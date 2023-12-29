@@ -387,7 +387,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="center-of-excellence-specialties#Cardiac-Science">
+                    <Link href="/specialties/cardiac-sciences">
                       <h2>Cardiac Science</h2>
                     </Link>
                   </div>
@@ -408,7 +408,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/center-of-excellence-specialties#Neuroscience">
+                    <Link href="/specialties/neuroscience">
                       <h2>Neuroscience</h2>
                     </Link>
                   </div>
@@ -429,7 +429,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/center-of-excellence-specialties#Robotic-Surgery">
+                    <Link href="/specialties/robotic-assisted-surgery">
                       <h2>Robotic Surgery</h2>
                     </Link>
                   </div>
@@ -449,7 +449,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/center-of-excellence-specialties#Mother-and-Child">
+                    <Link href="/specialties/pediatrics">
                       <h2>Mother & Child</h2>
                     </Link>
                   </div>
@@ -470,7 +470,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/center-of-excellence-specialties#Orthopedic-Joint-Replacement">
+                    <Link href="/specialties-sub/orthopaedics">
                       <h2>Orthopedic</h2>
                     </Link>
                   </div>
@@ -491,7 +491,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="speforwhitbgCol1">
-                    <Link href="/specialties/gastroenterology">
+                    <Link href="/specialties-sub/gastroenterology">
                       <h2>Gastroenterology</h2>
                     </Link>
                   </div>
@@ -535,7 +535,7 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/cardiac_science.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/center-of-excellence-specialties#Cardiac-Science">
+                    <Link href="/specialties/cardiac-sciences">
                       <h2>Cardiac Science</h2>
                     </Link>
                   </div>
@@ -547,7 +547,7 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/orthopedic_&_joint_replacement.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/center-of-excellence-specialties#Orthopedic-Joint-Replacement">
+                    <Link href="/specialties-sub/orthopaedics">
                       <h2>Orthopedic</h2>
                     </Link>
                   </div>
@@ -559,7 +559,7 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/mother_&_child.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/center-of-excellence-specialties#Mother-and-Child">
+                    <Link href="/specialties/pediatrics">
                       <h2>Mother & Child</h2>
                     </Link>
                   </div>
@@ -571,7 +571,7 @@ export default function Home() {
                     <Image width={400} height={400} src="/homeimg/robotic_surgery.png" alt="img" />
                   </div>
                   <div className="speforwhitbgCol2">
-                    <Link href="/center-of-excellence-specialties#Robotic-Surgery">
+                    <Link href="/specialties/robotic-assisted-surgery">
                       <h2>Robotic Surgery</h2>
                     </Link>
                   </div>

@@ -125,33 +125,36 @@ const Footer = () => {
                 <div className="linkbox">
                   <h2>CENTER OF EXCELLENCE</h2>
                   <div className="linkfootdiv">
-                    <div className="linkfoolist">
-                      <Link href="/center-of-excellence-specialties#Cardiac-Science">Cardiac Science</Link>
-                    </div>
-                    <div className="linkfoolist">
-                      <Link href="/center-of-excellence-specialties#Neuroscience">Neuroscience</Link>
-                    </div>
+
                     {/* <div className="linkfoolist">
                       <Link href="/specialties#">Cancer Center</Link>
                     </div> */}
+
                     <div className="linkfoolist">
-                      <Link href="/center-of-excellence-specialties#Robotic-Surgery">Robotic Surgery</Link>
+                      <Link href="/specialties/cardiac-sciences">Cardiac Sciences</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/center-of-excellence-specialties#Mother-and-Child">Mother & Child</Link>
+                      <Link href="/specialties/neuroscience">Neurosciences</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/center-of-excellence-specialties#Organ-Transplant-Center">Organ Transplant Center</Link>
+                      <Link href="/specialties-sub/oncology">Oncology</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/center-of-excellence-specialties#Orthopedic-Joint-Replacement">Orthopedic & Joint Replacement</Link>
+                      <Link href="/specialties/pediatrics">Mother & Child</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties/gastroenterology">Gastroenterology & Hepatology</Link>
+                      <Link href="/specialties/robotic-assisted-surgery">Robotic Assisted Surgery</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties/accident-and-emergency">Accident & Emergency Care</Link>
+                      <Link href="/specialties/gastroscience">Gastro Sciences</Link>
                     </div>
+                    <div className="linkfoolist">
+                      <Link href="/specialties-sub/nephrology">Nephro -sciences</Link>
+                    </div>
+                    <div className="linkfoolist">
+                      <Link href="/specialties/accident-and-emergency">Emergency & Critical Care</Link>
+                    </div>
+
                   </div>
                 </div>
 
