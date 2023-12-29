@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Neurosurgery services involve surgical interventions for conditions affecting the brain, spinal cord, and peripheral nerves. Our neurosurgeons utilize advanced techniques to provide precise and effective treatments.
                 </p>
 
               </div>

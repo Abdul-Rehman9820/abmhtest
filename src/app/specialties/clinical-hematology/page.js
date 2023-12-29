@@ -268,9 +268,7 @@ const Clinicalhematology = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Clinical Haematology at ABMH provides advanced care for blood disorders, including Bone Marrow Transplant services. Our expert team specializes in diagnosing and treating conditions such as leukemia, lymphoma, and anemia. Subservices include stem cell transplantation and dedicated care for hematological malignancies.
                 </p>
 
               </div>

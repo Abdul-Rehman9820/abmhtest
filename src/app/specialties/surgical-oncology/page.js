@@ -315,9 +315,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Surgical Oncology at Aditya Birla Memorial Hospital is a dedicated and comprehensive service committed to the effective management of cancer through surgical interventions. Our team of highly skilled surgical oncologists employs advanced techniques and state-of-the-art technologies to provide precise, personalized, and compassionate care to cancer patients. From diagnosis to treatment and recovery, our focus is on achieving optimal outcomes while prioritizing the overall well-being of the patient.
                 </p>
 
               </div>

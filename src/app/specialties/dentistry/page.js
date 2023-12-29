@@ -306,9 +306,7 @@ const Dentistry = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Aditya Birla Memorial Hospital&apos;s Dentistry services encompass a wide range of oral health care, addressing diverse needs for patients of all ages.
                 </p>
 
               </div>

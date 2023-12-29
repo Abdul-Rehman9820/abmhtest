@@ -287,9 +287,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Psychiatry services at ABMH include subspecialties such as Mental Health, Clinical Psychology, and Counseling. Our psychiatrists and mental health professionals provide comprehensive assessments, counseling, and psychiatric care.
                 </p>
 
               </div>

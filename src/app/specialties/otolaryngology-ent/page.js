@@ -314,11 +314,11 @@ const Accidentandemergency = () => {
             <div className="spectitleimgbox">
               <div className="">
 
-                <p className="specilpara">
+                {/* <p className="specilpara">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                   molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                   numquam blanditiis harum quisquam eius sed odit fugiat iusto
-                </p>
+                </p> */}
 
               </div>
             </div>

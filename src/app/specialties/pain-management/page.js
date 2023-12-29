@@ -234,9 +234,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Pain Management services at ABMH focus on advanced approaches for pain relief. Our pain management specialists offer interventions, therapies, and personalized plans to alleviate pain and improve quality of life.
                 </p>
 
               </div>

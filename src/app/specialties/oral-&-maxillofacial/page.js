@@ -265,9 +265,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Oral and Maxillofacial services at ABMH include subspecialties such as Cleft Surgeon. Our oral and maxillofacial surgeons provide specialized care for conditions affecting the mouth, jaw, and facial structures.
                 </p>
 
               </div>

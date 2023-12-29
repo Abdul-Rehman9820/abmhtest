@@ -325,9 +325,7 @@ const Ophthalmology = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Ophthalmology services at ABMH encompass subspecialties such as Corneal services, Eye Bank, Glaucoma, Anterior Chamber, Pediatric Ophthalmology, Posterior Chamber, and Retinal services. Our ophthalmologists provide comprehensive eye care, from routine examinations to specialized treatments.
                 </p>
 
               </div>

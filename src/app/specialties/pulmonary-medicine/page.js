@@ -275,9 +275,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Pulmonary Medicine services at ABMH cover subspecialties such as Bronchoscopy and EBUS (Endoscopic Bronchial Ultrasound). Our pulmonologists offer advanced diagnostic and therapeutic interventions for respiratory conditions.
                 </p>
 
               </div>

@@ -325,11 +325,14 @@ const Andrologyandsexualmedicine = () => {
             <div className="spectitleimgbox">
               <div className="">
 
+
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+         
+                Cardiac Sciences at Aditya Birla Memorial Hospital encompasses a comprehensive range of services dedicated to the diagnosis, treatment, and care of cardiovascular conditions. Our multidisciplinary team of experts collaborates to provide cutting-edge and personalized cardiac care, ensuring optimal outcomes for patients.
+Subservices under Cardiac Sciences:
+
                 </p>
+    
 
               </div>
             </div>

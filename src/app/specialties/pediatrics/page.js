@@ -367,9 +367,7 @@ const Pediatrics = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Paediatrics services at ABMH cover General Paediatrics, Child & Development, Critical Care, Pediatric Pulmonology, Paediatric Cardiology, Pediatric Cardiothoracic Surgery, Pediatric Gastroenterology, Pediatric Nephrology, Pediatric Neurology, Neonatology, and Pediatric Surgery. Our paediatricians provide specialized care for children of all ages.
                 </p>
 
               </div>

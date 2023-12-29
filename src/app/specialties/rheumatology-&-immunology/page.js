@@ -267,9 +267,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Rheumatology & Immunology services at ABMH focus on Rheumatology subspecialties. Our rheumatologists provide specialized care for autoimmune and rheumatic conditions, ensuring comprehensive evaluations and management.
                 </p>
 
               </div>

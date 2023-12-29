@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Neurology services focus on the diagnosis and management of neurological disorders, including conditions affecting the brain, spinal cord, and peripheral nerves. Our neurologists employ advanced diagnostic tools and therapeutic interventions to ensure optimal care.
                 </p>
 
               </div>

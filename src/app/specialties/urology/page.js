@@ -235,9 +235,7 @@ const Urology = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Urology consultations at Aditya Birla Memorial Hospital cover a broad spectrum of urological conditions. Our urologists conduct thorough assessments, diagnostics, and offer personalized treatment plans for conditions affecting the urinary tract and male reproductive system. From kidney stones to urologic cancers, our focus is on providing comprehensive and compassionate urological care.
                 </p>
 
               </div>

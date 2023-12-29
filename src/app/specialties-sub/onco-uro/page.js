@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Onco Urologic Oncology specializes in the surgical management of urological cancers. Our urologic surgeons address conditions such as prostate, kidney, bladder, and testicular cancers, employing advanced surgical techniques to ensure optimal outcomes and improved quality of life for patients.
                 </p>
 
               </div>

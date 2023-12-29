@@ -267,9 +267,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Endocrinology & Diabetology services at ABMH address hormonal and metabolic health. Endocrine Surgery is offered for conditions requiring surgical intervention. Our experts provide specialized consultations, hormonal profiling, and advanced diagnostics to manage endocrine disorders and diabetes effectively.
                 </p>
 
               </div>

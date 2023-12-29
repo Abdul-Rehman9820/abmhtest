@@ -232,9 +232,7 @@ const Internalmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Internal Medicine at Aditya Birla Memorial Hospital provides comprehensive primary care for adults, focusing on the prevention, diagnosis, and management of various medical conditions. Our internists offer personalized and holistic healthcare services.
                 </p>
 
               </div>

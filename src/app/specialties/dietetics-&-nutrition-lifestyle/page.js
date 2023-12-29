@@ -266,9 +266,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Dietetics & Nutrition services at our hospital focus on promoting healthy lifestyles through personalized dietary plans. Our registered dietitians offer counseling and guidance to support overall well-being.
                 </p>
 
               </div>

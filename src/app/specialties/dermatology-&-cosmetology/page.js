@@ -296,9 +296,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Dermatology & Cosmetology services at our hospital integrate medical dermatology with aesthetic solutions, providing a holistic approach to skin health and appearance.
                 </p>
 
               </div>

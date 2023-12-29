@@ -267,9 +267,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Reproductive Medicine services at ABMH cover In Vitro Fertilization (IVF) and comprehensive care for individuals and couples facing fertility challenges. Our reproductive medicine experts offer personalized assessments, fertility treatments, and support.
                 </p>
 
               </div>

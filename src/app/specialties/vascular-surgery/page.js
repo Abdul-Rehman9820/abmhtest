@@ -235,9 +235,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Vascular Surgery services at ABMH cover comprehensive care for vascular conditions. Our vascular surgeons specialize in interventions, surgeries, and personalized treatment plans for vascular health.
                 </p>
 
               </div>

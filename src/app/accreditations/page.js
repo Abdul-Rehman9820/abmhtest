@@ -96,12 +96,7 @@ const Accreditations = () => {
                     data-bs-slide-to={2}
                     aria-label="Slide 3"
                   ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators61"
-                    data-bs-slide-to={3}
-                    aria-label="Slide 4"
-                  ></button>
+
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -120,6 +115,26 @@ const Accreditations = () => {
                         Standards (ACHS) with extensive achievement under Equip7
                         program with advanced Person Centred Systems
                       </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item ">
+                    <div className="awarsliderbox">
+                      <Image width={400} height={400}
+                        className="awarandaccimg"
+                        src="/aboutusimg/NABH-Logo_new-1.png"
+                        alt="img"
+                      />
+                      <div className="awadandacchead">
+                        National Accreditation Board for Hospitals & Healthcare Providers (NABH)
+                      </div>
+                      <div className="awadandaccpara">
+                        The board while being supported by all stakeholders including industry, consumers, government, have full functional autonomy in its operation.
+                      </div>
+                      <div className="awadandaccpara">
+                        For more information on NABH accreditation, log onto:&nbsp;<a href="https://nabh.co/" target="_blank" rel="noopener noreferrer">www.nabh.co</a>
+                      </div>
+
                     </div>
                   </div>
 
@@ -164,43 +179,8 @@ const Accreditations = () => {
 
                     </div>
                   </div>
-                  <div className="carousel-item ">
-                    <div className="awarsliderbox">
-                      <div className="awadandacchead">
-                        Awards - A tribute to team work and commitment
-                      </div>
-                      <div className="awadandaccpara">
 
 
-                        1. Performance Excellence Award – IMC Ramkrishna Bajaj National Award<br></br>
-                        2. Global Award – Quality excellence for consumer protection (Patient Safety)<br></br>
-                        3. National Quality Excellence Award – Quality excellence for consumer protection (Patient Safety)<br></br>
-                        4. Garden &amp; Plantation Award – Best Garden and Plantation in PCMC area<br></br>
-                        5. Quality Management System – Det Norske Veritas Management System Certificate<br></br>
-
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="carousel-item ">
-                    <div className="awarsliderbox">
-                      <Image width={400} height={400}
-                        className="awarandaccimg"
-                        src="/aboutusimg/NABH-Logo_new-1.png"
-                        alt="img"
-                      />
-                      <div className="awadandacchead">
-                        National Accreditation Board for Hospitals & Healthcare Providers (NABH)
-                      </div>
-                      <div className="awadandaccpara">
-                        The board while being supported by all stakeholders including industry, consumers, government, have full functional autonomy in its operation.
-                      </div>
-                      <div className="awadandaccpara">
-                        For more information on NABH accreditation, log onto:&nbsp;<a href="https://nabh.co/" target="_blank" rel="noopener noreferrer">www.nabh.co</a>
-                      </div>
-
-                    </div>
-                  </div>
 
 
                 </div>
@@ -231,6 +211,48 @@ const Accreditations = () => {
           </div>
         </div>
       </div>
+
+
+      <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="AchiveandAcrre">
+            <div className="Specialtiespartbof">
+              <div className="Specialtiesheadbof">
+                <h1 className="oursepperbof">Awards - A tribute to team work and commitment</h1>
+                <span className="headborderbof" />
+              </div>
+            </div>
+            <div className="AchiveandAcrrepara mt-3 mb-2">
+              <p>
+                1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level Ohs&e Awards
+              </p>
+              <p>
+                2. Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
+              </p>
+              <p>
+                3. Ahpi Award - Patient Friendly Hospital
+              </p>
+              <p>
+                4. World Safety Organization - Digital India Contributor Award
+              </p>
+              <p>
+                5. World Safety Organization - Service Excellence Award
+              </p>
+              <p>
+                5. World Safety Organization - Service Excellence Award
+              </p>
+              <p>
+                6. Healthcare Award - Best Hospital: Obstetrics & Gynaecology(Obgyn)
+              </p>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
     </>
 
 

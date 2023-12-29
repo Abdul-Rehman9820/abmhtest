@@ -308,9 +308,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                The Fetal & Genetic Medicine service provides specialized care for expectant mothers, focusing on the early detection and management of fetal abnormalities and genetic conditions. Our team utilizes advanced imaging and genetic testing for comprehensive prenatal care.
                 </p>
 
               </div>

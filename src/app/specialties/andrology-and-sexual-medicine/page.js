@@ -265,9 +265,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Andrology and Sexual Medicine at Aditya Birla Memorial Hospital encompass specialized services for male reproductive health. Our Andrology experts offer comprehensive assessments, addressing concerns related to male fertility, sexual dysfunction, and reproductive well-being. Subservices include specialized consultations for sexual health, diagnostic evaluations, and personalized treatment plans.
                 </p>
 
               </div>

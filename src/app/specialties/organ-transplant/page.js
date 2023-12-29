@@ -285,9 +285,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Organ Transplant services at ABMH cover Liver Transplant, Kidney Transplant, Bone Marrow Transplant, and Cornea Transplant. Our transplant experts ensure comprehensive evaluations, donor matching, and post-transplant care for optimal outcomes.
                 </p>
 
               </div>

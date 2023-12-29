@@ -267,9 +267,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Plastic and Reconstructive Surgery services at ABMH cover Minimal Invasive & Reconstructive Surgery. Our plastic surgeons specialize in both aesthetic and reconstructive procedures, ensuring comprehensive care for various conditions.
                 </p>
 
               </div>

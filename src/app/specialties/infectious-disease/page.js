@@ -233,9 +233,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Infectious Disease services at ABMH focus on the diagnosis and management of infectious conditions. Our experts provide comprehensive evaluations, diagnostics, and personalized treatment plans.
                 </p>
 
               </div>

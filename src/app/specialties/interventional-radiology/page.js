@@ -275,9 +275,7 @@ const Interventionalradiology = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Interventional Radiology involves minimally invasive procedures guided by imaging techniques. Our interventional radiologists utilize advanced technologies for diagnostic and therapeutic interventions, ensuring precise and effective treatments.
                 </p>
 
               </div>

@@ -275,9 +275,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Radiation Oncology services at ABMH cover subspecialties such as Brachytherapy, Radiation, and comprehensive care for cancer patients. Our radiation oncologists ensure personalized treatment plans and support for individuals undergoing radiation therapy.
                 </p>
 
               </div>

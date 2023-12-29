@@ -235,9 +235,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Nuclear Medicine involves the use of radioactive substances for diagnostic imaging and therapeutic purposes. Our nuclear medicine services provide valuable information for the diagnosis and management of various medical conditions.
                 </p>
 
               </div>

@@ -286,9 +286,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                General Surgery at Aditya Birla Memorial Hospital covers a broad spectrum of surgical interventions, addressing various medical conditions.
                 </p>
 
               </div>

@@ -285,9 +285,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Nephrology & Renal Transplant services at our hospital address disorders related to the kidneys, offering specialized care and renal transplantation when necessary.
                 </p>
 
               </div>

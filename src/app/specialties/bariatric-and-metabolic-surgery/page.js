@@ -266,9 +266,7 @@ const Baritricandmetabolicsurgery = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Bariatric & Metabolic Surgery at ABMH is dedicated to transformative weight management. Our Bariatric Surgery services offer a range of procedures, including gastric bypass and sleeve gastrectomy, tailored to individual needs. Our multidisciplinary approach ensures holistic care, incorporating nutritional guidance, post-surgery support, and ongoing monitoring.
                 </p>
 
               </div>

@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Onco Gynecologic Oncology focuses on the surgical management of gynecological cancers. Our skilled surgeons specialize in procedures related to ovarian, cervical, uterine, and other gynecological cancers, providing personalized care and innovative surgical solutions to women facing these challenging diagnoses.
                 </p>
 
               </div>

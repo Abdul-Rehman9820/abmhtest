@@ -266,9 +266,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Hepatology and Liver Transplantation services at ABMH offer comprehensive care for liver diseases. Our team specializes in liver transplantation, providing advanced treatments and personalized care for patients with liver conditions.
                 </p>
 
               </div>

@@ -243,12 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
+                Onco Orthopedic Oncology deals with cancers affecting the musculoskeletal system. Our orthopedic oncologists specialize in limb-salvage surgeries, bone tumor resections, and reconstructive procedures, ensuring comprehensive care for patients with bone and soft tissue cancers.
                 </p>
 
               </div>

@@ -298,9 +298,7 @@ const Accidentandemergency = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Gastroscience at Aditya Birla Memorial Hospital integrates advanced diagnostic and therapeutic approaches to address gastrointestinal conditions. Our multidisciplinary team, including gastroenterologists and surgeons, ensures comprehensive care for patients with digestive disorders.
                 </p>
 
               </div>

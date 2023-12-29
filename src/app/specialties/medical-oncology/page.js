@@ -264,9 +264,7 @@ const Andrologyandsexualmedicine = () => {
               <div className="">
 
                 <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
+                Medical Oncology at Aditya Birla Memorial Hospital focuses on the diagnosis and treatment of cancer using systemic therapies, including chemotherapy.
                 </p>
 
               </div>
