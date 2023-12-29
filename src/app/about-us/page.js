@@ -173,13 +173,7 @@ const Aboutus = () => {
                 <p className="bodpar">
                   Aditya Birla Health Services Ltd is under the stewardship of a
                   distinguished Board of Directors, led by Chairperson Smt.
-                  Rajashree Birla and Director Shri Ashkaran Agarwal.Aditya Birla
-                  Health Services Ltd is under the stewardship of a distinguished
-                  Board of Directors, led by Chairperson Smt. Rajashree Birla and
-                  Director Shri Ashkaran Agarwal.Aditya Birla Health Services Ltd is
-                  under the stewardship of a distinguished Board of Directors, led
-                  by Chairperson Smt. Rajashree Birla and Director Shri Ashkaran
-                  Agarwal.
+                  Rajashree Birla and Director Shri Ashkaran Agarwal.
                 </p>
               </div>
               <div className="bodofdirdata2">

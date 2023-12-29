@@ -669,7 +669,7 @@ const Specialties = () => {
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
                               <Link href="/specialties/obs-&-gynae">
-                                <h2>Obs & Gynae</h2>
+                                <h2>Obstetrics & Gynae</h2>
                               </Link>
                               <h2 className="diparmenthideORkeywords">
                                 deparment name or key words for search

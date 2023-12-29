@@ -231,9 +231,9 @@ const Programs = () => {
           </div>
           <div className="homwcareparacol1-prog">
             <p className="homwcareparadataintprogar">
-              The diplomate qualification awarded by the National Board of
+              The Diplomate qualification awarded by the National Board of
               Examinations has been equated with the Postgraduate&amp;
-              Post-doctorate degrees awarded by other Indian Universities. The
+              Post-Doctorate degrees awarded by other Indian Universities. The
               holders of Board classification awarded after an examination (DNB) are
               eligible to be considered for specialists post for any hospital
               including training or teaching Institutes.

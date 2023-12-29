@@ -2,11 +2,16 @@ import { createMySQLConnection } from '@/util/mysqlConnection';
 import { NextResponse } from 'next/server';
 
 
+
+
+
 // post api for single user 
 
 export async function POST(req, content) {
   
   try {
+
+
 
     const connection = await createMySQLConnection();
 

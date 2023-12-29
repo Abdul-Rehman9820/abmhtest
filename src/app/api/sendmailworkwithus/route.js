@@ -39,7 +39,7 @@ export async function POST(req, content) {
 
     const mailOptions = {
       from: '"New Enquiry From ABMH Work with Us Form" <abmh_enquiry@mindframeindia.com>',
-      to: ['abmh_enquiry@mindframeindia.com','abdul.a@mindframeindia.com'],
+      to: ['abmh_enquiry@mindframeindia.com','corporate.desk@adityabiral.com'],
       subject: 'New Job Enquiry From ABMH',
       html: htmlContent,
       attachments: [

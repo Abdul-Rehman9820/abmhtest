@@ -78,7 +78,7 @@ const Accidentandemergency = () => {
 
 
     <>
-      <title>Obs & Gynae</title>
+      <title>Obstetrics & Gynae</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -87,7 +87,7 @@ const Accidentandemergency = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Obs & Gynae</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Obstetrics & Gynae</span>
                 </div>
               </div>
             </div>

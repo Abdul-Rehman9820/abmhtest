@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist fomail">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                      <Link href="mailto:doctorshealthcare@adityabirla.com">doctorshealthcare@adityabirla.com</Link>
+                      <Link href="mailto:corporate.desk@adityabiral.com">corporate.desk@adityabiral.com</Link>
                     </div>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                       <Link href="/specialties/gastroscience">Gastro Sciences</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties-sub/nephrology">Nephro -sciences</Link>
+                      <Link href="/specialties-sub/nephrology">Nephro -Sciences</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/specialties/accident-and-emergency">Emergency & Critical Care</Link>
@@ -333,7 +333,7 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                      <Link href="mailto:doctorshealthcare@adityabirla.com">doctorshealthcare@adityabirla.com</Link>
+                      <Link href="mailto:corporate.desk@adityabiral.com">corporate.desk@adityabiral.com</Link>
                     </div>
                   </div>
                 </div>

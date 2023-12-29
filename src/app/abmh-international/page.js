@@ -218,7 +218,7 @@ const Abmhinterna = () => {
                 <div className="interboxicon">
                   <Image width={400} height={400} src="/abmh-intern-img/intericon4.png" alt="img" />
                   <Link href="/abmh-international/consular-information">
-                    <div className="inntericonhead">Consular Information</div>
+                    <div className="inntericonhead">Counselor Information</div>
                   </Link>
                 </div>
                 <div className="interboxicon">
