@@ -237,7 +237,7 @@ const Andrologyandsexualmedicine = () => {
 
 
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/chemotherapy">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>

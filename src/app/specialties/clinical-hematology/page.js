@@ -241,7 +241,7 @@ const Clinicalhematology = () => {
 
 
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/bone-marrow-transplant">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>

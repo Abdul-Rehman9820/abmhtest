@@ -238,7 +238,7 @@ const Andrologyandsexualmedicine = () => {
 
 
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/head-&-neck">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -248,7 +248,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/onco-gynec">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -258,7 +258,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/breast-cancer">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -268,7 +268,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/onco-ortho">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -278,7 +278,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/onco-uro">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -288,7 +288,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/breast">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>

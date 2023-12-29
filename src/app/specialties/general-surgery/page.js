@@ -239,7 +239,7 @@ const Accidentandemergency = () => {
 
 
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/minimal-invasive-&-laparoscopic-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -249,7 +249,7 @@ const Accidentandemergency = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/laparoscopic-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -259,7 +259,7 @@ const Accidentandemergency = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/proctology">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>

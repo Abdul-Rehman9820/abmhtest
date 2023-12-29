@@ -239,7 +239,7 @@ const Andrologyandsexualmedicine = () => {
 
 
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/cath-lab">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -249,7 +249,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/electrophysiology-&-ablation">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -259,7 +259,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/cardiology">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -269,7 +269,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/cardiothoracic-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -279,7 +279,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/paediatric-cardiothoracic-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -289,7 +289,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/paediatric-cardiologist">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>
@@ -299,7 +299,7 @@ const Andrologyandsexualmedicine = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/non-invasive-lab">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
                     </div>

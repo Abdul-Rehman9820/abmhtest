@@ -229,36 +229,6 @@ const Accidentandemergency = () => {
       {/* specialties  start*/}
 
 
-      {/* sub specialties start*/}
-      <div className="parentcontainerwhi specipgGRY">
-        <div className="customcontainer">
-          <div className="specsingleparnGra">
-            <div className="spectitlegrcont">
-              <div className="spectitlegrcont2">
-
-
-
-
-                <div className="testimgboxcont">
-                  <Link href="">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">dummyspecilname</p>
-                    </div>
-                  </Link>
-                </div>
-
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* sub specialties end*/}
-
 
       <div className="parentcontainerwhi">
         <div className="customcontainer">
