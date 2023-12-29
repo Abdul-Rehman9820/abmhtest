@@ -243,7 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                Chemotherapy is a key component of cancer treatment, involving the use of drugs to kill or inhibit the growth of cancer cells. Our medical oncologists tailor chemotherapy regimens to each patient's specific cancer type and stage.
+                Chemotherapy is a key component of cancer treatment, involving the use of drugs to kill or inhibit the growth of cancer cells. Our medical oncologists tailor chemotherapy regimens to each patient&apos;`s specific cancer type and stage.
                 </p>
 
               </div>
