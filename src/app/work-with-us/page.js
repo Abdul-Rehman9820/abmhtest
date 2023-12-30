@@ -15,7 +15,7 @@ const Workwithus = () => {
 
   useEffect(() => {
 
-    
+
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
@@ -26,7 +26,7 @@ const Workwithus = () => {
 
     <>
 
-     <title>Careers - Work With Us</title>
+      <title>Careers - Work With Us</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -44,7 +44,7 @@ const Workwithus = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-             <Image width={2000} height={400} src="/commonimages/commworkwithus.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commworkwithus.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -55,16 +55,18 @@ const Workwithus = () => {
 
           {/* comment if no opening*/}
 
-                  {/* <div className="workwithuscont">
+          <div className="workwithuscont">
 
 
                   <h4>There are no current opening</h4>
 
-          </div> */}
+          </div>
 
 
           {/* comment if no opening*/}
-          <div className="workwithuscont">
+
+
+          {/* <div className="workwithuscont">
 
 
             <div className="accordion" id="accordionExample">
@@ -146,7 +148,7 @@ const Workwithus = () => {
                               </div>
                             </td>
                           </tr>
- 
+
                         </tbody>
                       </table>
                     </div>
@@ -237,7 +239,7 @@ const Workwithus = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="accordion-item">
                 <h2 className="accordion-header" id="headingfour">
                   <button
@@ -315,7 +317,7 @@ const Workwithus = () => {
                               </div>
                             </td>
                           </tr>
-           
+
                         </tbody>
                       </table>
                     </div>
@@ -326,7 +328,10 @@ const Workwithus = () => {
             </div>
 
 
-          </div>
+          </div> */}
+
+
+
         </div>
       </div>
       {/* specialties end*/}

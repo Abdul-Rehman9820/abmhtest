@@ -169,29 +169,30 @@ const Footer = () => {
             <div className="footermain footermainbelw">
               <div className="footermainbelw1">
                 <div className="linkbox ">
-                  <h2>Emergency Service</h2>
+                  <h2>Emergency No</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="tel:+9120307175003">+91-20-3071 7500-3</Link>
+                      <Link href="tel:+919881123033">+91 9881123033</Link>
                     </div>
                   </div>
                 </div>
                 <div className="linkbox ">
-                  <h2>Ambulance Service</h2>
+                  <h2>Emergency No</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="tel: +912040707777">+91-20-40707777/30717777</Link>
+                      <Link href="tel:02040707777">020 30717777</Link> <Link href="tel:02040707777">/020 40707777</Link>
                     </div>
                   </div>
                 </div>
                 <div className="linkbox ">
-                  <h2>ABMH Assist</h2>
+                  <h2>Appointment No</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="tel: +919881123006">+91 98811 23006</Link>
+                      <Link href="tel: +919881123006">+91 9881123006</Link>
                     </div>
                   </div>
                 </div>
+
               </div>
               <div className="footermainbelw2">
 
@@ -371,26 +372,26 @@ const Footer = () => {
             <div className="footermain footermainbelw">
               <div className="footermainbelw1">
                 <div className="linkbox ">
-                  <h2>Emergency Service</h2>
+                  <h2>Emergency No</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="tel: +9120307175003">+91-20-3071 7500-3</Link>
+                      <Link href="tel: +9120307175003">+91 9881123033</Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="linkbox">
+                  <h2>Emergency No</h2>
+                  <div className="linkfootdiv">
+                    <div className="linkfoolist">
+                    <Link href="tel:02040707777">020 30717777</Link>
                     </div>
                   </div>
                 </div>
                 <div className="linkbox ">
-                  <h2>Ambulance Service</h2>
+                  <h2>Appointment No</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                      <Link href="tel: +912040707777">+91-20-40707777/30717777</Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="linkbox ">
-                  <h2>ABMH Assist</h2>
-                  <div className="linkfootdiv">
-                    <div className="linkfoolist">
-                      <Link href="tel: +919881123006">+91 98811 23006</Link>
+                      <Link href="tel: +919881123006">+91 9881123006</Link>
                     </div>
                   </div>
                 </div>

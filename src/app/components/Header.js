@@ -174,8 +174,9 @@ const Header = () => {
             })
 
 
-            var vert = 'EMERGENCY'.split("").join("<br/>")
-            $('#vert').html(vert);
+            var vert = 'EMERGENCY'.split("").join("<br/>");
+            var intohtml = `<div class="mainsticydiv"><div class="mainsticydivDecs">${vert}</div><div class="mainsticydivMob">SOS</div></div>`;
+            $('#vert').html(intohtml);
 
             /* sticky end*/
 
@@ -240,7 +241,7 @@ const Header = () => {
 
 
             {/* sticky */}
-            <div className="sidebar-contact">
+            {/* <div className="sidebar-contact">
                 <div className="toggle">
                     <div id="vert" />
                 </div>
@@ -270,6 +271,53 @@ const Header = () => {
                             </td>
                             <td> <div className='tbsdata'>  <Link href="tel: +919881123006">+91 98811 23006</Link> </div> </td>
                         </tr>
+                    </tbody>
+                </table>
+            </div> */}
+             {/* sticky */}
+
+
+            {/* sticky */}
+            <div className="sidebar-contact">
+                <div className="toggle">
+                    <div id="vert" />
+                </div>
+                <table className='stickytable'>
+                    <tbody>
+
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Emergency No.</b>
+                            </td>
+                            <td><div className='tbsdata'> <Link href="tel:+919881123033">+91 9881123033</Link> </div></td>
+                        </tr>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Emergency No.</b>
+                            </td>
+                            <td><div className='tbsdata'> <Link href="tel:02030717777">020 30717777</Link> </div></td>
+                        </tr>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Emergency No.</b>
+                            </td>
+                            <td><div className='tbsdata'> <Link href="tel:02040707777">020 40707777</Link> </div></td>
+                        </tr>
+                        <tr>
+                            <td className='tbhead'>
+                                <b>Appointment No.</b>
+                            </td>
+                            <td><div className='tbsdata'> <Link href="tel:+919881123006">+91 9881123006</Link> </div></td>
+                        </tr>
+
+
+                        {/* <tr>
+                            <td className='tbhead'>
+                                <b>Ambulance No.</b>
+                            </td>
+                            <td> <div className='tbsdata'>  <Link href="tel: +912040707777">+91-20-40707777</Link> </div> </td>
+                        </tr> */}
+
                     </tbody>
                 </table>
             </div>

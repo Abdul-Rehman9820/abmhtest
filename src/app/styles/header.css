@@ -669,6 +669,10 @@ button.dropbtnmy .fa {
   color: #595c5f;
 }
 
+.mainsticydivMob{
+  display: none;
+}
+
 /* sticky  end*/
 
 
@@ -912,9 +916,20 @@ button.searchinputBTN i {
   font-size: 13px;
   margin-left: 5px;
 }
-.sidebar-contact {
+/* .sidebar-contact {
+  display: none;
+} */
+
+.mainsticydivDecs {
   display: none;
 }
+.mainsticydivMob{
+  display: block;
+}
+.toggle {
+  height: auto;
+}
+
 /* sticky css*/
 
 
