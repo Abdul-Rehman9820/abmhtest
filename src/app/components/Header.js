@@ -220,9 +220,8 @@ const Header = () => {
 
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
 
-            {/* <Script type='text/javascript' src="/public/myjs/tawk.js" /> */}
 
-            {/* <Script id="show-banner">
+            <Script id="show-banner">
                 {`
                                 
                 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -236,45 +235,28 @@ const Header = () => {
                 })();
                 
                 `}
-            </Script> */}
+            </Script>
 
+            <Script id="show-banner22">
+                {`
+                                
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-NN6BWND');
+                
+                `}
+            </Script>
 
-
-            {/* sticky */}
-            {/* <div className="sidebar-contact">
-                <div className="toggle">
-                    <div id="vert" />
-                </div>
-                <table className='stickytable'>
-                    <tbody>
-                        <tr>
-                            <td className='tbhead'>
-                                <b>Emergency No.</b>
-                            </td>
-                            <td><div className='tbsdata'> <Link href="tel:+9120307175003">+91-20-3071 7500-3</Link> </div></td>
-                        </tr>
-                        <tr>
-                            <td className='tbhead'>
-                                <b>Ambulance No.</b>
-                            </td>
-                            <td> <div className='tbsdata'>  <Link href="tel: +912040707777">+91-20-40707777</Link> </div> </td>
-                        </tr>
-                        <tr>
-                            <td className='tbhead'>
-                                <b>Ambulance No.</b>
-                            </td>
-                            <td> <div className='tbsdata'>  <Link href="tel: +912030717777">+91-20-30717777</Link> </div> </td>
-                        </tr>
-                        <tr>
-                            <td className='tbhead'>
-                                <b>ABMH Assist No.</b>
-                            </td>
-                            <td> <div className='tbsdata'>  <Link href="tel: +919881123006">+91 98811 23006</Link> </div> </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div> */}
-             {/* sticky */}
+            <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-NN6BWND"
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            ></iframe>
+           </noscript>
 
 
             {/* sticky */}
@@ -321,7 +303,7 @@ const Header = () => {
                     </tbody>
                 </table>
             </div>
-             {/* sticky */}
+            {/* sticky */}
 
 
             {/* Modal second opi */}

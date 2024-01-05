@@ -21,6 +21,8 @@ const Contactus = () => {
   const [umessage, setMessage] = useState("");
 
 
+  const [apiResponse, setApiResponse] = useState('');
+
 
 
   const handleChange = (event) => {
@@ -44,12 +46,11 @@ const Contactus = () => {
       event.preventDefault();
 
 
-     var messagebox = document.getElementById('apirespose');
      var submitbutton = document.getElementById('submitbtb');
 
 
      submitbutton.disabled = true ; // hide button to duble click
-     messagebox.innerHTML = '';  // do empty for resubmit
+  
 
       console.log(uname);
       console.log(uphone);
@@ -75,7 +76,7 @@ const Contactus = () => {
 
           // throw new Error("Network response was not ok");
 
-          messagebox.innerHTML = 'Something went wrong';
+          setApiResponse('Something went wrong');
 
           submitbutton.disabled = false ;
 
@@ -98,13 +99,13 @@ const Contactus = () => {
       
                   submitbutton.disabled = false ;
 
-                  messagebox.innerHTML = 'Mail send successfully';
+                  setApiResponse('Mail sent successfully');
       
                   }else{
       
                   submitbutton.disabled = false ;
 
-                  messagebox.innerHTML = 'Something went wrong';
+                  setApiResponse('Something went wrong');
       
                   }
       
@@ -222,7 +223,7 @@ const Contactus = () => {
                                   <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
                             </form>
 
-                            <div id="apirespose"></div>
+                            <div id="apirespose" className="mt-2">{apiResponse}</div>
 
                             
                           </div>
@@ -240,7 +241,7 @@ const Contactus = () => {
                       </div>
                       <div className="d-flex info_single align-items-center">
                         <Image width={400} height={400} src="/contactus/email-icon.png" className="conticon" alt="img" />
-                        <span>doctorshealthcare@adityabirla.com</span>
+                        <span>corporate.desk@adityabirla.com</span>
                       </div>
                       <div className="d-flex info_single align-items-center">
                         <Image width={400} height={400} src="/contactus/addr-icon.png" className="conticon" alt="img" />

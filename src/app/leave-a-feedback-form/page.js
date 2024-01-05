@@ -21,6 +21,9 @@ const Feedbackform = () => {
   const [umessage, setMessage] = useState("");
 
 
+  const [apiResponse, setApiResponse] = useState('');
+
+
 
 
   const handleChange = (event) => {
@@ -44,12 +47,12 @@ const Feedbackform = () => {
     event.preventDefault();
 
 
-    var messagebox = document.getElementById('apirespose');
+
     var submitbutton = document.getElementById('submitbtb');
 
 
     submitbutton.disabled = true; // hide button to duble click
-    messagebox.innerHTML = '';  // do empty for resubmit
+
 
     console.log(uname);
     console.log(uphone);
@@ -76,7 +79,7 @@ const Feedbackform = () => {
 
       // throw new Error("Network response was not ok");
 
-      messagebox.innerHTML = 'Something went wrong';
+      setApiResponse('Something went wrong');
 
       submitbutton.disabled = false;
 
@@ -99,13 +102,13 @@ const Feedbackform = () => {
 
         submitbutton.disabled = false;
 
-        messagebox.innerHTML = 'Mail send successfully';
+        setApiResponse('Mail sent successfully');
 
       } else {
 
         submitbutton.disabled = false;
 
-        messagebox.innerHTML = 'Something went wrong';
+        setApiResponse('Something went wrong');
 
       }
 
@@ -215,7 +218,7 @@ const Feedbackform = () => {
                         <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
                       </form>
 
-                      <div id="apirespose"></div>
+                      <div id="apirespose" className="mt-2">{apiResponse}</div>
 
 
                     </div>

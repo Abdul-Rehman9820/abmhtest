@@ -2,10 +2,7 @@
 
 import { NextResponse } from 'next/server'
 
-import { Resend } from 'resend';
-
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import nodemailer from 'nodemailer';
 
 export async function POST(req, content) {
 
@@ -33,20 +30,28 @@ export async function POST(req, content) {
                            <div>`;
 
 
-
-          const data = await resend.emails.send({
-            from: 'ABMH Enquiry Form <abmh_enquiry@mindframeindia.com>',
-            to: ['abmh_enquiry@mindframeindia.com','hospitalcareers@adityabirla.com'],
-            subject: 'New Enquiry',
-            // react: 'John' ,
-            // text: 'This is text a test email.',
-            // html: '<p>This is a test email html.</p>',
-            html: maildatahtlm,
+          const transporter = nodemailer.createTransport({
+            host: 'sm26.siteground.biz',
+            port: 465,
+            secure: true,
+            auth: {
+              user: 'abmh_enquiry@mindframeindia.com',
+              pass: 'abmh_enquiry@admin',
+            },
           });
+      
+          const mailOptions = {
+            from: '"ABMH Enquiry Form " <abmh_enquiry@mindframeindia.com>',
+            to: ['abmh_enquiry@mindframeindia.com', 'corporate.desk@adityabirla.com'],
+            subject: 'New Enquiry',
+            html: maildatahtlm,
+          };
+      
+          const info = await transporter.sendMail(mailOptions);
+          console.log('Message sent: %s', info.messageId);
+      
+          return NextResponse.json({ status: 200, message: 'mail send', messageId: info.messageId });
           
-
-          return NextResponse.json({ status: 200, message: 'mail send', data: data });
-
 
 
         } catch (e) {

@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist fomail">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                      <Link href="mailto:corporate.desk@adityabiral.com">corporate.desk@adityabiral.com</Link>
+                      <Link href="mailto:corporate.desk@adityabirla.com">corporate.desk@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div className="footersocialboximg">
-                      <Link href="https://twitter.com/abmh_pune">
+                      <Link href="https://twitter.com/abmhpune_">
                         <Image width={400} height={400} src="/homeimg/footersoicontwit.png" alt="img" />
                       </Link>
                     </div>
@@ -274,7 +274,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div className="footersocialboximg">
-                      <Link href="https://twitter.com/abmh_pune">
+                      <Link href="https://twitter.com/abmhpune_">
                         <Image width={400} height={400} src="/homeimg/footersoicontwit.png" alt="img" />
                       </Link>
                     </div>
@@ -334,7 +334,7 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
-                      <Link href="mailto:corporate.desk@adityabiral.com">corporate.desk@adityabiral.com</Link>
+                      <Link href="mailto:corporate.desk@adityabirla.com">corporate.desk@adityabirla.com</Link>
                     </div>
                   </div>
                 </div>
