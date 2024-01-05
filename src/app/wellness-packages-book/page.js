@@ -19,11 +19,13 @@ const Contactus = () => {
   const [uemail, setUemail] = useState("");
   const [ulocation, setLocation] = useState("");
 
-  const [selectedOption, setSelectedOption] = useState(""); 
+  const [selectedOption, setSelectedOption] = useState("");
+
+  const [userdate, setDate] = useState("");
 
   const [umessage, setMessage] = useState("");
 
-
+  const [apiResponse, setApiResponse] = useState('');
 
 
   const handleChange = (event) => {
@@ -39,8 +41,10 @@ const Contactus = () => {
       setLocation(value);
     } else if (name === "usermessage") {
       setMessage(value);
-    } else if (name === "userSelect") {
-      setSelectedOption(value); 
+    } else if (name === "userdate") {
+      setDate(value);
+    }else if (name === "userSelect") {
+      setSelectedOption(value);
     }
 
   };
@@ -49,18 +53,19 @@ const Contactus = () => {
     event.preventDefault();
 
 
-    var messagebox = document.getElementById('apirespose');
+
     var submitbutton = document.getElementById('submitbtb');
 
 
     submitbutton.disabled = true; // hide button to duble click
-    messagebox.innerHTML = '';  // do empty for resubmit
+
 
     console.log(uname);
     console.log(uphone);
     console.log(uemail);
     console.log(ulocation);
     console.log(ulocation);
+    console.log(userdate);
     console.log(selectedOption);
 
 
@@ -73,6 +78,7 @@ const Contactus = () => {
         usermail: uemail,
         userlocation: ulocation,
         usermessage: umessage,
+        userdate: userdate,
         selectedOption: selectedOption,
       }),
     });
@@ -82,7 +88,7 @@ const Contactus = () => {
 
       // throw new Error("Network response was not ok");
 
-      messagebox.innerHTML = 'Something went wrong';
+      setApiResponse('Something went wrong');
 
       submitbutton.disabled = false;
 
@@ -100,18 +106,19 @@ const Contactus = () => {
         setUemail("");
         setLocation("");
         setMessage("");
+        setDate("");
 
 
 
         submitbutton.disabled = false;
 
-        messagebox.innerHTML = 'Mail send successfully';
+        setApiResponse('Mail sent successfully');
 
       } else {
 
         submitbutton.disabled = false;
 
-        messagebox.innerHTML = 'Something went wrong';
+        setApiResponse('Something went wrong');
 
       }
 
@@ -157,7 +164,7 @@ const Contactus = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-        <Image width={2000} height={400} src="/commonimages/wellness-packages-banner.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/wellness-packages-banner.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -171,7 +178,7 @@ const Contactus = () => {
                   <div className="col-12">
                     <div className="well-book-contact_field">
                       <h3 className="well-book-head">Book Wellness Packages</h3>
-                      
+
                       <form onSubmit={handleSubmit}>
                         <input
                           type="text"
@@ -218,6 +225,16 @@ const Contactus = () => {
                           required
                         />
 
+                        <input
+                          type="date"
+                          className="form-control"
+                          name="userdate"
+                          placeholder="Your Date"
+                          value={userdate}
+                          onChange={handleChange}
+                          required
+                        />
+
                         <div className="form-floating">
                           <select
                             className="form-select form-control"
@@ -248,7 +265,7 @@ const Contactus = () => {
                         <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
                       </form>
 
-                      <div id="apirespose"></div>
+                      <div id="apirespose" className="mt-2">{apiResponse}</div>
 
 
                     </div>

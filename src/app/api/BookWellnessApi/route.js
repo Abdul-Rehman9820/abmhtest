@@ -18,6 +18,7 @@ export async function POST(req, content) {
     const usermail = body.usermail;
     const userlocation = body.userlocation;
     const usermessage = body.usermessage;
+    const userdate = body.userdate;
     const selectedOption = body.selectedOption;
 
 
@@ -28,6 +29,7 @@ export async function POST(req, content) {
                                 <p>Email = ${usermail}</p>
                                 <p>Location = ${userlocation}</p>
                                 <p>Message  = ${usermessage}</p>
+                                <p>Date  = ${userdate}</p>
                                 <p>Wellness Package  = ${selectedOption}</p>
           
                            <div>`;
@@ -44,6 +46,7 @@ export async function POST(req, content) {
       },
     });
 
+    //Wellness.abmh@adityabirla.com
     const mailOptions = {
       from: '"New Enquiry From ABMH Book Wellness Packages Form" <abmh_enquiry@mindframeindia.com>',
       to: ['abmh_enquiry@mindframeindia.com', 'Wellness.abmh@adityabirla.com'],

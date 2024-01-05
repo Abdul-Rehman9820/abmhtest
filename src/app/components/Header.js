@@ -9,6 +9,8 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 
+import Head from 'next/head'
+
 import '../styles/header.css'
 import '../styles/commonglobalstyle.css'
 
@@ -220,7 +222,7 @@ const Header = () => {
 
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" />
 
-
+            {/* tawk chatoat */}
             <Script id="show-banner">
                 {`
                                 
@@ -236,6 +238,11 @@ const Header = () => {
                 
                 `}
             </Script>
+            {/* tawk chatoat */}
+
+
+
+            {/* google tag manager */}
 
             <Script id="show-banner22">
                 {`
@@ -257,6 +264,14 @@ const Header = () => {
               style={{ display: 'none', visibility: 'hidden' }}
             ></iframe>
            </noscript>
+
+            {/* google tag manager */}
+
+
+
+         
+
+  
 
 
             {/* sticky */}
@@ -423,6 +438,7 @@ const Header = () => {
             {/* Modal second opi */}
 
             <header>
+
                 {/* header deckstop start*/}
                 <div className="parentcontainerwhi header deckstophead">
                     <div className="customcontainer">

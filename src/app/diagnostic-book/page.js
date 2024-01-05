@@ -20,10 +20,12 @@ const Feedbackform = () => {
   const [ulocation, setLocation] = useState("");
   const [umessage, setMessage] = useState("");
 
+  const [userdate, setDate] = useState("");
+
   const [selecteSubject, setSelectedSubject] = useState("");
   const [selecteTopic, setSelectedTopic] = useState("");
 
-  const [prescription, setPrescription] = useState(null);
+  const [prescription, setPrescription] = useState("");
 
   const [apiResponse, setApiResponse] = useState('');
 
@@ -41,6 +43,8 @@ const Feedbackform = () => {
       setLocation(value);
     } else if (name === "usermessage") {
       setMessage(value);
+    }else if (name === "userdate") {
+      setDate(value);
     } else if (name === "subject") {
       setSelectedSubject(value);
     } else if (name === "topic") {
@@ -65,6 +69,7 @@ const Feedbackform = () => {
     console.log(uemail);
     console.log(ulocation);
     console.log(umessage);
+    console.log(userdate);
     console.log(selecteSubject);
     console.log(selecteTopic);
     console.log(prescription);
@@ -76,6 +81,7 @@ const Feedbackform = () => {
     formData.append('usermail', uemail);
     formData.append('userlocation', ulocation);
     formData.append('usermessage', umessage);
+    formData.append('userdate', userdate);
     formData.append('selecteSubject', selecteSubject);
     formData.append('selecteTopic', selecteTopic);
     formData.append('prescription', prescription);
@@ -104,6 +110,7 @@ const Feedbackform = () => {
           setUemail('');
           setLocation('');
           setMessage('');
+          setDate('');
         } else {
           setApiResponse('Something went wrong');
         }
@@ -328,6 +335,15 @@ const Feedbackform = () => {
                           onChange={handleChange}
                           required
                         />
+                        <input
+                            type="date"
+                            className="form-control"
+                            name="userdate"
+                            placeholder="Your Date"
+                            value={userdate}
+                            onChange={handleChange}
+                            required
+                          />
 
                         <select name="subject" id="subject" className="form-control" onChange={handleChange} required>
                           <option value="" selected="selected">
@@ -349,7 +365,7 @@ const Feedbackform = () => {
                             name="Prescription"
                             accept=".pdf, .jpg, .png"
                             onChange={handleFileChange}
-                            required
+                
                           />
                         </div>
 

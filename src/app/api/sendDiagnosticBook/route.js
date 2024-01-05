@@ -11,16 +11,28 @@ export async function POST(req, content) {
     const usermail = formData.get('usermail');
     const userlocation = formData.get('userlocation');
     const usermessage = formData.get('usermessage');
+    const userdate = formData.get('userdate');
     const selecteSubject = formData.get('selecteSubject');
     const selecteTopic = formData.get('selecteTopic');
 
     const prescription = formData.get('prescription');
 
-    // // Read the resume file as a Buffer
-    // const resumeBuffer = await fs.readFile(resume.path);
+    let attachments = [];
 
-    const byteData= await prescription.arrayBuffer();
-    const buffer= Buffer.from (byteData);
+    if (prescription) {
+      const byteData = await prescription.arrayBuffer();
+      const buffer = Buffer.from(byteData);
+      attachments = [
+        {
+          // filename: 'prescription.pdf', // Customize the filename if needed
+          content: buffer,
+        },
+      ];
+    }else {
+
+      attachments = [];
+
+    }
 
     const htmlContent = `<div>
       <p>Name = ${username}</p>
@@ -28,6 +40,7 @@ export async function POST(req, content) {
       <p>Email = ${usermail}</p>
       <p>Location = ${userlocation}</p>
       <p>Message = ${usermessage}</p>
+      <p>Date = ${userdate}</p>
       <p>Diagnostic Category = ${selecteSubject}</p>
       <p>Diagnostic Service = ${selecteTopic}</p>
     </div>`;
@@ -42,17 +55,14 @@ export async function POST(req, content) {
       },
     });
 
+    //corporate.desk@adityabirla.com
+
     const mailOptions = {
       from: '"New Booking of Diagnostic Service From ABMH Diagnostic Form" <abmh_enquiry@mindframeindia.com>',
       to: ['abmh_enquiry@mindframeindia.com','corporate.desk@adityabirla.com'],
       subject: 'New Booking of Diagnostic Service',
       html: htmlContent,
-      attachments: [
-        {
-          // filename: 'resume.pdf', // You can customize the filename here
-          content: buffer,
-        },
-      ],
+      attachments: attachments,
     };
 
     const info = await transporter.sendMail(mailOptions);
