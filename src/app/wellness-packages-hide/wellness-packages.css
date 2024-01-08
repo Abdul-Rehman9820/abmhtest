@@ -1,0 +1,578 @@
+
+/* ! wellness page  start*/ 
+
+
+
+/* breadcrumbs  start*/ 
+
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+
+.breadcrumbsdata {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.breadcrumbsactive{
+    color: #A21B18;
+}
+
+
+/* breadcrumbs  end*/ 
+
+
+
+/* common head banner  start*/ 
+.mainheadingbandiv {
+    height: auto;
+    background: #F7D651;
+}
+
+.mainheadingbandiv img {
+    width: 100%;
+}
+/* common head banner  end*/ 
+
+
+/* Wellbeing Packages  start*/ 
+
+.Packagespart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.Packageshead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.Packagespart h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+span.headborder {
+    border: 2px solid #f96c24;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.packagesloop {
+    padding: 30px 0;
+}
+
+.packagesloopbox {
+    width: 30%;
+    box-shadow: 0pt 1pt 20pt rgb(171 161 161 / 18%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.lableboxflex {
+    background: #ffe468;
+    padding: 0 12px 30px 12px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.seeactive {
+    color: #a21b18;
+}
+
+.lablebox1 {
+    width: 80%;
+}
+.lablebox2 {
+    width: 20%;
+    text-align: end;
+}
+/* .lablestyle {
+    display: inline-block;
+    background: #F37428;
+    padding: 0px 5px 0px 5px;
+    position: relative;
+} */
+
+.lablestyle {
+    display: inline-block;
+    padding: 0px 5px 15px 5px;
+    position: relative;
+    background-image: url("/wellnesspageimg/bedgimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lablenumber {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.labelhead {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.lablebox1 h2 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.welpacprice {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a21b18;
+}
+.mybotwellpopup {
+    border: navajowhite;
+    color: #a21b18;
+    font-weight: 500;
+    font-size: 16px;
+}
+.mybookpopupbtn {
+    border: unset;
+    background: #A21B18;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.welpopleftprice {
+    border: unset;
+    color: #a21b18;
+    font-weight: 700;
+    font-size: 16px;
+}
+.mybookpopupbtn a{
+    color: white;
+    font-size: 16px;
+}
+.willpoopbanimg {
+    width: 100%;
+}
+
+.wellnepacktogel .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a21b18;
+    
+}
+.wellnepacktogel .accordion-button{
+    padding: 10px 20px;
+    border: unset;
+}
+.wellnepacktogel .accordion-body {
+    padding: 10px 7px;
+}
+
+.wellnepacktogel .accordion-button::after {
+    display: none;
+}
+ul.wellpackpopparaul {
+    margin: 0;
+}
+
+.lablebox1 {
+    padding-top: 10px;
+}
+
+.lableseemore h2 {
+    font-size: 17px;
+    color: #707070d9;
+    font-weight: 500;
+}
+
+
+.lableseemore {
+    margin-top: 20px;
+}
+.packagesloopboxconatainer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.labchoimgbox2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.labchocombtn {
+    border:#A21B18;
+    background-color: #A21B18;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.labchocombtn a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+span.labspecicon img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+/* Wellbeing Packages  end*/ 
+
+
+/* HomeCare Solutions  start*/ 
+
+
+.HomeCareSolutionsBG {
+    background-image: url("/wellnesspageimg/maroon-bg-new.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.HomeCareSolutionspart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.HomeCareSolutionshead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.HomeCareSolutionspart h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.HomeCareSolutionsmain {
+    padding: 45px 0;
+}
+
+.HomeCareSolutionsPraimg {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.homwcareparacol1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.homwcareparacol2 {
+    width: 100%;
+}
+.homwcareparadata {
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+}
+.homwcareparacol2img1 img {
+    width: 100%;
+}
+
+.homwcarechoimgbox2 {
+    text-align: center;
+}
+.homwcarechocombtn {
+    border: #A21B18;
+    background-color: #00000087;
+    padding: 8px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.homwcarechocombtn a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+span.homwcarespecicon img {
+    width: 20px;
+    margin-left: 20px;
+}
+.homwcareparacol2img1 {
+    position: relative;
+    width: 19%;
+}
+.homwcarechoimgbox2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.homecartwoimg {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homecartwoimgcol1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.homwcareparacol2img1 img {
+    border-radius: 10px;
+}
+
+/* HomeCare Solutions  end*/ 
+
+
+
+/* FAQ for wellness  start */ 
+
+
+
+.wellnessFAQpart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.wellnessFAQhead {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.wellnessFAQpart h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.wellnessFAQ {
+    padding: 40px 0;
+}
+.wellfaqCol{
+    margin-top: 40px;
+}
+
+.wellfaqcontainer .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #a21b18;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.faqdata p {
+    font-size: 14px !important;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+
+/* FAQ for wellness  end*/ 
+
+
+
+/*! wellness page  end*/
+
+
+
+
+
+
+
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+/*! wellness page  start*/
+
+.lablebox1 h2 {
+    font-size: 15px;
+}
+.labchocombtn a {
+    font-size: 14px;
+}
+.lableseemore h2 {
+    font-size: 15px;
+}
+
+.homwcareparacol1 {
+    width: 100%;
+    padding-right: 0px;
+}
+.homwcareparacol2 {
+    width: 100%;
+    margin-top: 30px;
+}
+.homecartwoimgcol1 {
+    justify-content: start;
+}
+.homwcareparacol2img1 {
+    width: 32%;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+.homwcarechocombtn a {
+    font-size: 16px;
+}
+
+/*! wellness page  end*/
+
+
+
+  }
+
+
+/* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+  
+
+/*! wellness page  start*/
+
+
+.Packagespart h2 {
+    font-size: 15px;
+}  
+.packagesloopbox {
+    width: 100%;
+}
+.HomeCareSolutionspart h2 {
+    font-size: 15px;
+}
+
+.homwcareparacol1 {
+    width: 100%;
+    padding-right: 0;
+}
+.homwcareparacol2 {
+    width: 100%;
+}
+.homwcarechocombtn a {
+    font-size: 10px;
+}
+.homwcareparadata {
+    font-size: 15px;
+}
+.wellnessFAQpart h2 {
+    font-size: 15px;
+}
+.accordion {
+    font-size: 14px;
+}
+.lablebox1 h2 {
+    font-size: 16px;
+}
+.lableseemore h2 {
+    font-size: 14px;
+}
+.labchocombtn a {
+    font-size: 13px;
+}
+
+.homwcareparacol2img1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/*! wellness page  end*/
+
+
+
+
+
+
+
+}
+
+/* small div 367*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

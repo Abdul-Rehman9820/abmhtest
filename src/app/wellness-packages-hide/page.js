@@ -1928,7 +1928,7 @@ const WellnessPack = () => {
       {/* Wellbeing Packages  end*/}
 
 
-      {/* HomeCareSolutions  start*/}
+      {/* hide for approval HomeCareSolutions  start*/}
       <div className="parentcontainerwhi HomeCareSolutionsBG" id='homecare-solutions'>
         <div className="customcontainer">
           <div className="HomeCareSolutionsmain">
@@ -1939,6 +1939,7 @@ const WellnessPack = () => {
               </div>
             </div>
             <div className="HomeCareSolutionsPraimg">
+
               <div className="homwcareparacol1">
                 <p className="homwcareparadata">
                   HomeCare Solutions by Aditya Birla Memorial Hospital (ABMH) is a
@@ -1958,31 +1959,53 @@ const WellnessPack = () => {
                   medical assistance in their own familiar environment.
                 </p>
               </div>
+              
               <div className="homwcareparacol2">
-                <div className="homwcareparacol2img1">
-                  <Image width={400} height={400} src="/wellnesspageimg/wellhomecare.jpg" alt="img" />
-                  <div className="homwcarechoimgbox2">
-                    <button className="homwcarechocombtn">
-                      <Link href="">
-                        HOME SAMPLE COLLECTION
-                        <span className="homwcarespecicon">
-                          <Image width={400} height={400}
-                            src="/wellnesspageimg/right-arrow-wellness.png"
-                            alt="img"
-                          />
-                        </span>
-                      </Link>
-                    </button>
-                  </div>
-                </div>
+
+
                 <div className="homecartwoimg">
+
+
                   <div className="homecartwoimgcol1">
+
+                    <div className="homwcareparacol2img1">
+                      <Image width={400} height={400} src="/wellnesspageimg/Sample-Collection.png" alt="img" />
+                      <div className="homwcarechoimgbox2">
+                        <button className="homwcarechocombtn">
+                         <Link href="/diagnostic-book">
+                            Sample Collection
+                            <span className="homwcarespecicon">
+                              <Image width={400} height={400}
+                                src="/wellnesspageimg/right-arrow-wellness.png"
+                                alt="img"
+                              />
+                            </span>
+                          </Link>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="homwcareparacol2img1">
+                      <Image width={400} height={400} src="/wellnesspageimg/medicine-supply.png" alt="img" />
+                      <div className="homwcarechoimgbox2">
+                        <button className="homwcarechocombtn">
+                         <Link href="/diagnostic-book">
+                           Medicine Delivery
+                            <span className="homwcarespecicon">
+                              <Image width={400} height={400}
+                                src="/wellnesspageimg/right-arrow-wellness.png"
+                                alt="img"
+                              />
+                            </span>
+                          </Link>
+                        </button>
+                      </div>
+                    </div>
                     <div className="homwcareparacol2img1">
                       <Image width={400} height={400} src="/wellnesspageimg/NURSINGCARE.png" alt="img" />
                       <div className="homwcarechoimgbox2">
                         <button className="homwcarechocombtn">
-                          <Link href="">
-                            NURSING CARE
+                         <Link href="/diagnostic-book">
+                            Nursing Care
                             <span className="homwcarespecicon">
                               <Image width={400} height={400}
                                 src="/wellnesspageimg/right-arrow-wellness.png"
@@ -1993,17 +2016,12 @@ const WellnessPack = () => {
                         </button>
                       </div>
                     </div>
-                  </div>
-                  <div className="homecartwoimgcol2">
                     <div className="homwcareparacol2img1">
-                      <Image width={400} height={400}
-                        src="/wellnesspageimg/PHYSIOTHERAPYhomecare.png"
-                        alt="img"
-                      />
+                      <Image width={400} height={400} src="/wellnesspageimg/PHYSIOTHERAPYhomecare.png" alt="img" />
                       <div className="homwcarechoimgbox2">
                         <button className="homwcarechocombtn">
-                          <Link href="">
-                            PHYSIOTHERAPY
+                         <Link href="/diagnostic-book">
+                            Physio Care
                             <span className="homwcarespecicon">
                               <Image width={400} height={400}
                                 src="/wellnesspageimg/right-arrow-wellness.png"
@@ -2014,14 +2032,36 @@ const WellnessPack = () => {
                         </button>
                       </div>
                     </div>
+                    <div className="homwcareparacol2img1">
+                      <Image width={400} height={400} src="/wellnesspageimg/home-dailesys.png" alt="img" />
+                      <div className="homwcarechoimgbox2">
+                        <button className="homwcarechocombtn">
+                         <Link href="/diagnostic-book">
+                            Home Dialysis
+                            <span className="homwcarespecicon">
+                              <Image width={400} height={400}
+                                src="/wellnesspageimg/right-arrow-wellness.png"
+                                alt="img"
+                              />
+                            </span>
+                          </Link>
+                        </button>
+                      </div>
+                    </div>
+
                   </div>
+
                 </div>
               </div>
+
             </div>
           </div>
         </div>
       </div>
       {/* HomeCare Solutions  end*/}
+
+
+
 
 
       {/* FAQ for wellness  start*/}

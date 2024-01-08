@@ -335,6 +335,23 @@ const Accidentandemergency = () => {
         </div>
       </div>
 
+     {/* hide for approval*/}
+
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+            <div className="spectitleimgbox">
+              <div className="">
+
+                <p className="specilpara">
+                Our Neurosciences Centre provides advanced diagnosis and treatment for nervous system disorders. It is led by a team of distinguished and dedicated professionals, including neurosurgeons, neurologists, neuro-anaesthetists, neuro-imaging specialists, and neuro-oncologists. Our commitment to achieving positive clinical outcomes is supported by state-of-the-art facilities, cutting-edge technology, the latest surgical techniques, and a range of surgical and non-surgical approaches. Our personalized care, delivered by a team of dedicated rehabilitation specialists, aims to restore the health of each patient.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
 
 
 
