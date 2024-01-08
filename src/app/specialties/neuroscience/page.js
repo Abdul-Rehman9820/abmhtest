@@ -78,7 +78,7 @@ const Accidentandemergency = () => {
 
 
     <>
-      <title>Neuroscience</title>
+      <title>Neuro Sciences</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -87,7 +87,7 @@ const Accidentandemergency = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Neuroscience</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Neuro Sciences</span>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ import '../specialityviewpagecommon.css'
 
 
 
-const Dentistry = () => {
+const Andrologyandsexualmedicine = () => {
 
 
   // store data here
@@ -32,7 +32,7 @@ const Dentistry = () => {
         const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/profilebyspecilitypage`, {
           method: "POST",
           body: JSON.stringify({
-            usersearch: "37",
+            usersearch: "151",
           }),
         });
 
@@ -78,22 +78,22 @@ const Dentistry = () => {
 
 
     <>
-      <title>Specialty</title>
+      <title>Cardiac Sciences</title>
 
       {/* common heading div start*/}
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Dentistry</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Cardiac Sciences</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* common heading div end*/}
       {/* common heading banner start */}
       {/* <div className="mainheadingbanner">
@@ -225,130 +225,125 @@ const Dentistry = () => {
       </div>
       {/* team of expert slider end*/}
 
-
       {/* specialties  start*/}
 
 
+      {/* sub specialties start*/}
+      <div className="parentcontainerwhi specipgGRY">
+        <div className="customcontainer">
+          <div className="specsingleparnGra">
+            <div className="spectitlegrcont">
+              <div className="spectitlegrcont2">
 
+
+
+
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/cath-lab">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Cath Lab</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/electrophysiology-&-ablation">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Electrophysiology & Ablation</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/cardiology">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Cardiology</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/cardiothoracic-surgery">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Cardiothoracic Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/paediatric-cardiothoracic-surgery">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Cardiothoracic Surgery</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/paediatric-cardiologist">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Paediatric Cardiologist</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/non-invasive-lab">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Non-Invasive Lab</p>
+                    </div>
+                  </Link>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* sub specialties end*/}
 
 
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-
             <div className="spectitleimgbox">
+
               <div className="">
-                <div className="spectitle Specialtiesheadgr">
-                  <h1 className="spetileh2gr">Orthopaedics</h1>
+                {/* <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Cardiac Sciences</h1>
                   <span className="headbordergr" />
-                </div>
+                </div> */}
                 <p className="specilpara">
-                  Orthopaedics at our hospital offers a wide spectrum of services, including surgical and non-surgical interventions for various musculoskeletal conditions. Our expert orthopedic team ensures personalized and effective treatment plans, promoting optimal recovery for patients.
+                  Cardiac Sciences at Aditya Birla Memorial Hospital encompasses a comprehensive range of services dedicated to the diagnosis, treatment, and care of cardiovascular conditions. Our multidisciplinary team of experts collaborates to provide cutting-edge and personalized cardiac care, ensuring optimal outcomes for patients.
+                  Subservices under Cardiac Sciences:
                 </p>
 
+
               </div>
+
             </div>
-
-
           </div>
         </div>
       </div>
 
 
 
-      {/* hide for apporval */}
-
-      {/* <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-
-            <div className="spectitleimgbox">
-
-              <div className="">
-                <div className="spectitle Specialtiesheadgr">
-                  <h1 className="spetileh2gr">Orthopaedics</h1>
-                  <span className="headbordergr" />
-                </div>
-                <p className="specilpara">
-                  Orthopedics and Joint Replacement Center at Aditya Birla Memorial Hospital, focuses on delivering comprehensive orthopedic care and employing cutting-edge joint replacement procedures. Our team comprises highly experienced orthopedic surgeons committed to offering personalized and advanced solutions for musculoskeletal conditions. From intricate joint replacements to non-surgical orthopedic treatments, our approach is grounded in precision and patient well-being.
-                </p>
-                <p className="specilpara">
-                  At Aditya Birla Memorial Hospital, our commitment to excellence spans from diagnosis to rehabilitation, ensuring optimal outcomes and an enhanced quality of life for our patients. Trust in the expertise of our seasoned doctors as we guide you to the pinnacle of orthopedic care, where medical proficiency intertwines with compassionate support, fostering a future of improved mobility and overall well-being.
-                </p>
-              </div>
-
-
-              <div className="">
-                <div className="spectitle Specialtiesheadgr">
-                  <h1 className="spetileh2gr">Treatment & Surgeries</h1>
-                  <span className="headbordergr" />
-                </div>
-                <p className="specilpara">
-                <b>Total Hip Replacement:</b> Restoring mobility and relieving pain by replacing a damaged hip joint with an artificial implant.
-                </p>
-                <p className="specilpara">
-                <b>Total Knee Replacement:</b> Alleviating knee pain and improving function through the replacement of damaged knee joint surfaces with prosthetic components.
-                </p>
-                <p className="specilpara">
-                <b>Total Shoulder Replacement:</b> Easing shoulder pain and enhancing joint function by replacing damaged parts of the shoulder with artificial components.
-                </p>
-                <p className="specilpara">
-                <b>Arthroscopic Knee Surgery:</b> Minimally invasive procedure using a small camera to diagnose and treat knee joint issues, reducing recovery time.
-                </p>
-                <p className="specilpara">
-                <b>Arthroscopic Shoulder Surgery:</b> Addressing shoulder problems through tiny incisions, enabling precise visualization and treatment with minimal tissue disruption.
-                </p>
-                <p className="specilpara">
-                <b>Arthroscopic Ankle Surgery:</b> Minimally invasive ankle procedures to diagnose and treat various conditions, promoting quicker recovery and reduced scarring.
-                </p>
-                <p className="specilpara">
-                <b>Spine surgeries: Lumbar Discectomy:</b> Surgical removal of herniated disc material in the spine to relieve pressure on nerves and reduce pain.
-                </p>
-                <p className="specilpara">
-                <b>Spinal Fusion:</b> Joining two or more vertebrae to stabilize the spine, often recommended for conditions like spinal instability or degenerative disc disease.
-                </p>
-                <p className="specilpara">
-                <b>Herniated Disc Surgery:</b> Surgical intervention to address a herniated disc, relieving pressure on spinal nerves and improving symptoms.
-                </p>
-                <p className="specilpara">
-                <b>Open Reduction Internal Fixation (ORIF):</b> Surgically aligning and stabilizing fractured bones using internal hardware like screws and plates for optimal healing.
-                </p>
-                <p className="specilpara">
-                <b>Closed Reduction Internal Fixation (CRIF):</b> Non-invasive realignment and stabilization of fractured bones using internal hardware for effective fracture healing.
-                </p>
-                <p className="specilpara">
-                <b>Tendon Repair:</b> Surgical restoration of damaged tendons to promote proper function and prevent long-term disability.
-                </p>
-                <p className="specilpara">
-                <b>Ligament Reconstruction:</b> Surgical procedure to repair or replace damaged ligaments, often performed for sports-related injuries.
-                </p>
-                <p className="specilpara">
-                <b>Orthopedic Trauma Surgery:</b> Urgent surgical intervention to treat fractures, dislocations, and other orthopedic injuries resulting from trauma.
-                </p>
-                <p className="specilpara">
-                <b>Carpal Tunnel Release:</b> Surgical procedure to alleviate pressure on the median nerve in the wrist, relieving symptoms of carpal tunnel syndrome.
-                </p>
-                <p className="specilpara">
-                <b>Bunion Surgery (Bunionectomy):</b> Corrective surgical procedure to remove a bunion and realign the joint of the big toe for improved comfort and function.
-                </p>
-                <p className="specilpara">
-                <b>Achilles Tendon Repair:</b> Surgical procedure to address a ruptured or damaged Achilles tendon, restoring strength and function.
-                </p>
-                <p className="specilpara">
-                <b>Limb-Sparing Surgery for Bone Tumors:</b> Surgical removal of bone tumors while preserving the limb's function and appearance.
-                </p>
-                <p className="specilpara">
-                <b>Soft Tissue Sarcoma Resection:</b> Surgical removal of soft tissue sarcomas, often followed by reconstructive procedures to restore function and aesthetics.
-                </p>
-
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-      </div> */}
 
 
       {/* specialties end*/}
@@ -364,4 +359,4 @@ const Dentistry = () => {
 
 
 
-export default Dentistry;
+export default Andrologyandsexualmedicine;

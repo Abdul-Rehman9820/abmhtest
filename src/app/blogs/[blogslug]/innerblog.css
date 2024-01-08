@@ -41,13 +41,6 @@ span.Pg_sub_title {
 }
 
 
-.main_img img {
-    border-radius: 10px;
-    width: 400px;
-    height: 250px;
-    object-fit: contain;
-}
-
 span.read_more a {
     font-size: 15px;
     font-weight: 500;
@@ -58,6 +51,7 @@ span.read_more a {
 
 .singblogimg {
     width: 100%;
+    border:1px solid #0000001f;
 }
 .singlblogh1 {
    font-size: 25px;

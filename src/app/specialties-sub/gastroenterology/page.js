@@ -235,7 +235,7 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
@@ -243,7 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                Gastroenterology services encompass the diagnosis and treatment of disorders affecting the digestive system. Our experienced gastroenterologists employ a range of diagnostic procedures and therapeutic interventions to ensure optimal gastrointestinal health.
+                  Gastroenterology services encompass the diagnosis and treatment of disorders affecting the digestive system. Our experienced gastroenterologists employ a range of diagnostic procedures and therapeutic interventions to ensure optimal gastrointestinal health.
                 </p>
 
               </div>
@@ -253,6 +253,97 @@ const Dentistry = () => {
           </div>
         </div>
       </div>
+
+
+
+      {/* hide for apporval*/}
+
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+
+            <div className="spectitleimgbox">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Gastroenterology</h1>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  The Gastroenterology Department at Aditya Birla Memorial Hospital features modern infrastructure and cutting-edge equipment. Our dedicated team of gastroenterologists specializes in diagnosing and treating a broad spectrum of gastrointestinal disorders, ensuring comprehensive care for digestive well-being in both children and adults.
+                </p>
+              </div>
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h2 className="spetileh2gr">Procedures & treatment</h2>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  1)	Interventional Gastroenterology:
+                </p>
+                <ul>
+                  <li>Endoscopic Retrograde Cholangiopancreatography (ERCP): Diagnosis and treatment of bile and pancreatic duct disorders.</li>
+                  <li>Endoscopic Ultrasound (EUS): Advanced imaging for diagnostic and therapeutic purposes.</li>
+                </ul>
+                <p className="specilpara">
+                  2) Bariatric Endoscopy:
+                </p>
+                <ul>
+                  <li>Intragastric Balloon Placement: Non-surgical weight loss procedure involving the placement of a balloon in the stomach.</li>
+                </ul>
+                <p className="specilpara">
+                  3)	Diagnostic Procedures:
+                </p>
+                <ul>
+                  <li>Endoscopy: Upper endoscopy (EGD) and colonoscopy for visual examination of the upper and lower gastrointestinal tract.</li>
+                  <li>Capsule Endoscopy: Swallowable capsule cameras to capture images of the small intestine.</li>
+                </ul>
+                <p className="specilpara">
+                  4)	Preventive Care:
+                </p>
+                <ul>
+                  <li>Colorectal Cancer Screening: Colonoscopies and other screening methods to detect and prevent colorectal cancer.</li>
+                  <li>Liver Disease Screening: Evaluation and management of liver diseases, including viral hepatitis and fatty liver disease.</li>
+                </ul>
+                <p className="specilpara">5) Treatment of Gastrointestinal Conditions:</p>
+                <ul>
+                  <li>Inflammatory Bowel Disease (IBD) Management: Comprehensive care for conditions like Crohn&apos;s disease and ulcerative colitis.</li>
+                  <li>Irritable Bowel Syndrome (IBS) Management: Diagnosis and treatment of IBS symptoms to improve quality of life.</li>
+                  <li>Gastroesophageal Reflux Disease (GERD) Management: Treatment of chronic acid reflux and related conditions.</li>
+                </ul>
+                <p className="specilpara">6) Liver Disease Management:</p>
+                <ul>
+                  <li>Hepatitis Treatment: Diagnosis and management of viral hepatitis (Hepatitis B and C).</li>
+                  <li>Cirrhosis Management: Multidisciplinary care for patients with advanced liver disease.</li>
+                </ul>
+                <p className="specilpara">7) Gallbladder and Pancreatic Care:</p>
+                <ul>
+                  <li>Gallstone Management: Diagnosis and treatment of gallstones, including surgical options.</li>
+                  <li>Pancreatitis Management: Evaluation and management of inflammation of the pancreas.</li>
+                </ul>
+                <p className="specilpara">8) Motility Disorders:</p>
+                <ul>
+                  <li>Esophageal Motility Studies: Assessment and treatment of disorders affecting the movement of the esophagus.</li>
+                  <li>Small Bowel Motility Studies: Evaluation of small bowel movement disorders, like gastro paresis.</li>
+                </ul>
+
+              </div>
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Advanced Technology & Facilities</h1>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  <b>Nutritional Counseling</b> Our dieticians play a crucial role in gastroenterology care, providing comprehensive nutritional assessments. They identify malnutrition, plan dietary interventions, manage symptoms, support treatment, and monitor response, optimizing patient outcomes and improving the quality of life for those with gastrointestinal disorders
+                </p>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div> */}
 
 
       {/* specialties end*/}

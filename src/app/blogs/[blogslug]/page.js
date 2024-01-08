@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-import './blog.css'
+import './innerblog.css'
 
 
 const Blogsingle = ({ params }) => {
@@ -106,7 +106,7 @@ const Blogsingle = ({ params }) => {
 
                 <title>{item.blogname}</title>
 
-                  <div className="page_header">
+                  <div className="page_header  pt-3">
                     <div className="customcontainer">
                       <div className="Pg_title">
                         Blogs / <span className="Pg_sub_title">{item.blogname}</span>

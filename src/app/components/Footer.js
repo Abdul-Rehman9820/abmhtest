@@ -17,6 +17,7 @@ import '../styles/footer.css'
 const Footer = () => {
 
 
+
   return (
 
 
@@ -39,6 +40,7 @@ const Footer = () => {
                     - 411033, MAHARASHTRA , INDIA.
                   </p>
                 </div>
+
                 <div className="linkbox">
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
@@ -134,7 +136,7 @@ const Footer = () => {
                       <Link href="/specialties/cardiac-sciences">Cardiac Sciences</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties/neuroscience">Neurosciences</Link>
+                      <Link href="/specialties/neuroscience">Neuro Sciences</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/specialties-sub/oncology">Oncology</Link>
@@ -149,7 +151,7 @@ const Footer = () => {
                       <Link href="/specialties/gastroscience">Gastro Sciences</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/specialties-sub/nephrology">Nephro -Sciences</Link>
+                      <Link href="/specialties-sub/nephrology">Nephro Sciences</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/specialties/accident-and-emergency">Emergency & Critical Care</Link>
@@ -163,6 +165,10 @@ const Footer = () => {
             {/* mainclose */}
           </div>
         </div>
+
+        <div ></div>
+
+
         <div className="parentcontainerwhi footer footerbelow deckstophead">
           <div className="customcontainer">
             {/* mainstart */}
@@ -210,6 +216,8 @@ const Footer = () => {
               </div>
 
               <div className="footermainbelw3">
+
+
 
               </div>
 
@@ -383,7 +391,7 @@ const Footer = () => {
                   <h2>Emergency No</h2>
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
-                    <Link href="tel:02040707777">020 30717777</Link>
+                      <Link href="tel:02040707777">020 30717777</Link>
                     </div>
                   </div>
                 </div>

@@ -74,7 +74,7 @@ const Blogs = () => {
       <div className="parentcontainerwhi">
         <div className="page_header">
           <div className="customcontainer">
-            <div className="Pg_title">
+            <div className="Pg_title pt-3">
               Home / <span className="Pg_sub_title">Blogs</span>
             </div>
           </div>

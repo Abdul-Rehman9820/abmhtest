@@ -164,75 +164,6 @@ export default function Home() {
             </div>
 
 
-            {/* <div className="carousel-inner">
-
-              <div className="carousel-item active">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W1.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M1.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W2.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M2.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W3.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M3.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W4.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M4.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W5.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M5.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W6.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M6.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="mynewslides">
-                  <Link href="/">
-                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W7.jpg" alt='slide' />
-                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M7.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
-                  </Link>
-                </div>
-              </div>
-
-            </div> */}
-
-
             <button
               className="carousel-control-prev"
               type="button"
@@ -388,7 +319,7 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/cardiac-sciences">
-                      <h2>Cardiac Science</h2>
+                      <h2>Cardiac Sciences</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -409,7 +340,7 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol1">
                     <Link href="/specialties/neuroscience">
-                      <h2>Neuroscience</h2>
+                      <h2>Neuro Sciences</h2>
                     </Link>
                   </div>
                   <div className="specdiv" />
@@ -536,7 +467,7 @@ export default function Home() {
                   </div>
                   <div className="speforwhitbgCol2">
                     <Link href="/specialties/cardiac-sciences">
-                      <h2>Cardiac Science</h2>
+                      <h2>Cardiac Sciences</h2>
                     </Link>
                   </div>
                 </div>
@@ -669,7 +600,7 @@ export default function Home() {
                           </div>
                           <div className="ourteambox2">
                             <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajesh-badani">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajesh-surendra-badani">
                                 View Profile
                               </Link>
                             </div>
@@ -694,7 +625,7 @@ export default function Home() {
                           </div>
                           <div className="ourteambox2">
                             <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-nikhil-parwate">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-nikhil-sadanand-parwate">
                                 View Profile
                               </Link>
                             </div>
@@ -719,7 +650,7 @@ export default function Home() {
                           </div>
                           <div className="ourteambox2">
                             <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-sharan-narute">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-sharan-shivaji-narute">
                                 View Profile
                               </Link>
                             </div>
@@ -804,7 +735,7 @@ export default function Home() {
                           </div>
                           <div className="ourteambox2">
                             <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-anirudha-tembe">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-anirudha-giridhar-tembe">
                                 View Profile
                               </Link>
                             </div>

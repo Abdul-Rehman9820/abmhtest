@@ -67,7 +67,7 @@
 p.specilpara {
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .spectitleimgbox1 img {
@@ -416,6 +416,9 @@ p.specilpara {
         height: 100%;
     }
     .specilpara {
+        font-size: 14px !important;
+    }
+    .spectitleimgbox li {
         font-size: 14px !important;
     }
     .spetileh2gr {
