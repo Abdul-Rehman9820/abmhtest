@@ -225,7 +225,7 @@ const Andrologyandsexualmedicine = () => {
       </div>
       {/* team of expert slider end*/}
 
-   {/* specialties  start*/}
+      {/* specialties  start*/}
 
 
       {/* sub specialties start*/}
@@ -327,12 +327,12 @@ const Andrologyandsexualmedicine = () => {
 
 
                 <p className="specilpara">
-         
-                Cardiac Sciences at Aditya Birla Memorial Hospital encompasses a comprehensive range of services dedicated to the diagnosis, treatment, and care of cardiovascular conditions. Our multidisciplinary team of experts collaborates to provide cutting-edge and personalized cardiac care, ensuring optimal outcomes for patients.
-Subservices under Cardiac Sciences:
+
+                  Cardiac Sciences at Aditya Birla Memorial Hospital encompasses a comprehensive range of services dedicated to the diagnosis, treatment, and care of cardiovascular conditions. Our multidisciplinary team of experts collaborates to provide cutting-edge and personalized cardiac care, ensuring optimal outcomes for patients.
+                  Subservices under Cardiac Sciences:
 
                 </p>
-    
+
 
               </div>
             </div>
@@ -341,6 +341,34 @@ Subservices under Cardiac Sciences:
       </div>
 
 
+      {/*hide for approval*/}
+
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+            <div className="spectitleimgbox">
+              <div className="">
+
+
+                <p className="specilpara">
+                The Cardiac Sciences department stands as a distinguished Centre of Excellence within Aditya Birla Memorial Hospital. Carefully selected, our outstanding team of doctors represents the pinnacle of expertise in the healthcare industry, ensuring that our seamlessly refined processes operate in harmonious collaboration to provide top-notch cardiac care on a global scale. Our state-of-the-art technologies, infrastructure, and systems are on par with the most exceptional standards in their respective classes.
+                </p>
+                <p className="specilpara">
+                Within our center, we offer comprehensive services covering Cardiology, Interventional Cardiology, Cardiothoracic Vascular Surgery, Cardiac Surgery, and Cardiac Rehabilitation for both adults and children. 
+                </p>
+                <p className="specilpara">
+                Our hospitals extend their expertise to over 300,000 adults and children, addressing a spectrum of conditions, including complex or rare cases.
+                </p>
+                <p className="specilpara">
+                We offer profound expertise in a wide range of advanced medical and surgical interventions. Our specialties are intricately interconnected, ensuring a cohesive and seamless experience for our patients.
+                </p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
 
 
 

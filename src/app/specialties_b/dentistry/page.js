@@ -457,6 +457,7 @@ const Dentistry = () => {
       </div>
     </div>
   </div>
+
   <div className="parentcontainerwhi specipgGRY">
     <div className="customcontainer">
       <div className="specsingleparnGra">
@@ -578,12 +579,6 @@ const Dentistry = () => {
       </div>
     </div>
   </div>
-
-
-
-
-
-
 
 
       {/* specialties end*/}

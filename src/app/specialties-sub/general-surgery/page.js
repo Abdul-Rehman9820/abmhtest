@@ -258,6 +258,45 @@ const Dentistry = () => {
       </div>
 
 
+    {/*hide for approval*/}
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+          
+            <div className="spectitleimgbox">
+              <div className="">
+
+                <p className="specilpara">
+                 <b>Robotic Cholecystectomy:</b> Experience the future of gallbladder surgery with our Robotic Cholecystectomy. Minimize scarring, reduce recovery time, and enhance precision in the removal of gallstones, ensuring a smoother patient experience.
+                </p>      
+                <p className="specilpara">
+                 <b>Robotic Hernia Repair:</b> Elevate hernia surgery with our Robotic Hernia Repair, combining advanced robotic technology with surgical expertise. Enjoy faster recovery and reduced postoperative discomfort while benefiting from the precision of robotic-assisted techniques.
+                </p>      
+                <p className="specilpara">
+                 <b>Robotic Colorectal Surgery:</b> Revolutionize colorectal procedures with our Robotic Colorectal Surgery. This minimally invasive approach ensures precise tumor removal and improved outcomes for conditions such as colorectal cancer, promoting quicker recovery and minimal scarring.
+                </p>      
+                <p className="specilpara">
+                 <b>Robotic Gastrectomy:</b> Transform your journey with Robotic Gastrectomy for stomach-related conditions. Our skilled surgeons utilize robotic precision to remove parts of the stomach, offering enhanced accuracy and faster recovery times for patients.
+                </p>      
+                <p className="specilpara">
+                 <b>Robotic Adrenalectomy:</b> Discover the advantages of Robotic Adrenalectomy for adrenal gland surgery. Our robotic-assisted approach ensures meticulous removal of tumors, reducing postoperative discomfort and promoting a quicker return to daily activities.
+                </p>      
+                <p className="specilpara">
+                 <b>Robotic Splenectomy:</b> Elevate spleen surgery with our Robotic Splenectomy. Benefit from the precision of robotic assistance in spleen removal, reducing the impact on surrounding tissues and facilitating a more efficient recovery process.
+                </p>          
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div> */}
+
+
+
+
+
       {/* specialties end*/}
     </>
 

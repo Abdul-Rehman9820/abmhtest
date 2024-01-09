@@ -235,7 +235,7 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
@@ -243,7 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                Gynecologic Oncology within Robotic-Assisted Surgery specializes in the treatment of gynecological cancers using robotic technology. Our expert surgeons employ minimally invasive robotic procedures to address conditions such as ovarian, cervical, and uterine cancers, providing precise and effective surgical solutions.
+                  Gynecologic Oncology within Robotic-Assisted Surgery specializes in the treatment of gynecological cancers using robotic technology. Our expert surgeons employ minimally invasive robotic procedures to address conditions such as ovarian, cervical, and uterine cancers, providing precise and effective surgical solutions.
                 </p>
 
               </div>
@@ -253,6 +253,40 @@ const Dentistry = () => {
           </div>
         </div>
       </div>
+
+
+      {/*hide for approval*/}
+
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+
+            <div className="spectitleimgbox">
+              <div className="">
+
+                <p className="specilpara">
+                  <b>Fibroids (Uterine Fibroids):</b> Fibroids are noncancerous growths of the uterus that often appear during childbearing years. They can vary in size and quantity and are made up of muscle and fibrous tissue.
+                </p>
+                <p className="specilpara">
+                  <b>Uterine Cancer (Endometrial Cancer):</b> Uterine cancer, or endometrial cancer, begins in the lining of the uterus (endometrium). It is the most common type of cancer that affects the female reproductive system.
+                </p>
+                <p className="specilpara">
+                  <b>Ovarian Cysts:</b> Ovarian cysts are fluid-filled sacs that can develop on the ovaries. Most cysts are benign and go away on their own, but some may cause pain or complications.
+                </p>
+                <p className="specilpara">
+                  <b>Early Ovarian Cancer:</b> Early-stage ovarian cancer refers to cancer that is confined to the ovaries and has not spread extensively
+                </p>
+                <p className="specilpara">
+                  <b>Abnormal Uterine Bleeding:</b> Abnormal uterine bleeding refers to any irregularities in the menstrual cycle, including heavy or prolonged bleeding, bleeding between periods, or postmenopausal bleeding.
+                </p>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div> */}
 
 
       {/* specialties end*/}

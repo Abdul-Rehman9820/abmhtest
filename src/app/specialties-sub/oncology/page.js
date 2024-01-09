@@ -260,6 +260,61 @@ const Dentistry = () => {
       </div>
 
 
+
+
+   {/*hide for approval*/}
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+          
+            <div className="spectitleimgbox">
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Oncology</h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <p className="specilpara">
+                  <b>Robotic Prostatectomy Surgery:</b> Precision removal of the prostate gland, a common procedure for treating prostate cancer, utilizing robotic technology for enhanced accuracy and minimal invasiveness.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Colectomy Surgery:</b> Surgical removal of part or the entire colon through robotic assistance, typically conducted for cases of colorectal cancer, ensuring precise and effective treatment.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Pancreatectomy Surgery:</b> Utilizing robotic technology for the removal of all or a portion of the pancreas, this surgery is often performed to address pancreatic cancer with improved precision and reduced invasiveness.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Gastrectomy Surgery:</b> A minimally invasive approach to removing part or all of the stomach, commonly recommended for stomach cancer cases, with robotic assistance for enhanced surgical precision.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Thyroidectomy Surgery:</b> Precision removal of part or the entire thyroid gland using robotic technology, a procedure commonly employed for the treatment of thyroid cancer, ensuring accuracy and minimal impact.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Esophagectomy Surgery:</b> Surgical removal of part or the entire esophagus, frequently undertaken for esophageal cancer cases, employing robotic assistance to enhance precision and minimize the impact on surrounding tissues.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Radical Cystectomy:</b> Precise removal of the bladder, often performed using robotic assistance, particularly in cases of bladder cancer, ensuring accuracy and reduced postoperative recovery time.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Rectal Cancer Partial Nephrectomy:</b> A robotic-assisted procedure for partial removal of the rectum, commonly indicated for rectal cancer cases, offering enhanced precision and reduced recovery time.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Radical Hysterectomy:</b> Utilizing robotic technology for a comprehensive removal of the uterus and surrounding tissues, often recommended for cases of uterine or cervical cancer, ensuring precision and minimal invasiveness.
+                </p>
+                <p className="specilpara">
+                  <b>Robotic Lung Cancer Surgery:</b> A precise and minimally invasive approach to lung cancer treatment, employing robotic assistance for surgical procedures on the lungs, contributing to improved outcomes and reduced recovery times.
+                </p>
+      
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div> */}
+
+
       {/* specialties end*/}
     </>
 

@@ -168,7 +168,7 @@ const Contactus = () => {
                       <div className="col-md-10">
                         <div className="contact_form_inner">
                           <div className="contact_field">
-                            <h3>Contatc Us</h3>
+                            <h3>Contact Us</h3>
                             <p>
                               Feel Free to contact us any time. We will get back
                               to you as soon as we can!.

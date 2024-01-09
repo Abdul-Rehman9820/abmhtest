@@ -235,7 +235,7 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
@@ -243,7 +243,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                Cardiothoracic Surgery specializes in surgical procedures related to the heart and thoracic (chest) region. Our cardiothoracic surgeons perform a variety of surgeries, including coronary artery bypass grafting (CABG) and valve replacement, ensuring comprehensive and effective cardiac interventions.
+                  Cardiothoracic Surgery specializes in surgical procedures related to the heart and thoracic (chest) region. Our cardiothoracic surgeons perform a variety of surgeries, including coronary artery bypass grafting (CABG) and valve replacement, ensuring comprehensive and effective cardiac interventions.
                 </p>
 
               </div>
@@ -253,6 +253,97 @@ const Dentistry = () => {
           </div>
         </div>
       </div>
+
+
+      {/*Hide for approval*/}
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+
+
+            <div className="spectitleimgbox">
+
+              <div className="">
+
+                <div className="spectitleimgbox">
+
+                  <div className="spectitleimgbox1">
+                    <Image width={400} height={400} src="/ABMH-machinery/ABMH-OT.jpg" alt="ABMH OT" />
+                  </div>
+                  <div className="spectitleimgbox2">
+                    <div className="spectitle Specialtiesheadgr">
+                      <h2 className="spetileh2gr">Cardiothoracic Surgery</h2>
+                      <span className="headbordergr" />
+                    </div>
+
+                    <p className="specilpara">
+                      Welcome to our Cardiovascular Thoracic Surgery department, where innovation meets expertise in the realm of heart and chest surgeries. Our highly skilledsurgical  teamspecialized in advanced procedures to address complex cardiovascular and thoracic conditions. From coronary artery surgeries to aortic aneurysm repairs, our surgeons ,with state-of-the-art technology and a patient-centric approach, we deliver the highest quality of care, ensuring optimal outcomes for each patient.
+                    </p>
+
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div className="spectitleimgbox mt-4">
+
+              <div className="">
+
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Surgeries</h1>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                  <b>Open Heart Surgery:</b> Surgical interventions for congenital heart defects, including repairs of heart structures and vessels viz
+                </p>
+                <p className="specilpara">
+                  <b>Coronary Artery Bypass Grafting (CABG):</b> Surgically rerouting blood flow around blocked coronary arteries to improve blood supply to the heart muscle.
+                </p>
+                <p className="specilpara">
+                  <b>Valve Replacement or Repair:</b> Repairing or replacing dysfunctional heart valves, either with prosthetic ( Mechanical and biological ) valves or by preserving the existing ones.
+                </p>
+                <p className="specilpara">
+                  <b>Minimally Invasive Cardiac Surgery:</b> Performing cardiac surgeries through small incisions, reducing trauma.blood loss and promoting quicker recovery in terms of quality of life.
+                </p>
+                <p className="specilpara">
+                  <b>Septal Defect Closure:</b> Closing holes in the heart's septum (walls) using devices or surgical interventions esp. ASD and VSD
+                </p>
+                <p className="specilpara">
+                  <b>Fontan Procedure/B D Glenn/ BT shunt/ ICR/Sennings procedure etc:</b> A surgical procedure to redirect blood flow in individuals with simple and complex congenital heart defects.
+                </p>
+                <p className="specilpara">
+                  <b>Aortic Aneurysm Repair:</b> Surgical interventions to repair or replace weakened sections of the aorta, preventing the risk of rupture.
+                </p>
+                <p className="specilpara">
+                  <b>Vascular Surgery:</b> Addressing conditions affecting blood vessels outside the heart, such as aortic dissections or peripheral vascular disease
+                </p>
+                <p className="specilpara">
+                  <b>Thoracic Aortic Surgery:</b> Addressing conditions affecting the thoracic aorta, such as aneurysms or dissections, through surgical interventions.
+                </p>
+                <p className="specilpara">
+                  <b>Pericardiectomy:</b> Surgical removal of the pericardium, the sac surrounding the heart, to treat conditions like constrictive pericarditis.
+                </p>
+                <p className="specilpara">
+                  <b>Lung surgeries:</b> surgical treatment of lungs like removing a part or the entire lung to treat conditions like infections, tumors and others.
+                </p>
+                <p className="specilpara">
+                  <b>Mediastinal surgeries:</b> Removing thymus (Thymectomy) for Myesthenia gravis and tumors located in the mediastinum.
+                </p>
+                <p className="specilpara">
+                  <b>Esophageal Surgery:</b> Surgical interventions to address conditions affecting the esophagus, including cancer.
+                </p>
+
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div> */}
 
 
       {/* specialties end*/}

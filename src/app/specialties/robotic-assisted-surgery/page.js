@@ -311,23 +311,53 @@ const Accidentandemergency = () => {
       {/* sub specialties end*/}
 
 
-      <div className="parentcontainerwhi">
+      {/*hide for approval*/}
+
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-            <div className="spectitleimgbox">
-              <div className="">
 
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
-                </p> */}
+            <div className="spectitleimgbox">
+              <div className="spectitleimgbox1">
+                <Image width={400} height={400} src="/ABMH-machinery/DaVinchiXRobot2.jpg" alt="img" />
+              </div>
+              <div className="spectitleimgbox2">
+
+                <p className="specilpara">
+                  Step into the forefront of advanced robotic surgery at Aditya Birla Memorial Hospital, where we take pride in harnessing the cutting-edge capabilities of the Da Vinci X robot to transform our approach to surgical procedures. The utilization of robotic surgery, facilitated by the state-of-the-art Da Vinci X system, signifies a groundbreaking leap in medical technology.
+                </p>
+                <p className="specilpara">
+                  Our proficient surgeons leverage this minimally invasive technique to execute intricate surgeries with unmatched precision, superior visualization, and decreased invasiveness compared to conventional methods.
+                </p>
+                <p className="specilpara">
+                  The Da Vinci X robot empowers surgeons by offering a magnified, high-definition 3D perspective of the surgical site, accompanied by robotic arms that replicate the surgeon's hand movements with exceptional dexterity. This innovation translates to minimized trauma to adjacent tissues, smaller incisions, swifter recovery periods, and heightened positive outcomes for our patients.
+                </p>
 
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="spectitleimgbox1">
+                <Image width={400} height={400} src="/ABMH-machinery/DaVinchiXRobot1.jpg" alt="Da Vinchi X Robot" />
+              </div>
+              <div className="spectitleimgbox2">
+                <div className="spectitle Specialtiesheadgr">
+                  <h2 className="spetileh2gr">Da Vinchi X Robot</h2>
+                  <span className="headbordergr" />
+                </div>
+
+                <p className="specilpara">
+
+                </p>
+
+              </div>
+            </div>
+
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
