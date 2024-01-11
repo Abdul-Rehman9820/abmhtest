@@ -323,12 +323,12 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="specdiv" />
-                  <div className="speforwhitbgCol2">
-                    {/* <h2>
-                      High blood pressure | Abnormally fast or slow heart rate |
-                      Dizziness or fainting.
-                    </h2> */}
-                  </div>
+                  {/* <div className="speforwhitbgCol2">
+                    <h2>
+                      Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Maxime Mollitia,molestiae Quas Vel. 
+                    </h2>
+                    <Link className='viewspehovebtn' href="">View Speciality</Link>
+                  </div> */}
                 </div>
               </div>
               <div className="speforcolchil">
@@ -344,12 +344,12 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="specdiv" />
-                  <div className="speforwhitbgCol2">
-                    {/* <h2>
+                  {/* <div className="speforwhitbgCol2">
+                    <h2>
                       Blood in the urine | Pain when you urinate | Frequent need to
                       urinate.
-                    </h2> */}
-                  </div>
+                    </h2>
+                  </div> */}
                 </div>
               </div>
               <div className="speforcolchil">
@@ -365,11 +365,11 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="specdiv" />
-                  <div className="speforwhitbgCol2">
-                    {/* <h2>
+                  {/* <div className="speforwhitbgCol2">
+                    <h2>
                       Muscle weakness | Poor coordination | Seizures | confusion
-                    </h2> */}
-                  </div>
+                    </h2>
+                  </div> */}
                 </div>
               </div>
               <div className="speforcolchil">
@@ -385,12 +385,12 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="specdiv" />
-                  <div className="speforwhitbgCol2">
-                    {/* <h2>
+                  {/* <div className="speforwhitbgCol2">
+                    <h2>
                       Losing weight without trying | Urinating often | Feeling tired
                       and weak.
-                    </h2> */}
-                  </div>
+                    </h2>
+                  </div> */}
                 </div>
               </div>
               <div className="speforcolchil">
@@ -406,12 +406,12 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="specdiv" />
-                  <div className="speforwhitbgCol2">
-                    {/* <h2>
+                  {/* <div className="speforwhitbgCol2">
+                    <h2>
                       Unusual abdominal or gas pains | Bloating | Constipation
                       and/or diarrhea
-                    </h2> */}
-                  </div>
+                    </h2>
+                  </div> */}
                 </div>
               </div>
               <div className="speforcolchil">
@@ -427,12 +427,12 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="specdiv" />
-                  <div className="speforwhitbgCol2">
-                    {/* <h2>
+                  {/* <div className="speforwhitbgCol2">
+                    <h2>
                       Diarrhea | Fever | Constipation | Cough | Teething Pain |
                       Gassiness
-                    </h2> */}
-                  </div>
+                    </h2>
+                  </div> */}
                 </div>
               </div>
 

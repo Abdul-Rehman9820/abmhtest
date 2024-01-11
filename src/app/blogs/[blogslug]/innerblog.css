@@ -67,6 +67,12 @@ span.read_more a {
     margin-top: 20px;
 }
 
+.blogremaingdata p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
 .singlebolgdata {
     margin-bottom: 40px;
 }
@@ -89,6 +95,9 @@ span.read_more a {
         font-size: 14px;
     }
     .blogremaingdata {
+        font-size: 14px;
+    }
+    .blogremaingdata p {
         font-size: 14px;
     }
 

@@ -16,7 +16,7 @@ const Accreditations = () => {
   useEffect(() => {
 
 
-    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+    // window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
 
@@ -251,6 +251,87 @@ const Accreditations = () => {
           </div>
         </div>
       </div>
+
+
+
+
+      {/*hide for approval*/}
+      {/* <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="AchiveandAcrre">
+            <div className="Specialtiespartbof">
+              <div className="Specialtiesheadbof">
+                <h1 className="oursepperbof">Awards - A tribute to team work and commitment</h1>
+                <span className="headborderbof" />
+              </div>
+            </div>
+
+            <div className="AchiveandAcrrepara mt-3 mb-2">
+
+
+              <div className="abmhAwardSlide">
+
+
+                <div
+                  id="carouselExampleIndicatorsAW"
+                  className="carousel slide carousel-fade"
+                >
+
+                  <div className="carousel-inner">
+
+
+                    <div className="carousel-item active">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/1-Award.png"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                        1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level Ohs&e Awards
+                        </div>
+                      </div>
+                    </div>
+
+
+                   </div>
+
+
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicatorsAW"
+                  data-bs-slide="prev"
+                >
+                  <span className="carousel-control-prev-icon" aria-hidden="true">
+                    <Image width={400} height={400} src="/aboutusimg/nextleft.png" alt="img" />
+                  </span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicatorsAW"
+                  data-bs-slide="next"
+                >
+                  <span className="carousel-control-next-icon" aria-hidden="true">
+                    <Image width={400} height={400} src="/aboutusimg/nextright.png" alt="img" />
+                  </span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div> */}
 
 
     </>

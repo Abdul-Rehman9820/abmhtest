@@ -214,6 +214,7 @@
 
 .speforwhitbg {
     border-radius: 7px;
+    position: relative;
 }
 
 .speforcolpar {
@@ -267,9 +268,31 @@ button.combtn a {
 
 
 .speforwhitbgCol2 {
-    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #a21b18;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.20s ease-in-out;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+.speforwhitbg:hover .speforwhitbgCol2{
+    opacity: 1;
+}
+.viewspehovebtn {
+    color: black;
+    font-size: 12px;
+    background: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
 .spefColiconCont {
     width: 85px !important;
     background: white;
@@ -286,7 +309,7 @@ button.combtn a {
 
 .speforwhitbgCol2 h2 {
     font-size: 17px;
-    color: #707070d9;
+    color: #ffffffd9;
     text-align: center;
     font-weight: 500;
 }
@@ -1947,6 +1970,15 @@ span.speciconn img {
 
     .homeh1{
         font-size: 12px;
+    }
+
+    .speforwhitbgCol2 {
+        position: relative;
+        top: 0;
+        height: auto;
+        background: unset;
+        padding: 0;
+        opacity: 1;
     }
 
 }
