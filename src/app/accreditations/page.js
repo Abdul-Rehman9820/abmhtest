@@ -230,13 +230,10 @@ const Accreditations = () => {
                 2. Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
               </p>
               <p>
-                3. Ahpi Award - Patient Friendly Hospital
+                3. AHPI Award - Patient Friendly Hospital
               </p>
               <p>
                 4. World Safety Organization - Digital India Contributor Award
-              </p>
-              <p>
-                5. World Safety Organization - Service Excellence Award
               </p>
               <p>
                 5. World Safety Organization - Service Excellence Award
@@ -256,6 +253,7 @@ const Accreditations = () => {
 
 
       {/*hide for approval*/}
+
       {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="AchiveandAcrre">
@@ -284,54 +282,114 @@ const Accreditations = () => {
                       <div className="abmhAwardSlidebox">
                         <Image width={400} height={400}
                           className="abmhAwardSlideimg"
-                          src="/aboutusimg/1-Award.png"
+                          src="/aboutusimg/AWARDS1.jpg"
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                        1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level Ohs&e Awards
+                          1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level Ohs&e Awards
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/AWARDS2.jpg"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                          2. Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/AWARDS3.jpg"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                          3. AHPI Award - Patient Friendly Hospital
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/AWARDS4.jpg"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                          4. World Safety Organization - Digital India Contributor Award
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/AWARDS5.jpg"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                          5. World Safety Organization - Service Excellence Award
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/AWARDS6.jpg"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                          6. Healthcare Award - Best Hospital: Obstetrics & Gynaecology(Obgyn)
                         </div>
                       </div>
                     </div>
 
 
-                   </div>
+                  </div>
 
 
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsAW"
-                  data-bs-slide="prev"
-                >
-                  <span className="carousel-control-prev-icon" aria-hidden="true">
-                    <Image width={400} height={400} src="/aboutusimg/nextleft.png" alt="img" />
-                  </span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicatorsAW"
-                  data-bs-slide="next"
-                >
-                  <span className="carousel-control-next-icon" aria-hidden="true">
-                    <Image width={400} height={400} src="/aboutusimg/nextright.png" alt="img" />
-                  </span>
-                  <span className="visually-hidden">Next</span>
-                </button>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicatorsAW"
+                    data-bs-slide="prev"
+                  >
+                    <span className="carousel-control-prev-icon" aria-hidden="true">
+                      <Image width={400} height={400} src="/aboutusimg/nextleft.png" alt="img" />
+                    </span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicatorsAW"
+                    data-bs-slide="next"
+                  >
+                    <span className="carousel-control-next-icon" aria-hidden="true">
+                      <Image width={400} height={400} src="/aboutusimg/nextright.png" alt="img" />
+                    </span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+
               </div>
 
 
             </div>
 
 
+
           </div>
-
-
-
         </div>
-      </div>
-    </div> */}
+      </div> */}
 
 
     </>

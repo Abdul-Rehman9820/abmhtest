@@ -230,8 +230,17 @@ span.headborderbof {
     .awarandaccimg {
         width: 100px;
     }
+    .abmhAwardSlideimg {
+        width: 100%;
+    }
+    .abmhAwardSlidehead{
+        font-size: 14px;
+    }
 
-
+    .abmhAwardSlidebox {
+        margin: 2px;
+        padding: 5px;
+    }
 
     /*! about us pg   end*/
 

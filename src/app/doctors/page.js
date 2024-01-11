@@ -268,7 +268,9 @@ const Doctors = () => {
     <>
 
 
-      <title>Find A Doctor - Aditya Birla Memorial Hospital</title>
+      <title>Book Your Appointment Today & Start Your Journey to Better Health at ABMH</title>
+      <meta name="description" content="" />
+      <link rel="canonical" href="https://adityabirlahospital.com/doctors" />
 
 
       {/* common heading div start*/}

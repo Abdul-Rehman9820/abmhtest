@@ -67,9 +67,10 @@ export default function Home() {
     <>
 
 
-      <title>Aditya Birla Hospital in Pune | Best Healthcare Services | Top Hospital in Pune</title>
-      <meta name="description" content="Experience exceptional healthcare at Aditya Birla Hospital, Pune - a leading healthcare facility offering top-notch medical services. Discover why we're the best hospital in Pune." />
-
+      <title>Best Multispecialty Hospital in Pune | Expert Maternity, Neurology, Knees</title>
+      <meta name="description" content="Get world-class healthcare near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement. Get back to your best & find relief." />
+      <link rel="canonical" href="https://adityabirlahospital.com" />
+      
       {/* slider*/}
       <div className="mainslider">
 
