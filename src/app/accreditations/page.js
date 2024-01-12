@@ -224,7 +224,7 @@ const Accreditations = () => {
             </div>
             <div className="AchiveandAcrrepara mt-3 mb-2">
               <p>
-                1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level Ohs&e Awards
+                1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level OHS&E Awards
               </p>
               <p>
                 2. Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
@@ -286,7 +286,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level Ohs&e Awards
+                          1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level OHS&E Awards
                         </div>
                       </div>
                     </div>

@@ -37,7 +37,7 @@ export async function POST(req, content) {
 
     const mailOptions = {
       from: '"New Enquiry From ABMH Second Opinion Form" <abmh_enquiry@mindframeindia.com>',
-      to: ['abmh_enquiry@mindframeindia.com','corporate.desk@adityabirla.com'],
+      to: ['abmh_enquiry@mindframeindia.com','healthcare@adityabirla.com'],
       subject: 'New Second Opinion Enquiry From ABMH',
       html: htmlContent,
       attachments: [

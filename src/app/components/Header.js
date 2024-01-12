@@ -94,7 +94,7 @@ const Header = () => {
                     setPhone('');
                     setUemail('');
                     setremarks('');
-                    setReport(null);
+                    // setReport(null);
 
                 } else {
                     setApiResponse('Something went wrong');
