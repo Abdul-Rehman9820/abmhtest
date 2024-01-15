@@ -215,6 +215,8 @@ const Header = () => {
                 href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200&display=swap"
                 rel="stylesheet"
             />
+            
+            <meta name="robots" content="index, follow" />
 
             {/* font awesome CSS */}
 

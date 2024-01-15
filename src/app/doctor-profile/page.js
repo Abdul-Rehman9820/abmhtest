@@ -116,14 +116,8 @@ const Doctorprofile = () => {
                   <div className="commonheadcontainer">
 
                     <title>{item.DoctorFName + " " + item.DoctorLName}</title>
-
-                    {/* <div className="breadcrumbs">
-
-                      <div className="breadcrumbsdata">
-                        <span><Link className='breadcrumbredirectback' href="/doctors">Doctors / </Link></span><span className="breadcrumbsactive">Dr {item.DoctorFName} {item.DoctorLName}</span>
-                      </div>
-
-                    </div> */}
+                    <meta name="description" content={item.DoctorFName + " " + item.DoctorLName} />
+                    <link rel="canonical" href={`/doctor-profile?doc=${item.DoctorNameSlug}`} />
 
                     <div className="doctrodatcont">
                       <div className="proimgsection">

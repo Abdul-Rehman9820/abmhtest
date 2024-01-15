@@ -268,7 +268,7 @@ const Doctors = () => {
     <>
 
 
-      <title>Get Expert Care, Fast: All Your Doctors in One Place at ABMH</title>
+      <title>Get Expert Care, Fast: Find Your Doctors in One Place at ABMH</title>
       <meta name="description" content="Experience expert care quickly at Aditya Birla Memorial Hospital. All your doctors in one place, ensuring comprehensive and efficient healthcare services at ABMH." />
       <link rel="canonical" href="https://adityabirlahospital.com/doctors" />
 
@@ -467,10 +467,10 @@ const Doctors = () => {
                           <div className="ourteamslideboxdr">
                             <div className="ourteambox1dr">
                               <div className="ourteamimgdr">
-                                <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt={"Dr "+ item.DoctorFName +""+ item.DoctorLName} />
+                                <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt={"Dr "+ item.DoctorFName +" "+ item.DoctorLName} />
                               </div>
                               <div className="ourteamnamedr">
-                                <h2>Dr {item.DoctorFName} {item.DoctorLName}</h2>
+                                <h2>Dr {item.DrFullName}</h2>
                               </div>
                               <div className="ourteamspecdr">
                                 <h2>{item.DoctorDesignation}</h2>

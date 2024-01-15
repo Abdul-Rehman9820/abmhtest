@@ -67,8 +67,8 @@ export default function Home() {
     <>
 
 
-      <title>Best Multispecialty Hospital in Pune | Expert Maternity, Neurology, Knees</title>
-      <meta name="description" content="Get world-class healthcare near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement. Get back to your best & find relief." />
+      <title>Best Multispeciality Hospital in Pune | Expert Maternity, Neurology, Knees</title>
+      <meta name="description" content="Best Multispeciality Hospital near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement. Get back to your best & find relief." />
       <link rel="canonical" href="https://adityabirlahospital.com" />
       
       {/* slider*/}
