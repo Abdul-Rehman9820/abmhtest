@@ -248,18 +248,6 @@ const Dentistry = () => {
 
               </div>
             </div>
-
-
-          </div>
-        </div>
-      </div>
-
-
-      {/*hide for approval*/}
-      {/* <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-
             <div className="spectitleimgbox">
               <div className="">
 
@@ -282,7 +270,8 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
+
 
 
       {/* specialties end*/}

@@ -319,7 +319,7 @@ const Accidentandemergency = () => {
       {/* sub specialties end*/}
 
 
-      <div className="parentcontainerwhi">
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
             <div className="spectitleimgbox">
@@ -333,11 +333,11 @@ const Accidentandemergency = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
      {/* hide for approval*/}
 
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
             <div className="spectitleimgbox">
@@ -351,7 +351,7 @@ const Accidentandemergency = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
 
 

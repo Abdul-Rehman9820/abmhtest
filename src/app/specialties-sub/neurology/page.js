@@ -232,7 +232,7 @@ const Dentistry = () => {
 
 
 
-      <div className="parentcontainerwhi">
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -252,12 +252,12 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* hide for approval*/}
 
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -268,7 +268,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                  The Neurology Department at Aditya Birla Memorial Hospital brings together a team of specialists in neurology, neuropsychology, and psychiatry dedicated to diagnosing and treating intricate neurological issues. We boast an extensive clinical background in addressing a wide spectrum of neurological conditions, including strokes, brain traumas, epilepsy, Parkinson's disease, multiple sclerosis, and neck and spine disorders.
+                  The Neurology Department at Aditya Birla Memorial Hospital brings together a team of specialists in neurology, neuropsychology, and psychiatry dedicated to diagnosing and treating intricate neurological issues. We boast an extensive clinical background in addressing a wide spectrum of neurological conditions, including strokes, brain traumas, epilepsy, Parkinson&apos;s disease, multiple sclerosis, and neck and spine disorders.
                 </p>
                 <p className="specilpara">
                   Utilizing state-of-the-art diagnostics and cutting-edge treatment options, our experts have a proven track record of delivering healthcare solutions to restore the intricate organ that is the brain, enabling patients to reclaim the life they cherish. Collaborating closely with other departments within the hospital, our neurologists aim to deliver comprehensive and personalized care, emphasizing patient education and support throughout their healthcare journey.
@@ -311,7 +311,7 @@ const Dentistry = () => {
                   </div>
 
                   <p className="specilpara">
-                    A CT scan, or computed tomography scan, uses X-rays to create detailed cross-sectional images of the body's interior. It aids in diagnosing and treating various medical conditions by providing comprehensive views of bones, organs, and tissues.
+                    A CT scan, or computed tomography scan, uses X-rays to create detailed cross-sectional images of the body&apos;s interior. It aids in diagnosing and treating various medical conditions by providing comprehensive views of bones, organs, and tissues.
                   </p>
 
                 </div>
@@ -328,7 +328,7 @@ const Dentistry = () => {
                   </div>
 
                   <p className="specilpara">
-                    MRI, or magnetic resonance imaging, utilizes strong magnets and radio waves to produce detailed images of internal body structures. It's crucial for diagnosing and assessing medical conditions, offering high-resolution views of organs and tissues.
+                    MRI, or magnetic resonance imaging, utilizes strong magnets and radio waves to produce detailed images of internal body structures. It&apos;s crucial for diagnosing and assessing medical conditions, offering high-resolution views of organs and tissues.
                   </p>
 
                 </div>
@@ -348,19 +348,19 @@ const Dentistry = () => {
                   <b>Chronic Headache:</b> Chronic headaches are persistent, recurring head pain that happens 15 or more days a month for at least three consecutive months. They encompass different types, such as tension-type headaches, migraines, and cluster headaches, each requiring specific management.
                 </p>
                 <p className="specilpara">
-                  <b>Dementia:</b> The assessment, identification, and treatment of individuals experiencing memory-related conditions such as Alzheimer's and dementia.
+                  <b>Dementia:</b> The assessment, identification, and treatment of individuals experiencing memory-related conditions such as Alzheimer&apos;s and dementia.
                 </p>
                 <p className="specilpara">
-                  <b>Parkinson's and Movement Disorders:</b> Parkinson's disease is a neurological disorder causing tremors, stiffness, and challenges in walking, balance, and coordination. Symptoms typically emerge gradually and worsen as the condition advances. Individuals may face increasing difficulties with both mobility and speech as the disease progresses.
+                  <b>Parkinson&apos;s and Movement Disorders:</b> Parkinson&apos;s disease is a neurological disorder causing tremors, stiffness, and challenges in walking, balance, and coordination. Symptoms typically emerge gradually and worsen as the condition advances. Individuals may face increasing difficulties with both mobility and speech as the disease progresses.
                 </p>
                 <p className="specilpara">
-                  <b>Multiple Sclerosis:</b> Multiple sclerosis (MS) is a chronic autoimmune disease affecting the central nervous system. It occurs when the immune system attacks the protective myelin covering nerve fibers, leading to diverse symptoms such as fatigue, numbness, and vision problems. While there's no cure, treatment options aim to manage symptoms and improve quality of life.
+                  <b>Multiple Sclerosis:</b> Multiple sclerosis (MS) is a chronic autoimmune disease affecting the central nervous system. It occurs when the immune system attacks the protective myelin covering nerve fibers, leading to diverse symptoms such as fatigue, numbness, and vision problems. While there&apos;s no cure, treatment options aim to manage symptoms and improve quality of life.
                 </p>
                 <p className="specilpara">
                   <b>Seizers & Epilepsy:</b>  A seizure is an abrupt, uncontrolled electrical disturbance in the brain, causing symptoms like convulsions. Epilepsy is a neurological disorder marked by recurrent seizures, managed with treatments like medication. The most advanced treatments for those suffering from disorders such as seizures and epilepsy for both adults and children
                 </p>
                 <p className="specilpara">
-                  <b>Alzheimer:</b> is a progressive disorder that causes brain cells to waste away (degenerate) and die. Alzheimer's disease is the most common cause of dementia — a continuous decline in thinking, behavioural and social skills that disrupts a person's ability to function independently.
+                  <b>Alzheimer:</b> is a progressive disorder that causes brain cells to waste away (degenerate) and die. Alzheimer&apos;s disease is the most common cause of dementia — a continuous decline in thinking, behavioural and social skills that disrupts a person&apos;s ability to function independently.
                 </p>
                 <p className="specilpara">
                   <b>Stroke:</b> Efficient care and surgical procedures for the treatment and recovery of medical emergencies, such as strokes.
@@ -390,7 +390,7 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
 

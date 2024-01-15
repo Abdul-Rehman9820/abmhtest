@@ -232,38 +232,11 @@ const Dentistry = () => {
 
 
 
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-          
-            <div className="spectitleimgbox">
-              <div className="">
-                <div className="spectitle Specialtiesheadgr">
-                  <h1 className="spetileh2gr">Oncology</h1>
-                  <span className="headbordergr" />
-                </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-
 
 
 
    {/*hide for approval*/}
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
           
@@ -312,7 +285,7 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* specialties end*/}

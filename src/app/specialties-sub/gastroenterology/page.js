@@ -230,35 +230,9 @@ const Dentistry = () => {
 
 
 
-
-
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-
-            <div className="spectitleimgbox">
-              <div className="">
-                <div className="spectitle Specialtiesheadgr">
-                  <h1 className="spetileh2gr">Gastroenterology</h1>
-                  <span className="headbordergr" />
-                </div>
-                <p className="specilpara">
-                  Gastroenterology services encompass the diagnosis and treatment of disorders affecting the digestive system. Our experienced gastroenterologists employ a range of diagnostic procedures and therapeutic interventions to ensure optimal gastrointestinal health.
-                </p>
-
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-
-
-
       {/* hide for apporval*/}
 
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -343,7 +317,7 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* specialties end*/}

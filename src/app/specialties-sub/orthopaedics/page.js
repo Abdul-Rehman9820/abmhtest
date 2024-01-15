@@ -230,35 +230,9 @@ const Dentistry = () => {
 
 
 
-
-
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-
-            <div className="spectitleimgbox">
-              <div className="">
-                <div className="spectitle Specialtiesheadgr">
-                  <h1 className="spetileh2gr">Orthopaedics</h1>
-                  <span className="headbordergr" />
-                </div>
-                <p className="specilpara">
-                  Orthopaedics at our hospital offers a wide spectrum of services, including surgical and non-surgical interventions for various musculoskeletal conditions. Our expert orthopedic team ensures personalized and effective treatment plans, promoting optimal recovery for patients.
-                </p>
-
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-
-
-
       {/* hide for apporval */}
 
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -335,7 +309,7 @@ const Dentistry = () => {
                 <b>Achilles Tendon Repair:</b> Surgical procedure to address a ruptured or damaged Achilles tendon, restoring strength and function.
                 </p>
                 <p className="specilpara">
-                <b>Limb-Sparing Surgery for Bone Tumors:</b> Surgical removal of bone tumors while preserving the limb's function and appearance.
+                <b>Limb-Sparing Surgery for Bone Tumors:</b> Surgical removal of bone tumors while preserving the limb&apos;s function and appearance.
                 </p>
                 <p className="specilpara">
                 <b>Soft Tissue Sarcoma Resection:</b> Surgical removal of soft tissue sarcomas, often followed by reconstructive procedures to restore function and aesthetics.
@@ -348,7 +322,7 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* specialties end*/}

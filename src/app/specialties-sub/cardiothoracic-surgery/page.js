@@ -232,7 +232,7 @@ const Dentistry = () => {
 
 
 
-      <div className="parentcontainerwhi">
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -252,11 +252,11 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/*Hide for approval*/}
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -309,7 +309,7 @@ const Dentistry = () => {
                   <b>Minimally Invasive Cardiac Surgery:</b> Performing cardiac surgeries through small incisions, reducing trauma.blood loss and promoting quicker recovery in terms of quality of life.
                 </p>
                 <p className="specilpara">
-                  <b>Septal Defect Closure:</b> Closing holes in the heart's septum (walls) using devices or surgical interventions esp. ASD and VSD
+                  <b>Septal Defect Closure:</b> Closing holes in the heart&apos;s septum (walls) using devices or surgical interventions esp. ASD and VSD
                 </p>
                 <p className="specilpara">
                   <b>Fontan Procedure/B D Glenn/ BT shunt/ ICR/Sennings procedure etc:</b> A surgical procedure to redirect blood flow in individuals with simple and complex congenital heart defects.
@@ -343,7 +343,7 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* specialties end*/}

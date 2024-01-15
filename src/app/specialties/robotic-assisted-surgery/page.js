@@ -313,7 +313,7 @@ const Accidentandemergency = () => {
 
       {/*hide for approval*/}
 
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -330,14 +330,14 @@ const Accidentandemergency = () => {
                   Our proficient surgeons leverage this minimally invasive technique to execute intricate surgeries with unmatched precision, superior visualization, and decreased invasiveness compared to conventional methods.
                 </p>
                 <p className="specilpara">
-                  The Da Vinci X robot empowers surgeons by offering a magnified, high-definition 3D perspective of the surgical site, accompanied by robotic arms that replicate the surgeon's hand movements with exceptional dexterity. This innovation translates to minimized trauma to adjacent tissues, smaller incisions, swifter recovery periods, and heightened positive outcomes for our patients.
+                  The Da Vinci X robot empowers surgeons by offering a magnified, high-definition 3D perspective of the surgical site, accompanied by robotic arms that replicate the surgeon&apos;s hand movements with exceptional dexterity. This innovation translates to minimized trauma to adjacent tissues, smaller incisions, swifter recovery periods, and heightened positive outcomes for our patients.
                 </p>
 
               </div>
             </div>
 
 
-            <div className="spectitleimgbox mt-3">
+            {/* <div className="spectitleimgbox mt-3">
 
               <div className="spectitleimgbox1">
                 <Image width={400} height={400} src="/ABMH-machinery/DaVinchiXRobot1.jpg" alt="Da Vinchi X Robot" />
@@ -353,11 +353,11 @@ const Accidentandemergency = () => {
                 </p>
 
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
 

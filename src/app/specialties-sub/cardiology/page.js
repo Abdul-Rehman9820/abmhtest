@@ -232,7 +232,7 @@ const Dentistry = () => {
 
 
 
-      <div className="parentcontainerwhi">
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -252,12 +252,12 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
       {/*Hide for approval*/}
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
 
@@ -297,7 +297,7 @@ const Dentistry = () => {
                     </div>
 
                     <p className="specilpara">
-
+                      Experience the future of interventional medicine in our Flat Panel Cath Lab, equipped with a cutting-edge 55-inch flat panel display for unparalleled visualization. Our commitment to superior imaging is evident with Stent Boost Technology, enhancing precision in stent placement and providing clinicians with enhanced clarity during procedures.
                     </p>
 
                   </div>
@@ -341,7 +341,7 @@ const Dentistry = () => {
                   <b>Electrophysiology Studies (EP study) and Ablation:</b> Procedures to diagnose and treat abnormal heart rhythms, often involving the use of catheters and radiofrequency energy.
                 </p>
                 <p className="specilpara">
-                  <b>Pacemaker Implantation:</b> Surgical placement of a pacemaker to regulate and support the heart's electrical activity, ensuring proper heart rhythm.
+                  <b>Pacemaker Implantation:</b> Surgical placement of a pacemaker to regulate and support the heart&apos;s electrical activity, ensuring proper heart rhythm.
                 </p>
                 <p className="specilpara">
                   <b>Cardiac Resynchronization Therapy (CRT):</b> A treatment involving the implantation of devices to improve the coordination of heart contractions in patients with heart failure.
@@ -368,10 +368,10 @@ const Dentistry = () => {
                   <b>Electrocardiography (ECG or EKG):</b> Recording the electrical activity of the heart to evaluate heart rhythm and identify abnormalities.
                 </p>
                 <p className="specilpara">
-                  <b>Holter Monitoring:</b> Continuous monitoring of the heart's electrical activity over 24 to 48 hours, aiding in the diagnosis of intermittent issues.
+                  <b>Holter Monitoring:</b> Continuous monitoring of the heart&apos;s electrical activity over 24 to 48 hours, aiding in the diagnosis of intermittent issues.
                 </p>
                 <p className="specilpara">
-                  <b>Exercise Stress Testing:</b> Evaluating the heart's response to physical activity to identify any abnormalities or exercise-induced issues.
+                  <b>Exercise Stress Testing:</b> Evaluating the heart&apos;s response to physical activity to identify any abnormalities or exercise-induced issues.
                 </p>
                 <p className="specilpara">
                   <b>Dobutamine Stress Echocardiography (DSE):</b> Facility for patients who cannot physically exert due to skeletal ailment in routine stress test.
@@ -396,7 +396,7 @@ const Dentistry = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* specialties end*/}
