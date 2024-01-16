@@ -214,7 +214,6 @@
 
 .speforwhitbg {
     border-radius: 7px;
-    position: relative;
 }
 
 .speforcolpar {
@@ -238,6 +237,7 @@
 .speforcolchil {
     margin-top: 45px;
     background: white;
+    position: relative;
     width: 31%;
     padding: 20px 27px;
     border-radius: 10px;
@@ -270,6 +270,7 @@ button.combtn a {
 .speforwhitbgCol2 {
     position: absolute;
     top: 0;
+    left: 0;
     height: 100%;
     background: #ffffff;
     border: 1px solid #00000026;
