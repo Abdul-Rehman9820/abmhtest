@@ -290,7 +290,7 @@ const Accidentandemergency = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="testimgboxcont">
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/urology">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -299,7 +299,7 @@ const Accidentandemergency = () => {
                       <p className="testimgtitle">Urology</p>
                     </div>
                   </Link>
-                </div>
+                </div> */}
 
 
 

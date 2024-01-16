@@ -213,7 +213,7 @@ const Accreditations = () => {
       </div>
 
 
-      <div className="parentcontainerwhi">
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="AchiveandAcrre">
             <div className="Specialtiespartbof">
@@ -247,14 +247,14 @@ const Accreditations = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
 
       {/*hide for approval*/}
 
-      {/* <div className="parentcontainerwhi">
+      <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="AchiveandAcrre">
             <div className="Specialtiespartbof">
@@ -389,7 +389,7 @@ const Accreditations = () => {
 
           </div>
         </div>
-      </div> */}
+      </div>
 
 
     </>

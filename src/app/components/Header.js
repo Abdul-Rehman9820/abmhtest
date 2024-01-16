@@ -56,6 +56,13 @@ const Header = () => {
     const handleSubmitheader = async (event) => {
         event.preventDefault();
 
+
+        var Secendsubmitbtb = document.getElementById('Secendsubmitbtb');
+
+        Secendsubmitbtb.disabled = true ; 
+
+
+
         console.log(uname);
         console.log(uphone);
         console.log(uemail);
@@ -83,6 +90,9 @@ const Header = () => {
 
             if (!response.ok) {
                 setApiResponse('Something went wrong');
+
+                Secendsubmitbtb.disabled = false ; 
+
             } else {
                 const result = await response.json();
                 console.log(result);
@@ -96,13 +106,19 @@ const Header = () => {
                     setremarks('');
                     // setReport(null);
 
+                    Secendsubmitbtb.disabled = false ; 
+
                 } else {
                     setApiResponse('Something went wrong');
+
+                    Secendsubmitbtb.disabled = false ; 
                 }
             }
         } catch (error) {
             console.error('Error submitting form:', error);
             setApiResponse('Something went wrong');
+
+            Secendsubmitbtb.disabled = false ; 
         }
 
 
@@ -425,7 +441,7 @@ const Header = () => {
                                         />
                                     </div>
 
-                                    <button type="submit" className="contact_Second_Opinion_submit">Submit</button>
+                                    <button type="submit" id='Secendsubmitbtb' className="contact_Second_Opinion_submit">Submit</button>
 
                                 </form>
 

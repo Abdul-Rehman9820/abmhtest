@@ -238,7 +238,7 @@ const Andrologyandsexualmedicine = () => {
 
 
 
-                <div className="testimgboxcont">
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/cath-lab">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -247,8 +247,8 @@ const Andrologyandsexualmedicine = () => {
                       <p className="testimgtitle">Cath Lab</p>
                     </div>
                   </Link>
-                </div>
-                <div className="testimgboxcont">
+                </div> */}
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/electrophysiology-&-ablation">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -257,7 +257,7 @@ const Andrologyandsexualmedicine = () => {
                       <p className="testimgtitle">Electrophysiology & Ablation</p>
                     </div>
                   </Link>
-                </div>
+                </div> */}
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/cardiology">
                     <div className="testimgboxcot1">
@@ -278,7 +278,7 @@ const Andrologyandsexualmedicine = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="testimgboxcont">
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-cardiothoracic-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -287,8 +287,8 @@ const Andrologyandsexualmedicine = () => {
                       <p className="testimgtitle">Paediatric Cardiothoracic Surgery</p>
                     </div>
                   </Link>
-                </div>
-                <div className="testimgboxcont">
+                </div> */}
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-cardiologist">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -297,8 +297,8 @@ const Andrologyandsexualmedicine = () => {
                       <p className="testimgtitle">Paediatric Cardiologist</p>
                     </div>
                   </Link>
-                </div>
-                <div className="testimgboxcont">
+                </div> */}
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/non-invasive-lab">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -307,7 +307,7 @@ const Andrologyandsexualmedicine = () => {
                       <p className="testimgtitle">Non-Invasive Lab</p>
                     </div>
                   </Link>
-                </div>
+                </div> */}
 
 
 

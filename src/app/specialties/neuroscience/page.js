@@ -238,7 +238,7 @@ const Accidentandemergency = () => {
 
 
 
-                <div className="testimgboxcont">
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/epilepsy-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -247,8 +247,8 @@ const Accidentandemergency = () => {
                       <p className="testimgtitle">Epilepsy Surgery</p>
                     </div>
                   </Link>
-                </div>
-                <div className="testimgboxcont">
+                </div> */}
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/neuro-rehab">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -257,7 +257,7 @@ const Accidentandemergency = () => {
                       <p className="testimgtitle">Neuro Rehab</p>
                     </div>
                   </Link>
-                </div>
+                </div> */}
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/neurology">
                     <div className="testimgboxcot1">
@@ -268,7 +268,7 @@ const Accidentandemergency = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="testimgboxcont">
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/stroke">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -277,7 +277,7 @@ const Accidentandemergency = () => {
                       <p className="testimgtitle">Stroke</p>
                     </div>
                   </Link>
-                </div>
+                </div> */}
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/neurosurgery">
                     <div className="testimgboxcot1">
@@ -288,7 +288,7 @@ const Accidentandemergency = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="testimgboxcont">
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/spine-surgery">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -297,8 +297,8 @@ const Accidentandemergency = () => {
                       <p className="testimgtitle">Spine Surgery</p>
                     </div>
                   </Link>
-                </div>
-                <div className="testimgboxcont">
+                </div> */}
+                {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/neuroradiology">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
@@ -307,7 +307,7 @@ const Accidentandemergency = () => {
                       <p className="testimgtitle">Neuroradiology</p>
                     </div>
                   </Link>
-                </div>
+                </div> */}
 
 
 

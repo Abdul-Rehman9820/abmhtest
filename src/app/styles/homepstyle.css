@@ -271,7 +271,8 @@ button.combtn a {
     position: absolute;
     top: 0;
     height: 100%;
-    background: #a21b18;
+    background: #ffffff;
+    border: 1px solid #00000026;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -287,9 +288,9 @@ button.combtn a {
     opacity: 1;
 }
 .viewspehovebtn {
-    color: black;
+    color: white;
     font-size: 12px;
-    background: white;
+    background: #a21b18;
     padding: 2px 8px;
     border-radius: 5px;
 }
@@ -309,7 +310,7 @@ button.combtn a {
 
 .speforwhitbgCol2 h2 {
     font-size: 17px;
-    color: #ffffffd9;
+    color: #000000d9;
     text-align: center;
     font-weight: 500;
 }
@@ -1979,6 +1980,7 @@ span.speciconn img {
         background: unset;
         padding: 0;
         opacity: 1;
+        border: none;
     }
 
 }
