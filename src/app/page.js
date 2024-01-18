@@ -70,7 +70,7 @@ export default function Home() {
       <title>Best Multispeciality Hospital in Pune | Expert Maternity, Neurology, Knees</title>
       <meta name="description" content="Best Multispeciality Hospital near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement. Get back to your best & find relief." />
       <link rel="canonical" href="https://adityabirlahospital.com" />
-      
+
       {/* slider*/}
       <div className="mainslider">
 
@@ -160,7 +160,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-  
+
 
             </div>
 
@@ -596,7 +596,7 @@ export default function Home() {
                               <h2>Associate Director Neuro Surgery</h2>
                             </div>
                             <div className="ourteamexpi">
-                               {/* <h2>ABMH Doctors</h2> */}
+                              {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -615,13 +615,13 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-nikhil-parwate.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Nikhil Parwate</h2>
+                              <h2>Dr Nikhil Sadanand Parwate</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Consultant - Gynae Onco Surgeon</h2>
                             </div>
                             <div className="ourteamexpi">
-                               {/* <h2>ABMH Doctors</h2> */}
+                              {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -637,51 +637,16 @@ export default function Home() {
                         <div className="ourteamslidebox">
                           <div className="ourteambox1">
                             <div className="ourteamimg">
-                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajiv-sethi.jpg" alt="img" />
-                            </div>
-                            <div className="ourteamname">
-                              <h2>Dr Rajiv Bundashah Sethi</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>Sr. Consultant Interventional Cardiology</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                               {/* <h2>ABMH Doctors</h2> */}
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajiv-bundashah-sethi">
-                                View Profile
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-
-                  <div className="carousel-item ">
-
-                    <div className="mynewslidesforDoctor">
-
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-j-c-purohit.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
                               <h2>Dr Jagdish Chander Purohit</h2>
                             </div>
                             <div className="ourteamspec">
-                              <h2>Director</h2>
+                              <h2>Director Orthopaedics</h2>
                             </div>
                             <div className="ourteamexpi">
-                               {/* <h2>ABMH Doctors</h2> */}
+                              {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -693,6 +658,18 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+
+
+                    </div>
+
+                  </div>
+
+
+                  <div className="carousel-item ">
+
+                    <div className="mynewslidesforDoctor">
+
+
                       <div className="ourteamslidchilbo">
                         <div className="ourteamslidebox">
                           <div className="ourteambox1">
@@ -706,7 +683,7 @@ export default function Home() {
                               <h2>Gastroenterologist</h2>
                             </div>
                             <div className="ourteamexpi">
-                               {/* <h2>ABMH Doctors</h2> */}
+                              {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
@@ -731,12 +708,37 @@ export default function Home() {
                               <h2>Associate Director Neonatologist & Pediatric</h2>
                             </div>
                             <div className="ourteamexpi">
-                               {/* <h2>ABMH Doctors</h2> */}
+                              {/* <h2>ABMH Doctors</h2> */}
                             </div>
                           </div>
                           <div className="ourteambox2">
                             <div className="ourteambox2flex">
                               <Link className="bookappoteam" href="/doctor-profile?doc=dr-rahul-suresh-kallianpur">
+                                View Profile
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajiv-sethi.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr Rajiv Bundashah Sethi</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Sr. Consultant Interventional Cardiology</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              {/* <h2>ABMH Doctors</h2> */}
+                            </div>
+                          </div>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajiv-bundashah-sethi">
                                 View Profile
                               </Link>
                             </div>
