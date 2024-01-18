@@ -476,8 +476,12 @@ span.headborder {
     margin-right: 10px;
 }
 
-.ourteambox1 {
+/* .ourteambox1 {
     padding: 10px 70px;
+} */
+.ourteambox1 {
+    padding: 10px 20px;
+    margin: auto;
 }
 
 .headandview {
