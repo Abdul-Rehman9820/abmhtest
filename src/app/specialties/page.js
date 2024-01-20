@@ -104,6 +104,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Accident-&-Emergency.jpg"
                                   alt="img"
+                                  // loading="lazy"
+                                  // blurDataURL="/homeimg/abmhmainlogo.png"             
+                                  // placeholder="blur"
                                 />
                               </div>
                             </Link>
