@@ -75,7 +75,9 @@ const Accreditations = () => {
                 id="carouselExampleIndicators61"
                 className="carousel slide carousel-fade"
               >
-                <div className="carousel-indicators">
+
+                {/* <div className="carousel-indicators">
+
                   <button
                     type="button"
                     data-bs-target="#carouselExampleIndicators61"
@@ -97,7 +99,9 @@ const Accreditations = () => {
                     aria-label="Slide 3"
                   ></button>
 
-                </div>
+                </div> */}
+
+
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <div className="awarsliderbox">
@@ -138,7 +142,7 @@ const Accreditations = () => {
                     </div>
                   </div>
 
-                  <div className="carousel-item ">
+                  {/* <div className="carousel-item ">
                     <div className="awarsliderbox">
                       <Image width={400} height={400}
                         className="awarandaccimg"
@@ -171,14 +175,12 @@ const Accreditations = () => {
                         </div>
                       </div>
 
-
-
                       <button className="accredreadmorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Read More
                       </button>
 
                     </div>
-                  </div>
+                  </div> */}
 
 
 
@@ -211,43 +213,6 @@ const Accreditations = () => {
           </div>
         </div>
       </div>
-
-
-      {/* <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="AchiveandAcrre">
-            <div className="Specialtiespartbof">
-              <div className="Specialtiesheadbof">
-                <h1 className="oursepperbof">Awards - A tribute to team work and commitment</h1>
-                <span className="headborderbof" />
-              </div>
-            </div>
-            <div className="AchiveandAcrrepara mt-3 mb-2">
-              <p>
-                1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level OHS&E Awards
-              </p>
-              <p>
-                2. Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
-              </p>
-              <p>
-                3. AHPI Award - Patient Friendly Hospital
-              </p>
-              <p>
-                4. World Safety Organization - Digital India Contributor Award
-              </p>
-              <p>
-                5. World Safety Organization - Service Excellence Award
-              </p>
-              <p>
-                6. Healthcare Award - Best Hospital: Obstetrics & Gynaecology(Obgyn)
-              </p>
-            </div>
-
-
-
-          </div>
-        </div>
-      </div> */}
 
 
 

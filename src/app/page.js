@@ -66,9 +66,9 @@ export default function Home() {
 
     <>
 
-
-      <title>Best Multispeciality Hospital in Pune | Expert Maternity, Neurology, Knees</title>
-      <meta name="description" content="Best Multispeciality Hospital near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement. Get back to your best & find relief." />
+    
+      <title>Best Multispeciality Hospital in Pune | Expert Maternity, Neurology</title>
+      <meta name="description" content="Best Multispeciality Hospital near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement." />
       <link rel="canonical" href="https://adityabirlahospital.com" />
 
       {/* slider*/}
@@ -587,6 +587,31 @@ export default function Home() {
                         <div className="ourteamslidebox">
                           <div className="ourteambox1">
                             <div className="ourteamimg">
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajiv-sethi.jpg" alt="img" />
+                            </div>
+                            <div className="ourteamname">
+                              <h2>Dr Rajiv Bundashah Sethi</h2>
+                            </div>
+                            <div className="ourteamspec">
+                              <h2>Sr. Consultant Interventional Cardiology</h2>
+                            </div>
+                            <div className="ourteamexpi">
+                              {/* <h2>ABMH Doctors</h2> */}
+                            </div>
+                          </div>
+                          <div className="ourteambox2">
+                            <div className="ourteambox2flex">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajiv-bundashah-sethi">
+                                View Profile
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="ourteamslidchilbo">
+                        <div className="ourteamslidebox">
+                          <div className="ourteambox1">
+                            <div className="ourteamimg">
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-rakesh-ranjan.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
@@ -633,6 +658,16 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+
+                    </div>
+
+                  </div>
+
+
+                  <div className="carousel-item ">
+
+                    <div className="mynewslidesforDoctor">
+
                       <div className="ourteamslidchilbo">
                         <div className="ourteamslidebox">
                           <div className="ourteambox1">
@@ -658,18 +693,6 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-
-
-                    </div>
-
-                  </div>
-
-
-                  <div className="carousel-item ">
-
-                    <div className="mynewslidesforDoctor">
-
-
                       <div className="ourteamslidchilbo">
                         <div className="ourteamslidebox">
                           <div className="ourteambox1">
@@ -720,31 +743,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="ourteamslidchilbo">
-                        <div className="ourteamslidebox">
-                          <div className="ourteambox1">
-                            <div className="ourteamimg">
-                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajiv-sethi.jpg" alt="img" />
-                            </div>
-                            <div className="ourteamname">
-                              <h2>Dr Rajiv Bundashah Sethi</h2>
-                            </div>
-                            <div className="ourteamspec">
-                              <h2>Sr. Consultant Interventional Cardiology</h2>
-                            </div>
-                            <div className="ourteamexpi">
-                              {/* <h2>ABMH Doctors</h2> */}
-                            </div>
-                          </div>
-                          <div className="ourteambox2">
-                            <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-rajiv-bundashah-sethi">
-                                View Profile
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+
 
                     </div>
 

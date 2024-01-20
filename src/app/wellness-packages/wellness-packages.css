@@ -277,14 +277,13 @@ span.labspecicon img {
 }
 
 .homwcareparacol1 {
-    width: 50%;
-    padding-right: 100px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
 .homwcareparacol2 {
-    width: 50%;
+    width: 100%;
 }
 .homwcareparadata {
     color: black;
@@ -319,6 +318,7 @@ span.homwcarespecicon img {
 }
 .homwcareparacol2img1 {
     position: relative;
+    width: 19%;
 }
 .homwcarechoimgbox2 {
     position: absolute;
@@ -335,10 +335,11 @@ span.homwcarespecicon img {
 }
 
 .homecartwoimgcol1 {
-    width: 48%;
-}
-.homecartwoimgcol2 {
-    width: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .homwcareparacol2img1 img {
@@ -438,8 +439,17 @@ span.homwcarespecicon img {
     width: 100%;
     margin-top: 30px;
 }
-
-
+.homecartwoimgcol1 {
+    justify-content: start;
+}
+.homwcareparacol2img1 {
+    width: 32%;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+.homwcarechocombtn a {
+    font-size: 16px;
+}
 
 /*! wellness page  end*/
 
@@ -482,7 +492,6 @@ span.homwcarespecicon img {
 }
 .homwcareparacol2 {
     width: 100%;
-    margin-top: 30px;
 }
 .homwcarechocombtn a {
     font-size: 10px;
@@ -504,6 +513,11 @@ span.homwcarespecicon img {
 }
 .labchocombtn a {
     font-size: 13px;
+}
+
+.homwcareparacol2img1 {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 

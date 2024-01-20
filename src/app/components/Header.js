@@ -59,7 +59,7 @@ const Header = () => {
 
         var Secendsubmitbtb = document.getElementById('Secendsubmitbtb');
 
-        Secendsubmitbtb.disabled = true ; 
+        Secendsubmitbtb.disabled = true;
 
 
 
@@ -91,7 +91,7 @@ const Header = () => {
             if (!response.ok) {
                 setApiResponse('Something went wrong');
 
-                Secendsubmitbtb.disabled = false ; 
+                Secendsubmitbtb.disabled = false;
 
             } else {
                 const result = await response.json();
@@ -106,19 +106,19 @@ const Header = () => {
                     setremarks('');
                     // setReport(null);
 
-                    Secendsubmitbtb.disabled = false ; 
+                    Secendsubmitbtb.disabled = false;
 
                 } else {
                     setApiResponse('Something went wrong');
 
-                    Secendsubmitbtb.disabled = false ; 
+                    Secendsubmitbtb.disabled = false;
                 }
             }
         } catch (error) {
             console.error('Error submitting form:', error);
             setApiResponse('Something went wrong');
 
-            Secendsubmitbtb.disabled = false ; 
+            Secendsubmitbtb.disabled = false;
         }
 
 
@@ -231,7 +231,7 @@ const Header = () => {
                 href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200&display=swap"
                 rel="stylesheet"
             />
-            
+
             <meta name="robots" content="index, follow" />
 
             {/* font awesome CSS */}
@@ -275,21 +275,53 @@ const Header = () => {
             </Script>
 
             <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-NN6BWND"
-              height="0"
-              width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
-            ></iframe>
-           </noscript>
+                <iframe
+                    src="https://www.googletagmanager.com/ns.html?id=GTM-NN6BWND"
+                    height="0"
+                    width="0"
+                    style={{ display: 'none', visibility: 'hidden' }}
+                ></iframe>
+            </noscript>
 
             {/* google tag manager */}
 
 
 
-         
+            {/* SEO schema by sheshant */}
+            <Script type="application/ld+json" id="show-banner33">
+                {`
+                            
+                     {
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "Aditya Birla Memorial Hospital",
+                        "alternateName": "ABMH",
+                        "url": "https://adityabirlahospital.com/",
+                        "logo": "https://adityabirlahospital.com/_next/image?url=%2Fhomeimg%2Fabmhmainlogo.png&w=1080&q=75",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+91 9881123033",
+                            "contactType": "emergency",
+                            "contactOption": "HearingImpairedSupported",
+                            "areaServed": "IN",
+                            "availableLanguage": "en"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/ABMHPune",
+                            "https://twitter.com/abmhpune_",
+                            "https://www.instagram.com/aditya_birla_memorial_hospital",
+                            "https://www.youtube.com/channel/UCXVvGvIc-xT6B7q1KwOFQUw",
+                            "https://www.linkedin.com/company/aditya-birla-memorial-hospital",
+                            "https://en.wikipedia.org/wiki/Aditya_Birla_Memorial_Hospital",
+                            "https://adityabirlahospital.com/"
+                        ]
+                      }
+                                            
+                `}
+            </Script>
 
-  
+            {/* SEO schema by sheshant */}
+
 
 
             {/* sticky */}
@@ -466,7 +498,7 @@ const Header = () => {
                                 <div className="headerlogopart">
                                     <div className="logoimg">
                                         <Link href="/">
-                                            <Image width={1000} height={1000} className='mydeckslogo' src="/homeimg/abmhmainlogo.png" alt="img" />
+                                            <Image width={400} height={66} className='mydeckslogo' src="/homeimg/abmhmainlogo.png" alt="img" />
                                         </Link>
                                     </div>
                                 </div>
