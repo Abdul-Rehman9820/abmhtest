@@ -26,7 +26,7 @@ const Accreditations = () => {
 
 
     <>
-      <title>Accreditations & Certifications</title>
+      <title>Accreditations & Awards</title>
       <meta name="description" content="" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -35,7 +35,7 @@ const Accreditations = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  About Us / <span className="breadcrumbsactive">Accreditations & Certifications</span>
+                  About Us / <span className="breadcrumbsactive">Accreditations & Awards</span>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Accreditations = () => {
           <div className="AchiveandAcrre">
             <div className="Specialtiespartbof">
               <div className="Specialtiesheadbof">
-                <h1 className="oursepperbof">Accreditations & Certifications</h1>
+                <h1 className="oursepperbof">Accreditations</h1>
                 <span className="headborderbof" />
               </div>
             </div>
@@ -251,7 +251,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          1. Best Trauma Care Hospital - World Safety Organization: National Office For India State Level OHS&E Awards
+                          Best Trauma Care Hospital - World Safety Organization: National Office For India State Level OHS&E Awards
                         </div>
                       </div>
                     </div>
@@ -263,7 +263,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          2. Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
+                          Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
                         </div>
                       </div>
                     </div>
@@ -275,7 +275,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          3. AHPI Award - Patient Friendly Hospital
+                          AHPI Award - Patient Friendly Hospital
                         </div>
                       </div>
                     </div>
@@ -287,7 +287,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          4. World Safety Organization - Digital India Contributor Award
+                          World Safety Organization - Digital India Contributor Award
                         </div>
                       </div>
                     </div>
@@ -299,7 +299,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          5. World Safety Organization - Service Excellence Award
+                          World Safety Organization - Service Excellence Award
                         </div>
                       </div>
                     </div>
@@ -311,7 +311,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          6. Healthcare Award - Best Hospital: Obstetrics & Gynaecology(Obgyn)
+                          Healthcare Award - Best Hospital: Obstetrics & Gynaecology(Obgyn)
                         </div>
                       </div>
                     </div>

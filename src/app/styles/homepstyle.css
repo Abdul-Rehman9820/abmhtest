@@ -35,6 +35,7 @@
 
 .forSEOslide {
     visibility: hidden;
+    font-size: 10px;
 }
 
 .newnexthomeslide .carousel-indicators [data-bs-target] {
@@ -1976,6 +1977,7 @@ span.speciconn img {
 
     .homeh1{
         font-size: 12px;
+        margin-top: 14px;
     }
 
     .speforwhitbgCol2 {

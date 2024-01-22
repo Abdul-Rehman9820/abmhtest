@@ -134,10 +134,10 @@ span.headborderbof {
 .abmhAwardSlideimg {
     display: block;
     margin: auto;
+    width: 35%;
 }
 
 .abmhAwardSlidebox {
-    padding: 20px;
     box-shadow: 0pt 1pt 9pt rgb(0 0 0 / 14%);
     margin: 10px;
     border-radius: 10px;
@@ -155,8 +155,9 @@ span.headborderbof {
 .abmhAwardSlidehead {
     padding: 20px 10px;
     text-align: center;
-    background: #000000db;
-    color: white;
+    background: #ffe468;
+    color: #1c082f;
+    font-weight: 600;
     width: 100%;
     right: 0;
     border-radius: 0 0 10px 10px;

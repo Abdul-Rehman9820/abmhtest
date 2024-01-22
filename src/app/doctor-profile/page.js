@@ -231,6 +231,32 @@ const Doctorprofile = () => {
                               aria-labelledby="pills-home-tab"
                             >
                               <div className="dbdata">
+
+
+
+                                <div className="prodataDIV">
+
+
+                                  {item.DoctorQualification && (
+
+                                    <>
+                                      <h3 className="datadivhiading">Qualification</h3>
+                                      <div className="redanimatedloopbox">
+                                        {item.DoctorQualification.split('||').map((experience, expIndex) => (
+                                          <div key={expIndex} className="animatedheading">
+
+                                            {experience}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </>
+
+                                  )}
+
+
+                                </div>
+
+
                                 <div className="prodataDIV">
 
 
@@ -245,6 +271,7 @@ const Doctorprofile = () => {
 
 
                                 </div>
+
                                 <div className="prodataDIV">
 
 
@@ -321,30 +348,6 @@ const Doctorprofile = () => {
 
 
                                 </div>
-
-
-                                <div className="prodataDIV">
-
-
-                                  {item.DoctorQualification && (
-
-                                    <>
-                                      <h3 className="datadivhiading">Qualification</h3>
-                                      <div className="redanimatedloopbox">
-                                        {item.DoctorQualification.split('||').map((experience, expIndex) => (
-                                          <div key={expIndex} className="animatedheading">
-
-                                            {experience}
-                                          </div>
-                                        ))}
-                                      </div>
-                                    </>
-
-                                  )}
-
-
-                                </div>
-
 
                                 <div className="prodataDIV">
 

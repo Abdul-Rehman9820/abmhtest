@@ -550,9 +550,9 @@ const Header = () => {
                                                 <i className="fa fa-caret-down" />
                                             </button>
                                             <div className="dropdown-contentmy">
-                                                <Link href="/about-us">About Us</Link>
+                                                <Link href="/about-us#aboutus">About Us</Link>
                                                 <Link href="/about-us#vision-mission">Vision & Mission</Link>
-                                                <Link href="/accreditations">Accreditations & Certifications</Link>
+                                                <Link href="/accreditations">Accreditations & Awards </Link>
                                                 <Link href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>
                                                 <Link href="/quality-policy-and-ethics-committee#ethics-committee">Ethics Committee</Link>
                                                 <Link href="/about-csr">CSR Initiatives</Link>
@@ -723,13 +723,13 @@ const Header = () => {
                                     <span className="icon-arrow" />
                                     <ul className="children">
                                         <li>
-                                            <Link className='closeham' href="/about-us">About Us</Link>
+                                            <Link className='closeham' href="/about-us#aboutus">About Us</Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/about-us#vision-mission">Vision & Mission</Link>
                                         </li>
                                         <li>
-                                            <Link className='closeham' href="/accreditations">Accreditations & Certifications</Link>
+                                            <Link className='closeham' href="/accreditations">Accreditations & Awards </Link>
                                         </li>
                                         <li>
                                             <Link className='closeham' href="/quality-policy-and-ethics-committee#quality-policy">Quality Policy</Link>

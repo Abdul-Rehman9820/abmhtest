@@ -772,6 +772,14 @@ button.dropbtnmy .fa {
 
 }
 
+/* header  issse*/
+@media screen and (max-width: 1299px) and (min-width: 1150px) {
+  .dropdownmy .dropbtnmy {
+    font-size: 21px !important;
+  }
+
+}
+
 
 /* sticky number  issse*/
 @media screen and (max-width: 1399px) and (min-width: 768px) {
