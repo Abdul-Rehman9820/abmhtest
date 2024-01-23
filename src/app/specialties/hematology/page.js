@@ -79,7 +79,7 @@ const Clinicalhematology = () => {
 
 
     <>
-      <title>Clinical Hematology</title>
+      <title>Hematology</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -88,7 +88,7 @@ const Clinicalhematology = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Clinical Hematology</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Hematology</span>
                 </div>
               </div>
             </div>
@@ -269,7 +269,7 @@ const Clinicalhematology = () => {
               <div className="">
 
                 <p className="specilpara">
-                Clinical Haematology at ABMH provides advanced care for blood disorders, including Bone Marrow Transplant services. Our expert team specializes in diagnosing and treating conditions such as leukemia, lymphoma, and anemia. Subservices include stem cell transplantation and dedicated care for hematological malignancies.
+                Haematology at ABMH provides advanced care for blood disorders, including Bone Marrow Transplant services. Our expert team specializes in diagnosing and treating conditions such as leukemia, lymphoma, and anemia. Subservices include stem cell transplantation and dedicated care for hematological malignancies.
                 </p>
 
               </div>
