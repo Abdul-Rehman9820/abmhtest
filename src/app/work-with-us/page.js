@@ -58,7 +58,7 @@ const Workwithus = () => {
           <div className="workwithuscont">
 
 
-                  <h4>There are no current opening</h4>
+                  <h4>There are no current openings</h4>
 
           </div>
 

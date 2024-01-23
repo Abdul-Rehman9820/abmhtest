@@ -73,6 +73,7 @@
 }
 .qualitypoldata1 {
     width: 70%;
+    padding-right: 20px;
 }
 .qualitypoldata2 {
     width: 30%;
@@ -203,6 +204,7 @@
 }
 .qualitypoldata1 {
     width: 100%;
+    padding-right: 0px;
 }
 .qualitypoldata2 {
     width: 100%;
