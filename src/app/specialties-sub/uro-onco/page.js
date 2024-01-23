@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -252,18 +252,32 @@ const Dentistry = () => {
             <div className="spectitleimgbox">
               <div className="">
 
-                <p className="specilpara">
-                  <b>Robotic Radical Cystectomy:</b> Experience minimally invasive excellence with our Robotic Radical Cystectomy procedure, offering precision and faster recovery for bladder cancer patients. Our skilled surgeons utilize advanced robotic technology for enhanced surgical outcomes.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Radical Nephrectomy:</b> Transforming kidney cancer treatment, our Robotic Radical Nephrectomy combines innovation and expertise to provide a minimally invasive solution. Benefit from shorter hospital stays and reduced recovery times while ensuring comprehensive cancer care.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Partial Nephrectomy:</b> Discover the pinnacle of kidney-sparing surgery through Robotic Partial Nephrectomy. Our skilled team utilizes robotic precision to remove tumors while preserving healthy kidney tissue, ensuring optimal outcomes for patients with renal conditions.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Pyeloplasty:</b> Elevate your urological care with Robotic Pyeloplasty, a minimally invasive procedure addressing urinary obstruction. Our experienced surgeons employ robotic assistance for meticulous repair of the renal pelvis, promoting quicker recovery and improved quality of life.
-                </p>
+                <ul className="specULbullet">
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Radical Cystectomy:</b> Experience minimally invasive excellence with our Robotic Radical Cystectomy procedure, offering precision and faster recovery for bladder cancer patients. Our skilled surgeons utilize advanced robotic technology for enhanced surgical outcomes.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Radical Nephrectomy:</b> Transforming kidney cancer treatment, our Robotic Radical Nephrectomy combines innovation and expertise to provide a minimally invasive solution. Benefit from shorter hospital stays and reduced recovery times while ensuring comprehensive cancer care.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Partial Nephrectomy:</b> Discover the pinnacle of kidney-sparing surgery through Robotic Partial Nephrectomy. Our skilled team utilizes robotic precision to remove tumors while preserving healthy kidney tissue, ensuring optimal outcomes for patients with renal conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Pyeloplasty:</b> Elevate your urological care with Robotic Pyeloplasty, a minimally invasive procedure addressing urinary obstruction. Our experienced surgeons employ robotic assistance for meticulous repair of the renal pelvis, promoting quicker recovery and improved quality of life.
+                    </p>
+                  </li>
+
+
+                </ul>
+
 
               </div>
             </div>

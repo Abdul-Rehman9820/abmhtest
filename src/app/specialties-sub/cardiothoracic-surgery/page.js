@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -297,45 +297,80 @@ const Dentistry = () => {
                   <h1 className="spetileh2gr">Surgeries</h1>
                   <span className="headbordergr" />
                 </div>
-                <p className="specilpara">
-                  <b>Open Heart Surgery:</b> Surgical interventions for congenital heart defects, including repairs of heart structures and vessels viz
-                </p>
-                <p className="specilpara">
-                  <b>Coronary Artery Bypass Grafting (CABG):</b> Surgically rerouting blood flow around blocked coronary arteries to improve blood supply to the heart muscle.
-                </p>
-                <p className="specilpara">
-                  <b>Valve Replacement or Repair:</b> Repairing or replacing dysfunctional heart valves, either with prosthetic ( Mechanical and biological ) valves or by preserving the existing ones.
-                </p>
-                <p className="specilpara">
-                  <b>Minimally Invasive Cardiac Surgery:</b> Performing cardiac surgeries through small incisions, reducing trauma.blood loss and promoting quicker recovery in terms of quality of life.
-                </p>
-                <p className="specilpara">
-                  <b>Septal Defect Closure:</b> Closing holes in the heart&apos;s septum (walls) using devices or surgical interventions esp. ASD and VSD
-                </p>
-                <p className="specilpara">
-                  <b>Fontan Procedure/B D Glenn/ BT shunt/ ICR/Sennings procedure etc:</b> A surgical procedure to redirect blood flow in individuals with simple and complex congenital heart defects.
-                </p>
-                <p className="specilpara">
-                  <b>Aortic Aneurysm Repair:</b> Surgical interventions to repair or replace weakened sections of the aorta, preventing the risk of rupture.
-                </p>
-                <p className="specilpara">
-                  <b>Vascular Surgery:</b> Addressing conditions affecting blood vessels outside the heart, such as aortic dissections or peripheral vascular disease
-                </p>
-                <p className="specilpara">
-                  <b>Thoracic Aortic Surgery:</b> Addressing conditions affecting the thoracic aorta, such as aneurysms or dissections, through surgical interventions.
-                </p>
-                <p className="specilpara">
-                  <b>Pericardiectomy:</b> Surgical removal of the pericardium, the sac surrounding the heart, to treat conditions like constrictive pericarditis.
-                </p>
-                <p className="specilpara">
-                  <b>Lung surgeries:</b> surgical treatment of lungs like removing a part or the entire lung to treat conditions like infections, tumors and others.
-                </p>
-                <p className="specilpara">
-                  <b>Mediastinal surgeries:</b> Removing thymus (Thymectomy) for Myesthenia gravis and tumors located in the mediastinum.
-                </p>
-                <p className="specilpara">
-                  <b>Esophageal Surgery:</b> Surgical interventions to address conditions affecting the esophagus, including cancer.
-                </p>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Open Heart Surgery:</b> Surgical interventions for congenital heart defects, including repairs of heart structures and vessels viz
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Coronary Artery Bypass Grafting (CABG):</b> Surgically rerouting blood flow around blocked coronary arteries to improve blood supply to the heart muscle.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Valve Replacement or Repair:</b> Repairing or replacing dysfunctional heart valves, either with prosthetic ( Mechanical and biological ) valves or by preserving the existing ones.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Minimally Invasive Cardiac Surgery:</b> Performing cardiac surgeries through small incisions, reducing trauma.blood loss and promoting quicker recovery in terms of quality of life.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Septal Defect Closure:</b> Closing holes in the heart&apos;s septum (walls) using devices or surgical interventions esp. ASD and VSD
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Fontan Procedure/B D Glenn/ BT shunt/ ICR/Sennings procedure etc:</b> A surgical procedure to redirect blood flow in individuals with simple and complex congenital heart defects.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Aortic Aneurysm Repair:</b> Surgical interventions to repair or replace weakened sections of the aorta, preventing the risk of rupture.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Vascular Surgery:</b> Addressing conditions affecting blood vessels outside the heart, such as aortic dissections or peripheral vascular disease
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Thoracic Aortic Surgery:</b> Addressing conditions affecting the thoracic aorta, such as aneurysms or dissections, through surgical interventions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pericardiectomy:</b> Surgical removal of the pericardium, the sac surrounding the heart, to treat conditions like constrictive pericarditis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Lung surgeries:</b> surgical treatment of lungs like removing a part or the entire lung to treat conditions like infections, tumors and others.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Mediastinal surgeries:</b> Removing thymus (Thymectomy) for Myesthenia gravis and tumors located in the mediastinum.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Esophageal Surgery:</b> Surgical interventions to address conditions affecting the esophagus, including cancer.
+                    </p>
+                  </li>
+
+
+                </ul>
+
+
 
               </div>
 

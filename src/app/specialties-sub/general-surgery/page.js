@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -236,7 +236,7 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
@@ -244,10 +244,10 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                General Surgery under the Robotic-Assisted Surgery umbrella covers a broad spectrum of surgical procedures using robotic technology. Our expert general surgeons employ robotic platforms for procedures ranging from hernia repairs to gallbladder surgeries, ensuring minimally invasive approaches and optimal outcomes for patients.
+                  General Surgery under the Robotic-Assisted Surgery umbrella covers a broad spectrum of surgical procedures using robotic technology. Our expert general surgeons employ robotic platforms for procedures ranging from hernia repairs to gallbladder surgeries, ensuring minimally invasive approaches and optimal outcomes for patients.
                 </p>
                 <p className="specilpara">
-                Aditya Birla Memorial Hospital&apos;`s commitment to Robotic-Assisted Surgery and its associated subservices reflects our dedication to providing patients with the latest advancements in surgical technology. The integration of robotic platforms enhances our ability to deliver precise, personalized, and effective surgical interventions across diverse medical specialties.
+                  Aditya Birla Memorial Hospital&apos;`s commitment to Robotic-Assisted Surgery and its associated subservices reflects our dedication to providing patients with the latest advancements in surgical technology. The integration of robotic platforms enhances our ability to deliver precise, personalized, and effective surgical interventions across diverse medical specialties.
                 </p>
 
               </div>
@@ -255,24 +255,41 @@ const Dentistry = () => {
             <div className="spectitleimgbox">
               <div className="">
 
-                <p className="specilpara">
-                 <b>Robotic Cholecystectomy:</b> Experience the future of gallbladder surgery with our Robotic Cholecystectomy. Minimize scarring, reduce recovery time, and enhance precision in the removal of gallstones, ensuring a smoother patient experience.
-                </p>      
-                <p className="specilpara">
-                 <b>Robotic Hernia Repair:</b> Elevate hernia surgery with our Robotic Hernia Repair, combining advanced robotic technology with surgical expertise. Enjoy faster recovery and reduced postoperative discomfort while benefiting from the precision of robotic-assisted techniques.
-                </p>      
-                <p className="specilpara">
-                 <b>Robotic Colorectal Surgery:</b> Revolutionize colorectal procedures with our Robotic Colorectal Surgery. This minimally invasive approach ensures precise tumor removal and improved outcomes for conditions such as colorectal cancer, promoting quicker recovery and minimal scarring.
-                </p>      
-                <p className="specilpara">
-                 <b>Robotic Gastrectomy:</b> Transform your journey with Robotic Gastrectomy for stomach-related conditions. Our skilled surgeons utilize robotic precision to remove parts of the stomach, offering enhanced accuracy and faster recovery times for patients.
-                </p>      
-                <p className="specilpara">
-                 <b>Robotic Adrenalectomy:</b> Discover the advantages of Robotic Adrenalectomy for adrenal gland surgery. Our robotic-assisted approach ensures meticulous removal of tumors, reducing postoperative discomfort and promoting a quicker return to daily activities.
-                </p>      
-                <p className="specilpara">
-                 <b>Robotic Splenectomy:</b> Elevate spleen surgery with our Robotic Splenectomy. Benefit from the precision of robotic assistance in spleen removal, reducing the impact on surrounding tissues and facilitating a more efficient recovery process.
-                </p>          
+                <ul className="specULbullet">
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Cholecystectomy:</b> Experience the future of gallbladder surgery with our Robotic Cholecystectomy. Minimize scarring, reduce recovery time, and enhance precision in the removal of gallstones, ensuring a smoother patient experience.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Hernia Repair:</b> Elevate hernia surgery with our Robotic Hernia Repair, combining advanced robotic technology with surgical expertise. Enjoy faster recovery and reduced postoperative discomfort while benefiting from the precision of robotic-assisted techniques.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Colorectal Surgery:</b> Revolutionize colorectal procedures with our Robotic Colorectal Surgery. This minimally invasive approach ensures precise tumor removal and improved outcomes for conditions such as colorectal cancer, promoting quicker recovery and minimal scarring.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Gastrectomy:</b> Transform your journey with Robotic Gastrectomy for stomach-related conditions. Our skilled surgeons utilize robotic precision to remove parts of the stomach, offering enhanced accuracy and faster recovery times for patients.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Adrenalectomy:</b> Discover the advantages of Robotic Adrenalectomy for adrenal gland surgery. Our robotic-assisted approach ensures meticulous removal of tumors, reducing postoperative discomfort and promoting a quicker return to daily activities.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Splenectomy:</b> Elevate spleen surgery with our Robotic Splenectomy. Benefit from the precision of robotic assistance in spleen removal, reducing the impact on surrounding tissues and facilitating a more efficient recovery process.
+                    </p>
+                  </li>
+
+                </ul>
+
 
               </div>
             </div>

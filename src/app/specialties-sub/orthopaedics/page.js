@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -258,63 +258,108 @@ const Dentistry = () => {
                   <h1 className="spetileh2gr">Treatment & Surgeries</h1>
                   <span className="headbordergr" />
                 </div>
-                <p className="specilpara">
-                <b>Total Hip Replacement:</b> Restoring mobility and relieving pain by replacing a damaged hip joint with an artificial implant.
-                </p>
-                <p className="specilpara">
-                <b>Total Knee Replacement:</b> Alleviating knee pain and improving function through the replacement of damaged knee joint surfaces with prosthetic components.
-                </p>
-                <p className="specilpara">
-                <b>Total Shoulder Replacement:</b> Easing shoulder pain and enhancing joint function by replacing damaged parts of the shoulder with artificial components.
-                </p>
-                <p className="specilpara">
-                <b>Arthroscopic Knee Surgery:</b> Minimally invasive procedure using a small camera to diagnose and treat knee joint issues, reducing recovery time.
-                </p>
-                <p className="specilpara">
-                <b>Arthroscopic Shoulder Surgery:</b> Addressing shoulder problems through tiny incisions, enabling precise visualization and treatment with minimal tissue disruption.
-                </p>
-                <p className="specilpara">
-                <b>Arthroscopic Ankle Surgery:</b> Minimally invasive ankle procedures to diagnose and treat various conditions, promoting quicker recovery and reduced scarring.
-                </p>
-                <p className="specilpara">
-                <b>Spine surgeries: Lumbar Discectomy:</b> Surgical removal of herniated disc material in the spine to relieve pressure on nerves and reduce pain.
-                </p>
-                <p className="specilpara">
-                <b>Spinal Fusion:</b> Joining two or more vertebrae to stabilize the spine, often recommended for conditions like spinal instability or degenerative disc disease.
-                </p>
-                <p className="specilpara">
-                <b>Herniated Disc Surgery:</b> Surgical intervention to address a herniated disc, relieving pressure on spinal nerves and improving symptoms.
-                </p>
-                <p className="specilpara">
-                <b>Open Reduction Internal Fixation (ORIF):</b> Surgically aligning and stabilizing fractured bones using internal hardware like screws and plates for optimal healing.
-                </p>
-                <p className="specilpara">
-                <b>Closed Reduction Internal Fixation (CRIF):</b> Non-invasive realignment and stabilization of fractured bones using internal hardware for effective fracture healing.
-                </p>
-                <p className="specilpara">
-                <b>Tendon Repair:</b> Surgical restoration of damaged tendons to promote proper function and prevent long-term disability.
-                </p>
-                <p className="specilpara">
-                <b>Ligament Reconstruction:</b> Surgical procedure to repair or replace damaged ligaments, often performed for sports-related injuries.
-                </p>
-                <p className="specilpara">
-                <b>Orthopedic Trauma Surgery:</b> Urgent surgical intervention to treat fractures, dislocations, and other orthopedic injuries resulting from trauma.
-                </p>
-                <p className="specilpara">
-                <b>Carpal Tunnel Release:</b> Surgical procedure to alleviate pressure on the median nerve in the wrist, relieving symptoms of carpal tunnel syndrome.
-                </p>
-                <p className="specilpara">
-                <b>Bunion Surgery (Bunionectomy):</b> Corrective surgical procedure to remove a bunion and realign the joint of the big toe for improved comfort and function.
-                </p>
-                <p className="specilpara">
-                <b>Achilles Tendon Repair:</b> Surgical procedure to address a ruptured or damaged Achilles tendon, restoring strength and function.
-                </p>
-                <p className="specilpara">
-                <b>Limb-Sparing Surgery for Bone Tumors:</b> Surgical removal of bone tumors while preserving the limb&apos;s function and appearance.
-                </p>
-                <p className="specilpara">
-                <b>Soft Tissue Sarcoma Resection:</b> Surgical removal of soft tissue sarcomas, often followed by reconstructive procedures to restore function and aesthetics.
-                </p>
+
+                <ul className="specULbullet">
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Total Hip Replacement:</b> Restoring mobility and relieving pain by replacing a damaged hip joint with an artificial implant.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Total Knee Replacement:</b> Alleviating knee pain and improving function through the replacement of damaged knee joint surfaces with prosthetic components.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Total Shoulder Replacement:</b> Easing shoulder pain and enhancing joint function by replacing damaged parts of the shoulder with artificial components.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Arthroscopic Knee Surgery:</b> Minimally invasive procedure using a small camera to diagnose and treat knee joint issues, reducing recovery time.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Arthroscopic Shoulder Surgery:</b> Addressing shoulder problems through tiny incisions, enabling precise visualization and treatment with minimal tissue disruption.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Arthroscopic Ankle Surgery:</b> Minimally invasive ankle procedures to diagnose and treat various conditions, promoting quicker recovery and reduced scarring.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Spine surgeries: Lumbar Discectomy:</b> Surgical removal of herniated disc material in the spine to relieve pressure on nerves and reduce pain.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Spinal Fusion:</b> Joining two or more vertebrae to stabilize the spine, often recommended for conditions like spinal instability or degenerative disc disease.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Herniated Disc Surgery:</b> Surgical intervention to address a herniated disc, relieving pressure on spinal nerves and improving symptoms.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Open Reduction Internal Fixation (ORIF):</b> Surgically aligning and stabilizing fractured bones using internal hardware like screws and plates for optimal healing.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Closed Reduction Internal Fixation (CRIF):</b> Non-invasive realignment and stabilization of fractured bones using internal hardware for effective fracture healing.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Tendon Repair:</b> Surgical restoration of damaged tendons to promote proper function and prevent long-term disability.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Ligament Reconstruction:</b> Surgical procedure to repair or replace damaged ligaments, often performed for sports-related injuries.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Orthopedic Trauma Surgery:</b> Urgent surgical intervention to treat fractures, dislocations, and other orthopedic injuries resulting from trauma.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Carpal Tunnel Release:</b> Surgical procedure to alleviate pressure on the median nerve in the wrist, relieving symptoms of carpal tunnel syndrome.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Bunion Surgery (Bunionectomy):</b> Corrective surgical procedure to remove a bunion and realign the joint of the big toe for improved comfort and function.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Achilles Tendon Repair:</b> Surgical procedure to address a ruptured or damaged Achilles tendon, restoring strength and function.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Limb-Sparing Surgery for Bone Tumors:</b> Surgical removal of bone tumors while preserving the limb&apos;s function and appearance.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Soft Tissue Sarcoma Resection:</b> Surgical removal of soft tissue sarcomas, often followed by reconstructive procedures to restore function and aesthetics.
+                    </p>
+                  </li>
+
+
+                </ul>
+
 
               </div>
 

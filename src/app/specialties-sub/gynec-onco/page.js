@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -252,21 +252,38 @@ const Dentistry = () => {
             <div className="spectitleimgbox">
               <div className="">
 
-                <p className="specilpara">
-                  <b>Fibroids (Uterine Fibroids):</b> Fibroids are noncancerous growths of the uterus that often appear during childbearing years. They can vary in size and quantity and are made up of muscle and fibrous tissue.
-                </p>
-                <p className="specilpara">
-                  <b>Uterine Cancer (Endometrial Cancer):</b> Uterine cancer, or endometrial cancer, begins in the lining of the uterus (endometrium). It is the most common type of cancer that affects the female reproductive system.
-                </p>
-                <p className="specilpara">
-                  <b>Ovarian Cysts:</b> Ovarian cysts are fluid-filled sacs that can develop on the ovaries. Most cysts are benign and go away on their own, but some may cause pain or complications.
-                </p>
-                <p className="specilpara">
-                  <b>Early Ovarian Cancer:</b> Early-stage ovarian cancer refers to cancer that is confined to the ovaries and has not spread extensively
-                </p>
-                <p className="specilpara">
-                  <b>Abnormal Uterine Bleeding:</b> Abnormal uterine bleeding refers to any irregularities in the menstrual cycle, including heavy or prolonged bleeding, bleeding between periods, or postmenopausal bleeding.
-                </p>
+
+                <ul className="specULbullet">
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Fibroids (Uterine Fibroids):</b> Fibroids are noncancerous growths of the uterus that often appear during childbearing years. They can vary in size and quantity and are made up of muscle and fibrous tissue.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Uterine Cancer (Endometrial Cancer):</b> Uterine cancer, or endometrial cancer, begins in the lining of the uterus (endometrium). It is the most common type of cancer that affects the female reproductive system.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Ovarian Cysts:</b> Ovarian cysts are fluid-filled sacs that can develop on the ovaries. Most cysts are benign and go away on their own, but some may cause pain or complications.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Early Ovarian Cancer:</b> Early-stage ovarian cancer refers to cancer that is confined to the ovaries and has not spread extensively
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Abnormal Uterine Bleeding:</b> Abnormal uterine bleeding refers to any irregularities in the menstrual cycle, including heavy or prolonged bleeding, bleeding between periods, or postmenopausal bleeding.
+                    </p>
+                  </li>
+
+
+                </ul>
+
 
               </div>
             </div>

@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -236,7 +236,7 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
@@ -244,7 +244,7 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
                 <p className="specilpara">
-                Gastrointestinal Oncology within Robotic-Assisted Surgery addresses cancers affecting the gastrointestinal tract. Our skilled surgeons utilize robotic technology for minimally invasive procedures related to colorectal, gastric, and other gastrointestinal cancers, ensuring comprehensive and effective cancer care.
+                  Gastrointestinal Oncology within Robotic-Assisted Surgery addresses cancers affecting the gastrointestinal tract. Our skilled surgeons utilize robotic technology for minimally invasive procedures related to colorectal, gastric, and other gastrointestinal cancers, ensuring comprehensive and effective cancer care.
                 </p>
 
               </div>
@@ -253,31 +253,52 @@ const Dentistry = () => {
             <div className="spectitleimgbox">
               <div className="">
 
-                <p className="specilpara">
-                  <b>Robotic Cholecystectomy:</b> A minimally invasive surgical procedure using robotic technology to remove the gallbladder, enhancing precision and reducing recovery time.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Fundoplication:</b> Employing robotic assistance for fundoplication surgeries, this technique addresses gastroesophageal reflux disease (GERD) with improved precision.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Rectopexy:</b> Utilizing robotic technology in rectopexy procedures for pelvic organ prolapse, enhancing surgical accuracy and patient outcomes.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Colectomies:</b> Minimally invasive robotic-assisted surgeries for the removal of part or all of the colon, reducing postoperative discomfort and promoting quicker recovery.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Liver Resection:</b> Precision in liver resection surgeries is achieved through robotic assistance, minimizing invasiveness and enhancing surgical outcomes.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Whipple:</b> Utilizing robotic technology for Whipple procedures, improving the precision of pancreaticoduodenectomy for treating pancreatic and periampullary tumors.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Splenectomy:</b> Employing robotic assistance in spleen removal surgeries, enhancing precision and potentially reducing recovery time compared to traditional methods.
-                </p>
-                <p className="specilpara">
-                  <b>Robotic Distal Pancreatectomy:</b> Minimally invasive robotic-assisted surgery for the removal of the distal part of the pancreas, providing enhanced precision and faster recovery.
-                </p>
-         
+                <ul className="specULbullet">
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Cholecystectomy:</b> A minimally invasive surgical procedure using robotic technology to remove the gallbladder, enhancing precision and reducing recovery time.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Fundoplication:</b> Employing robotic assistance for fundoplication surgeries, this technique addresses gastroesophageal reflux disease (GERD) with improved precision.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Rectopexy:</b> Utilizing robotic technology in rectopexy procedures for pelvic organ prolapse, enhancing surgical accuracy and patient outcomes.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Colectomies:</b> Minimally invasive robotic-assisted surgeries for the removal of part or all of the colon, reducing postoperative discomfort and promoting quicker recovery.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Liver Resection:</b> Precision in liver resection surgeries is achieved through robotic assistance, minimizing invasiveness and enhancing surgical outcomes.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Whipple:</b> Utilizing robotic technology for Whipple procedures, improving the precision of pancreaticoduodenectomy for treating pancreatic and periampullary tumors.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Splenectomy:</b> Employing robotic assistance in spleen removal surgeries, enhancing precision and potentially reducing recovery time compared to traditional methods.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Robotic Distal Pancreatectomy:</b> Minimally invasive robotic-assisted surgery for the removal of the distal part of the pancreas, providing enhanced precision and faster recovery.
+                    </p>
+                  </li>
+
+                </ul>
+
+
               </div>
             </div>
 

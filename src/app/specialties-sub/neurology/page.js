@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -345,42 +345,74 @@ const Dentistry = () => {
                   <h1 className="spetileh2gr">Treatment & Procedure</h1>
                   <span className="headbordergr" />
                 </div>
-                <p className="specilpara">
-                  <b>Chronic Headache:</b> Chronic headaches are persistent, recurring head pain that happens 15 or more days a month for at least three consecutive months. They encompass different types, such as tension-type headaches, migraines, and cluster headaches, each requiring specific management.
-                </p>
-                <p className="specilpara">
-                  <b>Dementia:</b> The assessment, identification, and treatment of individuals experiencing memory-related conditions such as Alzheimer&apos;s and dementia.
-                </p>
-                <p className="specilpara">
-                  <b>Parkinson&apos;s and Movement Disorders:</b> Parkinson&apos;s disease is a neurological disorder causing tremors, stiffness, and challenges in walking, balance, and coordination. Symptoms typically emerge gradually and worsen as the condition advances. Individuals may face increasing difficulties with both mobility and speech as the disease progresses.
-                </p>
-                <p className="specilpara">
-                  <b>Multiple Sclerosis:</b> Multiple sclerosis (MS) is a chronic autoimmune disease affecting the central nervous system. It occurs when the immune system attacks the protective myelin covering nerve fibers, leading to diverse symptoms such as fatigue, numbness, and vision problems. While there&apos;s no cure, treatment options aim to manage symptoms and improve quality of life.
-                </p>
-                <p className="specilpara">
-                  <b>Seizers & Epilepsy:</b>  A seizure is an abrupt, uncontrolled electrical disturbance in the brain, causing symptoms like convulsions. Epilepsy is a neurological disorder marked by recurrent seizures, managed with treatments like medication. The most advanced treatments for those suffering from disorders such as seizures and epilepsy for both adults and children
-                </p>
-                <p className="specilpara">
-                  <b>Alzheimer:</b> is a progressive disorder that causes brain cells to waste away (degenerate) and die. Alzheimer&apos;s disease is the most common cause of dementia — a continuous decline in thinking, behavioural and social skills that disrupts a person&apos;s ability to function independently.
-                </p>
-                <p className="specilpara">
-                  <b>Stroke:</b> Efficient care and surgical procedures for the treatment and recovery of medical emergencies, such as strokes.
-                </p>
-                <p className="specilpara">
-                  <b>Neuromuscular disorders:</b> Neuromuscular disorders affect the peripheral nervous system, causing progressive muscle weakness. These conditions involve the motor and sensory nerves connecting the brain and spinal cord to the body.
-                </p>
-                <p className="specilpara">
-                  <b>Electroencephalogram (EEG):</b> Our neurologists use EEG to record and analyze electrical activity in the brain, aiding in the diagnosis of conditions such as epilepsy, seizures, and other neurological disorders.
-                </p>
-                <p className="specilpara">
-                  <b>Electromyography (EMG) and Nerve Conduction Studies (NCS):</b> These tests evaluate the health of muscles and the nerves that control them. EMG/NCS is crucial in diagnosing conditions like peripheral neuropathy, muscle disorders, and radiculopathies.
-                </p>
-                <p className="specilpara">
-                  <b>Lumbar Puncture (Spinal Tap):</b> This procedure involves collecting cerebrospinal fluid from the spinal canal to help diagnose conditions like infections, multiple sclerosis, and certain neurological disorders.
-                </p>
-                <p className="specilpara">
-                  <b>Botox Injections for Neurological Disorders:</b> Our department offers Botox injections as a therapeutic option for conditions such as chronic migraines, cervical dystonia, and spasticity.
-                </p>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Chronic Headache:</b> Chronic headaches are persistent, recurring head pain that happens 15 or more days a month for at least three consecutive months. They encompass different types, such as tension-type headaches, migraines, and cluster headaches, each requiring specific management.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Dementia:</b> The assessment, identification, and treatment of individuals experiencing memory-related conditions such as Alzheimer&apos;s and dementia.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Parkinson&apos;s and Movement Disorders:</b> Parkinson&apos;s disease is a neurological disorder causing tremors, stiffness, and challenges in walking, balance, and coordination. Symptoms typically emerge gradually and worsen as the condition advances. Individuals may face increasing difficulties with both mobility and speech as the disease progresses.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Multiple Sclerosis:</b> Multiple sclerosis (MS) is a chronic autoimmune disease affecting the central nervous system. It occurs when the immune system attacks the protective myelin covering nerve fibers, leading to diverse symptoms such as fatigue, numbness, and vision problems. While there&apos;s no cure, treatment options aim to manage symptoms and improve quality of life.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Seizers & Epilepsy:</b>  A seizure is an abrupt, uncontrolled electrical disturbance in the brain, causing symptoms like convulsions. Epilepsy is a neurological disorder marked by recurrent seizures, managed with treatments like medication. The most advanced treatments for those suffering from disorders such as seizures and epilepsy for both adults and children
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Alzheimer:</b> is a progressive disorder that causes brain cells to waste away (degenerate) and die. Alzheimer&apos;s disease is the most common cause of dementia — a continuous decline in thinking, behavioural and social skills that disrupts a person&apos;s ability to function independently.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Stroke:</b> Efficient care and surgical procedures for the treatment and recovery of medical emergencies, such as strokes.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuromuscular disorders:</b> Neuromuscular disorders affect the peripheral nervous system, causing progressive muscle weakness. These conditions involve the motor and sensory nerves connecting the brain and spinal cord to the body.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Electroencephalogram (EEG):</b> Our neurologists use EEG to record and analyze electrical activity in the brain, aiding in the diagnosis of conditions such as epilepsy, seizures, and other neurological disorders.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Electromyography (EMG) and Nerve Conduction Studies (NCS):</b> These tests evaluate the health of muscles and the nerves that control them. EMG/NCS is crucial in diagnosing conditions like peripheral neuropathy, muscle disorders, and radiculopathies.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Lumbar Puncture (Spinal Tap):</b> This procedure involves collecting cerebrospinal fluid from the spinal canal to help diagnose conditions like infections, multiple sclerosis, and certain neurological disorders.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Botox Injections for Neurological Disorders:</b> Our department offers Botox injections as a therapeutic option for conditions such as chronic migraines, cervical dystonia, and spasticity.
+                    </p>
+                  </li>
+
+
+                </ul>
+
 
               </div>
 

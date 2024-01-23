@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -289,48 +289,82 @@ const Dentistry = () => {
                   Our expert neurosurgeons utilize advanced techniques and state-of-the-art technology to provide optimal care. Here are some key surgeries performed by our Neurosurgery Department:
                 </p>
 
-                <p className="specilpara">
-                  <b>Craniotomy:</b> A surgical procedure involving the removal of part of the skull to access and treat brain conditions, such as tumors, aneurysms, or traumatic injuries.
-                </p>
-                <p className="specilpara">
-                  <b>Spinal Fusion:</b> A procedure that joins two or more vertebrae in the spine to stabilize and alleviate pain caused by conditions like degenerative disc disease or spinal instability.
-                </p>
-                <p className="specilpara">
-                  <b>Microvascular Decompression (MVD):</b> A surgery to relieve pressure on cranial nerves, often used to treat trigeminal neuralgia or hemifacial spasm caused by blood vessels compressing nerves.
-                </p>
-                <p className="specilpara">
-                  <b>Brain Tumor Resection:</b> Surgical removal of brain tumors, which may involve partial or complete removal, depending on the tumor type, size, and location.
-                </p>
-                <p className="specilpara">
-                  <b>Laminectomy:</b> A procedure to remove part of the vertebral bone called the lamina to relieve pressure on the spinal cord or nerves, commonly performed for conditions like spinal stenosis.
-                </p>
-                <p className="specilpara">
-                  <b>Cerebrovascular Surgery:</b> Surgical interventions for conditions affecting blood vessels in the brain, including aneurysm repair, arteriovenous malformation (AVM) treatment, and carotid endarterectomy.
-                </p>
-                <p className="specilpara">
-                  <b>Peripheral Nerve Surgery:</b> Surgical interventions to address issues with peripheral nerves, such as nerve repair, nerve grafting, or release procedures for nerve compression.
-                </p>
-                <p className="specilpara">
-                  <b>Neuroendoscopic Procedures:</b> Minimally invasive surgeries using endoscopes to treat conditions within the ventricles of the brain or the spinal canal, reducing the need for open surgery.
-                </p>
-                <p className="specilpara">
-                  <b>Deep Brain Stimulation (DBS):</b> Implantation of electrodes into specific areas of the brain to modulate abnormal neural activity, providing therapeutic benefits for movement disorders such as Parkinson&apos;s disease, essential tremor, and dystonia.
-                </p>
-                <p className="specilpara">
-                  <b>Gamma Knife Radiosurgery:</b> Precise and non-invasive treatment using focused gamma radiation to target specific areas of the brain, commonly employed for conditions like essential tremor and certain types of brain tumors.
-                </p>
-                <p className="specilpara">
-                  <b>Vagus Nerve Stimulation (VNS):</b> Implantation of a device that stimulates the vagus nerve to alleviate seizures in patients with epilepsy who do not respond well to medication.
-                </p>
-                <p className="specilpara">
-                  <b>Responsive Neurostimulation (RNS):</b> Implantation of a device that monitors brain activity and delivers electrical stimulation in response to detected abnormal patterns, aiming to reduce the frequency of epileptic seizures.
-                </p>
-                <p className="specilpara">
-                  <b>Motor Cortex Stimulation:</b> Placement of electrodes on the motor cortex to modulate neural activity and manage chronic pain conditions, such as neuropathic pain or central pain syndromes.
-                </p>
-                <p className="specilpara">
-                  <b>Selective Dorsal Rhizotomy (SDR):</b> Surgical procedure involving the selective cutting of certain sensory nerve fibers in the spinal cord to reduce spasticity in conditions like cerebral palsy.
-                </p>
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Craniotomy:</b> A surgical procedure involving the removal of part of the skull to access and treat brain conditions, such as tumors, aneurysms, or traumatic injuries.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Spinal Fusion:</b> A procedure that joins two or more vertebrae in the spine to stabilize and alleviate pain caused by conditions like degenerative disc disease or spinal instability.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Microvascular Decompression (MVD):</b> A surgery to relieve pressure on cranial nerves, often used to treat trigeminal neuralgia or hemifacial spasm caused by blood vessels compressing nerves.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Brain Tumor Resection:</b> Surgical removal of brain tumors, which may involve partial or complete removal, depending on the tumor type, size, and location.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Laminectomy:</b> A procedure to remove part of the vertebral bone called the lamina to relieve pressure on the spinal cord or nerves, commonly performed for conditions like spinal stenosis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Cerebrovascular Surgery:</b> Surgical interventions for conditions affecting blood vessels in the brain, including aneurysm repair, arteriovenous malformation (AVM) treatment, and carotid endarterectomy.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Peripheral Nerve Surgery:</b> Surgical interventions to address issues with peripheral nerves, such as nerve repair, nerve grafting, or release procedures for nerve compression.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuroendoscopic Procedures:</b> Minimally invasive surgeries using endoscopes to treat conditions within the ventricles of the brain or the spinal canal, reducing the need for open surgery.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Deep Brain Stimulation (DBS):</b> Implantation of electrodes into specific areas of the brain to modulate abnormal neural activity, providing therapeutic benefits for movement disorders such as Parkinson&apos;s disease, essential tremor, and dystonia.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gamma Knife Radiosurgery:</b> Precise and non-invasive treatment using focused gamma radiation to target specific areas of the brain, commonly employed for conditions like essential tremor and certain types of brain tumors.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Vagus Nerve Stimulation (VNS):</b> Implantation of a device that stimulates the vagus nerve to alleviate seizures in patients with epilepsy who do not respond well to medication.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Responsive Neurostimulation (RNS):</b> Implantation of a device that monitors brain activity and delivers electrical stimulation in response to detected abnormal patterns, aiming to reduce the frequency of epileptic seizures.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Motor Cortex Stimulation:</b> Placement of electrodes on the motor cortex to modulate neural activity and manage chronic pain conditions, such as neuropathic pain or central pain syndromes.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Selective Dorsal Rhizotomy (SDR):</b> Surgical procedure involving the selective cutting of certain sensory nerve fibers in the spinal cord to reduce spasticity in conditions like cerebral palsy.
+                    </p>
+                  </li>
+
+                </ul>
+
 
               </div>
             </div>

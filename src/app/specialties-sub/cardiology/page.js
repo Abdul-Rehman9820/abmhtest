@@ -24,7 +24,7 @@ const Dentistry = () => {
   useEffect(() => {
 
     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
-    
+
     // api for profile
 
 
@@ -338,57 +338,103 @@ const Dentistry = () => {
                   <span className="headbordergr" />
                 </div>
 
-                <p className="specilpara">
-                  <b>Electrophysiology Studies (EP study) and Ablation:</b> Procedures to diagnose and treat abnormal heart rhythms, often involving the use of catheters and radiofrequency energy.
-                </p>
-                <p className="specilpara">
-                  <b>Pacemaker Implantation:</b> Surgical placement of a pacemaker to regulate and support the heart&apos;s electrical activity, ensuring proper heart rhythm.
-                </p>
-                <p className="specilpara">
-                  <b>Cardiac Resynchronization Therapy (CRT):</b> A treatment involving the implantation of devices to improve the coordination of heart contractions in patients with heart failure.
-                </p>
-                <p className="specilpara">
-                  <b>Heart Valve Repair or Replacement:</b> Surgical interventions to address malfunctioning heart valves or chocked up valves, either repairing them or replacing with artificial valves.
-                </p>
-                <p className="specilpara">
-                  <b>Coronary Artery Bypass Grafting (CABG):</b> A surgical procedure to bypass blocked coronary arteries, restoring proper blood flow to the heart.
-                </p>
-                <p className="specilpara">
-                  <b>Transcatheter Aortic Valve Replacement / Implantation (TAVR / TAVI):</b> A minimally invasive procedure to replace a damaged aortic valve without open-heart surgery.
-                </p>
-                <p className="specilpara">
-                  <b>Vascular Interventions:</b> Procedures to address peripheral artery disease, including angioplasty, stent placement, and atherectomy using latest techniques with use of IVUS (Intravascular Ultrasonography) and OCT (Optical Coherence Tomography).
-                </p>
-                <p className="specilpara">
-                  <b>Diagnostic Imaging:</b> Utilization of advanced imaging techniques such as echocardiography, cardiac MRI, CT angiography with 128 slice state of art CT scan and nuclear imaging for structural, functional assessment and diagnosis.
-                </p>
-                <p className="specilpara">
-                  <b>Echocardiography:</b> Using 2D/3D and 4D ultrasound to create detailed imaging of the heart, helps to structural and functional abnormalities in heart.
-                </p>
-                <p className="specilpara">
-                  <b>Electrocardiography (ECG or EKG):</b> Recording the electrical activity of the heart to evaluate heart rhythm and identify abnormalities.
-                </p>
-                <p className="specilpara">
-                  <b>Holter Monitoring:</b> Continuous monitoring of the heart&apos;s electrical activity over 24 to 48 hours, aiding in the diagnosis of intermittent issues.
-                </p>
-                <p className="specilpara">
-                  <b>Exercise Stress Testing:</b> Evaluating the heart&apos;s response to physical activity to identify any abnormalities or exercise-induced issues.
-                </p>
-                <p className="specilpara">
-                  <b>Dobutamine Stress Echocardiography (DSE):</b> Facility for patients who cannot physically exert due to skeletal ailment in routine stress test.
-                </p>
-                <p className="specilpara">
-                  <b>Balloon Valvuloplasty:</b> Using a balloon-tipped catheter to open narrowed heart valves, addressing congenital or acquired stenosis.
-                </p>
-                <p className="specilpara">
-                  <b>Arrhythmia Management:</b> Including electrophysiology studies and ablation procedures to address irregular heart rhythms in children and adult.
-                </p>
-                <p className="specilpara">
-                  <b>Fetal Echocardiography:</b> Assessing the heart of a developing fetus to detect congenital heart defects before birth. Our experts provide counseling about fetal heart, probability for surgery and other related issues.
-                </p>
-                <p className="specilpara">
-                  <b>Cardiac Catheterization:</b> A minimally invasive procedure involving the insertion of a catheter to diagnose and treat certain heart conditions.
-                </p>
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Electrophysiology Studies (EP study) and Ablation:</b> Procedures to diagnose and treat abnormal heart rhythms, often involving the use of catheters and radiofrequency energy.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pacemaker Implantation:</b> Surgical placement of a pacemaker to regulate and support the heart&apos;s electrical activity, ensuring proper heart rhythm.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Cardiac Resynchronization Therapy (CRT):</b> A treatment involving the implantation of devices to improve the coordination of heart contractions in patients with heart failure.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Heart Valve Repair or Replacement:</b> Surgical interventions to address malfunctioning heart valves or chocked up valves, either repairing them or replacing with artificial valves.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Coronary Artery Bypass Grafting (CABG):</b> A surgical procedure to bypass blocked coronary arteries, restoring proper blood flow to the heart.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Transcatheter Aortic Valve Replacement / Implantation (TAVR / TAVI):</b> A minimally invasive procedure to replace a damaged aortic valve without open-heart surgery.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Vascular Interventions:</b> Procedures to address peripheral artery disease, including angioplasty, stent placement, and atherectomy using latest techniques with use of IVUS (Intravascular Ultrasonography) and OCT (Optical Coherence Tomography).
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Diagnostic Imaging:</b> Utilization of advanced imaging techniques such as echocardiography, cardiac MRI, CT angiography with 128 slice state of art CT scan and nuclear imaging for structural, functional assessment and diagnosis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Echocardiography:</b> Using 2D/3D and 4D ultrasound to create detailed imaging of the heart, helps to structural and functional abnormalities in heart.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Electrocardiography (ECG or EKG):</b> Recording the electrical activity of the heart to evaluate heart rhythm and identify abnormalities.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Holter Monitoring:</b> Continuous monitoring of the heart&apos;s electrical activity over 24 to 48 hours, aiding in the diagnosis of intermittent issues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Exercise Stress Testing:</b> Evaluating the heart&apos;s response to physical activity to identify any abnormalities or exercise-induced issues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Dobutamine Stress Echocardiography (DSE):</b> Facility for patients who cannot physically exert due to skeletal ailment in routine stress test.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Balloon Valvuloplasty:</b> Using a balloon-tipped catheter to open narrowed heart valves, addressing congenital or acquired stenosis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Arrhythmia Management:</b> Including electrophysiology studies and ablation procedures to address irregular heart rhythms in children and adult.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Fetal Echocardiography:</b> Assessing the heart of a developing fetus to detect congenital heart defects before birth. Our experts provide counseling about fetal heart, probability for surgery and other related issues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Cardiac Catheterization:</b> A minimally invasive procedure involving the insertion of a catheter to diagnose and treat certain heart conditions.
+                    </p>
+                  </li>
+
+
+                </ul>
+
+
+
+
+
+
 
               </div>
 
