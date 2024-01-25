@@ -16,7 +16,7 @@ const Accreditations = () => {
   useEffect(() => {
 
 
-    // window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
 

@@ -70,7 +70,7 @@ const Contactus = () => {
 
 
     // api level code 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/BookWellnessApi`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/SendBookWellnessApi`, {
       method: "POST",
       body: JSON.stringify({
         username: uname,

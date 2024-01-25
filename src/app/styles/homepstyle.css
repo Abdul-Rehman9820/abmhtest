@@ -297,6 +297,9 @@ button.combtn a {
     padding: 2px 8px;
     border-radius: 5px;
 }
+.viewspehovebtn:hover {
+    color: #ffe468 !important;
+}
 .spefColiconCont {
     width: 85px !important;
     background: white;
