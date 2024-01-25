@@ -36,13 +36,13 @@ export async function POST(req, content) {
 
         var forDoctorid = await connection.promise().query('SELECT doctorfilterspeciality.*, abmh_specialty.specialty_name,abmh_specialty.SpecialtyLaymanDisc FROM doctorfilterspeciality LEFT JOIN abmh_specialty ON doctorfilterspeciality.DoctorSpeciaTableID = abmh_specialty.id WHERE ( abmh_specialty.specialty_name LIKE ? OR abmh_specialty.SpecialtyLaymanDisc LIKE ?)', [wildcardedusersearch, wildcardedusersearch]); // Use promise-based query
 
-        console.log(forDoctorid);
+        // console.log(forDoctorid);
 
         // Extracting DoctorSpeciaTableID from the results of the first query
         const doctorSpeciaTableIDs = forDoctorid[0].map(result => result.DoctorTableID);
 
         // Now you have an array of DoctorSpeciaTableID values
-        console.log(doctorSpeciaTableIDs);
+        // console.log(doctorSpeciaTableIDs);
 
         // Check if there are DoctorSpeciaTableID values
         if (doctorSpeciaTableIDs.length > 0) {
@@ -52,7 +52,7 @@ export async function POST(req, content) {
           // Use the extracted DoctorSpeciaTableID values as parameters
           results = await connection.promise().query(secondQuery, [doctorSpeciaTableIDs]);
 
-          console.log(results);
+          // console.log(results);
         } else {
           console.log('No DoctorSpeciaTableID values found.');
         }
