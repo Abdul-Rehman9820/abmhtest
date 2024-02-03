@@ -157,7 +157,7 @@ const Contactus = () => {
                     type="button"
 
                   >
-                    Otolaryngology (ENT)
+                   ENT (Ear, Nose, Throat)
                   </button>
                   <button
                     className="nav-link"

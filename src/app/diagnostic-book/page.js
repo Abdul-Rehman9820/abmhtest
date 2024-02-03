@@ -190,7 +190,7 @@ const Feedbackform = () => {
         "EEG / EMG / NCV": [],
         "Video EEG": [],
       },
-      "Otolaryngology (ENT)": {
+      "ENT (Ear, Nose, Throat)": {
         "Audiometry / Speech Therapy / ERA": [],
       },
       "Urology": {

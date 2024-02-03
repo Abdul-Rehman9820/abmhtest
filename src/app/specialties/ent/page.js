@@ -79,7 +79,7 @@ const Accidentandemergency = () => {
 
 
     <>
-      <title>Otolaryngology (ENT)</title>
+      <title>ENT (Ear, Nose, Throat)</title>
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -88,7 +88,7 @@ const Accidentandemergency = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Otolaryngology (ENT)</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">ENT (Ear, Nose, Throat)</span>
                 </div>
               </div>
             </div>

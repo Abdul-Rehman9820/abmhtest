@@ -797,7 +797,7 @@ const Specialties = () => {
                       <div className="myhrefsp">
                         <div className="spaccontsearch">
                           <div className="speforwhitbgsearch">
-                            <Link href="/specialties/otolaryngology-ent">
+                            <Link href="/specialties/ent">
                               <div className="spefColiconContspsearch">
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Otolaryngology-(ENT).jpg"
@@ -806,8 +806,8 @@ const Specialties = () => {
                               </div>
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
-                              <Link href="/specialties/otolaryngology-ent">
-                                <h2>Otolaryngology (ENT)</h2>
+                              <Link href="/specialties/ent">
+                                <h2>ENT (Ear, Nose, Throat)</h2>
                               </Link>
                               <h2 className="diparmenthideORkeywords">
                                 deparment name or key words for search
@@ -949,7 +949,7 @@ const Specialties = () => {
                             </Link>
                             <div className="speforwhitbgCol1spsearch">
                               <Link href="/specialties/pulmonary-medicine">
-                                <h2>Pulmonory Medicine</h2>
+                                <h2>Pulmonary Medicine</h2>
                               </Link>
                               <h2 className="diparmenthideORkeywords">
                                 deparment name or key words for search
