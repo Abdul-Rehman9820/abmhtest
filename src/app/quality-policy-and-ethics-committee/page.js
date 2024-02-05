@@ -17,7 +17,7 @@ const Qualityandethics = () => {
 
 
     <>
-    <title>Quality Policy & Ethics Committee</title>
+      <title>Quality Policy & Ethics Committee</title>
       {/* common heading div start*/}
       <div className="parentcontainerwhi" id="quality-policy">
         <div className="customcontainer">
@@ -36,7 +36,7 @@ const Qualityandethics = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-           <Image width={2000} height={400} src="/commonimages/commqulitynew.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/commqulitynew.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}
@@ -89,7 +89,7 @@ const Qualityandethics = () => {
                     medical practices in place to comply with National and
                     International Standards like ISO, NABL to maintain excellence.
                   </p>
-                  <div  id="ethics-committee"></div>
+                  <div id="ethics-committee"></div>
                 </div>
               </div>
               <div className="paraqlflex">
@@ -130,22 +130,14 @@ const Qualityandethics = () => {
             <div className="ethiccommmaindata">
               <div className="ethiccommmaindatabox ethicborRight">
                 <div className="ethicboxhead">
-                  <h2>ECR/779/Inst/MH/2015/RR-18</h2>
+                  <h2>ECR/779/Inst/MH/2015/RR-22</h2>
                   <h2>Registration Number</h2>
                 </div>
                 <p className="ethicboxpara">
-                  The Aditya Birla Memorial Hospital Ethics Committee functions
-                  according to Schedule ‘Y’ and Good Clinical Practice Guidelines
-                  for Clinical Trials in India and other regulatory requirements for
-                  safeguarding the rights, safety and wellbeing of the trial
-                  subjects. Our Ethics Committee is registered with the Central
-                  Drugs Standard Control Organization (CDSCO), New Delhi, as per the
-                  provisions of rule 122DD of the Drugs and Cosmetics Rules, 1945.
+                  The Aditya Birla Memorial Hospital Ethics Committee functions according to Schedule ‘Y’ and Good Clinical Practice Guidelines for Clinical Trials in India and other regulatory requirements for safeguarding the rights, safety and wellbeing of the trial subjects. Our Ethics Committee is registered with the Central Drugs Standard Control Organization (CDSCO), New Delhi, as per the provisions of rule 122DD of the Drugs and Cosmetics Rules, 1945.
                 </p>
                 <p className="ethicboxpara">
-                  We conduct quarterly meeting or as and when required in
-                  between.Proposals for clinical trials need to be submitted 15 days
-                  before the date of scheduled meeting. (3rd Friday of every month)
+                  We conduct monthly meeting or as and when required in between. Proposals for clinical trials need to be submitted 15 days before the date of scheduled meeting. (3rd Friday of every month)
                 </p>
               </div>
               <div className="ethiccommmaindatabox ethicborLeft">
@@ -153,27 +145,15 @@ const Qualityandethics = () => {
                   <h2>Charges of Ethics Committee</h2>
                 </div>
                 <p className="ethicboxpara">
-                  a. INR 25000/- for routine / normal review. <br />
-                  b. INR 50000/- for expedited review.
-                  <br />
-                  c. The EC review fees for ABMH’s investigator initiated / ABMH
-                  research projects / Collaborative projects can be waived off at
-                  the discretion of EC.
-                  <br />
-                  d. EC review fees for other institute’s investigator initiated
-                  projects will be INR 10000/-.
-                  <br />
-                  e. Review of Amendments to EC approved projects will be INR
-                  10000/-. <br />
-                  f. Review of Sub-study of EC approved projects will be INR
-                  10000/-. <br />
-                  g. Expedited review of Amendments to EC approved projects will be
-                  INR 20000/-. <br />
-                  h. Expedited review of Sub-study of EC approved projects will be
-                  INR 20000/-. <br />
-                  i. Fees for annual review of EC approved projects will be INR
-                  10000/-.
-                  <br />
+                  a. INR 30000/- for routine / normal review. <br />
+                  b. INR 50000/- for expedited review. <br />
+                  c. The EC review fees for ABMH’s investigator initiated / ABMH research projects / Collaborative projects can be waived off at the discretion of EC. <br />
+                  d. EC review fees for other institute’s investigator initiated projects will be INR 15000/-. <br />
+                  e. Review of Amendments to EC approved projects will be INR 15000/-. <br />
+                  f. Review of Sub-study of EC approved projects will be INR 10000/-. <br />
+                  g. Expedited review of Amendments to EC approved projects will be INR 25000/-. <br />
+                  h. Expedited review of Sub-study of EC approved projects will be INR 25000/-. <br />
+                  i. Fees for annual review of EC approved projects will be INR 15000/-. <br />
                 </p>
               </div>
               <div className="ethiccommmaindatabox ethicborRight">
@@ -181,17 +161,16 @@ const Qualityandethics = () => {
                   <h2>Archival Facility</h2>
                 </div>
                 <p className="ethicboxpara">
-                  We have a Fire, Water and Pest Proof, fully equipped archival
-                  facility to house clinical trial documents.
+                We have a Fire, Water and Pest Proof, fully equipped archival facility to house clinical trial documents.
                 </p>
                 <p className="ethicboxpara">
-                  Charges for Document Archival:
+                Charges for Document Archival:
                   <br />
                   a. 5 years - INR 30000/-.
                   <br />
                   b. 10 years - INR 60000/-.
                   <br />
-                  c. 15 years - INR 90000/-
+                  c. 15 years - INR 90000/-.
                   <br />
                 </p>
               </div>
