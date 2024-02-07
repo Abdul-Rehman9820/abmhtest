@@ -213,7 +213,7 @@ const Dentistry = () => {
                 </ol>
 
                 <p className="specilpara">
-                  <b>Why Chose this Program?</b>
+                  <b>Why Choose this Program?</b>
                 </p>
 
                 <ol className="specULbullet">
@@ -311,7 +311,7 @@ const Dentistry = () => {
                 </ol>
 
                 <p className="specilpara">
-                  <b>Why Chose this Program?</b>
+                  <b>Why Choose this Program?</b>
                 </p>
 
                 <ol className="specULbullet">
