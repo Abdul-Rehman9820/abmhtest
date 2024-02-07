@@ -364,7 +364,7 @@ const Dentistry = () => {
                 </div>
 
                 <p className="specilpara">
-                  This program is tailored to the individual needs and health status of each participant. Medical professionals assess the patient's condition, risk factors, and goals to create a personalized rehabilitation plan. This ensures that the program is suitable and effective for each participant. It includes:
+                  This program is tailored to the individual needs and health status of each participant. Medical professionals assess the patient&apos;s condition, risk factors, and goals to create a personalized rehabilitation plan. This ensures that the program is suitable and effective for each participant. It includes:
                 </p>
 
 
