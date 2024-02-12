@@ -17,7 +17,7 @@ const Aboutus = () => {
 
 
     <>
-      <title>About Aditya Birla Hospital in Pune | Exceptional Healthcare Services</title>
+      <title>Management</title>
       <meta name="description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -254,6 +254,18 @@ const Aboutus = () => {
                     <div className="bodname">Dr. Ashutosh Srivastava</div>
                     <div className="boddesignam">Medical Director</div>
                     <Link className="bodnowmorebtn" href="/abmh-management#Dr-Ashutosh-Srivastava">
+                      Know more
+                    </Link>
+                  </div>
+                  <div className="bodprofiloop">
+                    <Image width={400} height={400}
+                      className="bodprofileimg"
+                      src="/aboutusimg/Dr-Nitin-Mahantshetty.png"
+                      alt="img"
+                    />
+                    <div className="bodname">Dr. Nitin Mahantshetty</div>
+                    <div className="boddesignam">Dy. Medical Director</div>
+                    <Link className="bodnowmorebtn" href="/abmh-management#Dr-Nitin-Mahantshetty">
                       Know more
                     </Link>
                   </div>

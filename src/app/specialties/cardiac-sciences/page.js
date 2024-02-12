@@ -279,6 +279,16 @@ const Andrologyandsexualmedicine = () => {
                     </div>
                   </Link>
                 </div>
+                <div className="testimgboxcont">
+                  <Link href="/specialties-sub/cardiac-care-program">
+                    <div className="testimgboxcot1">
+                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                    </div>
+                    <div className="testimgboxcot2">
+                      <p className="testimgtitle">Cardiac Care Program</p>
+                    </div>
+                  </Link>
+                </div>
                 {/* <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-cardiothoracic-surgery">
                     <div className="testimgboxcot1">

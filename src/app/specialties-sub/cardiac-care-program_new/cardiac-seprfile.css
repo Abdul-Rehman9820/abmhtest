@@ -1,0 +1,93 @@
+.cardicproicon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardicproiconbox {
+    width: 20%;
+    padding: 10px;
+}
+.cardicproiconboxbg {
+    background: white;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 2pt 3pt 3pt rgb(0 0 0 / 20%);
+}
+.cardicproiconimg {
+    width: 85px;
+    margin: auto;
+}
+
+.cardicproiconimg img {
+    width: 100%;
+}
+
+.cardicproiconhead {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) { 
+
+
+    .cardicproiconbox {
+        width: 50%;
+        padding: 5px;
+    }
+    .cardicproiconhead {
+        font-size: 10px;
+    }
+    .cardicproiconimg {
+        width: 60px;
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

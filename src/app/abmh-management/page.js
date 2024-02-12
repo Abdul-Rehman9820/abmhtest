@@ -135,7 +135,7 @@ const Abmanagement = () => {
               </div>
             </div>
 
-            {/* <div className="cstbloglayot revercelayout" id="Dr-Rajshekhar-Iyer">
+            <div className="cstbloglayot revercelayout" id="Dr-Rajshekhar-Iyer">
               <div className="cstbloglayot1">
                 <Image width={400} height={400} src="/bodimg/Dr-Rajshekhar-Iyer.png" alt="img" />
               </div>
@@ -143,19 +143,12 @@ const Abmanagement = () => {
                 <div className="cstbloglayothead">Dr. Rajshekhar Iyer</div>
                 <div className="cstbloglayothead2">Medical Advisor</div>
                 <div className="cstbloglayotpara">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
+                
                 </div>
-                <div className="cstbloglayotpara">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
-                </div>
+              
               </div>
             </div>
+
             <div className="cstbloglayot" id="Dr-Ashutosh-Srivastava" >
               <div className="cstbloglayot1">
                 <Image width={400} height={400} src="/bodimg/Dr-Ashutosh-Srivastava.png" alt="img" />
@@ -164,25 +157,32 @@ const Abmanagement = () => {
                 <div className="cstbloglayothead">Dr. Ashutosh Srivastava</div>
                 <div className="cstbloglayothead2">Medical Director</div>
                 <div className="cstbloglayotpara">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
+                 
                 </div>
-                <div className="cstbloglayotpara">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
-                </div>
-                <div className="cstbloglayotpara">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
-                </div>
+            
               </div>
-            </div> */}
+            </div>
+
+            <div className="cstbloglayot revercelayout" id="Dr-Nitin-Mahantshetty">
+              <div className="cstbloglayot1">
+                <Image width={400} height={400} src="/bodimg/Dr-Nitin-Mahantshetty.png" alt="img" />
+              </div>
+              <div className="cstbloglayot2">
+                <div className="cstbloglayothead">Dr. Nitin Mahantshetty</div>
+                <div className="cstbloglayothead2">Deputy Medical Director</div>
+                <div className="cstbloglayotpara">
+                Dr. Nitin Mahantshetty, MBBS, M.D. (Anesthesiology), PDCC (Cardiac Anesthesia), is the Deputy Medical Director and Senior Consultant at Aditya Birla Memorial Hospital. With over 20 years of experience in the healthcare industry, he excels as both a clinician and administrator. Specializing in Cardiac Anesthesiology and Critical Care Medicine, Dr. Mahantshetty has been actively involved in managing cardiovascular sciences and ICU as the Head of Department for over 15 years.
+                </div>
+                <div className="cstbloglayotpara">
+                He earned his MBBS from J.N. Medical College, Belgaum, and completed his post-graduation in M.D. Anesthesiology from the Government Medical College in Vadodara. Furthering his expertise, he pursued a PDCC in Cardiac Anesthesia and Critical Care Medicine from KLE&apos;S Hospital And MRC, Belgaum. Proficient in Adult and Pediatric Cardiac Anesthesia, Intraoperative Transesophageal Echocardiography, and FATTE, he has presented papers and chaired sessions at State and National level conferences.
+                </div>
+                <div className="cstbloglayotpara">
+                Dr. Mahantshetty is an active participant in NASDP, providing hands-on training in cardiac anesthesia and FATTE. He is associated with prominent medical councils and societies, including the Indian Society of Critical Care Medicine, Karnataka Medical Council, Gujarat Medical Council, MMC, and IACTA.
+                </div>
+              
+              </div>
+            </div>
+
 
           </div>
         </div>
