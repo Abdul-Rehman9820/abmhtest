@@ -403,7 +403,7 @@ const Dentistry = () => {
                   <div className="cardicproiconbox">
                     <div className="cardicproiconboxbg">
                       <div className="cardicproiconimg">
-                        <Image width={400} height={400} src="/homeimg/cardiac_science.png" alt="icon" />
+                        <Image width={400} height={400} src="/cardic_programimg/heart-attack.png" alt="icon" />
                       </div>
                       <h2 className="cardicproiconhead">Heart Attack</h2>
                     </div>
@@ -411,7 +411,7 @@ const Dentistry = () => {
                   <div className="cardicproiconbox">
                     <div className="cardicproiconboxbg">
                       <div className="cardicproiconimg">
-                        <Image width={400} height={400} src="/homeimg/cardiac_science.png" alt="icon" />
+                        <Image width={400} height={400} src="/cardic_programimg/Valve Surgery.png" alt="icon" />
                       </div>
                       <h2 className="cardicproiconhead">Valve Surgery</h2>
                     </div>
@@ -427,7 +427,7 @@ const Dentistry = () => {
                   <div className="cardicproiconbox">
                     <div className="cardicproiconboxbg">
                       <div className="cardicproiconimg">
-                        <Image width={400} height={400} src="/homeimg/cardiac_science.png" alt="icon" />
+                        <Image width={400} height={400} src="/cardic_programimg/Coronary Artery Bypass Surgery.png" alt="icon" />
                       </div>
                       <h2 className="cardicproiconhead">Coronary Artery Bypass Surgery</h2>
                     </div>

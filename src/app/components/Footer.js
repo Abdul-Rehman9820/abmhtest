@@ -45,7 +45,7 @@ const Footer = () => {
                   <div className="linkfootdiv">
                     <div className="linkfoolist">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmob.png" alt="img" />
-                      <Link href="/">+91 9881123006 </Link>
+                      <Link href="tel: +919881123006">+91 9881123006 </Link>
                     </div>
                     <div className="linkfoolist fomail">
                       <Image width={400} height={400} className="fooimg" src="/homeimg/fooiconmail.png" alt="img" />
@@ -97,10 +97,10 @@ const Footer = () => {
                       <Link href="/doctors">Find a Doctor</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book An Appointment</Link>
+                      <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book an Appointment</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/leave-a-feedback-form">Leave A feedback</Link>
+                      <Link href="/leave-a-feedback-form">Leave a Feedback</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/work-with-us">Career</Link>
@@ -304,10 +304,10 @@ const Footer = () => {
                       <Link href="/doctors">Find a Doctor</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book An Appointment</Link>
+                      <Link href="https://portal.abmhslp.com/AbmhPortal/#/login">Book an Appointment</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/leave-a-feedback-form">Leave A feedback</Link>
+                      <Link href="/leave-a-feedback-form">Leave a Feedback</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/work-with-us">Career</Link>
