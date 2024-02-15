@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import '../specialityviewpagecommon.css'
+import './cardiac-seprfile.css'
 
 
 
@@ -157,11 +158,11 @@ const Dentistry = () => {
 
               </div>
 
-              <div className="spectitlegrcont2">
+              <div className="spectitlegrcont2newcenter">
 
 
-                <div className="testimgboxcont">
-                  <Link href="">
+                <div className="testimgboxcont" id="CardiacWellness">
+                  <Link href="/specialties-sub/cardiac-care-program#CardiacWellness">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/cardic_programimg/Cardiac Wellness.jpg" alt="img" />
                     </div>
@@ -171,7 +172,7 @@ const Dentistry = () => {
                   </Link>
                 </div>
                 <div className="testimgboxcont">
-                  <Link href="">
+                  <Link href="/specialties-sub/cardiac-care-program#CardiacRehabilitation">
                     <div className="testimgboxcot1">
                       <Image width={400} height={400} src="/cardic_programimg/Cardiac rehabilitation.jpg" alt="img" />
                     </div>
@@ -223,7 +224,6 @@ const Dentistry = () => {
 
 
 
-
       {/* sub specialties start*/}
       <div className="parentcontainerwhi specipgGRY">
         <div className="customcontainer">
@@ -234,56 +234,55 @@ const Dentistry = () => {
               <div className="spectitlegrcont2">
 
 
-                <div className="testimgboxcont">
-                  <Link href="">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/cardic_programimg/Hypertension.jpg" alt="img" />
+                <div className="cardicproicon">
+
+
+
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Hypertension.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Hypertension</h2>
                     </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Hypertension</p>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Obesity.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Obesity</h2>
                     </div>
-                  </Link>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Diabetics.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Diabetes</h2>
+                    </div>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/High cholestrol.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">High Cholesterol</h2>
+                    </div>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Family-history.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Family History of Cardiac Diseases</h2>
+                    </div>
+                  </div>
+
+
+
                 </div>
-                <div className="testimgboxcont">
-                  <Link href="">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/cardic_programimg/Obesity.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Obesity</p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="testimgboxcont">
-                  <Link href="">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/cardic_programimg/Diabetics.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Diabetes</p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="testimgboxcont">
-                  <Link href="">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/cardic_programimg/High cholesterol.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">High Cholesterol</p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="testimgboxcont">
-                  <Link href="">
-                    <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/cardic_programimg/Family history of cardiac disease.jpg" alt="img" />
-                    </div>
-                    <div className="testimgboxcot2">
-                      <p className="testimgtitle">Family history of Cardiac Diseases</p>
-                    </div>
-                  </Link>
-                </div>
+
 
 
               </div>
@@ -292,25 +291,6 @@ const Dentistry = () => {
         </div>
       </div>
       {/* sub specialties end*/}
-
-
-
-      {/* <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="specsingleparn">
-
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </div> */}
-
-
 
       <div className="parentcontainerwhi">
         <div className="customcontainer">
@@ -355,7 +335,7 @@ const Dentistry = () => {
                     </p>
                   </li>
                   <li>
-                    <p className="specilpara">
+                    <p className="specilpara" id="CardiacRehabilitation">
                       <b>Promotion of Healthy Eating Habits:</b> Choosing nutrient-rich foods and limiting the intake of unhealthy fats and sugars supports heart health and overall well-being.
                     </p>
                   </li>
@@ -370,10 +350,7 @@ const Dentistry = () => {
                     </p>
                   </li>
 
-
                 </ol>
-
-
 
 
               </div>
@@ -396,32 +373,93 @@ const Dentistry = () => {
                   People with following conditions are eligible to enroll for this program:
                 </p>
 
-                <ol className="specULbullet">
 
-                  <li>
-                    <p className="specilpara">
-                      Heart Attack
-                    </p>
-                  </li>
-                  <li>
-                    <p className="specilpara">
-                      Valve Surgery
-                    </p>
-                  </li>
-                  <li>
-                    <p className="specilpara">
-                      Coronary Angioplasty
-                    </p>
-                  </li>
-                  <li>
-                    <p className="specilpara">
-                      Coronary Artery Bypass Surgery
-                    </p>
-                  </li>
+              </div>
 
-                </ol>
+            </div>
 
-                <p className="specilpara">
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* sub specialties start*/}
+      <div className="parentcontainerwhi specipgGRY">
+        <div className="customcontainer">
+          <div className="specsingleparnGra">
+            <div className="spectitlegrcont">
+
+
+              <div className="spectitlegrcont2">
+
+
+                <div className="cardicproicon">
+
+
+
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/heart-attack.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Heart Attack</h2>
+                    </div>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Valve Surgery.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Valve Surgery</h2>
+                    </div>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Coronary Angioplasty.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Coronary Angioplasty</h2>
+                    </div>
+                  </div>
+                  <div className="cardicproiconbox">
+                    <div className="cardicproiconboxbg">
+                      <div className="cardicproiconimg">
+                        <Image width={400} height={400} src="/cardic_programimg/Coronary Artery Bypass Surgery.png" alt="icon" />
+                      </div>
+                      <h2 className="cardicproiconhead">Coronary Artery Bypass Surgery</h2>
+                    </div>
+                  </div>
+            
+
+
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* sub specialties end*/}
+
+
+
+      <div className="parentcontainerwhi">
+        <div className="customcontainer">
+          <div className="specsingleparn">
+
+
+
+
+            <div className="spectitleimgbox">
+
+              <div className="">
+
+                <p className="specilpara simmargin">
                   <b>Why Choose this Program?</b>
                 </p>
 

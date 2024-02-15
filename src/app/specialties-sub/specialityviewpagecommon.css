@@ -170,8 +170,13 @@ p.specilpara {
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 17%);
     border-radius: 20px;
     padding: 10px;
+    height: 100%;
     position: relative;
     background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .ourteambox1single {
@@ -219,6 +224,7 @@ p.specilpara {
 
 .ourteambox2 {
     margin-top: 25px;
+    width: 100%;
 }
 
 .ourteambox2flex {
