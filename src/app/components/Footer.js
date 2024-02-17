@@ -103,7 +103,7 @@ const Footer = () => {
                       <Link href="/leave-a-feedback-form">Leave a Feedback</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/work-with-us">Career</Link>
+                      <Link href="/work-with-us-form">Career</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/insurance-and-tpa">Insurance & TPA</Link>
@@ -310,7 +310,7 @@ const Footer = () => {
                       <Link href="/leave-a-feedback-form">Leave a Feedback</Link>
                     </div>
                     <div className="linkfoolist">
-                      <Link href="/work-with-us">Career</Link>
+                      <Link href="/work-with-us-form">Career</Link>
                     </div>
                     <div className="linkfoolist">
                       <Link href="/insurance-and-tpa">Insurance & TPA</Link>

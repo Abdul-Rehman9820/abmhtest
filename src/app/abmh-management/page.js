@@ -36,9 +36,9 @@ const Abmanagement = () => {
       {/* common heading div end*/}
       {/* common heading banner start */}
       <div className="mainheadingbanner">
-      <div className="mainheadingbandiv">
-             <Image width={2000} height={400} src="/commonimages/commbanManagement.png" alt="icon" />
-      </div>
+        <div className="mainheadingbandiv">
+          <Image width={2000} height={400} src="/commonimages/commbanManagement.png" alt="icon" />
+        </div>
       </div>
 
       {/* common heading banner end */}
@@ -73,7 +73,7 @@ const Abmanagement = () => {
                 </div>
               </div>
             </div>
-            <div className="cstbloglayot revercelayout" id="Shri-Ashkaran-Agarwal">
+            <div className="cstbloglayot" id="Shri-Ashkaran-Agarwal">
               <div className="cstbloglayot1">
                 <Image width={400} height={400} src="/bodimg/Shri-Ashkaran-Agarwal.png" alt="img" />
               </div>
@@ -135,7 +135,7 @@ const Abmanagement = () => {
               </div>
             </div>
 
-            <div className="cstbloglayot revercelayout" id="Dr-Rajshekhar-Iyer">
+            <div className="cstbloglayot" id="Dr-Rajshekhar-Iyer">
               <div className="cstbloglayot1">
                 <Image width={400} height={400} src="/bodimg/Dr-Rajshekhar-Iyer.png" alt="img" />
               </div>
@@ -143,9 +143,15 @@ const Abmanagement = () => {
                 <div className="cstbloglayothead">Dr. Rajshekhar Iyer</div>
                 <div className="cstbloglayothead2">Medical Advisor</div>
                 <div className="cstbloglayotpara">
-                
+                  Dr. Rajshekhar Ramnath Iyer is a distinguished healthcare professional with a wealth of experience and expertise in public health. Born on May 20th, 1954, in India, he has dedicated his career to advancing healthcare services and contributing significantly to community well-being. Dr. Iyer&apos;s educational journey includes earning his Bachelor of Medicine and Bachelor of Surgery (MBBS) from Jivaji University, Gwalior, in 1979, followed by a Postgraduate Diploma in Public Health from Pune University in 1997, enhancing his qualifications and knowledge in public health management.
                 </div>
-              
+                <div className="cstbloglayotpara">
+                With over 33 years of professional experience, Dr. Iyer has played a crucial role in planning, procuring, and managing healthcare facilities. Beginning as an In-charge Medical Officer at Talera Hospital, PCMC, in 1979, he progressively contributed to the growth of healthcare facilities, overseeing the administration of multiple hospitals and dispensaries. Notably, he served as the Medical Director at Aditya Birla Health Services Private Limited from May 2012 to October 2019, showcasing his leadership and management skills.
+                </div>
+                <div className="cstbloglayotpara">
+                Currently serving as the Medical Advisor since November 2019, Dr. Iyer continues to contribute his valuable insights to Aditya Birla Health Services. His multifaceted expertise, international contributions, and commitment to public health make Dr. Rajshekhar Ramnath Iyer an invaluable asset in the healthcare field, positively impacting healthcare delivery and community well-being.
+                </div>
+
               </div>
             </div>
 
@@ -157,13 +163,22 @@ const Abmanagement = () => {
                 <div className="cstbloglayothead">Dr. Ashutosh Srivastava</div>
                 <div className="cstbloglayothead2">Medical Director</div>
                 <div className="cstbloglayotpara">
-                 
+                Dr. Ashutosh Srivastava, a seasoned healthcare professional with over 28 years of multifaceted experience, proudly serves as the Medical Director at Aditya Birla Memorial Hospital. In this crucial role within the multidisciplinary super specialty corporate hospital, Dr. Srivastava spearheads clinical leadership, ensuring the highest standards of patient care, collaborating with department heads to establish clinical protocols, and monitoring the quality of medical services.
                 </div>
-            
+                <div className="cstbloglayotpara">
+                He is actively involved in smooth functioning of Tumour Board and is Chairman of Organ Transplant Committee. He was instrumental in formation of Institutional Ethics Committee, Scientific Research Committee and more like HICC etc. With a remarkable career journey, that, spans from foundational roles in hospital administration to executive leadership, Dr.  Srivastava&apos;s impact extends across various domains like Digitalization – in which we are pioneers in 100% digitalization which includes OPD prescriptions, whole process of IPD from admission to discharge in which all equipments & monitors are integrated with hospital software. 
+                </div>
+                <div className="cstbloglayotpara">
+                This integration has reduced 40% documentation manual and monitoring documentation. He was actively involved in various accreditation activities in which achieved accomplishment in ACHS (Australian Council for Health Care Standards) implementation, Robotic Surgery, HICC, Credentialing of clinical staff etc. His strategic vision has been instrumental in contributing to the hospital&apos;s growth, aligning medical services with overarching goals, and identifying opportunities for enhancement.
+                </div>
+                <div className="cstbloglayotpara">
+                His commitment to crisis management, technological integration and quality assurance reflects a dedication to ethical practice, patient safety and satisfaction. As a leader, he has successfully steer changes in healthcare regulations, advanced medical technologies and evolving patient expectations, leaving behind a lasting legacy of a well-managed patient-centric and cost-effective healthcare organization. Dr. Ashutosh Srivastava’s leadership draws attention to commitment to excellence, innovation and kindhearted patient care.
+                </div>
+
               </div>
             </div>
 
-            <div className="cstbloglayot revercelayout" id="Dr-Nitin-Mahantshetty">
+            <div className="cstbloglayot" id="Dr-Nitin-Mahantshetty">
               <div className="cstbloglayot1">
                 <Image width={400} height={400} src="/bodimg/Dr-Nitin-Mahantshetty.png" alt="img" />
               </div>
@@ -171,15 +186,15 @@ const Abmanagement = () => {
                 <div className="cstbloglayothead">Dr. Nitin Mahantshetty</div>
                 <div className="cstbloglayothead2">Deputy Medical Director</div>
                 <div className="cstbloglayotpara">
-                Dr. Nitin Mahantshetty, MBBS, M.D. (Anesthesiology), PDCC (Cardiac Anesthesia), is the Deputy Medical Director and Senior Consultant at Aditya Birla Memorial Hospital. With over 20 years of experience in the healthcare industry, he excels as both a clinician and administrator. Specializing in Cardiac Anesthesiology and Critical Care Medicine, Dr. Mahantshetty has been actively involved in managing cardiovascular sciences and ICU as the Head of Department for over 15 years.
+                  Dr. Nitin Mahantshetty, MBBS, M.D. (Anesthesiology), PDCC (Cardiac Anesthesia), is the Deputy Medical Director and Senior Consultant at Aditya Birla Memorial Hospital. With over 20 years of experience in the healthcare industry, he excels as both a clinician and administrator. Specializing in Cardiac Anesthesiology and Critical Care Medicine, Dr. Mahantshetty has been actively involved in managing cardiovascular sciences and ICU as the Head of Department for over 15 years.
                 </div>
                 <div className="cstbloglayotpara">
-                He earned his MBBS from J.N. Medical College, Belgaum, and completed his post-graduation in M.D. Anesthesiology from the Government Medical College in Vadodara. Furthering his expertise, he pursued a PDCC in Cardiac Anesthesia and Critical Care Medicine from KLE&apos;S Hospital And MRC, Belgaum. Proficient in Adult and Pediatric Cardiac Anesthesia, Intraoperative Transesophageal Echocardiography, and FATTE, he has presented papers and chaired sessions at State and National level conferences.
+                  He earned his MBBS from J.N. Medical College, Belgaum, and completed his post-graduation in M.D. Anesthesiology from the Government Medical College in Vadodara. Furthering his expertise, he pursued a PDCC in Cardiac Anesthesia and Critical Care Medicine from KLE&apos;S Hospital And MRC, Belgaum. Proficient in Adult and Pediatric Cardiac Anesthesia, Intraoperative Transesophageal Echocardiography, and FATTE, he has presented papers and chaired sessions at State and National level conferences.
                 </div>
                 <div className="cstbloglayotpara">
-                Dr. Mahantshetty is an active participant in NASDP, providing hands-on training in cardiac anesthesia and FATTE. He is associated with prominent medical councils and societies, including the Indian Society of Critical Care Medicine, Karnataka Medical Council, Gujarat Medical Council, MMC, and IACTA.
+                  Dr. Mahantshetty is an active participant in NASDP, providing hands-on training in cardiac anesthesia and FATTE. He is associated with prominent medical councils and societies, including the Indian Society of Critical Care Medicine, Karnataka Medical Council, Gujarat Medical Council, MMC, and IACTA.
                 </div>
-              
+
               </div>
             </div>
 

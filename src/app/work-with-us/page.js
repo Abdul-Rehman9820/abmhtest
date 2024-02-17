@@ -16,7 +16,7 @@ const Workwithus = () => {
   useEffect(() => {
 
 
-    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
 
@@ -81,7 +81,7 @@ const Workwithus = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Medical Staff -04 Vacancies
+                    Medical Staff
                   </button>
                 </h2>
                 <div
@@ -98,6 +98,7 @@ const Workwithus = () => {
                             <th>Position</th>
                             <th>Experience Required</th>
                             <th>Last Date</th>
+                            <th>Job Description</th>
                             <th>Action</th>
                           </tr>
                         </thead>
@@ -117,6 +118,12 @@ const Workwithus = () => {
                                     />
                                   </Link>
                                 </span>
+                             
+                              </div>
+                            </td>
+                            <td>
+                              <div className="applybtn">
+                             
                                 <span>
                                   <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
@@ -140,6 +147,12 @@ const Workwithus = () => {
                                     />
                                   </Link>
                                 </span>
+                             
+                              </div>
+                            </td>
+                            <td>
+                              <div className="applybtn">
+                             
                                 <span>
                                   <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
@@ -148,6 +161,7 @@ const Workwithus = () => {
                               </div>
                             </td>
                           </tr>
+                         
 
                         </tbody>
                       </table>
@@ -166,7 +180,7 @@ const Workwithus = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Nursing -03 Vacancies
+                    Nursing
                   </button>
                 </h2>
                 <div
@@ -250,7 +264,7 @@ const Workwithus = () => {
                     aria-expanded="false"
                     aria-controls="collapsefour"
                   >
-                    Technical Support - 05 Vacancies
+                    Technical Support
                   </button>
                 </h2>
                 <div
