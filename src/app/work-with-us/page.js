@@ -16,7 +16,7 @@ const Workwithus = () => {
   useEffect(() => {
 
 
-     window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+    window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
 
   }, []);
 
@@ -55,16 +55,13 @@ const Workwithus = () => {
 
           {/* comment if no opening*/}
 
-          <div className="workwithuscont">
+          {/* <div className="workwithuscont">
 
+            <h4>There are no current openings</h4>
 
-                  <h4>There are no current openings</h4>
-
-          </div>
-
+          </div> */}
 
           {/* comment if no opening*/}
-
 
           {/* <div className="workwithuscont">
 
@@ -254,23 +251,36 @@ const Workwithus = () => {
                 </div>
               </div>
 
+            
+            </div>
+
+
+          </div> */}
+
+
+
+          <div className="workwithuscont">
+
+
+            <div className="accordion" id="accordionExample">
+
               <div className="accordion-item">
-                <h2 className="accordion-header" id="headingfour">
+                <h2 className="accordion-header" id="headingOne">
                   <button
-                    className="accordion-button collapsed"
+                    className="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapsefour"
-                    aria-expanded="false"
-                    aria-controls="collapsefour"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
                   >
-                    Technical Support
+                    Current Openings
                   </button>
                 </h2>
                 <div
-                  id="collapsefour"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="headingfour"
+                  id="collapseOne"
+                  className="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
@@ -279,20 +289,21 @@ const Workwithus = () => {
                         <thead>
                           <tr>
                             <th>Position</th>
-                            <th>Experience Required</th>
-                            <th>Last Date</th>
+                            <th>Last Date To Apply</th>
+                            <th>Job Description</th>
                             <th>Action</th>
                           </tr>
                         </thead>
                         <tbody>
+
+
                           <tr>
-                            <td>Medical Officer</td>
-                            <td>2+ Years</td>
-                            <td>20 November, 2023</td>
+                            <td>AGM Finance Application</td>
+                            <td> --- </td>
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <Link href="">
+                                  <Link href="/JobPDF/JD-AGM Finance Application-17-2-24.pdf" target="_blank" >
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
@@ -300,6 +311,12 @@ const Workwithus = () => {
                                     />
                                   </Link>
                                 </span>
+
+                              </div>
+                            </td>
+                            <td>
+                              <div className="applybtn">
+
                                 <span>
                                   <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
@@ -308,14 +325,14 @@ const Workwithus = () => {
                               </div>
                             </td>
                           </tr>
+
                           <tr>
-                            <td>Medical Officer</td>
-                            <td>2+ Years</td>
-                            <td>20 November, 2023</td>
+                            <td>Team Leader Position- Nursing </td>
+                            <td> --- </td>
                             <td>
                               <div className="applybtn">
                                 <span className="downpdg">
-                                  <Link href="">
+                                  <Link href="/JobPDF/JD-TL Position Nursing-17-02-24.pdf" target="_blank" >
                                     <Image width={100} height={100}
                                       src="/commonimages/download-pdf.png"
                                       className="donwpdfimg"
@@ -323,6 +340,12 @@ const Workwithus = () => {
                                     />
                                   </Link>
                                 </span>
+
+                              </div>
+                            </td>
+                            <td>
+                              <div className="applybtn">
+
                                 <span>
                                   <Link className="donwpdftext" href="/work-with-us-form">
                                     APPLY
@@ -331,6 +354,7 @@ const Workwithus = () => {
                               </div>
                             </td>
                           </tr>
+                
 
                         </tbody>
                       </table>
@@ -339,11 +363,11 @@ const Workwithus = () => {
                 </div>
               </div>
 
+    
             </div>
 
 
-          </div> */}
-
+          </div>
 
 
         </div>
