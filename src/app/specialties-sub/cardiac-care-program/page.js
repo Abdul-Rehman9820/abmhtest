@@ -674,7 +674,7 @@ const Dentistry = () => {
               <p className="specilpara">
                 To enroll or get details about cardiac wellness rehabilitation, consult your cardiologist / consultant for eligibility assessment and necessary referrals.
               </p>
-              <p className="specilpara">
+              <p className="specilpara yellowdiv">
                 To Know More about Cardiac Care Program & Registration Call On <span><Link className="cardiac-care-programCTA" href="tel:+919075001165">+91 90750 01165</Link></span>
               </p>
 

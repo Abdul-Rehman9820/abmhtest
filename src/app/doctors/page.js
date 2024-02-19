@@ -467,10 +467,10 @@ const Doctors = () => {
                           <div className="ourteamslideboxdr">
                             <div className="ourteambox1dr">
                               <div className="ourteamimgdr">
-                                <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt={"Dr "+ item.DoctorFName +" "+ item.DoctorLName} />
+                                <Image width={400} height={400} src={`/DoctorsProfileimages/${item.DoctorProfileImage}`} alt={"Dr. "+ item.DoctorFName +" "+ item.DoctorLName} />
                               </div>
                               <div className="ourteamnamedr">
-                                <h2>Dr {item.DrFullName}</h2>
+                                <h2>Dr. {item.DrFullName}</h2>
                               </div>
                               <div className="ourteamspecdr">
                                 <h2>{item.DoctorDesignation}</h2>

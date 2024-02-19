@@ -125,18 +125,18 @@ const Doctorprofile = () => {
 
                           <div className="profilebreadcrumbs">
                             <div className="breadcrumbsdata">
-                              <span><Link className='breadcrumbredirectback' href="/doctors">Doctors / </Link></span><span className="breadcrumbsactive">Dr {item.DoctorFName} {item.DoctorLName}</span>
+                              <span><Link className='breadcrumbredirectback' href="/doctors">Doctors / </Link></span><span className="breadcrumbsactive">Dr. {item.DoctorFName} {item.DoctorLName}</span>
                             </div>
                           </div>
 
                           <div className="profileimg">
                             <Image width={400} height={400}
                               src={`/DoctorsProfileimages/${item.DoctorProfileImage}`}
-                              alt={"Dr " + item.DoctorFName + "" + item.DoctorLName}
+                              alt={"Dr. " + item.DoctorFName + "" + item.DoctorLName}
                             />
                           </div>
                           <div className="profilename">
-                            <h1>Dr {item.DoctorFName} {item.DoctorLName}</h1>
+                            <h1>Dr. {item.DoctorFName} {item.DoctorLName}</h1>
                           </div>
                           <div className="profileSpeciality">
                             <h2>{item.DoctorDesignation}</h2>

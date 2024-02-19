@@ -601,7 +601,7 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-rajiv-sethi.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Rajiv Bundashah Sethi</h2>
+                              <h2>Dr. Rajiv Bundashah Sethi</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Sr. Consultant Interventional Cardiology</h2>
@@ -626,7 +626,7 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-rakesh-ranjan.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Rakesh Ranjan</h2>
+                              <h2>Dr. Rakesh Ranjan</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Associate Director Neuro Surgery</h2>
@@ -651,7 +651,7 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-nikhil-parwate.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Nikhil Sadanand Parwate</h2>
+                              <h2>Dr. Nikhil Sadanand Parwate</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Consultant - Gynae Onco Surgeon</h2>
@@ -686,7 +686,7 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-j-c-purohit.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Jagdish Chander Purohit</h2>
+                              <h2>Dr. Jagdish Chander Purohit</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Director Orthopaedics</h2>
@@ -711,7 +711,7 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-mrunmaya-panda.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Mrunmaya Bijoy Panda</h2>
+                              <h2>Dr. Mrunmaya Bijoy Panda</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Gastroenterologist</h2>
@@ -736,7 +736,7 @@ export default function Home() {
                               <Image width={400} height={400} src="/DoctorsProfileimages/dr-rahul-kalliyanpur.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr Rahul Suresh Kallianpur</h2>
+                              <h2>Dr. Rahul Suresh Kallianpur</h2>
                             </div>
                             <div className="ourteamspec">
                               <h2>Associate Director Neonatologist & Pediatric</h2>

@@ -43,7 +43,11 @@
     justify-content: center;
 }
 
-
+p.specilpara.yellowdiv {
+    background: #ffe468;
+    padding: 10px 5px;
+    font-weight: 600;
+}
 
 
 
