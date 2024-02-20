@@ -88,7 +88,7 @@ const Dentistry = () => {
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
-                  Home / Our Specialties / <span className="breadcrumbsactive">Dentistry</span>
+                  Home / Our Specialties / <span className="breadcrumbsactive">Amino</span>
                 </div>
               </div>
             </div>

@@ -24,11 +24,12 @@ const Aboutus = () => {
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
-            <div id="aboutus"></div>
+              <div id="aboutus"></div>
               <div className="breadcrumbs">
                 <div className="breadcrumbsdata">
+                  {/* <Link className="commbred" href="/"> Home </Link> / <span className="breadcrumbsactive">About Us</span> */}
                   Home / <span className="breadcrumbsactive">About Us</span>
-                </div>              
+                </div>
               </div>
             </div>
           </div>
@@ -71,7 +72,7 @@ const Aboutus = () => {
                   Mr. Birla believed in a unique form of globalization, where a business could be global while being rooted in India. His relentless efforts positioned his companies as industry leaders, earning respect as one of India‘s
                   finest business houses and the first India-based international Group.
                 </p>
-                <div  id="vision-mission"></div>
+                <div id="vision-mission"></div>
 
 
                 <div className="collapse" id="collapseExample">

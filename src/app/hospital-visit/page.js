@@ -119,6 +119,7 @@ const Virtualtour = () => {
           <Image width={2000} height={400} src="/commonimages/commvirtulnewban.jpg" alt="icon" />
         </div>
       </div>
+      <div id="PatientsTestimonials"></div>
       {/* common heading banner end */}
       {/* Hospirtal tour start*/}
       <div className="parentcontainerwhi">
@@ -130,7 +131,7 @@ const Virtualtour = () => {
                 <span className="Commheadborder" />
               </div>
             </div>
-            <div className="turevideo" id="PatientsTestimonials">
+            <div className="turevideo">
               <iframe
                 className="turevidiframe"
                 src="https://www.youtube.com/embed/s7mRRpj6buM"

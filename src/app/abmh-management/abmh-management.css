@@ -4,26 +4,7 @@
 
 
 
-/* breadcrumbs  start*/ 
 
-.breadcrumbs {
-    padding: 24px 0px;
-}
-
-
-.breadcrumbsdata {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-
-.breadcrumbsactive{
-    color: #A21B18;
-}
-
-
-/* breadcrumbs  end*/ 
 
 
 
@@ -91,14 +72,15 @@
 }
 
 .cstbloglayot1 img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 80%;
     object-fit: cover;
     display: block;
-    margin: auto;
+    padding: 5px;
+    border: 1px solid #a21b18;
     box-shadow: 0pt 1pt 4pt rgb(0 0 0 / 32%);
 }
+
+
 .cstbloglayothead {
     font-size: 25px;
     font-weight: 500;
@@ -220,8 +202,7 @@
     width: 100%;
 }
 .cstbloglayot1 img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
     margin-bottom: 10px;
 }
 .cstbloglayothead {

@@ -43,7 +43,7 @@ const Contactus = () => {
       setMessage(value);
     } else if (name === "userdate") {
       setDate(value);
-    }else if (name === "userSelect") {
+    } else if (name === "userSelect") {
       setSelectedOption(value);
     }
 
@@ -162,11 +162,11 @@ const Contactus = () => {
       </div>
       {/* common heading div end*/}
       {/* common heading banner start */}
-      <div className="mainheadingbanner">
+      {/* <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
           <Image width={2000} height={400} src="/commonimages/wellness-packages-banner.jpg" alt="icon" />
         </div>
-      </div>
+      </div> */}
       {/* common heading banner end */}
       {/* contact us pg start*/}
       <div className="parentcontainerwhi">
@@ -180,42 +180,71 @@ const Contactus = () => {
                       <h3 className="well-book-head">Book Wellness Packages</h3>
 
                       <form onSubmit={handleSubmit}>
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="username"
-                          placeholder="Your Name"
-                          value={uname}
-                          onChange={handleChange}
-                          required
-                        />
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="userPhone"
-                          placeholder="Your Phone"
-                          value={uphone}
-                          onChange={handleChange}
-                          required
-                        />
-                        <input
-                          type="email"
-                          className="form-control"
-                          name="usermail"
-                          placeholder="Your Email"
-                          value={uemail}
-                          onChange={handleChange}
-                          required
-                        />
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="userlocation"
-                          placeholder="Your Location"
-                          value={ulocation}
-                          onChange={handleChange}
-                          required
-                        />
+
+                        <div className="flexinput">
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="text"
+                              className="form-control"
+                              name="username"
+                              placeholder="Your Name"
+                              value={uname}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="text"
+                              className="form-control"
+                              name="userPhone"
+                              placeholder="Your Phone"
+                              value={uphone}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                        </div>
+
+                        <div className="flexinput">
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="email"
+                              className="form-control"
+                              name="usermail"
+                              placeholder="Your Email"
+                              value={uemail}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="text"
+                              className="form-control"
+                              name="userlocation"
+                              placeholder="Your Location"
+                              value={ulocation}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                        </div>
+
                         <textarea
                           name="usermessage"
                           className="form-control"

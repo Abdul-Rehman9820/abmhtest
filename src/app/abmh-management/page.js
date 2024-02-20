@@ -41,6 +41,8 @@ const Abmanagement = () => {
         </div>
       </div>
 
+      <div id="Smt-Rajashree-Birla"></div>
+
       {/* common heading banner end */}
       {/* CSR start*/}
       <div className="parentcontainerwhi">
@@ -52,9 +54,9 @@ const Abmanagement = () => {
                 <span className="CSRpolyheadborder" />
               </div>
             </div>
-            <div className="cstbloglayot" id="Smt-Rajashree-Birla" >
+            <div className="cstbloglayot"  >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Smt-Rajashree-Birla.png" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Smt-Rajashree-Birla.jpg" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Smt. Rajashree Birla</div>
@@ -65,6 +67,10 @@ const Abmanagement = () => {
                   Chairperson of FICCI - Aditya Birla CSR Centre for Excellence and a Board member of prominent organizations, Mrs.
                   Birla oversees the Aditya Birla Group&lsquo;s extensive healthcare and education projects across 7,000 villages, touching the lives of over 9 million people.
                 </div>
+
+                <div id="Shri-Ashkaran-Agarwal"></div>
+
+
                 <div className="cstbloglayotpara">
                   Recipient of the prestigious Padma Bhushan Award and numerous accolades for her contributions to social causes,
                   Mrs. Rajashree Birla is a Director on the Boards of major Aditya Birla Group companies. Her humanitarian legacy is recognized globally,
@@ -73,9 +79,9 @@ const Abmanagement = () => {
                 </div>
               </div>
             </div>
-            <div className="cstbloglayot" id="Shri-Ashkaran-Agarwal">
+            <div className="cstbloglayot">
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Shri-Ashkaran-Agarwal.png" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Shri-Ashkaran-Agarwal.jpg" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Shri Ashkaran Agarwal</div>
@@ -100,6 +106,9 @@ const Abmanagement = () => {
                   Vice-Chairman of the International Aluminum Institution for a substantial period. His commitment is further evidenced by his service on various
                   committees formed by both State and Central Governments.
                 </div>
+
+                <div  id="chief-executive-rekha-dubey" ></div>
+
               </div>
             </div>
             <div className="CSRpolyhead">
@@ -108,9 +117,9 @@ const Abmanagement = () => {
                 <span className="CSRpolyheadborder" />
               </div>
             </div>
-            <div className="cstbloglayot" id="chief-executive-rekha-dubey" >
+            <div className="cstbloglayot">
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Rekha.png" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Rekha.jpg" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Rekha Dubey</div>
@@ -128,6 +137,9 @@ const Abmanagement = () => {
                   she focuses on India&lsquo;s potential in the medical sector. Her advisory roles in esteemed
                   universities and mentorship of postgraduate students at TISS showcase her dedication to shaping the next generation of healthcare professionals.
                 </div>
+
+                <div id="Dr-Rajshekhar-Iyer"></div>
+
                 <div className="cstbloglayotpara">
                   Ms. Rekha Dubey&lsquo;s legacy is marked by her unwavering commitment to excellence, making her a respected figure in the industry and an inspirational leader for aspiring
                   healthcare professionals.
@@ -135,9 +147,9 @@ const Abmanagement = () => {
               </div>
             </div>
 
-            <div className="cstbloglayot" id="Dr-Rajshekhar-Iyer">
+            <div className="cstbloglayot" >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Dr-Rajshekhar-Iyer.png" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Dr-Rajshekhar-Iyer.jpg" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Dr. Rajshekhar Iyer</div>
@@ -148,6 +160,9 @@ const Abmanagement = () => {
                 <div className="cstbloglayotpara">
                 With over 33 years of professional experience, Dr. Iyer has played a crucial role in planning, procuring, and managing healthcare facilities. Beginning as an In-charge Medical Officer at Talera Hospital, PCMC, in 1979, he progressively contributed to the growth of healthcare facilities, overseeing the administration of multiple hospitals and dispensaries. Notably, he served as the Medical Director at Aditya Birla Health Services Private Limited from May 2012 to October 2019, showcasing his leadership and management skills.
                 </div>
+
+                <div id="Dr-Ashutosh-Srivastava"></div>
+
                 <div className="cstbloglayotpara">
                 Currently serving as the Medical Advisor since November 2019, Dr. Iyer continues to contribute his valuable insights to Aditya Birla Health Services. His multifaceted expertise, international contributions, and commitment to public health make Dr. Rajshekhar Ramnath Iyer an invaluable asset in the healthcare field, positively impacting healthcare delivery and community well-being.
                 </div>
@@ -155,9 +170,9 @@ const Abmanagement = () => {
               </div>
             </div>
 
-            <div className="cstbloglayot" id="Dr-Ashutosh-Srivastava" >
+            <div className="cstbloglayot"  >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Dr-Ashutosh-Srivastava.png" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Dr-Ashutosh-Srivastava.jpg" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Dr. Ashutosh Srivastava</div>
@@ -171,6 +186,9 @@ const Abmanagement = () => {
                 <div className="cstbloglayotpara">
                 This integration has reduced 40% documentation manual and monitoring documentation. He was actively involved in various accreditation activities in which achieved accomplishment in ACHS (Australian Council for Health Care Standards) implementation, Robotic Surgery, HICC, Credentialing of clinical staff etc. His strategic vision has been instrumental in contributing to the hospital&apos;s growth, aligning medical services with overarching goals, and identifying opportunities for enhancement.
                 </div>
+
+                <div id="Dr-Nitin-Mahantshetty"></div>
+
                 <div className="cstbloglayotpara">
                 His commitment to crisis management, technological integration and quality assurance reflects a dedication to ethical practice, patient safety and satisfaction. As a leader, he has successfully steer changes in healthcare regulations, advanced medical technologies and evolving patient expectations, leaving behind a lasting legacy of a well-managed patient-centric and cost-effective healthcare organization. Dr. Ashutosh Srivastava’s leadership draws attention to commitment to excellence, innovation and kindhearted patient care.
                 </div>
@@ -178,9 +196,9 @@ const Abmanagement = () => {
               </div>
             </div>
 
-            <div className="cstbloglayot" id="Dr-Nitin-Mahantshetty">
+            <div className="cstbloglayot" >
               <div className="cstbloglayot1">
-                <Image width={400} height={400} src="/bodimg/Dr-Nitin-Mahantshetty.png" alt="img" />
+                <Image width={400} height={400} src="/bodimg/Dr-Nitin-Mahantshetty.jpg" alt="img" />
               </div>
               <div className="cstbloglayot2">
                 <div className="cstbloglayothead">Dr. Nitin Mahantshetty</div>

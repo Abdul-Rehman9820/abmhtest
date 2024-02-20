@@ -43,7 +43,7 @@ const Feedbackform = () => {
       setLocation(value);
     } else if (name === "usermessage") {
       setMessage(value);
-    }else if (name === "userdate") {
+    } else if (name === "userdate") {
       setDate(value);
     } else if (name === "subject") {
       setSelectedSubject(value);
@@ -273,11 +273,11 @@ const Feedbackform = () => {
       </div>
       {/* common heading div end*/}
       {/* common heading banner start */}
-      <div className="mainheadingbanner">
+      {/* <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
           <Image width={2000} height={400} src="/commonimages/commbanDiagnostic-Services.jpg" alt="icon" />
         </div>
-      </div>
+      </div> */}
       {/* common heading banner end */}
       {/* contact us pg start*/}
       <div className="parentcontainerwhi">
@@ -291,42 +291,73 @@ const Feedbackform = () => {
                       <h3 className="well-book-head">Book Diagnostic Services</h3>
 
                       <form name="form1" id="form1" onSubmit={handleSubmit}>
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="username"
-                          placeholder="Your Name"
-                          value={uname}
-                          onChange={handleChange}
-                          required
-                        />
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="userPhone"
-                          placeholder="Your Phone"
-                          value={uphone}
-                          onChange={handleChange}
-                          required
-                        />
-                        <input
-                          type="email"
-                          className="form-control"
-                          name="usermail"
-                          placeholder="Your Email"
-                          value={uemail}
-                          onChange={handleChange}
-                          required
-                        />
-                        <input
-                          type="text"
-                          className="form-control"
-                          name="userlocation"
-                          placeholder="Your Location"
-                          value={ulocation}
-                          onChange={handleChange}
-                          required
-                        />
+
+                        <div className="flexinput">
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="text"
+                              className="form-control"
+                              name="username"
+                              placeholder="Your Name"
+                              value={uname}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="text"
+                              className="form-control"
+                              name="userPhone"
+                              placeholder="Your Phone"
+                              value={uphone}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                        </div>
+
+
+                        <div className="flexinput">
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="email"
+                              className="form-control"
+                              name="usermail"
+                              placeholder="Your Email"
+                              value={uemail}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                          <div className="inputboxflex">
+
+                            <input
+                              type="text"
+                              className="form-control"
+                              name="userlocation"
+                              placeholder="Your Location"
+                              value={ulocation}
+                              onChange={handleChange}
+                              required
+                            />
+
+                          </div>
+
+                        </div>
+
+
                         <textarea
                           name="usermessage"
                           className="form-control"
@@ -336,14 +367,14 @@ const Feedbackform = () => {
                           required
                         />
                         <input
-                            type="date"
-                            className="form-control"
-                            name="userdate"
-                            placeholder="Your Date"
-                            value={userdate}
-                            onChange={handleChange}
-                            required
-                          />
+                          type="date"
+                          className="form-control"
+                          name="userdate"
+                          placeholder="Your Date"
+                          value={userdate}
+                          onChange={handleChange}
+                          required
+                        />
 
                         <select name="subject" id="subject" className="form-control" onChange={handleChange} required>
                           <option value="" selected="selected">
@@ -365,7 +396,7 @@ const Feedbackform = () => {
                             name="Prescription"
                             accept=".pdf, .jpg, .png"
                             onChange={handleFileChange}
-                
+
                           />
                         </div>
 
