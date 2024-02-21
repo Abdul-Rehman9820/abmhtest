@@ -34,12 +34,7 @@ const Interobserv = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Academics /
-                  <span className="breadcrumbsactive">
-                    Internship &amp; Observership
-                  </span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Academics </Link> / <span className="breadcrumbsactive">Internship & Observership</span>
               </div>
             </div>
           </div>

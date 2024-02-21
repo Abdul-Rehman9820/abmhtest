@@ -75,7 +75,7 @@ const Blogs = () => {
         <div className="page_header">
           <div className="customcontainer">
             <div className="Pg_title pt-3">
-              Home / <span className="Pg_sub_title">Blogs</span>
+            <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">Blogs</span>
             </div>
           </div>
         </div>

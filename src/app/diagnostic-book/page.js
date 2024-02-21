@@ -263,9 +263,7 @@ const Feedbackform = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Home / Diagnostic Services / <span className="breadcrumbsactive">Book Diagnostic Services</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Book Diagnostic Services</span>
               </div>
             </div>
           </div>

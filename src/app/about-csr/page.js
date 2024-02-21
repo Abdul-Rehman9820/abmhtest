@@ -31,9 +31,7 @@ const Aboutcsr = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  About Us / <span className="breadcrumbsactive">CSR</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/about-us">About Us</Link> / <span className="breadcrumbsactive">CSR</span>
               </div>
             </div>
           </div>

@@ -34,9 +34,7 @@ const Accreditations = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  About Us / <span className="breadcrumbsactive">Accreditations & Awards</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/about-us">About Us</Link> / <span className="breadcrumbsactive">Accreditations & Awards</span>
               </div>
             </div>
           </div>

@@ -24,10 +24,7 @@ const Abmanagement = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  About Us /
-                  <span className="breadcrumbsactive">ABMH Management</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/about-us">About Us </Link> / <span className="breadcrumbsactive">ABMH Management</span>
               </div>
             </div>
           </div>

@@ -24,10 +24,7 @@ const WellnessPack = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Home /
-                  <span className="breadcrumbsactive">Biomedical Waste Management</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">Biomedical Waste Management</span>
               </div>
             </div>
           </div>

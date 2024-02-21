@@ -24,9 +24,7 @@ const Qualityandethics = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  About Us / <span className="breadcrumbsactive">Quality Policy & Ethics Committee</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/about-us">About Us</Link> / <span className="breadcrumbsactive">Quality Policy & Ethics Committee</span>
               </div>
             </div>
           </div>

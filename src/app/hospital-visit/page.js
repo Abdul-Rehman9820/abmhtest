@@ -4,6 +4,7 @@
 
 import { useEffect, useState } from "react";
 import Image from 'next/image';
+import Link from 'next/link';
 
 import './virtual-tour.css'
 
@@ -104,9 +105,7 @@ const Virtualtour = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Patient Care / <span className="breadcrumbsactive">Hospital Visit</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Hospital Visit</span>
               </div>
             </div>
           </div>

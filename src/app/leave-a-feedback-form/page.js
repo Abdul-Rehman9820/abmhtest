@@ -142,9 +142,7 @@ const Feedbackform = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                   Leave A Feedback
-                </div>
+               <span className="breadcrumbsactive">Leave A Feedback</span>
               </div>
             </div>
           </div>

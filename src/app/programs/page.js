@@ -33,9 +33,7 @@ const Programs = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Academics / <span className="breadcrumbsactive">Programs</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Academics </Link> / <span className="breadcrumbsactive">Programs</span>
               </div>
             </div>
           </div>

@@ -152,9 +152,7 @@ const Contactus = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Patient Care / Wellness Packages / <span className="breadcrumbsactive">Book Wellness Packages</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Book Wellness Packages</span>
               </div>
             </div>
           </div>

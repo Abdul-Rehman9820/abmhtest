@@ -279,9 +279,7 @@ const Doctors = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                   Patient Care / <span className="breadcrumbsactive">Our Doctors</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Our Doctors</span>
               </div>
             </div>
           </div>

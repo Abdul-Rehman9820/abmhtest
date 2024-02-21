@@ -17,7 +17,7 @@ const Aboutus = () => {
 
 
     <>
-      <title>Management</title>
+      <title>About Us</title>
       <meta name="description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
@@ -26,10 +26,7 @@ const Aboutus = () => {
             <div className="commonheadcontainer">
               <div id="aboutus"></div>
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  {/* <Link className="commbred" href="/"> Home </Link> / <span className="breadcrumbsactive">About Us</span> */}
-                  Home / <span className="breadcrumbsactive">About Us</span>
-                </div>
+                  <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">About Us</span>
               </div>
             </div>
           </div>

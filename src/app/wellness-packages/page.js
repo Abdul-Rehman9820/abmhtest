@@ -24,11 +24,8 @@ const WellnessPack = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Patient Care /{" "}
-                  <span className="breadcrumbsactive">Wellness Packages</span>
-                </div>
-              </div>
+                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Wellness Packages</span>
+              </div>      
             </div>
           </div>
         </div>
@@ -1740,6 +1737,11 @@ const WellnessPack = () => {
                   <h2>
                      HIV <span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#BasicPackage">+ 4 more</button></span>
                   </h2>
+
+                  {/*! just for home care mapping */}
+                  <div  id='homecare-solutions'></div>
+                  {/*! just for home care mapping */}
+                  
                 </div>
                 <div className="labchoimgbox2">
                   <button className="labchocombtn">
@@ -1929,7 +1931,7 @@ const WellnessPack = () => {
 
 
       {/* hide for approval HomeCareSolutions  start*/}
-      <div className="parentcontainerwhi HomeCareSolutionsBG" id='homecare-solutions'>
+      <div className="parentcontainerwhi HomeCareSolutionsBG">
         <div className="customcontainer">
           <div className="HomeCareSolutionsmain">
             <div className="HomeCareSolutionspart">

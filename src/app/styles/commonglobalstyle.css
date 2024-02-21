@@ -127,15 +127,24 @@ img {
     padding: 24px 0px;
 }
 
-
-.breadcrumbsdata {
+.breadcrumbsdata{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    color: #000000;
 }
 
+.breadcrumbsNotactive{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000000;
+}
 
 .breadcrumbsactive{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     color: #A21B18;
 }
 
@@ -143,10 +152,6 @@ img {
 /* breadcrumbs  end*/ 
 
 
-
-.commbred{
-
-}
 
 .flexinput {
     display: flex;
@@ -217,9 +222,6 @@ img {
         display: block;
     }
 
-    .breadcrumbsdata {
-        font-size: 11px !important;
-    }
 
     .breadcrumbredirectback {
         font-size: 11px !important;
@@ -229,6 +231,15 @@ img {
     button.accordion-button {
         font-size: 14px !important;
     }
+
+    .breadcrumbsNotactive{
+        font-size: 15px;
+    }
+    
+    .breadcrumbsactive{
+        font-size: 15px;
+    }
+
 
 
 }

@@ -4,6 +4,7 @@
 
 import { useEffect, useState } from "react";
 import Image from 'next/image';
+import Link from 'next/link';
 
 import './insurance-and-tpa.css'
 
@@ -30,9 +31,7 @@ const Virtualtour = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Patient Care / <span className="breadcrumbsactive">Insurance & TPAs</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Insurance & TPAs</span>
               </div>
             </div>
           </div>

@@ -644,7 +644,7 @@ const Header = () => {
                                 <div className="headerlogopart">
                                     <div className="logoimg">
                                         <Link href="/">
-                                            <Image width={1000} height={1000} src="/homeimg/abmhmainlogo.png" alt="img" />
+                                            <Image width={300} height={50} src="/homeimg/abmhmainlogo.png" alt="img" />
                                         </Link>
                                     </div>
                                 </div>

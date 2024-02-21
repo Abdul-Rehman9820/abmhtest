@@ -139,9 +139,7 @@ const Contactus = () => {
         <div className="commonheaddiv">
           <div className="commonheadcontainer">
             <div className="breadcrumbs">
-              <div className="breadcrumbsdata">
-                 Home / <span className="breadcrumbsactive">Contact Us</span>
-              </div>
+              <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">Contact Us</span>
             </div>
           </div>
         </div>

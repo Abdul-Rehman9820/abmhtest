@@ -89,9 +89,7 @@ const Abmhnews = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Home / <span className="breadcrumbsactive">ABMH in the News</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">ABMH in the News</span>
               </div>
             </div>
           </div>

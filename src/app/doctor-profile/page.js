@@ -115,7 +115,7 @@ const Doctorprofile = () => {
                 <div className="doctorviewprofile" key={index} >
                   <div className="commonheadcontainer">
 
-                    <title>{item.DoctorFName + " " + item.DoctorLName}</title>
+                    <title>{"Dr. " +item.DoctorFName + " " + item.DoctorLName}</title>
                     <meta name="description" content={item.DoctorFName + " " + item.DoctorLName} />
                     <link rel="canonical" href={`/doctor-profile?doc=${item.DoctorNameSlug}`} />
 

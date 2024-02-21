@@ -34,7 +34,7 @@ const Workwithus = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">Home / <span className="breadcrumbsactive">Work With US</span></div>
+                <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">Work With US</span>
               </div>
             </div>
           </div>

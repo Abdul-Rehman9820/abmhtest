@@ -31,9 +31,7 @@ const Technology = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  About Us / <span className="breadcrumbsactive">Our Technology</span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="/about-us">About Us</Link> / <span className="breadcrumbsactive">Our Technology</span>
               </div>
             </div>
           </div>

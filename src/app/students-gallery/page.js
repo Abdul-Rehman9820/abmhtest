@@ -95,12 +95,7 @@ const Hospitalvisit = () => {
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <div className="breadcrumbsdata">
-                  Academics /
-                  <span className="breadcrumbsactive">
-                    Students Gallery
-                  </span>
-                </div>
+                <Link className="breadcrumbsNotactive" href="">Academics</Link> / <span className="breadcrumbsactive">Students Gallery</span>
               </div>
             </div>
           </div>
