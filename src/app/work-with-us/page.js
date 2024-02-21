@@ -55,11 +55,11 @@ const Workwithus = () => {
 
           {/* comment if no opening*/}
 
-          {/* <div className="workwithuscont">
+          <div className="workwithuscont">
 
             <h4>There are no current openings</h4>
 
-          </div> */}
+          </div>
 
           {/* comment if no opening*/}
 
@@ -259,7 +259,7 @@ const Workwithus = () => {
 
 
 
-          <div className="workwithuscont">
+          {/* <div className="workwithuscont">
 
 
             <div className="accordion" id="accordionExample">
@@ -367,7 +367,7 @@ const Workwithus = () => {
             </div>
 
 
-          </div>
+          </div> */}
 
 
         </div>

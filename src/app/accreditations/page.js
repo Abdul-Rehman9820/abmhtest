@@ -74,32 +74,6 @@ const Accreditations = () => {
                 className="carousel slide carousel-fade"
               >
 
-                {/* <div className="carousel-indicators">
-
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators61"
-                    data-bs-slide-to={0}
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators61"
-                    data-bs-slide-to={1}
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators61"
-                    data-bs-slide-to={2}
-                    aria-label="Slide 3"
-                  ></button>
-
-                </div> */}
-
-
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <div className="awarsliderbox">
@@ -242,6 +216,18 @@ const Accreditations = () => {
 
 
                     <div className="carousel-item active">
+                      <div className="abmhAwardSlidebox">
+                        <Image width={400} height={400}
+                          className="abmhAwardSlideimg"
+                          src="/aboutusimg/AHPI-Award2024.jpg"
+                          alt="img"
+                        />
+                        <div className="abmhAwardSlidehead">
+                          AHPI Award 2024 For Excellence in Digital Health
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
                       <div className="abmhAwardSlidebox">
                         <Image width={400} height={400}
                           className="abmhAwardSlideimg"
