@@ -17,14 +17,14 @@ const WellnessPack = () => {
 
 
     <>
-      <title>Biomedical Waste Management</title>
+      <title>Biomedical Waste Report</title>
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">Biomedical Waste Management</span>
+                <Link className="breadcrumbsNotactive" href="/">Home</Link> / <span className="breadcrumbsactive">Biomedical Waste Report</span>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ const WellnessPack = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-          <Image width={2000} height={400} src="/commonimages/commdummybanner.jpg" alt="icon" />
+          <Image width={2000} height={400} src="/commonimages/Bio-Medical-banner.jpg" alt="icon" />
         </div>
       </div>
       {/* common heading banner end */}

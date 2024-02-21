@@ -114,6 +114,9 @@ const Footer = () => {
                     <div className="linkfoolist">
                       <Link href="/about-csr">CSR Initiate</Link>
                     </div>
+                    <div className="linkfoolist">
+                      <Link href="/biomedical-waste">Biomedical Waste Report</Link>
+                    </div>
                     {/* <div className="linkfoolist exmarginlink">
                       <Link href="/serchher">Site Map </Link>
                     </div> */}
@@ -320,6 +323,9 @@ const Footer = () => {
                     </div>
                     <div className="linkfoolist">
                       <Link href="/about-csr">CSR Initiate</Link>
+                    </div>
+                    <div className="linkfoolist">
+                      <Link href="/biomedical-waste">Biomedical Waste Report</Link>
                     </div>
                     {/* <div className="linkfoolist exmarginlink">
                       <Link href="/serchher">Site Map </Link>

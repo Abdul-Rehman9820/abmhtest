@@ -1,8 +1,4 @@
 
-
-"use client";
-
-import { useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -17,11 +13,11 @@ const Aboutus = () => {
 
 
     <>
-      <title>About Us</title>
+      <title>About Us OG</title>
       <meta name="description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />
       
       
-      <meta property="og:title" content="Aditya Birla Hospital: About Us" />
+      <meta property="og:title" content="Aditya Birla Hospital: About Us OG" />
       <meta property="og:description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />
       <meta property="og:image" content="https://adityabirlahospital.com/_next/image?url=%2Fhomeimg%2FW-Banner-1.jpg&w=1920&q=75" />
       
@@ -161,121 +157,6 @@ const Aboutus = () => {
                 </div>
               </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="parentcontainerwhi bodofdirredbg">
-        <div className="customcontainer">
-          <div className="BoardofDirectors">
-            <div className="Specialtiespartbof">
-              <div className="Specialtiesheadbof">
-                <h2 className="oursepperbof">Board of Directors</h2>
-                <span className="headborderbof" />
-              </div>
-            </div>
-            <div className="bodofdirdata">
-              <div className="bodofdirdata1">
-                <p className="bodpar">
-                  Aditya Birla Health Services Ltd is under the stewardship of a
-                  distinguished Board of Directors, led by Chairperson Smt.
-                  Rajashree Birla and Director Shri Ashkaran Agarwal.
-                </p>
-              </div>
-              <div className="bodofdirdata2">
-                <div className="bodprofilbox">
-                  <div className="bodprofiloop">
-                    <Image width={400} height={400}
-                      className="bodprofileimg"
-                      src="/aboutusimg/Smt-Rajashree-Birla.png"
-                      alt="img"
-                    />
-                    <div className="bodname">Smt. Rajashree Birla</div>
-                    <div className="boddesignam">Chairperson</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#Smt-Rajashree-Birla">
-                      Know more
-                    </Link>
-                  </div>
-                  <div className="bodprofiloop">
-                    <Image width={400} height={400}
-                      className="bodprofileimg"
-                      src="/aboutusimg/Shri-Ashkaran-Agarwal.png"
-                      alt="img"
-                    />
-                    <div className="bodname">Shri Ashkaran Agarwal</div>
-                    <div className="boddesignam">Director</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#Shri-Ashkaran-Agarwal">
-                      Know more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="parentcontainerwhi">
-        <div className="customcontainer">
-          <div className="BoardofDirectors">
-            <div className="Specialtiespartbof">
-              <div className="Specialtiesheadbof">
-                <h2 className="oursepperbofbalc">Executive Management</h2>
-                <span className="headborderbof" />
-              </div>
-            </div>
-            <div className="bodofdirdatanew">
-              <div className="bodofdirdat2anew">
-                <div className="bodprofilbox">
-                  <div className="bodprofiloop">
-                    <Image width={400} height={400}
-                      className="bodprofileimg"
-                      src="/aboutusimg/Rekha-Dubey.png"
-                      alt="img"
-                    />
-                    <div className="bodname">Rekha Dubey</div>
-                    <div className="boddesignam">Chief Executive Officer</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#chief-executive-rekha-dubey">
-                      Know more
-                    </Link>
-                  </div>
-                  <div className="bodprofiloop">
-                    <Image width={400} height={400}
-                      className="bodprofileimg"
-                      src="/aboutusimg/Dr-Rajshekhar-Iyer.png"
-                      alt="img"
-                    />
-                    <div className="bodname">Dr. Rajshekhar Iyer</div>
-                    <div className="boddesignam">Medical Advisor</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#Dr-Rajshekhar-Iyer">
-                      Know more
-                    </Link>
-                  </div>
-                  <div className="bodprofiloop">
-                    <Image width={400} height={400}
-                      className="bodprofileimg"
-                      src="/aboutusimg/Dr-Ashutosh-Srivastava.png"
-                      alt="img"
-                    />
-                    <div className="bodname">Dr. Ashutosh Srivastava</div>
-                    <div className="boddesignam">Medical Director</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#Dr-Ashutosh-Srivastava">
-                      Know more
-                    </Link>
-                  </div>
-                  <div className="bodprofiloop">
-                    <Image width={400} height={400}
-                      className="bodprofileimg"
-                      src="/aboutusimg/Dr-Nitin-Mahantshetty.png"
-                      alt="img"
-                    />
-                    <div className="bodname">Dr. Nitin Mahantshetty</div>
-                    <div className="boddesignam">Dy. Medical Director</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#Dr-Nitin-Mahantshetty">
-                      Know more
-                    </Link>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

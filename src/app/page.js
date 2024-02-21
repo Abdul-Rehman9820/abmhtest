@@ -73,7 +73,7 @@ export default function Home() {
 
       <meta property="og:title" content="Best Multispeciality Hospital in Pune | Expert Maternity, Neurology" />
       <meta property="og:site_name" content="Aditya Birla Hospital" />
-      <meta property="og:url" content="https://adityabirlahospital.com/" />
+      <meta property="og:url" content="https://adityabirlahospital.com" />
       <meta property="og:description" content="Best Multispeciality Hospital near you! Aditya Birla Hospital in Pune excels in maternity, neurology, & knee replacement." />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://adityabirlahospital.com/_next/image?url=%2Fhomeimg%2FW-Banner-1.jpg&w=1920&q=75" />
