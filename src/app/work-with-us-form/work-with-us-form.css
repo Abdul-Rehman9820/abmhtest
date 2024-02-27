@@ -70,7 +70,7 @@
     border-radius: 0px;
     border: none;
     border: 1px solid #901412;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .contact_fieldforwork .form-control:focus{
     box-shadow: none;

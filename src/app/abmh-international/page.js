@@ -61,7 +61,7 @@ const Abmhinterna = () => {
 
 
     // api level code 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/sendmailnternational`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/mail_apis/sendmailnternational`, {
       method: "POST",
       body: JSON.stringify({
         username: uname,
@@ -465,7 +465,7 @@ const Abmhinterna = () => {
                       type="text"
                       className="form-control"
                       name="username"
-                      placeholder="Your Name"
+                      placeholder="Name"
                       value={uname}
                       onChange={handleChange}
                       required
@@ -474,7 +474,7 @@ const Abmhinterna = () => {
                       type="text"
                       className="form-control"
                       name="userPhone"
-                      placeholder="Your Phone"
+                      placeholder="Phone"
                       value={uphone}
                       onChange={handleChange}
                       required
@@ -483,7 +483,7 @@ const Abmhinterna = () => {
                       type="email"
                       className="form-control"
                       name="usermail"
-                      placeholder="Your Email"
+                      placeholder="Email"
                       value={uemail}
                       onChange={handleChange}
                       required
@@ -492,7 +492,7 @@ const Abmhinterna = () => {
                       type="text"
                       className="form-control"
                       name="userlocation"
-                      placeholder="Your Location"
+                      placeholder="Country"
                       value={ulocation}
                       onChange={handleChange}
                       required
@@ -500,10 +500,9 @@ const Abmhinterna = () => {
                     <textarea
                       name="usermessage"
                       className="form-control"
-                      placeholder="Your Message"
+                      placeholder="Message"
                       value={umessage}
                       onChange={handleChange}
-                      required
                     />
 
 

@@ -226,7 +226,7 @@ const Aboutus = () => {
             <div className="bodofdirdatanew">
               <div className="bodofdirdat2anew">
                 <div className="bodprofilbox">
-                  <div className="bodprofiloop">
+                  {/* <div className="bodprofiloop">
                     <Image width={400} height={400}
                       className="bodprofileimg"
                       src="/aboutusimg/Rekha-Dubey.png"
@@ -237,7 +237,7 @@ const Aboutus = () => {
                     <Link className="bodnowmorebtn" href="/abmh-management#chief-executive-rekha-dubey">
                       Know more
                     </Link>
-                  </div>
+                  </div> */}
                   <div className="bodprofiloop">
                     <Image width={400} height={400}
                       className="bodprofileimg"

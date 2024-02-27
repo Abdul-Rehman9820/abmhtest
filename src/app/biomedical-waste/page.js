@@ -13,6 +13,15 @@ import './biomedical-waste-management.css'
 const WellnessPack = () => {
 
 
+
+  useEffect(() => {
+
+
+   window.document.scrollingElement?.scrollTo(0, 0);  // for top scroll
+
+  }, []);
+
+
   return (
 
 
@@ -58,7 +67,7 @@ const WellnessPack = () => {
                     data-bs-target="#collapse1"
                     aria-expanded="true"
                   >
-                    Biomedical Waste Report - 2023
+                    Biomedical Waste Report
                   </button>
                 </h2>
                 <div

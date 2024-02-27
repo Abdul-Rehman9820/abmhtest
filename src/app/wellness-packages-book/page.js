@@ -70,7 +70,7 @@ const Contactus = () => {
 
 
     // api level code 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/SendBookWellnessApi`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/mail_apis/SendBookWellnessApi`, {
       method: "POST",
       body: JSON.stringify({
         username: uname,
@@ -187,7 +187,7 @@ const Contactus = () => {
                               type="text"
                               className="form-control"
                               name="username"
-                              placeholder="Your Name"
+                              placeholder="Name"
                               value={uname}
                               onChange={handleChange}
                               required
@@ -201,7 +201,7 @@ const Contactus = () => {
                               type="text"
                               className="form-control"
                               name="userPhone"
-                              placeholder="Your Phone"
+                              placeholder="Phone"
                               value={uphone}
                               onChange={handleChange}
                               required
@@ -219,7 +219,7 @@ const Contactus = () => {
                               type="email"
                               className="form-control"
                               name="usermail"
-                              placeholder="Your Email"
+                              placeholder="Email"
                               value={uemail}
                               onChange={handleChange}
                               required
@@ -233,7 +233,7 @@ const Contactus = () => {
                               type="text"
                               className="form-control"
                               name="userlocation"
-                              placeholder="Your Location"
+                              placeholder="Location"
                               value={ulocation}
                               onChange={handleChange}
                               required
@@ -243,20 +243,13 @@ const Contactus = () => {
 
                         </div>
 
-                        <textarea
-                          name="usermessage"
-                          className="form-control"
-                          placeholder="Your Message"
-                          value={umessage}
-                          onChange={handleChange}
-                          required
-                        />
+
 
                         <input
                           type="date"
                           className="form-control"
                           name="userdate"
-                          placeholder="Your Date"
+                          placeholder="Date"
                           value={userdate}
                           onChange={handleChange}
                           required
@@ -288,6 +281,14 @@ const Contactus = () => {
                           </select>
                           <label htmlFor="floatingSelect">Select an Package</label>
                         </div>
+
+                        <textarea
+                          name="usermessage"
+                          className="form-control"
+                          placeholder="Message"
+                          value={umessage}
+                          onChange={handleChange}
+                        />
 
                         <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
                       </form>

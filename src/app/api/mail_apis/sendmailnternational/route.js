@@ -25,7 +25,7 @@ export async function POST(req, content) {
                                 <p>Name = ${username}</p>
                                 <p>Phone  = ${userPhone}</p>
                                 <p>Email = ${usermail}</p>
-                                <p>Location = ${userlocation}</p>
+                                <p>Country = ${userlocation}</p>
                                 <p>Message  = ${usermessage}</p>
           
                            <div>`;

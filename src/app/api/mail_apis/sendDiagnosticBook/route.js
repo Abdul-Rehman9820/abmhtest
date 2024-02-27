@@ -59,7 +59,8 @@ export async function POST(req, content) {
 
     const mailOptions = {
       from: '"New Booking of Diagnostic Service From ABMH Diagnostic Form" <abmh_enquiry@mindframeindia.com>',
-      to: ['abmh_enquiry@mindframeindia.com','corporate.desk@adityabirla.com'],
+     // to: ['abmh_enquiry@mindframeindia.com','corporate.desk@adityabirla.com'],
+      to: ['abmh_enquiry@mindframeindia.com','abdul.a@mindframeindia.com'],
       subject: 'New Booking of Diagnostic Service',
       html: htmlContent,
       attachments: attachments,

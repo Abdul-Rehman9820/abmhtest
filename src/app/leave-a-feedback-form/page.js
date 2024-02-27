@@ -63,7 +63,7 @@ const Feedbackform = () => {
 
 
     // api level code 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/sendmailfeedbackform`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_Web_Domin}/api/mail_apis/sendmailfeedbackform`, {
       method: "POST",
       body: JSON.stringify({
         username: uname,
@@ -172,7 +172,7 @@ const Feedbackform = () => {
                           type="text"
                           className="form-control"
                           name="username"
-                          placeholder="Your Name"
+                          placeholder=" Name"
                           value={uname}
                           onChange={handleChange}
                           required
@@ -181,7 +181,7 @@ const Feedbackform = () => {
                           type="text"
                           className="form-control"
                           name="userPhone"
-                          placeholder="Your Phone"
+                          placeholder=" Phone"
                           value={uphone}
                           onChange={handleChange}
                           required
@@ -190,7 +190,7 @@ const Feedbackform = () => {
                           type="email"
                           className="form-control"
                           name="usermail"
-                          placeholder="Your Email"
+                          placeholder=" Email"
                           value={uemail}
                           onChange={handleChange}
                           required
@@ -199,7 +199,7 @@ const Feedbackform = () => {
                           type="text"
                           className="form-control"
                           name="userlocation"
-                          placeholder="Your Location"
+                          placeholder=" Location"
                           value={ulocation}
                           onChange={handleChange}
                           required
@@ -207,10 +207,10 @@ const Feedbackform = () => {
                         <textarea
                           name="usermessage"
                           className="form-control"
-                          placeholder="Your Message"
+                          placeholder=" Message"
                           value={umessage}
                           onChange={handleChange}
-                          required
+                          
                         />
 
                         <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>

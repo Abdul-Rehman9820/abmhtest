@@ -81,7 +81,7 @@ const Header = () => {
 
         try {
             const response = await fetch(
-                `${process.env.NEXT_PUBLIC_Web_Domin}/api/SecondOpinionAPI`,
+                `${process.env.NEXT_PUBLIC_Web_Domin}/api/mail_apis/SecondOpinionAPI`,
                 {
                     method: 'POST',
                     body: formData,

@@ -104,17 +104,22 @@ const Abmanagement = () => {
                   committees formed by both State and Central Governments.
                 </div>
 
-                <div  id="chief-executive-rekha-dubey" ></div>
+                {/* <div  id="chief-executive-rekha-dubey" ></div> */}
+                <div id="Dr-Rajshekhar-Iyer"></div>
 
               </div>
             </div>
+
+            
             <div className="CSRpolyhead">
               <div className="CSRpolyheadbof">
                 <h2 className="CSRpolyheadbalc">Executive Management</h2>
                 <span className="CSRpolyheadborder" />
               </div>
             </div>
-            <div className="cstbloglayot">
+
+
+            {/* <div className="cstbloglayot">
               <div className="cstbloglayot1">
                 <Image width={400} height={400} src="/bodimg/Rekha.jpg" alt="img" />
               </div>
@@ -135,14 +140,12 @@ const Abmanagement = () => {
                   universities and mentorship of postgraduate students at TISS showcase her dedication to shaping the next generation of healthcare professionals.
                 </div>
 
-                <div id="Dr-Rajshekhar-Iyer"></div>
-
                 <div className="cstbloglayotpara">
                   Ms. Rekha Dubey&lsquo;s legacy is marked by her unwavering commitment to excellence, making her a respected figure in the industry and an inspirational leader for aspiring
                   healthcare professionals.
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="cstbloglayot" >
               <div className="cstbloglayot1">

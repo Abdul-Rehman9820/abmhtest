@@ -187,10 +187,6 @@ const Accreditations = () => {
       </div>
 
 
-
-
-      {/*hide for approval*/}
-
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="AchiveandAcrre">

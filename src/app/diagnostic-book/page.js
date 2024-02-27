@@ -89,7 +89,7 @@ const Feedbackform = () => {
     // API request
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_Web_Domin}/api/sendDiagnosticBook`,
+        `${process.env.NEXT_PUBLIC_Web_Domin}/api/mail_apis/sendDiagnosticBook`,
         {
           method: 'POST',
           body: formData,
@@ -298,7 +298,7 @@ const Feedbackform = () => {
                               type="text"
                               className="form-control"
                               name="username"
-                              placeholder="Your Name"
+                              placeholder="Name"
                               value={uname}
                               onChange={handleChange}
                               required
@@ -312,7 +312,7 @@ const Feedbackform = () => {
                               type="text"
                               className="form-control"
                               name="userPhone"
-                              placeholder="Your Phone"
+                              placeholder="Phone"
                               value={uphone}
                               onChange={handleChange}
                               required
@@ -331,7 +331,7 @@ const Feedbackform = () => {
                               type="email"
                               className="form-control"
                               name="usermail"
-                              placeholder="Your Email"
+                              placeholder="Email"
                               value={uemail}
                               onChange={handleChange}
                               required
@@ -345,7 +345,7 @@ const Feedbackform = () => {
                               type="text"
                               className="form-control"
                               name="userlocation"
-                              placeholder="Your Location"
+                              placeholder="Location"
                               value={ulocation}
                               onChange={handleChange}
                               required
@@ -356,19 +356,11 @@ const Feedbackform = () => {
                         </div>
 
 
-                        <textarea
-                          name="usermessage"
-                          className="form-control"
-                          placeholder="Your Message"
-                          value={umessage}
-                          onChange={handleChange}
-                          required
-                        />
                         <input
                           type="date"
                           className="form-control"
                           name="userdate"
-                          placeholder="Your Date"
+                          placeholder="Date"
                           value={userdate}
                           onChange={handleChange}
                           required
@@ -398,6 +390,17 @@ const Feedbackform = () => {
                           />
                         </div>
 
+
+                        <textarea
+                          name="usermessage"
+                          className="form-control"
+                          placeholder="Message"
+                          value={umessage}
+                          onChange={handleChange}
+                          
+                        />
+
+                      
                         <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
 
                       </form>

@@ -72,7 +72,7 @@ const Workcontactus = () => {
     // API request
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_Web_Domin}/api/sendmailworkwithus`,
+        `${process.env.NEXT_PUBLIC_Web_Domin}/api/mail_apis/sendmailworkwithus`,
         {
           method: 'POST',
           body: formData,
@@ -151,7 +151,7 @@ const Workcontactus = () => {
                         <div className="col-md-12">
                           <div className="contact_form_inner">
                             <div className="contact_fieldforwork">
-                              <h3>Work with Us</h3>
+                              <h3 className="mb-4">Work with Us</h3>
 
 
                               <form onSubmit={handleSubmit}>
@@ -159,7 +159,7 @@ const Workcontactus = () => {
                                   type="text"
                                   className="form-control form-group"
                                   name="username"
-                                  placeholder="Your Name"
+                                  placeholder="Name"
                                   value={uname}
                                   onChange={handleChange}
                                   required
@@ -168,7 +168,7 @@ const Workcontactus = () => {
                                   type="text"
                                   className="form-control form-group"
                                   name="userPhone"
-                                  placeholder="Your Phone"
+                                  placeholder="Phone"
                                   value={uphone}
                                   onChange={handleChange}
                                   required
@@ -177,7 +177,7 @@ const Workcontactus = () => {
                                   type="email"
                                   className="form-control form-group"
                                   name="usermail"
-                                  placeholder="Your Email"
+                                  placeholder="Email"
                                   value={uemail}
                                   onChange={handleChange}
                                   required
@@ -186,27 +186,32 @@ const Workcontactus = () => {
                                   type="text"
                                   className="form-control form-group"
                                   name="userlocation"
-                                  placeholder="Your Location"
+                                  placeholder="Location"
                                   value={ulocation}
                                   onChange={handleChange}
                                   required
                                 />
+                            
+                                <div className="form-group mt-2">
+                                  <label className="" htmlFor="">Upload Resume:</label>
+                                  <input
+                                    type="file"
+                                    className="form-control form-group"
+                                    name="resume"
+                                    accept=".pdf, .jpg, .png"
+                                    onChange={handleFileChange}
+                                    required
+                                  />
+                                </div>
+
                                 <textarea
                                   name="usermessage"
                                   className="form-control form-group"
-                                  placeholder="Your Message"
+                                  placeholder="Message"
                                   value={umessage}
-                                  onChange={handleChange}
-                                  required
+                                  onChange={handleChange}                             
                                 />
-                                <input
-                                  type="file"
-                                  className="form-control form-group"
-                                  name="resume"
-                                  accept=".pdf, .jpg, .png"
-                                  onChange={handleFileChange}
-                                  required
-                                />
+
 
                                 <button type="submit" id="submitbtb" className="contact_form_submit">Submit</button>
                               </form>
