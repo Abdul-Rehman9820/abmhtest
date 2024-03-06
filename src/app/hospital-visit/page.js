@@ -161,6 +161,7 @@ const Virtualtour = () => {
               <div className="new-slider-wrapper">
                 <div className="new-slider">
 
+
                   <div className="new-slidet">
                     <div className="myovefts">
                       <div className="whychochilbo">
@@ -168,8 +169,7 @@ const Virtualtour = () => {
                           <div className="whychobox1ts">
                             <div className="whychospects">
                               <h2>
-                                Aditya Birla Hospital boasts a team of highly professional doctors.
-                                Their expertise and compassionate care were instrumental in my speedy recovery. Highly recommended.
+                                Delighted mother, Mrs. Radha Gaikwad, praises Aditya Birla Memorial Hospital. Under Dr. Molshri Misra&apos;s care, she appreciates the skilled medical attention and supportive staff, expressing sincere gratitude for a positive experience during the child birth.
                               </h2>
                             </div>
                           </div>
@@ -182,7 +182,7 @@ const Virtualtour = () => {
                             <div className="whychoimgbox2col2ts">
                               <div className="whychonamejustyts">
                                 <div className="whychonamets">
-                                  <h2>Preeti Singh</h2>
+                                  <h2>Mrs. Radha Anirudh Gaikwad </h2>
                                 </div>
                                 <div className="whychonameforts">
                                   <h2>Patient&apos;s Testimonial</h2>
@@ -201,8 +201,7 @@ const Virtualtour = () => {
                           <div className="whychobox1ts">
                             <div className="whychospects">
                               <h2>
-                                Impressed by Aditya Birla Hospital&apos;s staff, their dedication, and their friendly demeanour.
-                                The nurses and support team made my stay comfortable and stress-free.
+                                Bhaskar Bange praises Aditya Birla Memorial Hospital for impeccable cleanliness and unwavering focus on sanitization. Enduring Dialysis since July 2015, he lauds the hospital&apos;s commitment to infection control,  outstanding staff, service and infrastructure.
                               </h2>
                             </div>
                           </div>
@@ -215,7 +214,7 @@ const Virtualtour = () => {
                             <div className="whychoimgbox2col2ts">
                               <div className="whychonamejustyts">
                                 <div className="whychonamets">
-                                  <h2>James</h2>
+                                  <h2>Bhaskar Panduram Bange</h2>
                                 </div>
                                 <div className="whychonameforts">
                                   <h2>Patient&apos;s Testimonial</h2>
@@ -234,9 +233,7 @@ const Virtualtour = () => {
                           <div className="whychobox1ts">
                             <div className="whychospects">
                               <h2>
-                                I Was admitted to Aditya Birla Hospital For Typhoid treatment.
-                                The Medical team&apos;s prompt diagnosis and efficient care helped me recover quickly.
-                                The Hospital&apos;s cleanliness and patient-friendly environment were impressive.
+                                Cancer survivor Mrs. Aruna Hiwarkar thanks Aditya Birla Memorial Hospital for Dr. Wategaonkar&apos;s expertise and the supportive team. Regular check-ups reflect her well-being, emphasizing the hospital&apos;s responsive care and advanced facilities.
                               </h2>
                             </div>
                           </div>
@@ -249,7 +246,7 @@ const Virtualtour = () => {
                             <div className="whychoimgbox2col2ts">
                               <div className="whychonamejustyts">
                                 <div className="whychonamets">
-                                  <h2>David Wardson</h2>
+                                  <h2> Mrs. Aruna Ramdas Hiwarkar</h2>
                                 </div>
                                 <div className="whychonameforts">
                                   <h2>Patient&apos;s Testimonial</h2>
@@ -268,9 +265,7 @@ const Virtualtour = () => {
                           <div className="whychobox1ts">
                             <div className="whychospects">
                               <h2>
-                                My experience at Aditya Birla Hospital during my battle with dengue fever was outstanding.
-                                The medical team demonstrated a high level of expertise in diagnosing and managing my condition.
-                                I would highly recommend Aditya Birla Hospital for anyone seeking top-notch medical care.
+                                Kudos to Mr. Dharmendra Pashine, a resilient patient who underwent painless Robotic Surgery for Umbilical Hernia at Aditya Birla Memorial Hospital. Dr. Suprashant Kulkarni&apos;s skilled hands ensured the quick recovery of Mr. Pashine. He&apos;s grateful to the hospital staff and advancements.
                               </h2>
                             </div>
                           </div>
@@ -283,7 +278,7 @@ const Virtualtour = () => {
                             <div className="whychoimgbox2col2ts">
                               <div className="whychonamejustyts">
                                 <div className="whychonamets">
-                                  <h2>Tanu Jaiswal</h2>
+                                  <h2>Mr. Dharmendra Pashine </h2>
                                 </div>
                                 <div className="whychonameforts">
                                   <h2>Patient&apos;s Testimonial</h2>
@@ -302,9 +297,7 @@ const Virtualtour = () => {
                           <div className="whychobox1ts">
                             <div className="whychospects">
                               <h2>
-                                I recently had an emergency appendix surgery at Aditya Birla Hospital, and I can&apos;t thank the medical team enough for their prompt and expert care.
-                                They truly live up to their reputation as the best hospital in the city.
-                                I highly recommend Aditya Birla Hospital to anyone seeking top-notch medical care in Pune.
+                                Mrs. Asha Gupta commends Aditya Birla Memorial Hospital for efficient Pneumonia treatment. Grateful for Dr. Rahul Baste&apos;s exceptional care, she applauds the staff&apos;s support, resulting in a swift recovery and discharge in just a week.
                               </h2>
                             </div>
                           </div>
@@ -317,7 +310,7 @@ const Virtualtour = () => {
                             <div className="whychoimgbox2col2ts">
                               <div className="whychonamejustyts">
                                 <div className="whychonamets">
-                                  <h2>Rudransh Singh</h2>
+                                  <h2> Mrs. Asha Gupta</h2>
                                 </div>
                                 <div className="whychonameforts">
                                   <h2>Patient&apos;s Testimonial</h2>
@@ -336,8 +329,7 @@ const Virtualtour = () => {
                           <div className="whychobox1ts">
                             <div className="whychospects">
                               <h2>
-                                My uncle had his knee surgery at this hospital. The facilities provided by the hospital were great.
-                                Thanks to the expert surgeons now he&apos;s able to walk properly.
+                                Aniket Todkar expresses gratitude to Aditya Birla Memorial Hospital for the right care. His father, with a serious rib cage fracture, received prompt treatment & recovered. He appreciates the unwavering support of the dedicated doctors & staff.
                               </h2>
                             </div>
                           </div>
@@ -350,7 +342,7 @@ const Virtualtour = () => {
                             <div className="whychoimgbox2col2ts">
                               <div className="whychonamejustyts">
                                 <div className="whychonamets">
-                                  <h2>Sahil Mansoori</h2>
+                                  <h2>Dattatreya Laxman Todkar </h2>
                                 </div>
                                 <div className="whychonameforts">
                                   <h2>Patient&apos;s Testimonial</h2>
@@ -362,6 +354,7 @@ const Virtualtour = () => {
                       </div>
                     </div>
                   </div>
+
 
 
                   {/* Add more slides here */}
@@ -383,151 +376,111 @@ const Virtualtour = () => {
 
             <div className="newmobiletist-cont mobilehead">
 
-              <div id="carouselExampleIndicatornewtisti" className="carousel slide"  data-bs-ride="carousel">
+              <div id="carouselExampleIndicatornewtisti" className="carousel slide" data-bs-ride="carousel">
 
 
                 <div className="carousel-inner">
 
 
                   <div className="carousel-item active">
-
                     <div>
-
                       <div className="newtesti-Para">
-                      Aditya Birla Hospital boasts a team of highly professional doctors. Their expertise and compassionate care were instrumental in my speedy recovery. Highly recommended.
+                      Delighted mother, Mrs. Radha Gaikwad, praises Aditya Birla Memorial Hospital. Under Dr. Molshri Misra&apos;s care, she appreciates the skilled medical attention and supportive staff, expressing sincere gratitude for a positive experience during the child birth.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                            <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                       </div>
+                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      </div>
                       <div>
-                        <h2 className="newtesti-name">Preeti Singh</h2>
+                        <h2 className="newtesti-name">Mrs. Radha Anirudh Gaikwad</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
                       </div>
-
                     </div>
-
                   </div>
-
-
-                  <div className="carousel-item ">
-
+                  <div className="carousel-item">
                     <div>
-
                       <div className="newtesti-Para">
-                      Impressed by Aditya Birla Hospital&apos;s staff, their dedication, and their friendly demeanour.
-                                The nurses and support team made my stay comfortable and stress-free.
+                      Bhaskar Bange praises Aditya Birla Memorial Hospital for impeccable cleanliness and unwavering focus on sanitization. Enduring Dialysis since July 2015, he lauds the hospital&apos;s commitment to infection control,  outstanding staff, service and infrastructure.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                            <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                       </div>
+                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      </div>
                       <div>
-                        <h2 className="newtesti-name">James</h2>
+                        <h2 className="newtesti-name">Bhaskar Panduram Bange</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
                       </div>
-
                     </div>
-
                   </div>
-
-
-                  <div className="carousel-item ">
-
+                  <div className="carousel-item">
                     <div>
-
                       <div className="newtesti-Para">
-                                I Was admitted to Aditya Birla Hospital For Typhoid treatment.
-                                The Medical team&apos;s prompt diagnosis and efficient care helped me recover quickly.
-                                The Hospital&apos;s cleanliness and patient-friendly environment were impressive.
+                      Cancer survivor Mrs. Aruna Hiwarkar thanks Aditya Birla Memorial Hospital for Dr. Wategaonkar&apos;s expertise and the supportive team. Regular check-ups reflect her well-being, emphasizing the hospital&apos;s responsive care and advanced facilities.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                            <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                       </div>
+                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      </div>
                       <div>
-                        <h2 className="newtesti-name">David Wardson</h2>
+                        <h2 className="newtesti-name">Mrs. Aruna Ramdas Hiwarkar</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
                       </div>
-
                     </div>
-
                   </div>
-
-
-                  <div className="carousel-item ">
-
+                  <div className="carousel-item">
                     <div>
-
                       <div className="newtesti-Para">
-                      My experience at Aditya Birla Hospital during my battle with dengue fever was outstanding.
-                                The medical team demonstrated a high level of expertise in diagnosing and managing my condition.
-                                I would highly recommend Aditya Birla Hospital for anyone seeking top-notch medical care.
+                      Kudos to Mr. Dharmendra Pashine, a resilient patient who underwent painless Robotic Surgery for Umbilical Hernia at Aditya Birla Memorial Hospital. Dr. Suprashant Kulkarni&apos;s skilled hands ensured the quick recovery of Mr. Pashine. He&apos;s grateful to the hospital staff and advancements. 
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                            <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                       </div>
+                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      </div>
                       <div>
-                        <h2 className="newtesti-name">Tanu Jaiswal</h2>
+                        <h2 className="newtesti-name">Mr. Dharmendra Pashine</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
                       </div>
-
                     </div>
-
                   </div>
-
-
-                  <div className="carousel-item ">
-
+                  <div className="carousel-item">
                     <div>
-
                       <div className="newtesti-Para">
-                      I recently had an emergency appendix surgery at Aditya Birla Hospital, and I can&apos;t thank the medical team enough for their prompt and expert care.
-                                They truly live up to their reputation as the best hospital in the city.
-                                I highly recommend Aditya Birla Hospital to anyone seeking top-notch medical care in Pune.
+                      Mrs. Asha Gupta commends Aditya Birla Memorial Hospital for efficient Pneumonia treatment. Grateful for Dr. Rahul Baste&apos;s exceptional care, she applauds the staff&apos;s support, resulting in a swift recovery and discharge in just a week.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                            <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                       </div>
+                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      </div>
                       <div>
-                        <h2 className="newtesti-name">Rudransh Singh</h2>
+                        <h2 className="newtesti-name">Mrs. Asha Gupta</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
                       </div>
-
                     </div>
-
                   </div>
-
-
-
-                  <div className="carousel-item ">
-
+                  <div className="carousel-item">
                     <div>
-
                       <div className="newtesti-Para">
-                                My uncle had his knee surgery at this hospital. The facilities provided by the hospital were great.
-                                Thanks to the expert surgeons now he&apos;s able to walk properly.
+                      Aniket Todkar expresses gratitude to Aditya Birla Memorial Hospital for the right care. His father, with a serious rib cage fracture, received prompt treatment & recovered. He appreciates the unwavering support of the dedicated doctors & staff.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                            <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                       </div>
+                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      </div>
                       <div>
-                        <h2 className="newtesti-name">Sahil Mansoori</h2>
+                        <h2 className="newtesti-name">Mr. Dattatreya Laxman Todkar</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
                       </div>
-
                     </div>
-
                   </div>
+
+
+
 
 
 

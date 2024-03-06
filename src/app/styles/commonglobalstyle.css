@@ -232,6 +232,10 @@ img {
         font-size: 14px !important;
     }
 
+    .breadcrumbsdata{
+        font-size: 15px !important;
+    }
+
     .breadcrumbsNotactive{
         font-size: 15px;
     }
