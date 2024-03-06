@@ -798,13 +798,13 @@ export default function Home() {
 
       {/* <!-- youtube ifram 1--> */}
       <div className="popup">
-        <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/S7otT-fc52I" frameBorder="0" allowFullScreen></iframe>
+        <iframe id="player" className="test3_1" src="https://www.youtube.com/embed/j2ln72yonvY" frameBorder="0" allowFullScreen></iframe>
       </div>
       {/* <!-- youtube ifram 1--> */}
 
       {/* <!-- youtube ifram 2--> */}
       <div className="popup2">
-        <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/Y-DzxcH1EEs" frameBorder="0" allowFullScreen></iframe>
+        <iframe id="player2" className="test3_2" src="https://www.youtube.com/embed/5lBI-aWSNsA" frameBorder="0" allowFullScreen></iframe>
       </div>
       {/* <!-- youtube ifram 2--> */}
 
@@ -869,15 +869,14 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                            Mrs. Shantaben Patenkar had visited Aditya Birla Memorial Hospital just a few days ago with a complaint of severe pain in her left leg, she was immediately consulted and advised to get a surgery.
-                            The surgery was successful and she was able to recover sooner. Hear what she has to say.
+                          Mrs. Archana Balasaheb Sabale extends heartfelt thanks to Aditya Birla Memorial Hospital for their exceptional care during her breast cancer treatment. Grateful for the skilled doctors and supportive staff who renewed her hope and confidence.
                           </div>
                           <div className="ourworkname">
                             <h2>Patient&apos;s Feedback</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
-                            <h2>Leg Surgery | Aditya Birla Memorial Hospital </h2>
+                            <h2>Mrs. Archana Balasaheb Sabale </h2>
                           </div>
                         </div>
                       </div>
@@ -897,14 +896,14 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                            One of our patients,Mrs. Kumudini D. Ghodke, sharing feedback about her journey stay, diagnosis, and treatment at ABMH. We wish her a speedy recovery.
+                            Dr. Pooja Jadhav praises Aditya Birla Memorial Hospital for outstanding care during her mother&apos;s Radiation Therapy. Thanking Dr. Ajita Kendre for expert guidance and the medical staff for invaluable cooperation. She&apos;s grateful for seamless healthcare services.
                           </div>
                           <div className="ourworkname">
-                            <h2>Mrs. Kumudini D. Ghodke</h2>
+                            <h2>Patient&apos;s Feedback</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
-                            <h2>Sharing feedback about her journey stay, diagnosis, and treatment at ABMH.</h2>
+                            <h2>Padmini Raut</h2>
                           </div>
                         </div>
                       </div>

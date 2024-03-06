@@ -226,18 +226,20 @@ const Aboutus = () => {
             <div className="bodofdirdatanew">
               <div className="bodofdirdat2anew">
                 <div className="bodprofilbox">
-                  {/* <div className="bodprofiloop">
+
+
+                  <div className="bodprofiloop">
                     <Image width={400} height={400}
                       className="bodprofileimg"
-                      src="/aboutusimg/Rekha-Dubey.png"
+                      src="/aboutusimg/Mr-Pamesh-Gupta.png"
                       alt="img"
                     />
-                    <div className="bodname">Rekha Dubey</div>
-                    <div className="boddesignam">Chief Executive Officer</div>
-                    <Link className="bodnowmorebtn" href="/abmh-management#chief-executive-rekha-dubey">
+                    <div className="bodname">Mr. Pamesh Gupta</div>
+                    <div className="boddesignam">CEO</div>
+                    <Link className="bodnowmorebtn" href="/abmh-management#Mr-Pamesh-Gupta">
                       Know more
                     </Link>
-                  </div> */}
+                  </div>
                   <div className="bodprofiloop">
                     <Image width={400} height={400}
                       className="bodprofileimg"
@@ -274,6 +276,32 @@ const Aboutus = () => {
                       Know more
                     </Link>
                   </div>
+                  <div className="bodprofiloop">
+                    <Image width={400} height={400}
+                      className="bodprofileimg"
+                      src="/aboutusimg/Mr-Pankaj-Kumar-Jain.png"
+                      alt="img"
+                    />
+                    <div className="bodname">Mr. Pankaj Kumar Jain</div>
+                    <div className="boddesignam">Chief Financial Officer</div>
+                    <Link className="bodnowmorebtn" href="/abmh-management#Mr-Pankaj-Kumar-Jain">
+                      Know more
+                    </Link>
+                  </div>
+                  <div className="bodprofiloop">
+                    <Image width={400} height={400}
+                      className="bodprofileimg"
+                      src="/aboutusimg/Mr-Vijay-Gole.png"
+                      alt="img"
+                    />
+                    <div className="bodname">Mr. Vijay Gole</div>
+                    <div className="boddesignam">Head - HR & General Administration</div>
+                    <Link className="bodnowmorebtn" href="/abmh-management#Mr-Vijay-Gole">
+                      Know more
+                    </Link>
+                  </div>
+
+
                 </div>
               </div>
             </div>

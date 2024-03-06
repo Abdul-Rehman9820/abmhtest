@@ -366,13 +366,13 @@ const Feedbackform = () => {
                           required
                         />
 
-                        <select name="subject" id="subject" className="form-control" onChange={handleChange} required>
-                          <option value="" selected="selected">
+                        <select name="subject" id="subject" className="form-select form-control" onChange={handleChange} required>
+                          <option value="" disabled selected="selected">
                             Select Diagnostic Category
                           </option>
                         </select>
 
-                        <select name="topic" id="topic" className="form-control" onChange={handleChange} required>
+                        <select name="topic" id="topic" className="form-select form-control" onChange={handleChange} required>
                           <option value="" selected="selected">
                             Select Diagnostic Service
                           </option>

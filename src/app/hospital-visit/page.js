@@ -121,7 +121,8 @@ const Virtualtour = () => {
       <div id="PatientsTestimonials"></div>
       {/* common heading banner end */}
       {/* Hospirtal tour start*/}
-      <div className="parentcontainerwhi">
+
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="Hospirtaltour">
             <div className="commonheadingCont">
@@ -133,7 +134,7 @@ const Virtualtour = () => {
             <div className="turevideo">
               <iframe
                 className="turevidiframe"
-                src="https://www.youtube.com/embed/s7mRRpj6buM"
+                src="https://www.youtube.com/embed/XXlMVY5A7xQ"
                 frameBorder={0}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen=""
@@ -141,7 +142,8 @@ const Virtualtour = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
       {/* Hospirtal tour  end*/}
       {/* Hospirtal testimonials  start*/}
       <div className="parentcontainerwhi withtestBG">

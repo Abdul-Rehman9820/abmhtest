@@ -348,7 +348,7 @@ const Programs = () => {
               <tr>
                 <td>2)</td>
                 <td>Cardiology</td>
-                <td>Accredited Seat – 02</td>
+                <td>Accredited Seat – 03</td>
               </tr>
               <tr>
                 <td>3)</td>

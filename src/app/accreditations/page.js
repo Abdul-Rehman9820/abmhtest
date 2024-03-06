@@ -62,10 +62,7 @@ const Accreditations = () => {
             </div>
             <div className="AchiveandAcrrepara mt-3 mb-2">
               <p>
-                Aditya Birla Memorial Hospital is the first hospital in India to be
-                accredited the ISO 22000:2005, HACCP. Committed to compassionate,
-                quality healthcare at an affordable cost, the hospital has been
-                certified and awarded by several industrial bodies.
+              We take pride in our accreditation, a testament to our adherence to stringent quality and safety criteria. This recognition underscores our unwavering commitment to providing outstanding care and ensuring utmost patient satisfaction.
               </p>
             </div>
             <div className="awarslider">
@@ -104,13 +101,7 @@ const Accreditations = () => {
                       <div className="awadandacchead">
                         National Accreditation Board for Hospitals & Healthcare Providers (NABH)
                       </div>
-                      <div className="awadandaccpara">
-                        The board while being supported by all stakeholders including industry, consumers, government, have full functional autonomy in its operation.
-                      </div>
-                      <div className="awadandaccpara">
-                        For more information on NABH accreditation, log onto:&nbsp;<a href="https://nabh.co/" target="_blank" rel="noopener noreferrer">www.nabh.co</a>
-                      </div>
-
+                      
                     </div>
                   </div>
 
@@ -219,7 +210,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          AHPI Award 2024 For Excellence in Digital Health
+                          AHPI Award 2024 - Excellence in Digital Health
                         </div>
                       </div>
                     </div>
@@ -231,7 +222,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          Best Trauma Care Hospital - World Safety Organization: National Office For India State Level OHS&E Awards
+                        World Safety Organization 2023 - Trauma Care Hospital Award
                         </div>
                       </div>
                     </div>
@@ -243,7 +234,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          Pune Times Mirror Achievers Award (Pimpri-Chinchwad)
+                          Pune Times Mirror Achievers Award (Pimpri-Chinchwad 2023)
                         </div>
                       </div>
                     </div>
@@ -255,7 +246,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          AHPI Award - Patient Friendly Hospital
+                        AHPI Award 2022 - Patient Friendly Hospital
                         </div>
                       </div>
                     </div>
@@ -267,7 +258,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          World Safety Organization - Digital India Contributor Award
+                        World Safety Organization 2022 - Digital Indian contributor Award
                         </div>
                       </div>
                     </div>
@@ -279,7 +270,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          World Safety Organization - Service Excellence Award
+                        World Safety Organization 2022 - Service Excellance Award
                         </div>
                       </div>
                     </div>
@@ -291,7 +282,7 @@ const Accreditations = () => {
                           alt="img"
                         />
                         <div className="abmhAwardSlidehead">
-                          Healthcare Award - Best Hospital: Obstetrics & Gynaecology(Obgyn)
+                        HealthCare Award 2021 -  Best Hospital: Obstetrics & Gynaecology(OBGYN)
                         </div>
                       </div>
                     </div>
