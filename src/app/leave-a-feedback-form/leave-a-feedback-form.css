@@ -60,9 +60,9 @@ button.contact_form_submit {
     border-radius: 6px;
 }
 
-section.Book_Wellness_Packages{
-    padding: 0 300px;
-    margin: 40px 0;
+section.Book_Wellness_Packages {
+    width: 700px;
+    margin: 20px auto;
 }
 
 /*! well-book pg   end*/
@@ -85,9 +85,6 @@ section.Book_Wellness_Packages{
 /*! well-book pg   start*/
 
 
-section.Book_Wellness_Packages {
-    padding: 0;
-}
 
 
 /*! well-book pg   end*/
@@ -114,7 +111,7 @@ section.Book_Wellness_Packages {
 /*! well-book pg   start*/
 
 section.Book_Wellness_Packages {
-    padding: 0;
+    width: 100%;
 }
 .well-book-head {
     font-size: 15px;

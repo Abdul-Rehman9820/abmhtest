@@ -176,6 +176,8 @@ div#apirespose {
 
 .contact_field {
     padding: 20px;
+    width: 70%;
+    margin: auto;
 }
 .contact_info_sec {
     display: none;
