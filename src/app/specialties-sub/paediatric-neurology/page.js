@@ -236,29 +236,124 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
                   <h1 className="spetileh2gr">Paediatric Neurology</h1>
                   <span className="headbordergr" />
                 </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
+                <p className="specilpara">
+                Pediatric neurology is a specialized field of medicine that focuses on the diagnosis, treatment, and management of neurological disorders in infants, children, and adolescents. Pediatric neurologists are specially trained to address a wide range of neurological conditions unique to the pediatric population.
+                </p>          
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">key aspects of pediatric neurology services:</h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Epilepsy and Seizure Disorders:</b> Diagnosis, treatment, and management of epilepsy and other seizure disorders in children.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuromuscular Disorders:</b> Evaluation and care for conditions affecting the nerves and muscles, including muscular dystrophy and neuropathies.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Headaches and Migraines:</b> Assessment and management of headaches and migraines in pediatric patients.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neurogenetic Disorders:</b> Diagnosis and counseling for children with genetic disorders affecting the nervous system.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Movement Disorders:</b> Evaluation and treatment of conditions causing abnormal movements, such as tics, tremors, and dystonia.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Cerebral Palsy and Motor Disorders:</b> Comprehensive care for children with cerebral palsy and other motor coordination disorders.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Autism Spectrum Disorder (ASD) and Developmental Disorders:</b> Assessment and management of neurological aspects associated with ASD and developmental delays.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neurocutaneous Syndromes:</b> Diagnosis and care for syndromes affecting both the nervous system and the skin, such as neurofibromatosis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuroinflammatory Disorders:</b> Treatment of conditions involving inflammation of the nervous system, including multiple sclerosis in children.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pediatric Stroke:</b> Evaluation and management of stroke and vascular disorders affecting the brain in children.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neurological Effects of Metabolic Disorders:</b> Care for neurological manifestations of metabolic disorders, such as mitochondrial disorders.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuro-Oncology:</b> Collaborative care for children with brain tumors, involving neurosurgeons, oncologists, and radiation oncologists.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuropsychological Evaluation:</b> Assessment of cognitive and behavioral functions to aid in diagnosis and treatment planning.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Electroencephalogram (EEG) and Electromyography (EMG):</b> Diagnostic testing to measure electrical activity in the brain (EEG) and muscles (EMG).
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Sleep Disorders:</b> Evaluation and management of sleep-related disorders, including sleep apnea and insomnia.
+                    </p>
+                  </li>
+                 
+                  
+                </ul>
+
+
+              </div>
+
+            </div>
+
+
 
 
           </div>
         </div>
       </div>
+
+
+
 
 
       {/* specialties end*/}

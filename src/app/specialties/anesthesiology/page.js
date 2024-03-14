@@ -282,23 +282,30 @@ const Anesthesiology = () => {
       {/* sub specialties end*/}
 
 
+
+
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
+
             <div className="spectitleimgbox">
+
               <div className="">
-
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
-                </p> */}
-
+                <p className="specilpara">
+                Anesthesia Department, where our dedicated team of anesthesiologists prioritizes your safety and comfort through various administration methods such as inhalation, injection, topical applications, patches, and more. Anesthesiologists, specialists in administering anesthesia, guide you through the entire process, managing pain, and ensuring a smooth surgical experience. Beyond anesthesiologists, licensed professionals such as dentists, nurses, surgeons, and physicians can also administer anesthesia. When you consult with an anesthesiologist, they meticulously review your medical history, discuss suitable anesthesia options, explain associated risks, and secure your consent. During surgery, they administer precise anesthetics, monitor vital signs, and adeptly manage any complications that may arise, offering postoperative pain management as well.
+                </p>
+                <p className="specilpara">
+                In addition to their role in surgery, anesthesiologists are instrumental in handling emergencies like anesthetic awareness, collapsed lungs, malignant hyperthermia, nerve damage, and postoperative delirium. Their expertise extends beyond the operating room to include pain clinics, childbirth, intensive care, high dependency, and resuscitation services. With a commitment to your well-being, our Anesthesia Department is not just about pain relief during surgery; it&apos;s about comprehensive care, emergency preparedness, and ensuring your utmost comfort throughout your medical journey.
+                </p>
               </div>
+              
             </div>
+
+
           </div>
         </div>
       </div>
+
 
 
 

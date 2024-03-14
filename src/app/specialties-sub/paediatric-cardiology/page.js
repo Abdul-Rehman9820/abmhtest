@@ -236,24 +236,92 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
                   <h1 className="spetileh2gr">Paediatric Cardiology</h1>
                   <span className="headbordergr" />
                 </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
+                <p className="specilpara">
+                Pediatric cardiology is a specialized branch of medicine that focuses on the diagnosis and treatment of congenital and acquired heart conditions in infants, children, and adolescents. Pediatric cardiologists are trained to provide comprehensive care for a wide range of cardiac issues specific to the pediatric population.
+                </p>              
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr"> Here are some key aspects of Paediatric cardiology services:</h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Congenital Heart Defects:</b>  Diagnosis and management of congenital heart defects present at birth, such as atrial septal defects, ventricular septal defects, and complex congenital anomalies.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Acquired Heart Conditions:</b>  Assessment and treatment of acquired heart conditions, including myocarditis, Kawasaki disease, and rheumatic heart disease.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Fetal Cardiology:</b>  Evaluation and monitoring of fetal heart conditions through advanced imaging techniques during pregnancy.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Cardiac Imaging:</b>  Utilization of non-invasive imaging techniques, including echocardiography, cardiac MRI, and CT scans, for accurate diagnosis and assessment of cardiac conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Electrocardiography (ECG or EKG):</b>  Recording and interpretation of electrical activity of the heart to assess for irregularities or abnormalities.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Holter and Event Monitoring:</b>  Continuous monitoring of a child&apos;s heart rhythm over an extended period to detect irregularities not captured during a routine ECG.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Arrhythmia Management:</b>  Evaluation and treatment of abnormal heart rhythms (arrhythmias) in pediatric patients.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Cardiac Catheterization:</b>  Minimally invasive procedures to diagnose and treat certain heart conditions, such as septal defects and valve abnormalities.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Interventional Cardiology:</b>  Interventional procedures, such as balloon angioplasty and stent placement, to treat certain congenital or acquired heart conditions without open-heart surgery.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Preventive Cardiology:</b>  Counseling and interventions to promote heart-healthy habits and prevent cardiovascular diseases in children at risk.
+                    </p>
+                  </li>
+                
+                 
+                  
+                </ul>
+
+
+              </div>
+
+            </div>
+
+
 
 
           </div>

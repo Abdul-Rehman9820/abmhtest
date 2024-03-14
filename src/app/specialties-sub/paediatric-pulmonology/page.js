@@ -231,34 +231,109 @@ const Dentistry = () => {
 
 
 
-
-
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
                   <h1 className="spetileh2gr">Paediatric Pulmonology</h1>
                   <span className="headbordergr" />
                 </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
+                <p className="specilpara">
+                Pediatric pulmonology is a subspecialty of pediatrics focused on the diagnosis, treatment, and management of respiratory and lung-related conditions in children, ranging from infancy to adolescence. Pediatric pulmonologists are specially trained to address a wide range of respiratory issues unique to the pediatric population.
+                </p>
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Services:</h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Asthma Management:</b>  Diagnosis, treatment, and ongoing management of asthma in children, including personalized asthma action plans.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Chronic Respiratory Conditions:</b>  Comprehensive care for chronic respiratory conditions such as cystic fibrosis, bronchopulmonary dysplasia (BPD), and bronchiectasis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Respiratory Infections:</b>  Evaluation and treatment of common respiratory infections, such as pneumonia, bronchitis, and recurrent respiratory infections.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Congenital and Acquired Airway Disorders:</b>  Diagnosis and management of congenital and acquired airway disorders, including congenital malformations and vascular rings.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Sleep-Related Breathing Disorders:</b>  Assessment and treatment of sleep-disordered breathing, including obstructive sleep apnea in children.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Neuromuscular Respiratory Conditions:</b>  Care for children with neuromuscular disorders affecting the respiratory system, such as muscular dystrophy.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Chest Wall Deformities:</b>  Evaluation and management of chest wall deformities, such as pectus excavatum and pectus carinatum.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Interstitial Lung Diseases:</b>  Diagnosis and treatment of rare pediatric interstitial lung diseases that affect the lung tissue.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pulmonary Function Testing:</b>  Assessment of lung function through various pulmonary function tests to aid in diagnosis and treatment planning.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Ciliary Dyskinesia and Primary Ciliary Dyskinesia (PCD):</b>  Evaluation and management of conditions affecting ciliary function in the respiratory tract.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Allergic and Immunologic Respiratory Disorders:</b>  Identification and treatment of allergic and immunologic conditions contributing to respiratory symptoms.
+                    </p>
+                  </li>
+                 
+               
+                  
+                </ul>
+
+
+              </div>
+
+            </div>
+
+
 
 
           </div>
         </div>
       </div>
+
+
+
+
 
 
       {/* specialties end*/}

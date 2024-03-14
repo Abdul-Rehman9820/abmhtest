@@ -236,29 +236,113 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
                   <h1 className="spetileh2gr">Paediatric Surgery</h1>
                   <span className="headbordergr" />
                 </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
+                <p className="specilpara">
+                Explore Exceptional Pediatric Surgical Care at Aditya Birla Memorial Hospital
+                </p>
+                <p className="specilpara">
+                Pediatric surgery at Aditya Birla Memorial Hospital, where our Department of Pediatric Surgery stands at the forefront of advanced healthcare. Our specialized care encompasses a wide range of services, including general pediatric surgery, neonatal surgery, pediatric urology, thoracic surgery, gastrointestinal surgery, minimal invasive surgery, and endoscopy, tailored for patients up to the age of 18 years.
+                </p>
+                <p className="specilpara">
+                Caring for pediatric surgical patients demands a unique blend of tenderness, delicate skills, and meticulous follow-up. From newborns and toddlers to adolescents and mature adults, our pediatric surgeons are dedicated to providing compassionate care at every stage of growth. We draw resilience and inspiration from the children we serve, considering it a privilege to contribute to their well-being. Our surgical team is led by seasoned and experienced Consultants, who have undergone training in prestigious hospitals both in India and overseas.
+                </p>
+                <p className="specilpara">
+                Your child&apos;s health and comfort are our top priorities
+                </p>
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Common problem treated by pediatric Surgery : </h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Appendicitis: </b> Inflammation of the appendix often requiring surgical intervention.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Hernias: </b> Commonly seen in infants and children, hernias involve the protrusion of an organ or tissue through a weakened area in the abdominal wall.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Hydrocele and Inguinal Hernia: </b> Fluid-filled sacs around the testicles or the protrusion of abdominal contents into the inguinal canal.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Congenital Anomalies: </b> Surgical correction of birth defects such as cleft lip and palate, imperforate anus, and esophageal atresia.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pediatric Tumors: </b> Surgical removal of tumors affecting various organs, including kidneys, liver, and soft tissues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gastrointestinal Disorders: </b> Treatment of conditions like intestinal obstruction, gastroesophageal reflux disease (GERD), and inflammatory bowel disease (IBD).
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pediatric Urological Conditions: </b> Management of issues such as hypospadias, vesicoureteral reflux (VUR), and other congenital urological anomalies.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Thoracic Surgery: </b> Addressing congenital or acquired conditions affecting the chest and lungs.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gallbladder and Biliary Tract Disorders: </b> Surgical intervention for pediatric gallstones, gallbladder inflammation, and biliary tract issues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Minimally Invasive Surgery (Laparoscopic/Endoscopic): </b> Utilizing advanced techniques for various procedures, resulting in smaller incisions and faster recovery times.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Trauma and Emergency Surgery: </b> Providing immediate surgical care for pediatric injuries and emergencies. 
+                    </p>
+                  </li>
+
+                  
+                </ul>
+
+
+              </div>
+
+            </div>
+
+
 
 
           </div>
         </div>
       </div>
+
+
+
 
 
       {/* specialties end*/}

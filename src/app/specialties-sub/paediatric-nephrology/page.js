@@ -232,33 +232,127 @@ const Dentistry = () => {
 
 
 
-
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
                   <h1 className="spetileh2gr">Paediatric Nephrology</h1>
                   <span className="headbordergr" />
                 </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
+                <p className="specilpara">
+                Pediatric nephrology is a specialized branch of medicine that focuses on the diagnosis, treatment, and management of kidney-related disorders in infants, children, and adolescents. Pediatric nephrologists are specially trained to address a wide range of kidney conditions unique to the pediatric population.
+                </p>             
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Key pediatric nephrology services:</h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Congenital Kidney Abnormalities:</b> Diagnosis and management of congenital kidney anomalies, including polycystic kidney disease, renal dysplasia, and structural abnormalities.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Acute Kidney Injury (AKI):</b> Evaluation and treatment of sudden and severe kidney dysfunction, often resulting from infections, dehydration, or other acute conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Chronic Kidney Disease (CKD):</b> Management of chronic kidney diseases, which can be congenital or acquired, and may progress to end-stage renal disease (ESRD).
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Hematuria and Proteinuria:</b> Evaluation and management of conditions causing blood or protein in the urine, such as glomerulonephritis or nephrotic syndrome.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Urinary Tract Infections (UTIs):</b> Diagnosis and treatment of UTIs, which are common in children and can sometimes lead to kidney involvement.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Fluid and Electrolyte Disorders:</b> Assessment and management of imbalances in fluids and electrolytes, crucial for overall kidney health.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Renal Tubular Disorders:</b> Diagnosis and treatment of disorders affecting the renal tubules, which can impact electrolyte balance and acid-base equilibrium.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Nephrolithiasis (Kidney Stones):</b> Evaluation and management of kidney stones, which can occur in children and lead to recurrent urinary tract issues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Hypertension (High Blood Pressure):</b> Diagnosis and treatment of hypertension related to kidney disorders or other underlying conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Hereditary Kidney Diseases:</b> Management of hereditary kidney diseases, such as Alport syndrome or autosomal recessive polycystic kidney disease.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Renal Transplantation:</b> Evaluation and pre-transplant care for children requiring kidney transplantation, as well as post-transplant follow-up.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pediatric Dialysis:</b> Management of children requiring dialysis for the treatment of ESRD, including peritoneal dialysis and hemodialysis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Genetic Counseling:</b> Counseling families about the genetic aspects of kidney disorders and the risk of recurrence.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Renal Biopsy:</b> Performance and interpretation of renal biopsies to aid in the diagnosis of certain kidney conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Growth and Development Monitoring:</b> Regular monitoring of growth and development in children with kidney disorders, ensuring appropriate interventions.
+                    </p>
+                  </li>
+                  
+                                   
+                </ul>
+
+
+              </div>
+
+            </div>
+
+
 
 
           </div>
         </div>
       </div>
+
+
+
 
 
       {/* specialties end*/}

@@ -364,15 +364,32 @@ const Pediatrics = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
+
             <div className="spectitleimgbox">
+
               <div className="">
 
                 <p className="specilpara">
-                Paediatrics services at ABMH cover General Paediatrics, Child & Development, Critical Care, Pediatric Pulmonology, Paediatric Cardiology, Pediatric Cardiothoracic Surgery, Pediatric Gastroenterology, Pediatric Nephrology, Pediatric Neurology, Neonatology, and Pediatric Surgery. Our paediatricians provide specialized care for children of all ages.
+               Pediatric department  where our distinguished team of pediatric specialists is dedicated to providing unparalleled integrated care across a broad spectrum of pediatric specialties. With a steadfast commitment to excellence and unwavering standards of patient care, we ensure the highest quality healthcare services for children from the neonatal period through adolescence.
+                </p>
+                <p className="specilpara">
+                Our Pediatric Department offers a comprehensive array of services designed to cater to the unique needs of children and adolescents. These include Pediatric Emergency and Intensive Care, Neonatal Intensive Care, Pediatric Neurology and Child Development,Pediatric Immunology and Rheumatology Services, Pediatric Infectious Disease Services, Pediatric Hematology, Pediatric Hepatology and Gastroenterology Services, Pediatric Allergy, Pediatric Nephro-Uro, and Pediatric Cardiac Services.
+                </p>
+                <p className="specilpara">
+                At Aditya Birla Memorial Hospital, we take pride in our state-of-the-art Pediatric Intensive Care Unit (PICU) and dedicated Neonatal Intensive Care Unit (NICU) equipped with advanced technology and ventilators to ensure optimal treatment methodologies for pediatric care. Our facility offers a complete range of organ transplant procedures, providing comprehensive medical solutions for children with specific needs.
+                </p>
+                <p className="specilpara">
+                Our team of highly dedicated pediatric doctors is committed to delivering the highest quality of care. Trained in specialized pediatric procedures at some of the world&apos;s premier institutes, our consultants are widely respected in their respective fields across the country. Our skilled doctors and paramedics are not only experts in their fields but also compassionate caregivers, standing by your family at every step of your child&apos;s treatment journey.
+                </p>
+                <p className="specilpara">
+                Experience unparalleled pediatric care at Aditya Birla Memorial Hospital, where the health and well-being of your child is our top priority.
                 </p>
 
               </div>
+
             </div>
+
+
           </div>
         </div>
       </div>

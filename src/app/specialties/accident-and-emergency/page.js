@@ -236,20 +236,52 @@ const Accidentandemergency = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
+
             <div className="spectitleimgbox">
+
               <div className="">
-
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto
-                </p> */}
-
+                <p className="specilpara">
+                Our Accident & Emergency Department, where your well-being is our foremost priority. Our dedicated team of highly proficient healthcare professionals is unwaveringly committed to providing exceptional emergency care 24/7. With cutting-edge technology and a comprehensive array of medical resources, our department is well-equipped to address a broad spectrum of medical emergencies, ranging from critical injuries to sudden illnesses.
+                </p>
+                <p className="specilpara">
+                At our Accident & Emergency Department, we take pride in delivering swift and efficient care. Our expert staff, which includes specialized physicians, nurses, and support personnel, collaborates seamlessly to ensure prompt assessment, accurate diagnosis, and timely treatment. Whether you&apos;re facing a traumatic incident or a sudden health crisis, rest assured that our compassionate and competent team is here to guide you through every stage of the emergency care process. Your safety and well-being are of paramount importance to us, and we are dedicated to upholding the highest standards of emergency medical services for our community.
+                </p>
               </div>
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h2 className="spetileh2gr">We Offer 24/7 Healthcare Services:</h2>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                Our comprehensive Accident & Emergency Department (A&E) provides patient care supported by a well-coordinated road evacuation service accessible through a dedicated entrance.
+                </p>               
+              </div>
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h2 className="spetileh2gr">Ambulance Service:</h2>
+                  <span className="headbordergr" />
+                </div>
+                <p className="specilpara">
+                The Accident & Emergency unit offers an exclusive Emergency Medical Ambulance Service, encompassing both Advanced Cardiac Life Support (ACLS) and Basic Life Support (BLS) ambulance requests. These fully equipped emergency vehicles are ready to handle a diverse array of medical, surgical, and traumatic situations.
+                </p>               
+                <p className="specilpara">
+                <b>Ambulance No :</b>  +91 9881123033 / 020 30717788
+                </p>               
+                <p className="specilpara">
+                <b>Emergency department No :</b> 020 30717777 / 020 40707777
+                </p>               
+              </div>
+    
+
             </div>
+
+
           </div>
         </div>
       </div>
+
 
 
 

@@ -236,24 +236,111 @@ const Dentistry = () => {
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="specsingleparn">
-          
+
             <div className="spectitleimgbox">
               <div className="">
                 <div className="spectitle Specialtiesheadgr">
                   <h1 className="spetileh2gr">Paediatric Gastroenterology</h1>
                   <span className="headbordergr" />
                 </div>
-                {/* <p className="specilpara">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                  nihil, eveniet aliquid culpa officia
-                </p> */}
-
+                <p className="specilpara">
+                Pediatric gastroenterology is a specialized field of medicine focused on the diagnosis and treatment of gastrointestinal (GI) and nutritional issues in infants, children, and adolescents. Pediatric gastroenterologists are trained to address a wide range of digestive system disorders unique to the pediatric population
+                </p>          
               </div>
             </div>
+
+
+            <div className="spectitleimgbox mt-3">
+
+              <div className="">
+                <div className="spectitle Specialtiesheadgr">
+                  <h1 className="spetileh2gr">Pediatric gastroenterology services:</h1>
+                  <span className="headbordergr" />
+                </div>
+
+                <ul className="specULbullet">
+
+
+                  <li>
+                    <p className="specilpara">
+                      <b>Nutritional Assessment and Management:</b>  Evaluation and management of nutritional concerns, growth issues, and feeding problems in children.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Inflammatory Bowel Disease (IBD) Management:</b>  Diagnosis and treatment of chronic inflammatory conditions such as Crohn&apos;s disease and ulcerative colitis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Celiac Disease and Gluten-Related Disorders:</b>  Evaluation and management of celiac disease and other gluten-related disorders affecting the small intestine.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gastroesophageal Reflux Disease (GERD):</b>  Diagnosis and management of GERD, a common condition in which stomach contents flow back into the esophagus.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Liver Disease Management:</b>   Diagnosis and treatment of liver disorders in children, including hepatitis, fatty liver disease, and genetic liver conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Functional Gastrointestinal Disorders:</b>  Evaluation and management of functional GI disorders, such as irritable bowel syndrome (IBS).
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Motility Disorders:</b>  Assessment and treatment of disorders affecting the movement of the digestive tract, such as gastroparesis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gastrointestinal Endoscopy:</b>  Performance of diagnostic and therapeutic procedures, including upper endoscopy and colonoscopy, to visualize and treat GI conditions.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gastrointestinal Imaging:</b>  Interpretation and use of imaging studies, such as abdominal ultrasound and MRI, to aid in diagnosis.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Hepatobiliary Disorders:</b>  Diagnosis and management of disorders affecting the liver, gallbladder, and bile ducts.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Pancreatic Disorders:</b>  Assessment and treatment of disorders affecting the pancreas, including pancreatitis and cystic fibrosis-related pancreatic issues.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Malabsorption Disorders:</b>  Evaluation and management of conditions causing malabsorption of nutrients, such as short bowel syndrome.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Gastrointestinal Bleeding:</b>  Evaluation and treatment of gastrointestinal bleeding, including the use of endoscopic procedures.
+                    </p>
+                  </li>
+                  <li>
+                    <p className="specilpara">
+                      <b>Allergic and Immunologic Gastrointestinal Disorders:</b>  Identification and management of allergic and immunologic conditions affecting the GI tract.
+                    </p>
+                  </li>
+                
+                                   
+                </ul>
+
+
+              </div>
+
+            </div>
+
+
 
 
           </div>
