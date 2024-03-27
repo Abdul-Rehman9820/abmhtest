@@ -59,6 +59,7 @@ const Aboutcsr = () => {
               </div>
             </div>
             <div className="crepolpara">
+
               <p className="crepolparadata">
                 <b>Aditya Birla Memorial Hospital (ABMH)</b> is a multi-specialty
                 tertiary hospital located at Pimpri-Chinchwad, Pune in the western <b>
@@ -66,7 +67,9 @@ const Aboutcsr = () => {
                   Board for Laboratory (NABL)
                 </b> accredited hospital, and also India&apos;s <b>First HACCP and ISO: 22000:2005</b> certified hospital
               </p>
-              <p className="crepolparadata">
+
+
+              {/* <p className="crepolparadata">
                 Corporate social responsibility is recent and an evolving concept
                 for the business Organizations in the country. It addresses the well
                 being of all the stakeholders of the society at large and sustaining
@@ -93,9 +96,13 @@ const Aboutcsr = () => {
               <p className="crepolparadata">
                 Responsibility Policy (Policy) in accordance with section 135 of the
                 Companies Act 2013 and the rules made there under.
-              </p>
+              </p> */}
+
+
             </div>
-            <div className="forcoloumdata">
+
+
+            {/* <div className="forcoloumdata">
               <div className="forcoloumdataboxcont">
                 <div className="forcoloumdataboxdetail">
                   <h2 className="detailhead">CSR Vision Statement</h2>
@@ -160,11 +167,15 @@ const Aboutcsr = () => {
                   alt="img"
                 />
               </div>
-            </div>
+            </div> */}
+
+
           </div>
         </div>
       </div>
-      <div className="parentcontainerwhi">
+
+
+      {/* <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="Csrpolmain2">
             <div className="CSRpolyhead">
@@ -362,7 +373,9 @@ const Aboutcsr = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+
       {/* CSR end*/}
     </>
 
