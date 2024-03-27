@@ -30,6 +30,9 @@ const Contactus = () => {
 
       <title>Premier Diagnostic Centre in Pune | Accurate & Advanced Medical Tests</title>
       <meta name="description" content="Discover the finest diagnostic services at Aditya Birla Memorial Hospital, Pune. Our advanced medical tests ensure accuracy and reliability, making us the best diagnostic center in Pune." />
+      <link rel="canonical" href="https://adityabirlahospital.com/diagnostic-services" />
+
+
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

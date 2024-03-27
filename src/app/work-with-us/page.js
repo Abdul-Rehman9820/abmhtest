@@ -27,6 +27,7 @@ const Workwithus = () => {
     <>
 
       <title>Careers - Work With Us</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/work-with-us" />
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">

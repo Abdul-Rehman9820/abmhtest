@@ -18,6 +18,7 @@ const Abmanagement = () => {
 
     <>
       <title>ABMH Management</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/abmh-management" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

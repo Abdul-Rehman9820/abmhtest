@@ -28,6 +28,7 @@ const Accreditations = () => {
     <>
       <title>Accreditations & Awards</title>
       <meta name="description" content="" />
+      <link rel="canonical" href="https://adityabirlahospital.com/accreditations" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

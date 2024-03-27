@@ -83,6 +83,7 @@ const Abmhnews = () => {
 
     <>
       <title>ABMH in the News</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/abmh-news" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

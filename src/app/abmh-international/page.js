@@ -133,6 +133,7 @@ const Abmhinterna = () => {
     <>
 
       <title>ABMH International</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/abmh-internationals" />
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">

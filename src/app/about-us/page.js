@@ -19,7 +19,7 @@ const Aboutus = () => {
     <>
       <title>About Us</title>
       <meta name="description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />
-      
+      <link rel="canonical" href="https://adityabirlahospital.com/about-us" />
       
       <meta property="og:title" content="Aditya Birla Hospital: About Us" />
       <meta property="og:description" content="Learn about the pioneering healthcare services offered at Aditya Birla Memorial Hospital, one of the premier hospitals in Pune. Discover our commitment to excellence and compassionate care." />

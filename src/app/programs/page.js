@@ -27,6 +27,7 @@ const Programs = () => {
 
     <>
       <title>Programs</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/programs" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

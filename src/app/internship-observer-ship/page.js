@@ -28,6 +28,7 @@ const Interobserv = () => {
     <>
     <title>Internship & Observer-ship Opportunities | Learn at Aditya Birla Hospital</title>
     <meta name="description" content="Explore enriching internship and observer-ship programs at Aditya Birla Hospital. Gain hands-on experience and learn from industry experts in a premier healthcare environment." />
+    <link rel="canonical" href="https://adityabirlahospital.com/internship-observer-ship" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

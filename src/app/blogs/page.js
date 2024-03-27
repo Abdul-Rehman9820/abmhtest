@@ -71,6 +71,7 @@ const Blogs = () => {
     <>
       {/* our work*/}
       <title>Blogs</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/blogs" />
       <div className="parentcontainerwhi">
         <div className="page_header">
           <div className="customcontainer">

@@ -88,6 +88,7 @@ const Hospitalvisit = () => {
     <>
       <title>Students Gallery</title>
       <meta name="description" content="" />
+      <link rel="canonical" href="https://adityabirlahospital.com/students-gallery" />
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">

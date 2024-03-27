@@ -18,6 +18,7 @@ const WellnessPack = () => {
 
     <>
       <title>Wellness Packages</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/wellness-packages" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

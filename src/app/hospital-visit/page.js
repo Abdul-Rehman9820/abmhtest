@@ -99,6 +99,7 @@ const Virtualtour = () => {
 
     <>
       <title>Hospital Visit</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/hospital-visit" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

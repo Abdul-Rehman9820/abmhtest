@@ -146,6 +146,7 @@ const Contactus = () => {
 
     <>
       <title>Book Wellness Packages</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/wellness-packages-book" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

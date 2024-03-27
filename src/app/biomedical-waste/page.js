@@ -27,6 +27,7 @@ const WellnessPack = () => {
 
     <>
       <title>Biomedical Waste Report</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/biomedical-waste" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

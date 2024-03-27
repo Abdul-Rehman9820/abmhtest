@@ -25,6 +25,7 @@ const Technology = () => {
 
     <>
       <title>Technology</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/abmh-technology" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

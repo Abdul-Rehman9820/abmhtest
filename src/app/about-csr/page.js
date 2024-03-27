@@ -25,6 +25,7 @@ const Aboutcsr = () => {
 
     <>
     <title>CSR</title>
+    <link rel="canonical" href="https://adityabirlahospital.com/about-csr" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

@@ -133,6 +133,7 @@ const Contactus = () => {
 
     <>
    <title>Contact Us</title>
+   <link rel="canonical" href="https://adityabirlahospital.com/contact-us" />
     {/* common heading div start*/}
     <div className="parentcontainerwhi">
       <div className="customcontainer">

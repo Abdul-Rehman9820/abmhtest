@@ -51,7 +51,7 @@ const Specialties = () => {
 
       <title>Medical Specialties | Expert Healthcare Services in Pune - Aditya Birla Hospital</title>
       <meta name="description" content="Explore diverse medical specialties at Aditya Birla Hospital, Pune. Our expert healthcare services encompass a range of specialized treatments and care for your well-being." />
-
+      <link rel="canonical" href="https://adityabirlahospital.com/specialties" />
 
       {/* common heading div start*/}
       <div className="parentcontainerwhi">

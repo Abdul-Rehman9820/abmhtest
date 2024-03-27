@@ -257,6 +257,7 @@ const Feedbackform = () => {
 
     <>
       <title>Book Diagnostic Services</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/diagnostic-book" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">

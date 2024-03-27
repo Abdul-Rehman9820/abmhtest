@@ -18,6 +18,7 @@ const Qualityandethics = () => {
 
     <>
       <title>Quality Policy & Ethics Committee</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/quality-policy-and-ethics-committee" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi" id="quality-policy">
         <div className="customcontainer">

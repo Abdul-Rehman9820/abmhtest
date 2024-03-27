@@ -118,6 +118,7 @@ const Workcontactus = () => {
 
     <>
       <title>Work with Us</title>
+      <link rel="canonical" href="https://adityabirlahospital.com/work-with-us-form" />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
