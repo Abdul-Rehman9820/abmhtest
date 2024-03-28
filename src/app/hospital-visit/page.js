@@ -1,112 +1,31 @@
-
-
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-import './virtual-tour.css'
-
+import "./virtual-tour.css";
 
 const Virtualtour = () => {
-
-
-
-  useEffect(() => {
-
-
-    // testi slider
-
-
-    const newSlider = document.querySelector(".new-slider");
-    const newSlides = document.querySelectorAll(".new-slidet");
-    const newPrevButton = document.getElementById("new-prevButton");
-    const newNextButton = document.getElementById("new-nextButton");
-    const newSliderDots = document.querySelector(".new-slider-dots");
-
-    let newCurrentSlide = 0;
-    const newSlidesToShow = 2; // Number of slides to show at a time
-    const newSlideWidth = 100 / newSlidesToShow;
-    const newSlideCount = newSlides.length;
-
-    function newShowSlide() {
-      const translateX = -newCurrentSlide * newSlideWidth;
-      newSlider.style.transform = `translateX(${translateX}%)`;
-      newUpdateDots();
-    }
-
-    function newGoToNextSlide() {
-      newCurrentSlide = (newCurrentSlide + 1) % newSlideCount;
-      newShowSlide();
-    }
-
-    function newGoToPrevSlide() {
-      newCurrentSlide = (newCurrentSlide - 1 + newSlideCount) % newSlideCount;
-      newShowSlide();
-    }
-
-    function newCreateDots() {
-      for (let i = 0; i < newSlideCount; i++) {
-        const newDot = document.createElement("span");
-        newDot.className = "new-slider-dot";
-        newDot.addEventListener("click", () => {
-          newCurrentSlide = i;
-          newShowSlide();
-        });
-        newSliderDots.appendChild(newDot);
-      }
-    }
-
-    function newUpdateDots() {
-      const newDots = document.querySelectorAll(".new-slider-dot");
-      newDots.forEach((newDot, i) => {
-        if (i === newCurrentSlide) {
-          newDot.classList.add("active");
-        } else {
-          newDot.classList.remove("active");
-        }
-      });
-    }
-
-    newCreateDots();
-    newShowSlide();
-
-    // Auto-slide
-    let newAutoSlideInterval = setInterval(newGoToNextSlide, 5000); // Change slide every 3 seconds
-
-    // Pause auto-slide on mouse hover
-    newSlider.addEventListener("mouseenter", () => {
-      clearInterval(newAutoSlideInterval);
-    });
-
-    // Resume auto-slide when the mouse leaves the carousel
-    newSlider.addEventListener("mouseleave", () => {
-      newAutoSlideInterval = setInterval(newGoToNextSlide, 3000);
-    });
-
-    newNextButton.addEventListener("click", newGoToNextSlide);
-    newPrevButton.addEventListener("click", newGoToPrevSlide);
-
-
-    // testi slider
-
-
-  })
-
+ 
 
   return (
-
     <>
       <title>Hospital Visit</title>
-      <link rel="canonical" href="https://adityabirlahospital.com/hospital-visit" />
+      <link
+        rel="canonical"
+        href="https://adityabirlahospital.com/hospital-visit"
+      />
       {/* common heading div start*/}
       <div className="parentcontainerwhi">
         <div className="customcontainer">
           <div className="commonheaddiv">
             <div className="commonheadcontainer">
               <div className="breadcrumbs">
-                <Link className="breadcrumbsNotactive" href="">Patient Care </Link> / <span className="breadcrumbsactive">Hospital Visit</span>
+                <Link className="breadcrumbsNotactive" href="">
+                  Patient Care{" "}
+                </Link>{" "}
+                / <span className="breadcrumbsactive">Hospital Visit</span>
               </div>
             </div>
           </div>
@@ -116,7 +35,12 @@ const Virtualtour = () => {
       {/* common heading banner start */}
       <div className="mainheadingbanner">
         <div className="mainheadingbandiv">
-          <Image width={2000} height={400} src="/commonimages/commvirtulnewban.jpg" alt="icon" />
+          <Image
+            width={2000}
+            height={400}
+            src="/commonimages/commvirtulnewban.jpg"
+            alt="icon"
+          />
         </div>
       </div>
       <div id="PatientsTestimonials"></div>
@@ -157,196 +81,93 @@ const Virtualtour = () => {
               </div>
             </div>
 
-
+            {/* for deckstop slider start */}
             <div className="taltourtestimslidcont deckstophead">
-              <div className="new-slider-wrapper">
-                <div className="new-slider">
+              <div
+                id="carouselfordeckstophead"
+                className="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  I am glad to have met Dr Anand Vijay in Aditya
+                                  Birla for my mother&apos;s treatment. She was
+                                  suffering from ILD and was in a very serious
+                                  condition when we admitted her. Dr. Vijay not
+                                  only helped her from the life-threatening
+                                  situation but now it&apos;s been 3 years since
+                                  discharge and she has been really recovering
+                                  well. Thanks to the doctor and Birla for
+                                  everything!
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Suraj Nair </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Practo</h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
-
-                  <div className="new-slidet">
-                    <div className="myovefts">
-                      <div className="whychochilbo">
-                        <div className="whychoslideboxts">
-                          <div className="whychobox1ts">
-                            <div className="whychospects">
-                              <h2>
-                                Delighted mother, Mrs. Radha Gaikwad, praises Aditya Birla Memorial Hospital. Under Dr. Molshri Misra&apos;s care, she appreciates the skilled medical attention and supportive staff, expressing sincere gratitude for a positive experience during the child birth.
-                              </h2>
-                            </div>
-                          </div>
-                          <div className="whychoimgbox2ts">
-                            <div className="whychoimgbox2col1ts">
-                              <div className="whychoimgts">
-                                <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  The doctor is very cool and calm. Explains the
+                                  treatment to be given to patients and
+                                  relatives very politely. Keep up with your
+                                  good job sir. All the best for your future
+                                  sir.
+                                </h2>
                               </div>
                             </div>
-                            <div className="whychoimgbox2col2ts">
-                              <div className="whychonamejustyts">
-                                <div className="whychonamets">
-                                  <h2>Mrs. Radha Anirudh Gaikwad </h2>
-                                </div>
-                                <div className="whychonameforts">
-                                  <h2>Patient&apos;s Testimonial</h2>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="new-slidet">
-                    <div className="myovefts">
-                      <div className="whychochilbo">
-                        <div className="whychoslideboxts">
-                          <div className="whychobox1ts">
-                            <div className="whychospects">
-                              <h2>
-                                Bhaskar Bange praises Aditya Birla Memorial Hospital for impeccable cleanliness and unwavering focus on sanitization. Enduring Dialysis since July 2015, he lauds the hospital&apos;s commitment to infection control,  outstanding staff, service and infrastructure.
-                              </h2>
-                            </div>
-                          </div>
-                          <div className="whychoimgbox2ts">
-                            <div className="whychoimgbox2col1ts">
-                              <div className="whychoimgts">
-                                <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2col2ts">
-                              <div className="whychonamejustyts">
-                                <div className="whychonamets">
-                                  <h2>Bhaskar Panduram Bange</h2>
-                                </div>
-                                <div className="whychonameforts">
-                                  <h2>Patient&apos;s Testimonial</h2>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="new-slidet">
-                    <div className="myovefts">
-                      <div className="whychochilbo">
-                        <div className="whychoslideboxts">
-                          <div className="whychobox1ts">
-                            <div className="whychospects">
-                              <h2>
-                                Cancer survivor Mrs. Aruna Hiwarkar thanks Aditya Birla Memorial Hospital for Dr. Wategaonkar&apos;s expertise and the supportive team. Regular check-ups reflect her well-being, emphasizing the hospital&apos;s responsive care and advanced facilities.
-                              </h2>
-                            </div>
-                          </div>
-                          <div className="whychoimgbox2ts">
-                            <div className="whychoimgbox2col1ts">
-                              <div className="whychoimgts">
-                                <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2col2ts">
-                              <div className="whychonamejustyts">
-                                <div className="whychonamets">
-                                  <h2> Mrs. Aruna Ramdas Hiwarkar</h2>
-                                </div>
-                                <div className="whychonameforts">
-                                  <h2>Patient&apos;s Testimonial</h2>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="new-slidet">
-                    <div className="myovefts">
-                      <div className="whychochilbo">
-                        <div className="whychoslideboxts">
-                          <div className="whychobox1ts">
-                            <div className="whychospects">
-                              <h2>
-                                Kudos to Mr. Dharmendra Pashine, a resilient patient who underwent painless Robotic Surgery for Umbilical Hernia at Aditya Birla Memorial Hospital. Dr. Suprashant Kulkarni&apos;s skilled hands ensured the quick recovery of Mr. Pashine. He&apos;s grateful to the hospital staff and advancements.
-                              </h2>
-                            </div>
-                          </div>
-                          <div className="whychoimgbox2ts">
-                            <div className="whychoimgbox2col1ts">
-                              <div className="whychoimgts">
-                                <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2col2ts">
-                              <div className="whychonamejustyts">
-                                <div className="whychonamets">
-                                  <h2>Mr. Dharmendra Pashine </h2>
-                                </div>
-                                <div className="whychonameforts">
-                                  <h2>Patient&apos;s Testimonial</h2>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="new-slidet">
-                    <div className="myovefts">
-                      <div className="whychochilbo">
-                        <div className="whychoslideboxts">
-                          <div className="whychobox1ts">
-                            <div className="whychospects">
-                              <h2>
-                                Mrs. Asha Gupta commends Aditya Birla Memorial Hospital for efficient Pneumonia treatment. Grateful for Dr. Rahul Baste&apos;s exceptional care, she applauds the staff&apos;s support, resulting in a swift recovery and discharge in just a week.
-                              </h2>
-                            </div>
-                          </div>
-                          <div className="whychoimgbox2ts">
-                            <div className="whychoimgbox2col1ts">
-                              <div className="whychoimgts">
-                                <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2col2ts">
-                              <div className="whychonamejustyts">
-                                <div className="whychonamets">
-                                  <h2> Mrs. Asha Gupta</h2>
-                                </div>
-                                <div className="whychonameforts">
-                                  <h2>Patient&apos;s Testimonial</h2>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="new-slidet">
-                    <div className="myovefts">
-                      <div className="whychochilbo">
-                        <div className="whychoslideboxts">
-                          <div className="whychobox1ts">
-                            <div className="whychospects">
-                              <h2>
-                                Aniket Todkar expresses gratitude to Aditya Birla Memorial Hospital for the right care. His father, with a serious rib cage fracture, received prompt treatment & recovered. He appreciates the unwavering support of the dedicated doctors & staff.
-                              </h2>
-                            </div>
-                          </div>
-                          <div className="whychoimgbox2ts">
-                            <div className="whychoimgbox2col1ts">
-                              <div className="whychoimgts">
-                                <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2col2ts">
-                              <div className="whychonamejustyts">
-                                <div className="whychonamets">
-                                  <h2>Dattatreya Laxman Todkar </h2>
-                                </div>
-                                <div className="whychonameforts">
-                                  <h2>Patient&apos;s Testimonial</h2>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Vijay Divate </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Practo</h2>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -356,135 +177,520 @@ const Virtualtour = () => {
                     </div>
                   </div>
 
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  Dr. Prateek Agarwal and the Aditya Birla
+                                  Hospital team successfully rescued Dhanraj
+                                  Pawar from the brink of death and subsequently
+                                  cured him. I extend heartfelt gratitude to
+                                  everyone for their exceptional cooperation.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Lalit Pawar </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2> Google </h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  One of the best hospitals in India. They
+                                  provide the best Doctor treatment with quality
+                                  service. I had a very good experience when I
+                                  admitted my both daughter&apos;s last days. All
+                                  staff are very supportive and solved our
+                                  doubts and all queries.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Anil Singh </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Google </h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                  {/* Add more slides here */}
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  The dental treatment, carried out by
+                                  specialist doctors, was done with extreme care
+                                  and precision. Quality was maintained in every
+                                  aspect integrally. The pathological tests,
+                                  other test areas and staff work were carried
+                                  out with careful nature and highness
+                                  maintained. Thanks to the doctors and all
+                                  concerned staff for their dedication.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Milind Vaidya </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Google </h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  I&apos;ve been spending quite a bit of time at
+                                  Aditya Birla Memorial Hospital lately due to
+                                  my nephew&apos;s stomach surgery, and I must say,
+                                  it&apos;s been quite a positive experience. The
+                                  staff members are incredibly friendly, and the
+                                  facilities are top-notch. The doctors handle
+                                  every situation with grace and are always
+                                  respectful towards their patients.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Ashish Singh </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Google </h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  It was a wonderful experience at the wellness
+                                  department, staff were excellent throughout
+                                  the health checkup process. Must recommend my
+                                  family relatives and friends for health
+                                  checkups. World-class facilities under the
+                                  same department with brilliant and
+                                  hard-working teams.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Akshay </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Google</h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  This is one of the best hospitals in Pune,
+                                  ideal for treating several different types of
+                                  problems. My father underwent nose surgery
+                                  here. Doctors here performed the procedure
+                                  perfectly. It is one of a kind because of the
+                                  cleanliness of the hospital and the
+                                  courteousness of the staff. I highly recommend
+                                  it to everyone.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Prince Maantech </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2>Google </h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="new-slider-dots">
-                {/* Dots will be added dynamically using JavaScript */}
-              </div>
-              <div className="new-sliderbtn">
-                <button id="new-prevButton">
-                  <Image width={400} height={400} src="/virtualtour/nextleft.png" alt="img" />
+
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselfordeckstophead"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
-                <button id="new-nextButton">
-                  <Image width={400} height={400} src="/virtualtour/nextright.png" alt="img" />
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselfordeckstophead"
+                  data-bs-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
+            {/* for deckstop slider end */}
 
-
+            {/* for mobile slider start */}
             <div className="newmobiletist-cont mobilehead">
-
-              <div id="carouselExampleIndicatornewtisti" className="carousel slide" data-bs-ride="carousel">
-
-
+              <div
+                id="carouselExampleIndicatornewtisti"
+                className="carousel slide"
+                data-bs-ride="carousel"
+              >
                 <div className="carousel-inner">
-
-
                   <div className="carousel-item active">
                     <div>
                       <div className="newtesti-Para">
-                      Delighted mother, Mrs. Radha Gaikwad, praises Aditya Birla Memorial Hospital. Under Dr. Molshri Misra&apos;s care, she appreciates the skilled medical attention and supportive staff, expressing sincere gratitude for a positive experience during the child birth.
+                        I am glad to have met Dr Anand Vijay in Aditya Birla for
+                        my mother&apos;s treatment. She was suffering from ILD and
+                        was in a very serious condition when we admitted her.
+                        Dr. Vijay not only helped her from the life-threatening
+                        situation but now it&apos;s been 3 years since discharge and
+                        she has been really recovering well. Thanks to the
+                        doctor and Birla for everything!
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Mrs. Radha Anirudh Gaikwad</h2>
+                        <h2 className="newtesti-name">Suraj Nair</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
+                        <h2 className="newtesti-cont">Practo</h2>
                       </div>
                     </div>
                   </div>
+
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                      Bhaskar Bange praises Aditya Birla Memorial Hospital for impeccable cleanliness and unwavering focus on sanitization. Enduring Dialysis since July 2015, he lauds the hospital&apos;s commitment to infection control,  outstanding staff, service and infrastructure.
+                        The doctor is very cool and calm. Explains the treatment
+                        to be given to patients and relatives very politely.
+                        Keep up with your good job sir. All the best for your
+                        future sir.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Bhaskar Panduram Bange</h2>
+                        <h2 className="newtesti-name">Vijay Divate</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
+                        <h2 className="newtesti-cont">Practo</h2>
                       </div>
                     </div>
                   </div>
+
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                      Cancer survivor Mrs. Aruna Hiwarkar thanks Aditya Birla Memorial Hospital for Dr. Wategaonkar&apos;s expertise and the supportive team. Regular check-ups reflect her well-being, emphasizing the hospital&apos;s responsive care and advanced facilities.
+                        Dr. Prateek Agarwal and the Aditya Birla Hospital team
+                        successfully rescued Dhanraj Pawar from the brink of
+                        death and subsequently cured him. I extend heartfelt
+                        gratitude to everyone for their exceptional cooperation.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Mrs. Aruna Ramdas Hiwarkar</h2>
+                        <h2 className="newtesti-name">Lalit Pawar</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
+                        <h2 className="newtesti-cont">Google</h2>
                       </div>
                     </div>
                   </div>
+
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                      Kudos to Mr. Dharmendra Pashine, a resilient patient who underwent painless Robotic Surgery for Umbilical Hernia at Aditya Birla Memorial Hospital. Dr. Suprashant Kulkarni&apos;s skilled hands ensured the quick recovery of Mr. Pashine. He&apos;s grateful to the hospital staff and advancements. 
+                        One of the best hospitals in India. They provide the
+                        best Doctor treatment with quality service. I had a very
+                        good experience when I admitted my both daughter&apos;s last
+                        days. All staff are very supportive and solved our
+                        doubts and all queries.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Mr. Dharmendra Pashine</h2>
+                        <h2 className="newtesti-name">Anil Singh</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
+                        <h2 className="newtesti-cont">Google</h2>
                       </div>
                     </div>
                   </div>
+
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                      Mrs. Asha Gupta commends Aditya Birla Memorial Hospital for efficient Pneumonia treatment. Grateful for Dr. Rahul Baste&apos;s exceptional care, she applauds the staff&apos;s support, resulting in a swift recovery and discharge in just a week.
+                        The dental treatment, carried out by specialist doctors,
+                        was done with extreme care and precision. Quality was
+                        maintained in every aspect integrally. The pathological
+                        tests, other test areas and staff work were carried out
+                        with careful nature and highness maintained. Thanks to
+                        the doctors and all concerned staff for their
+                        dedication.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Mrs. Asha Gupta</h2>
+                        <h2 className="newtesti-name">Milind Vaidya</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
+                        <h2 className="newtesti-cont">Google</h2>
                       </div>
                     </div>
                   </div>
+
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                      Aniket Todkar expresses gratitude to Aditya Birla Memorial Hospital for the right care. His father, with a serious rib cage fracture, received prompt treatment & recovered. He appreciates the unwavering support of the dedicated doctors & staff.
+                        I&apos;ve been spending quite a bit of time at Aditya Birla
+                        Memorial Hospital lately due to my nephew&apos;s stomach
+                        surgery, and I must say, it&apos;s been quite a positive
+                        experience. The staff members are incredibly friendly,
+                        and the facilities are top-notch. The doctors handle
+                        every situation with grace and are always respectful
+                        towards their patients.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
-                        <Image width={400} height={400} src="/virtualtour/innertesti.png" alt="img" />
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Mr. Dattatreya Laxman Todkar</h2>
+                        <h2 className="newtesti-name">Ashish Singh</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Patient&apos;s Testimonial</h2>
+                        <h2 className="newtesti-cont">Google</h2>
                       </div>
                     </div>
                   </div>
 
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                        It was a wonderful experience at the wellness
+                        department, staff were excellent throughout the health
+                        checkup process. Must recommend my family relatives and
+                        friends for health checkups. World-class facilities
+                        under the same department with brilliant and
+                        hard-working teams.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Akshay</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont">Google</h2>
+                      </div>
+                    </div>
+                  </div>
 
-
-
-
-
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                        This is one of the best hospitals in Pune, ideal for
+                        treating several different types of problems. My father
+                        underwent nose surgery here. Doctors here performed the
+                        procedure perfectly. It is one of a kind because of the
+                        cleanliness of the hospital and the courteousness of the
+                        staff. I highly recommend it to everyone.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Prince Maantech</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont">Google</h2>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <button
@@ -493,9 +699,10 @@ const Virtualtour = () => {
                   data-bs-target="#carouselExampleIndicatornewtisti"
                   data-bs-slide="prev"
                 >
-                  <span className="carousel-control-prev-icon" aria-hidden="true">
-
-                  </span>
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
                   <span className="visually-hidden">Previous</span>
                 </button>
                 <button
@@ -504,33 +711,21 @@ const Virtualtour = () => {
                   data-bs-target="#carouselExampleIndicatornewtisti"
                   data-bs-slide="next"
                 >
-                  <span className="carousel-control-next-icon" aria-hidden="true">
-
-                  </span>
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
                   <span className="visually-hidden">Next</span>
                 </button>
-
               </div>
-
-
-
             </div>
-
-
+            {/* for mobile slider end */}
           </div>
         </div>
       </div>
       {/* Hospirtal testimonials   end*/}
-
     </>
-
-
-
   );
-
-
 };
-
-
 
 export default Virtualtour;

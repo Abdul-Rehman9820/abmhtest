@@ -90,9 +90,9 @@ iframe.turevidiframe {
 
 .taltourtestimslidcont .myovefts {
     padding: 10px;
-    height: 100%;
+    width: 50%;
 }
-.taltourtestimslidcont .whychochilbo {
+.taltourtestimslidcont .whychochinewlbo {
     height: 100%;
 }
 
@@ -161,6 +161,10 @@ iframe.turevidiframe {
 .whychocombtn a {
     display: flex;
     align-items: center;
+}
+.tetisource {
+    color: #a21b18;
+    font-weight: 600;
 }
 .whychocombtn a {
     color: black;
@@ -281,6 +285,38 @@ h2.newtesti-cont {
 }
 
 
+#carouselfordeckstophead .carousel-control-prev-icon {
+    background-color: #a21b18;
+    border-radius: 50%;
+    background-size: 20px 20px;
+}
+#carouselfordeckstophead .carousel-control-next-icon {
+    background-color: #a21b18;
+    border-radius: 50%;
+    background-size: 20px 20px;
+}
+
+
+.taltourtestimslidcont .carousel-control-next, .taltourtestimslidcont .carousel-control-prev {
+    width: 5%;
+}
+
+.taltourtestimslidcont .carousel-control-prev {
+    right: 40px !important;
+    left: unset;
+}
+
+.taltourtestimslidcont span.carousel-control-next-icon, .taltourtestimslidcont span.carousel-control-prev-icon {
+    bottom: -30px !important;
+    position: absolute;
+}
+
+
+.testinewflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
 
