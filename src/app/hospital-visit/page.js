@@ -5,10 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import "./virtual-tour.css";
+import "./hospital-room-tab.css";
 
 const Virtualtour = () => {
- 
-
   return (
     <>
       <title>Hospital Visit</title>
@@ -70,6 +69,205 @@ const Virtualtour = () => {
       </div> */}
 
       {/* Hospirtal tour  end*/}
+
+      {/* Room and infra tab  start*/}
+
+      <div className="parentcontainerwhi mb-5 mt-2">
+        <div className="customcontainer">
+          <div className="RoomInfrloop">
+             <div className="commonheadingCont">
+              <div className="commonheadinghead">
+                <h2>Rooms</h2>
+                <span className="Commheadborder" />
+              </div>
+             </div>
+            <div className="room-main-tabsec">
+              <nav>
+                <div className="nav nav-tabs" id="nav-tab" role="tablist">
+
+
+                  <button
+                    className="nav-link active"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Diamond-Suite-Ward"
+                    type="button"
+                  >
+                   Diamond Suite Ward
+                  </button> 
+                  <button
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Nuro-ICU"
+                    type="button"
+                  >
+                   Nuro ICU
+                  </button> 
+                  <button
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#PICU"
+                    type="button"
+                  >
+                   PICU
+                  </button>            
+                  <button
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Daycare"
+                    type="button"
+                  >
+                    Daycare
+                  </button>
+                  <button
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Nicu"
+                    type="button"
+                  >
+                   Nicu
+                  </button>              
+                  <button
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Wellness"
+                    type="button"
+                  >
+                   Wellness
+                  </button>
+                  <button
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#AandE"
+                    type="button"
+                  >
+                   A&E
+                  </button>
+                
+
+                </div>
+              </nav>
+
+              <div className="tab-content" id="nav-tabContent">
+
+
+                <div className="tab-pane fade show active" id="Diamond-Suite-Ward">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Diamond Suite Ward1.jpg" alt="abmh room image" />
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Diamond Suite Ward2.jpg" alt="abmh room image" />
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Diamond Suite Ward3.jpg" alt="abmh room image" />
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Diamond Suite Ward4.jpg" alt="abmh room image" />
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Diamond Suite Ward5.jpg" alt="abmh room image" />
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Diamond Suite Ward6.jpg" alt="abmh room image" />
+
+                     
+         
+                  </div>
+                </div>
+
+
+                <div className="tab-pane fade show" id="Nuro-ICU">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU1.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU2.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU3.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU4.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU5.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU6.jpg" alt="abmh room image" />                   
+                     
+        
+                  </div>
+                </div>
+
+
+                <div className="tab-pane fade show" id="PICU">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/PICU1.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/PICU2.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/PICU3.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/PICU4.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/PICU5.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/PICU6.jpg" alt="abmh room image" />                   
+                     
+        
+                  </div>
+                </div>
+
+
+                <div className="tab-pane fade show" id="Daycare">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Daycare1.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Daycare2.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Daycare3.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Daycare4.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Daycare5.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Daycare6.jpg" alt="abmh room image" />                   
+                    
+                            
+                  </div>
+                </div>
+
+
+                <div className="tab-pane fade show" id="Nicu">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu1.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu2.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu3.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu4.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu5.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu6.jpg" alt="abmh room image" />                   
+                                         
+                            
+                  </div>
+                </div>
+
+
+                <div className="tab-pane fade show" id="Wellness">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Wellness1.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Wellness2.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Wellness3.jpg" alt="abmh room image" />                   
+                                  
+                            
+                  </div>
+                </div>
+
+
+                <div className="tab-pane fade show" id="AandE">
+                  <div className="roominfraImagecont">
+
+
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/AandE1.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/AandE2.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/AandE3.jpg" alt="abmh room image" />                   
+                                  
+                            
+                  </div>
+                </div>
+
+                {/* add another tab */}
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Room and infra tab  end*/}
+
       {/* Hospirtal testimonials  start*/}
       <div className="parentcontainerwhi withtestBG">
         <div className="customcontainer">
@@ -228,8 +426,8 @@ const Virtualtour = () => {
                                   One of the best hospitals in India. They
                                   provide the best Doctor treatment with quality
                                   service. I had a very good experience when I
-                                  admitted my both daughter&apos;s last days. All
-                                  staff are very supportive and solved our
+                                  admitted my both daughter&apos;s last days.
+                                  All staff are very supportive and solved our
                                   doubts and all queries.
                                 </h2>
                               </div>
@@ -315,12 +513,13 @@ const Virtualtour = () => {
                                 <h2>
                                   I&apos;ve been spending quite a bit of time at
                                   Aditya Birla Memorial Hospital lately due to
-                                  my nephew&apos;s stomach surgery, and I must say,
-                                  it&apos;s been quite a positive experience. The
-                                  staff members are incredibly friendly, and the
-                                  facilities are top-notch. The doctors handle
-                                  every situation with grace and are always
-                                  respectful towards their patients.
+                                  my nephew&apos;s stomach surgery, and I must
+                                  say, it&apos;s been quite a positive
+                                  experience. The staff members are incredibly
+                                  friendly, and the facilities are top-notch.
+                                  The doctors handle every situation with grace
+                                  and are always respectful towards their
+                                  patients.
                                 </h2>
                               </div>
                             </div>
@@ -482,12 +681,12 @@ const Virtualtour = () => {
                     <div>
                       <div className="newtesti-Para">
                         I am glad to have met Dr Anand Vijay in Aditya Birla for
-                        my mother&apos;s treatment. She was suffering from ILD and
-                        was in a very serious condition when we admitted her.
-                        Dr. Vijay not only helped her from the life-threatening
-                        situation but now it&apos;s been 3 years since discharge and
-                        she has been really recovering well. Thanks to the
-                        doctor and Birla for everything!
+                        my mother&apos;s treatment. She was suffering from ILD
+                        and was in a very serious condition when we admitted
+                        her. Dr. Vijay not only helped her from the
+                        life-threatening situation but now it&apos;s been 3
+                        years since discharge and she has been really recovering
+                        well. Thanks to the doctor and Birla for everything!
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -561,8 +760,8 @@ const Virtualtour = () => {
                       <div className="newtesti-Para">
                         One of the best hospitals in India. They provide the
                         best Doctor treatment with quality service. I had a very
-                        good experience when I admitted my both daughter&apos;s last
-                        days. All staff are very supportive and solved our
+                        good experience when I admitted my both daughter&apos;s
+                        last days. All staff are very supportive and solved our
                         doubts and all queries.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
@@ -613,13 +812,13 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        I&apos;ve been spending quite a bit of time at Aditya Birla
-                        Memorial Hospital lately due to my nephew&apos;s stomach
-                        surgery, and I must say, it&apos;s been quite a positive
-                        experience. The staff members are incredibly friendly,
-                        and the facilities are top-notch. The doctors handle
-                        every situation with grace and are always respectful
-                        towards their patients.
+                        I&apos;ve been spending quite a bit of time at Aditya
+                        Birla Memorial Hospital lately due to my nephew&apos;s
+                        stomach surgery, and I must say, it&apos;s been quite a
+                        positive experience. The staff members are incredibly
+                        friendly, and the facilities are top-notch. The doctors
+                        handle every situation with grace and are always
+                        respectful towards their patients.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image

@@ -1,0 +1,83 @@
+.room-main-tabsec {
+    margin-top: 25px;
+}
+
+
+.room-main-tabsec .nav-link {
+    background: #f1f1f1!important;
+    color: #aba4a4!important;
+    font-size: 18px!important;
+    font-weight: 500!important;
+    border-radius: 10px!important;
+    margin-bottom: 5px!important;
+    margin-right: 5px!important;
+}
+
+.room-main-tabsec .nav-link.active {
+    color: #a21b18!important;
+    background-color: #ffe468!important;
+    border: 1px solid #a4221f!important;
+}
+.roominfraImagecont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.roominfraimg {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Tab div 768 to 1300 start*/
+
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+    .roominfraimg {
+        width: 33%;
+    }
+   
+    
+    
+  }
+    
+    
+ /* Tab div 768 to 1300 end*/
+
+
+
+
+
+
+/*small div 367 */
+
+@media only screen and (max-width: 767px) {
+  
+
+    .roominfraimg {
+        width: 49%;
+    }
+    
+    .room-main-tabsec .lablebox h2 {
+        font-size: 15px !important;
+    }
+    
+    .room-main-tabsec button.nav-link {
+        font-size: 13px !important;
+        width: 100%;
+        text-align: start;
+    }
+    .room-main-tabsec div#nav-tab {
+        height: 150px;
+        overflow-y: scroll;
+    }
+    
+    
+    
+    }
+    
+    /* small div 367*/
