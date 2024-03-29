@@ -42,7 +42,7 @@ const Virtualtour = () => {
           />
         </div>
       </div>
-      <div id="PatientsTestimonials"></div>
+
       {/* common heading banner end */}
       {/* Hospirtal tour start*/}
 
@@ -269,6 +269,8 @@ const Virtualtour = () => {
       {/* Room and infra tab  end*/}
 
       {/* Hospirtal testimonials  start*/}
+      <div id="PatientsTestimonials"></div>
+
       <div className="parentcontainerwhi withtestBG">
         <div className="customcontainer">
           <div className="Hospirtaltourtestim">
@@ -324,7 +326,7 @@ const Virtualtour = () => {
                                     <h2>Suraj Nair </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Practo</h2>
+                                    <h2>Source: Practo</h2>
                                   </div>
                                 </div>
                               </div>
@@ -339,11 +341,14 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  The doctor is very cool and calm. Explains the
-                                  treatment to be given to patients and
-                                  relatives very politely. Keep up with your
-                                  good job sir. All the best for your future
-                                  sir.
+                                  This is one of the best hospitals in Pune,
+                                  ideal for treating several different types of
+                                  problems. My father underwent nose surgery
+                                  here. Doctors here performed the procedure
+                                  perfectly. It is one of a kind because of the
+                                  cleanliness of the hospital and the
+                                  courteousness of the staff. I highly recommend
+                                  it to everyone.
                                 </h2>
                               </div>
                             </div>
@@ -361,10 +366,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Vijay Divate </h2>
+                                    <h2>Prince Maantech </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Practo</h2>
+                                    <h2>Source: Google </h2>
                                   </div>
                                 </div>
                               </div>
@@ -372,6 +377,7 @@ const Virtualtour = () => {
                           </div>
                         </div>
                       </div>
+
                     </div>
                   </div>
 
@@ -408,7 +414,7 @@ const Virtualtour = () => {
                                     <h2>Lalit Pawar </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2> Google </h2>
+                                    <h2> Source: Google </h2>
                                   </div>
                                 </div>
                               </div>
@@ -449,7 +455,7 @@ const Virtualtour = () => {
                                     <h2>Anil Singh </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Google </h2>
+                                    <h2>Source: Google </h2>
                                   </div>
                                 </div>
                               </div>
@@ -496,7 +502,7 @@ const Virtualtour = () => {
                                     <h2>Milind Vaidya </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Google </h2>
+                                    <h2>Source: Google </h2>
                                   </div>
                                 </div>
                               </div>
@@ -540,7 +546,7 @@ const Virtualtour = () => {
                                     <h2>Ashish Singh </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Google </h2>
+                                    <h2>Source: Google </h2>
                                   </div>
                                 </div>
                               </div>
@@ -553,6 +559,7 @@ const Virtualtour = () => {
 
                   <div className="carousel-item">
                     <div className="testinewflex">
+
                       <div className="myovefts">
                         <div className="whychochinewlbo">
                           <div className="whychoslideboxts">
@@ -586,7 +593,7 @@ const Virtualtour = () => {
                                     <h2>Akshay </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Google</h2>
+                                    <h2>Source: Google</h2>
                                   </div>
                                 </div>
                               </div>
@@ -601,14 +608,11 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  This is one of the best hospitals in Pune,
-                                  ideal for treating several different types of
-                                  problems. My father underwent nose surgery
-                                  here. Doctors here performed the procedure
-                                  perfectly. It is one of a kind because of the
-                                  cleanliness of the hospital and the
-                                  courteousness of the staff. I highly recommend
-                                  it to everyone.
+                                  The doctor is very cool and calm. Explains the
+                                  treatment to be given to patients and
+                                  relatives very politely. Keep up with your
+                                  good job sir. All the best for your future
+                                  sir.
                                 </h2>
                               </div>
                             </div>
@@ -626,10 +630,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Prince Maantech </h2>
+                                    <h2>Vijay Divate </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Google </h2>
+                                    <h2>Source: Practo</h2>
                                   </div>
                                 </div>
                               </div>
@@ -637,6 +641,9 @@ const Virtualtour = () => {
                           </div>
                         </div>
                       </div>
+                      
+
+
                     </div>
                   </div>
                 </div>
@@ -700,7 +707,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Suraj Nair</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Practo</h2>
+                        <h2 className="newtesti-cont">Source: Practo</h2>
                       </div>
                     </div>
                   </div>
@@ -725,7 +732,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Vijay Divate</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Practo</h2>
+                        <h2 className="newtesti-cont">Source: Practo</h2>
                       </div>
                     </div>
                   </div>
@@ -750,7 +757,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Lalit Pawar</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Google</h2>
+                        <h2 className="newtesti-cont">Source: Google</h2>
                       </div>
                     </div>
                   </div>
@@ -776,7 +783,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Anil Singh</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Google</h2>
+                        <h2 className="newtesti-cont">Source: Google</h2>
                       </div>
                     </div>
                   </div>
@@ -804,7 +811,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Milind Vaidya</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Google</h2>
+                        <h2 className="newtesti-cont">Source: Google</h2>
                       </div>
                     </div>
                   </div>
@@ -832,7 +839,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Ashish Singh</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Google</h2>
+                        <h2 className="newtesti-cont">Source: Google</h2>
                       </div>
                     </div>
                   </div>
@@ -859,7 +866,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Akshay</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Google</h2>
+                        <h2 className="newtesti-cont">Source: Google</h2>
                       </div>
                     </div>
                   </div>
@@ -886,7 +893,7 @@ const Virtualtour = () => {
                         <h2 className="newtesti-name">Prince Maantech</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Google</h2>
+                        <h2 className="newtesti-cont">Source: Google</h2>
                       </div>
                     </div>
                   </div>
