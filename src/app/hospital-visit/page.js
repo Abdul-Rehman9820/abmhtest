@@ -116,7 +116,7 @@ const Virtualtour = () => {
                     data-bs-target="#Daycare"
                     type="button"
                   >
-                    Daycare
+                    Day Care
                   </button>
                   <button
                     className="nav-link"
@@ -124,7 +124,7 @@ const Virtualtour = () => {
                     data-bs-target="#Nicu"
                     type="button"
                   >
-                   Nicu
+                   NICU
                   </button>              
                   <button
                     className="nav-link"
