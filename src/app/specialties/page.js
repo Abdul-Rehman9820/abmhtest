@@ -12,6 +12,8 @@ import './OurSpecialties.css'
 const Specialties = () => {
 
 
+  const [isImageLoading, setImageLoading] = useState(true)
+
   const filterFunction = () => {
 
 
@@ -104,9 +106,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Accident-&-Emergency.jpg"
                                   alt="img"
-                                  // loading="lazy"
-                                  // blurDataURL="/homeimg/abmhmainlogo.png"             
-                                  // placeholder="blur"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}                                                                
                                 />
                               </div>
                             </Link>
@@ -132,6 +134,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Anaesthesiology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -154,6 +159,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Andrology-and-Sexual-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -177,6 +185,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Bariatric-&-Metabolic-Surgery.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -201,6 +212,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Cardiac-Sciences.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -225,6 +239,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Clinical-Haematology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -249,6 +266,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Critical-Care-Unit.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -275,6 +295,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Dentistry.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -299,6 +322,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Dermatology-&-Cosmetology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -322,6 +348,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Dietetics-&-Nutrition-(Lifestyle).jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -346,6 +375,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Endocrinology-&-Diabetology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -370,6 +402,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Fetal-&-Genetic-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -394,6 +429,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Gastroscience.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -416,6 +454,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/General-Surgery.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -438,6 +479,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/GI-SURGERY.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -462,6 +506,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Heamatology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -485,6 +532,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Hepatology-and-Liver-transplantation.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -509,6 +559,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Interventional-Radiology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -532,6 +585,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Internal-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -554,6 +610,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Infectious-Disease.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -576,6 +635,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Reproductive-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -599,6 +661,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Medical-Oncology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -622,6 +687,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Nephrology-&-Renal-transplant.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -644,6 +712,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Neuroscience.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -667,6 +738,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Nuclear-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -690,6 +764,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Obs-&-Gynae.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -713,6 +790,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Opthamology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -736,6 +816,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Oral-and-Maxillofacial.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -758,6 +841,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Organ-Transplant.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -780,6 +866,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Orthopaedic.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -802,6 +891,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Otolaryngology-(ENT).jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -826,6 +918,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Proctologynew.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -850,6 +945,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Physiotherapy-&-Rehabilitation.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -873,6 +971,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Plastic-and-Reconstructive-Surgery.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -897,6 +998,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Psychiatry.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -920,6 +1024,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Paediatrics.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -944,6 +1051,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Pulmonory-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -968,6 +1078,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Pain-Management.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -992,6 +1105,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Robotic-Assisted-Surgery.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1015,6 +1131,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Radiation-Oncology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1039,6 +1158,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Rheumatology-&-Immunology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1063,6 +1185,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Surgical-Oncology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1086,6 +1211,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Transfusion-Medicine.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1110,6 +1238,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Urology.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1132,6 +1263,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Vascular-Surgery.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
@@ -1154,6 +1288,9 @@ const Specialties = () => {
                                 <Image width={500} height={500}
                                   src="/newspecilitymainimage/Wellness.jpg"
                                   alt="img"
+                                  loading="lazy"
+                                  onLoad={() => setImageLoading(false)}
+                                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}  
                                 />
                               </div>
                             </Link>
