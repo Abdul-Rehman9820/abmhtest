@@ -1340,6 +1340,11 @@ span.speciconn img {
 /* youtube ifram 2-   */
 
 
+#carouselExampleIndicators1 .carousel-control-next-icon {
+    background-image: unset;
+}
+
+
 /* Tab div 1000 to 768 start*/
 
 @media screen and (max-width: 1000px) and (min-width: 768px) {

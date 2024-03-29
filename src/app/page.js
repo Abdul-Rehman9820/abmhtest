@@ -862,7 +862,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg_archana.jpg" alt="img" />
                               <div className="imgcerl1" id="showPopup1"> <Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
@@ -889,7 +889,7 @@ export default function Home() {
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" />
+                              <Image width={700} height={400} src="/homeimg/youplayimg_Padmini.jpg" alt="img" />
                               <div className="imgcerl2" id="showPopup2"><Image width={50} height={50} className='palybtn' src="/homeimg/play-button.png" alt="img" /></div>
                             </div>
                           </div>
@@ -918,7 +918,7 @@ export default function Home() {
                   data-bs-slide="prev"
                 >
                   <span className="carousel-control-prev-icon" aria-hidden="true">
-                    <Image width={400} height={400} src="/homeimg/nextleft.png" alt="" />
+                    <Image width={400} height={400} src="/homeimg/nextleft.png" alt="img" />
                   </span>
                   <span className="visually-hidden">Previous</span>
                 </button>
@@ -929,7 +929,7 @@ export default function Home() {
                   data-bs-slide="next"
                 >
                   <span className="carousel-control-next-icon" aria-hidden="true">
-                    <Image width={400} height={400} src="/homeimg/nextright.png" alt="" />
+                    <Image width={400} height={400} src="/homeimg/nextright.png" alt="img" />
                   </span>
                   <span className="visually-hidden">Next</span>
                 </button>
