@@ -242,7 +242,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-ortho">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Pediatric Orthopedic.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Paediatric Ortho</p>
@@ -252,7 +252,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/joint-replacement">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Joint Replacement.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Joint Replacement</p>

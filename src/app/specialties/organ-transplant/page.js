@@ -251,7 +251,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/cornea-transplant">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Cornea Transplant.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Cornea Transplant</p>

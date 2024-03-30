@@ -243,7 +243,7 @@ const Pediatrics = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/general-paediatrics">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/General Pediatric.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">General Paediatrics</p>
@@ -273,7 +273,7 @@ const Pediatrics = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-pulmonology">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Paediatric Pulmonology.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Paediatric Pulmonology</p>
@@ -283,7 +283,7 @@ const Pediatrics = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-cardiology">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Pediatric Cardiology.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Paediatric Cardiology</p>
@@ -303,7 +303,7 @@ const Pediatrics = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-gastroenterology">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Paediatric Gastroenterology.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Paediatric Gastroenterology</p>
@@ -313,7 +313,7 @@ const Pediatrics = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/paediatric-nephrology">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Paediatric Nephrology.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Paediatric Nephrology</p>

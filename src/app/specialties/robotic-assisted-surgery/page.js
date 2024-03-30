@@ -244,7 +244,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/gynec-onco">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Gyne Oncology.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Gynec Onco</p>
@@ -264,7 +264,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/uro-onco">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/Uro Onco.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Uro Onco</p>
@@ -274,7 +274,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/gi-onco">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/GI Onco.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">GI Onco</p>
@@ -284,7 +284,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/general-surgery">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/General Surgery.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">General Surgery</p>

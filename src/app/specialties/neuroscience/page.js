@@ -262,7 +262,7 @@ const Accidentandemergency = () => {
                 <div className="testimgboxcont">
                   <Link href="/specialties-sub/neurology">
                     <div className="testimgboxcot1">
-                      <Image width={400} height={400} src="/specialityviewimag/Internal Services.jpg" alt="img" />
+                      <Image width={400} height={400} src="/newspecilitymainimage/sub_specilityimages/General Neurology.png" alt="img" />
                     </div>
                     <div className="testimgboxcot2">
                       <p className="testimgtitle">Neurology</p>
