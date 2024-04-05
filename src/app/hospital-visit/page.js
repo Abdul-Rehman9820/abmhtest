@@ -174,9 +174,7 @@ const Virtualtour = () => {
                      <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU1.jpg" alt="abmh room image" />                   
                      <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU2.jpg" alt="abmh room image" />                   
                      <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU3.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU4.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU5.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nuro ICU6.jpg" alt="abmh room image" />                   
+                     
                      
         
                   </div>
@@ -221,12 +219,9 @@ const Virtualtour = () => {
 
                      <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu1.jpg" alt="abmh room image" />                   
                      <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu2.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu3.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu4.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu5.jpg" alt="abmh room image" />                   
-                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu6.jpg" alt="abmh room image" />                   
+                     <Image width={400} height={100} className="roominfraimg" src="/rooms_infra/Nicu3.jpg" alt="abmh room image" />                                    
                                          
-                            
+                          
                   </div>
                 </div>
 
