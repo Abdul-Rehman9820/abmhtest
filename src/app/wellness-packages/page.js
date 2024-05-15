@@ -49,7 +49,192 @@ const WellnessPack = () => {
                 <span className="headborder" />
               </div>
             </div>
+
+
             <div className="packagesloopboxconatainer">
+
+            <div className="packagesloopbox specolor">
+                <div className="lableboxflex">
+                  <div className="lablebox1">
+                    <h2>
+                      Well Woman Check-up
+                    </h2>
+                    <div className='welpacprice'>₹ 6600</div>
+                  </div>
+                  <div className="lablebox2">
+                    <div className="lablestyle">
+                      <div className="lablenumber">12</div>
+                      <div className="labelhead">TESTS</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="lableseemore">
+                  <h2>Haemogram</h2>
+                  <h2>Urine Routine </h2>
+                  <h2>Lipid Profile </h2>
+                  <h2>Sr. Creatinine</h2>
+                  <h2>
+                    Sr. Calcium<span className="seeactive"><button type="button" className="mybotwellpopup specolorBTN" data-bs-toggle="modal" data-bs-target="#Well-Woman-Check-up">+ 7 more</button></span>
+                  </h2>
+                </div>
+                <div className="labchoimgbox2">
+                  <button className="labchocombtn">
+                    <Link href="/wellness-packages-book">
+                      Book Now
+                      <span className="labspecicon">
+                        <Image width={400} height={400}
+                          src="/wellnesspageimg/right-arrow-wellness.png"
+                          alt="img"
+                        />
+                      </span>
+                    </Link>
+                  </button>
+                </div>
+              </div>
+
+              <>
+                {/* Modal  Well-Woman-Check-up */}
+                <div
+                  className="modal fade"
+                  id="Well-Woman-Check-up"
+                  tabIndex={-1}
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+
+                      <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">
+                          Well Woman Check-up
+                        </h5>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        />
+                      </div>
+                      <div className='willpoopban'>
+                        <Image width={500} height={300} className='willpoopbanimg' src="/wellnesspageimg/well-women.jpg" alt="img" />
+                      </div>
+                      <div className="modal-body">
+
+                        <div className="wellnepacktogel">
+
+                          <div className="accordion" id="accorWellWomanCheckup">
+
+                            <div className="accordion-item">
+                              <h2 className="accordion-header">
+                                <button
+                                  className="accordion-button"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseOne"
+                                  aria-expanded="true"
+                                  aria-controls="collapseOne"
+                                >
+                                  CARDIO THORASIC EVALUATION
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseOne"
+                                className="accordion-collapse collapse show"
+                                data-bs-parent="#accorWellWomanCheckup"
+                              >
+                                <div className="accordion-body">
+
+                                  <ul className='wellpackpopparaul'>
+                                    <li>USG Pelvis with Abdomen</li>
+                                    <li>X-Ray Chest</li>
+                                    <li>Mammography</li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                              <h2 className="accordion-header">
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseTwo"
+                                  aria-expanded="false"
+                                  aria-controls="collapseTwo"
+                                >
+                                  CONSULTANCY
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseTwo"
+                                className="accordion-collapse collapse"
+                                data-bs-parent="#accorWellWomanCheckup"
+                              >
+                                <div className="accordion-body">
+
+                                  <ul className='wellpackpopparaul'>
+                                    <li>Physical Evaluation</li>
+                                    <li>Gynaecology</li>
+                                    <li>Diet & Life Style</li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="accordion-item">
+                              <h2 className="accordion-header">
+                                <button
+                                  className="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapse3"
+                                  aria-expanded="false"
+                                  aria-controls="collapse3"
+                                >
+                                  PATHOLOGY
+                                </button>
+                              </h2>
+                              <div
+                                id="collapse3"
+                                className="accordion-collapse collapse"
+                                data-bs-parent="#accorWellWomanCheckup"
+                              >
+                                <div className="accordion-body">
+
+                                  <ul className='wellpackpopparaul'>
+                                    <li>Haemogram</li>
+                                    <li>Urine Routine</li>
+                                    <li>Lipid Profile</li>
+                                    <li>Sr. Creatinine</li>
+                                    <li>Sr. Calcium</li>
+                                    <li>PAP Smear</li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </div>
+
+
+                        </div>
+
+                      </div>
+
+                      <div className="modal-footer d-flex flex-wrap justify-content-between">
+                        <button type="button" className="welpopleftprice">₹ 6600</button>
+                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </>
+
+
+
               <div className="packagesloopbox">
                 <div className="lableboxflex">
                   <div className="lablebox1">
@@ -934,186 +1119,6 @@ const WellnessPack = () => {
               </>
 
 
-              <div className="packagesloopbox">
-                <div className="lableboxflex">
-                  <div className="lablebox1">
-                    <h2>
-                      Well Woman Check-up
-                    </h2>
-                    <div className='welpacprice'>₹ 6600</div>
-                  </div>
-                  <div className="lablebox2">
-                    <div className="lablestyle">
-                      <div className="lablenumber">12</div>
-                      <div className="labelhead">TESTS</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="lableseemore">
-                  <h2>Haemogram</h2>
-                  <h2>Urine Routine </h2>
-                  <h2>Lipid Profile </h2>
-                  <h2>Sr. Creatinine</h2>
-                  <h2>
-                    Sr. Calcium<span className="seeactive"><button type="button" className="mybotwellpopup" data-bs-toggle="modal" data-bs-target="#Well-Woman-Check-up">+ 7 more</button></span>
-                  </h2>
-                </div>
-                <div className="labchoimgbox2">
-                  <button className="labchocombtn">
-                    <Link href="/wellness-packages-book">
-                      Book Now
-                      <span className="labspecicon">
-                        <Image width={400} height={400}
-                          src="/wellnesspageimg/right-arrow-wellness.png"
-                          alt="img"
-                        />
-                      </span>
-                    </Link>
-                  </button>
-                </div>
-              </div>
-
-              <>
-                {/* Modal  Well-Woman-Check-up */}
-                <div
-                  className="modal fade"
-                  id="Well-Woman-Check-up"
-                  tabIndex={-1}
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
-                  <div className="modal-dialog">
-                    <div className="modal-content">
-
-                      <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">
-                          Well Woman Check-up
-                        </h5>
-                        <button
-                          type="button"
-                          className="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        />
-                      </div>
-                      <div className='willpoopban'>
-                        <Image width={500} height={300} className='willpoopbanimg' src="/wellnesspageimg/well-women.jpg" alt="img" />
-                      </div>
-                      <div className="modal-body">
-
-                        <div className="wellnepacktogel">
-
-                          <div className="accordion" id="accorWellWomanCheckup">
-
-                            <div className="accordion-item">
-                              <h2 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#collapseOne"
-                                  aria-expanded="true"
-                                  aria-controls="collapseOne"
-                                >
-                                  CARDIO THORASIC EVALUATION
-                                </button>
-                              </h2>
-                              <div
-                                id="collapseOne"
-                                className="accordion-collapse collapse show"
-                                data-bs-parent="#accorWellWomanCheckup"
-                              >
-                                <div className="accordion-body">
-
-                                  <ul className='wellpackpopparaul'>
-                                    <li>USG Pelvis with Abdomen</li>
-                                    <li>X-Ray Chest</li>
-                                    <li>Mammography</li>
-                                  </ul>
-
-                                </div>
-                              </div>
-                            </div>
-                            <div className="accordion-item">
-                              <h2 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#collapseTwo"
-                                  aria-expanded="false"
-                                  aria-controls="collapseTwo"
-                                >
-                                  CONSULTANCY
-                                </button>
-                              </h2>
-                              <div
-                                id="collapseTwo"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accorWellWomanCheckup"
-                              >
-                                <div className="accordion-body">
-
-                                  <ul className='wellpackpopparaul'>
-                                    <li>Physical Evaluation</li>
-                                    <li>Gynaecology</li>
-                                    <li>Diet & Life Style</li>
-                                  </ul>
-
-                                </div>
-                              </div>
-                            </div>
-                            <div className="accordion-item">
-                              <h2 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#collapse3"
-                                  aria-expanded="false"
-                                  aria-controls="collapse3"
-                                >
-                                  PATHOLOGY
-                                </button>
-                              </h2>
-                              <div
-                                id="collapse3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accorWellWomanCheckup"
-                              >
-                                <div className="accordion-body">
-
-                                  <ul className='wellpackpopparaul'>
-                                    <li>Haemogram</li>
-                                    <li>Urine Routine</li>
-                                    <li>Lipid Profile</li>
-                                    <li>Sr. Creatinine</li>
-                                    <li>Sr. Calcium</li>
-                                    <li>PAP Smear</li>
-                                  </ul>
-
-                                </div>
-                              </div>
-                            </div>
-
-
-                          </div>
-
-
-                        </div>
-
-                      </div>
-
-                      <div className="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" className="welpopleftprice">₹ 6600</button>
-                        {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </>
-
 
               <div className="packagesloopbox">
                 <div className="lableboxflex">
@@ -1925,6 +1930,8 @@ const WellnessPack = () => {
 
 
             </div>
+
+            
           </div>
         </div>
       </div>

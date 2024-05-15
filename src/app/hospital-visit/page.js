@@ -72,7 +72,7 @@ const Virtualtour = () => {
 
       {/* Room and infra tab  start*/}
 
-      {/* <div className="parentcontainerwhi mb-5 mt-2">
+      <div className="parentcontainerwhi mb-5 mt-2">
         <div className="customcontainer">
           <div className="RoomInfrloop">
             <div className="commonheadingCont">
@@ -397,7 +397,7 @@ const Virtualtour = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* Room and infra tab  end*/}
 
@@ -406,7 +406,7 @@ const Virtualtour = () => {
 
       {/* Hospirtal testimonials  start*/}
 
-      <div className="parentcontainerwhi withtestBG">
+      {/* <div className="parentcontainerwhi withtestBG">
         <div className="customcontainer">
           <div className="Hospirtaltourtestim">
             <div className="commonheadingCont">
@@ -780,9 +780,10 @@ const Virtualtour = () => {
                 </button>
               </div>
             </div>
+
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Hospirtal testimonials   end*/}
 
@@ -792,7 +793,7 @@ const Virtualtour = () => {
       {/*  Hospirtal testimonials  start*/}
       {/* <div id="PatientsTestimonials"></div> */}
 
-      {/* <div className="parentcontainerwhi withtestBG">
+      <div className="parentcontainerwhi withtestBG">
         <div className="customcontainer">
           <div className="Hospirtaltourtestim">
             <div className="commonheadingCont">
@@ -1443,7 +1444,7 @@ const Virtualtour = () => {
          
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* Hospirtal testimonials   end*/}
     </>

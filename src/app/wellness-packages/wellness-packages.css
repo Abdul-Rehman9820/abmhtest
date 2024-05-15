@@ -382,6 +382,16 @@ span.homwcarespecicon img {
 /* FAQ for wellness  end*/ 
 
 
+.specolor{
+    background-color: #ffe46817;
+}
+.specolorBTN {
+    background: #a21b18;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
 
 /*! wellness page  end*/
 
