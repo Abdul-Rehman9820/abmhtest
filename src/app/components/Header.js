@@ -504,6 +504,14 @@ const Header = () => {
                                 </div>
                                 <div className="headerlogoBtnpart">
 
+                                  <div className="twobtnPar HeadMobnumber">
+                                        <div className="twobtnChil">
+                                            <div className="btnwidth">
+                                                <Link href="tel:+919881123006">+91 98811 23006</Link>
+                                            </div>
+                                        </div>                        
+                                    </div>
+
                                     <div className="headerawardandimgbox">
 
                                         <div className="headerawardandimg me-2">
