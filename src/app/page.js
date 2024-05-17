@@ -118,7 +118,13 @@ export default function Home() {
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to={4}
-                aria-label="Slide 4"
+                aria-label="Slide 5"
+              />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to={5}
+                aria-label="Slide 6"
               />
             </div>
 
@@ -126,6 +132,15 @@ export default function Home() {
             <div className="carousel-inner">
 
               <div className="carousel-item active">
+                <div className="mynewslides">
+                  <Link href="/">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-KneeSurg.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-KneeSurg.jpg" alt='slide' />
+                    <h2 className="forSEOslide">hellow world</h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-1.jpg" alt='slide' />
