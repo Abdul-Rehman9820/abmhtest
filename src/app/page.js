@@ -126,6 +126,12 @@ export default function Home() {
                 data-bs-slide-to={5}
                 aria-label="Slide 6"
               />
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to={6}
+                aria-label="Slide 6"
+              />
 
             </div>
 
@@ -135,10 +141,19 @@ export default function Home() {
      
               <div className="carousel-item active">
                 <div className="mynewslides">
+                  <Link href="/wellness-packages">
+                    <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-Wellness.jpg" alt='slide' />
+                    <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-Wellness.jpg" alt='slide' />
+                    <h2 className="forSEOslide"></h2>
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="mynewslides">
                   <Link href="/specialties/orthopaedic">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-KneeSurg.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-KneeSurg.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
+                    <h2 className="forSEOslide"></h2>
                   </Link>
                 </div>
               </div>
@@ -147,7 +162,7 @@ export default function Home() {
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-1.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-1.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
+                    <h2 className="forSEOslide"></h2>
                   </Link>
                 </div>
               </div>
@@ -156,7 +171,7 @@ export default function Home() {
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-2.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-2.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
+                    <h2 className="forSEOslide"></h2>
                   </Link>
                 </div>
               </div>
@@ -165,7 +180,7 @@ export default function Home() {
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-3.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-3.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
+                    <h2 className="forSEOslide"></h2>
                   </Link>
                 </div>
               </div>
@@ -174,7 +189,7 @@ export default function Home() {
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-4.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-4.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
+                    <h2 className="forSEOslide"></h2>
                   </Link>
                 </div>
               </div>
@@ -183,7 +198,7 @@ export default function Home() {
                   <Link href="/">
                     <Image width={1700} height={400} className="deckstophead" src="/homeimg/W-Banner-5.jpg" alt='slide' />
                     <Image width={400} height={400} className="mobilehead" src="/homeimg/M-ban-5.jpg" alt='slide' />
-                    <h2 className="forSEOslide">hellow world</h2>
+                    <h2 className="forSEOslide"></h2>
                   </Link>
                 </div>
               </div>
