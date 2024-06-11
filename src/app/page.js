@@ -740,13 +740,13 @@ export default function Home() {
                         <div className="ourteamslidebox">
                           <div className="ourteambox1">
                             <div className="ourteamimg">
-                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-mrunmaya-panda.jpg" alt="img" />
+                              <Image width={400} height={400} src="/DoctorsProfileimages/dr-amit-patil.jpg" alt="img" />
                             </div>
                             <div className="ourteamname">
-                              <h2>Dr. Mrunmaya Bijoy Panda</h2>
+                              <h2>Dr. Amit Patil</h2>
                             </div>
                             <div className="ourteamspec">
-                              <h2>Gastroenterologist</h2>
+                              <h2>Sr. Consultant Obs & Gynecology, IVF Specialist</h2>
                             </div>
                             <div className="ourteamexpi">
                               {/* <h2>ABMH Doctors</h2> */}
@@ -754,7 +754,7 @@ export default function Home() {
                           </div>
                           <div className="ourteambox2">
                             <div className="ourteambox2flex">
-                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-mrunmaya-bijoy-panda">
+                              <Link className="bookappoteam" href="/doctor-profile?doc=dr-amit-patil">
                                 View Profile
                               </Link>
                             </div>
