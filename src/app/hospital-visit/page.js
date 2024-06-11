@@ -391,8 +391,6 @@ const Virtualtour = () => {
                     />
                   </div>
                 </div>
-
-              
               </div>
             </div>
           </div>
@@ -403,8 +401,6 @@ const Virtualtour = () => {
 
       {/* +++++++++++++++++++++++++++++++++++++++++++++=======================+++++++++++++++++++++++++++++++ */}
       {/* +++++++++++++++++++++++++++++++++++++++++++++=======================+++++++++++++++++++++++++++++++ */}
-
-
 
       {/* +++++++++++++++++++++++++++++++++++++++++++++=======================+++++++++++++++++++++++++++++++ */}
       {/* +++++++++++++++++++++++++++++++++++++++++++++=======================+++++++++++++++++++++++++++++++ */}
@@ -423,7 +419,6 @@ const Virtualtour = () => {
               </div>
             </div>
 
-          
             <div className="taltourtestimslidcont deckstophead">
               <div
                 id="carouselfordeckstophead"
@@ -439,15 +434,15 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  I am glad to have met Dr Anand Vijay in Aditya
-                                  Birla for my mother&apos;s treatment. She was
-                                  suffering from ILD and was in a very serious
-                                  condition when we admitted her. Dr. Vijay not
-                                  only helped her from the life-threatening
-                                  situation but now it&apos;s been 3 years since
-                                  discharge and she has been really recovering
-                                  well. Thanks to the doctor and Birla for
-                                  everything!
+                                  Mrs. Sushila Sawant expresses heartfelt
+                                  gratitude to Aditya Birla Memorial Hospital
+                                  for the exceptional care she received during
+                                  her gastric-related surgery. After a thorough
+                                  evaluation of her condition, Dr. (Major) Kumar
+                                  Raushan conducted a successful surgery. She
+                                  deeply appreciates the warm and supportive
+                                  service from Dr. Raushan and his team, who
+                                  helped her recover swiftly.
                                 </h2>
                               </div>
                             </div>
@@ -465,10 +460,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Suraj Nair </h2>
+                                    <h2>Mrs. Sushila Sawant</h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Source: Practo</h2>
+                                    <h2></h2>
                                   </div>
                                 </div>
                               </div>
@@ -483,14 +478,15 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  This is one of the best hospitals in Pune,
-                                  ideal for treating several different types of
-                                  problems. My father underwent nose surgery
-                                  here. Doctors here performed the procedure
-                                  perfectly. It is one of a kind because of the
-                                  cleanliness of the hospital and the
-                                  courteousness of the staff. I highly recommend
-                                  it to everyone.
+                                  Mrs. Vijaymala Name's son expresses heartfelt
+                                  gratitude to Aditya Birla Memorial Hospital
+                                  for the exceptional care his mother received
+                                  during an emergency. He deeply appreciates Dr.
+                                  Kailas M Jorule's expertise in her successful
+                                  orthopedic surgery and the supportive staff
+                                  who made them feel comfortable and assisted
+                                  with every detail with utmost compassion and
+                                  care.
                                 </h2>
                               </div>
                             </div>
@@ -508,95 +504,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Prince Maantech </h2>
+                                    <h2>Mrs. Vijaymala Name</h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Source: Google </h2>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="testinewflex">
-                      <div className="myovefts">
-                        <div className="whychochinewlbo">
-                          <div className="whychoslideboxts">
-                            <div className="whychobox1ts">
-                              <div className="whychospects">
-                                <h2>
-                                  Dr. Prateek Agarwal and the Aditya Birla
-                                  Hospital team successfully rescued Dhanraj
-                                  Pawar from the brink of death and subsequently
-                                  cured him. I extend heartfelt gratitude to
-                                  everyone for their exceptional cooperation.
-                                </h2>
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2ts">
-                              <div className="whychoimgbox2col1ts">
-                                <div className="whychoimgts">
-                                  <Image
-                                    width={400}
-                                    height={400}
-                                    src="/virtualtour/innertesti.png"
-                                    alt="img"
-                                  />
-                                </div>
-                              </div>
-                              <div className="whychoimgbox2col2ts">
-                                <div className="whychonamejustyts">
-                                  <div className="whychonamets">
-                                    <h2>Lalit Pawar </h2>
-                                  </div>
-                                  <div className="whychonameforts">
-                                    <h2> Source: Google </h2>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="myovefts">
-                        <div className="whychochinewlbo">
-                          <div className="whychoslideboxts">
-                            <div className="whychobox1ts">
-                              <div className="whychospects">
-                                <h2>
-                                  One of the best hospitals in India. They
-                                  provide the best Doctor treatment with quality
-                                  service. I had a very good experience when I
-                                  admitted my both daughter&apos;s last days.
-                                  All staff are very supportive and solved our
-                                  doubts and all queries.
-                                </h2>
-                              </div>
-                            </div>
-                            <div className="whychoimgbox2ts">
-                              <div className="whychoimgbox2col1ts">
-                                <div className="whychoimgts">
-                                  <Image
-                                    width={400}
-                                    height={400}
-                                    src="/virtualtour/innertesti.png"
-                                    alt="img"
-                                  />
-                                </div>
-                              </div>
-                              <div className="whychoimgbox2col2ts">
-                                <div className="whychonamejustyts">
-                                  <div className="whychonamets">
-                                    <h2>Anil Singh </h2>
-                                  </div>
-                                  <div className="whychonameforts">
-                                    <h2>Source: Google </h2>
+                                    <h2></h2>
                                   </div>
                                 </div>
                               </div>
@@ -615,14 +526,11 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  The dental treatment, carried out by
-                                  specialist doctors, was done with extreme care
-                                  and precision. Quality was maintained in every
-                                  aspect integrally. The pathological tests,
-                                  other test areas and staff work were carried
-                                  out with careful nature and highness
-                                  maintained. Thanks to the doctors and all
-                                  concerned staff for their dedication.
+                                  Mr. Sudam Pinjan expresses heartfelt gratitude
+                                  to Aditya Birla Memorial Hospital for the
+                                  exceptional dental care he received. Thanks to
+                                  Dr. Nikhil Dayama, he successfully regained
+                                  his smile.
                                 </h2>
                               </div>
                             </div>
@@ -640,10 +548,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Milind Vaidya </h2>
+                                    <h2>Mr. Sudam Pinjan</h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Source: Google </h2>
+                                    <h2></h2>
                                   </div>
                                 </div>
                               </div>
@@ -658,15 +566,15 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  I&apos;ve been spending quite a bit of time at
-                                  Aditya Birla Memorial Hospital lately due to
-                                  my nephew&apos;s stomach surgery, and I must
-                                  say, it&apos;s been quite a positive
-                                  experience. The staff members are incredibly
-                                  friendly, and the facilities are top-notch.
-                                  The doctors handle every situation with grace
-                                  and are always respectful towards their
-                                  patients.
+                                  Mr. Arvind Kumar expresses heartfelt gratitude
+                                  to Aditya Birla Memorial Hospital for the
+                                  exceptional care he received during his Hernia
+                                  surgery. Under the guidance of Dr. Suprashant
+                                  D Kulkarni, he underwent successful robotic
+                                  surgery, which facilitated a faster recovery.
+                                  He deeply appreciates the warm and supportive
+                                  service from the hospital staff and is pleased
+                                  to report that he is now fully fit.
                                 </h2>
                               </div>
                             </div>
@@ -684,10 +592,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Ashish Singh </h2>
+                                    <h2>Mr. Arvind Kumar </h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Source: Google </h2>
+                                    <h2></h2>
                                   </div>
                                 </div>
                               </div>
@@ -706,13 +614,16 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  It was a wonderful experience at the wellness
-                                  department, staff were excellent throughout
-                                  the health checkup process. Must recommend my
-                                  family relatives and friends for health
-                                  checkups. World-class facilities under the
-                                  same department with brilliant and
-                                  hard-working teams.
+                                  Mr. Wadekar expresses heartfelt gratitude to
+                                  Aditya Birla Memorial Hospital for the
+                                  exceptional care provided to his daughter, Ms.
+                                  Aditi Wadekar. Thanks to Dr. Prateek Agarwal's
+                                  expertise in treating her gastroenterological
+                                  issues, Aditi has shown significant
+                                  improvements in her health and is now doing
+                                  absolutely fine. He also appreciates the warm
+                                  and supportive service from the hospital staff
+                                  throughout their stay.
                                 </h2>
                               </div>
                             </div>
@@ -730,10 +641,10 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Akshay </h2>
+                                    <h2>Aditi Sandeep Wadekar</h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Source: Google</h2>
+                                    <h2></h2>
                                   </div>
                                 </div>
                               </div>
@@ -748,11 +659,13 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  The doctor is very cool and calm. Explains the
-                                  treatment to be given to patients and
-                                  relatives very politely. Keep up with your
-                                  good job sir. All the best for your future
-                                  sir.
+                                  Moumita Mondal expresses heartfelt gratitude
+                                  to Aditya Birla Memorial Hospital for the care
+                                  given for her dermatology needs. Thanks to Dr.
+                                  Snehal Pardeshi's expertise and the right
+                                  medication. She is happy with the warm and
+                                  supportive service from the hospital staff
+                                  throughout her treatment.
                                 </h2>
                               </div>
                             </div>
@@ -770,10 +683,102 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Vijay Divate </h2>
+                                    <h2>Ms. Moumita Monda</h2>
                                   </div>
                                   <div className="whychonameforts">
-                                    <h2>Source: Practo</h2>
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  Rohit Saboo expresses heartfelt gratitude to
+                                  Aditya Birla Memorial Hospital for the care
+                                  given to his mother, Mrs. Santosh Saboo.
+                                  Thanks to Dr. Avinash Munde's expertise and
+                                  the swift response during her emergency. He
+                                  also appreciates the warm and supportive
+                                  service from the hospital staff throughout
+                                  their stay.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mrs. Santosh Saboo</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                  Mrs. Asha Kawade expresses heartfelt gratitude
+                                  to Aditya Birla Memorial Hospital. Following a
+                                  successful hernia operation conducted by Dr.
+                                  Manish Srivastava, she commends the hospital
+                                  staff, including the cleaning and nursing
+                                  teams, for their unwavering support. With a
+                                  renewed lease on life, she extends her deepest
+                                  thanks to Dr. Srivastava for his expertise and
+                                  care, enabling her to embark on a journey of
+                                  renewed health and vitality.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mrs. Asha Kawade</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
                                   </div>
                                 </div>
                               </div>
@@ -811,7 +816,6 @@ const Virtualtour = () => {
                 </button>
               </div>
             </div>
-      
 
             <div className="newmobiletist-cont mobilehead">
               <div
@@ -823,13 +827,13 @@ const Virtualtour = () => {
                   <div className="carousel-item active">
                     <div>
                       <div className="newtesti-Para">
-                        I am glad to have met Dr Anand Vijay in Aditya Birla for
-                        my mother&apos;s treatment. She was suffering from ILD
-                        and was in a very serious condition when we admitted
-                        her. Dr. Vijay not only helped her from the
-                        life-threatening situation but now it&apos;s been 3
-                        years since discharge and she has been really recovering
-                        well. Thanks to the doctor and Birla for everything!
+                        Mrs. Sushila Sawant expresses heartfelt gratitude to
+                        Aditya Birla Memorial Hospital for the exceptional care
+                        she received during her gastric-related surgery. After a
+                        thorough evaluation of her condition, Dr. (Major) Kumar
+                        Raushan conducted a successful surgery. She deeply
+                        appreciates the warm and supportive service from Dr.
+                        Raushan and his team, who helped her recover swiftly.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -840,10 +844,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Suraj Nair</h2>
+                        <h2 className="newtesti-name">Mrs. Sushila Sawant</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Practo</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -851,10 +855,13 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        The doctor is very cool and calm. Explains the treatment
-                        to be given to patients and relatives very politely.
-                        Keep up with your good job sir. All the best for your
-                        future sir.
+                        Mrs. Vijaymala Name's son expresses heartfelt gratitude
+                        to Aditya Birla Memorial Hospital for the exceptional
+                        care his mother received during an emergency. He deeply
+                        appreciates Dr. Kailas M Jorule's expertise in her
+                        successful orthopedic surgery and the supportive staff
+                        who made them feel comfortable and assisted with every
+                        detail with utmost compassion and care.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -865,10 +872,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Vijay Divate</h2>
+                        <h2 className="newtesti-name">Mrs. Vijaymala Name</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Practo</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -876,10 +883,10 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        Dr. Prateek Agarwal and the Aditya Birla Hospital team
-                        successfully rescued Dhanraj Pawar from the brink of
-                        death and subsequently cured him. I extend heartfelt
-                        gratitude to everyone for their exceptional cooperation.
+                        Mr. Sudam Pinjan expresses heartfelt gratitude to Aditya
+                        Birla Memorial Hospital for the exceptional dental care
+                        he received. Thanks to Dr. Nikhil Dayama, he
+                        successfully regained his smile.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -890,10 +897,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Lalit Pawar</h2>
+                        <h2 className="newtesti-name">Mr. Sudam Pinjan</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Google</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -901,11 +908,14 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        One of the best hospitals in India. They provide the
-                        best Doctor treatment with quality service. I had a very
-                        good experience when I admitted my both daughter&apos;s
-                        last days. All staff are very supportive and solved our
-                        doubts and all queries.
+                        Mr. Arvind Kumar expresses heartfelt gratitude to Aditya
+                        Birla Memorial Hospital for the exceptional care he
+                        received during his Hernia surgery. Under the guidance
+                        of Dr. Suprashant D Kulkarni, he underwent successful
+                        robotic surgery, which facilitated a faster recovery. He
+                        deeply appreciates the warm and supportive service from
+                        the hospital staff and is pleased to report that he is
+                        now fully fit.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -916,10 +926,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Anil Singh</h2>
+                        <h2 className="newtesti-name">Mr. Arvind Kumar</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Google</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -927,13 +937,14 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        The dental treatment, carried out by specialist doctors,
-                        was done with extreme care and precision. Quality was
-                        maintained in every aspect integrally. The pathological
-                        tests, other test areas and staff work were carried out
-                        with careful nature and highness maintained. Thanks to
-                        the doctors and all concerned staff for their
-                        dedication.
+                        Mr. Wadekar expresses heartfelt gratitude to Aditya
+                        Birla Memorial Hospital for the exceptional care
+                        provided to his daughter, Ms. Aditi Wadekar. Thanks to
+                        Dr. Prateek Agarwal's expertise in treating her
+                        gastroenterological issues, Aditi has shown significant
+                        improvements in her health and is now doing absolutely
+                        fine. He also appreciates the warm and supportive
+                        service from the hospital staff throughout their stay.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -944,10 +955,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Milind Vaidya</h2>
+                        <h2 className="newtesti-name">Aditi Sandeep Wadekar</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Google</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -955,13 +966,12 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        I&apos;ve been spending quite a bit of time at Aditya
-                        Birla Memorial Hospital lately due to my nephew&apos;s
-                        stomach surgery, and I must say, it&apos;s been quite a
-                        positive experience. The staff members are incredibly
-                        friendly, and the facilities are top-notch. The doctors
-                        handle every situation with grace and are always
-                        respectful towards their patients.
+                        Moumita Mondal expresses heartfelt gratitude to Aditya
+                        Birla Memorial Hospital for the care given for her
+                        dermatology needs. Thanks to Dr. Snehal Pardeshi's
+                        expertise and the right medication. She is happy with
+                        the warm and supportive service from the hospital staff
+                        throughout her treatment.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -972,10 +982,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Ashish Singh</h2>
+                        <h2 className="newtesti-name">Ms. Moumita Monda</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Google</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -983,12 +993,12 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        It was a wonderful experience at the wellness
-                        department, staff were excellent throughout the health
-                        checkup process. Must recommend my family relatives and
-                        friends for health checkups. World-class facilities
-                        under the same department with brilliant and
-                        hard-working teams.
+                        Rohit Saboo expresses heartfelt gratitude to Aditya
+                        Birla Memorial Hospital for the care given to his
+                        mother, Mrs. Santosh Saboo. Thanks to Dr. Avinash
+                        Munde's expertise and the swift response during her
+                        emergency. He also appreciates the warm and supportive
+                        service from the hospital staff throughout their stay.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -999,10 +1009,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Akshay</h2>
+                        <h2 className="newtesti-name">Mrs. Santosh Saboo</h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Google</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -1010,12 +1020,14 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        This is one of the best hospitals in Pune, ideal for
-                        treating several different types of problems. My father
-                        underwent nose surgery here. Doctors here performed the
-                        procedure perfectly. It is one of a kind because of the
-                        cleanliness of the hospital and the courteousness of the
-                        staff. I highly recommend it to everyone.
+                        Mrs. Asha Kawade expresses heartfelt gratitude to Aditya
+                        Birla Memorial Hospital. Following a successful hernia
+                        operation conducted by Dr. Manish Srivastava, she
+                        commends the hospital staff, including the cleaning and
+                        nursing teams, for their unwavering support. With a
+                        renewed lease on life, she extends her deepest thanks to
+                        Dr. Srivastava for his expertise and care, enabling her
+                        to embark on a journey of renewed health and vitality.
                       </div>
                       <div className="newtesti-Parawhychoimgts">
                         <Image
@@ -1026,10 +1038,10 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Prince Maantech</h2>
+                        <h2 className="newtesti-name">Mrs. Asha Kawade </h2>
                       </div>
                       <div>
-                        <h2 className="newtesti-cont">Source: Google</h2>
+                        <h2 className="newtesti-cont"></h2>
                       </div>
                     </div>
                   </div>
@@ -1061,7 +1073,6 @@ const Virtualtour = () => {
                 </button>
               </div>
             </div>
-         
           </div>
         </div>
       </div>
