@@ -478,11 +478,11 @@ const Virtualtour = () => {
                             <div className="whychobox1ts">
                               <div className="whychospects">
                                 <h2>
-                                  Mrs. Vijaymala Name's son expresses heartfelt
+                                  Mrs. Vijaymala Name&apos;s son expresses heartfelt
                                   gratitude to Aditya Birla Memorial Hospital
                                   for the exceptional care his mother received
                                   during an emergency. He deeply appreciates Dr.
-                                  Kailas M Jorule's expertise in her successful
+                                  Kailas M Jorule&apos;s expertise in her successful
                                   orthopedic surgery and the supportive staff
                                   who made them feel comfortable and assisted
                                   with every detail with utmost compassion and
@@ -617,7 +617,7 @@ const Virtualtour = () => {
                                   Mr. Wadekar expresses heartfelt gratitude to
                                   Aditya Birla Memorial Hospital for the
                                   exceptional care provided to his daughter, Ms.
-                                  Aditi Wadekar. Thanks to Dr. Prateek Agarwal's
+                                  Aditi Wadekar. Thanks to Dr. Prateek Agarwal&apos;s
                                   expertise in treating her gastroenterological
                                   issues, Aditi has shown significant
                                   improvements in her health and is now doing
@@ -662,7 +662,7 @@ const Virtualtour = () => {
                                   Moumita Mondal expresses heartfelt gratitude
                                   to Aditya Birla Memorial Hospital for the care
                                   given for her dermatology needs. Thanks to Dr.
-                                  Snehal Pardeshi's expertise and the right
+                                  Snehal Pardeshi&apos;s expertise and the right
                                   medication. She is happy with the warm and
                                   supportive service from the hospital staff
                                   throughout her treatment.
@@ -708,7 +708,7 @@ const Virtualtour = () => {
                                   Rohit Saboo expresses heartfelt gratitude to
                                   Aditya Birla Memorial Hospital for the care
                                   given to his mother, Mrs. Santosh Saboo.
-                                  Thanks to Dr. Avinash Munde's expertise and
+                                  Thanks to Dr. Avinash Munde&apos;s expertise and
                                   the swift response during her emergency. He
                                   also appreciates the warm and supportive
                                   service from the hospital staff throughout
@@ -855,10 +855,10 @@ const Virtualtour = () => {
                   <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
-                        Mrs. Vijaymala Name's son expresses heartfelt gratitude
+                        Mrs. Vijaymala Name&apos;s son expresses heartfelt gratitude
                         to Aditya Birla Memorial Hospital for the exceptional
                         care his mother received during an emergency. He deeply
-                        appreciates Dr. Kailas M Jorule's expertise in her
+                        appreciates Dr. Kailas M Jorule&apos;s expertise in her
                         successful orthopedic surgery and the supportive staff
                         who made them feel comfortable and assisted with every
                         detail with utmost compassion and care.
@@ -940,7 +940,7 @@ const Virtualtour = () => {
                         Mr. Wadekar expresses heartfelt gratitude to Aditya
                         Birla Memorial Hospital for the exceptional care
                         provided to his daughter, Ms. Aditi Wadekar. Thanks to
-                        Dr. Prateek Agarwal's expertise in treating her
+                        Dr. Prateek Agarwal&apos;s expertise in treating her
                         gastroenterological issues, Aditi has shown significant
                         improvements in her health and is now doing absolutely
                         fine. He also appreciates the warm and supportive
@@ -968,7 +968,7 @@ const Virtualtour = () => {
                       <div className="newtesti-Para">
                         Moumita Mondal expresses heartfelt gratitude to Aditya
                         Birla Memorial Hospital for the care given for her
-                        dermatology needs. Thanks to Dr. Snehal Pardeshi's
+                        dermatology needs. Thanks to Dr. Snehal Pardeshi&apos;s
                         expertise and the right medication. She is happy with
                         the warm and supportive service from the hospital staff
                         throughout her treatment.
@@ -996,7 +996,7 @@ const Virtualtour = () => {
                         Rohit Saboo expresses heartfelt gratitude to Aditya
                         Birla Memorial Hospital for the care given to his
                         mother, Mrs. Santosh Saboo. Thanks to Dr. Avinash
-                        Munde's expertise and the swift response during her
+                        Munde&apos;s expertise and the swift response during her
                         emergency. He also appreciates the warm and supportive
                         service from the hospital staff throughout their stay.
                       </div>
