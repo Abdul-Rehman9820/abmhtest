@@ -97,6 +97,76 @@ const WellnessPack = () => {
                               className="accordion-button collapsed"
                               type="button"
                               data-bs-toggle="collapse"
+                              data-bs-target="#collapse2024May"
+                              aria-expanded="true"
+                            >
+                              Biomedical Waste Report May 2024
+                            </button>
+                          </h2>
+                          <div
+                            id="collapse2024May"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionSub2024"
+                          >
+                            <div className="accordion-body">
+                              <div className="newfdata">
+
+
+                                <div className="bioimg">
+
+                                  <Image width={2000} height={2000} src="/biomedical-waste-pdf-img/bio-m-2024-may1.jpg" alt="Biomedical Waste Report" />
+                                  <Image width={2000} height={2000} src="/biomedical-waste-pdf-img/bio-m-2024-may2.jpg" alt="Biomedical Waste Report" />
+
+                                </div>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div className="accordion-item">
+                          <h2 className="accordion-header">
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapse2024April"
+                              aria-expanded="true"
+                            >
+                              Biomedical Waste Report April 2024
+                            </button>
+                          </h2>
+                          <div
+                            id="collapse2024April"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionSub2024"
+                          >
+                            <div className="accordion-body">
+                              <div className="newfdata">
+
+
+                                <div className="bioimg">
+
+                                  <Image width={2000} height={2000} src="/biomedical-waste-pdf-img/bio-m-2024-april1.jpg" alt="Biomedical Waste Report" />
+                                  <Image width={2000} height={2000} src="/biomedical-waste-pdf-img/bio-m-2024-april2.jpg" alt="Biomedical Waste Report" />
+
+                                </div>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div className="accordion-item">
+                          <h2 className="accordion-header">
+                            <button
+                              className="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
                               data-bs-target="#collapse2024Mar"
                               aria-expanded="true"
                             >
@@ -124,6 +194,7 @@ const WellnessPack = () => {
                             </div>
                           </div>
                         </div>
+
 
                         <div className="accordion-item">
                           <h2 className="accordion-header">
