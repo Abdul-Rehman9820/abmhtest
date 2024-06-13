@@ -641,7 +641,7 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Aditi Sandeep Wadekar</h2>
+                                    <h2>Ms. Aditi Sandeep Wadekar</h2>
                                   </div>
                                   <div className="whychonameforts">
                                     <h2></h2>
@@ -683,7 +683,7 @@ const Virtualtour = () => {
                               <div className="whychoimgbox2col2ts">
                                 <div className="whychonamejustyts">
                                   <div className="whychonamets">
-                                    <h2>Ms. Moumita Monda</h2>
+                                    <h2>Ms. Moumita Mondal</h2>
                                   </div>
                                   <div className="whychonameforts">
                                     <h2></h2>
@@ -955,7 +955,7 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Aditi Sandeep Wadekar</h2>
+                        <h2 className="newtesti-name">Ms. Aditi Sandeep Wadekar</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont"></h2>
@@ -982,7 +982,7 @@ const Virtualtour = () => {
                         />
                       </div>
                       <div>
-                        <h2 className="newtesti-name">Ms. Moumita Monda</h2>
+                        <h2 className="newtesti-name">Ms. Moumita Mondal</h2>
                       </div>
                       <div>
                         <h2 className="newtesti-cont"></h2>

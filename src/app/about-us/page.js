@@ -127,15 +127,9 @@ const Aboutus = () => {
                     </div>
                     <div className="vismispara">
                       <p>
-                        The hospital is committed to maintain the highest standard
-                        of care and respond to the needs of the community in a
-                        compassionate manner.
+                      Excellence First and Always
                       </p>
-                      <p>
-                        To provide state-of-the-art, high quality and cost-effective
-                        healthcare services and latest information to improve and
-                        maintain health for the well-being of the community.
-                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -148,13 +142,7 @@ const Aboutus = () => {
                     </div>
                     <div className="vismispara">
                       <p>
-                        To unrelentingly pursue the creation of value for our
-                        customers, shareholders, employees and society at large.
-                      </p>
-                      <p>
-                        To foster a therapeutic relationship based on compassion
-                        that is felt, quality that is measurable and cost that is
-                        affordable.
+                       Compassionate Quality Healthcare
                       </p>
                     </div>
                   </div>
