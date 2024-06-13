@@ -788,6 +788,319 @@ const Virtualtour = () => {
                       </div>
                     </div>
                   </div>
+
+
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mrs. Dnyaneshwar Thakare expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care her husband received during an emergency. Our neuro specialists provided expert treatment for his brain stroke. She appreciates the warm and supportive staff and is happy to report he is now recovering.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mr. Dnyaneshwar Thakare</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Ram Manik Jadhav expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care he received. Under Dr. (Major) Kumar Raushan&apos;s guidance, his gastric issue, including a major small intestine problem, was successfully treated with surgery. He appreciates the warm and supportive service from the hospital staff throughout his stay.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mr. Ram Manik Jadhav</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Prashad Save expresses heartfelt gratitude to Aditya Birla Memorial Hospital. After experiencing a spinal cord injury and undergoing surgery by Dr. Rakesh Ranjan, he was able to embark on a journey from immobility to regained movement. Mr. Save extends his thanks to the supportive staff who guided him every step of the way through his treatment.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mr. Prashad Save </h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Sanjivani Shirke expresses gratitude to Aditya Birla Memorial Hospital for exceptional care during her dental treatment. Under Dr. Nikhil Dayama&apos;s expertise, she experienced a pain-free crown fitting process. She appreciates the supportive staff throughout her treatment journey.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Sanjivani Shirke</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mrs. Pranjanpee&apos;s family is immensely grateful to Aditya Birla Memorial Hospital, especially Dr. Vidita Pawale, for the exceptional care during her treatment. They celebrate Mrs. Pranjanpee&apos;s discharge, healthy and happy, thanking the excellent treatment received and expressing appreciation for the outstanding care provided throughout her recovery journey.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mrs. Priti Pranjanpee</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Sandeep thanks Aditya Birla Memorial Hospital for exceptional care during his appendicitis treatment. Guided by Dr. Shitij Kakade, he underwent smooth surgery, following medical advice. Sandeep praises Dr. Kakade&apos;s expertise, feeling remarkably normal post-surgery.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Sandeep Kabse</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Harsh Kachhap is grateful to Aditya Birla Memorial Hospital for assisting in his recovery from severe injuries to his jaw and face following an accident. Dr. Vikram Wagh and the hospital staff provided excellent care during his treatment. Mr. Harsh deeply appreciates all the help and support he received during his stay.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mr. Harsh Kachhap</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Shahajirao Mane is deeply grateful to Aditya Birla Memorial Hospital. After enduring Psoriasis for over a decade and trying numerous treatments, Dr. Snehal Pardeshi&apos;s expertise brought him relief in just two months. The dedicated team&apos;s unwavering support renewed his hope and confidence.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mr. Shahajirao Mane</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
                 </div>
 
                 <button
@@ -1045,6 +1358,187 @@ const Virtualtour = () => {
                       </div>
                     </div>
                   </div>
+
+
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mrs. Dnyaneshwar Thakare expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care her husband received during an emergency. Our neuro specialists provided expert treatment for his brain stroke. She appreciates the warm and supportive staff and is happy to report he is now recovering.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mr. Dnyaneshwar Thakare</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Ram Manik Jadhav expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care he received. Under Dr. (Major) Kumar Raushan&apos;s guidance, his gastric issue, including a major small intestine problem, was successfully treated with surgery. He appreciates the warm and supportive service from the hospital staff throughout his stay.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mr. Ram Manik Jadhav</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Prashad Save expresses heartfelt gratitude to Aditya Birla Memorial Hospital. After experiencing a spinal cord injury and undergoing surgery by Dr. Rakesh Ranjan, he was able to embark on a journey from immobility to regained movement. Mr. Save extends his thanks to the supportive staff who guided him every step of the way through his treatment.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mr. Prashad Save</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Sanjivani Shirke expresses gratitude to Aditya Birla Memorial Hospital for exceptional care during her dental treatment. Under Dr. Nikhil Dayama&apos;s expertise, she experienced a pain-free crown fitting process. She appreciates the supportive staff throughout her treatment journey.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Sanjivani Shirke</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mrs. Pranjanpee&apos;s family is immensely grateful to Aditya Birla Memorial Hospital, especially Dr. Vidita Pawale, for the exceptional care during her treatment. They celebrate Mrs. Pranjanpee&apos;s discharge, healthy and happy, thanking the excellent treatment received and expressing appreciation for the outstanding care provided throughout her recovery journey.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mrs. Priti Pranjanpee</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Sandeep thanks Aditya Birla Memorial Hospital for exceptional care during his appendicitis treatment. Guided by Dr. Shitij Kakade, he underwent smooth surgery, following medical advice. Sandeep praises Dr. Kakade&apos;s expertise, feeling remarkably normal post-surgery.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Sandeep Kabse</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Harsh Kachhap is grateful to Aditya Birla Memorial Hospital for assisting in his recovery from severe injuries to his jaw and face following an accident. Dr. Vikram Wagh and the hospital staff provided excellent care during his treatment. Mr. Harsh deeply appreciates all the help and support he received during his stay.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mr. Harsh Kachhap</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Shahajirao Mane is deeply grateful to Aditya Birla Memorial Hospital. After enduring Psoriasis for over a decade and trying numerous treatments, Dr. Snehal Pardeshi&apos;s expertise brought him relief in just two months. The dedicated team&apos;s unwavering support renewed his hope and confidence.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mr. Shahajirao Mane</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+
                 </div>
 
                 <button

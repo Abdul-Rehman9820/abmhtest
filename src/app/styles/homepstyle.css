@@ -1339,6 +1339,88 @@ span.speciconn img {
 
 /* youtube ifram 2-   */
 
+/* youtube ifram 3-   */
+.popup3 {
+    position: fixed;
+    top: 0;
+    min-height: auto;
+    width: auto;
+    z-index: 1002;
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+
+.test3_3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+    height: 80%
+}
+
+.imgcerl3 {
+    width: 80px;
+    height: 80px;
+    background: rgb(0 0 0 / 51%);
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* youtube ifram 3-   */
+
+/* youtube ifram 4-   */
+.popup4 {
+    position: fixed;
+    top: 0;
+    min-height: auto;
+    width: auto;
+    z-index: 1002;
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+
+.test3_4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+    height: 80%
+}
+
+.imgcerl4 {
+    width: 80px;
+    height: 80px;
+    background: rgb(0 0 0 / 51%);
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* youtube ifram 4-   */
+
 
 #carouselExampleIndicators1 .carousel-control-next-icon {
     background-image: unset;
@@ -1891,11 +1973,29 @@ span.speciconn img {
         height: 40px;
     }
 
+    .imgcerl3 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .imgcerl4 {
+        width: 40px;
+        height: 40px;
+    }
+
     .test3_1 {
         height: 50%;
     }
 
     .test3_2 {
+        height: 50%;
+    }
+
+    .test3_3 {
+        height: 50%;
+    }
+
+    .test3_4 {
         height: 50%;
     }
 
@@ -1922,6 +2022,16 @@ span.speciconn img {
     }
 
     .imgcerl2 {
+        top: 45%;
+        left: 45%;
+    }
+
+    .imgcerl3 {
+        top: 45%;
+        left: 45%;
+    }
+
+    .imgcerl4 {
         top: 45%;
         left: 45%;
     }

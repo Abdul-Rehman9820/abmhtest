@@ -42,6 +42,36 @@ export default function Home() {
         $("#player2").attr("src", video);
       });
     });
+
+    $(document).ready(function () {
+      // Your code here
+      $("#showPopup3").click(function (e) {
+        e.stopPropagation();
+        $(".popup3").toggle();
+      });
+
+      $("body").click(function () {
+        $(".popup3").hide();
+        var video = $("#player3").attr("src");
+        $("#player3").attr("src", "");
+        $("#player3").attr("src", video);
+      });
+    });
+
+    $(document).ready(function () {
+      // Your code here
+      $("#showPopup4").click(function (e) {
+        e.stopPropagation();
+        $(".popup4").toggle();
+      });
+
+      $("body").click(function () {
+        $(".popup4").hide();
+        var video = $("#player4").attr("src");
+        $("#player4").attr("src", "");
+        $("#player4").attr("src", video);
+      });
+    });
   }, []);
 
   return (
@@ -1061,7 +1091,7 @@ export default function Home() {
         <iframe
           id="player"
           className="test3_1"
-          src="https://www.youtube.com/embed/OrK0pCtQxoQ"
+          src="https://www.youtube.com/embed/DZlY8H_Agb8"
           frameBorder="0"
           allowFullScreen
         ></iframe>
@@ -1073,12 +1103,36 @@ export default function Home() {
         <iframe
           id="player2"
           className="test3_2"
-          src="https://www.youtube.com/embed/AnvRAoqAS2o"
+          src="https://www.youtube.com/embed/GiYtunB2A18"
           frameBorder="0"
           allowFullScreen
         ></iframe>
       </div>
       {/* <!-- youtube ifram 2--> */}
+
+      {/* <!-- youtube ifram 3--> */}
+      <div className="popup3">
+        <iframe
+          id="player3"
+          className="test3_3"
+          src="https://www.youtube.com/embed/11Ex_R00VUg"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
+      {/* <!-- youtube ifram 3--> */}
+
+      {/* <!-- youtube ifram 4--> */}
+      <div className="popup4">
+        <iframe
+          id="player4"
+          className="test3_4"
+          src="https://www.youtube.com/embed/OrK0pCtQxoQ"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
+      {/* <!-- youtube ifram 4--> */}
 
       {/* our work*/}
       <div className="parentcontainerwhi">
@@ -1119,24 +1173,158 @@ export default function Home() {
                     data-bs-slide-to={1}
                     aria-label="Slide 2"
                   />
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators1"
+                    data-bs-slide-to={2}
+                    aria-label="Slide 3"
+                  />
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators1"
+                    data-bs-slide-to={3}
+                    aria-label="Slide 4"
+                  />
                 </div>
 
                 <div className="carousel-inner">
-                  <div className="carousel-item active">
+
+
+
+                <div className="carousel-item active">
                     <div className="testislid">
                       <div className="testislidChil">
                         <div className="testislidChilcol1">
                           <div className="ourworkbox1">
                             <div className="ourworkmimg">
-                              {/* <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" /> */}
+                              <Image
+                                width={700}
+                                height={400}
+                                src="/homeimg/youplayimg_RajebhauKekan.jpg"
+                                alt="img"
+                              />
+                              <div className="imgcerl1" id="showPopup1">
+                                <Image
+                                  width={50}
+                                  height={50}
+                                  className="palybtn"
+                                  src="/homeimg/play-button.png"
+                                  alt="img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="testislidChilcol2">
+                          <div className="testislidChilcol2Para">
+                          Mr. Rajebhau Kekan expresses his heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care he received during his orthopedic recovery. Under Dr. Kailash Jorule&apos;s guidance, he found the hospital to be the most suitable and trustworthy, and he deeply appreciates the warm support from the hospital staff.
+                          </div>
+                          <div className="ourworkname">
+                            <h2>Patient&apos;s Feedback</h2>
+                          </div>
+                          <div className="testispace" />
+                          <div className="ourworkspec">
+                            <h2>Mr. Rajebhau Kekan</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="testislid">
+                      <div className="testislidChil">
+                        <div className="testislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="ourworkmimg">
+                              <Image
+                                width={700}
+                                height={400}
+                                src="/homeimg/youplayimg_SiddheshwarDabre.jpg"
+                                alt="img"
+                              />
+                              <div className="imgcerl2" id="showPopup2">
+                                <Image
+                                  width={50}
+                                  height={50}
+                                  className="palybtn"
+                                  src="/homeimg/play-button.png"
+                                  alt="img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="testislidChilcol2">
+                          <div className="testislidChilcol2Para">
+                          Siddheshwar Dabre expresses his heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care given to his 1-year-old son. Thanks to Dr. Prateek Agarwal, Pediatric Gastroenterologist, and the swift initiation of treatment after his son accidentally ingested two batteries, his son recovered well. He also appreciates the warm and supportive service from the hospital staff throughout their stay.
+                          </div>
+                          <div className="ourworkname">
+                            <h2>Patient&apos;s Feedback</h2>
+                          </div>
+                          <div className="testispace" />
+                          <div className="ourworkspec">
+                            <h2>Siddheshwar Dabre</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div className="testislid">
+                      <div className="testislidChil">
+                        <div className="testislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="ourworkmimg">
+                              <Image
+                                width={700}
+                                height={400}
+                                src="/homeimg/youplayimg_PujaMishra.jpg"
+                                alt="img"
+                              />
+                              <div className="imgcerl3" id="showPopup3">
+                                <Image
+                                  width={50}
+                                  height={50}
+                                  className="palybtn"
+                                  src="/homeimg/play-button.png"
+                                  alt="img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="testislidChilcol2">
+                          <div className="testislidChilcol2Para">
+                          Mrs. Puja Mishra expresses her heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care she received during her journey from diagnosis to recovery of her ophthalmic concerns. After losing 90% of her vision, she recovered swiftly under the care of Dr. Nisha Chauhan, Ophthalmologist, and Dr. Prathamesh Teje, General Physician. She deeply appreciates the warm and supportive service from the hospital staff.
+                          </div>
+                          <div className="ourworkname">
+                            <h2>Patient&apos;s Feedback</h2>
+                          </div>
+                          <div className="testispace" />
+                          <div className="ourworkspec">
+                            <h2>Mrs. Puja Mishra</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="testislid">
+                      <div className="testislidChil">
+                        <div className="testislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="ourworkmimg">
                               <Image
                                 width={700}
                                 height={400}
                                 src="/homeimg/youplayimg_AparnaPathak.jpg"
                                 alt="img"
                               />
-                              <div className="imgcerl1" id="showPopup1">
-                                {" "}
+                              <div className="imgcerl4" id="showPopup4">
                                 <Image
                                   width={50}
                                   height={50}
@@ -1170,52 +1358,10 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="carousel-item">
-                    <div className="testislid">
-                      <div className="testislidChil">
-                        <div className="testislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="ourworkmimg">
-                              {/* <Image width={700} height={400} src="/homeimg/youplayimg.png" alt="img" /> */}
-                              <Image
-                                width={700}
-                                height={400}
-                                src="/homeimg/youplayimg_SantajiNagtilak.jpg"
-                                alt="img"
-                              />
-                              <div className="imgcerl2" id="showPopup2">
-                                <Image
-                                  width={50}
-                                  height={50}
-                                  className="palybtn"
-                                  src="/homeimg/play-button.png"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="testislidChilcol2">
-                          <div className="testislidChilcol2Para">
-                            Mr. Santaji Nagtilak expresses heartfelt gratitude
-                            to Aditya Birla Memorial Hospital for the
-                            exceptional care he received during his heart
-                            blockage treatment. He underwent successful surgery
-                            and received comprehensive support throughout his
-                            recovery. He deeply appreciates the warm and
-                            supportive service from the hospital staff.
-                          </div>
-                          <div className="ourworkname">
-                            <h2>Patient&apos;s Feedback</h2>
-                          </div>
-                          <div className="testispace" />
-                          <div className="ourworkspec">
-                            <h2>Mr. Santaji Nagtilak</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
+
+
+
                 </div>
                 <button
                   className="carousel-control-prev"
