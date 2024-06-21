@@ -59,7 +59,7 @@ const WellnessPack = () => {
                     <h2>
                       Well Woman Check-up
                     </h2>
-                    <div className='welpacprice'><span className='crospric' ><del>₹ 6600</del></span>  ₹ 1999</div>
+                    <div className='welpacprice'>₹ 6600</div>
                   </div>
                   <div className="lablebox2">
                     <div className="lablestyle">
@@ -224,7 +224,7 @@ const WellnessPack = () => {
                       </div>
 
                       <div className="modal-footer d-flex flex-wrap justify-content-between">
-                        <button type="button" className="welpopleftprice"><del>₹ 6600</del>  ₹ 1999</button>
+                        <button type="button" className="welpopleftprice"> ₹ 6600</button>
                         {/* <button type="button" className="mybookpopupbtn"><Link href="/wellness-packages-book">Book Now</Link></button> */}
                       </div>
 
