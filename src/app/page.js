@@ -155,37 +155,12 @@ export default function Home() {
                 data-bs-slide-to={6}
                 aria-label="Slide 7"
               />
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to={7}
-                aria-label="Slide 8"
-              />
+
             </div>
 
             <div className="carousel-inner">
+
               <div className="carousel-item active">
-                <div className="mynewslides">
-                  <Link href="/wellness-packages">
-                    <Image
-                      width={1700}
-                      height={400}
-                      className="deckstophead"
-                      src="/homeimg/W-Yoga-Web-banner.jpg"
-                      alt="slide"
-                    />
-                    <Image
-                      width={400}
-                      height={400}
-                      className="mobilehead"
-                      src="/homeimg/M-Yoga-Mob-banner.jpg"
-                      alt="slide"
-                    />
-                    <h2 className="forSEOslide"></h2>
-                  </Link>
-                </div>
-              </div>
-              <div className="carousel-item">
                 <div className="mynewslides">
                   <Link href="/wellness-packages">
                     <Image
