@@ -871,7 +871,7 @@ export default function Home() {
                               <h2>Dr. Rajiv Bundashah Sethi</h2>
                             </div>
                             <div className="ourteamspec">
-                              <h2>Sr. Consultant Interventional Cardiology</h2>
+                              <h2>Senior Director</h2>
                             </div>
                             <div className="ourteamexpi">
                               {/* <h2>ABMH Doctors</h2> */}
@@ -904,7 +904,7 @@ export default function Home() {
                               <h2>Dr. Rakesh Ranjan</h2>
                             </div>
                             <div className="ourteamspec">
-                              <h2>Associate Director Neuro Surgery</h2>
+                              <h2>Senior Director</h2>
                             </div>
                             <div className="ourteamexpi">
                               {/* <h2>ABMH Doctors</h2> */}
@@ -937,7 +937,7 @@ export default function Home() {
                               <h2>Dr. Nikhil Sadanand Parwate</h2>
                             </div>
                             <div className="ourteamspec">
-                              <h2>Consultant - Gynae Onco Surgeon</h2>
+                              <h2>Associate Director</h2>
                             </div>
                             <div className="ourteamexpi">
                               {/* <h2>ABMH Doctors</h2> */}
@@ -975,7 +975,7 @@ export default function Home() {
                               <h2>Dr. Jagdish Chander Purohit</h2>
                             </div>
                             <div className="ourteamspec">
-                              <h2>Director Orthopaedics</h2>
+                              <h2>Director</h2>
                             </div>
                             <div className="ourteamexpi">
                               {/* <h2>ABMH Doctors</h2> */}
@@ -1009,7 +1009,7 @@ export default function Home() {
                             </div>
                             <div className="ourteamspec">
                               <h2>
-                                Sr. Consultant Obs & Gynecology, IVF Specialist
+                                 Associate Director
                               </h2>
                             </div>
                             <div className="ourteamexpi">
@@ -1044,7 +1044,7 @@ export default function Home() {
                             </div>
                             <div className="ourteamspec">
                               <h2>
-                                Associate Director Neonatologist & Pediatric
+                                 Associate Director
                               </h2>
                             </div>
                             <div className="ourteamexpi">
