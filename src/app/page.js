@@ -1068,7 +1068,7 @@ export default function Home() {
         <iframe
           id="player"
           className="test3_1"
-          src="https://www.youtube.com/embed/DZlY8H_Agb8"
+          src="https://www.youtube.com/embed/uLdUiFRh8fw"
           frameBorder="0"
           allowFullScreen
         ></iframe>
@@ -1080,7 +1080,7 @@ export default function Home() {
         <iframe
           id="player2"
           className="test3_2"
-          src="https://www.youtube.com/embed/GiYtunB2A18"
+          src="https://www.youtube.com/embed/RgaEz_RlvHE"
           frameBorder="0"
           allowFullScreen
         ></iframe>
@@ -1092,7 +1092,7 @@ export default function Home() {
         <iframe
           id="player3"
           className="test3_3"
-          src="https://www.youtube.com/embed/11Ex_R00VUg"
+          src="https://www.youtube.com/embed/DZlY8H_Agb8"
           frameBorder="0"
           allowFullScreen
         ></iframe>
@@ -1104,7 +1104,7 @@ export default function Home() {
         <iframe
           id="player4"
           className="test3_4"
-          src="https://www.youtube.com/embed/OrK0pCtQxoQ"
+          src="https://www.youtube.com/embed/GiYtunB2A18"
           frameBorder="0"
           allowFullScreen
         ></iframe>
@@ -1177,7 +1177,7 @@ export default function Home() {
                               <Image
                                 width={700}
                                 height={400}
-                                src="/homeimg/youplayimg_RajebhauKekan.jpg"
+                                src="/homeimg/youplayimg_SachinChavan.jpg"
                                 alt="img"
                               />
                               <div className="imgcerl1" id="showPopup1">
@@ -1194,14 +1194,95 @@ export default function Home() {
                         </div>
                         <div className="testislidChilcol2">
                           <div className="testislidChilcol2Para">
-                          Mr. Rajebhau Kekan expresses his heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care he received during his orthopedic recovery. Under Dr. Kailash Jorule&apos;s guidance, he found the hospital to be the most suitable and trustworthy, and he deeply appreciates the warm support from the hospital staff.
+                          Mr. Sachin Chavan extends his heartfelt gratitude to Aditya Birla Memorial Hospital and Dr. Manish Mali for their exceptional care in managing his dialysis treatment over the past eight years. He says the hospital staff has ensured he remains free of infections and receives the highest standard of care. He deeply appreciates the warm and supportive service from the hospital staff.
                           </div>
                           <div className="ourworkname">
                             <h2>Patient&apos;s Feedback</h2>
                           </div>
                           <div className="testispace" />
                           <div className="ourworkspec">
-                            <h2>Mr. Rajebhau Kekan</h2>
+                            <h2>Mr. Sachin Chavan</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="testislid">
+                      <div className="testislidChil">
+                        <div className="testislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="ourworkmimg">
+                              <Image
+                                width={700}
+                                height={400}
+                                src="/homeimg/youplayimg_SauravSawant.jpg"
+                                alt="img"
+                              />
+                              <div className="imgcerl2" id="showPopup2">
+                                <Image
+                                  width={50}
+                                  height={50}
+                                  className="palybtn"
+                                  src="/homeimg/play-button.png"
+                                  alt="img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="testislidChilcol2">
+                          <div className="testislidChilcol2Para">
+                          U/O.Mstr. Saurav Sawant extends heartfelt gratitude to Aditya Birla Memorial Hospital for the outstanding care he received for his lip condition. The expert team performed surgery and provided exceptional care. He sincerely appreciates the warm and supportive service from the doctors and staff, and thanks them for their help and care for the baby.
+                          </div>
+                          <div className="ourworkname">
+                            <h2>Patient&apos;s Feedback</h2>
+                          </div>
+                          <div className="testispace" />
+                          <div className="ourworkspec">
+                            <h2>Saurav Sawant</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div className="testislid">
+                      <div className="testislidChil">
+                        <div className="testislidChilcol1">
+                          <div className="ourworkbox1">
+                            <div className="ourworkmimg">
+                              <Image
+                                width={700}
+                                height={400}
+                                src="/homeimg/youplayimg_RajebhauKekan.jpg"
+                                alt="img"
+                              />
+                              <div className="imgcerl3" id="showPopup3">
+                                <Image
+                                  width={50}
+                                  height={50}
+                                  className="palybtn"
+                                  src="/homeimg/play-button.png"
+                                  alt="img"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="testislidChilcol2">
+                          <div className="testislidChilcol2Para">
+                          Mr. Rajebhau Kekan expresses his heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care he received during his orthopedic recovery. Under Dr. Kailash Jorule&apos;s guidance, he found the hospital to be the most suitable and trustworthy, and he deeply appreciates the warm support from the hospital staff.
+                          </div>
+                          <div className="ourworkname">
+                            <h2>Patient&apos;s Feedback </h2>
+                          </div>
+                          <div className="testispace" />
+                          <div className="ourworkspec">
+                            <h2>Mr. Rajebhau Kekan </h2>
                           </div>
                         </div>
                       </div>
@@ -1220,7 +1301,7 @@ export default function Home() {
                                 src="/homeimg/youplayimg_SiddheshwarDabre.jpg"
                                 alt="img"
                               />
-                              <div className="imgcerl2" id="showPopup2">
+                              <div className="imgcerl4" id="showPopup4">
                                 <Image
                                   width={50}
                                   height={50}
@@ -1242,93 +1323,6 @@ export default function Home() {
                           <div className="testispace" />
                           <div className="ourworkspec">
                             <h2>Siddheshwar Dabre</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div className="carousel-item">
-                    <div className="testislid">
-                      <div className="testislidChil">
-                        <div className="testislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="ourworkmimg">
-                              <Image
-                                width={700}
-                                height={400}
-                                src="/homeimg/youplayimg_PujaMishra.jpg"
-                                alt="img"
-                              />
-                              <div className="imgcerl3" id="showPopup3">
-                                <Image
-                                  width={50}
-                                  height={50}
-                                  className="palybtn"
-                                  src="/homeimg/play-button.png"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="testislidChilcol2">
-                          <div className="testislidChilcol2Para">
-                          Mrs. Puja Mishra expresses her heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care she received during her journey from diagnosis to recovery of her ophthalmic concerns. After losing 90% of her vision, she recovered swiftly under the care of Dr. Nisha Chauhan, Ophthalmologist, and Dr. Prathamesh Teje, General Physician. She deeply appreciates the warm and supportive service from the hospital staff.
-                          </div>
-                          <div className="ourworkname">
-                            <h2>Patient&apos;s Feedback</h2>
-                          </div>
-                          <div className="testispace" />
-                          <div className="ourworkspec">
-                            <h2>Mrs. Puja Mishra</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="testislid">
-                      <div className="testislidChil">
-                        <div className="testislidChilcol1">
-                          <div className="ourworkbox1">
-                            <div className="ourworkmimg">
-                              <Image
-                                width={700}
-                                height={400}
-                                src="/homeimg/youplayimg_AparnaPathak.jpg"
-                                alt="img"
-                              />
-                              <div className="imgcerl4" id="showPopup4">
-                                <Image
-                                  width={50}
-                                  height={50}
-                                  className="palybtn"
-                                  src="/homeimg/play-button.png"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="testislidChilcol2">
-                          <div className="testislidChilcol2Para">
-                            Mr. Pathak expresses heartfelt gratitude to Aditya
-                            Birla Memorial Hospital for the exceptional care his
-                            wife, Mrs. Aparna Pathak, received after her
-                            fracture. She underwent successful surgery and
-                            recovered very quickly. Mr. Pathak deeply
-                            appreciates the warm and supportive service from Dr.
-                            Kaylash Jarule and his team.
-                          </div>
-                          <div className="ourworkname">
-                            <h2>Patient&apos;s Feedback</h2>
-                          </div>
-                          <div className="testispace" />
-                          <div className="ourworkspec">
-                            <h2>Mrs. Aparna Pathak</h2>
                           </div>
                         </div>
                       </div>
