@@ -426,7 +426,164 @@ const Virtualtour = () => {
                 data-bs-ride="carousel"
               >
                 <div className="carousel-inner">
-                  <div className="carousel-item active">
+
+
+                <div className="carousel-item active">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Sanjay Raut extends his heartfelt gratitude to Aditya Birla Memorial Hospital and Dr. Avinash Mundhe for their exceptional care in treating him for toxins. He appreciates the prompt response from Dr. Mundhe and the team, which helped him recover quickly. He deeply appreciates the warm and supportive service from the hospital staff.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mr. Sanjay Raut</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mr. Raju Matane expresses profound gratitude to Aditya Birla Memorial Hospital for saving his wife&apos;s life. After suffering from severe, debilitating headaches for a year, Dr. Rakesh Ranjan diagnosed her condition and successfully performed surgery that relieved her pain. She, along with her husband and family, is immensely relieved and grateful to the hospital.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mrs. Lalita Raju Matane</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                <div className="carousel-item ">
+                    <div className="testinewflex">
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Baby Veer Raskar extends sincere thanks to Aditya Birla Memorial Hospital for their invaluable help with his baby&apos;s cleft lip surgery. Under the skilled guidance of Dr. Sagar Jangam, the surgery was successful while the hospital provided excellent care and facilities, resolving the issue for the baby.
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Veer Raskar</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="myovefts">
+                        <div className="whychochinewlbo">
+                          <div className="whychoslideboxts">
+                            <div className="whychobox1ts">
+                              <div className="whychospects">
+                                <h2>
+                                Mrs. Sarala Lahoty expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care received during her gastroenterology treatment. Under the guidance of Dr. Kumar Raushan, she underwent successful surgery and received comprehensive support throughout her recovery. She deeply appreciates the warm and supportive service from the hospital staf
+                                </h2>
+                              </div>
+                            </div>
+                            <div className="whychoimgbox2ts">
+                              <div className="whychoimgbox2col1ts">
+                                <div className="whychoimgts">
+                                  <Image
+                                    width={400}
+                                    height={400}
+                                    src="/virtualtour/innertesti.png"
+                                    alt="img"
+                                  />
+                                </div>
+                              </div>
+                              <div className="whychoimgbox2col2ts">
+                                <div className="whychonamejustyts">
+                                  <div className="whychonamets">
+                                    <h2>Mrs. Sarala Lahoty</h2>
+                                  </div>
+                                  <div className="whychonameforts">
+                                    <h2></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div className="carousel-item">
                     <div className="testinewflex">
                       <div className="myovefts">
                         <div className="whychochinewlbo">
@@ -1130,6 +1287,10 @@ const Virtualtour = () => {
               </div>
             </div>
 
+
+
+           {/* mob testi */}
+
             <div className="newmobiletist-cont mobilehead">
               <div
                 id="carouselExampleIndicatornewtisti"
@@ -1137,7 +1298,101 @@ const Virtualtour = () => {
                 data-bs-ride="carousel"
               >
                 <div className="carousel-inner">
+
+
                   <div className="carousel-item active">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Sanjay Raut extends his heartfelt gratitude to Aditya Birla Memorial Hospital and Dr. Avinash Mundhe for their exceptional care in treating him for toxins. He appreciates the prompt response from Dr. Mundhe and the team, which helped him recover quickly. He deeply appreciates the warm and supportive service from the hospital staff.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mr. Sanjay Raut</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mr. Raju Matane expresses profound gratitude to Aditya Birla Memorial Hospital for saving his wife&apos;s life. After suffering from severe, debilitating headaches for a year, Dr. Rakesh Ranjan diagnosed her condition and successfully performed surgery that relieved her pain. She, along with her husband and family, is immensely relieved and grateful to the hospital.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mrs. Lalita Raju Matane</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Baby Veer Raskar extends sincere thanks to Aditya Birla Memorial Hospital for their invaluable help with his baby&apos;s cleft lip surgery. Under the skilled guidance of Dr. Sagar Jangam, the surgery was successful while the hospital provided excellent care and facilities, resolving the issue for the baby.
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Veer Raskar</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
+                    <div>
+                      <div className="newtesti-Para">
+                      Mrs. Sarala Lahoty expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional care received during her gastroenterology treatment. Under the guidance of Dr. Kumar Raushan, she underwent successful surgery and received comprehensive support throughout her recovery. She deeply appreciates the warm and supportive service from the hospital staf
+                      </div>
+                      <div className="newtesti-Parawhychoimgts">
+                        <Image
+                          width={400}
+                          height={400}
+                          src="/virtualtour/innertesti.png"
+                          alt="img"
+                        />
+                      </div>
+                      <div>
+                        <h2 className="newtesti-name">Mrs. Sarala Lahoty</h2>
+                      </div>
+                      <div>
+                        <h2 className="newtesti-cont"></h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="carousel-item">
                     <div>
                       <div className="newtesti-Para">
                         Mrs. Sushila Sawant expresses heartfelt gratitude to
